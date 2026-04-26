@@ -30,7 +30,7 @@ async function automateGrokGeneration(promptText) {
     if (postIdMatch) {
       console.log("📸 [Grok Automation] Detected post URL, attempting to click targeted thumbnail...");
       const postId = postIdMatch[1];
-      const img = document.querySelector(`img[src*="${postId}"]`);
+      const img = document.querySelector(`img[src*="89dc566f-5157-4b5d-ae8f-976485aced78"]`);
       if (img) {
         img.click();
         await wait(2000); 

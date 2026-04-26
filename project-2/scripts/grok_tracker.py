@@ -17,7 +17,7 @@ def load_data():
 
 def save_data(data):
     with open(FILE_PATH, 'w') as f:
-        json.dump(data, f, indent=2)
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 def get_next():
     data = load_data()
