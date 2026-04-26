@@ -1,26 +1,47 @@
 ---
 name: Grok Video Generation Automation
-description: End-to-end automation skill for generating videos on Grok from pending prompts in a tracker.
+description: End-to-end automation skill for generating videos on Grok. Works for both project-1 and project-2 by reading project-specific config from grok_prompts_{N}.json. Requires --project <1|2> argument.
 ---
 
-### Step 1: Read the Tracker
-1. Read `grok_prompts.json`.
-2. Find the first object where `"status": "pending"`.
-3. Extract `prompt` and `instagram_caption` (if present).
+### Step 0: Identify the Project
+Determine which project to run for. The user will specify `--project 1` or `--project 2`. All commands below use this value.
 
-### Step 2: Ensure Browser Context
-- Ensure you have a browser window active on Grok https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78
-- If not already on the correct interface, navigate there using `browser_subagent`.
-### Step 3: Execute Unified Automation Script
-Inject and evaluate the following asynchronous JavaScript snippet into the active Grok tab. Pass the `prompt` string into the script.
+### Step 1: Pick the Next Pending Prompt
+Run the following command to get the next pending prompt:
+```bash
+python3 shared/grok_tracker.py --project <N> get_next
+```
+Extract the `id`, `prompt`, and `instagram_caption` from the output.
+
+### Step 2: Read Project Config (Starting URL)
+Run the following command to get the project-specific Grok starting URL:
+```bash
+python3 shared/grok_tracker.py --project <N> get_config
+```
+This returns:
+```json
+{
+  "starting_url": "https://grok.com/imagine/post/<post-id>",
+  "thumbnail_id": "<post-id>"
+}
+```
+Use `starting_url` as the navigation target in Step 2 and `thumbnail_id` in the JS automation script in Step 3.
+
+### Step 3: Ensure Browser Context
+- Ensure you have a browser window active on Grok at the `starting_url` returned above.
+- If not already on the correct interface, navigate there using the `navigate_page` tool from the browseros MCP.
+
+### Step 4: Execute Unified Automation Script
+Inject and evaluate the following asynchronous JavaScript snippet into the active Grok tab using the `evaluate_script` tool from the browseros MCP. Substitute `PROMPT_TEXT` with the `prompt` from Step 1, and `THUMBNAIL_ID` with `thumbnail_id` from Step 2.
 
 ```javascript
 /**
  * Executes the complete Grok Image-to-Video DOM automation sequence.
  * @param {string} promptText The prompt to insert into the generation box.
+ * @param {string} thumbnailId The image post ID to target for thumbnail click.
  * @returns {Promise<Object>} An object containing { success, videoUrl, postUrl, error }
  */
-async function automateGrokGeneration(promptText) {
+async function automateGrokGeneration(promptText, thumbnailId) {
   const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
   console.log("🚀 [Grok Automation] Starting sequence...");
 
@@ -30,10 +51,10 @@ async function automateGrokGeneration(promptText) {
     if (postIdMatch) {
       console.log("📸 [Grok Automation] Detected post URL, attempting to click targeted thumbnail...");
       const postId = postIdMatch[1];
-      const img = document.querySelector(`img[src*="89dc566f-5157-4b5d-ae8f-976485aced78"]`);
+      const img = document.querySelector(`img[src*="${thumbnailId}"]`);
       if (img) {
         img.click();
-        await wait(2000); 
+        await wait(2000);
       } else {
         console.warn(`⚠️ [Grok Automation] Thumbnail with ID ${postId} not found.`);
       }
@@ -54,12 +75,12 @@ async function automateGrokGeneration(promptText) {
   const editableElement = document.querySelector('[placeholder="Describe your edit, @ to reference images"]') ||
                           document.querySelector('[data-placeholder="Describe your edit, @ to reference images"]') ||
                           document.querySelector('[contenteditable="true"]');
-                          
+
   if (!editableElement) {
     console.error("❌ [Grok Automation] Prompt input box not found!");
     return { error: "Prompt input box not found. Make sure you are on a valid image edit view or chat." };
   }
-  
+
   editableElement.click();
   editableElement.focus();
   await wait(500);
@@ -73,8 +94,8 @@ async function automateGrokGeneration(promptText) {
 
   // 4. Click Submit
   console.log("▶️ [Grok Automation] Attempting to click Submit...");
-  let submitBtn = document.querySelector('button[aria-label="Edit"]') || 
-                  document.querySelector('button[aria-label="Grok"]') || 
+  let submitBtn = document.querySelector('button[aria-label="Edit"]') ||
+                  document.querySelector('button[aria-label="Grok"]') ||
                   document.querySelector('button[aria-label="Send"]');
 
   if (!submitBtn) {
@@ -90,7 +111,7 @@ async function automateGrokGeneration(promptText) {
     console.error("❌ [Grok Automation] Submit button not found!");
     return { error: "Submit button not found." };
   }
-  
+
   submitBtn.click();
   console.log("⏳ [Grok Automation] Prompt submitted. Polling for 'Make video' button...");
 
@@ -99,11 +120,11 @@ async function automateGrokGeneration(promptText) {
   for (let i = 0; i < 60; i++) { // wait up to 120s
     await wait(2000);
     const buttons = Array.from(document.querySelectorAll('button'));
-    makeVideoBtn = buttons.find(btn => 
-      btn.textContent.includes('Make video') || 
+    makeVideoBtn = buttons.find(btn =>
+      (btn.textContent && btn.textContent.includes('Make video')) ||
       btn.getAttribute('aria-label') === 'Make video'
     );
-    
+
     if (makeVideoBtn) {
       console.log("✅ [Grok Automation] 'Make video' button found!");
       break;
@@ -134,22 +155,20 @@ async function automateGrokGeneration(promptText) {
   }
 
   console.warn("⚠️ [Grok Automation] URL did not change after clicking 'Make video'. Assumed started.");
-  return { 
-    success: true, 
-    videoUrl: window.location.href, 
+  return {
+    success: true,
+    videoUrl: window.location.href,
     postUrl: postUrl,
-    warning: "URL did not change, but 'Make video' workflow concluded." 
+    warning: "URL did not change, but 'Make video' workflow concluded."
   };
 }
-// return await automateGrokGeneration(PROMPT_STRING);
+// Usage: return await automateGrokGeneration("PROMPT_TEXT", "THUMBNAIL_ID");
 ```
 
-### Step 4: Tracker Updates
+### Step 5: Update the Tracker
 Once the script successfully executes and returns `{ success: true, videoUrl: "...", postUrl: "..." }`:
-
-1. Update the pending object in `grok_prompts.json`:
-   - `"status"`: `"completed"`
-   - `"video_url"`: The returned `videoUrl`
-   - `"post_url"`: The returned `postUrl`
-   - `"executed_at"`: Current ISO string (`new Date().toISOString()`)
-2. Save the updated JSON back to disk.
+1. Run the update command using the `id` from Step 1:
+   ```bash
+   python3 shared/grok_tracker.py --project <N> complete <ID> "<VIDEO_URL>" "<POST_URL>"
+   ```
+2. Verify the script returns a success JSON.
