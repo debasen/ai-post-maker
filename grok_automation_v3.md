@@ -1,19 +1,21 @@
 ---
-name: Grok Video Generation Automation
-description: End-to-end automation skill for generating videos on Grok from pending prompts in a tracker.
+name: Grok Video Generation Automation (Python Integrated)
+description: End-to-end automation skill for generating videos on Grok from pending prompts using Python scripts for tracking.
 ---
 
-### Step 1: Read the Tracker
-1. Read `grok_prompts.json`.
-2. Find the first object where `"status": "pending"`.
-3. Extract `prompt` and `instagram_caption` (if present).
+### Step 1: Pick the Next Pending Prompt
+1. Run the following command to get the next pending prompt:
+   ```bash
+   python3 scripts/grok_tracker.py get_next
+   ```
+2. Get the `id`, `prompt`, and `instagram_caption` from the output.
 
 ### Step 2: Ensure Browser Context
-- Ensure you have a browser window active on Grok https://grok.com/imagine/post/2d750d9f-4be1-4ee5-a4be-f28552077a52
-- If not already on the correct interface, navigate there using `browser_subagent`.
+- Ensure you have a browser window active on Grok: https://grok.com/imagine/post/2d750d9f-4be1-4ee5-a4be-f28552077a52
+- If not already on the correct interface, navigate there using the `navigate_page` tool from the browseros MCP.
 
 ### Step 3: Execute Unified Automation Script
-Inject and evaluate the following asynchronous JavaScript snippet into the active Grok tab. Pass the `prompt` string into the script.
+Inject and evaluate the following asynchronous JavaScript snippet into the active Grok tab using the `evaluate_script` tool from the browseros MCP. Pass the `prompt` string into the script.
 
 ```javascript
 /**
@@ -31,10 +33,10 @@ async function automateGrokGeneration(promptText) {
     if (postIdMatch) {
       console.log("📸 [Grok Automation] Detected post URL, attempting to click targeted thumbnail...");
       const postId = postIdMatch[1];
-      const img = document.querySelector(`img[src*="${postId}"]`);
+      const img = document.querySelector(`img[src*="2d750d9f-4be1-4ee5-a4be-f28552077a52"]`);
       if (img) {
         img.click();
-        await wait(2000); 
+      await wait(2000); 
       } else {
         console.warn(`⚠️ [Grok Automation] Thumbnail with ID ${postId} not found.`);
       }
@@ -101,7 +103,7 @@ async function automateGrokGeneration(promptText) {
     await wait(2000);
     const buttons = Array.from(document.querySelectorAll('button'));
     makeVideoBtn = buttons.find(btn => 
-      btn.textContent.includes('Make video') || 
+      (btn.textContent && btn.textContent.includes('Make video')) || 
       btn.getAttribute('aria-label') === 'Make video'
     );
     
@@ -142,15 +144,13 @@ async function automateGrokGeneration(promptText) {
     warning: "URL did not change, but 'Make video' workflow concluded." 
   };
 }
-// return await automateGrokGeneration(PROMPT_STRING);
+// Usage: return await automateGrokGeneration("PROMPT_TEXT_HERE");
 ```
 
-### Step 4: Tracker Updates
+### Step 4: Update the Tracker
 Once the script successfully executes and returns `{ success: true, videoUrl: "...", postUrl: "..." }`:
-
-1. Update the pending object in `grok_prompts.json`:
-   - `"status"`: `"completed"`
-   - `"video_url"`: The returned `videoUrl`
-   - `"post_url"`: The returned `postUrl`
-   - `"executed_at"`: Current ISO string (`new Date().toISOString()`)
-2. Save the updated JSON back to disk.
+1. Run the update command using the `id` from Step 1:
+   ```bash
+   python3 scripts/grok_tracker.py complete <ID> "<VIDEO_URL>" "<POST_URL>"
+   ```
+2. Verify the script returns a success JSON.
