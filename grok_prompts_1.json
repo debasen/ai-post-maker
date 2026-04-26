@@ -68,7 +68,7 @@
     },
     {
       "id": 8,
-      "prompt": "Imagine the exact model with slight curvy body in a leaning against a vintage jukebox inside a 1950s diner. Wearing a retro red polka-dot skater dress that falls above the knee. Smiling mischievously at the camera while holding a milkshake. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model with slight curvy body in a leaning against a vintage jukebox inside a 1950s diner. Wearing a retro retro red polka-dot skater dress that falls above the knee. Smiling mischievously at the camera while holding a milkshake. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/d62a12e4-be1f-45f6-b49e-ba0e0e6615b3",
       "instagram_caption": "Serving up 1950s diner vibes with a side of mischief! 🍒🥤 Who wants a milkshake? #retrostyle #1950sfashion #dinerstyle #vintagevibes #polkadots #milkshake #jukebox #nostalgia",
@@ -348,56 +348,58 @@
     {
       "id": 39,
       "prompt": "Imagine the exact model with slight curvy body in a standing proudly on a skyscraper rooftop helipad. Wearing an avant-garde leather asymmetrical mini dress. Wind blowing her hair wildly, strong cinematic pose. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/2e229203-5d12-42a1-ad34-687b56a9c832",
       "instagram_caption": "On top of the world. 🚁🏙️ Catching the wind on the rooftop helipad! #helipad #rooftopview #cityskyline #avantgardefashion #windblown #skyscraper #fearless",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/356ec90e-0b1b-446b-b25c-750f3ac90abe",
+      "executed_at": "2026-04-26T18:23:08.580790"
     },
     {
       "id": 40,
       "prompt": "Imagine the exact model with slight curvy body in a sitting on a drift wood log in a quiet, misty beach cove. Wearing a chunky knit oversized sweater as a mini dress. Hugging her knees gracefully and looking thoughtful. Medium shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/4ef0b5aa-53b6-43f1-9cd1-2ddfecc7fbf7",
       "instagram_caption": "Thoughtful moments by the misty beach cove. 🌫️🌊 The sound of the waves is everything. #beachcove #mistyphotography #thoughtful #oceanside #knitfashion #serenity #naturephotography",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/10319ae9-5398-4148-b7b2-8a8d7f8dfaa6",
+      "executed_at": "2026-04-26T18:34:24.287521"
     },
     {
       "id": 41,
       "prompt": "Imagine the exact model with slight curvy body in a watching a movie at an outdoor summer cinema on the grass. Wearing comfortable white athletic shorts and a vintage varsity jacket. Laughing brightly at the screen. Medium close-up, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/fe53f470-536c-4071-b41b-601f666cdcc0",
       "instagram_caption": "Nothing like an outdoor movie night under the stars. 🍿🎬 Good films and great vibes. #outdoormovie #summercinema #movienight #varsitystyle #starlitnight #laughing #lifestyle",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/a6175684-c9fc-4b4f-9bfd-a7c0b2f19d4a",
+      "executed_at": "2026-04-26T18:45:18.658326"
     },
     {
       "id": 42,
       "prompt": "Imagine the exact model with slight curvy body in a walking between rows of lush green grapevines in a vineyard. Wearing a sophisticated burgundy silk mini wrap skirt. Holding a woven basket, serene ambiance. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "video_prompt": "The camera slowly follows the model from a low angle as she walks gracefully through the lush green grapevines, golden sunlight filtering through the leaves, her silk skirt gently swaying in the breeze.",
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/976633cc-954e-490e-ac64-534fe6a551e0",
       "instagram_caption": "Strolling through the serene rows of the vineyard. 🍇🍷 Harvest season is coming. #vineyard #winecountry #harvestseason #naturebeauty #burgundyfashion #serene #countrylife",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/b9621737-68ed-4756-a91a-77e81a36c0e2",
+      "executed_at": "2026-04-26T19:05:51.293266"
     },
     {
       "id": 43,
       "prompt": "Imagine the exact model with slight curvy body in a waiting stylishly in a grand hotel lobby with marble floors. Wearing a sharply tailored black blazer mini dress. Looking elegant while checking her phone. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/b6dec19b-f6e5-4d48-872c-605fa9abacb3",
       "instagram_caption": "Waiting in style in this stunning, elegant hotel lobby. 🏨✨ First impressions are everything. #hotellobby #luxurystyle #elegance #blazerdress #travelstyle #sophisticated #interiordesign",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/3ee650e5-f35c-4b93-b273-26630cb794a6",
+      "executed_at": "2026-04-26T19:08:08.264745"
     },
     {
       "id": 44,
       "prompt": "Imagine the exact model with slight curvy body in a playing an edge-of-seat game on a neon-drenched urban basketball court. Wearing bright orange athletic mesh shorts. Mid-dribble, fierce and focused expression. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "video_prompt": "The camera circles the model at a low angle as she skillfully dribbles the basketball on the neon-drenched court, the vibrant orange of her shorts popping against the dark, glowing urban backdrop, her expression remains intensely focused as cinematic steam rises from the pavement.",
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/a2d03bd3-22e5-4dc6-9bbd-e70cc579103f",
       "instagram_caption": "Fierce focus and fast breaks on the urban court! 🏀🔥 Game on. #basketballcourt #urbanstyle #athleticperformance #fierce #gameon #streetstyle #neonlights",
       "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575",
-      "executed_at": null
+      "executed_at": "2026-04-26T19:13:40.387729"
     },
     {
       "id": 45,
