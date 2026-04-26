@@ -72,8 +72,8 @@ async function automateGrokGeneration(promptText, thumbnailId) {
 
   // 2. Select the editable paragraph
   console.log("📝 [Grok Automation] Locating prompt input box...");
-  const editableElement = document.querySelector('[placeholder="Describe your edit, @ to reference images"]') ||
-                          document.querySelector('[data-placeholder="Describe your edit, @ to reference images"]') ||
+  const editableElement = document.querySelector('[placeholder="Type to imagine, @ to reference images"]') ||
+                          document.querySelector('[data-placeholder="Type to imagine, @ to reference images"]') ||
                           document.querySelector('[contenteditable="true"]');
 
   if (!editableElement) {

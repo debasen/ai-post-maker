@@ -1,6 +1,7 @@
 {
   "config": {
-    "thumbnail_id": "89dc566f-5157-4b5d-ae8f-976485aced78"
+    "thumbnail_id": "89dc566f-5157-4b5d-ae8f-976485aced78",
+    "video_type": "spicy"
   },
   "prompts": [
     {
@@ -221,17 +222,19 @@
     },
     {
       "id": 25,
-      "prompt": "Imagine the exact model in a edge of a cliff overlooking the ocean. Wearing a wild animal print bikini. Confident stance with hands in hair. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "prompt": "Imagine the exact model standing at the edge of a cliff overlooking the ocean. Wearing a wild animal print bikini with a matching sheer wrap skirt tied loosely at the waist. Looking back over her shoulder at the camera with a confident expression. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She reaches down and unties the sheer wrap skirt, letting it catch the wind and drift off the cliff edge. The camera zooms on her back and waist.",
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/8bd6deec-9960-4022-978a-bfca4c7de4ef",
       "instagram_caption": "Where the earth meets the fearless. 🌊 #clifftop #oceanview #animalprintbikini #wildandfree #cliffjumper #naturequeen #oceanedge #boldlook #confidentmodel #cliffside",
       "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "executed_at": "2026-04-26T22:14:59.134005"
     },
     {
       "id": 26,
-      "prompt": "Imagine the exact model in a ocean shore stepping out of the water like a Bond girl. Wearing a dripping wet white bikini. Fierce and unstoppable walk. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
+      "prompt": "Imagine the exact model standing waist-deep in the ocean shore, still partially submerged. Wearing a dripping wet white bikini. Body poised, arms slightly out, gazing toward the shore. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She walks out of the water in slow motion. The camera stays low at water level, focusing on her legs and waist as water drips down.",
+      "status": "completed",
       "video_url": null,
       "instagram_caption": "Walking out of the ocean like a legend. 💧 #bondgirl #wetbikini #oceanwalk #whitebikini #fiercemodel #emergingfromwater #beachicon #unstoppable #drippingwet #goddessmodel",
       "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
@@ -239,43 +242,47 @@
     },
     {
       "id": 27,
-      "prompt": "Imagine the exact model in a luxurious marble bathtub filled with bubbles. Wearing a black strappy bikini. Blowing a bubble with a playful smile. Medium close-up, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "prompt": "Imagine the exact model sitting upright in a luxurious marble bathtub filled with white foam bubbles. Wearing a black strappy bikini. Arms resting on the edge of the tub, playful smile. Medium close-up, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She sinks deeper into the bubbles as the foam rises to her chest. The camera lowers to water level, focusing on the waterline against her skin.",
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dfd3458a-d5a1-47c4-af26-25fc5bf2904f",
       "instagram_caption": "Bathtime upgrade: marble edition. 🛁 #marblebathtub #luxurybath #bubblebath #blackbikini #bathroomgoals #playfulmodel #bubblegirl #luxurylife #spavibe #royalbath",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/952e128e-8aa6-4a85-990a-5a48a4958146",
+      "executed_at": "2026-04-26T21:58:32.871231"
     },
     {
       "id": 28,
-      "prompt": "Imagine the exact model in a private cabana with sheer curtains blowing. Wearing a gold metallic micro bikini. Leaning against a pillar, sultry gaze. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "prompt": "Imagine the exact model standing inside a private cabana, partially hidden behind a sheer white curtain. Wearing a gold metallic micro bikini. One hand holds the curtain edge, body half-revealed, sultry gaze directed at the viewer. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "A breeze blows the curtains open. The camera zooms in on her hips and legs as the fabric brushes against her skin.",
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/b95b537a-ecc7-4cbd-bddc-76803c10a24a",
       "instagram_caption": "Sheer curtains, golden moments. ✨ #privatecabana #goldenbikini #sheerdrapes #sultrymodel #luxurycabana #beachprivacy #goldenlook #cabanagoals #exoticluxury #richvibes",
       "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "executed_at": "2026-04-26T22:24:18.211767"
     },
     {
       "id": 29,
-      "prompt": "Imagine the exact model in a glowing neon phone booth on a rainy night. Wearing a sheer raincoat over a red bikini. Looking out through the rain-streaked glass. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "prompt": "Imagine the exact model inside a glowing neon phone booth on a rainy night. Wearing a sheer raincoat over a red bikini, raincoat buttoned up. Looking out through rain-streaked glass with a mysterious expression. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She unbuttons the raincoat. The camera follows her hands down to her waist, zooming in on her red bikini and the raindrops on her skin.",
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/937758ba-9576-432d-86f8-aac1ad7d3fdf",
       "instagram_caption": "Even the rain can't dim her glow. 🌧️ #neonphonebooth #rainynightvibes #redbikini #sheerraincoat #urbanglamour #neonrain #cityrainnight #glasslookout #stormysultriness #rainymodel",
       "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "executed_at": "2026-04-26T22:24:48.039485"
     },
     {
       "id": 30,
       "prompt": "Imagine the exact model in a crystal clear turquoise water paddleboarding. Wearing a sporty blue bikini. Athletic, dynamic pose looking at the camera. Wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/abd78d05-db2f-45f2-a092-fcf7fd07bedb",
       "instagram_caption": "She paddles to her own beat. 🌊 #paddleboard #turquoisewater #bluebikini #sportybabe #waterathlete #oceanfit #paddlesup #activemodel #surferchic #watergoals",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/c87c47a7-42fa-46f3-a78f-981ab0770cf4",
+      "executed_at": "2026-04-26T23:22:29.280344"
     },
     {
       "id": 31,
-      "prompt": "Imagine the exact model in a luxury hotel bed sitting cross-legged. Wearing a white lace lingerie. Eating strawberries with a teasing smile. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model sitting cross-legged on a luxury hotel bed surrounded by silk sheets. Wearing a white lace lingerie. Holding a strawberry near her lips, teasing smile, looking at the camera. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She takes a slow bite of the strawberry. The camera zooms in on her hands and then tilts down to the lace detail on her chest.",
       "status": "pending",
       "video_url": null,
       "instagram_caption": "Breakfast of champions: strawberries & satin. 🍓 #hotelbed #whitelacelingerie #strawberrylips #teasingsmile #crossleggedpose #morningindulgence #luxuryhotel #silksheets #foodandmodel #sensualmorning",
@@ -293,7 +300,8 @@
     },
     {
       "id": 33,
-      "prompt": "Imagine the exact model in a sunlit garden cooling off with a hose. Wearing a denim shorts and a bikini top. Laughing and spraying water. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model standing in a sunlit garden holding a garden hose. Wearing denim cutoff shorts over a bikini top. Relaxed posture, sunlight filtering through greenery. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She sprays herself with the hose. The camera pans across her waist and hips, focusing on the wet denim shorts and dripping water.",
       "status": "pending",
       "video_url": null,
       "instagram_caption": "Sun, garden, and a summer hose. 💦 #summerday #gardengirl #bikini #summerfun #waterfight #denimshorts #laughingoutloud #outdoorvibes #wetlook #freshsummer",
@@ -311,7 +319,8 @@
     },
     {
       "id": 35,
-      "prompt": "Imagine the exact model in a sandy beach lying down with sand covering her legs. Wearing a black micro bikini. Sultry, intense gaze at the camera. Wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model lying on a sandy beach, legs partially buried in sand, arms relaxed at her sides. Wearing a black micro bikini. Sultry, intense gaze directed upward at the camera. Wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She rolls onto her stomach. The camera tracks the curve of her back down to her legs, zooming in on her hips against the sand.",
       "status": "pending",
       "video_url": null,
       "instagram_caption": "She's the warmest thing on the beach. 🔥 #sandybeach #blackmicrobikini #beachmodel #intensegaze #sandinmytoes #beachphotography #sultrylook #summermodel #sunsenation #beachgoddess",
@@ -338,7 +347,8 @@
     },
     {
       "id": 38,
-      "prompt": "Imagine the exact model in a beach leaning against a colorful surf board. Wearing a floral micro bikini. Sunkissed skin, relaxed beach vibe. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model standing at the beach leaning against a colorful surfboard. She is wearing a floral micro bikini underneath a matching floral sarong tied at the hip. Sunkissed skin, relaxed beach vibe, one hand resting on the board. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She unties the sarong knot. The camera follows the fabric as it slides down her legs to the sand, focusing on her hips.",
       "status": "pending",
       "video_url": null,
       "instagram_caption": "Surf's up, she's sunlit. 🏄 #surfergirl #floralbikini #surfboard #beachdayvibes #sunkissedskin #surferlife #beachbabe #tropicalmodel #chill #wavechaser",
@@ -347,7 +357,8 @@
     },
     {
       "id": 39,
-      "prompt": "Imagine the exact model in a edge of a plush bed putting on high heels. Wearing a black silk lingerie. Looking up seductively. Medium close-up, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model sitting at the edge of a plush bed, bent forward clasping a high heel onto her foot. Wearing black silk lingerie. Head slightly down, focused on the shoe. Medium close-up, slightly high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She stands up from the bed. The camera follows her legs upward and stops at her waist, focusing on her hips and silk lingerie.",
       "status": "pending",
       "video_url": null,
       "instagram_caption": "Getting ready is a ritual. 👠 #bedtime #highheels #silklingerie #heelup #seductivegaze #gettingready #blacksilk #shoemodel #sensualmodel #dressingup",
@@ -374,7 +385,8 @@
     },
     {
       "id": 42,
-      "prompt": "Imagine the exact model in a luxury bathroom in front of a steamy mirror. Wearing a crimson bikini. Drawing a heart on the glass. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model standing in front of a fully steamed-up mirror in a luxury bathroom. Wearing a crimson bikini. One finger raised, about to draw on the glass. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She draws a heart on the steamed mirror and wipes a section clear. The camera focuses on her hand and the reflection of her bikini.",
       "status": "pending",
       "video_url": null,
       "instagram_caption": "Steamy mirrors, bold hearts. 💋 #steamymirror #luxurybathroom #mirmorselfie #crimsonbikini #heartonmirror #bathroommodel #playfulmodel #romanticselfie #steamylook #sweetheart",
@@ -419,7 +431,8 @@
     },
     {
       "id": 47,
-      "prompt": "Imagine the exact model in a tropical beach shower rinsing off sand. Wearing a tropical print bikini. Water cascading down, refreshing look. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model standing under an outdoor tropical beach shower. Wearing a tropical print bikini with the bikini top strings tied loosely at the back. Water just starting to cascade over her head and shoulders. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She gets soaked under the shower. The camera moves behind her, focusing on the water cascading down her back and waist.",
       "status": "pending",
       "video_url": null,
       "instagram_caption": "Tropical shower, island soul. 🌺 #tropicalshower #tropicalbikini #beachshower #islandvibes #watermodel #refreshinglook #rinsing #beachmodel #tropicalbeauty #flowershower",
@@ -446,7 +459,8 @@
     },
     {
       "id": 50,
-      "prompt": "Imagine the exact model in a ocean waves at sunset walking out of the water. Wearing a neon orange micro bikini. Silhouette against the sun, striking pose. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model standing knee-deep in ocean waves at sunset. Wearing a neon orange micro bikini. Body turned sideways in silhouette against the glowing sun, arms relaxed. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "She walks toward the camera through the waves. The camera stays low, focusing on her legs and hips with the sunset reflection.",
       "status": "pending",
       "video_url": null,
       "instagram_caption": "She walks into the sunset like she owns it. 🌅 #sunsetwalk #neonorange #oceansilhouette #sunsetmodel #walkingoutsea #beachsilhouette #orangesunset #goldenhourmodel #oceangod #endofdayvibes",

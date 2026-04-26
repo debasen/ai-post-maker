@@ -1,16 +1,16 @@
 ---
-name: Grok Video Generation Automation (Advanced)
-description: Advanced end-to-end automation skill for generating videos on Grok. Works for both project-1 and project-2. Supports two video generation paths — (A) custom video prompt via the 4-step UI flow when `video_prompt` is present in the prompt entry, or (B) the default "Make video" button click. Requires --project <1|2> argument.
+description: Advanced end-to-end automation skill for generating videos on Grok. Works for both project-1 and project-2. Supports three video generation paths — (A) custom video prompt via the 4-step UI flow when `video_prompt` is present in the prompt entry, or (B) the default "Make video" button click, or (C) clicking "Spicy" option from the "More Options" menu when `video_type` is set to `spicy` and `video_prompt` is not present. Requires --project <1|2> argument.
 ---
 
 ## Overview
 
-This workflow has two video generation paths that are selected automatically based on the data:
+This workflow has three video generation paths that are selected automatically based on the data:
 
 | Mode | Trigger | Description |
 |------|---------|-------------|
 | **Custom Video Prompt** | `video_prompt` field present in prompt entry | Clicks the Video icon (Step-1), enters the video prompt into the input box (Steps 2–3), and submits (Step-4) |
-| **Default Make Video** | No `video_prompt` field | Waits for the "Make video" button to appear after image generation and clicks it |
+| **Spicy Video** | `video_type` is set to `spicy` (and no `video_prompt`) | Clicks three dots menu and selects "Spicy" |
+| **Default Make Video** | No `video_prompt` field, and no `video_type: spicy` | Waits for the "Make video" button to appear after image generation and clicks it |
 
 ---
 
@@ -24,9 +24,9 @@ Run the following command to get the next pending prompt:
 ```bash
 python3 shared/grok_tracker.py --project <N> get_next
 ```
-Extract the `id`, `prompt`, `instagram_caption`, and — if present — `video_prompt` from the output JSON.
+Extract the `id`, `prompt`, `instagram_caption`, and — if present — `video_prompt` and `video_type` from the output JSON.
 
-> **Note**: If the returned entry has a `video_prompt` field (non-null, non-empty string), use **Custom Video Prompt Mode** (4-step UI flow). Otherwise, use the **Default Make Video Mode**.
+> **Note**: If the returned entry has a `video_prompt` field (non-null, non-empty string), use **Custom Video Prompt Mode** (4-step UI flow). If it doesn't but `video_type` is `spicy`, use **Spicy Video Mode**. Otherwise, use the **Default Make Video Mode**.
 
 ---
 
@@ -60,6 +60,7 @@ Substitute the following placeholders:
 - `PROMPT_TEXT` → `prompt` from Step 1
 - `THUMBNAIL_ID` → `thumbnail_id` from Step 2
 - `VIDEO_PROMPT_TEXT` → `video_prompt` from Step 1 (use `null` or empty string `""` if not present, to trigger the default Make Video path)
+- `VIDEO_TYPE` → `video_type` from Step 1 (use `null` if not present)
 
 ```javascript
 /**
@@ -69,14 +70,16 @@ Substitute the following placeholders:
  * @param {string} thumbnailId      The image post ID to target for thumbnail click.
  * @param {string|null} videoPromptText  (Optional) If provided, uses the 4-step custom video
  *                                       prompt UI flow instead of clicking "Make video".
+ * @param {string|null} videoType        (Optional) If 'spicy', selects Spicy from More Options.
  * @returns {Promise<Object>} { success, videoUrl, postUrl, mode, warning?, error? }
  */
-async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoPromptText) {
+async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoPromptText, videoType) {
   const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
   const hasVideoPrompt = typeof videoPromptText === 'string' && videoPromptText.trim().length > 0;
+  const isSpicy = videoType === 'spicy';
 
   console.log("🚀 [Grok Automation v4] Starting sequence...");
-  console.log(`🎬 [Grok Automation v4] Mode: ${hasVideoPrompt ? 'Custom Video Prompt (4-step UI)' : 'Default Make Video'}`);
+  console.log(`🎬 [Grok Automation v4] Mode: ${hasVideoPrompt ? 'Custom Video Prompt (4-step UI)' : isSpicy ? 'Spicy Video' : 'Default Make Video'}`);
 
   // ─────────────────────────────────────────────────────────────
   // PHASE 1: Image Generation (same for both modes)
@@ -108,8 +111,8 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
 
   // Step 1B: Locate the image generation prompt input box
   console.log("📝 [Grok Automation v4] Locating image prompt input box...");
-  const editableElement = document.querySelector('[placeholder="Describe your edit, @ to reference images"]') ||
-                          document.querySelector('[data-placeholder="Describe your edit, @ to reference images"]') ||
+  const editableElement = document.querySelector('[placeholder="Type to imagine, @ to reference images"]') ||
+                          document.querySelector('[data-placeholder="Type to imagine, @ to reference images"]') ||
                           document.querySelector('[contenteditable="true"]');
 
   if (!editableElement) {
@@ -151,54 +154,115 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
   console.log("⏳ [Grok Automation v4] Image prompt submitted. Waiting for image generation...");
 
   // ─────────────────────────────────────────────────────────────
-  // PHASE 2A: DEFAULT MODE — Poll for 'Make video' button
+  // PHASE 2A: DEFAULT OR SPICY MODE — Poll for buttons
   // ─────────────────────────────────────────────────────────────
   if (!hasVideoPrompt) {
-    console.log("🔎 [Grok Automation v4] [Default Mode] Polling for 'Make video' button...");
-    let makeVideoBtn = null;
-    for (let i = 0; i < 60; i++) { // wait up to 120s
-      await wait(2000);
-      const buttons = Array.from(document.querySelectorAll('button'));
-      makeVideoBtn = buttons.find(btn =>
-        (btn.textContent && btn.textContent.includes('Make video')) ||
-        btn.getAttribute('aria-label') === 'Make video'
-      );
-
-      if (makeVideoBtn) {
-        console.log("✅ [Grok Automation v4] 'Make video' button found!");
-        break;
+    if (isSpicy) {
+      console.log("🌶️ [Grok Automation v4] [Spicy Mode] Polling for 'More options' button...");
+      let moreOptionsBtn = null;
+      for (let i = 0; i < 60; i++) { // wait up to 120s
+        await wait(2000);
+        moreOptionsBtn = document.querySelector('button[aria-label="More options"][data-slot="button"]');
+        if (moreOptionsBtn) {
+          console.log("✅ [Grok Automation v4] 'More options' button found!");
+          break;
+        }
+        if (i % 5 === 0) console.log(`⏳ [Grok Automation v4] Polling... attempt ${i + 1}/60`);
       }
-      if (i % 5 === 0) console.log(`⏳ [Grok Automation v4] Polling... attempt ${i + 1}/60`);
-    }
 
-    if (!makeVideoBtn) {
-      console.error("❌ [Grok Automation v4] 'Make video' button did not appear.");
-      return { error: "'Make video' button did not appear. Generation may have timed out or failed." };
-    }
-
-    const postUrl = window.location.href;
-
-    console.log("🎥 [Grok Automation v4] Clicking 'Make video'...");
-    const oldUrl = window.location.href;
-    makeVideoBtn.click();
-    console.log("⏳ [Grok Automation v4] Waiting for URL propagation to video job...");
-
-    for (let i = 0; i < 15; i++) { // Poll for up to 30s
-      await wait(2000);
-      if (window.location.href !== oldUrl) {
-        console.log(`✅ [Grok Automation v4] Success! Video URL: ${window.location.href}`);
-        return { success: true, mode: 'default_make_video', videoUrl: window.location.href, postUrl };
+      if (!moreOptionsBtn) {
+        console.error("❌ [Grok Automation v4] 'More options' button did not appear.");
+        return { error: "'More options' button did not appear. Generation may have timed out or failed." };
       }
-    }
 
-    console.warn("⚠️ [Grok Automation v4] URL did not change after clicking 'Make video'. Assumed started.");
-    return {
-      success: true,
-      mode: 'default_make_video',
-      videoUrl: window.location.href,
-      postUrl,
-      warning: "URL did not change, but 'Make video' workflow concluded."
-    };
+      const postUrl = window.location.href;
+      
+      console.log("🎥 [Grok Automation v4] Clicking 'More options'...");
+      moreOptionsBtn.click();
+      await wait(1000);
+      
+      console.log("🎥 [Grok Automation v4] Clicking 'Spicy'...");
+      let spicyBtn = null;
+      try {
+        spicyBtn = document.querySelector('div[role="menuitem"]:has(> div:has-text("Spicy"))');
+      } catch (e) {
+        // Fallback for native DOM selector limitation with :has-text
+        const menuItems = Array.from(document.querySelectorAll('div[role="menuitem"]'));
+        spicyBtn = menuItems.find(el => el.textContent && el.textContent.includes("Spicy"));
+      }
+
+      if (!spicyBtn) {
+        console.error("❌ [Grok Automation v4] 'Spicy' menu item not found!");
+        return { error: "'Spicy' menu item not found." };
+      }
+
+      const oldUrl = window.location.href;
+      spicyBtn.click();
+      console.log("⏳ [Grok Automation v4] Waiting for URL propagation to video job...");
+
+      for (let i = 0; i < 15; i++) { // Poll for up to 30s
+        await wait(2000);
+        if (window.location.href !== oldUrl) {
+          console.log(`✅ [Grok Automation v4] Success! Video URL: ${window.location.href}`);
+          return { success: true, mode: 'spicy_video', videoUrl: window.location.href, postUrl };
+        }
+      }
+
+      console.warn("⚠️ [Grok Automation v4] URL did not change after clicking 'Spicy'. Assumed started.");
+      return {
+        success: true,
+        mode: 'spicy_video',
+        videoUrl: window.location.href,
+        postUrl,
+        warning: "URL did not change, but 'Spicy' workflow concluded."
+      };
+    } else {
+      console.log("🔎 [Grok Automation v4] [Default Mode] Polling for 'Make video' button...");
+      let makeVideoBtn = null;
+      for (let i = 0; i < 60; i++) { // wait up to 120s
+        await wait(2000);
+        const buttons = Array.from(document.querySelectorAll('button'));
+        makeVideoBtn = buttons.find(btn =>
+          (btn.textContent && btn.textContent.includes('Make video')) ||
+          btn.getAttribute('aria-label') === 'Make video'
+        );
+
+        if (makeVideoBtn) {
+          console.log("✅ [Grok Automation v4] 'Make video' button found!");
+          break;
+        }
+        if (i % 5 === 0) console.log(`⏳ [Grok Automation v4] Polling... attempt ${i + 1}/60`);
+      }
+
+      if (!makeVideoBtn) {
+        console.error("❌ [Grok Automation v4] 'Make video' button did not appear.");
+        return { error: "'Make video' button did not appear. Generation may have timed out or failed." };
+      }
+
+      const postUrl = window.location.href;
+
+      console.log("🎥 [Grok Automation v4] Clicking 'Make video'...");
+      const oldUrl = window.location.href;
+      makeVideoBtn.click();
+      console.log("⏳ [Grok Automation v4] Waiting for URL propagation to video job...");
+
+      for (let i = 0; i < 15; i++) { // Poll for up to 30s
+        await wait(2000);
+        if (window.location.href !== oldUrl) {
+          console.log(`✅ [Grok Automation v4] Success! Video URL: ${window.location.href}`);
+          return { success: true, mode: 'default_make_video', videoUrl: window.location.href, postUrl };
+        }
+      }
+
+      console.warn("⚠️ [Grok Automation v4] URL did not change after clicking 'Make video'. Assumed started.");
+      return {
+        success: true,
+        mode: 'default_make_video',
+        videoUrl: window.location.href,
+        postUrl,
+        warning: "URL did not change, but 'Make video' workflow concluded."
+      };
+    }
   }
 
   // ─────────────────────────────────────────────────────────────
@@ -255,8 +319,8 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
   // ── Step V-2: Locate the Video Prompt Input Box ──────────────
   console.log("📝 [Grok Automation v4] [Step V-2] Locating video prompt input box...");
   const videoEditableElement =
-    document.querySelector('[placeholder="Describe your edit, @ to reference images"]') ||
-    document.querySelector('[data-placeholder="Describe your edit, @ to reference images"]') ||
+    document.querySelector('[placeholder="Type to imagine, @ to reference images"]') ||
+    document.querySelector('[data-placeholder="Type to imagine, @ to reference images"]') ||
     document.querySelector('[contenteditable="true"]');
 
   if (!videoEditableElement) {
@@ -278,7 +342,7 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
   // ── Step V-4: Submit the Video Prompt ────────────────────────
   console.log("▶️ [Grok Automation v4] [Step V-4] Submitting video prompt...");
   let videoSubmitBtn =
-    document.querySelector('button[aria-label="Make video"]') ||
+    document.querySelector('button[aria-label="Make video"] svg path[d="M6 11L12 5M12 5L18 11M12 5V19"]')?.closest('button') ||
     document.querySelector('button[aria-label="Edit"]') ||
     document.querySelector('button[aria-label="Grok"]') ||
     document.querySelector('button[aria-label="Send"]');
@@ -321,11 +385,14 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
 }
 
 // ── Usage ────────────────────────────────────────────────────────────────────
-// Default Make Video mode (no video_prompt):
-//   return await automateGrokGenerationAdvanced("PROMPT_TEXT", "THUMBNAIL_ID", null);
+// Default Make Video mode (no video_prompt, no spicy):
+//   return await automateGrokGenerationAdvanced("PROMPT_TEXT", "THUMBNAIL_ID", null, null);
+//
+// Spicy Video mode:
+//   return await automateGrokGenerationAdvanced("PROMPT_TEXT", "THUMBNAIL_ID", null, "spicy");
 //
 // Custom Video Prompt mode (video_prompt present):
-//   return await automateGrokGenerationAdvanced("PROMPT_TEXT", "THUMBNAIL_ID", "VIDEO_PROMPT_TEXT");
+//   return await automateGrokGenerationAdvanced("PROMPT_TEXT", "THUMBNAIL_ID", "VIDEO_PROMPT_TEXT", null);
 ```
 
 ---
@@ -335,6 +402,7 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
 After the script returns, inspect the `mode` field:
 
 - `mode: "default_make_video"` → Standard flow completed. Proceed normally.
+- `mode: "spicy_video"` → Spicy flow completed. Proceed normally.
 - `mode: "custom_video_prompt"` → Custom 4-step flow completed. Proceed normally.
 
 If the result contains `error`, investigate the console logs and retry if appropriate.
@@ -380,4 +448,19 @@ Once the script successfully executes and returns `{ success: true, videoUrl: ".
 }
 ```
 
+### Prompt Entry with Spicy Video Mode:
+```json
+{
+  "id": 44,
+  "prompt": "Imagine the exact model ...",
+  "video_type": "spicy",
+  "status": "pending",
+  "instagram_caption": "...",
+  "video_url": null,
+  "post_url": null,
+  "executed_at": null
+}
+```
+
 > When `video_prompt` is present and non-empty, the 4-step custom video UI flow is automatically activated.
+> When `video_prompt` is absent and `video_type` is set to "spicy", the Spicy option is selected from the More Options menu.
