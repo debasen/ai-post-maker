@@ -123,23 +123,34 @@ async function automateGrokGeneration(promptText) {
   console.log("🎥 [Grok Automation] Clicking 'Make video'...");
   const oldUrl = window.location.href;
   makeVideoBtn.click();
-  console.log("⏳ [Grok Automation] Waiting for URL propagation to video job...");
+  console.log("⏳ [Grok Automation] Waiting for video generation to complete (polling every 1 min)...");
 
-  // 7. Await the final URL redirect (Target Video Job URL)
-  for (let i = 0; i < 15; i++) { // Poll for up to 30s
-    await wait(2000);
-    if (window.location.href !== oldUrl) {
-      console.log(`✅ [Grok Automation] Success! Video URL: ${window.location.href}`);
-      return { success: true, videoUrl: window.location.href, postUrl: postUrl };
+  // 7. Await the final video generation completion (Polling frequency 1 min)
+  let finalVideoUrl = null;
+  for (let i = 0; i < 30; i++) { // Poll for up to 30 minutes
+    await wait(60000); // 1 minute
+    
+    const videoEl = document.querySelector('video');
+    if (videoEl) {
+      finalVideoUrl = videoEl.src || (videoEl.querySelector('source') && videoEl.querySelector('source').src);
+      if (finalVideoUrl) {
+        console.log(`✅ [Grok Automation] Success! Generated Video URL: ${finalVideoUrl}`);
+        break;
+      }
     }
+    console.log(`⏳ [Grok Automation] Video still generating... (${i + 1} mins elapsed)`);
   }
 
-  console.warn("⚠️ [Grok Automation] URL did not change after clicking 'Make video'. Assumed started.");
+  if (finalVideoUrl) {
+    return { success: true, videoUrl: finalVideoUrl, postUrl: postUrl };
+  }
+
+  console.warn("⚠️ [Grok Automation] Video generation timed out or video URL not found.");
   return { 
     success: true, 
     videoUrl: window.location.href, 
     postUrl: postUrl,
-    warning: "URL did not change, but 'Make video' workflow concluded." 
+    warning: "Video generation timeout or could not extract video source URL." 
   };
 }
 // return await automateGrokGeneration(PROMPT_STRING);
