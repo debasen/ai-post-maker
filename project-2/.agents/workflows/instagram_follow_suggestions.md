@@ -15,19 +15,20 @@ Activate when the user wants to send follow requests to suggested people on Inst
 - Ensure you have a browser window active on Instagram's explore/people page: https://www.instagram.com/explore/people/
 - If not already on the correct interface, navigate there using the `navigate_page` tool from the browseros MCP.
 
-### Step 2: Execute Unified Automation Script
-Inject and evaluate the following asynchronous JavaScript snippet into the active Instagram tab using the `evaluate_script` tool from the browseros MCP. You can adjust `maxFollows` and `delayMs` as needed.
+### Step 2: Execute First Randomized Follow Phase
+- Inject and evaluate the following asynchronous JavaScript snippet. It will randomly pick 10 accounts from the suggestions and follow them.
 
 ```javascript
 /**
  * Executes the complete Instagram Follow Suggestions automation sequence.
+ * Randomly picks accounts to follow instead of top-down selection.
  * @param {number} maxFollows The maximum number of people to follow (default: 10).
- * @param {number} delayMs The delay between clicks in milliseconds (default: 1000).
+ * @param {number} delayMs The delay between clicks in milliseconds (default: 1500).
  * @returns {Promise<Object>} An object containing results { attempted, succeeded, skipped, errors }
  */
-async function automateInstagramFollows(maxFollows = 10, delayMs = 1000) {
+async function automateInstagramFollows(maxFollows = 10, delayMs = 1500) {
   const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-  console.log("🚀 [Instagram Automation] Starting follow sequence...");
+  console.log("🚀 [Instagram Automation] Starting randomized follow sequence...");
   
   const results = {
     attempted: 0,
@@ -48,40 +49,46 @@ async function automateInstagramFollows(maxFollows = 10, delayMs = 1000) {
   });
 
   if (followButtons.length === 0) {
-    return { error: 'No follow buttons found. All accounts may already be followed or the page structure has changed.' };
+    return { error: 'No follow buttons found.' };
   }
 
-  console.log(`📊 [Instagram Automation] Found ${followButtons.length} accounts to follow`);
+  console.log(`📊 [Instagram Automation] Found ${followButtons.length} total suggestions. Picked ${Math.min(followButtons.length, maxFollows)} randomly.`);
 
-  const limit = Math.min(followButtons.length, maxFollows);
-  for (let i = 0; i < limit; i++) {
-    const btn = followButtons[i];
+  // Randomize selection
+  const shuffled = followButtons.sort(() => 0.5 - Math.random());
+  const selected = shuffled.slice(0, maxFollows);
+
+  for (let i = 0; i < selected.length; i++) {
+    const btn = selected[i];
     try {
       btn.click();
       results.succeeded++;
-      console.log(`✓ [Instagram Automation] Followed account ${i + 1}/${limit}`);
+      console.log(`✓ [Instagram Automation] Followed account ${i + 1}/${selected.length}`);
       
-      // Wait before next click to avoid rate limiting
-      if (i < limit - 1) {
+      if (i < selected.length - 1) {
         await wait(delayMs);
       }
     } catch (err) {
       results.errors.push({ index: i, error: err.message });
-      console.error(`✗ [Instagram Automation] Failed to follow account ${i + 1}: ${err.message}`);
     }
     results.attempted++;
   }
 
-  console.log("✅ [Instagram Automation] Follow sequence complete.");
+  console.log("✅ [Instagram Automation] Sequence complete.");
   return results;
 }
 
-// Usage: return await automateInstagramFollows(10, 1000);
+// Usage: return await automateInstagramFollows(10, 1500);
 ```
 
-### Step 3: Track and Report Results
+### Step 3: Reload and Repeat
+- Use `navigate_page` with action `reload` to refresh the suggestions.
+- Wait for the page to load (approx. 2-3 seconds).
+- Execute the same script again to follow another 10 random accounts.
+
+### Step 4: Track and Report Results
 Once the script successfully executes and returns the results object:
-- Report the results to the user with the count of successful follow requests sent.
+- Report the combined results (total successful follows) to the user.
 - Note any errors.
 - **Status indicators after clicking:**
   - "Following" - Public account, immediately followed
