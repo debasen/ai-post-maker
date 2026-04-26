@@ -16,17 +16,20 @@ Activate when the user wants to send follow requests to suggested people on Inst
 - If not already on the correct interface, navigate there using the `navigate_page` tool from the browseros MCP.
 
 ### Step 2: Execute First Randomized Follow Phase
-Inject and evaluate the following asynchronous JavaScript snippet. It will randomly pick 10 accounts from the suggestions and follow them.
+Inject and evaluate the following asynchronous JavaScript snippet. It will randomly pick between 7-12 accounts from the suggestions and follow them.
 
 ```javascript
 /**
  * Executes the complete Instagram Follow Suggestions automation sequence.
  * Randomly picks accounts to follow instead of top-down selection.
- * @param {number} maxFollows The maximum number of people to follow (default: 10).
+ * @param {number} maxFollows The maximum number of people to follow (default: random 7-12).
  * @param {number} delayMs The delay between clicks in milliseconds (default: 1500).
  * @returns {Promise<Object>} An object containing results { attempted, succeeded, skipped, errors }
  */
-async function automateInstagramFollows(maxFollows = 10, delayMs = 1500) {
+async function automateInstagramFollows(maxFollows, delayMs = 1500) {
+  if (!maxFollows) {
+    maxFollows = Math.floor(Math.random() * (12 - 7 + 1)) + 7;
+  }
   const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
   console.log("🚀 [Instagram Automation] Starting randomized follow sequence...");
   
@@ -78,13 +81,13 @@ async function automateInstagramFollows(maxFollows = 10, delayMs = 1500) {
   return results;
 }
 
-// Usage: return await automateInstagramFollows(10, 1500);
+// Usage: return await automateInstagramFollows(null, 1500);
 ```
 
 ### Step 3: Reload and Repeat
 - Use `navigate_page` with action `reload` to refresh the suggestions.
 - Wait for the page to load (approx. 2-3 seconds).
-- Execute the same script again to follow another 10 random accounts.
+- Execute the same script again to follow another 7-12 random accounts.
 
 ### Step 4: Track and Report Results
 - Report the combined results (total successful follows) to the user.
