@@ -1,5 +1,5 @@
 ---
-description: Advanced end-to-end automation skill for generating videos on Grok. Works for both project-1 and project-2. Supports three video generation paths — (A) custom video prompt via the 4-step UI flow when `video_prompt` is present in the prompt entry, or (B) the default "Make video" button click, or (C) clicking "Spicy" option from the "More Options" menu when `video_type` is set to `spicy` and `video_prompt` is not present. Requires --project <1|2> argument.
+description: Advanced end-to-end automation skill for generating videos on Grok. Requires --project <1|2> argument.
 ---
 
 ## Overview

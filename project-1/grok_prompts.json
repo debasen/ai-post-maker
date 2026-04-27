@@ -73,7 +73,8 @@
       "video_url": "https://grok.com/imagine/post/d62a12e4-be1f-45f6-b49e-ba0e0e6615b3",
       "instagram_caption": "Serving up 1950s diner vibes with a side of mischief! 🍒🥤 Who wants a milkshake? #retrostyle #1950sfashion #dinerstyle #vintagevibes #polkadots #milkshake #jukebox #nostalgia",
       "post_url": "https://grok.com/imagine/post/ab2de9ff-9b57-41f9-b58b-b53750be3c8f",
-      "executed_at": "2026-07-09T07:38:00.000Z"
+      "executed_at": "2026-07-09T07:38:00.000Z",
+      "instagram_upload": "done"
     },
     {
       "id": 9,
@@ -82,7 +83,8 @@
       "video_url": "https://grok.com/imagine/post/07a80241-e5bd-43ff-a8cb-c5fb21cc3b76",
       "instagram_caption": "Golden hour on the open desert highway. 🌵🌅 The road is calling and I must go. #deserthighway #goldenhour #roadtrip #suedefashion #adventureawaits #desertvibes #freedom",
       "post_url": "https://grok.com/imagine/post/b0d166b2-e060-4243-a3ad-6cc209d85868",
-      "executed_at": "2026-01-27T07:00:00.000Z"
+      "executed_at": "2026-01-27T07:00:00.000Z",
+      "instagram_upload": "mapped"
     },
     {
       "id": 10,
@@ -260,7 +262,8 @@
       "video_url": "https://grok.com/imagine/post/b55f15ec-4122-4eef-8fdf-aecec394bc82",
       "instagram_caption": "Late summer afternoons picking wildflowers in the golden meadow. 🌾🌼 Pure bliss. #wildflowers #goldenmeadow #summervibes #naturelovers #floralstyle #peacefulmoments #countryside",
       "post_url": "https://grok.com/imagine/post/9403d0d4-c112-4ab9-a3ce-f57e43f009b0",
-      "executed_at": "2026-04-26T12:23:10.374328"
+      "executed_at": "2026-04-26T12:23:10.374328",
+      "instagram_upload": "mapped"
     },
     {
       "id": 30,
@@ -597,97 +600,121 @@
       "id": 65,
       "prompt": "Imagine the exact model with a curvy hourglass body in a hidden waterfall lagoon in Bali. Wearing a revealing earthy green threaded mini dress. standing near the water's edge and smiling peacefully. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera slowly pushes toward the model standing by the waterfall, her threaded dress moving softly in the misty breeze.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Finding peace at the hidden lagoon. 🌿💦 Nature's perfect hideaway. #waterfall #bali #naturelovers #threadeddress #curvyfashion #lagoon #peaceful",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/d0e92fac-e337-4f5b-b936-2ef930337b48",
+      "video_url": "https://grok.com/imagine/post/08444820-32c2-45d5-9194-5e11265f9326",
+      "executed_at": "2026-04-27T17:01:33.548872"
     },
     {
       "id": 66,
       "prompt": "Imagine the exact model with a curvy hourglass body in a exclusive Ibiza beach club at sunset. Wearing a bold neon pink string bikini with ultra-short denim cut-offs. walking on the sand and smiling warmly. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera tracks alongside the model as she walks on the beach at sunset, the neon pink bikini glowing in the fading light.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Sunset walks in Ibiza. 🌅💖 The energy here is just incredible. #ibiza #sunset #bikini #curvyfashion #beachclub #neon #warmvibes",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/8c49e8f7-24eb-48a0-bd4a-8fdcc38bd9a0",
+      "video_url": "https://grok.com/imagine/post/b09b864a-b9fd-42b2-8e60-449815b5b107",
+      "executed_at": "2026-04-27T17:12:30.143326"
     },
     {
       "id": 67,
       "prompt": "Imagine the exact model with a curvy hourglass body in a glamorous poolside lounge in Miami. Wearing a transparent black mesh mini dress over a dark bikini. sitting on a lounge chair and smiling brightly. Medium close-up, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera slowly pushes in on the model relaxing on the lounge chair, the mesh dress catching the bright Miami sun.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Miami poolside glamour. 🌴🕶️ Soaking up every bit of sunshine. #miami #poolside #meshdress #curvyfashion #glamour #sunshine #relaxing",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575",
+      "video_url": "https://grok.com/imagine/post/5f7c9206-b9f8-4bb1-8c44-f63950985f8a",
+      "executed_at": "2026-04-27T17:23:33.072961"
     },
     {
       "id": 68,
       "prompt": "Imagine the exact model with a curvy hourglass body in a luxury resort spa garden. Wearing a revealing silky short robe open over a stylish bikini. strolling through the garden and smiling calmly. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera follows the model as she strolls through the tranquil spa garden, her silky robe flowing beautifully.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Tranquil moments in the spa garden. 🌺🧖‍♀️ Pure relaxation and style. #spa #resortlife #silkyrobe #curvyfashion #garden #calm #luxury",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/acd21d5b-4818-4769-b291-4345caa78045",
+      "video_url": "https://grok.com/imagine/post/33d9d5aa-71e7-460b-8576-a1903f2857ed",
+      "executed_at": "2026-04-27T18:42:57.236876"
     },
     {
       "id": 69,
       "prompt": "Imagine the exact model with slight curvy body in a charming bookstore aisle. Wearing a plaid pleated mini skirt and a cozy sweater. browsing the shelves and smiling. Medium shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera pans along the bookshelves as the model smiles and pulls out an interesting book.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Getting lost in the aisles of this charming bookstore. 📚✨ So many stories to discover. #bookstore #plaidskirt #cozyvibes #reading #booklover #weekendstroll #smile",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/a69a64f9-6a0e-40ca-8abf-01a87b1aa7f6",
+      "video_url": "https://grok.com/imagine/post/9252debb-0880-4130-8364-16dffb7083ed",
+      "executed_at": "2026-04-27T18:54:03.650097"
     },
     {
       "id": 70,
       "prompt": "Imagine the exact model with slight curvy body in a vibrant farmers market. Wearing a casual denim mini dress. holding a basket of fresh fruit and smiling brightly. Medium wide shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera tracks backward as the model walks through the vibrant market, smiling brightly with her basket of fruit.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Fresh fruit and sunny mornings at the farmers market. 🍎🌻 Love the local energy. #farmersmarket #denimdress #freshproduce #morningvibes #healthy #local #sunnyday",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/df14b549-da7e-4dcf-8982-19ccebdfd159",
+      "video_url": "https://grok.com/imagine/post/60e8f037-87d5-48e7-a1a4-f39149dc1bb6",
+      "executed_at": "2026-04-27T19:05:08.747627"
     },
     {
       "id": 71,
       "prompt": "Imagine the exact model with slight curvy body in a classic vintage record shop. Wearing a retro corduroy mini skirt and striped top. flipping through vinyls and smiling playfully. Medium shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera slowly pushes in as the model playfully flips through records and flashes a bright smile.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Flipping through classics at the record shop. 🎶🎧 So many good tunes. #recordshop #vintage #vinyl #corduroyskirt #retrostyle #musiclover #playful",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/c41c59ad-4267-4e9e-857b-fd857d536f5f",
+      "video_url": "https://grok.com/imagine/post/1b2c188d-3e8f-4030-bacc-6173598e6843",
+      "executed_at": "2026-04-27T19:16:12.689651"
     },
     {
       "id": 72,
       "prompt": "Imagine the exact model with slight curvy body in a bustling city crosswalk. Wearing a chic black blazer paired with a matching mini skirt. striding confidently and smiling. Full body shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera follows the model as she confidently strides across the crosswalk, her blazer catching the wind.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "City strides and confident vibes. 🏙️✨ Navigating the downtown rush. #citylife #blazerstyle #miniskirt #streetstyle #confident #urban #fashion",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/acde708d-c880-4b82-a2ad-1415278680d6",
+      "video_url": "https://grok.com/imagine/post/3aa50caf-ebe2-4e21-afca-b8fc33800682",
+      "executed_at": "2026-04-27T19:27:16.198037"
     },
     {
       "id": 73,
       "prompt": "Imagine the exact model with slight curvy body in a quiet park bench under autumn leaves. Wearing a warm knit sweater and a short suede skirt. sitting comfortably and smiling gently. Medium shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera slowly orbits the park bench as autumn leaves fall softly around the gently smiling model.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Autumn leaves and quiet park benches. 🍂🧥 Enjoying the crisp air. #autumnvibes #parkbench #suedeskirt #fallfashion #peaceful #nature #gentle",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575",
+      "video_url": "https://grok.com/imagine/post/1b333581-2e93-4e25-b720-b8fdbb0b66ef",
+      "executed_at": "2026-04-27T19:38:23.510039"
     },
     {
       "id": 74,
       "prompt": "Imagine the exact model with slight curvy body in a bright modern kitchen. Wearing a simple white cotton short romper. pouring a cup of coffee and smiling happily. Medium shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera pushes in slowly as the model pours coffee, the morning light illuminating her happy smile.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Morning coffee in the bright kitchen. ☕️☀️ The best way to start the day. #morningroutine #coffee #romper #kitchenvibes #happy #cozy #starttheday",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/f5f2fa7a-eba2-4acd-9d72-093e0eec496b",
+      "video_url": "https://grok.com/imagine/post/9d771045-eb79-49f8-9e72-1acbc61d5620",
+      "executed_at": "2026-04-27T20:40:02.428157"
     },
     {
       "id": 75,
       "prompt": "Imagine the exact model with slight curvy body in a chic rooftop cafe. Wearing a floral mini dress. enjoying a brunch plate and smiling warmly. Medium shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera pans slightly as the model enjoys her brunch, the city skyline visible behind her warm smile.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Rooftop brunch with a view. 🥐🌇 Sundays were made for this. #rooftopcafe #brunch #floraldress #cityview #sundayvibes #delicious #warm",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/238f8b4b-9d90-451b-9274-dd0407dba7d9",
+      "video_url": "https://grok.com/imagine/post/65e032bb-fbf7-49d3-85bd-aa5d27a793de",
+      "executed_at": "2026-04-27T20:45:29.902376"
     },
     {
       "id": 76,
       "prompt": "Imagine the exact model with slight curvy body in a lush botanical conservatory. Wearing a delicate silk mini slip dress. admiring the exotic plants and smiling. Medium wide shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "The camera tracks alongside the model as she admires the exotic plants, her silk dress swaying.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Admiring the exotic blooms in the conservatory. 🌿🌸 Such a peaceful escape. #botanical #conservatory #silkdress #nature #exoticplants #peaceful #smile",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/1fc33b5b-b73d-44d3-b232-0dbede13aad1",
+      "video_url": "https://grok.com/imagine/post/d8c11d95-7e0e-49a5-a8f5-480446f02ffd",
+      "executed_at": "2026-04-27T20:56:34.258341"
     },
     {
       "id": 77,

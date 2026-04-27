@@ -62,6 +62,34 @@ def complete(file_path, prompt_id, video_url, post_url):
     else:
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
+def get_next_to_map(file_path):
+    """Print the first prompt missing instagram_upload."""
+    data = load_data(file_path)
+    prompts = data.get("prompts", [])
+    for item in prompts:
+        # We only map completed prompts that haven't been mapped yet
+        if item.get("status") == "completed" and "instagram_upload" not in item:
+            print(json.dumps(item))
+            return
+    print(json.dumps({"error": "No prompts to map"}))
+
+def update_mapping_status(file_path, prompt_id, status):
+    """Update instagram_upload field (done, not-found)."""
+    data = load_data(file_path)
+    prompts = data.get("prompts", [])
+    found = False
+    for item in prompts:
+        if str(item.get("id")) == str(prompt_id):
+            item["instagram_upload"] = status
+            found = True
+            break
+    
+    if found:
+        save_data(file_path, data)
+        print(json.dumps({"success": True, "id": prompt_id, "status": status}))
+    else:
+        print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
+
 def print_usage():
     print(
         "Usage: python3 shared/grok_tracker.py --project <1|2> "
@@ -86,6 +114,13 @@ if __name__ == "__main__":
 
     if command == "get_next":
         get_next(file_path)
+    elif command == "get_next_to_map":
+        get_next_to_map(file_path)
+    elif command == "update_mapping_status":
+        if len(args) < 5:
+            print("Usage: ... update_mapping_status <id> <status>")
+            sys.exit(1)
+        update_mapping_status(file_path, args[3], args[4])
     elif command == "get_config":
         get_config(file_path)
     elif command == "complete":
