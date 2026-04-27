@@ -19,7 +19,7 @@ def main():
     args = parser.parse_args()
 
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    file_path = os.path.join(repo_root, f"grok_prompts_{args.project}.json")
+    file_path = os.path.join(repo_root, f"project-{args.project}", "grok_prompts.json")
 
     if not os.path.exists(file_path):
         print(f"Error: File not found: {file_path}")

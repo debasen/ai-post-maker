@@ -1,6 +1,6 @@
 ---
 name: Grok Video Generation Automation
-description: End-to-end automation skill for generating videos on Grok. Works for both project-1 and project-2 by reading project-specific config from grok_prompts_{N}.json. Requires --project <1|2> argument.
+description: End-to-end automation skill for generating videos on Grok. Works for both project-1 and project-2 by reading project-specific config from project-{N}/grok_prompts.json. Requires --project <1|2> argument.
 ---
 
 ### Step 0: Identify the Project

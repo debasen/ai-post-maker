@@ -64,7 +64,7 @@ def main():
     args = parser.parse_args()
 
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    file_path = os.path.join(repo_root, f"grok_prompts_{args.project}.json")
+    file_path = os.path.join(repo_root, f"project-{args.project}", "grok_prompts.json")
 
     if args.project == "2":
         print(f"Project 2 uses shared/make_edgy.py for custom sassy refinement.")

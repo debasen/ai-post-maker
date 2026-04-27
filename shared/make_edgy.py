@@ -4,7 +4,7 @@ import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 repo_root = os.path.dirname(script_dir)
-file_path = os.path.join(repo_root, 'grok_prompts_2.json')
+file_path = os.path.join(repo_root, 'project-2', 'grok_prompts.json')
 
 with open(file_path, 'r') as f:
     data = json.load(f)

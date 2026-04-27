@@ -11,7 +11,8 @@
       "video_url": "https://grok.com/imagine/post/28798fe6-d61d-4baf-9eec-691520370e31",
       "instagram_caption": "Turning up the heat. 🔥 Never looking back. #luxuryshower #steamylook #blackbikini #sizzlinghot #sultry #modelvibe #portraitmodel #realisticai #fashionmodel #hotgirl",
       "post_url": "https://grok.com/imagine/post/d1aab23a-fb3c-4318-8b0e-a147216ae2fc",
-      "executed_at": "2026-04-26T13:01:43.248277"
+      "executed_at": "2026-04-26T13:01:43.248277",
+      "instagram_upload": "done"
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "video_url": "https://grok.com/imagine/post/b123a826-5f06-4b71-bf4b-4485d465732c",
       "instagram_caption": "Lazy mornings hit different. 😈 #silksheets #morningmood #redbikini #lacylook #bedroomvibes #sassymodel #hotelbed #luxuryliving #baddie #sensual",
       "post_url": "https://grok.com/imagine/post/dd6d7918-5ddc-4b2d-a7d2-e431a1641506",
-      "executed_at": "2026-04-26T13:30:02.277037"
+      "executed_at": "2026-04-26T13:30:02.277037",
+      "instagram_upload": "done"
     },
     {
       "id": 3,
@@ -29,7 +31,8 @@
       "video_url": "https://grok.com/imagine/post/fac9f5ce-e6d3-4a09-bec8-93825e20eaa5",
       "instagram_caption": "She's the main character. ✨ #neonvibes #sportscar #nightcity #metallicbikini #streetstyle #fiercelook #carandmodel #nightout #edgyfashion #carbabe",
       "post_url": "https://grok.com/imagine/post/0361b9e2-89dd-400f-9868-e739bf4aad8f",
-      "executed_at": "2026-04-26T13:36:32.726881"
+      "executed_at": "2026-04-26T13:36:32.726881",
+      "instagram_upload": "done"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "video_url": "https://grok.com/imagine/post/2342d286-b329-4e30-8037-773fb2031c5d",
       "instagram_caption": "Infinity pools and infinite possibilities. 🔥 #infinitypool #poolvibes #citynights #whitebikini #rooftoppool #luxurylife #nightswim #poolparty #baddiestyle #summervibes",
       "post_url": "https://grok.com/imagine/post/6ef3c451-9d2a-48af-8cea-5552a783e903",
-      "executed_at": "2026-04-26T13:56:51.085200"
+      "executed_at": "2026-04-26T13:56:51.085200",
+      "instagram_upload": "done"
     },
     {
       "id": 5,
@@ -47,7 +51,8 @@
       "video_url": "https://grok.com/imagine/post/edcd5ce4-a2fc-4b9e-aaaf-7f3b656aa92e",
       "instagram_caption": "Salt, sun, and no regrets. 🖤 #yachtlife #yachtgirl #sunbathing #bikinilife #privateyacht #summergoals #oceanvibes #luxurytravel #beachbabe #islandgirl",
       "post_url": "https://grok.com/imagine/post/47b4552d-4aba-4487-b89b-932e5bb173b9",
-      "executed_at": "2026-04-26T14:16:25.023694"
+      "executed_at": "2026-04-26T14:16:25.023694",
+      "instagram_upload": "done"
     },
     {
       "id": 6,
@@ -56,7 +61,8 @@
       "video_url": "https://grok.com/imagine/post/6c197dc5-767b-4b91-ae50-9cd7c8445ffb",
       "instagram_caption": "Hot tub, cold champagne, zero apologies. 🥂 #hottub #skiresort #leopardprint #soaparty #apresski #champagnelife #wintervibe #wildcardmodel #bikiniseason #sassyqueen",
       "post_url": "https://grok.com/imagine/post/acad166c-e401-4395-80a6-138dfe4e973c",
-      "executed_at": "2026-04-26T14:27:10.347837"
+      "executed_at": "2026-04-26T14:27:10.347837",
+      "instagram_upload": "done"
     },
     {
       "id": 7,
@@ -235,10 +241,8 @@
       "prompt": "Imagine the exact model standing waist-deep in the ocean shore, still partially submerged. Wearing a dripping wet white bikini. Body poised, arms slightly out, gazing toward the shore. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She walks out of the water in slow motion. The camera stays low at water level, focusing on her legs and waist as water drips down.",
       "status": "completed",
-      "video_url": null,
       "instagram_caption": "Walking out of the ocean like a legend. 💧 #bondgirl #wetbikini #oceanwalk #whitebikini #fiercemodel #emergingfromwater #beachicon #unstoppable #drippingwet #goddessmodel",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78"
     },
     {
       "id": 27,
@@ -414,58 +418,54 @@
     {
       "id": 45,
       "prompt": "Imagine the exact model with voluminous waves in a dimly lit luxury wine cellar. Wearing a black velvet bodysuit. Holding a glass of red wine, elegant and edgy. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/4c858a06-15e7-4fe7-be03-d4ac5421b5c0",
       "instagram_caption": "Dark oak and darker looks. 🍷 #winecellar #blackbodysuit #redwine #velvetelegan #darkfashion #winemodel #luxurycave #sommelieraesthetic #redwineglass #elegantedge",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/7d863794-59f5-41d0-94b8-21492ce38c2d",
+      "executed_at": "2026-04-27T12:38:00.035304"
     },
     {
       "id": 46,
       "prompt": "Imagine the exact model in a neon pool party lying on a giant floatie. Wearing a holographic monokini. Vibrant lights, having the time of her life. Full body shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/f1f7888a-80f7-448c-96e5-99747a3f0503",
       "instagram_caption": "Neon nights, silver dreams. 🌙 #neonpoolparty #holographicmonokini #poolparty #vibranthues #partygirl #floatiequeen #neonswimwear #poolnights #summerparty #glowinpool",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/1c8c446d-8467-4f0a-afdc-a49769657c77",
+      "executed_at": "2026-04-27T12:48:56.769858"
     },
     {
       "id": 47,
       "prompt": "Imagine the exact model standing under an outdoor tropical beach shower. Wearing a tropical print cut-out swimsuit. Water just starting to cascade over her head and shoulders. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She gets soaked under the shower. The camera moves behind her, focusing on the water cascading down her back and waist.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/07f9addf-3645-416c-bbe3-9c2426e4db6e",
       "instagram_caption": "Tropical shower, island soul. 🌺 #tropicalshower #cutoutswimsuit #beachshower #islandvibes #watermodel #refreshinglook #rinsing #beachmodel #tropicalbeauty #flowershower",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/3748c22d-1bc4-4615-a58b-f463620c7688",
+      "executed_at": "2026-04-27T12:59:48.824731"
     },
     {
       "id": 48,
       "prompt": "Imagine the exact model in a skyscraper rooftop overlooking the city at dawn. Wearing a white silk lingerie. Drinking coffee as the sun rises. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "video_url": null,
+      "status": "completed",
       "instagram_caption": "She doesn't do mornings, she owns them. ☀️ #rooftop #skyscraperview #whitesilklingerie #morningcoffee #sunrisemodel #citysunrise #glammorning #rooftoplife #dawnmodel #luxurymorning",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/188d1520-49e5-4095-a270-b43903229bd0",
+      "video_url": "https://grok.com/imagine/post/c0fadb7a-e795-49ff-a1a7-cd6f12af54b3",
+      "executed_at": "2026-04-27T13:10:44.683811"
     },
     {
       "id": 49,
       "prompt": "Imagine the exact model in a modern mansion posing by a luxury grand piano. Wearing a distressed black bikini with torn threaded strings. Leaning on the piano with a fierce look. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "status": "pending",
-      "video_url": null,
       "instagram_caption": "Keys, strings, and savage things. 🎹 #grandpiano #mansionmodel #distressedbikini #tornstrings #luxurymansion #elegantedge #musicmodel #mansionlife #fiercemodel #classicaledge",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78"
     },
     {
       "id": 50,
       "prompt": "Imagine the exact model standing knee-deep in ocean waves at sunset. Wearing a neon orange monokini with frayed fabric edges and hanging strings. Body turned sideways in silhouette against the glowing sun, arms relaxed. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She walks toward the camera through the waves. The camera stays low, focusing on her legs and hips with the sunset reflection.",
       "status": "pending",
-      "video_url": null,
       "instagram_caption": "She walks into the sunset like she owns it. 🌅 #sunsetwalk #neonorange #frayedfabric #hangingstrings #sunsetmodel #walkingoutsea #beachsilhouette #orangesunset #goldenhourmodel #oceangod #endofdayvibes",
-      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78"
     }
   ]
 }

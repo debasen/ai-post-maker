@@ -4,10 +4,10 @@ import sys
 from datetime import datetime
 
 def get_project_path(project_id):
-    """Resolve the path to grok_prompts_N.json at the repo root."""
+    """Resolve the path to grok_prompts.json in the project folder."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     repo_root = os.path.dirname(script_dir)
-    return os.path.join(repo_root, f"grok_prompts_{project_id}.json")
+    return os.path.join(repo_root, f"project-{project_id}", "grok_prompts.json")
 
 def load_data(file_path):
     if not os.path.exists(file_path):
