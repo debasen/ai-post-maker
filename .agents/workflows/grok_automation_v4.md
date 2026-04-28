@@ -76,7 +76,16 @@ Substitute the following placeholders:
 async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoPromptText, videoType) {
   const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
   const hasVideoPrompt = typeof videoPromptText === 'string' && videoPromptText.trim().length > 0;
-  const isSpicy = videoType === 'spicy';
+  let isSpicy = videoType === 'spicy';
+
+  const clickElement = (el) => {
+    if (!el) return;
+    el.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, cancelable: true }));
+    el.dispatchEvent(new MouseEvent('mousedown', { bubbles: true, cancelable: true }));
+    el.click();
+    el.dispatchEvent(new PointerEvent('pointerup', { bubbles: true, cancelable: true }));
+    el.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, cancelable: true }));
+  };
 
   console.log("🚀 [Grok Automation v4] Starting sequence...");
   console.log(`🎬 [Grok Automation v4] Mode: ${hasVideoPrompt ? 'Custom Video Prompt (4-step UI)' : isSpicy ? 'Spicy Video' : 'Default Make Video'}`);
@@ -92,7 +101,7 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
       console.log("📸 [Grok Automation v4] Detected post URL, attempting to click targeted thumbnail...");
       const img = document.querySelector(`img[src*="${thumbnailId}"]`);
       if (img) {
-        img.click();
+        clickElement(img);
         await wait(2000);
       } else {
         console.warn(`⚠️ [Grok Automation v4] Thumbnail with ID ${thumbnailId} not found.`);
@@ -101,7 +110,7 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
       console.log("📸 [Grok Automation v4] Not on a specific post. Clicking first available image if present.");
       const imgs = document.querySelectorAll('img');
       if (imgs.length > 0) {
-        imgs[0].click();
+        clickElement(imgs[0]);
         await wait(2000);
       }
     }
@@ -120,7 +129,7 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
     return { error: "Prompt input box not found. Make sure you are on a valid image edit view or chat." };
   }
 
-  editableElement.click();
+  clickElement(editableElement);
   editableElement.focus();
   await wait(500);
 
@@ -150,110 +159,119 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
     return { error: "Submit button not found." };
   }
 
-  submitBtn.click();
+  clickElement(submitBtn);
   console.log("⏳ [Grok Automation v4] Image prompt submitted. Waiting for image generation...");
 
   // ─────────────────────────────────────────────────────────────
-  // PHASE 2A: DEFAULT OR SPICY MODE — Poll for buttons
+  // WAIT FOR GENERATION TO COMPLETE
+  // ─────────────────────────────────────────────────────────────
+  console.log("⏳ [Grok Automation v4] Polling for image generation to complete...");
+  let generationComplete = false;
+  for (let i = 0; i < 60; i++) {
+    await wait(2000);
+    const btns = Array.from(document.querySelectorAll('button'));
+    const makeVideoBtns = btns.filter(b => (b.textContent && b.textContent.includes('Make video')) || b.getAttribute('aria-label') === 'Make video');
+    
+    if (makeVideoBtns.length > 0) {
+      const lastMakeVideo = makeVideoBtns[makeVideoBtns.length - 1];
+      const isDisabled = lastMakeVideo.disabled || lastMakeVideo.getAttribute('aria-disabled') === 'true' || lastMakeVideo.hasAttribute('disabled');
+      if (!isDisabled) {
+        generationComplete = true;
+        console.log("✅ [Grok Automation v4] Image generation complete (Make video button is enabled).");
+        break;
+      }
+    }
+    if (i % 5 === 0) console.log(`⏳ [Grok Automation v4] Waiting for generation... attempt ${i + 1}/60`);
+  }
+
+  if (!generationComplete) {
+    console.warn("⚠️ [Grok Automation v4] Could not verify generation completion. Proceeding anyway...");
+  }
+  await wait(1000);
+
+  // ─────────────────────────────────────────────────────────────
+  // PHASE 2A: DEFAULT OR SPICY MODE
   // ─────────────────────────────────────────────────────────────
   if (!hasVideoPrompt) {
     if (isSpicy) {
-      console.log("🌶️ [Grok Automation v4] [Spicy Mode] Polling for 'More options' button...");
+      console.log("🌶️ [Grok Automation v4] [Spicy Mode] Attempting Spicy flow...");
       let moreOptionsBtn = null;
-      for (let i = 0; i < 60; i++) { // wait up to 120s
-        await wait(2000);
-        moreOptionsBtn = document.querySelector('button[aria-label="More options"][data-slot="button"]');
-        if (moreOptionsBtn) {
-          console.log("✅ [Grok Automation v4] 'More options' button found!");
-          moreOptionsBtn.click();
-          await wait(1000);
-          break;
-        }
-        if (i % 5 === 0) console.log(`⏳ [Grok Automation v4] Polling... attempt ${i + 1}/60`);
+      const btns = Array.from(document.querySelectorAll('button'));
+      const moreBtns = btns.filter(b => b.getAttribute('aria-label') === 'More options' || b.getAttribute('aria-label') === 'More' || (b.getAttribute('aria-label') && b.getAttribute('aria-label').includes('More')));
+      if (moreBtns.length > 0) {
+        moreOptionsBtn = moreBtns[moreBtns.length - 1];
       }
 
       if (!moreOptionsBtn) {
-        console.error("❌ [Grok Automation v4] 'More options' button did not appear.");
-        return { error: "'More options' button did not appear. Generation may have timed out or failed." };
-      }
+        console.warn("⚠️ [Grok Automation v4] 'More options' button not found. Falling back to default Make video.");
+        isSpicy = false;
+      } else {
+        const postUrl = window.location.href;
+        
+        if (moreOptionsBtn.getAttribute('aria-expanded') !== 'true') {
+          console.log("🎥 [Grok Automation v4] Clicking 'More options'...");
+          clickElement(moreOptionsBtn);
+          await wait(1500);
+        }
+        
+        console.log("🎥 [Grok Automation v4] Looking for 'Spicy'...");
+        let spicyBtn = null;
+        try {
+          spicyBtn = document.evaluate(
+              "//div[@role='menuitem']//div[normalize-space()='Spicy']",
+              document,
+              null,
+              XPathResult.FIRST_ORDERED_NODE_TYPE,
+              null
+            ).singleNodeValue;
+        } catch (e) {}
+        
+        if (!spicyBtn) {
+          const menuItems = Array.from(document.querySelectorAll('[role="menuitem"]'));
+          spicyBtn = menuItems.find(el => el.textContent && el.textContent.includes("Spicy"));
+        }
 
-      const postUrl = window.location.href;
-      
-      if (moreOptionsBtn.getAttribute('aria-expanded') !== 'true') {
-        console.log("🎥 [Grok Automation v4] Clicking 'More options'...");
-        moreOptionsBtn.click();
-        await wait(1000);
-      }
-      
-      console.log("🎥 [Grok Automation v4] Clicking 'Spicy'...");
-      let spicyBtn = null;
-      try {
-        spicyBtn = document.evaluate(
-            "//div[@role='menuitem']//div[normalize-space()='Spicy']",
-            document,
-            null,
-            XPathResult.FIRST_ORDERED_NODE_TYPE,
-            null
-          ).singleNodeValue;
-      } catch (e) {
-        // Fallback for native DOM selector limitation with :has-text
-        const menuItems = Array.from(document.querySelectorAll('div[role="menuitem"]'));
-        spicyBtn = menuItems.find(el => el.textContent && el.textContent.includes("Spicy"));
-      }
+        if (spicyBtn) {
+          console.log("✅ [Grok Automation v4] 'Spicy' found! Clicking...");
+          const oldUrl = window.location.href;
+          clickElement(spicyBtn);
+          console.log("⏳ [Grok Automation v4] Waiting for URL propagation to video job...");
 
-      if (!spicyBtn) {
-        console.error("❌ [Grok Automation v4] 'Spicy' menu item not found!");
-        return { error: "'Spicy' menu item not found." };
-      }
+          for (let i = 0; i < 15; i++) {
+            await wait(2000);
+            if (window.location.href !== oldUrl) {
+              console.log(`✅ [Grok Automation v4] Success! Video URL: ${window.location.href}`);
+              return { success: true, mode: 'spicy_video', videoUrl: window.location.href, postUrl };
+            }
+          }
 
-      const oldUrl = window.location.href;
-      spicyBtn.click();
-      console.log("⏳ [Grok Automation v4] Waiting for URL propagation to video job...");
-
-      for (let i = 0; i < 15; i++) { // Poll for up to 30s
-        await wait(2000);
-        if (window.location.href !== oldUrl) {
-          console.log(`✅ [Grok Automation v4] Success! Video URL: ${window.location.href}`);
-          return { success: true, mode: 'spicy_video', videoUrl: window.location.href, postUrl };
+          console.warn("⚠️ [Grok Automation v4] URL did not change after clicking 'Spicy'. Assumed started.");
+          return { success: true, mode: 'spicy_video', videoUrl: window.location.href, postUrl, warning: "URL did not change" };
+        } else {
+          console.warn("⚠️ [Grok Automation v4] 'Spicy' menu item not found! Falling back to 'Make video'.");
+          document.body.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+          await wait(1000);
+          isSpicy = false; // Trigger Default Mode
         }
       }
-
-      console.warn("⚠️ [Grok Automation v4] URL did not change after clicking 'Spicy'. Assumed started.");
-      return {
-        success: true,
-        mode: 'spicy_video',
-        videoUrl: window.location.href,
-        postUrl,
-        warning: "URL did not change, but 'Spicy' workflow concluded."
-      };
-    } else {
-      console.log("🔎 [Grok Automation v4] [Default Mode] Polling for 'Make video' button...");
-      let makeVideoBtn = null;
-      for (let i = 0; i < 60; i++) { // wait up to 120s
-        await wait(2000);
-        const buttons = Array.from(document.querySelectorAll('button'));
-        makeVideoBtn = buttons.find(btn =>
-          (btn.textContent && btn.textContent.includes('Make video')) ||
-          btn.getAttribute('aria-label') === 'Make video'
-        );
-
-        if (makeVideoBtn) {
-          console.log("✅ [Grok Automation v4] 'Make video' button found!");
-          break;
-        }
-        if (i % 5 === 0) console.log(`⏳ [Grok Automation v4] Polling... attempt ${i + 1}/60`);
+    }
+    
+    if (!isSpicy) {
+      console.log("🔎 [Grok Automation v4] [Default Mode] Clicking 'Make video' button...");
+      const btns = Array.from(document.querySelectorAll('button'));
+      const makeVideoBtns = btns.filter(btn => (btn.textContent && btn.textContent.includes('Make video')) || btn.getAttribute('aria-label') === 'Make video');
+      
+      if (makeVideoBtns.length === 0) {
+        console.error("❌ [Grok Automation v4] 'Make video' button not found.");
+        return { error: "'Make video' button not found." };
       }
-
-      if (!makeVideoBtn) {
-        console.error("❌ [Grok Automation v4] 'Make video' button did not appear.");
-        return { error: "'Make video' button did not appear. Generation may have timed out or failed." };
-      }
-
+      
+      const makeVideoBtn = makeVideoBtns[makeVideoBtns.length - 1];
       const postUrl = window.location.href;
 
       console.log("🎥 [Grok Automation v4] Clicking 'Make video'...");
       const oldUrl = window.location.href;
-      makeVideoBtn.click();
+      clickElement(makeVideoBtn);
       console.log("⏳ [Grok Automation v4] Waiting for URL propagation to video job...");
 
       for (let i = 0; i < 15; i++) { // Poll for up to 30s
@@ -279,50 +297,22 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
   // PHASE 2B: CUSTOM VIDEO PROMPT MODE — 4-Step UI Flow
   // ─────────────────────────────────────────────────────────────
 
-  // Wait for image generation to complete (poll for the image / video icon to appear)
-  console.log("🔎 [Grok Automation v4] [Custom Prompt Mode] Waiting for generated image before triggering video flow...");
-  await wait(4000); // Initial buffer for generation to kick off
-
-  // Poll until the image appears (up to 120s)
-  let imageReady = false;
-  for (let i = 0; i < 60; i++) {
-    await wait(2000);
-    // Check if a generated image is present in the result area (not thumbnails)
-    const resultImgs = document.querySelectorAll('img[src*="grok"]');
-    if (resultImgs.length > 0) {
-      imageReady = true;
-      console.log("✅ [Grok Automation v4] Generated image detected.");
-      break;
-    }
-    if (i % 5 === 0) console.log(`⏳ [Grok Automation v4] Waiting for image... attempt ${i + 1}/60`);
-  }
-
-  if (!imageReady) {
-    console.warn("⚠️ [Grok Automation v4] Could not confirm image generation, proceeding anyway...");
-  }
-
   const postUrl = window.location.href;
-  await wait(1000);
 
   // ── Step V-1: Click the Video Icon button ────────────────────
   console.log("🎬 [Grok Automation v4] [Step V-1] Clicking the Video icon button...");
-  let videoIconBtn = document.querySelector('button[aria-label="Video"]');
-
-  if (!videoIconBtn) {
-    // Fallback: look for a button containing a video camera SVG icon
-    const allBtns = Array.from(document.querySelectorAll('button'));
-    videoIconBtn = allBtns.find(btn => {
-      const ariaLabel = (btn.getAttribute('aria-label') || '').toLowerCase();
-      return ariaLabel.includes('video') && !ariaLabel.includes('make');
-    });
-  }
+  const allBtns = Array.from(document.querySelectorAll('button'));
+  let videoIconBtn = allBtns.reverse().find(btn => {
+    const ariaLabel = (btn.getAttribute('aria-label') || '').toLowerCase();
+    return ariaLabel.includes('video') && !ariaLabel.includes('make');
+  });
 
   if (!videoIconBtn) {
     console.error("❌ [Grok Automation v4] Video icon button not found!");
-    return { error: "Video icon button not found. The generated image may not have appeared or the UI changed." };
+    return { error: "Video icon button not found." };
   }
 
-  videoIconBtn.click();
+  clickElement(videoIconBtn);
   console.log("⏳ [Grok Automation v4] Clicked Video icon. Waiting for video prompt input to appear...");
   await wait(1500);
 
@@ -335,10 +325,10 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
 
   if (!videoEditableElement) {
     console.error("❌ [Grok Automation v4] Video prompt input box not found after clicking Video icon!");
-    return { error: "Video prompt input box not found. Make sure the video editing panel opened." };
+    return { error: "Video prompt input box not found." };
   }
 
-  videoEditableElement.click();
+  clickElement(videoEditableElement);
   videoEditableElement.focus();
   await wait(500);
 
@@ -351,20 +341,16 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
 
   // ── Step V-4: Submit the Video Prompt ────────────────────────
   console.log("▶️ [Grok Automation v4] [Step V-4] Submitting video prompt...");
-  let videoSubmitBtn =
-    document.querySelector('button[aria-label="Make video"] svg path[d="M6 11L12 5M12 5L18 11M12 5V19"]')?.closest('button') ||
-    document.querySelector('button[aria-label="Edit"]') ||
-    document.querySelector('button[aria-label="Grok"]') ||
-    document.querySelector('button[aria-label="Send"]');
-
-  if (!videoSubmitBtn) {
-    // Generic fallback: last visible button (same as image submit)
-    const buttons = Array.from(document.querySelectorAll('button'));
-    videoSubmitBtn = buttons.reverse().find(b => {
-      const rect = b.getBoundingClientRect();
-      return rect.width > 0 && rect.height > 0;
-    });
-  }
+  const allBtnsV = Array.from(document.querySelectorAll('button'));
+  let videoSubmitBtn = allBtnsV.reverse().find(b => {
+    const rect = b.getBoundingClientRect();
+    return rect.width > 0 && rect.height > 0 && (
+      b.getAttribute('aria-label') === 'Make video' ||
+      b.getAttribute('aria-label') === 'Edit' ||
+      b.getAttribute('aria-label') === 'Grok' ||
+      b.getAttribute('aria-label') === 'Send'
+    );
+  });
 
   if (!videoSubmitBtn) {
     console.error("❌ [Grok Automation v4] Video submit button not found!");
@@ -372,7 +358,7 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
   }
 
   const oldVideoUrl = window.location.href;
-  videoSubmitBtn.click();
+  clickElement(videoSubmitBtn);
   console.log("⏳ [Grok Automation v4] Video prompt submitted. Waiting for URL propagation to video job...");
 
   // Poll for URL change (up to 30s)

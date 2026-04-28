@@ -1,6 +1,7 @@
 {
   "config": {
-    "thumbnail_id": "89dc566f-5157-4b5d-ae8f-976485aced78"
+    "thumbnail_id": "89dc566f-5157-4b5d-ae8f-976485aced78",
+    "video_type": "spicy"
   },
   "prompts": [
     {
@@ -804,22 +805,28 @@
     {
       "id": 79,
       "prompt": "Imagine the exact model in a vintage cinema interior, standing near the old projector. Wearing a red satin micro bikini top and wide-leg high-waist red trousers. Nostalgic soft smile. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Red satin and nostalgic reels. 🎥❤️ Stepping back into a vintage cinema. #vintagecinema #redsatin #fashionmodel #nostalgia #classicstyle #modelpose #cinematic #realisticai",
-      "instagram_upload": "mapped"
+      "instagram_upload": "mapped",
+      "video_url": "https://grok.com/imagine/post/94d5716b-fc37-4f5c-a5bb-b6caa63ea508",
+      "post_url": "https://grok.com/imagine/post/dc51487d-178c-47ba-bc85-e98aced0fddc",
+      "executed_at": "2026-04-28T19:52:33.971566"
     },
     {
       "id": 80,
+      "prompt": "Imagine the exact model in an alpine ski chalet balcony, with snow in the background. Wearing a white micro bikini beneath a fur-trimmed open ski jacket, unzipped. Head slightly tilted, warm cozy smile. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "status": "completed",
+      "instagram_caption": "Chalet vibes and winter sun. ❄️☀️ Keeping it cozy and cool. #skichalet #winterfashion #whitebikini #furcoat #snowday #mountainlife #cozystyle #realisticai",
+      "video_url": "https://grok.com/imagine/post/62a6413b-4ae8-410e-b4f5-6ea914c238ab",
+      "post_url": "https://grok.com/imagine/post/57ec741e-89ec-461c-89bb-149987976627",
+      "executed_at": "2026-04-28T20:02:33.127401"
+    },
+    {
+      "id": 81,
       "prompt": "Imagine the exact model in a Dubai rooftop infinity pool at night. Wearing a champagne gold micro bikini and a sheer gold wrap draped over one shoulder. Loose voluminous curls hairstyle. Playful expression. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She lets the sheer gold wrap slide off her shoulder (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
       "status": "pending",
       "instagram_caption": "Infinity pools and Dubai nights. 🏙️✨ Chasing the gold. #dubailife #infinitypool #goldbikini #nightlights #luxurytravel #playfulexpression #glamour #realisticai"
-    },
-    {
-      "id": 81,
-      "prompt": "Imagine the exact model in an alpine ski chalet balcony, with snow in the background. Wearing a white micro bikini beneath a fur-trimmed open ski jacket, unzipped. Head slightly tilted, warm cozy smile. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Chalet vibes and winter sun. ❄️☀️ Keeping it cozy and cool. #skichalet #winterfashion #whitebikini #furcoat #snowday #mountainlife #cozystyle #realisticai"
     },
     {
       "id": 82,
