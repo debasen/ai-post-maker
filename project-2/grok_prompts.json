@@ -699,7 +699,7 @@
     {
       "id": 73,
       "prompt": "Imagine the exact model in a rooftop with a city panorama at midday. Wearing a coral micro bikini beneath an open coral mesh cover-up. Chin raised slightly, soft smile. Medium wide shot, slightly low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She spreads her arms and the mesh cover-up billows open. Camera pans from her waist to her hips.",
+      "video_prompt": "She spreads her arms and the mesh cover-up billows open (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     },
     {
@@ -720,7 +720,7 @@
     {
       "id": 77,
       "prompt": "Imagine the exact model in a Santorini cobblestone street, with white-washed walls. Wearing a white micro bikini beneath a breezy white crochet cover-up. Looking sideways off-camera, smiling. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "Wind blows the crochet cover-up open. Camera focuses on her waist and bare hips.",
+      "video_prompt": "Wind blows the crochet cover-up open (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     },
     {
@@ -736,7 +736,7 @@
     {
       "id": 80,
       "prompt": "Imagine the exact model in a Dubai rooftop infinity pool at night. Wearing a champagne gold micro bikini and a sheer gold wrap draped over one shoulder. Loose voluminous curls hairstyle. Playful expression. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She lets the sheer gold wrap slide off her shoulder. Camera tracks the fabric down her back and waist.",
+      "video_prompt": "She lets the sheer gold wrap slide off her shoulder (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     },
     {
@@ -777,7 +777,7 @@
     {
       "id": 88,
       "prompt": "Imagine the exact model in a Bali secluded waterfall pool, wading waist-deep. Wearing an emerald green string micro bikini, soaking wet. Serene expression. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "Camera slowly tracks from the waterline at her hips upward to her shoulders, water dripping down her skin.",
+      "video_prompt": "Water drips down her skin (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     },
     {
@@ -803,13 +803,13 @@
     {
       "id": 93,
       "prompt": "Imagine the exact model in a rooftop garden with trailing vines and city skyline. Wearing a sage green micro bikini beneath an open linen shirt tied loosely at the waist. Candid warm smile. Medium shot, slightly high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She unties the linen shirt. Camera pans down her waist as it falls open, revealing her bikini.",
+      "video_prompt": "She unties the linen shirt (Ensure correct movements and physics) revealing her bikini. Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     },
     {
       "id": 94,
       "prompt": "Imagine the exact model in a penthouse bedroom, with floor-to-ceiling windows and city lights behind. Wearing a black lace micro bikini beneath a sheer black robe. Looking out at the city. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "Camera slowly zooms in from her feet upward, stopping at her waist.",
+      "video_prompt": "Camera slowly zooms in from her feet upward (Ensure correct movements and physics) stopping at her waist. Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     },
     {
@@ -820,13 +820,13 @@
     {
       "id": 96,
       "prompt": "Imagine the exact model in a Bangkok night market with string lights and food stalls. Wearing a cobalt blue micro bikini beneath a breezy blue wrap skirt. Joyful, curious expression. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "The wrap skirt flutters in the street breeze. Camera focuses on her waist and legs.",
+      "video_prompt": "The wrap skirt flutters in the street breeze (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     },
     {
       "id": 97,
       "prompt": "Imagine the exact model in a Maldives overwater villa deck at golden hour. Wearing a nude micro bikini and a sheer nude satin wrap. Loose waves hairstyle, golden-hour lit. Eyes gently closed, sun on her face. Full body shot, slightly high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "A sea breeze catches the satin wrap. Camera tracks it drifting across her waist and hips.",
+      "video_prompt": "A sea breeze catches the satin wrap (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     },
     {
@@ -842,7 +842,7 @@
     {
       "id": 100,
       "prompt": "Imagine the exact model in a shoreline at dawn, emerging from a midnight swim. Wearing a dripping wet black micro bikini and a beach towel loosely held. Content smile, glistening skin. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She lets the towel drop. Camera tracks upward from her feet, stopping at her waist.",
+      "video_prompt": "She lets the towel drop (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
       "status": "pending"
     }
   ]
