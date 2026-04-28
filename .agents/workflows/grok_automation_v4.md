@@ -165,6 +165,8 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
         moreOptionsBtn = document.querySelector('button[aria-label="More options"][data-slot="button"]');
         if (moreOptionsBtn) {
           console.log("✅ [Grok Automation v4] 'More options' button found!");
+          moreOptionsBtn.click();
+          await wait(1000);
           break;
         }
         if (i % 5 === 0) console.log(`⏳ [Grok Automation v4] Polling... attempt ${i + 1}/60`);
@@ -177,14 +179,22 @@ async function automateGrokGenerationAdvanced(promptText, thumbnailId, videoProm
 
       const postUrl = window.location.href;
       
-      console.log("🎥 [Grok Automation v4] Clicking 'More options'...");
-      moreOptionsBtn.click();
-      await wait(1000);
+      if (moreOptionsBtn.getAttribute('aria-expanded') !== 'true') {
+        console.log("🎥 [Grok Automation v4] Clicking 'More options'...");
+        moreOptionsBtn.click();
+        await wait(1000);
+      }
       
       console.log("🎥 [Grok Automation v4] Clicking 'Spicy'...");
       let spicyBtn = null;
       try {
-        spicyBtn = document.querySelector('div[role="menuitem"]:has(> div:has-text("Spicy"))');
+        spicyBtn = document.evaluate(
+            "//div[@role='menuitem']//div[normalize-space()='Spicy']",
+            document,
+            null,
+            XPathResult.FIRST_ORDERED_NODE_TYPE,
+            null
+          ).singleNodeValue;
       } catch (e) {
         // Fallback for native DOM selector limitation with :has-text
         const menuItems = Array.from(document.querySelectorAll('div[role="menuitem"]'));
