@@ -44,8 +44,10 @@ const SELECTORS = {
   pauseBtn: 'button[aria-label="Pause"]',
   downloadBtn: 'button[aria-label="Download"]',
 
-  // Moderation indicator (video)
+  // Moderation indicators
   eyeOffSvg: 'svg.lucide-eye-off',
+  moderatedImage: 'img[alt="Moderated"]',
+  moderatedImageClasses: ['blur-lg', 'saturate-0'],
 
   // Failure text patterns (checked against document.body.innerText)
   failurePatterns: [
@@ -113,6 +115,18 @@ const detectVideoSuccess = () => {
     return { success: true, videoUrl: window.location.href };
   }
   return { success: false };
+};
+
+const detectImageModeration = () => {
+  const moderatedImg = document.querySelector(SELECTORS.moderatedImage);
+  if (moderatedImg) {
+    const classList = Array.from(moderatedImg.classList || []);
+    const hasModerationClasses = SELECTORS.moderatedImageClasses.some((cls) => classList.includes(cls));
+    if (hasModerationClasses) {
+      return { moderated: true, reason: 'img[alt="Moderated"] with blur-lg/saturate-0 detected' };
+    }
+  }
+  return { moderated: false };
 };
 
 const detectVideoModeration = () => {
@@ -409,10 +423,16 @@ async function waitForVideoCompletion() {
     }
 
     // Generating indicator disappeared — check moderation FIRST, then success, then text patterns
-    const moderation = detectVideoModeration();
-    if (moderation.moderated) {
-      console.warn(`❌ [Grok v5] Video generation moderated: ${moderation.reason}`);
-      return { status: 'video_failed', error: `Video generation moderated: ${moderation.reason}`, videoUrl: window.location.href };
+    const videoModeration = detectVideoModeration();
+    if (videoModeration.moderated) {
+      console.warn(`⚠️ [Grok v5] Video generation moderated: ${videoModeration.reason}`);
+      return { status: 'video_warning', error: `Video generation moderated: ${videoModeration.reason}`, videoUrl: window.location.href };
+    }
+
+    const imageModeration = detectImageModeration();
+    if (imageModeration.moderated) {
+      console.warn(`⚠️ [Grok v5] Image generation moderated: ${imageModeration.reason}`);
+      return { status: 'image_warning', error: `Image generation moderated: ${imageModeration.reason}`, videoUrl: window.location.href };
     }
 
     const success = detectVideoSuccess();
@@ -424,7 +444,7 @@ async function waitForVideoCompletion() {
     const failure = detectVideoFailure();
     if (failure.failed) {
       console.warn(`❌ [Grok v5] Video generation failed: ${failure.reason}`);
-      return { status: 'video_failed', error: `Video generation failed: ${failure.reason}`, videoUrl: window.location.href };
+      return { status: 'video_warning', error: `Video generation failed: ${failure.reason}`, videoUrl: window.location.href };
     }
 
     console.warn(`⚠️ [Grok v5] Generation indicator disappeared but no success/failure/moderation detected.`);
@@ -432,7 +452,7 @@ async function waitForVideoCompletion() {
   }
 
   console.warn('⚠️ [Grok v5] Video generation polling timed out.');
-  return { status: 'video_failed', error: 'Video generation timed out after ~6 minutes.', videoUrl: window.location.href };
+  return { status: 'video_warning', error: 'Video generation timed out after ~6 minutes.', videoUrl: window.location.href };
 }
 
 // ─────────────────────────────────────────────────────────────

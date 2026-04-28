@@ -990,9 +990,11 @@
     {
       "id": 99,
       "prompt": "Imagine the exact model with slight curvy body in a peaceful lakeside dock at sunrise. Wearing a comfortable short knit dress. sitting on the edge and smiling peacefully. Medium wide shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Peaceful sunrises on the lakeside dock. 🌅💧 A beautiful start to the day. #lake #sunrise #knitdress #peaceful #dock #morning #calm",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://post.com",
+      "video_url": "https://video.com",
+      "executed_at": "2026-04-28T23:34:34.741555"
     },
     {
       "id": 100,
