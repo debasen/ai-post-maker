@@ -33,14 +33,24 @@ def get_config(file_path):
     print(json.dumps(config))
 
 def get_next(file_path):
-    """Print the first pending prompt."""
+    """Print the first video_failed (retry) or pending prompt."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
+    # Priority 1: video_failed (retry candidates)
+    for item in prompts:
+        if item.get("status") == "video_failed":
+            result = dict(item)
+            result["retry_mode"] = True
+            print(json.dumps(result))
+            return
+    # Priority 2: pending (new items)
     for item in prompts:
         if item.get("status") == "pending":
-            print(json.dumps(item))
+            result = dict(item)
+            result["retry_mode"] = False
+            print(json.dumps(result))
             return
-    print(json.dumps({"error": "No pending prompts"}))
+    print(json.dumps({"error": "No pending or retry prompts"}))
 
 def complete(file_path, prompt_id, video_url, post_url):
     """Mark a prompt as completed with its URLs."""
@@ -53,12 +63,52 @@ def complete(file_path, prompt_id, video_url, post_url):
             item["video_url"] = video_url
             item["post_url"] = post_url
             item["executed_at"] = datetime.now().isoformat()
+            # Clean up any failure timestamps if reprocessed
+            item.pop("video_failed_at", None)
+            item.pop("failed_at", None)
             found = True
             break
 
     if found:
         save_data(file_path, data)
         print(json.dumps({"success": True, "id": prompt_id}))
+    else:
+        print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
+
+def mark_video_failed(file_path, prompt_id, post_url):
+    """Mark a prompt as video_failed after first failure."""
+    data = load_data(file_path)
+    prompts = data.get("prompts", [])
+    found = False
+    for item in prompts:
+        if str(item.get("id")) == str(prompt_id):
+            item["status"] = "video_failed"
+            item["post_url"] = post_url
+            item["video_failed_at"] = datetime.now().isoformat()
+            found = True
+            break
+
+    if found:
+        save_data(file_path, data)
+        print(json.dumps({"success": True, "id": prompt_id, "status": "video_failed"}))
+    else:
+        print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
+
+def mark_failed(file_path, prompt_id):
+    """Mark a prompt as failed (terminal, no more retries)."""
+    data = load_data(file_path)
+    prompts = data.get("prompts", [])
+    found = False
+    for item in prompts:
+        if str(item.get("id")) == str(prompt_id):
+            item["status"] = "failed"
+            item["failed_at"] = datetime.now().isoformat()
+            found = True
+            break
+
+    if found:
+        save_data(file_path, data)
+        print(json.dumps({"success": True, "id": prompt_id, "status": "failed"}))
     else:
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
@@ -93,7 +143,9 @@ def update_mapping_status(file_path, prompt_id, status):
 def print_usage():
     print(
         "Usage: python3 shared/grok_tracker.py --project <1|2> "
-        "[get_next | get_config | complete <id> <video_url> <post_url>]"
+        "[get_next | get_config | complete <id> <video_url> <post_url> | "
+        "mark_video_failed <id> <post_url> | mark_failed <id> | "
+        "get_next_to_map | update_mapping_status <id> <status>]"
     )
 
 if __name__ == "__main__":
@@ -128,6 +180,16 @@ if __name__ == "__main__":
             print("Usage: ... complete <id> <video_url> <post_url>")
             sys.exit(1)
         complete(file_path, args[3], args[4], args[5])
+    elif command == "mark_video_failed":
+        if len(args) < 5:
+            print("Usage: ... mark_video_failed <id> <post_url>")
+            sys.exit(1)
+        mark_video_failed(file_path, args[3], args[4])
+    elif command == "mark_failed":
+        if len(args) < 4:
+            print("Usage: ... mark_failed <id>")
+            sys.exit(1)
+        mark_failed(file_path, args[3])
     else:
         print(json.dumps({"error": f"Unknown command '{command}'"}))
         print_usage()
