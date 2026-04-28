@@ -129,7 +129,7 @@ Inject and evaluate the following JavaScript snippet into the active Instagram t
 
 ---
 
-### Step 5: Execute Automation Script (Part 2 - Crop, Next, Caption, Share)
+### Step 5: Execute Automation Script (Part 2 - Crop, Next, Caption)
 
 > **⚠️ CDP Timeout Risk**: Do NOT combine crop/next and caption into a single script. Total await time exceeds 15 seconds which drops the CDP connection. Run as **two separate `evaluate_script` calls** below.
 
@@ -227,39 +227,44 @@ Inject and evaluate the following JavaScript snippet into the active Instagram t
 })();
 ```
 
-> **After Step 5b returns**: Confirm `captionEntered` looks correct and `shareBtnFound` is `true`. <!-- Then use `take_snapshot` → `click` the Share button element to publish. -->
-
-#### Step 5c — Abort / Discard (dry-run cleanup only, do NOT run when publishing)
-
-```javascript
-// Dismiss the modal and discard the draft without posting
-(() => {
-  const closeSvg = document.querySelector('svg[aria-label="Close"]');
-  if (closeSvg) { (closeSvg.closest('button') || closeSvg.parentElement).click(); return { closed: true }; }
-  return { closed: false };
-})();
-```
-
-Then after ~1 second, click **Discard** in the confirmation dialog:
-
-```javascript
-(() => {
-  const discardBtn = Array.from(document.querySelectorAll('button'))
-    .find(b => b.textContent.trim() === 'Discard');
-  if (discardBtn) { discardBtn.click(); return { discarded: true }; }
-  return { discarded: false, note: 'Dialog may have auto-dismissed already' };
-})();
-```
+> **After Step 5b returns**: Confirm `captionEntered` looks correct and `shareBtnFound` is `true`.
 
 ---
 
-### Step 6: Verify and Update Status
+### Step 6: Update progress
 
-1. **Verify Success**: 
-   - Check for a "Your post has been shared" message or similar.
-   - Use `take_snapshot` to confirm the modal has closed or success UI is visible.
+1. **Update JSON**: Run the following command to update the status for the `ID` extracted in Step 1:
 
-2. **Update JSON**:
-   - Once confirmed, update the prompt entry in `project-<N>/grok_prompts.json` to `"instagram_upload": "done"`.
-   - Use `replace_file_content` to make this change.
+```bash
+# Replace <N> with project number and <ID> with the extracted ID
+python3 -c "
+import json
+import sys
+import os
 
+project = sys.argv[1]
+target_id = int(sys.argv[2])
+filepath = f'project-{project}/grok_prompts.json'
+
+if not os.path.exists(filepath):
+    print(f'File not found: {filepath}')
+    sys.exit(1)
+
+with open(filepath, 'r') as f:
+    data = json.load(f)
+
+updated = False
+for entry in data.get('prompts', []):
+    if entry.get('id') == target_id:
+        entry['instagram_upload'] = 'done'
+        updated = True
+        break
+
+if updated:
+    with open(filepath, 'w') as f:
+        json.dump(data, f, indent=2)
+    print(f'Successfully updated ID {target_id} to done in Project {project}')
+else:
+    print(f'ID {target_id} not found in {filepath}')
+" <N> <ID>
+```

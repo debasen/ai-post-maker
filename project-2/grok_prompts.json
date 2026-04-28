@@ -522,7 +522,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/76e9f1fe-6d38-4789-afe2-f8669a5f4c13",
       "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": "2026-04-28T01:05:17.026652"
+      "executed_at": "2026-04-28T01:05:17.026652",
+      "instagram_upload": "not-found"
     },
     {
       "id": 52,
@@ -530,7 +531,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/e6ce2ea7-ae4a-43cb-a729-775f600ecad3",
       "post_url": "https://grok.com/imagine/post/aab45715-9cbc-4c7f-8e5f-d37edc6c391b",
-      "executed_at": "2026-04-28T01:08:24.988473"
+      "executed_at": "2026-04-28T01:08:24.988473",
+      "instagram_upload": "mapped"
     },
     {
       "id": 53,
@@ -538,7 +540,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/f99f0582-7758-4092-ac18-4cd4af64e45e",
       "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
-      "executed_at": "2026-04-28T01:18:40.553830"
+      "executed_at": "2026-04-28T01:18:40.553830",
+      "instagram_upload": "mapped"
     },
     {
       "id": 54,
@@ -547,7 +550,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/5a02450f-d7d1-4307-bea0-a979a50428a1",
       "post_url": "https://grok.com/imagine/post/fd147c8c-f786-488b-8a9d-13de8b106268",
-      "executed_at": "2026-04-28T01:31:33.203392"
+      "executed_at": "2026-04-28T01:31:33.203392",
+      "instagram_upload": "mapped"
     },
     {
       "id": 55,
@@ -566,7 +570,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/a5ca6836-319c-4d3c-8389-c09f728661ef",
       "post_url": "https://grok.com/imagine/post/cd840a7e-d2f0-462d-9a52-8ef2462be26b",
-      "executed_at": "2026-04-28T01:45:04.375323"
+      "executed_at": "2026-04-28T01:45:04.375323",
+      "instagram_upload": "mapped"
     },
     {
       "id": 58,
@@ -574,7 +579,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/01a90b4f-a5b7-406b-a21a-1d4d7ffebcb1",
       "post_url": "https://grok.com/imagine/post/6389e743-dace-4365-8abe-778e5a5b35e2",
-      "executed_at": "2026-04-28T01:51:02.277750"
+      "executed_at": "2026-04-28T01:51:02.277750",
+      "instagram_upload": "mapped"
     },
     {
       "id": 59,
@@ -583,7 +589,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T01:57:36.776730"
+      "executed_at": "2026-04-28T01:57:36.776730",
+      "instagram_upload": "mapped"
     },
     {
       "id": 60,
@@ -591,7 +598,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T02:03:21.157323"
+      "executed_at": "2026-04-28T02:03:21.157323",
+      "instagram_upload": "mapped"
     },
     {
       "id": 61,
@@ -600,7 +608,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T02:09:04.476152"
+      "executed_at": "2026-04-28T02:09:04.476152",
+      "instagram_upload": "mapped"
     },
     {
       "id": 62,
@@ -608,7 +617,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/b33e5fcb-3093-497b-b28f-d07988b13c50",
       "post_url": "https://grok.com/imagine/post/0d338cc4-dd24-43bb-b260-bddc1ca942bc",
-      "executed_at": "2026-04-28T02:14:54.259770"
+      "executed_at": "2026-04-28T02:14:54.259770",
+      "instagram_upload": "mapped"
     },
     {
       "id": 63,
@@ -616,7 +626,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/a9b57899-73c0-4db3-a766-f8cc3cd6b29c",
       "post_url": "https://grok.com/imagine/post/d172dc76-cd3a-41ab-83d4-458c9c6623f2",
-      "executed_at": "2026-04-28T02:21:01.909322"
+      "executed_at": "2026-04-28T02:21:01.909322",
+      "instagram_upload": "mapped"
     },
     {
       "id": 64,
@@ -624,7 +635,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T02:26:47.343269"
+      "executed_at": "2026-04-28T02:26:47.343269",
+      "instagram_upload": "mapped"
     },
     {
       "id": 65,
@@ -633,7 +645,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T02:32:29.830889"
+      "executed_at": "2026-04-28T02:32:29.830889",
+      "instagram_upload": "mapped"
     },
     {
       "id": 66,
@@ -642,7 +655,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T02:47:48.932403"
+      "executed_at": "2026-04-28T02:47:48.932403",
+      "instagram_upload": "mapped"
     },
     {
       "id": 67,
@@ -651,7 +665,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T02:53:31.149521"
+      "executed_at": "2026-04-28T02:53:31.149521",
+      "instagram_upload": "mapped"
     },
     {
       "id": 68,
@@ -659,7 +674,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/df895d7f-1045-45a1-97e5-7812593ebef5",
       "post_url": "https://grok.com/imagine/post/690846fe-32cb-4be4-87dd-515bb830d657",
-      "executed_at": "2026-04-28T03:00:02.376171"
+      "executed_at": "2026-04-28T03:00:02.376171",
+      "instagram_upload": "mapped"
     },
     {
       "id": 69,
@@ -668,7 +684,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T03:05:46.595403"
+      "executed_at": "2026-04-28T03:05:46.595403",
+      "instagram_upload": "mapped"
     },
     {
       "id": 70,
@@ -677,7 +694,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T03:11:29.349983"
+      "executed_at": "2026-04-28T03:11:29.349983",
+      "instagram_upload": "mapped"
     },
     {
       "id": 71,
@@ -686,7 +704,8 @@
       "status": "completed",
       "video_url": "moderated",
       "post_url": "moderated",
-      "executed_at": "2026-04-28T03:17:09.313717"
+      "executed_at": "2026-04-28T03:17:09.313717",
+      "instagram_upload": "mapped"
     },
     {
       "id": 72,
@@ -694,7 +713,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/84c52420-fc4f-4e2a-a6ed-2ddbff84c9cb",
       "post_url": "https://grok.com/imagine/post/75eb0e73-1690-4ce9-827b-f1e3f6088e73",
-      "executed_at": "2026-04-28T03:23:02.960046"
+      "executed_at": "2026-04-28T03:23:02.960046",
+      "instagram_upload": "mapped"
     },
     {
       "id": 73,
