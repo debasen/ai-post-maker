@@ -227,8 +227,6 @@ Inject and evaluate the following JavaScript snippet into the active Instagram t
 })();
 ```
 
-> **After Step 5b returns**: Confirm `captionEntered` looks correct and `shareBtnFound` is `true`.
-
 ---
 
 ### Step 6: Update progress

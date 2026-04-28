@@ -471,7 +471,7 @@
       "instagram_caption": "Exploring the mysteries of ancient desert temple ruins. 🕌✨ History etched in stone. #ancientruins #deserttemple #adventure #historylovers #mysterious #archaeology #explorer",
       "post_url": "https://grok.com/imagine/post/6a5963fd-0e64-4d0b-a7e1-b5e4c6eb8539",
       "executed_at": "2026-04-27T00:50:56.973534",
-      "instagram_upload": "mapped"
+      "instagram_upload": "done"
     },
     {
       "id": 48,
@@ -893,17 +893,21 @@
       "id": 88,
       "prompt": "Imagine the exact model with slight curvy body in a bright art studio. Wearing a paint-splattered denim mini overall. painting on a canvas and smiling creatively. Medium shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She adds a stroke of paint to the canvas (Ensure correct movements and physics) her creative smile beaming.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Getting creative in the bright art studio! 🎨🖌️ Colors everywhere. #artstudio #painting #denim #creative #artist #colors #smile",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/0548de93-f768-49f5-9074-b680a07a21f4",
+      "video_url": "https://grok.com/imagine/post/05c94b85-86dd-4dcb-b3cf-9e9c99f6a490",
+      "executed_at": "2026-04-28T17:38:57.748133"
     },
     {
       "id": 89,
       "prompt": "Imagine the exact model with slight curvy body in a sunny boardwalk by the beach. Wearing a breezy short beach cover-up. eating an ice cream cone and smiling happily. Medium shot. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She walks down the boardwalk (Ensure correct movements and physics) happily enjoying her ice cream cone in the sun.",
-      "status": "pending",
+      "status": "completed",
       "instagram_caption": "Ice cream and sunshine on the boardwalk! 🍦☀️ Summer days are the best. #boardwalk #icecream #summer #beachcoverup #happy #sunny #beachlife",
-      "post_url": "https://grok.com/imagine/post/58e993f2-397c-4214-995d-ed917ba3e575"
+      "post_url": "https://grok.com/imagine/post/1155d26d-8448-4b2d-a124-94728da57827",
+      "video_url": "https://grok.com/imagine/post/fc690128-4656-4338-8c14-bf0f1b20a0dd",
+      "executed_at": "2026-04-28T17:45:39.184204"
     },
     {
       "id": 90,
