@@ -227,7 +227,7 @@ Inject and evaluate the following JavaScript snippet into the active Instagram t
 })();
 ```
 
-> **After Step 5b returns**: Confirm `captionEntered` looks correct and `shareBtnFound` is `true`. Then use `take_snapshot` → `click` the Share button element to publish.
+> **After Step 5b returns**: Confirm `captionEntered` looks correct and `shareBtnFound` is `true`. <!-- Then use `take_snapshot` → `click` the Share button element to publish. -->
 
 #### Step 5c — Abort / Discard (dry-run cleanup only, do NOT run when publishing)
 

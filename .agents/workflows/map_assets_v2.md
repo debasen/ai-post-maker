@@ -1,3 +1,7 @@
+---
+description: Mapping Video Assets
+---
+
 # Mapping Video Assets Skill (Agent-First)
 
 This skill allows an AI agent to map video files in `project-{N}/assets/` to their prompt IDs in `grok_prompts.json` using visual verification. This is intended for use when no external API key is available for scripts.
