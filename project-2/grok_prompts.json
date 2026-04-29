@@ -1,7 +1,7 @@
 {
   "config": {
     "thumbnail_id": "89dc566f-5157-4b5d-ae8f-976485aced78",
-    "video_type": "spicy"
+    "video_type": null
   },
   "prompts": [
     {
@@ -852,45 +852,66 @@
     {
       "id": 84,
       "prompt": "Imagine the exact model in a luxury spa treatment room, lying on a massage table. Wearing a nude micro bikini and a spa towel loosely draped at the waist. Eyes closed, peaceful expression. Medium shot, slightly high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Peaceful moments at the spa. 🧖‍♀️✨ Pure serenity and relaxation. #luxuryspa #spaday #nudebikini #peaceful #wellness #relaxing #selfcare #realisticai"
+      "status": "completed",
+      "instagram_caption": "Peaceful moments at the spa. 🧖‍♀️✨ Pure serenity and relaxation. #luxuryspa #spaday #nudebikini #peaceful #wellness #relaxing #selfcare #realisticai",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/3992230d-68ec-434d-b895-77cb11e675dd/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/3992230d-68ec-434d-b895-77cb11e675dd",
+      "executed_at": "2026-04-29T00:36:05.181434"
     },
     {
       "id": 85,
       "prompt": "Imagine the exact model in a moonlit desert, sitting cross-legged by a bonfire. Wearing a boho fringe micro bikini. Loose tousled hair. Head slightly bowed, gazing at the fire. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Desert bonfires and boho dreams. 🔥🌙 The night is full of magic. #desertnight #bonfire #fringebikini #bohostyle #moonlit #freevibe #naturemagic #realisticai"
+      "status": "completed",
+      "instagram_caption": "Desert bonfires and boho dreams. 🔥🌙 The night is full of magic. #desertnight #bonfire #fringebikini #bohostyle #moonlit #freevibe #naturemagic #realisticai",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/87628dee-62c9-4809-8878-376508c5b667/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/87628dee-62c9-4809-8878-376508c5b667",
+      "executed_at": "2026-04-29T00:47:20.155805"
     },
     {
       "id": 86,
       "prompt": "Imagine the exact model in a neon-lit Tokyo street, leaning against a wall by vending machines. Wearing a black micro bikini beneath a sheer black mesh crop top and vinyl mini skirt. Cool, unbothered expression. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Tokyo neon and vinyl vibes. 🗼🖤 Keeping it cool in the city that never sleeps. #tokyostreets #neonlights #blackbikini #vinylskirt #cyberpunk #tokyonights #modelpose #realisticai"
+      "status": "completed",
+      "instagram_caption": "Tokyo neon and vinyl vibes. 🗼🖤 Keeping it cool in the city that never sleeps. #tokyostreets #neonlights #blackbikini #vinylskirt #cyberpunk #tokyonights #modelpose #realisticai",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/ddbd1de2-dbab-4369-a7c9-adc67adf922f/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/ddbd1de2-dbab-4369-a7c9-adc67adf922f",
+      "executed_at": "2026-04-29T00:58:24.391425"
     },
     {
       "id": 87,
       "prompt": "Imagine the exact model in an opulent ballroom, standing at the top of a grand staircase. Wearing a rhinestone micro bikini top and a floor-length sheer overlay skirt. Head pose looking down the staircase, elegant smile. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Grand entrances and rhinestone glitz. 🏰✨ Elegance at every step. #ballroom #grandstaircase #rhinestonebikini #sheerskirt #elegantstyle #highfashion #glamour #realisticai"
+      "status": "completed",
+      "instagram_caption": "Grand entrances and rhinestone glitz. 🏰✨ Elegance at every step. #ballroom #grandstaircase #rhinestonebikini #sheerskirt #elegantstyle #highfashion #glamour #realisticai",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/bb006d16-ec04-4b00-b814-ba74006b8db9/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/bb006d16-ec04-4b00-b814-ba74006b8db9",
+      "executed_at": "2026-04-29T06:15:41.518355"
     },
     {
       "id": 88,
       "prompt": "Imagine the exact model in a Bali secluded waterfall pool, wading waist-deep. Wearing an emerald green string micro bikini, soaking wet. Serene expression. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "Water drips down her skin (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
-      "status": "pending",
-      "instagram_caption": "Waterfall wonders in Bali. 💦🌿 Soaking in the emerald beauty. #balilife #waterfall #emeraldbikini #soakingwet #naturephotography #islandvibes #serene #realisticai"
+      "status": "completed",
+      "instagram_caption": "Waterfall wonders in Bali. 💦🌿 Soaking in the emerald beauty. #balilife #waterfall #emeraldbikini #soakingwet #naturephotography #islandvibes #serene #realisticai",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/8a13dcf5-0b10-41f1-b578-821929a53ea4/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/8a13dcf5-0b10-41f1-b578-821929a53ea4",
+      "executed_at": "2026-04-29T09:00:46.411425"
     },
     {
       "id": 89,
       "prompt": "Imagine the exact model in a futuristic white space-themed studio with reflective floors. Wearing a white chrome high-cut one-piece with geometric cutouts. Confident smirk at the camera. Full body shot, slightly low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Futuristic vibes and white chrome. 🛸✨ Boldly going where no model has gone before. #futuristicstyle #whitechrome #onepiecebikini #reflective #spaceaesthetic #confidentwomen #realisticai"
+      "status": "completed",
+      "instagram_caption": "Futuristic vibes and white chrome. 🛸✨ Boldly going where no model has gone before. #futuristicstyle #whitechrome #onepiecebikini #reflective #spaceaesthetic #confidentwomen #realisticai",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/b29de232-0e1f-408e-bd23-757bea4ffd2f/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/b29de232-0e1f-408e-bd23-757bea4ffd2f",
+      "executed_at": "2026-04-29T09:13:57.946281"
     },
     {
       "id": 90,
       "prompt": "Imagine the exact model in a Florence cobblestone alley at blue hour, leaning in a doorway. Wearing a black lace micro bikini beneath an open rust leather jacket. Dreamy wistful gaze. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Blue hour in Florence. 🇮🇹💙 A wistful gaze in the cobblestone alley. #florenceitaly #bluehour #lacebikini #leatherjacket #dreamy #travelstyle #europeanvibes #realisticai"
+      "status": "completed",
+      "instagram_caption": "Blue hour in Florence. 🇮🇹💙 A wistful gaze in the cobblestone alley. #florenceitaly #bluehour #lacebikini #leatherjacket #dreamy #travelstyle #europeanvibes #realisticai",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/2f4f57b5-02b3-4fd1-914a-1a9d78e44c9a/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/2f4f57b5-02b3-4fd1-914a-1a9d78e44c9a",
+      "executed_at": "2026-04-29T09:25:11.448934"
     },
     {
       "id": 91,
