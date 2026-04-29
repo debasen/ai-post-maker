@@ -3,11 +3,11 @@
 grok_asset_downloader.py — Automated video asset download queue & file manager.
 
 Usage:
-  python3 shared/grok_asset_downloader.py --project <1|2> queue [--lifo]
-  python3 shared/grok_asset_downloader.py --project <1|2> list_downloaded
-  python3 shared/grok_asset_downloader.py --project <1|2> rename <source_path> <record_id>
-  python3 shared/grok_asset_downloader.py --project <1|2> batch_rename <download_dir>
-  python3 shared/grok_asset_downloader.py --project <1|2> stats
+  python3 scripts/py/grok_asset_downloader.py --project <1|2> queue [--lifo]
+  python3 scripts/py/grok_asset_downloader.py --project <1|2> list_downloaded
+  python3 scripts/py/grok_asset_downloader.py --project <1|2> rename <source_path> <record_id>
+  python3 scripts/py/grok_asset_downloader.py --project <1|2> batch_rename <download_dir>
+  python3 scripts/py/grok_asset_downloader.py --project <1|2> stats
 """
 
 import argparse
@@ -21,7 +21,7 @@ from datetime import datetime
 
 def get_project_path(project_id: int) -> Path:
     """Resolve project directories."""
-    repo_root = Path(__file__).parent.parent
+    repo_root = Path(__file__).parent.parent.parent
     return repo_root / f"project-{project_id}"
 
 

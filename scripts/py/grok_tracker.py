@@ -6,7 +6,7 @@ from datetime import datetime
 def get_project_path(project_id):
     """Resolve the path to grok_prompts.json in the project folder."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_root = os.path.dirname(script_dir)
+    repo_root = os.path.dirname(os.path.dirname(script_dir))
     return os.path.join(repo_root, f"project-{project_id}", "grok_prompts.json")
 
 def load_data(file_path):
@@ -35,40 +35,49 @@ def get_config(file_path):
 def get_next(file_path):
     """Print the first retry candidate or pending prompt.
 
-    Retry priority:
-      1. video_warning (first video failure — retry with toned down)
-      2. image_warning (first image failure — retry with toned down)
-      3. pending (new items)
+    Priority order:
+      1. video_warning
+      2. image_warning
+      3. pending
     """
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     
-    # Priority 1: video_warning (first video failure — retry)
+    # Priority 1: video_warning
     for item in prompts:
         if item.get("status") == "video_warning":
-            result = dict(item)
-            result["retry_mode"] = True
-            result["retry_reason"] = "video_warning"
-            print(json.dumps(result))
+            print(json.dumps(item))
             return
     
-    # Priority 2: image_warning (first image failure — retry)
+    # Priority 2: image_warning
     for item in prompts:
         if item.get("status") == "image_warning":
-            result = dict(item)
-            result["retry_mode"] = True
-            result["retry_reason"] = "image_warning"
-            print(json.dumps(result))
+            print(json.dumps(item))
             return
     
-    # Priority 3: pending (new items)
+    # Priority 3: pending
     for item in prompts:
         if item.get("status") == "pending":
-            result = dict(item)
-            result["retry_mode"] = False
-            print(json.dumps(result))
+            print(json.dumps(item))
             return
-    print(json.dumps({"error": "No pending or retry prompts"}))
+    print(json.dumps({"error": "No pending or warning prompts"}))
+
+def update_field(file_path, prompt_id, field_name, value):
+    """Update a specific field for a prompt."""
+    data = load_data(file_path)
+    prompts = data.get("prompts", [])
+    found = False
+    for item in prompts:
+        if str(item.get("id")) == str(prompt_id):
+            item[field_name] = value
+            found = True
+            break
+    
+    if found:
+        save_data(file_path, data)
+        print(json.dumps({"success": True, "id": prompt_id, "field": field_name}))
+    else:
+        print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
 def complete(file_path, prompt_id, video_url, post_url):
     """Mark a prompt as completed with its URLs."""
@@ -81,12 +90,6 @@ def complete(file_path, prompt_id, video_url, post_url):
             item["video_url"] = video_url
             item["post_url"] = post_url
             item["executed_at"] = datetime.now().isoformat()
-            # Clean up any failure timestamps if reprocessed
-            item.pop("video_failed_at", None)
-            item.pop("video_warning_at", None)
-            item.pop("image_warning_at", None)
-            item.pop("image_failed_at", None)
-            item.pop("failed_at", None)
             found = True
             break
 
@@ -97,7 +100,7 @@ def complete(file_path, prompt_id, video_url, post_url):
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
 def mark_video_warning(file_path, prompt_id, post_url):
-    """Mark a prompt as video_warning after first video failure/moderation (will retry)."""
+    """Mark a prompt as video_warning (will retry with toned down prompt)."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     found = False
@@ -105,7 +108,7 @@ def mark_video_warning(file_path, prompt_id, post_url):
         if str(item.get("id")) == str(prompt_id):
             item["status"] = "video_warning"
             item["post_url"] = post_url
-            item["video_warning_at"] = datetime.now().isoformat()
+            item["executed_at"] = datetime.now().isoformat()
             found = True
             break
 
@@ -116,7 +119,7 @@ def mark_video_warning(file_path, prompt_id, post_url):
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
 def mark_video_failed(file_path, prompt_id, post_url):
-    """Mark a prompt as video_failed — terminal, no more retries."""
+    """Mark a prompt as video_failed — terminal."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     found = False
@@ -124,7 +127,7 @@ def mark_video_failed(file_path, prompt_id, post_url):
         if str(item.get("id")) == str(prompt_id):
             item["status"] = "video_failed"
             item["post_url"] = post_url
-            item["video_failed_at"] = datetime.now().isoformat()
+            item["executed_at"] = datetime.now().isoformat()
             found = True
             break
 
@@ -135,7 +138,7 @@ def mark_video_failed(file_path, prompt_id, post_url):
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
 def mark_image_warning(file_path, prompt_id, post_url):
-    """Mark a prompt as image_warning after first image failure/moderation (will retry)."""
+    """Mark a prompt as image_warning (will retry with toned down prompt)."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     found = False
@@ -143,7 +146,7 @@ def mark_image_warning(file_path, prompt_id, post_url):
         if str(item.get("id")) == str(prompt_id):
             item["status"] = "image_warning"
             item["post_url"] = post_url
-            item["image_warning_at"] = datetime.now().isoformat()
+            item["executed_at"] = datetime.now().isoformat()
             found = True
             break
 
@@ -154,7 +157,7 @@ def mark_image_warning(file_path, prompt_id, post_url):
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
 def mark_image_failed(file_path, prompt_id, post_url):
-    """Mark a prompt as image_failed — terminal, no more retries."""
+    """Mark a prompt as image_failed — terminal."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     found = False
@@ -162,26 +165,7 @@ def mark_image_failed(file_path, prompt_id, post_url):
         if str(item.get("id")) == str(prompt_id):
             item["status"] = "image_failed"
             item["post_url"] = post_url
-            item["image_failed_at"] = datetime.now().isoformat()
-            found = True
-            break
-
-    if found:
-        save_data(file_path, data)
-        print(json.dumps({"success": True, "id": prompt_id, "status": "image_failed"}))
-    else:
-        print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
-
-def mark_failed(file_path, prompt_id):
-    """Mark a prompt as image_failed (maps legacy failed to image_failed)."""
-    data = load_data(file_path)
-    prompts = data.get("prompts", [])
-    found = False
-    for item in prompts:
-        if str(item.get("id")) == str(prompt_id):
-            item["status"] = "image_failed"
-            item["image_failed_at"] = datetime.now().isoformat()
-            item.pop("failed_at", None)
+            item["executed_at"] = datetime.now().isoformat()
             found = True
             break
 
@@ -196,14 +180,13 @@ def get_next_to_map(file_path):
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     for item in prompts:
-        # We only map completed prompts that haven't been mapped yet
         if item.get("status") == "completed" and "instagram_upload" not in item:
             print(json.dumps(item))
             return
     print(json.dumps({"error": "No prompts to map"}))
 
 def update_mapping_status(file_path, prompt_id, status):
-    """Update instagram_upload field (done, not-found)."""
+    """Update instagram_upload field."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     found = False
@@ -221,18 +204,17 @@ def update_mapping_status(file_path, prompt_id, status):
 
 def print_usage():
     print(
-        "Usage: python3 shared/grok_tracker.py --project <1|2> "
+        "Usage: python3 scripts/py/grok_tracker.py --project <1|2> "
         "[get_next | get_config | complete <id> <video_url> <post_url> | "
         "mark_video_warning <id> <post_url> | mark_video_failed <id> <post_url> | "
         "mark_image_warning <id> <post_url> | mark_image_failed <id> <post_url> | "
-        "mark_failed <id> | "
+        "update_field <id> <field_name> <value> | "
         "get_next_to_map | update_mapping_status <id> <status>]"
     )
 
 if __name__ == "__main__":
     args = sys.argv[1:]
 
-    # Parse --project flag
     if len(args) < 3 or args[0] != "--project":
         print_usage()
         sys.exit(1)
@@ -281,12 +263,13 @@ if __name__ == "__main__":
             print("Usage: ... mark_image_failed <id> <post_url>")
             sys.exit(1)
         mark_image_failed(file_path, args[3], args[4])
-    elif command == "mark_failed":
-        if len(args) < 4:
-            print("Usage: ... mark_failed <id>")
+    elif command == "update_field":
+        if len(args) < 6:
+            print("Usage: ... update_field <id> <field_name> <value>")
             sys.exit(1)
-        mark_failed(file_path, args[3])
+        update_field(file_path, args[3], args[4], args[5])
     else:
         print(json.dumps({"error": f"Unknown command '{command}'"}))
         print_usage()
         sys.exit(1)
+

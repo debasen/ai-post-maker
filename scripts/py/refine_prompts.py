@@ -3,7 +3,7 @@ refine_prompts.py
 Applies prompt and caption refinements to grok_prompts_{N}.json.
 
 Usage:
-    python3 shared/refine_prompts.py --project <1|2>
+    python3 scripts/py/refine_prompts.py --project <1|2>
 """
 import json
 import os
@@ -63,11 +63,11 @@ def main():
     parser.add_argument("--project", required=True, choices=["1", "2"])
     args = parser.parse_args()
 
-    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     file_path = os.path.join(repo_root, f"project-{args.project}", "grok_prompts.json")
 
     if args.project == "2":
-        print(f"Project 2 uses shared/make_edgy.py for custom sassy refinement.")
+        print(f"Project 2 uses scripts/py/make_edgy.py for custom sassy refinement.")
         return
 
     if not os.path.exists(file_path):

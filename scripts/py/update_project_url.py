@@ -3,7 +3,7 @@ update_project_url.py
 Updates the post_url for all pending prompts in grok_prompts_{N}.json.
 
 Usage:
-    python3 shared/update_project_url.py --project <1|2> --url <new_url>
+    python3 scripts/py/update_project_url.py --project <1|2> --url <new_url>
 """
 import json
 import sys
@@ -18,7 +18,7 @@ def main():
                         help="New starting Grok post URL to assign to all pending prompts")
     args = parser.parse_args()
 
-    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     file_path = os.path.join(repo_root, f"project-{args.project}", "grok_prompts.json")
 
     if not os.path.exists(file_path):

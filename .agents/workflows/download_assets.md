@@ -20,7 +20,7 @@ This workflow automatically downloads completed Grok videos from their post URLs
 Run the downloader script to get the list of missing videos sorted LIFO:
 
 ```bash
-python3 shared/grok_asset_downloader.py --project <1|2> queue
+python3 scripts/py/grok_asset_downloader.py --project <1|2> queue
 ```
 
 This outputs a JSON array like:
@@ -66,7 +66,7 @@ Inject the downloader helper and check for video:
 {
   "page": <grok_page_id>,
   "expression": `
-    ${await fetch('/Users/dsen/Projects/ai-post-maker/shared/grok_downloader.js').then(r=>r.text())}
+    ${await fetch('/Users/dsen/Projects/ai-post-maker/scripts/js/grok_downloader.js').then(r=>r.text())}
     GrokDownloader.checkPage();
   `
 }
@@ -132,13 +132,13 @@ Use `download_file` to click the Download button and save directly to the projec
 After the download completes, rename the file to match the record ID:
 
 ```bash
-python3 shared/grok_asset_downloader.py --project <1|2> rename \
+python3 scripts/py/grok_asset_downloader.py --project <1|2> rename \
   "project-<1|2>/assets/<downloaded_filename>.mp4" <record_id>
 ```
 
 Example:
 ```bash
-python3 shared/grok_asset_downloader.py --project 1 rename \
+python3 scripts/py/grok_asset_downloader.py --project 1 rename \
   "project-1/assets/grok-video-89dc566f-5157-4b5d-ae8f-976485aced78.mp4" 99
 ```
 
@@ -151,7 +151,7 @@ This will rename the file to `project-1/assets/99.mp4`.
 If multiple videos were downloaded and you want to auto-rename based on UUID matching:
 
 ```bash
-python3 shared/grok_asset_downloader.py --project <1|2> batch_rename project-<1|2>/assets
+python3 scripts/py/grok_asset_downloader.py --project <1|2> batch_rename project-<1|2>/assets
 ```
 
 > ⚠️ **Caveat:** Grok download filenames do NOT reliably contain the post UUID. Explicit per-item rename (Phase 2E) is recommended for accuracy.
@@ -163,7 +163,7 @@ python3 shared/grok_asset_downloader.py --project <1|2> batch_rename project-<1|
 Check stats to confirm all completed prompts have mapped assets:
 
 ```bash
-python3 shared/grok_asset_downloader.py --project <1|2> stats
+python3 scripts/py/grok_asset_downloader.py --project <1|2> stats
 ```
 
 Expected output:
@@ -184,10 +184,10 @@ Expected output:
 
 | Command | Purpose |
 |---------|---------|
-| `python3 shared/grok_asset_downloader.py --project <1\|2> queue` | Get LIFO-sorted list of missing videos |
-| `python3 shared/grok_asset_downloader.py --project <1\|2> stats` | Show download progress statistics |
-| `python3 shared/grok_asset_downloader.py --project <1\|2> rename <src> <id>` | Rename a downloaded file to `<id>.mp4` |
-| `python3 shared/grok_asset_downloader.py --project <1\|2> list_downloaded` | List all mapped asset files |
+| `python3 scripts/py/grok_asset_downloader.py --project <1\|2> queue` | Get LIFO-sorted list of missing videos |
+| `python3 scripts/py/grok_asset_downloader.py --project <1\|2> stats` | Show download progress statistics |
+| `python3 scripts/py/grok_asset_downloader.py --project <1\|2> rename <src> <id>` | Rename a downloaded file to `<id>.mp4` |
+| `python3 scripts/py/grok_asset_downloader.py --project <1\|2> list_downloaded` | List all mapped asset files |
 
 ---
 
@@ -196,7 +196,7 @@ Expected output:
 After downloading, you may still need to run the mapping workflow to set `instagram_upload` status:
 
 ```bash
-python3 shared/grok_tracker.py --project <1|2> update_mapping_status <id> done
+python3 scripts/py/grok_tracker.py --project <1|2> update_mapping_status <id> done
 ```
 
 Or use the visual mapping workflow (`.agents/workflows/map_assets_v2.md`) if order verification is needed.

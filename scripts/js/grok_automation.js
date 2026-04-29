@@ -20,7 +20,7 @@
  * Usage:
  *   await automateGrokGeneration({
  *     promptText, thumbnailId, videoPromptText, videoType,
- *     skipImageGeneration, tonedDownRetry, postUrl
+ *     skipImageGeneration, postUrl
  *   });
  *   // ... sleep ...
  *   await checkVideoCompletion();
@@ -456,7 +456,6 @@ async function checkVideoCompletion() {
  * @param {string|null} options.videoPromptText - Custom video prompt (null for default/spicy)
  * @param {string|null} options.videoType - 'spicy' or null
  * @param {boolean} options.skipImageGeneration - Skip image phase (retry mode)
- * @param {boolean} options.tonedDownRetry - Force default Make video (retry mode)
  * @param {string|null} options.postUrl - Existing post URL for retry mode
  * @returns {Promise<{status, videoUrl, postUrl, error, mode}>}
  */
@@ -467,7 +466,6 @@ async function automateGrokGeneration(options) {
     videoPromptText = null,
     videoType = null,
     skipImageGeneration = false,
-    tonedDownRetry = false,
     postUrl = null,
   } = options;
 
@@ -476,11 +474,7 @@ async function automateGrokGeneration(options) {
   const hasVideoPrompt = typeof videoPromptText === 'string' && videoPromptText.trim().length > 0;
   const isSpicy = videoType === 'spicy';
 
-  if (tonedDownRetry) {
-    // Retry mode: always use default Make video, strip custom/spicy
-    mode = 'default_make_video';
-    console.log('🔄 [Grok v5] RETRY MODE: Using toned-down default Make video.');
-  } else if (hasVideoPrompt) {
+  if (hasVideoPrompt) {
     mode = 'custom_video_prompt';
   } else if (isSpicy) {
     mode = 'spicy';
@@ -500,8 +494,8 @@ async function automateGrokGeneration(options) {
     // ── PHASE 2: Trigger Video ──
     const triggerResult = await triggerVideoGeneration(
       mode,
-      tonedDownRetry ? null : videoPromptText,
-      tonedDownRetry ? null : videoType
+      videoPromptText,
+      videoType
     );
 
     // ── PHASE 3: Brief confirmation poll ──
@@ -564,9 +558,9 @@ async function automateGrokGeneration(options) {
         mode,
       };
     }
-    console.error('❌ [Grok v5] Fatal error:', err);
+    console.warn('⚠️ [Grok v5] Fatal error, treating as image_warning:', err);
     return {
-      status: 'image_failed',
+      status: 'image_warning',
       videoUrl: null,
       postUrl: window.location.href,
       error: err.message,
@@ -574,6 +568,7 @@ async function automateGrokGeneration(options) {
     };
   }
 }
+
 
 // Export for module environments
 if (typeof module !== 'undefined' && module.exports) {
