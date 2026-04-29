@@ -916,21 +916,30 @@
     {
       "id": 91,
       "prompt": "Imagine the exact model in a sunset beach bonfire, holding a sparkler. Wearing a crochet micro bikini. Head pose looking down at the sparkler, childlike joy. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Sparklers and shoreline joy. ✨🏖️ Celebrating the sunset. #beachbonfire #sparklers #crochetbikini #joyful #sunsetbeach #summernights #happyvibes #realisticai"
+      "status": "completed",
+      "instagram_caption": "Sparklers and shoreline joy. ✨🏖️ Celebrating the sunset. #beachbonfire #sparklers #crochetbikini #joyful #sunsetbeach #summernights #happyvibes #realisticai",
+      "video_url": "https://grok.com/imagine/post/978ac2c5-a683-4283-850a-b2f14cd0bdef",
+      "post_url": "https://grok.com/imagine/post/eee9dfbc-a5f3-4087-9c23-d73a1e940e18",
+      "executed_at": "2026-04-29T11:55:47.990954"
     },
     {
       "id": 92,
       "prompt": "Imagine the exact model in an abandoned factory, with golden-hour light shafts through broken windows. Wearing a black micro bikini beneath an open tailored blazer. Head raised, bathed in a light shaft, eyes closed peacefully. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Industrial light and peaceful moments. 🏭☀️ Finding beauty in the abandoned. #industrialstyle #blackbikini #tailoredblazer #goldenhour #peacefulmind #modelphotography #realisticai"
+      "status": "completed",
+      "instagram_caption": "Industrial light and peaceful moments. 🏭☀️ Finding beauty in the abandoned. #industrialstyle #blackbikini #tailoredblazer #goldenhour #peacefulmind #modelphotography #realisticai",
+      "video_url": "https://grok.com/imagine/post/d6f6ce20-5385-437e-8cb4-cb32087b195a",
+      "post_url": "https://grok.com/imagine/post/cc630caa-474b-4ce4-9f6b-8b1c7f85c749",
+      "executed_at": "2026-04-29T12:00:55.769106"
     },
     {
       "id": 93,
       "prompt": "Imagine the exact model in a rooftop garden with trailing vines and city skyline. Wearing a sage green micro bikini beneath an open linen shirt tied loosely at the waist. Candid warm smile. Medium shot, slightly high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She unties the linen shirt (Ensure correct movements and physics) revealing her bikini. Camera slightly zooms-in focusing the character more.",
-      "status": "pending",
-      "instagram_caption": "Rooftop gardens and city smiles. 🌿🏙️ Finding my green oasis. #rooftopgarden #cityskyline #sagegreen #linenstyle #candid #warmth #urbanjungle #realisticai"
+      "status": "completed",
+      "instagram_caption": "Rooftop gardens and city smiles. 🌿🏙️ Finding my green oasis. #rooftopgarden #cityskyline #sagegreen #linenstyle #candid #warmth #urbanjungle #realisticai",
+      "post_url": "https://grok.com/imagine/post/89dc566f-5157-4b5d-ae8f-976485aced78",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/55d0453d-ae95-4510-90a5-f86d5c22dc1e/generated_video.mp4?cache=1",
+      "executed_at": "2026-04-29T12:24:26.385582"
     },
     {
       "id": 94,
