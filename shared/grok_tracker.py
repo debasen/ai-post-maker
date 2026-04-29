@@ -34,13 +34,11 @@ def get_config(file_path):
 
 def get_next(file_path):
     """Print the first retry candidate or pending prompt.
-    
+
     Retry priority:
       1. video_warning (first video failure — retry with toned down)
       2. image_warning (first image failure — retry with toned down)
-      3. video_failed (second video failure — terminal)
-      4. image_failed (second image failure — terminal)
-      5. pending (new items)
+      3. pending (new items)
     """
     data = load_data(file_path)
     prompts = data.get("prompts", [])
@@ -63,25 +61,7 @@ def get_next(file_path):
             print(json.dumps(result))
             return
     
-    # Priority 3: video_failed (terminal)
-    for item in prompts:
-        if item.get("status") == "video_failed":
-            result = dict(item)
-            result["retry_mode"] = False
-            result["terminal"] = True
-            print(json.dumps(result))
-            return
-    
-    # Priority 4: image_failed (terminal)
-    for item in prompts:
-        if item.get("status") == "image_failed":
-            result = dict(item)
-            result["retry_mode"] = False
-            result["terminal"] = True
-            print(json.dumps(result))
-            return
-    
-    # Priority 5: pending (new items)
+    # Priority 3: pending (new items)
     for item in prompts:
         if item.get("status") == "pending":
             result = dict(item)
@@ -193,20 +173,21 @@ def mark_image_failed(file_path, prompt_id, post_url):
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
 def mark_failed(file_path, prompt_id):
-    """Mark a prompt as failed (terminal, no more retries)."""
+    """Mark a prompt as image_failed (maps legacy failed to image_failed)."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     found = False
     for item in prompts:
         if str(item.get("id")) == str(prompt_id):
-            item["status"] = "failed"
-            item["failed_at"] = datetime.now().isoformat()
+            item["status"] = "image_failed"
+            item["image_failed_at"] = datetime.now().isoformat()
+            item.pop("failed_at", None)
             found = True
             break
 
     if found:
         save_data(file_path, data)
-        print(json.dumps({"success": True, "id": prompt_id, "status": "failed"}))
+        print(json.dumps({"success": True, "id": prompt_id, "status": "image_failed"}))
     else:
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 

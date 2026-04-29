@@ -13,11 +13,17 @@
  * - Image/Video radio toggle present on posts.
  * - IMPORTANT: Disabled Pause/Download buttons do NOT indicate success.
  *
+ * Two-Phase API:
+ *   Phase A: automateGrokGeneration({ ... }) → { status: 'video_generating', videoUrl, postUrl, mode }
+ *   Phase B: checkVideoCompletion() → { status: 'completed'|'video_warning'|'image_warning', videoUrl, error }
+ *
  * Usage:
  *   await automateGrokGeneration({
  *     promptText, thumbnailId, videoPromptText, videoType,
  *     skipImageGeneration, tonedDownRetry, postUrl
  *   });
+ *   // ... sleep ...
+ *   await checkVideoCompletion();
  */
 
 // ─────────────────────────────────────────────────────────────
@@ -46,8 +52,6 @@ const SELECTORS = {
 
   // Moderation indicators
   eyeOffSvg: 'svg.lucide-eye-off',
-  moderatedImage: 'img[alt="Moderated"]',
-  moderatedImageClasses: ['blur-lg', 'saturate-0'],
 
   // Failure text patterns (checked against document.body.innerText)
   failurePatterns: [
@@ -93,10 +97,7 @@ const findVisibleMakeVideoButton = () => {
     const rect = b.getBoundingClientRect();
     return rect.width > 0 && rect.height > 0 && !b.disabled && b.offsetParent !== null;
   });
-  if (candidates.length > 0) return candidates[candidates.length - 1];
-  // Fallback: any non-disabled
-  const fallback = btns.filter((b) => !b.disabled);
-  if (fallback.length > 0) return fallback[fallback.length - 1];
+  if (candidates.length > 0) return candidates[0];
   return null;
 };
 
@@ -117,19 +118,7 @@ const detectVideoSuccess = () => {
   return { success: false };
 };
 
-const detectImageModeration = () => {
-  const moderatedImg = document.querySelector(SELECTORS.moderatedImage);
-  if (moderatedImg) {
-    const classList = Array.from(moderatedImg.classList || []);
-    const hasModerationClasses = SELECTORS.moderatedImageClasses.some((cls) => classList.includes(cls));
-    if (hasModerationClasses) {
-      return { moderated: true, reason: 'img[alt="Moderated"] with blur-lg/saturate-0 detected' };
-    }
-  }
-  return { moderated: false };
-};
-
-const detectVideoModeration = () => {
+const detectModeration = () => {
   const eyeOff = document.querySelector(SELECTORS.eyeOffSvg);
   if (eyeOff) {
     return { moderated: true, reason: 'svg.lucide-eye-off detected' };
@@ -156,6 +145,7 @@ async function runImageGeneration(promptText, thumbnailId) {
   // Step 1A: Click thumbnail
   try {
     const postIdMatch = window.location.href.match(/post\/([a-f0-9\-]+)/);
+    await wait(2000);
     if (postIdMatch && thumbnailId) {
       const img = document.querySelector(`img[src*="${thumbnailId}"]`);
       if (img) {
@@ -215,24 +205,25 @@ async function runImageGeneration(promptText, thumbnailId) {
   console.log('⏳ [Grok v5] Image prompt submitted. Waiting for generation...');
 
   // Step 1E: Wait for "Make video" button to appear and be enabled
-  let generationComplete = false;
   for (let i = 0; i < POLLING.imageGenerationMaxAttempts; i++) {
     await wait(POLLING.imageGenerationIntervalMs);
+
     const btn = findVisibleMakeVideoButton();
     if (btn) {
-      generationComplete = true;
       console.log('✅ [Grok v5] Image generation complete (Make video button visible).');
-      break;
+      await wait(1000);
+      return { postUrl: window.location.href };
     }
+
+    const moderation = detectModeration();
+    if (moderation.moderated) {
+      throw new Error(`IMAGE_MODERATED: ${moderation.reason}`);
+    }
+
     if (i % 5 === 0) console.log(`⏳ [Grok v5] Waiting for image generation... attempt ${i + 1}/${POLLING.imageGenerationMaxAttempts}`);
   }
 
-  if (!generationComplete) {
-    console.warn('⚠️ [Grok v5] Image generation timeout. Proceeding anyway...');
-  }
-
-  await wait(1000);
-  return { postUrl: window.location.href };
+  throw new Error('IMAGE_GENERATION_TIMEOUT: Neither Make video button nor image moderation detected after 2 minutes.');
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -271,7 +262,7 @@ async function triggerVideoGeneration(mode, videoPromptText, videoType) {
         XPathResult.FIRST_ORDERED_NODE_TYPE,
         null
       ).singleNodeValue;
-    } catch (e) {}
+    } catch (e) { }
 
     if (!spicyBtn) {
       const menuItems = Array.from(document.querySelectorAll('[role="menuitem"]'));
@@ -386,10 +377,30 @@ async function waitForUrlChange(oldUrl) {
   return { videoUrl: window.location.href, urlChanged: false };
 }
 
+const isVideoGenerating = () => {
+  const generatingEl = document.evaluate(
+    "//div[.//span[contains(text(),'Generating')]]",
+    document,
+    null,
+    XPathResult.FIRST_ORDERED_NODE_TYPE,
+    null
+  ).singleNodeValue;
+
+  const cancelBtn = document.evaluate(
+    "//button[normalize-space()='Cancel Video']",
+    document,
+    null,
+    XPathResult.FIRST_ORDERED_NODE_TYPE,
+    null
+  ).singleNodeValue;
+
+  return { generating: !!(generatingEl || cancelBtn), generatingEl, cancelBtn };
+};
+
 // ─────────────────────────────────────────────────────────────
 // PHASE 3: VIDEO COMPLETION VERIFICATION
 // ─────────────────────────────────────────────────────────────
-async function waitForVideoCompletion() {
+async function checkVideoCompletion() {
   console.log('⏳ [Grok v5] Polling for video generation completion...');
 
   // Initial delay before checking generating indicator
@@ -398,24 +409,10 @@ async function waitForVideoCompletion() {
   for (let i = 0; i < POLLING.videoCompletionMaxAttempts; i++) {
     await wait(POLLING.videoCompletionIntervalMs);
 
-    const generatingEl = document.evaluate(
-      "//div[.//span[contains(text(),'Generating')]]",
-      document,
-      null,
-      XPathResult.FIRST_ORDERED_NODE_TYPE,
-      null
-    ).singleNodeValue;
-
-    const cancelBtn = document.evaluate(
-      "//button[normalize-space()='Cancel Video']",
-      document,
-      null,
-      XPathResult.FIRST_ORDERED_NODE_TYPE,
-      null
-    ).singleNodeValue;
+    const { generating } = isVideoGenerating();
 
     // As long as generating indicator is visible, video is still generating
-    if (generatingEl || cancelBtn) {
+    if (generating) {
       if (i % 10 === 0) {
         console.log(`⏳ [Grok v5] Video still generating... attempt ${i + 1}/${POLLING.videoCompletionMaxAttempts}`);
       }
@@ -423,16 +420,10 @@ async function waitForVideoCompletion() {
     }
 
     // Generating indicator disappeared — check moderation FIRST, then success, then text patterns
-    const videoModeration = detectVideoModeration();
-    if (videoModeration.moderated) {
-      console.warn(`⚠️ [Grok v5] Video generation moderated: ${videoModeration.reason}`);
-      return { status: 'video_warning', error: `Video generation moderated: ${videoModeration.reason}`, videoUrl: window.location.href };
-    }
-
-    const imageModeration = detectImageModeration();
-    if (imageModeration.moderated) {
-      console.warn(`⚠️ [Grok v5] Image generation moderated: ${imageModeration.reason}`);
-      return { status: 'image_warning', error: `Image generation moderated: ${imageModeration.reason}`, videoUrl: window.location.href };
+    const moderation = detectModeration();
+    if (moderation.moderated) {
+      console.warn(`⚠️ [Grok v5] Generation moderated: ${moderation.reason}`);
+      return { status: 'video_warning', error: `Generation moderated: ${moderation.reason}`, videoUrl: window.location.href };
     }
 
     const success = detectVideoSuccess();
@@ -504,12 +495,6 @@ async function automateGrokGeneration(options) {
     if (!skipImageGeneration) {
       const imgResult = await runImageGeneration(promptText, thumbnailId);
       currentPostUrl = imgResult.postUrl;
-    } else if (postUrl && window.location.href !== postUrl) {
-      // Retry mode: ensure we're on the saved post URL
-      console.log(`🔄 [Grok v5] Navigating to saved post URL: ${postUrl}`);
-      window.location.href = postUrl;
-      await wait(3000);
-      currentPostUrl = postUrl;
     }
 
     // ── PHASE 2: Trigger Video ──
@@ -519,21 +504,69 @@ async function automateGrokGeneration(options) {
       tonedDownRetry ? null : videoType
     );
 
-    // ── PHASE 3: Wait for Completion ──
-    const completionResult = await waitForVideoCompletion();
+    // ── PHASE 3: Brief confirmation poll ──
+    console.log('⏳ [Grok v5] Confirming video generation started...');
+    await wait(3000);
 
-    // Build final result
+    let generationConfirmed = false;
+    const confirmationMaxAttempts = 20; // ~40 seconds
+    const confirmationIntervalMs = 2000;
+
+    for (let i = 0; i < confirmationMaxAttempts; i++) {
+      const { generating } = isVideoGenerating();
+      if (generating) {
+        generationConfirmed = true;
+        console.log('✅ [Grok v5] Video generation confirmed in progress.');
+        break;
+      }
+      if (i % 5 === 0) {
+        console.log(`⏳ [Grok v5] Waiting for generation indicator... attempt ${i + 1}/${confirmationMaxAttempts}`);
+      }
+      await wait(confirmationIntervalMs);
+    }
+
+    if (!generationConfirmed) {
+      console.warn('⚠️ [Grok v5] Video generation did not start within confirmation window.');
+      return {
+        status: 'video_warning',
+        error: 'Video generation did not start',
+        videoUrl: triggerResult.videoUrl,
+        postUrl: triggerResult.postUrl || currentPostUrl,
+        mode: triggerResult.mode || mode,
+      };
+    }
+
     return {
-      status: completionResult.status,
-      videoUrl: completionResult.videoUrl || triggerResult.videoUrl,
+      status: 'ok',
+      videoUrl: triggerResult.videoUrl,
       postUrl: triggerResult.postUrl || currentPostUrl,
-      error: completionResult.error || null,
+      error: null,
       mode: triggerResult.mode || mode,
     };
   } catch (err) {
+    if (err.message.startsWith('IMAGE_MODERATED:')) {
+      console.warn(`⚠️ [Grok v5] Image moderated during generation: ${err.message}`);
+      return {
+        status: 'image_warning',
+        videoUrl: null,
+        postUrl: window.location.href,
+        error: err.message,
+        mode,
+      };
+    }
+    if (err.message.startsWith('IMAGE_GENERATION_TIMEOUT:')) {
+      console.warn(`⚠️ [Grok v5] Image generation timeout: ${err.message}`);
+      return {
+        status: 'image_warning',
+        videoUrl: null,
+        postUrl: window.location.href,
+        error: err.message,
+        mode,
+      };
+    }
     console.error('❌ [Grok v5] Fatal error:', err);
     return {
-      status: 'failed',
+      status: 'image_failed',
       videoUrl: null,
       postUrl: window.location.href,
       error: err.message,
@@ -544,5 +577,5 @@ async function automateGrokGeneration(options) {
 
 // Export for module environments
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { automateGrokGeneration };
+  module.exports = { automateGrokGeneration, checkVideoCompletion };
 }
