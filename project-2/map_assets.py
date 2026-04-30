@@ -25,20 +25,6 @@ def get_api_key() -> str:
     return key
 
 
-def get_creation_time(path: Path) -> str:
-    result = subprocess.run(
-        ["mdls", "-name", "kMDItemFSCreationDate", "-raw", str(path)],
-        capture_output=True, text=True
-    )
-    return result.stdout.strip()
-
-
-def sort_assets_by_creation(assets: list[Path]) -> list[Path]:
-    timed = [(get_creation_time(p), p) for p in assets]
-    timed.sort(key=lambda x: x[0])
-    return [p for _, p in timed]
-
-
 def extract_frame(mp4_path: Path, frame_path: Path) -> bool:
     if frame_path.exists(): return True
     subprocess.run(
@@ -91,8 +77,11 @@ def main():
     ROOT_DIR = Path(__file__).parent.parent
     PROJECT_DIR = ROOT_DIR / f"project-{args.project}"
     ASSETS_DIR = PROJECT_DIR / "assets"
+    PROCESSING_DIR = ASSETS_DIR / "processing"
+    PROCESSING_DIR.mkdir(parents=True, exist_ok=True)
+    
     PROMPTS_FILE = PROJECT_DIR / "grok_prompts.json"
-    SHARED_TRACKER = ROOT_DIR / "shared" / "grok_tracker.py"
+    SHARED_TRACKER = ROOT_DIR / "scripts" / "py" / "grok_tracker.py"
     FRAME_EXT = ".jpg"
 
     if not PROMPTS_FILE.exists():
@@ -101,7 +90,7 @@ def main():
     # --- Phase 1: Bulk Extraction ---
     if args.extract:
         print(f"🎞️ Starting bulk frame extraction for Project-{args.project}...")
-        unmapped = [f for f in ASSETS_DIR.glob("*.mp4") if "(" in f.name]
+        unmapped = [f for f in PROCESSING_DIR.glob("*.mp4")]
         for mp4 in unmapped:
             frame = mp4.with_suffix(FRAME_EXT)
             if not frame.exists():
@@ -125,17 +114,20 @@ def main():
 
     print(f"🔍 Mapping {len(prompts)} prompts for Project-{args.project}...")
 
+    def sort_assets_by_modification(assets: list[Path]) -> list[Path]:
+        return sorted(assets, key=lambda p: p.stat().st_mtime)
+
     for p in prompts:
         pid = p["id"]
         prompt_text = p["prompt"]
         
         # 2. Get next 3 unprocessed images
-        all_mp4s = [f for f in ASSETS_DIR.glob("*.mp4") if "(" in f.name]
-        sorted_mp4s = sort_assets_by_creation(all_mp4s)
+        all_mp4s = [f for f in PROCESSING_DIR.glob("*.mp4")]
+        sorted_mp4s = sort_assets_by_modification(all_mp4s)
         lookahead = sorted_mp4s[:3]
 
         if not lookahead:
-            print(f"⚠️ No more video assets found for ID {pid}")
+            print(f"⚠️ No more video assets found in {PROCESSING_DIR} for ID {pid}")
             break
 
         print(f"\n👉 Checking ID {pid}: '{prompt_text[:60]}...'")
@@ -154,11 +146,12 @@ def main():
                 
                 new_name = f"{pid}.mp4"
                 if not args.dry_run:
+                    # Move to final assets directory
                     mp4_path.rename(ASSETS_DIR / new_name)
                     frame_path.unlink(missing_ok=True)
                     update_status(pid, "mapped", args.project, SHARED_TRACKER)
                 else:
-                    print(f"    [Dry Run] Would rename to {new_name}")
+                    print(f"    [Dry Run] Would move to {ASSETS_DIR / new_name}")
                 
                 found_match = True
                 break
