@@ -109,3 +109,18 @@ description: Advanced end-to-end automation skill for generating videos on Grok.
 
 ### 6C: Success
 1. Complete record: `python3 scripts/py/grok_tracker.py --project <N> complete <ID> "<VIDEO_URL>" "<POST_URL>"`
+2. Go to Step 7.
+
+## Step 7: Download Final Video
+
+1. **Locate Download Button**:
+   - Call `browseros_take_snapshot` on the active page.
+   - Identify the interactive element with `aria-label="Download"`.
+2. **Download the File**:
+   - Call `browseros_download_file` with the identified element ID.
+   - Set `path` to a dedicated project scratch directory (e.g., `/tmp/grok_downloads_project_<N>`).
+3. **Rename & Move**:
+   - Run: `python3 scripts/py/grok_video_downloader.py --project <N> process_download <download_dir> <ID>`
+   - This command finds the most-recent file in `<download_dir>`, renames it to `<ID>.mp4`, and moves it into `project-<N>/assets/current/`.
+4. **Verify**:
+   - Confirm the file exists at `project-<N>/assets/current/<ID>.mp4` with non-zero size.
