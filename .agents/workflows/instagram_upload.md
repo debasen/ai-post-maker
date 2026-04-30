@@ -4,7 +4,7 @@ description: End-to-end automation skill for uploading videos to Instagram. Work
 
 ## Overview
 
-This workflow automates the process of posting an MP4 asset to Instagram using BrowserOS. It identifies the correct asset and caption from the project's `grok_prompts.json` file, navigates to Instagram, and uploads the video.
+This workflow automates the process of posting **exactly one** MP4 asset to Instagram using BrowserOS. It identifies the first available mapped asset, completes the upload process, and stops.
 
 ---
 
@@ -266,3 +266,9 @@ else:
     print(f'ID {target_id} not found in {filepath}')
 " <N> <ID>
 ```
+
+---
+
+### Step 7: Completion
+
+**CRITICAL**: This workflow handles only one asset at a time. After updating the JSON status to `done`, you must **stop** and inform the user. Do not proceed to the next available asset unless explicitly asked.

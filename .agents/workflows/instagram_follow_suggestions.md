@@ -28,19 +28,19 @@ Activate when the user wants to send follow requests to suggested people on Inst
 
 ### Step 2a: Execute Randomized Follow on Explore Page (Default Mode)
 
-Inject and evaluate the following asynchronous JavaScript snippet. It will randomly pick between 7-12 accounts from the suggestions and follow them.
+Inject and evaluate the following asynchronous JavaScript snippet. It will randomly pick between 21-26 accounts from the suggestions and follow them.
 
 ```javascript
 /**
  * Executes the Instagram Follow Suggestions automation on explore/people.
  * Randomly picks accounts to follow instead of top-down selection.
- * @param {number} maxFollows The maximum number of people to follow (default: random 7-12).
- * @param {number} delayMs The delay between clicks in milliseconds (default: 1500).
+ * @param {number} maxFollows The maximum number of people to follow (default: random 21-26).
+ * @param {number} delayMs The delay between clicks in milliseconds (default: random 200-2000).
  * @returns {Promise<Object>} An object containing results { attempted, succeeded, skipped, errors }
  */
-async function automateInstagramFollows(maxFollows, delayMs = 1500) {
+async function automateInstagramFollows(maxFollows, delayMs = null) {
   if (!maxFollows) {
-    maxFollows = Math.floor(Math.random() * (12 - 7 + 1)) + 7;
+    maxFollows = Math.floor(Math.random() * (26 - 21 + 1)) + 21;
   }
   const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
   console.log("🚀 [Instagram Automation] Starting randomized follow sequence...");
@@ -81,7 +81,8 @@ async function automateInstagramFollows(maxFollows, delayMs = 1500) {
       console.log(`✓ [Instagram Automation] Followed account ${i + 1}/${selected.length}`);
       
       if (i < selected.length - 1) {
-        await wait(delayMs);
+        const actualDelay = delayMs || (Math.floor(Math.random() * (2000 - 200 + 1)) + 200);
+        await wait(actualDelay);
       }
     } catch (err) {
       results.errors.push({ index: i, error: err.message });
@@ -93,7 +94,7 @@ async function automateInstagramFollows(maxFollows, delayMs = 1500) {
   return results;
 }
 
-// Usage: return await automateInstagramFollows(null, 1500);
+// Usage: return await automateInstagramFollows(null);
 ```
 
 ### Step 2b: Execute Randomized Follow from Profile Followers Modal (Profile Mode)
@@ -105,10 +106,10 @@ Inject and evaluate the following asynchronous JavaScript snippet. It will open 
  * Executes the Instagram Profile Followers automation sequence.
  * Opens the followers modal and randomly follows accounts.
  * @param {number} maxFollows The maximum number of people to follow (default: random 23-28).
- * @param {number} delayMs The delay between clicks in milliseconds (default: 1500).
+ * @param {number} delayMs The delay between clicks in milliseconds (default: random 200-2000).
  * @returns {Promise<Object>} An object containing results { attempted, succeeded, skipped, errors, modalOpened }
  */
-async function automateProfileFollowers(maxFollows, delayMs = 1500) {
+async function automateProfileFollowers(maxFollows, delayMs = null) {
   if (!maxFollows) {
     maxFollows = Math.floor(Math.random() * (28 - 23 + 1)) + 23;
   }
@@ -202,7 +203,8 @@ async function automateProfileFollowers(maxFollows, delayMs = 1500) {
       console.log(`✓ [Instagram Automation] Followed account ${i + 1}/${selected.length}`);
       
       if (i < selected.length - 1) {
-        await wait(delayMs);
+        const actualDelay = delayMs || (Math.floor(Math.random() * (2000 - 200 + 1)) + 200);
+        await wait(actualDelay);
       }
     } catch (err) {
       results.errors.push({ index: i, error: err.message });
@@ -214,7 +216,7 @@ async function automateProfileFollowers(maxFollows, delayMs = 1500) {
   return results;
 }
 
-// Usage: return await automateProfileFollowers(null, 1500);
+// Usage: return await automateProfileFollowers(null);
 ```
 
 ### Step 3: Reload and Repeat (Default Mode Only)
@@ -222,7 +224,7 @@ async function automateProfileFollowers(maxFollows, delayMs = 1500) {
 For the default explore/people mode:
 - Use `navigate_page` with action `reload` to refresh the suggestions.
 - Wait for the page to load (approx. 2-3 seconds).
-- Execute the same script again to follow another 7-12 random accounts.
+- Execute the same script again to follow another 21-26 random accounts.
 
 For profile followers mode:
 - The modal closes after following. To continue, reopen the followers modal by clicking the followers link again and re-run the script.

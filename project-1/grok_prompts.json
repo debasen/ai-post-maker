@@ -491,7 +491,7 @@
       "instagram_caption": "Artistic fluid motion dancing in the sunlit loft. 🩰☀️ Light, air, and movement. #loftapartment #artisticdance #fluidmotion #sunlit #chiffondress #dancephotography #minimalist",
       "post_url": "https://grok.com/imagine/post/d727207e-b1ac-4674-b2cc-182448112631",
       "executed_at": "2026-04-27T01:12:22.636424",
-      "instagram_upload": "mapped"
+      "instagram_upload": "done"
     },
     {
       "id": 50,
@@ -1246,21 +1246,30 @@
     },
     {
       "id": 121,
-      "prompt": "Imagine the exact model with slight curvy body in a white, modern art gallery. Wearing an architectural black dress. Standing next to a large colorful sculpture, looking contemplative. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "A realistic woman with a slight curvy build in a bright, modern art gallery. She is wearing a minimalist black dress and standing near a large abstract sculpture. 9:16 portrait format, cinematic lighting, high detail.",
       "instagram_caption": "Art imitating life. 🎨🖤 A night of inspiration and abstract beauty. #artgallery #modernart #chic #model #fashionmodel #gallerynight #minimalism",
-      "status": "pending"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/2efdf21a-1347-41f1-a3f5-79f87be68822",
+      "executed_at": "2026-04-30T17:17:37.119820",
+      "video_url": "https://grok.com/imagine/post/f502c125-e902-450b-9a80-6e0793e2179a"
     },
     {
       "id": 122,
       "prompt": "Imagine the exact model with slight curvy body on a snowy balcony at a luxury ski resort. Wearing a high-end white puffer jacket with faux fur trim. Holding a cup of cocoa, looking at the snowy peaks. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Après-ski vibes and mountain air. ❄️☕️ Living in a winter wonderland. #skiresort #winterfashion #alpines #model #fashionmodel #luxuryliving #snowday",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/d129f92c-74bf-432f-8574-ce3222e581b5",
+      "post_url": "https://grok.com/imagine/post/74c26be8-0ae6-4e7e-807f-cfccb3724edd",
+      "executed_at": "2026-04-30T17:26:36.034072"
     },
     {
       "id": 123,
       "prompt": "Imagine the exact model with slight curvy body walking through a vibrant, crowded spice market in Istanbul. Wearing a deep red silk dress. Looking at the mounds of colorful spices with a curious expression. Wide shot, slightly high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Scents of the Silk Road. 🌶️🕌 The colors of Istanbul are unmatched. #istanbul #market #travelphotography #model #fashionmodel #vibrant #spicemarket",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/a8a1e60b-5f94-4da8-b107-02c9b0d5d756",
+      "post_url": "https://grok.com/imagine/post/9834437b-0422-449f-84c5-5e254dcc1ff7",
+      "executed_at": "2026-04-30T17:35:27.688386"
     },
     {
       "id": 124,
