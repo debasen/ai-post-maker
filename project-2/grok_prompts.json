@@ -995,20 +995,23 @@
       "id": 97,
       "prompt": "Imagine the exact model in a Maldives overwater villa deck at golden hour. Wearing a micro bikini and a sheer satin wrap. Loose waves hairstyle, golden-hour lit. Eyes gently closed, sun on her face. Full body shot, slightly high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "A sea breeze catches the satin wrap (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
-      "status": "pending",
+      "status": "image_failed",
       "instagram_caption": "Maldives sunsets and satin wraps. 🌅🏝️ Sun-kissed and serene. #maldives #goldenhour #satinwrap #islandlife #serenity #paradisefound #realisticai"
     },
     {
       "id": 98,
       "prompt": "Imagine the exact model in a ballet studio with mirrored walls, at the barre. Wearing a blush pink ballet wrap bralette and matching high-cut bikini bottom. Head pose in side profile, leg extended on the barre, elegant and focused expression. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
+      "status": "image_failed",
       "instagram_caption": "Grace and focus at the barre. 🩰💖 Every movement tells a story. #balletstudio #balletstyle #blushpink #elegantpose #dancerlife #focusandgrace #fitnessmodel #realisticai"
     },
     {
       "id": 99,
-      "prompt": "Imagine the exact model in a late-night rooftop stargazing, lying on a blanket. Wearing a white micro bikini beneath an oversized soft white hoodie, unzipped. Looking up at the stars, soft open expression. Medium shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "status": "pending",
-      "instagram_caption": "Stargazing in soft hoodies. 🌟🤍 The universe is a beautiful place. #rooftopnights #stargazing #whitebikini #oversizedhoodie #peaceful #nightsky #dreamyvibe #realisticai"
+      "prompt": "Imagine the exact model in a late-night rooftop stargazing, lying on a blanket. Wearing a white bikini beneath an oversized soft white hoodie. Looking up at the stars, soft open expression. Medium shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "Slowly unzips the top of the hoodie (Ensure correct movements and physics). Camera slightly zooms-in focusing the character more.",
+      "status": "image_failed",
+      "instagram_caption": "Stargazing in soft hoodies. 🌟🤍 The universe is a beautiful place. #rooftopnights #stargazing #whitebikini #oversizedhoodie #peaceful #nightsky #dreamyvibe #realisticai",
+      "post_url": "https://grok.com/imagine/post/0fdc49b0-7c26-43a8-a593-52041b6e15b9",
+      "executed_at": "2026-04-30T15:18:26.208415"
     },
     {
       "id": 100,

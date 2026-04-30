@@ -6,9 +6,12 @@ import subprocess
 import os
 import sys
 import copy
+from pathlib import Path
 
-PROJECT_PATH = "/Users/dsen/Projects/ai-post-maker/project-2/grok_prompts.json"
-BACKUP_PATH = "/Users/dsen/Projects/ai-post-maker/project-2/grok_prompts.json.backup"
+# Resolve repo root relative to this script
+REPO_ROOT = Path(__file__).parent.resolve()
+PROJECT_PATH = REPO_ROOT / "project-2" / "grok_prompts.json"
+BACKUP_PATH = REPO_ROOT / "project-2" / "grok_prompts.json.backup"
 
 def load_data():
     with open(PROJECT_PATH, "r") as f:
@@ -26,7 +29,7 @@ def restore_backup():
 
 def run_tracker_cmd(cmd_args):
     full_cmd = ["python3", "scripts/py/grok_tracker.py", "--project", "2"] + cmd_args
-    result = subprocess.run(full_cmd, capture_output=True, text=True, cwd="/Users/dsen/Projects/ai-post-maker")
+    result = subprocess.run(full_cmd, capture_output=True, text=True, cwd=str(REPO_ROOT))
     stdout = result.stdout.strip()
     stderr = result.stderr.strip()
     try:
@@ -537,7 +540,8 @@ def test_scenario_16_js_automateGrokGeneration_mode_logic():
     print_section("SCENARIO 16: JS mode logic validation (static analysis)")
     
     # Read the JS and check the mode logic
-    with open("/Users/dsen/Projects/ai-post-maker/scripts/js/grok_automation.js", "r") as f:
+    js_path = REPO_ROOT / "scripts" / "js" / "grok_automation.js"
+    with open(js_path, "r") as f:
         js_content = f.read()
     
     checks = []
@@ -563,7 +567,8 @@ def test_scenario_17_workflow_step_3b_video_warning_params():
     """Scenario 17: Validate Step 3B-i params for video_warning retry match workflow spec."""
     print_section("SCENARIO 17: Step 3B-i video_warning retry params validation")
     
-    with open("/Users/dsen/Projects/ai-post-maker/scripts/js/grok_automation.js", "r") as f:
+    js_path = REPO_ROOT / "scripts" / "js" / "grok_automation.js"
+    with open(js_path, "r") as f:
         js_content = f.read()
     
     # The workflow says for video_warning retry:
@@ -585,7 +590,8 @@ def test_scenario_18_workflow_step_3b_image_warning_params():
     """Scenario 18: Validate Step 3B-ii params for image_warning retry match workflow spec."""
     print_section("SCENARIO 18: Step 3B-ii image_warning retry params validation")
     
-    with open("/Users/dsen/Projects/ai-post-maker/scripts/js/grok_automation.js", "r") as f:
+    js_path = REPO_ROOT / "scripts" / "js" / "grok_automation.js"
+    with open(js_path, "r") as f:
         js_content = f.read()
     
     # The workflow says for image_warning retry:
@@ -607,7 +613,8 @@ def test_scenario_19_js_checkVideoCompletion():
     """Scenario 19: Validate checkVideoCompletion function exists and logic."""
     print_section("SCENARIO 19: checkVideoCompletion validation")
     
-    with open("/Users/dsen/Projects/ai-post-maker/scripts/js/grok_automation.js", "r") as f:
+    js_path = REPO_ROOT / "scripts" / "js" / "grok_automation.js"
+    with open(js_path, "r") as f:
         js_content = f.read()
     
     checks = []
@@ -629,7 +636,8 @@ def test_scenario_20_js_image_generation_polling():
     """Scenario 20: Validate image generation polling logic."""
     print_section("SCENARIO 20: Image generation polling validation")
     
-    with open("/Users/dsen/Projects/ai-post-maker/scripts/js/grok_automation.js", "r") as f:
+    js_path = REPO_ROOT / "scripts" / "js" / "grok_automation.js"
+    with open(js_path, "r") as f:
         js_content = f.read()
     
     checks = []

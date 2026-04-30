@@ -11,6 +11,7 @@ import json
 import os
 import subprocess
 import sys
+import re
 from pathlib import Path
 from datetime import datetime
 
@@ -23,6 +24,13 @@ def get_api_key() -> str:
     if not key:
         sys.exit("❌ Set GEMINI_API_KEY or GOOGLE_API_KEY environment variable.")
     return key
+
+
+def sort_assets_numerically(assets: list[Path]) -> list[Path]:
+    def get_num(path: Path):
+        match = re.search(r'\((\d+)\)', path.name)
+        return int(match.group(1)) if match else 0
+    return sorted(assets, key=get_num)
 
 
 def extract_frame(mp4_path: Path, frame_path: Path) -> bool:
@@ -74,6 +82,10 @@ def main():
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
+    # ffmpeg availability check
+    if subprocess.run(["which", "ffmpeg"], capture_output=True).returncode != 0:
+        sys.exit("❌ ffmpeg is not installed or not in PATH. Install it via: brew install ffmpeg")
+
     ROOT_DIR = Path(__file__).parent.parent
     PROJECT_DIR = ROOT_DIR / f"project-{args.project}"
     ASSETS_DIR = PROJECT_DIR / "assets"
@@ -114,20 +126,17 @@ def main():
 
     print(f"🔍 Mapping {len(prompts)} prompts for Project-{args.project}...")
 
-    def sort_assets_by_modification(assets: list[Path]) -> list[Path]:
-        return sorted(assets, key=lambda p: p.stat().st_mtime)
-
     for p in prompts:
         pid = p["id"]
         prompt_text = p["prompt"]
         
         # 2. Get next 3 unprocessed images
         all_mp4s = [f for f in PROCESSING_DIR.glob("*.mp4")]
-        sorted_mp4s = sort_assets_by_modification(all_mp4s)
+        sorted_mp4s = sort_assets_numerically(all_mp4s)
         lookahead = sorted_mp4s[:3]
 
         if not lookahead:
-            print(f"⚠️ No more video assets found in {PROCESSING_DIR} for ID {pid}")
+            print(f"⚠️ No more video assets found for ID {pid}")
             break
 
         print(f"\n👉 Checking ID {pid}: '{prompt_text[:60]}...'")
@@ -146,7 +155,7 @@ def main():
                 
                 new_name = f"{pid}.mp4"
                 if not args.dry_run:
-                    # Move to final assets directory
+                    # Move from processing to main assets folder
                     mp4_path.rename(ASSETS_DIR / new_name)
                     frame_path.unlink(missing_ok=True)
                     update_status(pid, "mapped", args.project, SHARED_TRACKER)

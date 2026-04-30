@@ -5,6 +5,9 @@ import json
 import argparse
 from pathlib import Path
 
+# Resolve repo root relative to this script (scripts/py/grok_video_downloader.py)
+REPO_ROOT = Path(__file__).parent.parent.parent.resolve()
+
 def process_download(project_id, download_dir, record_id):
     """
     Finds the most recently modified file in download_dir, 
@@ -24,7 +27,7 @@ def process_download(project_id, download_dir, record_id):
     latest_file = files[0]
 
     # Destination directory
-    dest_dir = Path(f"project-{project_id}/assets/current")
+    dest_dir = REPO_ROOT / f"project-{project_id}" / "assets" / "current"
     dest_dir.mkdir(parents=True, exist_ok=True)
 
     dest_file = dest_dir / f"{record_id}.mp4"
@@ -54,8 +57,8 @@ def list_downloaded(project_id):
     Lists all downloaded .mp4 files in project assets.
     """
     assets_dirs = [
-        Path(f"project-{project_id}/assets"),
-        Path(f"project-{project_id}/assets/current")
+        REPO_ROOT / f"project-{project_id}" / "assets",
+        REPO_ROOT / f"project-{project_id}" / "assets" / "current"
     ]
     
     results = []
