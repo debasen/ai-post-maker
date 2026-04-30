@@ -1275,19 +1275,25 @@
       "id": 124,
       "prompt": "Imagine the exact model with slight curvy body in a high-tech glass office overlooking a city. Wearing a tailored white power suit. Looking confidently out the window with her arms crossed. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Vision for the future. 💼🏙️ Big moves only. #bosslady #powersuit #corporatechic #model #fashionmodel #careergoals #modernstyle",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/0883a941-366f-4a2c-a1c9-504844199da6",
+      "post_url": "https://grok.com/imagine/post/2ef1ad17-c96a-47a4-881e-516db2e68933",
+      "executed_at": "2026-04-30T17:44:59.902470"
     },
     {
       "id": 125,
       "prompt": "Imagine the exact model with slight curvy body at a small tea table in a overgrown, blooming secret garden. Wearing a delicate lace mini dress. Pouring tea into a porcelain cup with a serene smile. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Tea for one in the secret garden. ☕️🌿 Finding magic in the quiet. #secretgarden #teatime #lacedress #model #fashionmodel #fairycore #naturebeauty",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/76c744f7-e052-40c5-825b-15f68b9bf3af",
+      "post_url": "https://grok.com/imagine/post/ed336e97-d2e3-4fae-985d-522ff5fac786",
+      "executed_at": "2026-04-30T17:53:54.153992"
     },
     {
       "id": 126,
       "prompt": "Imagine the exact model with slight curvy body in a dark, abandoned industrial warehouse with light beams cutting through the dust. Wearing edgy black combat boots and a mesh bodysuit. Striking a fierce, athletic pose. Wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Finding beauty in the grit. ⛓️🔥 Raw industrial energy. #industrial #edgyfashion #streetstyle #model #fashionmodel #warehouse #power",
-      "status": "pending"
+      "status": "video_failed"
     },
     {
       "id": 127,
