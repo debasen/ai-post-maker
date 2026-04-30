@@ -1251,7 +1251,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/2efdf21a-1347-41f1-a3f5-79f87be68822",
       "executed_at": "2026-04-30T17:17:37.119820",
-      "video_url": "https://grok.com/imagine/post/f502c125-e902-450b-9a80-6e0793e2179a"
+      "video_url": "https://grok.com/imagine/post/f502c125-e902-450b-9a80-6e0793e2179a",
+      "instagram_upload": "mapped"
     },
     {
       "id": 122,
@@ -1260,7 +1261,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/d129f92c-74bf-432f-8574-ce3222e581b5",
       "post_url": "https://grok.com/imagine/post/74c26be8-0ae6-4e7e-807f-cfccb3724edd",
-      "executed_at": "2026-04-30T17:26:36.034072"
+      "executed_at": "2026-04-30T17:26:36.034072",
+      "instagram_upload": "mapped"
     },
     {
       "id": 123,
@@ -1269,7 +1271,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/a8a1e60b-5f94-4da8-b107-02c9b0d5d756",
       "post_url": "https://grok.com/imagine/post/9834437b-0422-449f-84c5-5e254dcc1ff7",
-      "executed_at": "2026-04-30T17:35:27.688386"
+      "executed_at": "2026-04-30T17:35:27.688386",
+      "instagram_upload": "mapped"
     },
     {
       "id": 124,
@@ -1278,7 +1281,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/0883a941-366f-4a2c-a1c9-504844199da6",
       "post_url": "https://grok.com/imagine/post/2ef1ad17-c96a-47a4-881e-516db2e68933",
-      "executed_at": "2026-04-30T17:44:59.902470"
+      "executed_at": "2026-04-30T17:44:59.902470",
+      "instagram_upload": "mapped"
     },
     {
       "id": 125,
@@ -1287,7 +1291,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/76c744f7-e052-40c5-825b-15f68b9bf3af",
       "post_url": "https://grok.com/imagine/post/ed336e97-d2e3-4fae-985d-522ff5fac786",
-      "executed_at": "2026-04-30T17:53:54.153992"
+      "executed_at": "2026-04-30T17:53:54.153992",
+      "instagram_upload": "mapped"
     },
     {
       "id": 126,
@@ -1299,103 +1304,165 @@
       "id": 127,
       "prompt": "Imagine the exact model with slight curvy body on a cliff overlooking the blue ocean. Close-up zoomed on the face, eye level. Wearing a turquoise earring that matches the water. Smiling warmly as the sun hits her face. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Ocean soul. 🌊💙 Where the blue meets the sky. #portrait #mediterranean #summerglow #model #fashionmodel #beachvibes #naturalbeauty",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/eeadf6b7-c100-409a-a3b6-7cb89c580643",
+      "post_url": "https://grok.com/imagine/post/eeadf6b7-c100-409a-a3b6-7cb89c580643",
+      "executed_at": "2026-04-30T20:06:20.834426"
     },
     {
       "id": 128,
       "prompt": "Imagine the exact model with slight curvy body in a 1940s style cinema lobby with red velvet curtains. Wearing a vintage midi dress and pearls. Holding a box of popcorn, looking back with a glamorous smile. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Classic Hollywood glamour. 🍿🎬 A night at the movies, old school style. #vintagefashion #hollywoodglam #cinema #model #fashionmodel #retroaesthetic #nostalgia",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/1f216035-41e2-4986-ab55-d727355b007b",
+      "post_url": "https://grok.com/imagine/post/83a45ed9-bcd3-4cc9-8ea3-b30388aa4f3d",
+      "executed_at": "2026-04-30T20:41:29.396144",
+      "instagram_upload": "mapped"
     },
     {
       "id": 129,
-      "prompt": "Imagine the exact model with slight curvy body in a narrow cyberpunk alleyway with pink and blue neon signs. Wearing a translucent raincoat and metallic shorts. Looking intensely at the camera in the rain. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model with slight curvy body in a narrow cyberpunk alleyway with pink and blue neon signs. Wearing a blue raincoat and denim shorts. Looking intensely at the camera in the rain. Medium shot, low angle. The image should be ultra realistic. 9:16 portrait format.",
       "instagram_caption": "Neon rain and future dreams. ☔️👾 Lost in the cyber city. #cyberpunk #neonvibes #futuristic #model #fashionmodel #streetwear #nightrain",
-      "status": "pending"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/89364aa3-4740-4dd4-a44d-36f16ed712b3",
+      "executed_at": "2026-04-30T20:48:10.123518",
+      "video_url": "https://grok.com/imagine/post/7eec8b80-2cae-4cca-8b67-7ac4b5d13064",
+      "instagram_upload": "mapped"
     },
     {
       "id": 130,
       "prompt": "Imagine the exact model with slight curvy body sitting on a blanket in a sunny vineyard. Wearing a gingham print mini dress. Holding a cluster of grapes and laughing. Medium wide shot, slightly high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Picnic in the vines. 🍇🥂 Summer days don't get better than this. #vineyard #picnic #gingham #model #fashionmodel #summerfun #naturelovers",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/151d2a8e-2acc-4432-8796-5ae879787ad0",
+      "post_url": "https://grok.com/imagine/post/eed8a647-0866-438b-a0d5-7d696fbbd557",
+      "executed_at": "2026-04-30T20:52:13.059420",
+      "instagram_upload": "mapped"
     },
     {
       "id": 131,
-      "prompt": "Imagine the exact model with slight curvy body relaxing in a steaming infinity pool overlooking snowy mountains. Wearing a sleek white swimsuit. Looking peaceful with her eyes closed. Medium wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model relaxing in a steaming infinity pool overlooking snowy mountains. Wearing white leisure wear. Looking peaceful with her eyes closed. Medium wide shot, high angle. The image should be ultra realistic. 9:16 portrait format.",
       "instagram_caption": "Hot springs and cold peaks. 🏔️🧖‍♀️ The ultimate reset. #luxuryspa #infinitypool #wellness #model #fashionmodel #mountains #relaxation",
-      "status": "pending"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/5ceae321-834f-4846-88db-de56afb096ab",
+      "executed_at": "2026-04-30T20:58:26.908326",
+      "video_url": "https://grok.com/imagine/post/c5ed5385-9f72-4af6-af08-0179b7a66a98",
+      "instagram_upload": "mapped"
     },
     {
       "id": 132,
       "prompt": "Imagine the exact model with slight curvy body on a rooftop tennis court in a city at dusk. Wearing a neon green athletic set. Mid-swing with a tennis racket, fierce focus. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "City game. 🏙️🎾 Keeping the energy high as the sun sets. #rooftoptennis #activewear #urbanathletic #model #fashionmodel #sportystyle #citysports",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/56c1d0c2-dc0e-454b-b7fc-6b77563eb579",
+      "post_url": "https://grok.com/imagine/post/6bb482ed-aa3e-4b6c-a262-6e7dfe4fe8d5",
+      "executed_at": "2026-04-30T21:02:38.157184"
     },
     {
       "id": 133,
       "prompt": "Imagine the exact model with slight curvy body in the middle of vast sand dunes at golden hour. Wearing an avant-garde flowing red silk gown that trails in the sand. Striking a dramatic pose. Wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Desert drama. 🏜️💃 The dunes are my runway today. #desertfashion #sanddunes #avantgarde #model #fashionmodel #goldenhour #dramatic",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/4c70246b-1b39-4a75-a796-f09622c01fc7",
+      "post_url": "https://grok.com/imagine/post/8d55629a-343e-4df4-acdf-a9841b9163da",
+      "executed_at": "2026-04-30T21:06:42.996865",
+      "instagram_upload": "mapped"
     },
     {
       "id": 134,
       "prompt": "Imagine the exact model with slight curvy body in a rustic coffee shop. Close-up zoomed on the face, eye level. Looking over the top of a ceramic mug, warm steam rising. Smiling gently with a cozy, comfortable aura. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Coffee and calm. ☕️🍂 Embracing the cozy moments. #portrait #coffeevibes #softlook #model #fashionmodel #cafelife #warmbeauty",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/9512a6a7-d854-4836-8b37-68540ffe0c0a",
+      "post_url": "https://grok.com/imagine/post/6655b062-b48b-4111-a539-79671ae33a7e",
+      "executed_at": "2026-04-30T21:10:36.120332",
+      "instagram_upload": "mapped"
     },
     {
       "id": 135,
       "prompt": "Imagine the exact model with slight curvy body on a luxury casino floor in Las Vegas. Wearing a gold sequin mini dress. Standing by a roulette table, looking excited and glamorous. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "All on red! 🎰✨ Vegas nights are for the bold. #vegas #casino #sequindress #model #fashionmodel #glamour #nightlife",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/e5537377-15a8-4f0e-a44e-97c39638742a",
+      "post_url": "https://grok.com/imagine/post/23afe904-7fb1-4dea-b4e5-6feb2211d13d",
+      "executed_at": "2026-04-30T21:14:36.920316",
+      "instagram_upload": "mapped"
     },
     {
       "id": 136,
       "prompt": "Imagine the exact model with slight curvy body on a beach at night, sitting by a small bonfire. Wearing a cozy oversized hoodie and short shorts. Firelight reflecting on her face as she smiles into the flames. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Firelight and ocean waves. 🔥🌊 Nothing beats a beach bonfire. #beachnight #bonfire #cozy #model #fashionmodel #summernights #serenity",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/023f1950-917f-4fcb-8346-36dd0061496a",
+      "post_url": "https://grok.com/imagine/post/0b40b1ff-9c56-4937-8a1b-12ff2ad54fb2",
+      "executed_at": "2026-04-30T21:18:27.262719",
+      "instagram_upload": "mapped"
     },
     {
       "id": 137,
       "prompt": "Imagine the exact model with slight curvy body walking down a symmetrical, high-end Art Deco hotel hallway. Wearing a sleek black satin slip dress. Looking back with a sultry, elegant expression. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Symmetries and satin. 🖤🏨 Checked in and feeling elegant. #artdeco #hotellife #slipdress #model #fashionmodel #glamour #travelstyle",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/7d9956a2-6e17-4159-b464-1294983e2285",
+      "post_url": "https://grok.com/imagine/post/d7e407b0-f98c-4367-8f39-d2df74ce318a",
+      "executed_at": "2026-04-30T21:22:23.026709",
+      "instagram_upload": "mapped"
     },
     {
       "id": 138,
       "prompt": "Imagine the exact model with slight curvy body doing a yoga pose on a rooftop at sunset. Wearing a pastel lilac yoga set. Looking serene and balanced against the colorful sky. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Finding my zen at 20 stories up. 🧘‍♀️🌅 Sunset yoga is the best therapy. #rooftopyoga #zen #sunsetvibes #model #fashionmodel #wellness #balance",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/52dd045b-3b5d-4ef4-9dd5-180590a675fb",
+      "post_url": "https://grok.com/imagine/post/240a9e29-4d74-4a30-9922-ab7aa823ec40",
+      "executed_at": "2026-04-30T21:26:20.629974",
+      "instagram_upload": "mapped"
     },
     {
       "id": 139,
       "prompt": "Imagine the exact model with slight curvy body at a 1970s style music festival. Wearing flared denim and a crochet top. Dancing with a flower crown, looking joyful. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Peace, love, and music. ✌️🎶 Channeling the 70s today. #festivalfashion #70svibe #bohostyle #model #fashionmodel #goodvibes #retro",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/9ad26180-205e-47d3-8bcd-bac815431ca5",
+      "post_url": "https://grok.com/imagine/post/e759701a-f65f-4961-b15a-e6060ce5d180",
+      "executed_at": "2026-04-30T21:30:18.550075",
+      "instagram_upload": "mapped"
     },
     {
       "id": 140,
       "prompt": "Imagine the exact model with slight curvy body in a field of wild poppies. Close-up zoomed on the face, eye level. Peering through the tall flowers, looking ethereal and mysterious. Petals gently touching her face. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Lost in the poppies. 🌺✨ Nature is the best backdrop. #portrait #flowerfield #ethereal #model #fashionmodel #naturalbeauty #softstyle",
-      "status": "pending"
+      "status": "image_failed",
+      "post_url": "failed",
+      "executed_at": "2026-04-30T21:42:20.001347"
     },
     {
       "id": 141,
       "prompt": "Imagine the exact model with slight curvy body in a grand private library with floor-to-ceiling bookshelves and a sliding ladder. Wearing a chic plaid mini skirt and blazer. Sitting on the ladder, looking down with a smart, playful smile. Medium shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Too many books, too little time. 📚🕰️ Climbing to new chapters. #library #preppystyle #academic #model #fashionmodel #booklover #elegant",
-      "status": "pending"
+      "status": "image_failed",
+      "post_url": "failed",
+      "executed_at": "2026-04-30T21:42:20.028039"
     },
     {
       "id": 142,
       "prompt": "Imagine the exact model with slight curvy body standing in the open-concept living room of a luxury tropical villa. Wearing a breezy white linen set. Looking out at the jungle through the open walls. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Indoor-outdoor living at its finest. 🌿🏡 Paradise found. #tropicalvilla #interiordesign #resortlife #model #fashionmodel #travelgoals #luxury",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/cc8c89e9-785c-49f0-bb33-66816f32656b",
+      "post_url": "https://grok.com/imagine/post/49ea40db-e26e-4970-8e73-9c3074b4542a",
+      "executed_at": "2026-04-30T21:37:09.757508",
+      "instagram_upload": "mapped"
     },
     {
       "id": 143,
       "prompt": "Imagine the exact model with slight curvy body in a bright pink 1950s ice cream parlor. Wearing a polka dot dress and a headband. Holding a giant sundae with a mischievous smile. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Sweet treats and retro beats! 🍦🍒 Life is better with sprinkles. #icecreamparlor #50sfashion #vintagestyle #model #fashionmodel #playful #retro",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/c400ee58-d1ec-4f86-aab8-22119eb5432c",
+      "post_url": "https://grok.com/imagine/post/c603a2aa-dd06-45b8-9108-86fced398e98",
+      "executed_at": "2026-04-30T21:41:26.836890",
+      "instagram_upload": "mapped"
     },
     {
       "id": 144,
