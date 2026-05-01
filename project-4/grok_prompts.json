@@ -1,6 +1,6 @@
 {
   "config": {
-    "thumbnail_id": "959a1d6a-1dcd-4888-b87a-4c8953692e58",
+    "thumbnail_id": "88deec98-d2aa-4212-afa9-d5c7a5954b2a",
     "video_type": null
   },
   "prompts": [
@@ -9,8 +9,11 @@
       "prompt": "Imagine the exact model in a rustic Swiss chalet by a fireplace. Wearing an oversized white knit sweater, falling off one shoulder to reveal a red bikini strap. Looking at the camera with a warm, cozy gaze. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She pulls the sweater tighter around her waist. Slight camera zoom toward her face. Maintain correct movement and physics.",
       "instagram_caption": "Winter warmth and hidden lace. ❄️🔥 #model #fashionmodel #hot #spicy #chaletlife #winterstyle #cozyvibes #mountainlife",
-      "status": "pending",
-      "instagram_upload": "mapped"
+      "status": "completed",
+      "instagram_upload": "mapped",
+      "video_url": "https://grok.com/imagine/post/5215ae6e-2393-4660-aa13-b8ad0ba32750",
+      "post_url": "https://grok.com/imagine/post/867a125b-45b9-43e8-a34a-b65027afd348",
+      "executed_at": "2026-05-01T15:01:34.277629"
     },
     {
       "id": 2,
@@ -68,81 +71,133 @@
       "id": 7,
       "prompt": "Imagine the exact model in a field of sunflowers at sunset. Wearing a yellow micro bikini. Looking at the camera with a joyful, sun-drenched smile. Backlit golden hour glow. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Chasing the sun. 🌻☀️ #model #fashionmodel #hot #spicy #sunflowerfield #goldenhour #summerglow #freespirit",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/e592f7b1-8df3-4b49-95b4-535797421de2",
+      "post_url": "https://grok.com/imagine/post/b404c2d5-f37d-43c6-b26b-9be38b800cfa",
+      "executed_at": "2026-05-01T15:16:04.836558",
+      "instagram_upload": "mapped"
     },
     {
       "id": 8,
       "prompt": "Imagine the exact model in a Moroccan riad courtyard pool. Wearing an emerald green beaded bikini. Looking at the camera while leaning against a mosaic-tiled wall. Dappled sunlight. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Mosaic dreams and emerald greens. 🇲🇦✨ #model #fashionmodel #hot #spicy #marrakech #riadlife #exoticbeauty #poolside",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/9d99375c-f5ec-4f14-b9a2-001578e2f6d4",
+      "post_url": "https://grok.com/imagine/post/a7c91d1d-cb8b-4078-8b20-010ed0822c94",
+      "executed_at": "2026-05-01T15:26:07.294571",
+      "instagram_upload": "mapped"
     },
     {
       "id": 9,
       "prompt": "Imagine the exact model in a recording studio. Wearing a distressed denim jacket over a black micro bikini top. Looking at the camera through the vocal booth glass. Warm studio lighting. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Making hits and missing heartbeats. 🎙️🔥 #model #fashionmodel #hot #spicy #studiovibes #recordingartist #denimstyle #musiclove",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/5de87d60-51bf-4ac3-ae70-f1b9d2d75550",
+      "post_url": "https://grok.com/imagine/post/ee8d5b92-94d0-41c8-a92e-2baf6ecab163",
+      "executed_at": "2026-05-01T15:35:46.506520",
+      "instagram_upload": "mapped"
     },
     {
       "id": 10,
       "prompt": "Imagine the exact model in an infinity pool overlooking the Amalfi Coast. Wearing a lemon-print micro bikini. Looking at the camera with a relaxed, happy expression. Bright midday sun. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Amalfi adventures. 🍋🌊 #model #fashionmodel #hot #spicy #amalficoast #italylove #lemonprint #luxurylife",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/e223251a-2c9c-4cf5-9e2b-ab6fbaaade7b",
+      "post_url": "https://grok.com/imagine/post/fccc0e4b-65eb-4101-a4fd-e42c16848104",
+      "executed_at": "2026-05-01T15:42:11.296661",
+      "instagram_upload": "mapped"
     },
     {
       "id": 11,
       "prompt": "Imagine the exact model in a professional yoga studio. Wearing a lavender sports bra and matching high-waist bikini. Looking at the camera with a serene, focused gaze. Soft natural light. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Finding balance. 🧘‍♀️💜 #model #fashionmodel #hot #spicy #yogalife #fitnessgoals #serenity #athleisure",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/32d78e53-247a-4695-bf63-d14a90b69f35",
+      "post_url": "https://grok.com/imagine/post/e50c7085-cc5d-4ec1-b44d-f21445b4872c",
+      "executed_at": "2026-05-01T15:49:31.432768",
+      "instagram_upload": "mapped"
     },
     {
       "id": 12,
       "prompt": "Imagine the exact model in a high-speed luxury car. Wearing a black leather jacket over a silver micro bikini. Looking at the camera through the rearview mirror with a sharp, edgy gaze. Motion blur outside the window. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Fast lane living. 🏎️💨 #model #fashionmodel #hot #spicy #supercars #leatherstyle #nightdrive #edgyfashion",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/baaaef44-0da3-46a7-a3c0-ed87811fc019",
+      "post_url": "https://grok.com/imagine/post/d282580f-c237-4768-8b3d-c5f3fefa936b",
+      "executed_at": "2026-05-01T15:56:12.244698",
+      "instagram_upload": "mapped"
     },
     {
       "id": 13,
       "prompt": "Imagine the exact model in a field of lavender. Wearing a sheer white silk robe over a purple bikini. Looking at the camera with a dreamy, soft expression. Blue hour lighting. Wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "A breeze catches the robe and she holds onto the collar. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Lavender haze. 🪻✨ #model #fashionmodel #hot #spicy #naturephotography #lavenderfield #ethereal #dreamyvibe",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/743afee3-2d6c-47f0-8b2a-1a36b58a1c60",
+      "post_url": "https://grok.com/imagine/post/3dbad1ea-4374-4060-8f31-2c288f2359db",
+      "executed_at": "2026-05-01T16:02:23.065818",
+      "instagram_upload": "mapped"
     },
     {
       "id": 14,
-      "prompt": "Imagine the exact model in an industrial warehouse loft. Wearing a black mesh bodysuit. Looking at the camera with a fierce, high-fashion editorial stare. Dramatic spotlighting. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "prompt": "Imagine the exact model in an industrial warehouse loft. Wearing a black silk bodysuit. Looking at the camera with a smile, high-fashion editorial stare. Dramatic spotlighting. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Concrete jungle vibes. ⛓️🖤 #model #fashionmodel #hot #spicy #editorialphotography #industrialstyle #meshoutfit #fierce",
-      "status": "pending"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/9caf69ff-175c-4aa4-81a6-d4409920f539",
+      "executed_at": "2026-05-01T18:41:29.270188",
+      "video_url": "https://grok.com/imagine/post/748063d7-2710-4258-9078-dde9b5ca5dfb",
+      "instagram_upload": "mapped"
     },
     {
       "id": 15,
       "prompt": "Imagine the exact model in a vintage library. Wearing a silk tie-front blouse over a lace micro bikini. Looking at the camera with an amused, intellectual smirk. Warm lamp lighting. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She slowly unties the blouse knot. Slight camera zoom focusing on her hands and then her face. Maintain correct movement and physics.",
       "instagram_caption": "Smart is the new spicy. 📚🌶️ #model #fashionmodel #hot #spicy #libraryvibes #geekglam #seductivelook #classicstyle",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/ab8359a4-a72e-4d04-bcd2-42b7346cb890",
+      "post_url": "https://grok.com/imagine/post/6541f2dd-c42a-48ee-aa62-b3d63c0d895a",
+      "executed_at": "2026-05-01T18:55:41.457358",
+      "instagram_upload": "mapped"
     },
     {
       "id": 16,
       "prompt": "Imagine the exact model on a luxury yacht in the Maldives. Wearing a turquoise micro bikini. Looking at the camera with a sun-kissed, joyful expression. Crystal clear water in background. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Island girl at heart. 🏝️💎 #model #fashionmodel #hot #spicy #maldives #yachtlife #beachbody #summerparadise",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/cceca05b-227c-46c3-8a30-4a6a16479608",
+      "post_url": "https://grok.com/imagine/post/d05e56ad-ac12-4237-ba52-86dde3b18f99",
+      "executed_at": "2026-05-01T19:02:45.289636",
+      "instagram_upload": "mapped"
     },
     {
       "id": 17,
       "prompt": "Imagine the exact model in a retro bowling alley. Wearing a pink-and-white striped micro bikini. Looking at the camera with a playful wink. Neon pink and blue lighting. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Strike a pose. 🎳💖 #model #fashionmodel #hot #spicy #retrostyle #bowlingnight #neonvibes #playful",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/589037c7-9a58-46c8-b275-29f95a0c63b4",
+      "post_url": "https://grok.com/imagine/post/ce95385f-d0dd-489c-98db-f50aa43d4efd",
+      "executed_at": "2026-05-01T19:09:57.163636",
+      "instagram_upload": "mapped"
     },
     {
       "id": 18,
       "prompt": "Imagine the exact model in a greenhouse filled with tropical plants. Wearing a leaf-print micro bikini. Looking at the camera with a serene, natural gaze. Dappled morning light. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "In my own jungle. 🌿🦋 #model #fashionmodel #hot #spicy #naturelover #greenhouse #tropicalvibes #junglequeen",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/fd9cce46-6832-4d21-b7f8-61d61eb50d0d",
+      "post_url": "https://grok.com/imagine/post/2412cbf7-b6a2-4e5a-891f-fdbcee8d591f",
+      "executed_at": "2026-05-01T19:17:31.174295",
+      "instagram_upload": "mapped"
     },
     {
       "id": 19,
       "prompt": "Imagine the exact model in a high-tech gaming setup. Wearing a black mesh crop top over a neon green micro bikini. Looking at the camera with a focused, competitive smirk. RGB lighting. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Player one has entered the chat. 🎮✨ #model #fashionmodel #hot #spicy #gamergirl #rgb #cyberstyle #highscore",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/14dd583f-f083-46bb-be97-73a78c50a4a3",
+      "post_url": "https://grok.com/imagine/post/e7a0e5ea-590c-4d4f-b0f2-0fc4894fb1b1",
+      "executed_at": "2026-05-01T19:24:44.577015",
+      "instagram_upload": "mapped"
     },
     {
       "id": 20,
