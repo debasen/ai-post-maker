@@ -1,0 +1,26 @@
+{
+  "config": {
+    "thumbnail_id": "58e993f2-397c-4214-995d-ed917ba3e575"
+  },
+  "prompts": [
+    {
+      "id": 1,
+      "prompt": "Imagine the exact model with slight curvy body in a full body shot of the model in a neon-drenched rooftop lounge at night. Wearing a short black leather skirt and a neon-lit cropped top. Leaning against the glass railing with a piercing, confident stare. Medium wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "The camera slowly pushes in on the model's confident face, her hair gently blowing in the wind against a beautifully blurred neon rooftop background.",
+      "extend_prompt": "The model turns and walks away along the rooftop, the city lights shimmering below",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "prompt": "Imagine the exact model with slight curvy body in a standing in a sunlit botanical greenhouse. Wearing a delicate white floral mini dress. Looking over her shoulder with a warm look, hands lightly touching the leaves. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "prompt": "Imagine the exact model with slight curvy body in a walking down a bustling cyberpunk street with neon signs. Wearing a metallic silver mini skirt and a cropped bomber jacket. Mid-stride, looking assertively at the camera. Wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
+      "video_prompt": "The camera circles the model at a low angle as she strides confidently down the neon-lit cyberpunk street, rain-slicked pavement reflecting the vibrant signs.",
+      "extend_prompt": "The model stops and looks up at a towering holographic advertisement, the neon glow reflecting in her eyes",
+      "status": "pending"
+    }
+  ]
+}
