@@ -51,12 +51,18 @@
     {
       "id": 7,
       "prompt": "A towering stack of fluffy buttermilk pancakes. Thick, amber maple syrup is caught mid-pour, dripping sensuously down the sides. A square of golden butter melting on top, fresh blueberries scattered around. Morning sunlight.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/8f25e713-8da2-4412-ba6c-7b98995ec40e/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/8f25e713-8da2-4412-ba6c-7b98995ec40e",
+      "executed_at": "2026-05-02T00:29:57.330679"
     },
     {
       "id": 8,
       "prompt": "Dynamic shot of a sizzling fajita platter. Strips of charred skirt steak, brightly colored steaming bell peppers and onions in a cast-iron skillet. Thick steam billowing up, dark background.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/c54031ab-0387-47d7-b7e1-2c9caf31f76f/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/c54031ab-0387-47d7-b7e1-2c9caf31f76f",
+      "executed_at": "2026-05-02T00:38:52.939538"
     },
     {
       "id": 9,

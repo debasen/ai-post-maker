@@ -3,57 +3,96 @@
 This document serves as the standard operating procedure for generating assets on Grok. Use this guide to ensure consistency across all tasks.
 
 ## Phase 1: Preparation
+
 1.  **Identify Prompt**: Run `python3 scripts/py/grok_tracker.py --project <ID> get_next` to retrieve the next pending prompt and its associated `<ID>`.
 2.  **Verify Status**: The script will automatically return the first available `pending` record. Ensure you have the correct `<ID>` for subsequent steps.
 
 ## Phase 2: Platform Navigation
+
 1.  **Open Grok**: Navigate to `https://grok.com/imagine`.
 2.  **Identify Input**: Use `browseros/evaluate_script` to get exact coordinates of the input area (usually a `div` with the placeholder "Type to imagine").
-    Example command:
-    "expression": "(function() {\n  const el = document.querySelector('div[contenteditable=\"true\"]');\n  if (el) {\n    const rect = el.getBoundingClientRect();\n    return JSON.stringify({\n      x: rect.left + rect.width / 2,\n      y: rect.top + rect.height / 2,\n      found: true\n    });\n  }\n  return JSON.stringify({ found: false });\n})()",
-    "page": 75
-    
-
-
+    - **Example expression:**
+      ```javascript
+      (function() {
+        const el = document.querySelector('div[contenteditable="true"]');
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          return JSON.stringify({
+            x: rect.left + rect.width / 2,
+            y: rect.top + rect.height / 2,
+            found: true
+          });
+        }
+        return JSON.stringify({ found: false });
+      })()
+      ```
+    - **Parameters:** `"page": 75`
 
 ## Phase 3: Generation Process
-1.  **Enter Prompt**: Type the exact prompt text retrieved in Phase 1 into the input area.
-Call browseros/type_at with x, y, and text.
-    Example command:
-    {
-      "clear": true,
-      "page": 75,
-      "text": "A deep bowl of Vietnamese beef pho. The broth is crystal clear but rich in color. Thin slices of rare beef are turning brown as they cook in the hot liquid. Fresh Thai basil, lime wedges, dynamic action shot with steam.",
-      "x": 720,
-      "y": 679
-    }
-2.  **Trigger Generation**: Press `Enter` using browseros/press_key.
-3.  **Select Image**: Once images appear, click the preferred "Generated image" to open the detail view. Important before moving to the next step.
-Example command:
-    "expression": "(function() {\n  const el = document.querySelector('img[alt=\"Generated image\"]');\n  if (el) {\n    const rect = el.getBoundingClientRect();\n    return JSON.stringify({\n      x: rect.left + rect.width / 2,\n      y: rect.top + rect.height / 2,\n      found: true\n    });\n  }\n  return JSON.stringify({ found: false });\n})()",
-    "page": 75
 
+1.  **Enter Prompt**: Type the exact prompt text retrieved in Phase 1 into the input area. Call `browseros/type_at` with `x`, `y`, and `text`.
+    - **Example parameters:**
+      ```json
+      {
+        "clear": true,
+        "page": 75,
+        "text": "A deep bowl of Vietnamese beef pho. The broth is crystal clear but rich in color. Thin slices of rare beef are turning brown as they cook in the hot liquid. Fresh Thai basil, lime wedges, dynamic action shot with steam.",
+        "x": 720,
+        "y": 679
+      }
+      ```
+2.  **Trigger Generation**: Press `Enter` using `browseros/press_key`.
+3.  **Select Image**: Once images appear, click the preferred "Generated image" to open the detail view. This is critical before moving to the next step.
+    - **Example expression:**
+      ```javascript
+      (function() {
+        const el = document.querySelector('img[alt="Generated image"]');
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          return JSON.stringify({
+            x: rect.left + rect.width / 2,
+            y: rect.top + rect.height / 2,
+            found: true
+          });
+        }
+        return JSON.stringify({ found: false });
+      })()
+      ```
+    - **Then use `browseros/click_at` with `x`, `y`:**
+      ```json
+      {
+        "button": "left",
+        "clickCount": 1,
+        "page": 80,
+        "x": 214,
+        "y": 375
+      }
+      ```
 4.  **Animate**: Click the **"Make video"** button in the detail view.
 
 ## Phase 4: Monitoring & Validation
-1.  **Track Progress**: Monitor the percentage indicator (e.g., "Generating X%") in 20 sec intervals using `browseros/evaluate_script`
+
+1.  **Track Progress**: Monitor the percentage indicator (e.g., "Generating X%") in 20 sec intervals using `browseros/take_snapshot`.
 2.  **Verify Completion**: Wait for the "Thumbnail" or "Download" buttons to become active, signifying the video is ready.
 
 ## Phase 5: Asset Management
-1. **Locate Download Button**:
-   - Call `browseros/take_snapshot` on the active page.
-   - Identify the interactive element with `aria-label="Download"`.
-2. **Download the File**:
-   - Call `browseros/download_file` with the identified element ID.
-   - Set `path` to the project destination directory (Replace N): `/Users/dsen/Projects/ai-post-maker/project-<N>/assets/current/`.
-3. **Rename**:
-   - Run: `python3 scripts/py/grok_video_downloader.py --project <N> process_download project-<N>/assets/current/ <ID>`
-   - This command finds the most-recent file in the destination directory and renames it to `<ID>.mp4`.
-4. **Verify**:
-   - Confirm the file exists at `project-<N>/assets/current/<ID>.mp4` with non-zero size.
+
+1.  **Locate Download Button**:
+    - Call `browseros/take_snapshot` on the active page.
+    - Identify the interactive element with `aria-label="Download"`.
+2.  **Download the File**:
+    - Call `browseros/download_file` with the identified element ID.
+    - Set `path` to the project destination directory (Replace N): `/Users/dsen/Projects/ai-post-maker/project-<N>/assets/current/`.
+3.  **Rename**:
+    - Run: `python3 scripts/py/grok_video_downloader.py --project <N> process_download project-<N>/assets/current/ <ID>`
+    - This command finds the most-recent file in the destination directory and renames it to `<ID>.mp4`.
+4.  **Verify**:
+    - Confirm the file exists at `project-<N>/assets/current/<ID>.mp4` with non-zero size.
 
 ## Phase 6: Recording & Tracking
+
 1.  **Update Tracker**: Run `python3 scripts/py/grok_tracker.py --project <ID> complete <ID> "<VIDEO_URL>" "<POST_URL>"` to mark the task as complete and record the URLs. (Use `grok_tracker_v3.py` for Project 3).
 
 ---
+
 **Note**: Element IDs (e.g., `[8641]`) and coordinates are dynamic and should be verified via `take_snapshot` at the start of each session.

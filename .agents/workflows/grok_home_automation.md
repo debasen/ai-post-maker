@@ -1,68 +1,102 @@
 ---
-description: Advanced end-to-end automation for generating videos on Grok based on browser_os.md rules. Requires --project <ID> argument.
+description: Grok Home Automation
 ---
 
-# Grok Home Automation Workflow
+# Grok Image & Video Generation Rule Book
 
-This workflow automates the process of generating image-to-video assets on Grok, following the standard operating procedures defined in `browser_os.md`.
+This document serves as the standard operating procedure for generating assets on Grok. Use this guide to ensure consistency across all tasks.
 
 ## Phase 1: Preparation
 
-1. **Identify Prompt**: Run the following command to retrieve the next pending record.
-   ```bash
-   python3 scripts/py/grok_tracker.py --project <PROJECT_ID> get_next
-   ```
-   **Extract**: `id`, `prompt`.
-   If it returns `{"error": "..."}` → **Exit**.
+1.  **Identify Prompt**: Run `python3 scripts/py/grok_tracker.py --project <ID> get_next` to retrieve the next pending prompt and its associated `<ID>`.
+2.  **Verify Status**: The script will automatically return the first available `pending` record. Ensure you have the correct `<ID>` for subsequent steps.
 
 ## Phase 2: Platform Navigation
 
-1. **Open Grok Imagine**: Use `browseros_new_page` or `browseros_navigate_page` to go to:
-   ```
-   https://grok.com/imagine
-   ```
+1.  **Open Grok**: Navigate to `https://grok.com/imagine`.
+2.  **Identify Input**: Use `browseros/evaluate_script` to get exact coordinates of the input area (usually a `div` with the placeholder "Type to imagine").
+    - **Example expression:**
+      ```javascript
+      (function() {
+        const el = document.querySelector('div[contenteditable="true"]');
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          return JSON.stringify({
+            x: rect.left + rect.width / 2,
+            y: rect.top + rect.height / 2,
+            found: true
+          });
+        }
+        return JSON.stringify({ found: false });
+      })()
+      ```
+    - **Parameters:** `"page": 75`
 
 ## Phase 3: Generation Process
 
-1. **Input Prompt**: 
-   - Call `browseros_take_snapshot` to identify the `contenteditable` input area (placeholder: "Type to imagine").
-   - Use `browseros_fill` to enter the `prompt` text.
-2. **Trigger Generation**: Use `browseros_press_key` with `key="Enter"` on the input area.
-3. **Select Image**: 
-   - Wait for images to appear.
-   - Call `browseros_take_snapshot` and click the first "Generated image" element.
-4. **Animate**: 
-   - In the detail view, call `browseros_take_snapshot`.
-   - Click the **"Make video"** button.
+1.  **Enter Prompt**: Type the exact prompt text retrieved in Phase 1 into the input area. Call `browseros/type_at` with `x`, `y`, and `text`.
+    - **Example parameters:**
+      ```json
+      {
+        "clear": true,
+        "page": 75,
+        "text": "A deep bowl of Vietnamese beef pho. The broth is crystal clear but rich in color. Thin slices of rare beef are turning brown as they cook in the hot liquid. Fresh Thai basil, lime wedges, dynamic action shot with steam.",
+        "x": 720,
+        "y": 679
+      }
+      ```
+2.  **Trigger Generation**: Press `Enter` using `browseros/press_key`.
+3.  **Select Image**: Once images appear, click the preferred "Generated image" to open the detail view. This is critical before moving to the next step.
+    - **Example expression:**
+      ```javascript
+      (function() {
+        const el = document.querySelector('img[alt="Generated image"]');
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          return JSON.stringify({
+            x: rect.left + rect.width / 2,
+            y: rect.top + rect.height / 2,
+            found: true
+          });
+        }
+        return JSON.stringify({ found: false });
+      })()
+      ```
+    - **Then use `browseros/click_at` with `x`, `y`:**
+      ```json
+      {
+        "button": "left",
+        "clickCount": 1,
+        "page": 80,
+        "x": 214,
+        "y": 375
+      }
+      ```
+4.  **Animate**: Click the **"Make video"** button in the detail view.
 
 ## Phase 4: Monitoring & Validation
 
-1. **Track Progress**: 
-   - Monitor the page for the percentage indicator (e.g., "Generating X%").
-   - Wait in 20-second intervals using `sleep 20`.
-2. **Verify Completion**: 
-   - Wait for the "Download" button (aria-label="Download") to become active.
+1.  **Track Progress**: Monitor the percentage indicator (e.g., "Generating X%") in 20 sec intervals using `browseros/take_snapshot`.
+2.  **Verify Completion**: Wait for the "Thumbnail" or "Download" buttons to become active, signifying the video is ready.
 
 ## Phase 5: Asset Management
 
-1. **Download**:
-   - Call `browseros_take_snapshot`.
-   - Call `browseros_download_file` on the element with `aria-label="Download"`.
-   - **Path**: `/Users/dsen/Projects/ai-post-maker/project-<PROJECT_ID>/assets/current/`
-2. **Rename & Process**:
-   - Run the following command:
-     ```bash
-     python3 scripts/py/grok_video_downloader.py --project <PROJECT_ID> process_download project-<PROJECT_ID>/assets/current/ <ID>
-     ```
-3. **Verify**:
-   - Ensure the file `project-<PROJECT_ID>/assets/current/<ID>.mp4` exists and is valid.
+1.  **Locate Download Button**:
+    - Call `browseros/take_snapshot` on the active page.
+    - Identify the interactive element with `aria-label="Download"`.
+2.  **Download the File**:
+    - Call `browseros/download_file` with the identified element ID.
+    - Set `path` to the project destination directory (Replace N): `/Users/dsen/Projects/ai-post-maker/project-<N>/assets/current/`.
+3.  **Rename**:
+    - Run: `python3 scripts/py/grok_video_downloader.py --project <N> process_download project-<N>/assets/current/ <ID>`
+    - This command finds the most-recent file in the destination directory and renames it to `<ID>.mp4`.
+4.  **Verify**:
+    - Confirm the file exists at `project-<N>/assets/current/<ID>.mp4` with non-zero size.
 
 ## Phase 6: Recording & Tracking
 
-1. **Update Tracker**:
-   - Extract the current URL as `postUrl`.
-   - (Optional) Identify the video source URL as `videoUrl`.
-   - Run the completion command:
-     ```bash
-     python3 scripts/py/grok_tracker.py --project <PROJECT_ID> complete <ID> "<VIDEO_URL>" "<POST_URL>"
-     ```
+1.  **Update Tracker**: Run `python3 scripts/py/grok_tracker.py --project <ID> complete <ID> "<VIDEO_URL>" "<POST_URL>"` to mark the task as complete and record the URLs. (Use `grok_tracker_v3.py` for Project 3).
+
+---
+
+**Note**: Element IDs (e.g., `[8641]`) and coordinates are dynamic and should be verified via `take_snapshot` at the start of each session.
