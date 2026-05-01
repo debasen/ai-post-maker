@@ -139,29 +139,19 @@ const detectVideoFailure = () => {
 // ─────────────────────────────────────────────────────────────
 // PHASE 1: IMAGE GENERATION
 // ─────────────────────────────────────────────────────────────
-async function runImageGeneration(promptText, thumbnailId) {
+async function runImageGeneration(promptText) {
   console.log('📸 [Grok v5] Starting image generation...');
 
   // Step 1A: Click thumbnail
   try {
-    const postIdMatch = window.location.href.match(/post\/([a-f0-9\-]+)/);
     await wait(2000);
-    if (postIdMatch && thumbnailId) {
-      const img = document.querySelector(`img[src*="${thumbnailId}"]`);
-      if (img) {
-        clickElement(img);
-        await wait(2000);
-        console.log('📸 [Grok v5] Clicked targeted thumbnail.');
-      } else {
-        console.warn(`⚠️ [Grok v5] Thumbnail ${thumbnailId} not found.`);
-      }
+    const img = document.querySelector('img[alt="Thumbnail 1"]');
+    if (img) {
+      clickElement(img);
+      await wait(2000);
+      console.log('📸 [Grok v5] Clicked first thumbnail (img[alt="Thumbnail 1"]).');
     } else {
-      const imgs = document.querySelectorAll('img');
-      if (imgs.length > 0) {
-        clickElement(imgs[0]);
-        await wait(2000);
-        console.log('📸 [Grok v5] Clicked first available image.');
-      }
+      console.warn('⚠️ [Grok v5] First thumbnail (img[alt="Thumbnail 1"]) not found.');
     }
   } catch (err) {
     console.error('❌ [Grok v5] Thumbnail click error:', err);
@@ -487,7 +477,7 @@ async function automateGrokGeneration(options) {
 
     // ── PHASE 1: Image Generation ──
     if (!skipImageGeneration) {
-      const imgResult = await runImageGeneration(promptText, thumbnailId);
+      const imgResult = await runImageGeneration(promptText);
       currentPostUrl = imgResult.postUrl;
     }
 
