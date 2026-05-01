@@ -204,7 +204,7 @@ def update_mapping_status(file_path, prompt_id, status):
 
 def print_usage():
     print(
-        "Usage: python3 scripts/py/grok_tracker.py --project <1|2> "
+        "Usage: python3 scripts/py/grok_tracker.py --project <1|2|3|4> "
         "[get_next | get_config | complete <id> <video_url> <post_url> | "
         "mark_video_warning <id> <post_url> | mark_video_failed <id> <post_url> | "
         "mark_image_warning <id> <post_url> | mark_image_failed <id> <post_url> | "
@@ -220,8 +220,8 @@ if __name__ == "__main__":
         sys.exit(1)
 
     project_id = args[1]
-    if project_id not in ("1", "2", "3"):
-        print(json.dumps({"error": f"Invalid project '{project_id}'. Must be 1, 2 or 3."}))
+    if project_id not in ("1", "2", "3", "4"):
+        print(json.dumps({"error": f"Invalid project '{project_id}'. Must be 1, 2, 3 or 4."}))
         sys.exit(1)
 
     file_path = get_project_path(project_id)

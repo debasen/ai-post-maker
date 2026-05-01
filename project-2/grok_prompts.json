@@ -1,6 +1,6 @@
 {
   "config": {
-    "thumbnail_id": "0fdc49b0-7c26-43a8-a593-52041b6e15b9",
+    "thumbnail_id": "89dc566f-5157-4b5d-ae8f-976485aced78",
     "video_type": null
   },
   "prompts": [
@@ -1028,49 +1028,66 @@
       "prompt": "Imagine the exact model in a private jet cabin, seated in a cream leather chair. Wearing a black silk slip dress. Looking directly at the camera with a soft, confident smile. Morning light through the cabin window. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She slowly raises a crystal glass of champagne to her lips. Slight camera zoom toward her eyes. Maintain correct movement and physics.",
       "instagram_caption": "Sky-high standards and silk dreams. ✈️🥂 #model #fashionmodel #hot #spicy #privatejet #luxurytravel #jetsetter #silkstyle",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/2a6df832-9373-48aa-9cc9-883c06fb7ab5",
+      "post_url": "https://grok.com/imagine/post/e5f9c18a-feea-4981-b375-20982bcc38db",
+      "executed_at": "2026-05-01T12:18:06.283115"
     },
     {
       "id": 102,
       "prompt": "Imagine the exact model in a Kyoto Zen garden. Wearing a soft pink lace micro bikini. Looking over her shoulder at the camera with a playful gaze. Cherry blossom petals in the air. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She runs a hand through her hair as petals fall. Slight camera zoom on her expression. Maintain correct movement and physics.",
       "instagram_caption": "Sakura season looks better on her. 🌸🎐 #model #fashionmodel #hot #spicy #kyoto #cherryblossom #travelmodel #sakuravibes",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/e6e64c00-6b52-442d-9527-1745393496da",
+      "post_url": "https://grok.com/imagine/post/52a435b3-a0ac-4064-ab1c-fe68ca2d1226",
+      "executed_at": "2026-05-01T12:26:32.917699"
     },
     {
       "id": 103,
       "prompt": "Imagine the exact model in a high-end library with dark wood shelves. Wearing a white button-down shirt tied at the waist over a black bikini top. Looking over reading glasses at the camera with a seductive smile. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She slowly tilts her head and lowers the glasses slightly. Slight camera zoom toward her gaze. Maintain correct movement and physics.",
       "instagram_caption": "Smart, sassy, and a little bit bad. 📚👓 #model #fashionmodel #hot #spicy #libraryvibes #geekchic #sultrylook #bookworm",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/aaac5716-1e1d-421f-99c0-fafa235e1b09",
+      "post_url": "https://grok.com/imagine/post/f8967dce-6409-4f28-a4ec-bcc5e5ac9714",
+      "executed_at": "2026-05-01T12:34:37.387732"
     },
     {
       "id": 104,
       "prompt": "Imagine the exact model on a Parisian balcony at dusk with the Eiffel Tower behind. Wearing a deep red lace bodysuit. Looking at the camera with a mysterious, intense gaze. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "A soft breeze blows her hair across her face. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Paris nights and red lace. 🗼❤️ #model #fashionmodel #hot #spicy #parisnight #eiffeltower #frenchglamour #nightaesthetic",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/6a859eab-9f01-4b56-8628-d8655afe9658",
+      "post_url": "https://grok.com/imagine/post/0d0dba9b-a06d-4efa-b563-e2669e42683d",
+      "executed_at": "2026-05-01T12:42:51.360324"
     },
     {
       "id": 105,
       "prompt": "Imagine the exact model in a professional boxing ring, leaning against the ropes. Wearing a black sporty high-cut leotard. Looking at the camera with a fierce, determined smirk. Dim arena lighting. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She exhales a visible breath and shifts her weight. Slight camera zoom on her smile. Maintain correct movement and physics.",
       "instagram_caption": "She’s the main event. 🥊🔥 #model #fashionmodel #hot #spicy #fitnessmodel #boxinggym #strongisbeautiful #athletevibes",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/9edc4f03-93fc-4329-8415-4ec23d1dd9f7",
+      "post_url": "https://grok.com/imagine/post/cc06db31-d5e4-4a66-bac4-006d26402533",
+      "executed_at": "2026-05-01T12:52:59.606650"
     },
     {
       "id": 106,
       "prompt": "Imagine the exact model in a marble-floored luxury kitchen. Wearing a white lace apron over a micro bikini. Leaning on the counter, looking at the camera while biting into a red strawberry. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She slowly chews the strawberry and winks. Slight camera zoom focusing on her lips. Maintain correct movement and physics.",
       "instagram_caption": "Cooking up something sweet. 🍓🤍 #model #fashionmodel #hot #spicy #kitchenglam #morningvibe #strawberry #luxuryliving",
-      "status": "pending"
+      "status": "completed"
     },
     {
       "id": 107,
       "prompt": "Imagine the exact model in a neon-lit Tokyo arcade. Wearing a holographic silver micro bikini. Looking at the camera with a playful, high-energy expression. Vibrant purple and blue lighting. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She laughs and taps a button on a game machine. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Leveling up in style. 🎮✨ #model #fashionmodel #hot #spicy #tokyoarcade #neonlights #cyberpunkstyle #gamergirl",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/f2904303-dfa5-4ad4-985f-fdee4a1ebe4c",
+      "post_url": "https://grok.com/imagine/post/4685b8c0-682f-4927-bc2c-ef66476472bf",
+      "executed_at": "2026-05-01T13:22:28.634908"
     },
     {
       "id": 108,
@@ -1082,7 +1099,6 @@
     {
       "id": 109,
       "prompt": "Imagine the exact model on a black sand beach in Iceland. Wearing a neon orange micro bikini. Looking at the camera with an intense, wind-swept expression. Moody grey sky and crashing waves. Wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She runs her hands through her wet hair. Slight camera zoom focusing on her eyes. Maintain correct movement and physics.",
       "instagram_caption": "Neon soul on a volcanic shore. 🌋🧡 #model #fashionmodel #hot #spicy #iceland #blacksandbeach #moodyphotography #neonstyle",
       "status": "pending"
     },
@@ -1096,56 +1112,48 @@
     {
       "id": 111,
       "prompt": "Imagine the exact model in a vintage 1950s diner. Wearing a cherry red micro bikini and a matching bandana. Looking at the camera while sipping a milkshake through a straw. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She smiles with a bit of whipped cream on her lip. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Sweet like a cherry. 🍒🥤 #model #fashionmodel #hot #spicy #retrodiner #1950sstyle #vintagevibes #pinupstyle",
       "status": "pending"
     },
     {
       "id": 112,
       "prompt": "Imagine the exact model in a futuristic glass-floor observation deck. Wearing a white latex bodysuit with cutouts. Looking down at the city below then up at the camera with a confident smirk. Full body shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She puts her hands on her hips and leans back. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Walking on clouds. ☁️🏙️ #model #fashionmodel #hot #spicy #futuristic #cityview #latexfashion #highrise",
       "status": "pending"
     },
     {
       "id": 113,
       "prompt": "Imagine the exact model in a field of sunflowers at sunset. Wearing a yellow micro bikini. Looking at the camera with a joyful, sun-drenched smile. Backlit golden hour glow. Wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She spins slowly in the field. Slight camera zoom focusing on her face. Maintain correct movement and physics.",
       "instagram_caption": "Chasing the sun. 🌻☀️ #model #fashionmodel #hot #spicy #sunflowerfield #goldenhour #summerglow #freespirit",
       "status": "pending"
     },
     {
       "id": 114,
       "prompt": "Imagine the exact model in a Moroccan riad courtyard pool. Wearing an emerald green beaded bikini. Looking at the camera while leaning against a mosaic-tiled wall. Dappled sunlight. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She splashes water onto her shoulders. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Mosaic dreams and emerald greens. 🇲🇦✨ #model #fashionmodel #hot #spicy #marrakech #riadlife #exoticbeauty #poolside",
       "status": "pending"
     },
     {
       "id": 115,
       "prompt": "Imagine the exact model in a recording studio. Wearing a distressed denim jacket over a black micro bikini top. Looking at the camera through the vocal booth glass. Warm studio lighting. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She adjusts her large studio headphones and smiles. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Making hits and missing heartbeats. 🎙️🔥 #model #fashionmodel #hot #spicy #studiovibes #recordingartist #denimstyle #musiclove",
       "status": "pending"
     },
     {
       "id": 116,
       "prompt": "Imagine the exact model in an infinity pool overlooking the Amalfi Coast. Wearing a lemon-print micro bikini. Looking at the camera with a relaxed, happy expression. Bright midday sun. Medium wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She wades toward the edge of the pool. Slight camera zoom on her face. Maintain correct movement and physics.",
       "instagram_caption": "Amalfi adventures. 🍋🌊 #model #fashionmodel #hot #spicy #amalficoast #italylove #lemonprint #luxurylife",
       "status": "pending"
     },
     {
       "id": 117,
       "prompt": "Imagine the exact model in a professional yoga studio. Wearing a lavender sports bra and matching high-waist bikini. Looking at the camera with a serene, focused gaze. Soft natural light. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She moves gracefully into a tree pose. Slight camera zoom on her expression. Maintain correct movement and physics.",
       "instagram_caption": "Finding balance. 🧘‍♀️💜 #model #fashionmodel #hot #spicy #yogalife #fitnessgoals #serenity #athleisure",
       "status": "pending"
     },
     {
       "id": 118,
       "prompt": "Imagine the exact model in a high-speed luxury car. Wearing a black leather jacket over a silver micro bikini. Looking at the camera through the rearview mirror with a sharp, edgy gaze. Motion blur outside the window. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She adjusts her sunglasses and smirks. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Fast lane living. 🏎️💨 #model #fashionmodel #hot #spicy #supercars #leatherstyle #nightdrive #edgyfashion",
       "status": "pending"
     },
@@ -1159,7 +1167,6 @@
     {
       "id": 120,
       "prompt": "Imagine the exact model in an industrial warehouse loft. Wearing a black mesh bodysuit. Looking at the camera with a fierce, high-fashion editorial stare. Dramatic spotlighting. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She tilts her chin up and shifts her gaze. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Concrete jungle vibes. ⛓️🖤 #model #fashionmodel #hot #spicy #editorialphotography #industrialstyle #meshoutfit #fierce",
       "status": "pending"
     },
@@ -1173,35 +1180,30 @@
     {
       "id": 122,
       "prompt": "Imagine the exact model on a luxury yacht in the Maldives. Wearing a turquoise micro bikini. Looking at the camera with a sun-kissed, joyful expression. Crystal clear water in background. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She splashes water at the lens and laughs. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Island girl at heart. 🏝️💎 #model #fashionmodel #hot #spicy #maldives #yachtlife #beachbody #summerparadise",
       "status": "pending"
     },
     {
       "id": 123,
       "prompt": "Imagine the exact model in a retro bowling alley. Wearing a pink-and-white striped micro bikini. Looking at the camera with a playful wink. Neon pink and blue lighting. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She rolls a bowling ball and turns back to the camera with a thumb up. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Strike a pose. 🎳💖 #model #fashionmodel #hot #spicy #retrostyle #bowlingnight #neonvibes #playful",
       "status": "pending"
     },
     {
       "id": 124,
       "prompt": "Imagine the exact model in a greenhouse filled with tropical plants. Wearing a leaf-print micro bikini. Looking at the camera with a serene, natural gaze. Dappled morning light. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She brushes a large leaf aside and steps forward. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "In my own jungle. 🌿🦋 #model #fashionmodel #hot #spicy #naturelover #greenhouse #tropicalvibes #junglequeen",
       "status": "pending"
     },
     {
       "id": 125,
       "prompt": "Imagine the exact model in a high-tech gaming setup. Wearing a black mesh crop top over a neon green micro bikini. Looking at the camera with a focused, competitive smirk. RGB lighting. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She adjusts her gaming headset and winks. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Player one has entered the chat. 🎮✨ #model #fashionmodel #hot #spicy #gamergirl #rgb #cyberstyle #highscore",
       "status": "pending"
     },
     {
       "id": 126,
       "prompt": "Imagine the exact model in a 1920s speakeasy. Wearing a gold fringe micro bikini and a long pearl necklace. Looking at the camera with a mysterious, flirty gaze. Smoky, dim atmosphere. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She shakes her shoulders making the fringe dance. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Roaring and ready. 🥂✨ #model #fashionmodel #hot #spicy #1920sfashion #speakeasy #vintageglam #goldfringe",
       "status": "pending"
     },
@@ -1215,84 +1217,72 @@
     {
       "id": 128,
       "prompt": "Imagine the exact model on an NYC rooftop at sunset. Wearing a black leather micro bikini. Looking at the camera with a sharp, dominant expression. Skyline in background. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She runs a hand through her hair as the wind blows. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Concrete jungle queen. 🏙️🖤 #model #fashionmodel #hot #spicy #nycrooftop #citylights #leatherbikini #urbanedge",
       "status": "pending"
     },
     {
       "id": 129,
       "prompt": "Imagine the exact model in a field of red tulips. Wearing a white lace micro bikini. Looking at the camera with a soft, innocent expression. Bright daylight. Wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She picks a tulip and smells it, looking back at the lens. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Spring in her step. 🌷🤍 #model #fashionmodel #hot #spicy #tulipfield #springvibes #naturalbeauty #whitelace",
       "status": "pending"
     },
     {
       "id": 130,
       "prompt": "Imagine the exact model in a high-end designer shoe closet. Wearing a silk slip over a black micro bikini. Looking at the camera while holding a crystal flute of wine. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She takes a slow sip and winks. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Best of both worlds. 👠🥂 #model #fashionmodel #hot #spicy #luxurycloset #shoelover #glamourlook #finewine",
       "status": "pending"
     },
     {
       "id": 131,
       "prompt": "Imagine the exact model in a professional recording booth. Wearing an oversized hoodie open over a silver micro bikini. Looking at the camera through the microphone with an intense, focused gaze. Blue studio light. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She tilts her head and smiles. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "The beat goes on. 🎙️✨ #model #fashionmodel #hot #spicy #studiolife #musicproduction #silverstyle #vocalist",
       "status": "pending"
     },
     {
       "id": 132,
       "prompt": "Imagine the exact model on a Venetian gondola at dusk. Wearing a red lace bodysuit. Looking at the camera with a romantic, mysterious expression. Ancient buildings in background. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She trails her fingers in the water. Slight camera zoom focusing on her face. Maintain correct movement and physics.",
       "instagram_caption": "Venetian secrets. 🛶❤️ #model #fashionmodel #hot #spicy #veniceitaly #gondolaride #travelgram #romanticnight",
       "status": "pending"
     },
     {
       "id": 133,
       "prompt": "Imagine the exact model in a futuristic mirror maze. Wearing a holographic micro bikini. Looking at the camera while surrounded by her reflections. Vibrant laser lights. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She touches one of the mirrors and smiles. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Reflection of perfection. 🪞✨ #model #fashionmodel #hot #spicy #mirrormaze #futuristic #neonvibe #scifistyle",
       "status": "pending"
     },
     {
       "id": 134,
       "prompt": "Imagine the exact model in a luxury stable. Wearing a brown leather jacket over a white bikini. Looking at the camera with a soft, equestrian-chic gaze. Standing next to a white horse. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She strokes the horse’s mane and looks back at the lens. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Wild and free. 🐎🤎 #model #fashionmodel #hot #spicy #equestrianstyle #stablelife #naturebeauty #chicvibe",
       "status": "pending"
     },
     {
       "id": 135,
       "prompt": "Imagine the exact model in a high-end sushi bar. Wearing a black latex micro bikini beneath a sheer organza kimono. Looking at the camera with a playful, curious expression. Neon sign reflection in the background. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She picks up a piece of sushi with chopsticks and smiles. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Late night cravings. 🍣✨ #model #fashionmodel #hot #spicy #sushitime #tokyonight #latexfashion #urbanvibes",
       "status": "pending"
     },
     {
       "id": 136,
       "prompt": "Imagine the exact model on a tennis court. Wearing a white pleated mini skirt over a matching bikini. Looking at the camera with a sporty, high-energy smirk. Holding a tennis racket over her shoulder. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She bounces a tennis ball once and winks. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Game, set, match. 🎾🔥 #model #fashionmodel #hot #spicy #tennisgirl #fitgoals #sportychic #summerbody",
       "status": "pending"
     },
     {
       "id": 137,
       "prompt": "Imagine the exact model in a snowy mountain peak. Wearing an open white puffer jacket over a black micro bikini. Looking at the camera with a fierce, cold-defying expression. Blue sky and snow peaks behind. Wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She exhales a puff of white steam. Slight camera zoom on her eyes. Maintain correct movement and physics.",
       "instagram_caption": "Ice queen heat. ❄️👑 #model #fashionmodel #hot #spicy #winterfashion #mountainlife #pufferjacket #snowqueen",
       "status": "pending"
     },
     {
       "id": 138,
       "prompt": "Imagine the exact model in a vintage vinyl record store. Wearing a band t-shirt tied at the waist over a red bikini top. Looking at the camera with a cool, nostalgic gaze. Holding a record. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She flips through a stack of records and smiles. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Nostalgic rhythms. 🎶🖤 #model #fashionmodel #hot #spicy #recordstore #vintagevibes #musiclover #coolstyle",
       "status": "pending"
     },
     {
       "id": 139,
       "prompt": "Imagine the exact model in a field of wild sunflowers. Wearing a yellow string bikini. Looking at the camera with a joyful, unbothered smile. Bright daylight. Wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She spins in a circle holding a sunflower. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Sunflower soul. 🌻☀️ #model #fashionmodel #hot #spicy #summerdream #naturephotography #yellowbikini #happyvibes",
       "status": "pending"
     },
@@ -1306,70 +1296,60 @@
     {
       "id": 141,
       "prompt": "Imagine the exact model in a misty redwood forest. Wearing a brown suede micro bikini. Looking at the camera with a serene, ethereal expression. Standing among giant trees. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She walks slowly through the mist toward the lens. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Forest goddess. 🌲✨ #model #fashionmodel #hot #spicy #naturemagic #forestshoot #earthyvibes #ethereal",
       "status": "pending"
     },
     {
       "id": 142,
       "prompt": "Imagine the exact model in a high-end yoga retreat. Wearing a white sports bra and matching bikini. Looking at the camera with a calm, meditative smile. Mountain backdrop. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She brings her hands to a namaste pose. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Peace within. 🧘‍♀️🏔️ #model #fashionmodel #hot #spicy #yogalife #wellnessjourney #serenity #fitbody",
       "status": "pending"
     },
     {
       "id": 143,
       "prompt": "Imagine the exact model in a retro laundromat. Wearing a pastel blue micro bikini. Looking at the camera while sitting on top of a washing machine. Holding a lollipop. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She blows a bubble and it pops. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Laundry day but make it fashion. 🍭🧼 #model #fashionmodel #hot #spicy #retrostyle #playful #pastelvibes #urbanstyle",
       "status": "pending"
     },
     {
       "id": 144,
       "prompt": "Imagine the exact model in a professional art studio. Wearing a paint-splattered white shirt over a black bikini. Looking at the camera with a thoughtful, artistic smirk. Holding a paintbrush. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She dabs a bit of paint on her nose and laughs. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "The artist and the muse. 🎨🖤 #model #fashionmodel #hot #spicy #creativesoul #artstudio #bohostyle #painter",
       "status": "pending"
     },
     {
       "id": 145,
       "prompt": "Imagine the exact model on a luxury yacht in the Amalfi Coast. Wearing a lemon-print micro bikini. Looking at the camera with a happy, sun-drenched expression. Holding a lemon. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She takes a bite of the lemon and makes a playful sour face. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Amalfi zest. 🍋🌊 #model #fashionmodel #hot #spicy #italytravel #yachtlife #summerstyle #lemonprint",
       "status": "pending"
     },
     {
       "id": 146,
       "prompt": "Imagine the exact model in a high-tech laboratory. Wearing a white lab coat over a red bikini. Looking at the camera with a smart, intense gaze. Holding a test tube with glowing blue liquid. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She smiles and tilts the test tube. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "The science of spicy. 🔬🌶️ #model #fashionmodel #hot #spicy #smartissexy #labcoat #sciencestyle #intensity",
       "status": "pending"
     },
     {
       "id": 147,
       "prompt": "Imagine the exact model in a futuristic neon-lit city street. Wearing a silver metallic micro bikini. Looking at the camera with a cool, unbothered expression. Rain streaking the lens. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She wipes a raindrop from her lip and winks. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Neon rain. 🌃✨ #model #fashionmodel #hot #spicy #cyberpunk #neonlights #nightcity #silverstyle",
       "status": "pending"
     },
     {
       "id": 148,
       "prompt": "Imagine the exact model in a rustic barn. Wearing denim cutoffs and a white bikini top. Looking at the camera with a warm, sun-kissed smile. Sitting on a hay bale. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She blows a strand of hair out of her eyes. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Country heart. 🚜❤️ #model #fashionmodel #hot #spicy #countrygirl #barnyard #summerstyle #naturalglow",
       "status": "pending"
     },
     {
       "id": 149,
       "prompt": "Imagine the exact model in a professional recording studio. Wearing large headphones over a black micro bikini top and mesh shirt. Looking at the camera through the glass with an intense, focused gaze. Red recording light in background. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "She leans into the microphone and smiles. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Drop the beat. 🎙️🔥 #model #fashionmodel #hot #spicy #studiovibes #musiclover #vocalist #recording",
       "status": "pending"
     },
     {
       "id": 150,
       "prompt": "Imagine the exact model on a balcony at night. Wearing a gold micro bikini. Looking at the camera with a soft, celebratory expression. Fireworks in the background. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
-      "video_prompt": "The fireworks reflect in her eyes. She smiles and looks back at the sky. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "The grand finale. ✨🎆 #model #fashionmodel #hot #spicy #celebration #fireworks #nightlight #goldbikini",
       "status": "pending"
     }

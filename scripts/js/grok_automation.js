@@ -201,7 +201,7 @@ async function runImageGeneration(promptText) {
     const btn = findVisibleMakeVideoButton();
     if (btn) {
       console.log('✅ [Grok v5] Image generation complete (Make video button visible).');
-      await wait(1000);
+      await wait(6000);
       return { postUrl: window.location.href };
     }
 

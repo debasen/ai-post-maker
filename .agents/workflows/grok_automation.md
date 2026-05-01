@@ -70,7 +70,7 @@ description: Advanced end-to-end automation skill for generating videos on Grok.
 ## Step 4: Sleep
 
 1. **Wait**:
-   - Pause for 100 seconds to allow for processing.
+   - Pause for 60 seconds to allow for processing.
 
 ## Step 5: Check Completion
 
@@ -118,9 +118,9 @@ description: Advanced end-to-end automation skill for generating videos on Grok.
    - Identify the interactive element with `aria-label="Download"`.
 2. **Download the File**:
    - Call `browseros_download_file` with the identified element ID.
-   - Set `path` to a dedicated project scratch directory (e.g., `/tmp/grok_downloads_project_<N>`).
-3. **Rename & Move**:
-   - Run: `python3 scripts/py/grok_video_downloader.py --project <N> process_download <download_dir> <ID>`
-   - This command finds the most-recent file in `<download_dir>`, renames it to `<ID>.mp4`, and moves it into `project-<N>/assets/current/`.
+   - Set `path` to the project destination directory (Replace N): `/Users/dsen/Projects/ai-post-maker/project-<N>/assets/current/`.
+3. **Rename**:
+   - Run: `python3 scripts/py/grok_video_downloader.py --project <N> process_download project-<N>/assets/current/ <ID>`
+   - This command finds the most-recent file in the destination directory and renames it to `<ID>.mp4`.
 4. **Verify**:
    - Confirm the file exists at `project-<N>/assets/current/<ID>.mp4` with non-zero size.

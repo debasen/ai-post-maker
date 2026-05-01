@@ -215,7 +215,7 @@ async function generateGrokImages(promptText) {
     if (generationStarted || i > 5) { // Wait at least 10s if we didn't catch the generating state
       if (cards.length >= 4 || hasMakeVideo) {
         console.log('✅ [Grok v2] Image generation complete.');
-        await wait(1000);
+        await wait(6000);
         return { status: 'ok', postUrl: window.location.href };
       }
     }

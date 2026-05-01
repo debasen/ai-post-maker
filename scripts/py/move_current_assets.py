@@ -100,7 +100,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Move assets from current/ to assets/ and update mapping status"
     )
-    parser.add_argument("--project", type=int, required=True, choices=[1, 2], help="Project ID (1 or 2)")
+    parser.add_argument("--project", type=int, required=True, choices=[1, 2, 3, 4], help="Project ID (1, 2, 3, or 4)")
     parser.add_argument("--dry-run", action="store_true", help="Preview changes without moving files")
     args = parser.parse_args()
 

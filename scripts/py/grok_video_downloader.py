@@ -80,7 +80,7 @@ def list_downloaded(project_id):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Grok Video Downloader Utility")
-    parser.add_argument("--project", required=True, help="Project ID (1 or 2)")
+    parser.add_argument("--project", required=True, help="Project ID (1, 2, 3 or 4)")
     
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
     

@@ -9,7 +9,7 @@ Move `.mp4` files from `project-<N>/assets/current/` to `project-<N>/assets/` an
 ## Usage
 
 ```
-/move-current-assets --project <1|2> [--dry-run]
+/move-current-assets --project <1|2|3|4> [--dry-run]
 ```
 
 ## Examples

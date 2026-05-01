@@ -174,15 +174,16 @@ Applies when final status will be `completed` or `partial`.
 
 2. **Download the File**:
    - Call `browseros_download_file` with the identified element ID.
-   - Set `path` to `/tmp/grok_downloads_project_3`.
+   - Set `path` to the project destination directory: `project-<N>/assets/current/`.
 
-3. **Rename & Move**:
+3. **Rename**:
    ```bash
-   python3 scripts/py/grok_video_downloader_v3.py --project 3 process_download /tmp/grok_downloads_project_3 <ID>
+   python3 scripts/py/grok_video_downloader_v3.py --project <N> process_download project-<N>/assets/current/ <ID>
    ```
+   - This command finds the most-recent file in the destination directory and renames it to `<ID>.mp4`.
 
 4. **Verify**:
-   - Confirm the file exists at `project-3/assets/current/<ID>.mp4` with non-zero size.
+   - Confirm the file exists at `project-<N>/assets/current/<ID>.mp4` with non-zero size.
 
 ---
 
