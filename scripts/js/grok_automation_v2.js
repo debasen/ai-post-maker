@@ -13,7 +13,10 @@
 // SELECTORS & CONFIG
 // ─────────────────────────────────────────────────────────────
 const SELECTORS = {
-  promptInput: 'div[contenteditable="true"].ProseMirror',
+  promptInput: '[placeholder="Type to imagine"]',
+  promptInputData: '[data-placeholder="Type to imagine"]',
+  contentEditable: '[contenteditable="true"]',
+  proseMirror: 'div[contenteditable="true"].ProseMirror',
   submitBtn: 'button[aria-label="Submit"], button[aria-label="Grok"], button[aria-label="Send"], button[aria-label="Edit"]',
   imageRadio: '[role="radio"]',
   makeVideoBtn: 'button[aria-label="Make video"]',
@@ -168,17 +171,25 @@ async function generateGrokImages(promptText) {
   }
 
   // Find input
-  const editableElement = document.querySelector(SELECTORS.promptInput);
+  const editableElement =
+    document.querySelector(SELECTORS.promptInput) ||
+    document.querySelector(SELECTORS.promptInputData) ||
+    document.querySelector(SELECTORS.contentEditable) ||
+    document.querySelector(SELECTORS.proseMirror);
+
   if (!editableElement) {
     return { status: 'image_failed', postUrl: window.location.href, error: 'Prompt input box not found.' };
   }
 
   // Type prompt
+  clickElement(editableElement);
   editableElement.focus();
-  document.execCommand('selectAll', false, null);
-  document.execCommand('delete', false, null);
-  document.execCommand('insertText', false, promptText);
-  await wait(500);
+  await wait(1000);
+
+  editableElement.textContent = promptText;
+  editableElement.dispatchEvent(new Event('input', { bubbles: true }));
+  editableElement.dispatchEvent(new Event('change', { bubbles: true }));
+  await wait(2000);
 
   // Submit
   const submitBtnSelectors = SELECTORS.submitBtn.split(', ');
@@ -191,7 +202,7 @@ async function generateGrokImages(promptText) {
     return { status: 'image_failed', postUrl: window.location.href, error: 'Submit button not found.' };
   }
 
-  clickElement(submitBtn);
+  submitBtn.click();
   console.log('⏳ [Grok v2] Image prompt submitted. Waiting for generation...');
 
   // Wait for image cards
@@ -375,16 +386,24 @@ async function triggerVideoGeneration(mode, videoPromptText) {
   if (mode === 'custom_video_prompt') {
     console.log('🎬 [Grok v2] Custom video prompt mode...');
 
-    // Find video prompt input (same ProseMirror editor)
-    const videoEditableElement = document.querySelector(SELECTORS.promptInput);
+    // Find video prompt input
+    const videoEditableElement =
+      document.querySelector(SELECTORS.promptInput) ||
+      document.querySelector(SELECTORS.promptInputData) ||
+      document.querySelector(SELECTORS.contentEditable) ||
+      document.querySelector(SELECTORS.proseMirror);
+
     if (!videoEditableElement) {
       return { status: 'video_failed', postUrl, error: 'Video prompt input box not found.' };
     }
 
+    clickElement(videoEditableElement);
     videoEditableElement.focus();
-    document.execCommand('selectAll', false, null);
-    document.execCommand('delete', false, null);
-    document.execCommand('insertText', false, videoPromptText);
+    await wait(500);
+
+    videoEditableElement.textContent = videoPromptText;
+    videoEditableElement.dispatchEvent(new Event('input', { bubbles: true }));
+    videoEditableElement.dispatchEvent(new Event('change', { bubbles: true }));
     await wait(500);
 
     // Find submit button
@@ -530,15 +549,23 @@ async function extendVideo(extendPromptText) {
   await wait(500);
 
   // Find input and enter extend prompt
-  const editableElement = document.querySelector(SELECTORS.promptInput);
-  if (!editableElement) {
+  const extendEditableElement =
+    document.querySelector(SELECTORS.promptInput) ||
+    document.querySelector(SELECTORS.promptInputData) ||
+    document.querySelector(SELECTORS.contentEditable) ||
+    document.querySelector(SELECTORS.proseMirror);
+
+  if (!extendEditableElement) {
     return { extendStatus: 'extend_failed', error: 'Extend prompt input not found' };
   }
 
-  editableElement.focus();
-  document.execCommand('selectAll', false, null);
-  document.execCommand('delete', false, null);
-  document.execCommand('insertText', false, extendPromptText);
+  clickElement(extendEditableElement);
+  extendEditableElement.focus();
+  await wait(500);
+
+  extendEditableElement.textContent = extendPromptText;
+  extendEditableElement.dispatchEvent(new Event('input', { bubbles: true }));
+  extendEditableElement.dispatchEvent(new Event('change', { bubbles: true }));
   await wait(500);
 
   // Submit extend prompt

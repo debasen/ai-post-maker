@@ -34,6 +34,7 @@ const SELECTORS = {
   promptInput: '[placeholder="Type to imagine, @ to reference images"]',
   promptInputData: '[data-placeholder="Type to imagine, @ to reference images"]',
   contentEditable: '[contenteditable="true"]',
+  proseMirror: 'div[contenteditable="true"].ProseMirror',
 
   // Submit buttons
   submitBtn: 'button[aria-label="Edit"], button[aria-label="Grok"], button[aria-label="Send"]',
@@ -161,7 +162,8 @@ async function runImageGeneration(promptText) {
   const editableElement =
     document.querySelector(SELECTORS.promptInput) ||
     document.querySelector(SELECTORS.promptInputData) ||
-    document.querySelector(SELECTORS.contentEditable);
+    document.querySelector(SELECTORS.contentEditable) ||
+    document.querySelector(SELECTORS.proseMirror);
 
   if (!editableElement) {
     throw new Error('Prompt input box not found.');
@@ -295,7 +297,8 @@ async function triggerVideoGeneration(mode, videoPromptText, videoType) {
     const videoEditableElement =
       document.querySelector(SELECTORS.promptInput) ||
       document.querySelector(SELECTORS.promptInputData) ||
-      document.querySelector(SELECTORS.contentEditable);
+      document.querySelector(SELECTORS.contentEditable) ||
+      document.querySelector(SELECTORS.proseMirror);
 
     if (!videoEditableElement) {
       throw new Error('Video prompt input box not found.');

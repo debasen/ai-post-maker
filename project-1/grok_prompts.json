@@ -11,27 +11,42 @@
     {
       "id": 2,
       "prompt": "Towering slice of New York cheesecake. A glossy, vibrant red strawberry glaze is dripping down the thick graham cracker crust, topped with fresh dewy berries. Bright, airy bakery lighting, 8k.",
-      "status": "pending"
+      "status": "downloaded",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/718a7885-c7b0-4fe4-9979-ca489b17aea0/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/718a7885-c7b0-4fe4-9979-ca489b17aea0",
+      "executed_at": "2026-05-01T21:28:44.571188"
     },
     {
       "id": 3,
       "prompt": "Plump shrimp sizzling in a heavy cast-iron pan. Bathed in foaming, golden garlic butter sauce, flecked with chopped green parsley. Charred lemon wedges on the side, thick steam rising, hyper-detailed.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/33b8eba4-6cca-4f1a-8404-930e36659e2e/content?cache=1",
+      "post_url": "https://grok.com/imagine/post/72585091-da45-4b6a-a034-895f494094d8",
+      "executed_at": "2026-05-01T22:42:07.032092"
     },
     {
       "id": 4,
       "prompt": "A crispy, golden-brown fried chicken sandwich. Spicy orange mayo is oozing over the edges, thick crinkle-cut pickles, shiny buttered bun. Dark rustic background, shallow depth of field, hyper-detailed crust texture.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/3695f9f1-fcdf-479d-979f-1ee3bf0ce9d1/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-01T23:11:21.343296"
     },
     {
       "id": 5,
       "prompt": "A deep bowl of Vietnamese beef pho. The broth is crystal clear but rich in color. Thin slices of rare beef are turning brown as they cook in the hot liquid. Fresh Thai basil, lime wedges, dynamic action shot with steam.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/f0a3f9b2-bfda-467d-8842-e850e8f82575/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/f0a3f9b2-bfda-467d-8842-e850e8f82575",
+      "executed_at": "2026-05-01T23:28:19.798604"
     },
     {
       "id": 6,
       "prompt": "A slice of warm, rustic apple pie. Golden, flaky, sugar-crusted lattice top, bubbling thick cinnamon-spiced apple syrup spilling out. A melting scoop of vanilla ice cream on top, steam rising, cozy lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/cfb64405-106a-47f7-9444-97a28b9bb82e/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/cfb64405-106a-47f7-9444-97a28b9bb82e",
+      "executed_at": "2026-05-01T23:37:03.474552"
     },
     {
       "id": 7,

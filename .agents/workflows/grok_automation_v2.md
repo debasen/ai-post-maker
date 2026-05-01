@@ -52,22 +52,26 @@ Call `browseros_navigate_page` with this URL.
 
 ## Step 3: Generate Images
 
-Prepend `scripts/js/grok_automation_v2.min.js`, then evaluate:
-
-```javascript
-(async () => {
-  return await generateGrokImages("INSERT_PROMPT_HERE");
-})();
-```
+1. **Prepare script** by wrapping everything in an `(async () => { ... })()` block:
+   ```javascript
+   (async () => {
+     // Prepend content of scripts/js/grok_automation_v2.min.js
+     return await generateGrokImages("INSERT_PROMPT_HERE");
+   })();
+   ```
+2. **Call `evaluate_script`** with the prepared script.
 
 **Return values**:
 - `{ status: 'ok', postUrl }` → Go to Step 4
 - `{ status: 'image_moderated', postUrl, error }` → **Tone down the prompt** and retry once immediately:
-  ```javascript
-  (async () => {
-    return await generateGrokImages("INSERT_TONED_DOWN_PROMPT_HERE");
-  })();
-  ```
+  1. **Prepare retry script** by wrapping everything in an `(async () => { ... })()` block:
+     ```javascript
+     (async () => {
+       // Prepend content of scripts/js/grok_automation_v2.min.js
+       return await generateGrokImages("INSERT_TONED_DOWN_PROMPT_HERE");
+     })();
+     ```
+  2. **Call `evaluate_script`** with the prepared retry script.
   - If retry returns `ok` → Go to Step 4
   - If retry returns `image_moderated` or `image_failed` → **Mark as failed** (Step 8A)
 - `{ status: 'image_failed', postUrl, error }` → **Mark as failed** (Step 8A)
@@ -78,14 +82,15 @@ Prepend `scripts/js/grok_automation_v2.min.js`, then evaluate:
 
 ## Step 4: Trigger Video Generation
 
-Prepend the JS file, then evaluate:
-
-```javascript
-(async () => {
-  const mode = (VIDEO_PROMPT && VIDEO_PROMPT.trim()) ? 'custom_video_prompt' : 'default_make_video';
-  return await triggerVideoGeneration(mode, VIDEO_PROMPT || null);
-})();
-```
+1. **Prepare script** by wrapping everything in an `(async () => { ... })()` block:
+   ```javascript
+   (async () => {
+     // Prepend content of scripts/js/grok_automation_v2.min.js
+     const mode = (VIDEO_PROMPT && VIDEO_PROMPT.trim()) ? 'custom_video_prompt' : 'default_make_video';
+     return await triggerVideoGeneration(mode, VIDEO_PROMPT || null);
+   })();
+   ```
+2. **Call `evaluate_script`** with the prepared script.
 
 **Return values**:
 - `{ status: 'ok', videoUrl, postUrl, mode }` → Go to Step 5
@@ -96,14 +101,16 @@ Prepend the JS file, then evaluate:
 
 If `video_prompt` is present:
 1. Generate a toned-down `video_prompt` (less explicit camera direction, softer wording)
-2. Retry with:
+2. **Prepare retry script** by wrapping everything in an `(async () => { ... })()` block:
    ```javascript
    (async () => {
+     // Prepend content of scripts/js/grok_automation_v2.min.js
      return await triggerVideoGeneration('custom_video_prompt', 'INSERT_TONED_DOWN_VIDEO_PROMPT');
    })();
    ```
-3. If retry returns `ok` → Go to Step 5
-4. If retry returns `video_failed` → **Mark as video_failed** (Step 8B)
+3. **Call `evaluate_script`** with the prepared retry script.
+4. If retry returns `ok` → Go to Step 5
+5. If retry returns `video_failed` → **Mark as video_failed** (Step 8B)
 
 If `video_prompt` is **not** present:
 - **Mark as video_failed** (Step 8B) immediately — nothing to tone down.
@@ -112,13 +119,14 @@ If `video_prompt` is **not** present:
 
 ## Step 5: Wait for Video Completion
 
-Prepend the JS file, then evaluate:
-
-```javascript
-(async () => {
-  return await checkVideoCompletion();
-})();
-```
+1. **Prepare script** by wrapping everything in an `(async () => { ... })()` block:
+   ```javascript
+   (async () => {
+     // Prepend content of scripts/js/grok_automation_v2.min.js
+     return await checkVideoCompletion();
+   })();
+   ```
+2. **Call `evaluate_script`** with the prepared script.
 
 **Return values**:
 - `{ status: 'completed', videoUrl }` → Go to Step 6
@@ -133,13 +141,14 @@ If Step 4B already exhausted its retry → **Mark as video_failed** (Step 8B).
 
 Skip this step entirely if `extend_prompt` is null or empty.
 
-Prepend the JS file, then evaluate:
-
-```javascript
-(async () => {
-  return await extendVideo("INSERT_EXTEND_PROMPT_HERE");
-})();
-```
+1. **Prepare script** by wrapping everything in an `(async () => { ... })()` block:
+   ```javascript
+   (async () => {
+     // Prepend content of scripts/js/grok_automation_v2.min.js
+     return await extendVideo("INSERT_EXTEND_PROMPT_HERE");
+   })();
+   ```
+2. **Call `evaluate_script`** with the prepared script.
 
 **Return values**:
 - `{ extendStatus: 'completed', videoUrl }` → **Mark as completed** (Step 8C)
@@ -150,14 +159,16 @@ Prepend the JS file, then evaluate:
 
 If `extend_prompt` is present:
 1. Generate a toned-down `extend_prompt`
-2. Retry with:
+2. **Prepare retry script** by wrapping everything in an `(async () => { ... })()` block:
    ```javascript
    (async () => {
+     // Prepend content of scripts/js/grok_automation_v2.min.js
      return await extendVideo("INSERT_TONED_DOWN_EXTEND_PROMPT");
    })();
    ```
-3. If retry returns `completed` → **Mark as completed** (Step 8C)
-4. If retry returns `extend_moderated` or `extend_failed` → **Mark as partial** (Step 8D)
+3. **Call `evaluate_script`** with the prepared retry script.
+4. If retry returns `completed` → **Mark as completed** (Step 8C)
+5. If retry returns `extend_moderated` or `extend_failed` → **Mark as partial** (Step 8D)
 
 If `extend_prompt` is **not** present:
 - **Mark as partial** (Step 8D) immediately — nothing to tone down.
@@ -226,62 +237,64 @@ python3 scripts/py/grok_tracker_v3.py --project 3 mark_partial <ID> "<VIDEO_URL>
 
 ## Full Inline JavaScript Example
 
-```javascript
-// Prepend scripts/js/grok_automation_v2.min.js before evaluating this:
+1. **Prepare script** by wrapping everything in an `(async () => { ... })()` block:
+   ```javascript
+   // Prepend content of scripts/js/grok_automation_v2.min.js
 
-(async () => {
-  const prompt = "INSERT_PROMPT";
-  const videoPrompt = INSERT_VIDEO_PROMPT_OR_NULL;
-  const extendPrompt = INSERT_EXTEND_PROMPT_OR_NULL;
+   (async () => {
+     const prompt = "INSERT_PROMPT";
+     const videoPrompt = INSERT_VIDEO_PROMPT_OR_NULL;
+     const extendPrompt = INSERT_EXTEND_PROMPT_OR_NULL;
 
-  // Step 3: Generate images
-  let imgResult = await generateGrokImages(prompt);
-  if (imgResult.status === 'image_moderated') {
-    const tonedDownPrompt = "INSERT_TONED_DOWN_PROMPT";
-    imgResult = await generateGrokImages(tonedDownPrompt);
-  }
-  if (imgResult.status !== 'ok') {
-    return { finalStatus: 'failed', postUrl: imgResult.postUrl };
-  }
+     // Step 3: Generate images
+     let imgResult = await generateGrokImages(prompt);
+     if (imgResult.status === 'image_moderated') {
+       const tonedDownPrompt = "INSERT_TONED_DOWN_PROMPT";
+       imgResult = await generateGrokImages(tonedDownPrompt);
+     }
+     if (imgResult.status !== 'ok') {
+       return { finalStatus: 'failed', postUrl: imgResult.postUrl };
+     }
 
-  // Step 4: Trigger video
-  const mode = (videoPrompt && videoPrompt.trim()) ? 'custom_video_prompt' : 'default_make_video';
-  let videoResult = await triggerVideoGeneration(mode, videoPrompt);
-  if (videoResult.status === 'video_failed' && videoPrompt) {
-    const tonedDownVideoPrompt = "INSERT_TONED_DOWN_VIDEO_PROMPT";
-    videoResult = await triggerVideoGeneration('custom_video_prompt', tonedDownVideoPrompt);
-  }
-  if (videoResult.status !== 'ok') {
-    return { finalStatus: 'video_failed', postUrl: videoResult.postUrl };
-  }
+     // Step 4: Trigger video
+     const mode = (videoPrompt && videoPrompt.trim()) ? 'custom_video_prompt' : 'default_make_video';
+     let videoResult = await triggerVideoGeneration(mode, videoPrompt);
+     if (videoResult.status === 'video_failed' && videoPrompt) {
+       const tonedDownVideoPrompt = "INSERT_TONED_DOWN_VIDEO_PROMPT";
+       videoResult = await triggerVideoGeneration('custom_video_prompt', tonedDownVideoPrompt);
+     }
+     if (videoResult.status !== 'ok') {
+       return { finalStatus: 'video_failed', postUrl: videoResult.postUrl };
+     }
 
-  // Step 5: Wait for completion
-  let completion = await checkVideoCompletion();
-  if (completion.status !== 'completed' && videoPrompt) {
-    const tonedDownVideoPrompt = "INSERT_TONED_DOWN_VIDEO_PROMPT";
-    const retryResult = await triggerVideoGeneration('custom_video_prompt', tonedDownVideoPrompt);
-    if (retryResult.status !== 'ok') {
-      return { finalStatus: 'video_failed', postUrl: retryResult.postUrl };
-    }
-    completion = await checkVideoCompletion();
-  }
-  if (completion.status !== 'completed') {
-    return { finalStatus: 'video_failed', postUrl: completion.videoUrl };
-  }
+     // Step 5: Wait for completion
+     let completion = await checkVideoCompletion();
+     if (completion.status !== 'completed' && videoPrompt) {
+       const tonedDownVideoPrompt = "INSERT_TONED_DOWN_VIDEO_PROMPT";
+       const retryResult = await triggerVideoGeneration('custom_video_prompt', tonedDownVideoPrompt);
+       if (retryResult.status !== 'ok') {
+         return { finalStatus: 'video_failed', postUrl: retryResult.postUrl };
+       }
+       completion = await checkVideoCompletion();
+     }
+     if (completion.status !== 'completed') {
+       return { finalStatus: 'video_failed', postUrl: completion.videoUrl };
+     }
 
-  // Step 6: Extend
-  if (extendPrompt && extendPrompt.trim()) {
-    let extendResult = await extendVideo(extendPrompt);
-    if (extendResult.extendStatus !== 'completed') {
-      const tonedDownExtend = "INSERT_TONED_DOWN_EXTEND_PROMPT";
-      extendResult = await extendVideo(tonedDownExtend);
-    }
-    if (extendResult.extendStatus === 'completed') {
-      return { finalStatus: 'completed', videoUrl: extendResult.videoUrl, postUrl: window.location.href };
-    }
-    return { finalStatus: 'partial', videoUrl: completion.videoUrl, postUrl: window.location.href };
-  }
+     // Step 6: Extend
+     if (extendPrompt && extendPrompt.trim()) {
+       let extendResult = await extendVideo(extendPrompt);
+       if (extendResult.extendStatus !== 'completed') {
+         const tonedDownExtend = "INSERT_TONED_DOWN_EXTEND_PROMPT";
+         extendResult = await extendVideo(tonedDownExtend);
+       }
+       if (extendResult.extendStatus === 'completed') {
+         return { finalStatus: 'completed', videoUrl: extendResult.videoUrl, postUrl: window.location.href };
+       }
+       return { finalStatus: 'partial', videoUrl: completion.videoUrl, postUrl: window.location.href };
+     }
 
-  return { finalStatus: 'completed', videoUrl: completion.videoUrl, postUrl: window.location.href };
-})();
-```
+     return { finalStatus: 'completed', videoUrl: completion.videoUrl, postUrl: window.location.href };
+   })();
+   ```
+2. **Call `evaluate_script`** with the prepared script.
