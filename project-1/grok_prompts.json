@@ -67,142 +67,226 @@
     {
       "id": 9,
       "prompt": "Fresh raw oysters on the half shell resting on crushed ice. Glistening with fresh, briny seawater and droplets of lemon juice. Elegant, dark cinematic aesthetic, hyper-detailed macro photography.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/3e441633-489b-4737-84f6-72f29d86dae0",
+      "post_url": "https://grok.com/imagine/post/3e441633-489b-4737-84f6-72f29d86dae0",
+      "executed_at": "2026-05-02T00:44:22.918602"
     },
     {
       "id": 10,
       "prompt": "A steaming bowl of tonkotsu ramen. The broth is rich, opaque, and creamy. Topped with thick slices of chashu pork showing glistening fat, a soft-boiled marinated egg with a jammy yolk, nori, and bright green scallions.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/1f4828cd-3430-4bfc-a57d-de8675912d44",
+      "post_url": "https://grok.com/imagine/post/1f4828cd-3430-4bfc-a57d-de8675912d44",
+      "executed_at": "2026-05-02T00:51:28.396883"
     },
     {
       "id": 11,
       "prompt": "An epic cheese pull as a slice of pepperoni pizza is lifted from the pie. Crispy pepperoni cups with slightly charred edges holding small pools of savory orange oil. Dark background, cinematic lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/d5b6c184-4de4-4f3a-be9b-6858d320fc1a",
+      "post_url": "https://grok.com/imagine/post/d5b6c184-4de4-4f3a-be9b-6858d320fc1a",
+      "executed_at": "2026-05-02T01:00:28.026311"
     },
     {
       "id": 12,
       "prompt": "A gourmet grilled cheese sandwich being pulled apart in half. Gooey, stringy mozzarella and sharp cheddar stretching between the halves, golden pan-fried buttery crust. Steaming hot, cozy lighting, 8k.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/8e216f66-c5eb-41b2-bb8f-8c8584196a96/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/8e216f66-c5eb-41b2-bb8f-8c8584196a96",
+      "executed_at": "2026-05-02T01:03:11.349271"
     },
     {
       "id": 13,
       "prompt": "Thick slice of artisanal sourdough toast smeared with chunky, vibrant green mashed avocado. Topped with red chili flakes, microgreens, and a soft-boiled egg cut in half with a glossy, jammy yolk. Macro lens.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/ad845d4f-d096-4000-9ccd-40f10a2b9e23",
+      "post_url": "https://grok.com/imagine/post/ad845d4f-d096-4000-9ccd-40f10a2b9e23",
+      "executed_at": "2026-05-02T01:08:43.125496"
     },
     {
       "id": 14,
       "prompt": "Crispy, golden french fries spilling out of a rustic paper cone. Glistening with a light coat of oil, coarse sea salt flakes clearly visible. A small ramekin of thick, rich red ketchup. Bright lighting, ultra-realistic.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/aab32e5d-b6c6-401a-aff3-2d4e57b7e148",
+      "post_url": "https://grok.com/imagine/post/aab32e5d-b6c6-401a-aff3-2d4e57b7e148",
+      "executed_at": "2026-05-02T01:16:29.711221"
     },
     {
       "id": 15,
       "prompt": "A warm, giant cinnamon roll straight from the oven. Thick, white cream cheese icing is melting and pooling into the spiraled crevices. Steaming hot, cozy morning sunlight streaming from the side.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/83f0661e-ddf2-4052-af17-ffa12a1a313e",
+      "post_url": "https://grok.com/imagine/post/83f0661e-ddf2-4052-af17-ffa12a1a313e",
+      "executed_at": "2026-05-02T01:23:38.613537"
     },
     {
       "id": 16,
       "prompt": "Crispy Korean fried chicken wings piled on a plate. They are completely coated in a thick, sticky, bright red gochujang glaze. Sprinkled with toasted white sesame seeds, glistening under bright, appetizing lights.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/0a4a1af3-ebf3-4f6b-a72e-9e1ac516e1ee",
+      "post_url": "https://grok.com/imagine/post/0a4a1af3-ebf3-4f6b-a72e-9e1ac516e1ee",
+      "executed_at": "2026-05-02T01:37:12.193950"
     },
     {
       "id": 17,
       "prompt": "A warm chocolate lava cake freshly broken open. Thick, dark, rich chocolate ganache oozing slowly onto a white plate. A perfect scoop of melting vanilla bean ice cream next to it, fine powdered sugar dusting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/05cac75c-a042-42ba-919a-1daa7c0f4ad0",
+      "post_url": "https://grok.com/imagine/post/05cac75c-a042-42ba-919a-1daa7c0f4ad0",
+      "executed_at": "2026-05-02T01:44:39.191445"
     },
     {
       "id": 18,
       "prompt": "Creamy, authentic spaghetti carbonara. A bright yellow, jammy egg yolk dripping perfectly over hot noodles, crispy chunks of fatty guanciale, generous pecorino romano dusting. Warm Italian restaurant lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/8bb57c2e-77a7-4b8e-80c4-7c0d2677b75e",
+      "post_url": "https://grok.com/imagine/post/8bb57c2e-77a7-4b8e-80c4-7c0d2677b75e",
+      "executed_at": "2026-05-02T01:52:16.890148"
     },
     {
       "id": 19,
       "prompt": "Slow-roasted BBQ brisket with a thick, dark pepper bark and a prominent pink smoke ring. Glistening meat juices pooling on a wooden cutting board, rustic lighting, ultra-realistic textures.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/8ccfa810-cf7c-484d-90bb-ce6cd94ac754",
+      "post_url": "https://grok.com/imagine/post/8ccfa810-cf7c-484d-90bb-ce6cd94ac754",
+      "executed_at": "2026-05-02T02:01:11.543129"
     },
     {
       "id": 20,
       "prompt": "Jumbo pan-seared scallops with a perfect golden-brown crust. Sitting on a bed of creamy yellow sweet corn puree, garnished with micro-cilantro and glistening drops of melted brown butter. Elegant, moody lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/8db87686-0a53-45f9-b0ac-ddb38eca8bcf",
+      "post_url": "https://grok.com/imagine/post/8db87686-0a53-45f9-b0ac-ddb38eca8bcf",
+      "executed_at": "2026-05-02T07:03:27.185161"
     },
     {
       "id": 21,
       "prompt": "A freshly fried corn dog on a wooden stick. The golden-brown cornmeal batter is perfectly crispy. A thick, glossy zig-zag of bright yellow mustard runs down the length. Steaming hot, 8k resolution.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/3f95f9a0-7e85-45ad-abb7-6ff81356e1aa",
+      "post_url": "https://grok.com/imagine/post/3f95f9a0-7e85-45ad-abb7-6ff81356e1aa",
+      "executed_at": "2026-05-02T07:13:38.145228"
     },
     {
       "id": 22,
       "prompt": "Ultra-realistic macro shot of a double cheeseburger. Juicy, sizzling smashed beef patties, dripping bright yellow melted cheddar cheese, crisp lettuce, resting on a toasted buttery brioche bun. Cinematic lighting, 8k resolution, food photography.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/fd7c570e-5ca6-4f2b-b629-9eb18d414d48",
+      "post_url": "https://grok.com/imagine/post/fd7c570e-5ca6-4f2b-b629-9eb18d414d48",
+      "executed_at": "2026-05-02T07:19:57.753319"
     },
     {
       "id": 23,
       "prompt": "Twirled spaghetti pasta piled high, smothered in a rich, chunky, glossy meat ragu. A heavy dusting of freshly grated parmesan cheese falling like snow, fresh parsley garnish. Steaming hot, ultra-realistic.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/7b5f97f7-bf9d-42af-a0ff-25b1e701e025",
+      "post_url": "https://grok.com/imagine/post/7b5f97f7-bf9d-42af-a0ff-25b1e701e025",
+      "executed_at": "2026-05-02T07:26:35.365090"
     },
     {
       "id": 24,
       "prompt": "A bowl of Thai tom yum soup. The broth is a vibrant, spicy red-orange with floating pools of chili oil. Plump pink shrimp, stalks of lemongrass, and fresh cilantro. Steam billowing up, dark moody lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/ba408280-d3e5-467e-9098-7e639f759352",
+      "post_url": "https://grok.com/imagine/post/ba408280-d3e5-467e-9098-7e639f759352",
+      "executed_at": "2026-05-02T07:32:47.481425"
     },
     {
       "id": 25,
       "prompt": "A rack of sticky BBQ pork ribs, glossy and caramelized. Garnished with white sesame seeds and fresh chopped green onions. Steaming hot, macro lens, mouth-watering food magazine photography.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/4cab6f03-e5db-41e6-a579-46de4fc72cf6",
+      "post_url": "https://grok.com/imagine/post/4cab6f03-e5db-41e6-a579-46de4fc72cf6",
+      "executed_at": "2026-05-02T07:38:58.748565"
     },
     {
       "id": 26,
       "prompt": "A thick, crispy Belgian waffle. The deep square pockets are filled with pools of melted butter and warm syrup. A light dusting of powdered sugar, with a side of sizzling, rippled bacon. Ultra-realistic food photography.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/5fb2e2f4-4359-4580-ab90-1ef7dd35329f",
+      "post_url": "https://grok.com/imagine/post/5fb2e2f4-4359-4580-ab90-1ef7dd35329f",
+      "executed_at": "2026-05-02T07:45:14.985706"
     },
     {
       "id": 27,
       "prompt": "A massive lobster tail split down the middle, bursting with tender, steaming white meat. Dripping with golden clarified butter, a light dusting of smoked paprika. Bright, clean, appetizing lighting, 8k.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/4d5b1426-4c49-43fc-99a3-8e35084e9e19",
+      "post_url": "https://grok.com/imagine/post/4d5b1426-4c49-43fc-99a3-8e35084e9e19",
+      "executed_at": "2026-05-02T07:51:35.394058"
     },
     {
       "id": 28,
       "prompt": "Layered tiramisu dessert in a glass dish. Dusted heavily with rich, dark cocoa powder, soft peaks of mascarpone cream, espresso-soaked ladyfingers visible through the glass. Macro photography, elegant lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/8eba5eaa-dfc9-4b2c-bf9f-e28f3eb35eff",
+      "post_url": "https://grok.com/imagine/post/8eba5eaa-dfc9-4b2c-bf9f-e28f3eb35eff",
+      "executed_at": "2026-05-02T07:58:13.372653"
     },
     {
       "id": 29,
       "prompt": "Authentic Mexican street tacos on soft, warm corn tortillas. Juicy, reddish-orange al pastor meat with charred edges, fresh diced white onions, cilantro, and a glossy drizzle of bright green tomatillo salsa.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/4ff099f1-6fd7-4f0e-bcb5-bd013310d8db",
+      "post_url": "https://grok.com/imagine/post/4ff099f1-6fd7-4f0e-bcb5-bd013310d8db",
+      "executed_at": "2026-05-02T08:04:37.479427"
     },
     {
       "id": 30,
       "prompt": "Extreme close-up of a BLT. Thick-cut, sizzling crispy bacon with glistening fat, bright red juicy heirloom tomatoes, crisp iceberg lettuce, mayonnaise spreading on toasted golden sourdough. Sharp focus, high contrast.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/bedf5553-ab0b-4b8f-8042-9213e9fd60f2",
+      "post_url": "https://grok.com/imagine/post/bedf5553-ab0b-4b8f-8042-9213e9fd60f2",
+      "executed_at": "2026-05-02T08:11:01.017614"
     },
     {
       "id": 31,
       "prompt": "Slices of crispy Peking duck. The skin is a glossy, lacquered, caramelized mahogany color, attached to steaming, tender meat. Served alongside thin white pancakes and a dollop of thick, dark hoisin sauce. 8k.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/ff8b1f7c-786d-4fe6-b1e2-32a092ac5501",
+      "post_url": "https://grok.com/imagine/post/ff8b1f7c-786d-4fe6-b1e2-32a092ac5501",
+      "executed_at": "2026-05-02T08:17:24.512341"
     },
     {
       "id": 32,
       "prompt": "Plump, pillowy potato gnocchi coated in a vibrant green, oily basil pesto sauce. Toasted golden pine nuts and delicate shavings of parmesan cheese. Rustic wooden table background, hyper-detailed.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/4109c622-6b12-4960-b27d-2b36ab7c5b97",
+      "post_url": "https://grok.com/imagine/post/4109c622-6b12-4960-b27d-2b36ab7c5b97",
+      "executed_at": "2026-05-02T08:23:52.160850"
     },
     {
       "id": 33,
       "prompt": "Macro shot of a classic glazed yeast donut. The vanilla glaze is shiny and translucent, reflecting the light. A single bite taken out reveals a soft, airy, fluffy interior. Pastel background, highly detailed.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/5c3700a8-0c21-4479-a716-6756de695fd0",
+      "post_url": "https://grok.com/imagine/post/5c3700a8-0c21-4479-a716-6756de695fd0",
+      "executed_at": "2026-05-02T08:30:20.556815"
     },
     {
       "id": 34,
       "prompt": "Thick slices of brioche French toast. A caramelized, golden-brown crispy crust, topped with fresh, dewy raspberries and a thick drizzle of golden honey. Bright, natural morning lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/0f6e156f-248b-49fb-803b-7c9966e508ba",
+      "post_url": "https://grok.com/imagine/post/0f6e156f-248b-49fb-803b-7c9966e508ba",
+      "executed_at": "2026-05-02T08:36:42.175885"
     },
     {
       "id": 35,
       "prompt": "A traditional crock of French onion soup. A thick, heavy layer of gruyere cheese is deeply browned, bubbling, and overflowing the sides of the bowl. Rich, dark, steaming beef broth visible beneath the cheese crust.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/29eeab43-9a18-4f55-a1a1-8078aada6e71",
+      "post_url": "https://grok.com/imagine/post/29eeab43-9a18-4f55-a1a1-8078aada6e71",
+      "executed_at": "2026-05-02T08:43:14.670759"
     },
     {
       "id": 36,
       "prompt": "Herb-crusted roasted lamb chops, perfectly pink inside, dripping with a rich, glossy brown demi-glace. Served on an elegant white plate, soft candlelit restaurant background, hyper-detailed.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/263cfe69-f1df-47c9-8f30-331e88e31417",
+      "post_url": "https://grok.com/imagine/post/263cfe69-f1df-47c9-8f30-331e88e31417",
+      "executed_at": "2026-05-02T08:49:47.086356"
     },
     {
       "id": 37,

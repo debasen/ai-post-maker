@@ -14,7 +14,10 @@ This document serves as the standard operating procedure for generating assets o
 ## Phase 2: Platform Navigation
 
 1.  **Open Grok**: Navigate to `https://grok.com/imagine`.
-2.  **Identify Input**: Use `browseros/evaluate_script` to get exact coordinates of the input area (usually a `div` with the placeholder "Type to imagine").
+
+## Phase 3: Image Generation
+
+1.  **Identify Input**: Use `browseros/evaluate_script` to get exact coordinates of the input area (usually a `div` with the placeholder "Type to imagine").
     - **Example expression:**
       ```javascript
       (function() {
@@ -32,22 +35,27 @@ This document serves as the standard operating procedure for generating assets o
       ```
     - **Parameters:** `"page": 75`
 
-## Phase 3: Generation Process
-
-1.  **Enter Prompt**: Type the exact prompt text retrieved in Phase 1 into the input area. Call `browseros/type_at` with `x`, `y`, and `text`.
+2.  **Enter Prompt**: Type the exact prompt text retrieved in Phase 1 into the input area. Call `browseros/type_at` with `x`, `y`, and `text`.
+    - **Prompt Format**: All prompts must be prefixed with `Ultra realistic highly detailed image.` and include `output 9:16 portrait` at the end.
     - **Example parameters:**
       ```json
       {
         "clear": true,
         "page": 75,
-        "text": "A deep bowl of Vietnamese beef pho. The broth is crystal clear but rich in color. Thin slices of rare beef are turning brown as they cook in the hot liquid. Fresh Thai basil, lime wedges, dynamic action shot with steam.",
+        "text": "Ultra realistic highly detailed image. A deep bowl of Vietnamese beef pho. The broth is crystal clear but rich in color. Thin slices of rare beef are turning brown as they cook in the hot liquid. Fresh Thai basil, lime wedges, dynamic action shot with steam. output 9:16 portrait",
         "x": 720,
         "y": 679
       }
       ```
-2.  **Trigger Generation**: Press `Enter` using `browseros/press_key`.
-3.  **Select Image**: Once images appear, click the preferred "Generated image" to open the detail view. This is critical before moving to the next step.
-    - **Example expression:**
+3.  **Trigger Generation**: Press `Enter` using `browseros/press_key`.
+
+## Phase 4: Video Generation
+
+1.  **Select Image (Open Detailed Page)**: Once images appear, you must open the detailed view.
+    - **Primary Method**: Call `browseros/take_snapshot` to get the first 'link' element id. Then call `browseros/click` with the element id. DON'T click on "Make video" element [41321] directly.
+    - **Fallback Method**: Click the preferred "Generated image" (use the `evaluate_script` below to find coordinates).
+
+    - **Example expression for Fallback Method:**
       ```javascript
       (function() {
         const el = document.querySelector('img[alt="Generated image"]');
@@ -72,14 +80,14 @@ This document serves as the standard operating procedure for generating assets o
         "y": 375
       }
       ```
-4.  **Animate**: Click the **"Make video"** button in the detail view.
+2.  **Animate**: Click the **"Make video"** button in the detail view.
 
-## Phase 4: Monitoring & Validation
+## Phase 5: Monitoring & Validation
 
 1.  **Track Progress**: Monitor the percentage indicator (e.g., "Generating X%") in 20 sec intervals using `browseros/take_snapshot`.
 2.  **Verify Completion**: Wait for the "Thumbnail" or "Download" buttons to become active, signifying the video is ready.
 
-## Phase 5: Asset Management
+## Phase 6: Asset Management
 
 1.  **Locate Download Button**:
     - Call `browseros/take_snapshot` on the active page.
@@ -93,7 +101,7 @@ This document serves as the standard operating procedure for generating assets o
 4.  **Verify**:
     - Confirm the file exists at `project-<N>/assets/current/<ID>.mp4` with non-zero size.
 
-## Phase 6: Recording & Tracking
+## Phase 7: Recording & Tracking
 
 1.  **Update Tracker**: Run `python3 scripts/py/grok_tracker.py --project <ID> complete <ID> "<VIDEO_URL>" "<POST_URL>"` to mark the task as complete and record the URLs. (Use `grok_tracker_v3.py` for Project 3).
 
