@@ -291,37 +291,58 @@
     {
       "id": 37,
       "prompt": "Crispy, golden-fried Indian samosas with a blistered, flaky crust. One is broken open in the center, revealing steaming, heavily spiced potatoes and green peas. A glossy drizzle of mint-cilantro chutney.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/3639bb98-794b-4a94-ae99-e5c537e88e8b",
+      "post_url": "https://grok.com/imagine/post/3639bb98-794b-4a94-ae99-e5c537e88e8b",
+      "executed_at": "2026-05-02T08:56:25.529525"
     },
     {
       "id": 38,
       "prompt": "Luxurious fettuccine alfredo. A thick, glossy, creamy white cheese sauce perfectly coating the wide noodles. Coarse cracked black pepper, steam rising gently, shallow depth of field, elegant food styling.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://imagine-public.x.ai/imagine-public/share-videos/74fab8ad-191c-44e2-bc98-4916eb74d31a.mp4",
+      "post_url": "https://grok.com/imagine/post/74fab8ad-191c-44e2-bc98-4916eb74d31a",
+      "executed_at": "2026-05-02T09:46:11.817255"
     },
     {
       "id": 39,
       "prompt": "Medium-rare ribeye steak freshly sliced open, revealing a glistening pink center and a crusty, dark char. Melting garlic-herb compound butter dripping over the top, resting on a dark slate board. Sprig of fresh rosemary, cinematic lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://imagine-public.x.ai/imagine-public/share-videos/0b7d8e78-e6ce-4330-85a9-9c4a0948162c.mp4",
+      "post_url": "https://grok.com/imagine/post/0b7d8e78-e6ce-4330-85a9-9c4a0948162c",
+      "executed_at": "2026-05-02T09:53:37.174437"
     },
     {
       "id": 40,
       "prompt": "Ultra-realistic macro shot of fresh nigiri sushi. Glossy, translucent slices of raw salmon and bright red tuna over perfectly formed, slightly sticky rice. A dab of bright green wasabi, high-end restaurant lighting.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/234efd2b-e94d-4b16-9119-95c0bcc1cbd8",
+      "post_url": "",
+      "executed_at": "2026-05-02T16:59:13.178034"
     },
     {
       "id": 41,
       "prompt": "Authentic Neapolitan pizza hot out of a wood-fired oven. Blistered, charred leopard-spotted crust, pools of bubbling fresh mozzarella, bright red glossy San Marzano tomato sauce, fresh green basil leaves.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/81048b69-c3de-48db-87b4-04e91c6a8b9c",
+      "post_url": "",
+      "executed_at": "2026-05-02T17:08:29.837433"
     },
     {
       "id": 42,
       "prompt": "A gourmet hot dog in a soft, steamed bun. Loaded to the brim with deeply caramelized sweet onions, bright green sweet relish, and dripping spicy brown mustard. Macro shot, highly detailed textures.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/bfb57e54-3ad1-4463-90c6-bce0863b0acf",
+      "post_url": "",
+      "executed_at": "2026-05-02T17:20:28.732133"
     },
     {
       "id": 43,
       "prompt": "A thick square of baked lasagna. Beautiful layers of white ricotta, savory ground beef, and pasta. Crispy, browned, bubbling cheese on the top edges, rich red tomato sauce pooling on the plate. Mouth-watering macro shot.",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/5f8f9747-5fc7-4b46-b848-155137f8555a",
+      "post_url": "",
+      "executed_at": "2026-05-02T17:32:14.394507"
     },
     {
       "id": 44,
@@ -356,6 +377,256 @@
     {
       "id": 50,
       "prompt": "A perfect stack of French macarons in vibrant pastel colors. Glossy chocolate ganache and fruit jam fillings peeking out. Soft, airy shell textures with a delicate \"foot,\" bright and airy lighting, 8k resolution.",
+      "status": "pending"
+    },
+    {
+      "id": 51,
+      "prompt": "Extreme close-up of a smash burger being pressed on a hot griddle. Crispy, lacy brown edges forming on the beef patty, melted American cheese draping over the sides, steam rising. 9:16 vertical, cinematic food lighting, hyper-detailed.",
+      "status": "pending"
+    },
+    {
+      "id": 52,
+      "prompt": "A fresh salmon sushi roll being sliced with a sharp knife. Glossy, vibrant orange fish, perfectly sticky rice, and bright green avocado layers revealed. 9:16 vertical, macro shot, ultra-realistic, 8k.",
+      "status": "pending"
+    },
+    {
+      "id": 53,
+      "prompt": "A golden, flaky croissant being torn in half. Steam escaping from the buttery, honeycomb-layered interior, crumbs falling in slow motion. 9:16 vertical, warm bakery lighting, mouth-watering textures.",
+      "status": "pending"
+    },
+    {
+      "id": 54,
+      "prompt": "A massive California burrito sliced in half, cross-section view. Crispy french fries, carne asada, guacamole, sour cream, and cheese packed inside a warm flour tortilla. 9:16 vertical, dramatic side lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 55,
+      "prompt": "A soup dumpling (xiao long bao) being lifted with chopsticks. The delicate, translucent wrapper sagging under the weight of hot broth inside, steam billowing out. 9:16 vertical, macro lens, hyper-detailed.",
+      "status": "pending"
+    },
+    {
+      "id": 56,
+      "prompt": "A warm chocolate chip cookie being broken in half. Gooey, molten dark chocolate chips stretching between the halves, golden crispy edges, soft chewy center. 9:16 vertical, cozy kitchen lighting, 8k.",
+      "status": "pending"
+    },
+    {
+      "id": 57,
+      "prompt": "Pad Thai noodles being tossed in a flaming hot wok. Tangles of glossy rice noodles, bright orange shrimp, crushed peanuts, and bean sprouts flying in the air. 9:16 vertical, dramatic fire lighting, action shot.",
+      "status": "pending"
+    },
+    {
+      "id": 58,
+      "prompt": "A sizzling stone bowl of bibimbap. A perfect sunny-side-up egg with bright yellow yolk on top, surrounded by colorful arranged vegetables and gochujang sauce. 9:16 vertical, steam rising, vibrant colors.",
+      "status": "pending"
+    },
+    {
+      "id": 59,
+      "prompt": "A tower of crispy onion rings. Thick-cut sweet onions in a shattering golden beer batter, glistening with oil, coarse salt visible. 9:16 vertical, dipping into creamy ranch sauce, macro shot.",
+      "status": "pending"
+    },
+    {
+      "id": 60,
+      "prompt": "A hand holding a loaded Philly cheesesteak. Thinly sliced ribeye, dripping with melted provolone and caramelized onions, stuffed in a soft hoagie roll. 9:16 vertical, dark background, dramatic lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 61,
+      "prompt": "A classic eggs Benedict cut open with a fork. Golden, runny hollandaise sauce spilling over poached eggs, covering crispy Canadian bacon and toasted English muffin. 9:16 vertical, bright brunch lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 62,
+      "prompt": "A street-style elote (Mexican street corn) being dipped in mayonnaise. Generously rolled in crumbled cotija cheese and bright red tajín spice. 9:16 vertical, vibrant outdoor lighting, dripping cheese.",
+      "status": "pending"
+    },
+    {
+      "id": 63,
+      "prompt": "A hot bowl of Vietnamese bun cha. Grilled pork patties in caramelized glaze, vermicelli noodles, fresh herbs, and a side of tangy dipping sauce with floating chili slices. 9:16 vertical, steam rising.",
+      "status": "pending"
+    },
+    {
+      "id": 64,
+      "prompt": "A gourmet lobster roll overflowing with chunks of butter-poached lobster meat. Drizzled with melted butter, served in a toasted split-top bun with a side of rippled chips. 9:16 vertical, New England coastal vibe.",
+      "status": "pending"
+    },
+    {
+      "id": 65,
+      "prompt": "A sizzling plate of beef bulgogi. Thinly sliced marinated beef caramelizing on a hot cast iron, glistening with sweet soy glaze, sesame seeds, and green onions. 9:16 vertical, Korean BBQ restaurant lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 66,
+      "prompt": "A hand pulling apart a freshly baked garlic knot. Steam escaping, revealing soft, fluffy bread inside, coated in glistening garlic butter and parmesan. 9:16 vertical, pizzeria lighting, cheese pull.",
+      "status": "pending"
+    },
+    {
+      "id": 67,
+      "prompt": "A creamy bowl of New England clam chowder in a sourdough bread bowl. Thick, rich white soup loaded with clams and potatoes, topped with crispy bacon bits. 9:16 vertical, cozy foggy harbor lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 68,
+      "prompt": "A freshly made churro being dipped into thick, dark Mexican hot chocolate. Crispy, ridged golden exterior, dusted heavily with cinnamon sugar, steam rising. 9:16 vertical, street fair lighting, macro shot.",
+      "status": "pending"
+    },
+    {
+      "id": 69,
+      "prompt": "A shakshuka pan with two perfectly poached eggs in spicy red tomato and pepper sauce. Bright yellow yolks, crumbled feta, and fresh cilantro. 9:16 vertical, bubbling sauce, rustic iron skillet.",
+      "status": "pending"
+    },
+    {
+      "id": 70,
+      "prompt": "A porterhouse steak being flipped on a blazing grill. Deep char marks, flames licking the edges, juices dripping onto hot coals below. 9:16 vertical, dramatic fire-lit barbecue scene, ultra-realistic.",
+      "status": "pending"
+    },
+    {
+      "id": 71,
+      "prompt": "A loaded baked potato split open. Fluffy white interior, melting butter pooling, crispy bacon bits, bright green chives, and a huge dollop of sour cream. 9:16 vertical, steakhouse lighting, steaming hot.",
+      "status": "pending"
+    },
+    {
+      "id": 72,
+      "prompt": "A creamy bowl of risotto milanese being stirred. Rich, golden saffron-infused Arborio rice, glistening with butter, topped with shaved parmesan. 9:16 vertical, elegant Italian kitchen lighting, steam wisps.",
+      "status": "pending"
+    },
+    {
+      "id": 73,
+      "prompt": "A hand-held Detroit-style pizza slice. Thick, crispy caramelized cheese edges, fluffy focaccia-like crust, stripes of thick red sauce on top. 9:16 vertical, cheese stretch, dark moody background.",
+      "status": "pending"
+    },
+    {
+      "id": 74,
+      "prompt": "A sizzling fajita platter arriving at the table. Strips of charred steak, colorful peppers and onions on a smoking cast iron, flour tortillas on the side. 9:16 vertical, restaurant steam, dramatic lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 75,
+      "prompt": "A freshly shucked oyster with a dash of bright red cocktail sauce and a squeeze of lemon. Glistening on a bed of crushed ice, briny seawater droplets. 9:16 vertical, elegant raw bar lighting, macro.",
+      "status": "pending"
+    },
+    {
+      "id": 76,
+      "prompt": "A towering pastrami on rye sandwich. Hand-carved, thick pink pastrami with a peppery bark, dripping with melted Swiss, tangy sauerkraut oozing out. 9:16 vertical, deli counter lighting, hyper-detailed.",
+      "status": "pending"
+    },
+    {
+      "id": 77,
+      "prompt": "A bowl of fresh poke with vibrant red ahi tuna cubes, bright orange salmon, creamy avocado, edamame, and tobiko roe over warm rice. 9:16 vertical, Hawaiian sunshine lighting, colorful and fresh.",
+      "status": "pending"
+    },
+    {
+      "id": 78,
+      "prompt": "A crème brûlée being torched. The sugar crust bubbling and caramelizing to a perfect golden glass, cracking under a silver spoon to reveal creamy vanilla custard. 9:16 vertical, elegant bistro lighting, 8k.",
+      "status": "pending"
+    },
+    {
+      "id": 79,
+      "prompt": "A steaming bowl of Japanese curry over rice. Thick, rich, golden-brown curry with tender beef, carrots, and potatoes, glistening with fat. 9:16 vertical, cozy izakaya lighting, steam rising.",
+      "status": "pending"
+    },
+    {
+      "id": 80,
+      "prompt": "A freshly made arepa being split and stuffed. Crispy golden corn exterior, filled with shredded beef, black beans, plantains, and creamy white cheese. 9:16 vertical, Colombian street food vibes, macro shot.",
+      "status": "pending"
+    },
+    {
+      "id": 81,
+      "prompt": "A sizzling hot stone bowl of mapo tofu. Silky white tofu cubes in fiery red chili oil, ground pork, and Sichuan peppercorns, bubbling violently. 9:16 vertical, Sichuan restaurant steam, dramatic.",
+      "status": "pending"
+    },
+    {
+      "id": 82,
+      "prompt": "A freshly fried beignet buried under a mountain of powdered sugar. Steam escaping the fluffy interior, cafe au lait in the background. 9:16 vertical, New Orleans French Quarter morning light.",
+      "status": "pending"
+    },
+    {
+      "id": 83,
+      "prompt": "A hand-held banh mi sandwich. Crispy baguette stuffed with pâté, Vietnamese ham, pickled daikon and carrots, fresh cilantro, and jalapeños. 9:16 vertical, Saigon street food lighting, textures popping.",
+      "status": "pending"
+    },
+    {
+      "id": 84,
+      "prompt": "A bubbling skillet of mac and cheese being scooped. Gooey, stringy cheddar and mozzarella stretching from the spoon, crispy breadcrumb topping. 9:16 vertical, comfort food lighting, golden and warm.",
+      "status": "pending"
+    },
+    {
+      "id": 85,
+      "prompt": "A freshly grilled fish taco. Flaky white cod with blackened seasoning, crunchy purple cabbage slaw, creamy chipotle sauce, and a squeeze of lime. 9:16 vertical, Baja beach lighting, vibrant colors.",
+      "status": "pending"
+    },
+    {
+      "id": 86,
+      "prompt": "A molten chocolate lava cake with a spoon breaking through the center. Thick, dark hot fudge flowing out onto the plate, vanilla ice cream melting alongside. 9:16 vertical, romantic dessert lighting, macro.",
+      "status": "pending"
+    },
+    {
+      "id": 87,
+      "prompt": "A hand-held shawarma wrap being unwrapped. Rotisserie chicken, garlic toum sauce, pickles, and fries wrapped in warm pita, sauce dripping. 9:16 vertical, Middle Eastern night market lighting, steam rising.",
+      "status": "pending"
+    },
+    {
+      "id": 88,
+      "prompt": "A freshly steamed pork bao bun. Fluffy, snowy white dough with a slight sheen, torn open to reveal sweet char siu pork filling inside. 9:16 vertical, dim sum cart lighting, steam wisps.",
+      "status": "pending"
+    },
+    {
+      "id": 89,
+      "prompt": "A hand-held Cubano sandwich being pressed. Crispy, buttered Cuban bread, layers of ham, roasted pork, Swiss cheese, pickles, and yellow mustard flattening on a hot plancha. 9:16 vertical, Miami cafe lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 90,
+      "prompt": "A bubbling pot of beef bourguignon. Deep red wine sauce coating tender chunks of beef, pearl onions, and mushrooms. Fresh thyme sprigs, rustic French kitchen setting. 9:16 vertical, cozy winter lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 91,
+      "prompt": "A hand-held Chicago-style deep dish pizza slice. Thick, buttery crust, chunky tomato sauce on top, layers of mozzarella and Italian sausage, cheese pull stretching. 9:16 vertical, Windy City pizzeria lighting.",
+      "status": "pending"
+    },
+    {
+      "id": 92,
+      "prompt": "A plate of freshly made gnocchi in brown butter sage sauce. Crispy, golden pan-seared dumplings, flecked with fried sage leaves, showered with parmesan. 9:16 vertical, Tuscan trattoria lighting, rustic.",
+      "status": "pending"
+    },
+    {
+      "id": 93,
+      "prompt": "A freshly made pavlova dessert. Crisp white meringue shell with marshmallow center, topped with a mountain of whipped cream, kiwi slices, and passion fruit pulp dripping down. 9:16 vertical, bright Australian cafe light.",
+      "status": "pending"
+    },
+    {
+      "id": 94,
+      "prompt": "A sizzling plate of gambas al ajillo. Jumbo prawns swimming in bubbling golden olive oil with sliced garlic and red chili flakes in a clay cazuela. 9:16 vertical, Spanish tapas bar lighting, steam rising.",
+      "status": "pending"
+    },
+    {
+      "id": 95,
+      "prompt": "A freshly rolled ice cream being scraped into curls on a frozen plate. Creamy vanilla base with crushed Oreo cookies and fresh strawberries mixed in. 9:16 vertical, Thai night market lighting, action shot.",
+      "status": "pending"
+    },
+    {
+      "id": 96,
+      "prompt": "A hand-held Nashville hot chicken sandwich. Thick, craggy fried chicken coated in fiery red cayenne oil, topped with pickles and white bread, sauce dripping. 9:16 vertical, Southern comfort lighting, dramatic.",
+      "status": "pending"
+    },
+    {
+      "id": 97,
+      "prompt": "A perfectly seared duck breast being sliced. Crispy, scored golden skin giving way to pink, juicy meat, with a rich cherry gastrique pooling on the plate. 9:16 vertical, fine dining lighting, elegant.",
+      "status": "pending"
+    },
+    {
+      "id": 98,
+      "prompt": "A hand-held tornado potato on a stick. Spiral-cut crispy fried potato, coated in tangy cheese powder and bright orange chili seasoning. 9:16 vertical, Korean street food lighting, crunchy textures.",
+      "status": "pending"
+    },
+    {
+      "id": 99,
+      "prompt": "A freshly baked peach cobbler with a golden, buttery biscuit crust. Juicy, bubbling peach filling oozing through cracks, topped with melting vanilla ice cream. 9:16 vertical, Southern porch lighting, cozy.",
+      "status": "pending"
+    },
+    {
+      "id": 100,
+      "prompt": "A hand-held bacon cheeseburger with two smash patties. Crispy bacon strips, melted American cheese, secret sauce dripping, pickles, on a toasted potato bun. 9:16 vertical, American diner lighting, ultra-realistic.",
       "status": "pending"
     }
   ]
