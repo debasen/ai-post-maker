@@ -184,6 +184,7 @@ Applies when final status will be `completed` or `partial`.
    - Identify the interactive element with `aria-label="Download"`.
 
 2. **Download the File**:
+   - **Wait for Readiness**: Once the "Download" button becomes active, wait 10-15 seconds to ensure the final video file is stabilized and ready for transfer.
    - Call `browseros/download_file` with the identified element ID.
    - Set `path` to the project destination directory: `project-<N>/assets/current/`.
 
