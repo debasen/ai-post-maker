@@ -448,7 +448,8 @@
       "status": "completed",
       "video_url": "",
       "post_url": "https://grok.com/imagine/post/6c07fd80-6977-43f0-b9c8-7b005b405045",
-      "executed_at": "2026-05-03T16:10:29.702115"
+      "executed_at": "2026-05-03T16:10:29.702115",
+      "asset": "mapped"
     },
     {
       "id": 46,
@@ -456,7 +457,8 @@
       "status": "completed",
       "video_url": "",
       "post_url": "https://grok.com/imagine/post/e39b3ba2-2916-4859-be20-e03059ece043",
-      "executed_at": "2026-05-03T16:16:48.261527"
+      "executed_at": "2026-05-03T16:16:48.261527",
+      "asset": "mapped"
     },
     {
       "id": 47,
@@ -464,7 +466,8 @@
       "status": "completed",
       "video_url": "",
       "post_url": "https://grok.com/imagine/post/1a4238c6-839b-4a22-9041-eea2264840cf",
-      "executed_at": "2026-05-03T16:22:19.935877"
+      "executed_at": "2026-05-03T16:22:19.935877",
+      "asset": "mapped"
     },
     {
       "id": 48,
@@ -472,7 +475,8 @@
       "status": "completed",
       "video_url": "",
       "post_url": "https://grok.com/imagine/post/c43a79f1-648e-43bc-8940-2567e609fc7d",
-      "executed_at": "2026-05-03T16:28:10.937648"
+      "executed_at": "2026-05-03T16:28:10.937648",
+      "asset": "mapped"
     },
     {
       "id": 49,
@@ -480,7 +484,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-03T17:05:35.525747"
+      "executed_at": "2026-05-03T17:05:35.525747",
+      "asset": "mapped"
     },
     {
       "id": 50,
@@ -488,7 +493,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-03T17:11:19.077455"
+      "executed_at": "2026-05-03T17:11:19.077455",
+      "asset": "mapped"
     },
     {
       "id": 51,
@@ -496,7 +502,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-03T17:52:35.370071"
+      "executed_at": "2026-05-03T17:52:35.370071",
+      "asset": "mapped"
     },
     {
       "id": 52,
@@ -504,7 +511,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-03T20:08:38.561983"
+      "executed_at": "2026-05-03T20:08:38.561983",
+      "asset": "mapped"
     },
     {
       "id": 53,
@@ -520,7 +528,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-03T21:35:23.094564"
+      "executed_at": "2026-05-03T21:35:23.094564",
+      "asset": "mapped"
     },
     {
       "id": 55,
@@ -533,7 +542,11 @@
     {
       "id": 56,
       "prompt": "An ultra-realistic highly detailed warm chocolate chip cookie being broken in half. Gooey, molten dark chocolate chips stretching between the halves, golden crispy edges, soft chewy center. cozy kitchen lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "N/A",
+      "post_url": "N/A",
+      "executed_at": "2026-05-03T21:55:55.828677",
+      "asset": "mapped"
     },
     {
       "id": 57,
