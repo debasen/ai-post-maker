@@ -193,10 +193,10 @@ Expected output:
 
 ## Integration with Mapping Workflow
 
-After downloading, you may still need to run the mapping workflow to set `instagram_upload` status:
+After downloading, you may still need to run the mapping workflow to set `asset` status:
 
 ```bash
-python3 scripts/py/grok_tracker.py --project <1|2> update_mapping_status <id> done
+python3 scripts/py/grok_tracker.py --project <1|2> update_mapping_status <id> mapped
 ```
 
 Or use the visual mapping workflow (`.agents/workflows/map_assets_v2.md`) if order verification is needed.

@@ -46,7 +46,7 @@ Hardcoded URL — never depends on a previous run:
 https://grok.com/imagine
 ```
 
-Call `browseros_navigate_page` with this URL.
+Call `browseros/navigate_page` with this URL.
 
 ---
 
@@ -180,11 +180,11 @@ If `extend_prompt` is **not** present:
 Applies when final status will be `completed` or `partial`.
 
 1. **Locate Download Button**:
-   - Call `browseros_take_snapshot` on the active page.
+   - Call `browseros/take_snapshot` on the active page.
    - Identify the interactive element with `aria-label="Download"`.
 
 2. **Download the File**:
-   - Call `browseros_download_file` with the identified element ID.
+   - Call `browseros/download_file` with the identified element ID.
    - Set `path` to the project destination directory: `project-<N>/assets/current/`.
 
 3. **Rename**:

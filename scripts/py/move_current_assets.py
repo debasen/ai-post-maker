@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 move_current_assets.py — Move assets from project-<N>/assets/current/ to project-<N>/assets/
-and update the corresponding prompt record's instagram_upload status to "mapped".
+and update the corresponding prompt record's asset status to "mapped".
 
 Usage:
   python3 scripts/py/move_current_assets.py --project <1|2> [--dry-run]

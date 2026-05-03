@@ -62,9 +62,9 @@ rm project-<1|2>/assets/processing/*.jpg
 |---|---|
 | `python3 project-2/map_assets.py --project <1\|2> --extract` | Bulk generate preview frames in `assets/processing/`. |
 | `python3 scripts/py/grok_tracker.py --project <1\|2> get_next_to_map` | Find the next prompt needing a video mapping. |
-| `python3 scripts/py/grok_tracker.py --project <1\|2> update_mapping_status <id> <mapped\|not-found>` | Manually update the `instagram_upload` field. |
+| `python3 scripts/py/grok_tracker.py --project <1\|2> update_mapping_status <id> <mapped\|not-found>` | Manually update the `asset` field. |
 
 ## 💡 Mapping Logic Reference
 - **Lookahead 3**: Always check a window of 3 assets to account for skips or mismatched order.
-- **Source of Truth**: `instagram_upload` field in `project-{N}/grok_prompts.json`.
+- **Source of Truth**: `asset` field in `project-{N}/grok_prompts.json`.
 - **Sorting**: Assets are sorted by the numerical suffix in the filename to reflect download order. The original file (no suffix) is processed first, followed by `(1)`, `(2)`, etc.

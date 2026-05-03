@@ -219,7 +219,7 @@
 ### 10.1 No Screenshot Capture on Failure
 - **Issue**: When a step fails, there is no automatic screenshot saved for post-mortem analysis.
 - **Impact**: Debugging requires manual reproduction.
-- **Mitigation**: Integrate `browseros_save_screenshot` into every failure path (or at least the first failure per record).
+- **Mitigation**: Integrate `browseros/save_screenshot` into every failure path (or at least the first failure per record).
 
 ### 10.2 No Telemetry / Metrics
 - **Issue**: There is no logging of success rates, average generation time per step, or common failure reasons.
@@ -239,7 +239,7 @@
 ### 10.5 Missing Pre-Flight Browser Check
 - **Issue**: The workflow does not verify the browser is responsive or on a valid page before Step 2.
 - **Impact**: If a previous run crashed the tab, the navigation may fail silently.
-- **Mitigation**: Add a pre-flight check (e.g., `browseros_evaluate_script` with `return navigator.userAgent`) before navigating.
+- **Mitigation**: Add a pre-flight check (e.g., `browseros/evaluate_script` with `return navigator.userAgent`) before navigating.
 
 ---
 

@@ -36,13 +36,12 @@ This document serves as the standard operating procedure for generating assets o
     - **Parameters:** `"page": 75`
 
 2.  **Enter Prompt**: Type the exact prompt text retrieved in Phase 1 into the input area. Call `browseros/type_at` with `x`, `y`, and `text`.
-    - **Prompt Format**: All prompts must be prefixed with `Ultra realistic highly detailed image.` and include `output 9:16 portrait` at the end.
     - **Example parameters:**
       ```json
       {
         "clear": true,
         "page": 75,
-        "text": "Ultra realistic highly detailed image. A deep bowl of Vietnamese beef pho. The broth is crystal clear but rich in color. Thin slices of rare beef are turning brown as they cook in the hot liquid. Fresh Thai basil, lime wedges, dynamic action shot with steam. output 9:16 portrait",
+        "text": "Ultra realistic highly detailed image of a deep bowl of Vietnamese beef pho. The broth is crystal clear but rich in color. Thin slices of rare beef are turning brown as they cook in the hot liquid. Fresh Thai basil, lime wedges, dynamic action shot with steam. output 9:16 portrait",
         "x": 720,
         "y": 679
       }

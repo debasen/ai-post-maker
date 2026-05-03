@@ -176,29 +176,49 @@ def mark_image_failed(file_path, prompt_id, post_url):
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
 def get_next_to_map(file_path):
-    """Print the first prompt missing instagram_upload."""
+    """Print the first prompt missing asset status."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     for item in prompts:
-        if item.get("status") == "completed" and "instagram_upload" not in item:
+        if item.get("status") == "completed" and "asset" not in item:
             print(json.dumps(item))
             return
     print(json.dumps({"error": "No prompts to map"}))
 
 def update_mapping_status(file_path, prompt_id, status):
-    """Update instagram_upload field."""
+    """Update asset field."""
     data = load_data(file_path)
     prompts = data.get("prompts", [])
     found = False
     for item in prompts:
         if str(item.get("id")) == str(prompt_id):
-            item["instagram_upload"] = status
+            item["asset"] = status
             found = True
             break
     
     if found:
         save_data(file_path, data)
-        print(json.dumps({"success": True, "id": prompt_id, "status": status}))
+        print(json.dumps({"success": True, "id": prompt_id, "asset": status}))
+    else:
+        print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
+
+def mark_uploaded(file_path, prompt_id, platform):
+    """Append platform to upload array."""
+    data = load_data(file_path)
+    prompts = data.get("prompts", [])
+    found = False
+    for item in prompts:
+        if str(item.get("id")) == str(prompt_id):
+            if "upload" not in item:
+                item["upload"] = []
+            if platform not in item["upload"]:
+                item["upload"].append(platform)
+            found = True
+            break
+    
+    if found:
+        save_data(file_path, data)
+        print(json.dumps({"success": True, "id": prompt_id, "platform": platform}))
     else:
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
@@ -207,9 +227,10 @@ def print_usage():
         "Usage: python3 scripts/py/grok_tracker.py --project <1|2|3|4> "
         "[get_next | get_config | complete <id> <video_url> <post_url> | "
         "mark_video_warning <id> <post_url> | mark_video_failed <id> <post_url> | "
-        "mark_image_warning <id> <post_url> | mark_image_failed <id> <post_url> | "
+        "mark_video_warning <id> <post_url> | mark_image_failed <id> <post_url> | "
         "update_field <id> <field_name> <value> | "
-        "get_next_to_map | update_mapping_status <id> <status>]"
+        "get_next_to_map | update_mapping_status <id> <status> | "
+        "mark_uploaded <id> <platform>]"
     )
 
 if __name__ == "__main__":
@@ -268,6 +289,11 @@ if __name__ == "__main__":
             print("Usage: ... update_field <id> <field_name> <value>")
             sys.exit(1)
         update_field(file_path, args[3], args[4], args[5])
+    elif command == "mark_uploaded":
+        if len(args) < 5:
+            print("Usage: ... mark_uploaded <id> <platform>")
+            sys.exit(1)
+        mark_uploaded(file_path, args[3], args[4])
     else:
         print(json.dumps({"error": f"Unknown command '{command}'"}))
         print_usage()

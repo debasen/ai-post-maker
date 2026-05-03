@@ -114,10 +114,10 @@ description: Advanced end-to-end automation skill for generating videos on Grok.
 ## Step 7: Download Final Video
 
 1. **Locate Download Button**:
-   - Call `browseros_take_snapshot` on the active page.
+   - Call `browseros/take_snapshot` on the active page.
    - Identify the interactive element with `aria-label="Download"`.
 2. **Download the File**:
-   - Call `browseros_download_file` with the identified element ID.
+   - Call `browseros/download_file` with the identified element ID.
    - Set `path` to the project destination directory (Replace N): `/Users/dsen/Projects/ai-post-maker/project-<N>/assets/current/`.
 3. **Rename**:
    - Run: `python3 scripts/py/grok_video_downloader.py --project <N> process_download project-<N>/assets/current/ <ID>`

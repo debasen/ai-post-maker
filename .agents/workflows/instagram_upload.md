@@ -1,5 +1,5 @@
 ---
-description: End-to-end automation skill for uploading videos to Instagram. Works for both project-1 and project-2 based on the mapped status in grok_prompts.json. Requires --project <1|2> argument.
+description: End-to-end automation skill for uploading videos to Instagram. Works for both project-1 and project-2 based on the asset mapping in grok_prompts.json. Requires --project <1|2> argument.
 ---
 
 ## Overview
@@ -12,30 +12,10 @@ This workflow automates the process of posting **exactly one** MP4 asset to Inst
 
 Determine which project to run for. The user will specify `--project 1` or `--project 2`. 
 
-Run a command to extract the first pending prompt entry that has `"instagram_upload": "mapped"` in `project-<N>/grok_prompts.json`:
+Run the following command to identify the first available asset with "mapped" status and extract its ID and Caption:
 
 ```bash
-python3 -c "
-import json
-import sys
-import os
-
-project = sys.argv[1]
-filepath = f'project-{project}/grok_prompts.json'
-if not os.path.exists(filepath):
-    print(f'File not found: {filepath}')
-    sys.exit(1)
-
-with open(filepath) as f:
-    data = json.load(f)
-
-# The JSON structure contains a 'prompts' key which holds the list of entries
-for entry in data.get('prompts', []):
-    if entry.get('instagram_upload') == 'mapped':
-        print(f'ID: {entry[\"id\"]}')
-        print(f'Caption: {entry[\"instagram_caption\"]}')
-        break
-" <N>
+python3 scripts/py/get_mapped_post.py --project <1|2> --platform instagram
 ```
 
 The output will give you the `ID` and `Caption`.
@@ -235,36 +215,7 @@ Inject and evaluate the following JavaScript snippet into the active Instagram t
 
 ```bash
 # Replace <N> with project number and <ID> with the extracted ID
-python3 -c "
-import json
-import sys
-import os
-
-project = sys.argv[1]
-target_id = int(sys.argv[2])
-filepath = f'project-{project}/grok_prompts.json'
-
-if not os.path.exists(filepath):
-    print(f'File not found: {filepath}')
-    sys.exit(1)
-
-with open(filepath, 'r') as f:
-    data = json.load(f)
-
-updated = False
-for entry in data.get('prompts', []):
-    if entry.get('id') == target_id:
-        entry['instagram_upload'] = 'done'
-        updated = True
-        break
-
-if updated:
-    with open(filepath, 'w') as f:
-        json.dump(data, f, indent=2)
-    print(f'Successfully updated ID {target_id} to done in Project {project}')
-else:
-    print(f'ID {target_id} not found in {filepath}')
-" <N> <ID>
+python3 scripts/py/grok_tracker.py --project <N> mark_uploaded <ID> instagram
 ```
 
 ---

@@ -4,7 +4,7 @@ description: Move Current Assets
 
 # Move Current Assets
 
-Move `.mp4` files from `project-<N>/assets/current/` to `project-<N>/assets/` and mark the corresponding prompt record as `instagram_upload=mapped`.
+Move `.mp4` files from `project-<N>/assets/current/` to `project-<N>/assets/` and mark the corresponding prompt record as `asset=mapped`.
 
 ## Usage
 

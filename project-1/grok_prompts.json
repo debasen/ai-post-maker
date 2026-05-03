@@ -1,13 +1,19 @@
 {
   "config": {
-    "thumbnail_id": "58e993f2-397c-4214-995d-ed917ba3e575"
+    "thumbnail_id": "58e993f2-397c-4214-995d-ed917ba3e575",
+    "facebook_reels_url": "https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab",
+    "facebook_page_id": "61582734486719"
   },
   "prompts": [
     {
       "id": 1,
       "prompt": "An ultra-realistic highly detailed mountain of crispy tortilla chips loaded with melted, gooey yellow cheddar cheese, bright green jalapeño slices, thick dollops of white sour cream, and fresh pico de gallo. Dark background, cinematic food lighting. Aspect ratio 9:16 portrait",
       "status": "downloaded",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook"
+      ]
     },
     {
       "id": 2,
@@ -16,7 +22,8 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/718a7885-c7b0-4fe4-9979-ca489b17aea0/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/718a7885-c7b0-4fe4-9979-ca489b17aea0",
       "executed_at": "2026-05-01T21:28:44.571188",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 3,
@@ -25,7 +32,8 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/33b8eba4-6cca-4f1a-8404-930e36659e2e/content?cache=1",
       "post_url": "https://grok.com/imagine/post/72585091-da45-4b6a-a034-895f494094d8",
       "executed_at": "2026-05-01T22:42:07.032092",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 4,
@@ -34,7 +42,8 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/3695f9f1-fcdf-479d-979f-1ee3bf0ce9d1/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-01T23:11:21.343296",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 5,
@@ -43,7 +52,8 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/f0a3f9b2-bfda-467d-8842-e850e8f82575/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/f0a3f9b2-bfda-467d-8842-e850e8f82575",
       "executed_at": "2026-05-01T23:28:19.798604",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 6,
@@ -52,7 +62,8 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/cfb64405-106a-47f7-9444-97a28b9bb82e/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/cfb64405-106a-47f7-9444-97a28b9bb82e",
       "executed_at": "2026-05-01T23:37:03.474552",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 7,
@@ -61,7 +72,8 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/8f25e713-8da2-4412-ba6c-7b98995ec40e/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/8f25e713-8da2-4412-ba6c-7b98995ec40e",
       "executed_at": "2026-05-02T00:29:57.330679",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 8,
@@ -70,7 +82,8 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/c54031ab-0387-47d7-b7e1-2c9caf31f76f/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/c54031ab-0387-47d7-b7e1-2c9caf31f76f",
       "executed_at": "2026-05-02T00:38:52.939538",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 9,
@@ -79,7 +92,8 @@
       "video_url": "https://grok.com/imagine/post/3e441633-489b-4737-84f6-72f29d86dae0",
       "post_url": "https://grok.com/imagine/post/3e441633-489b-4737-84f6-72f29d86dae0",
       "executed_at": "2026-05-02T00:44:22.918602",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 10,
@@ -88,7 +102,8 @@
       "video_url": "https://grok.com/imagine/post/1f4828cd-3430-4bfc-a57d-de8675912d44",
       "post_url": "https://grok.com/imagine/post/1f4828cd-3430-4bfc-a57d-de8675912d44",
       "executed_at": "2026-05-02T00:51:28.396883",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 11,
@@ -97,7 +112,8 @@
       "video_url": "https://grok.com/imagine/post/d5b6c184-4de4-4f3a-be9b-6858d320fc1a",
       "post_url": "https://grok.com/imagine/post/d5b6c184-4de4-4f3a-be9b-6858d320fc1a",
       "executed_at": "2026-05-02T01:00:28.026311",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 12,
@@ -106,7 +122,8 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/8e216f66-c5eb-41b2-bb8f-8c8584196a96/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/8e216f66-c5eb-41b2-bb8f-8c8584196a96",
       "executed_at": "2026-05-02T01:03:11.349271",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 13,
@@ -115,7 +132,8 @@
       "video_url": "https://grok.com/imagine/post/ad845d4f-d096-4000-9ccd-40f10a2b9e23",
       "post_url": "https://grok.com/imagine/post/ad845d4f-d096-4000-9ccd-40f10a2b9e23",
       "executed_at": "2026-05-02T01:08:43.125496",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 14,
@@ -124,7 +142,8 @@
       "video_url": "https://grok.com/imagine/post/aab32e5d-b6c6-401a-aff3-2d4e57b7e148",
       "post_url": "https://grok.com/imagine/post/aab32e5d-b6c6-401a-aff3-2d4e57b7e148",
       "executed_at": "2026-05-02T01:16:29.711221",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 15,
@@ -133,7 +152,8 @@
       "video_url": "https://grok.com/imagine/post/83f0661e-ddf2-4052-af17-ffa12a1a313e",
       "post_url": "https://grok.com/imagine/post/83f0661e-ddf2-4052-af17-ffa12a1a313e",
       "executed_at": "2026-05-02T01:23:38.613537",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 16,
@@ -142,7 +162,8 @@
       "video_url": "https://grok.com/imagine/post/0a4a1af3-ebf3-4f6b-a72e-9e1ac516e1ee",
       "post_url": "https://grok.com/imagine/post/0a4a1af3-ebf3-4f6b-a72e-9e1ac516e1ee",
       "executed_at": "2026-05-02T01:37:12.193950",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 17,
@@ -151,7 +172,8 @@
       "video_url": "https://grok.com/imagine/post/05cac75c-a042-42ba-919a-1daa7c0f4ad0",
       "post_url": "https://grok.com/imagine/post/05cac75c-a042-42ba-919a-1daa7c0f4ad0",
       "executed_at": "2026-05-02T01:44:39.191445",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 18,
@@ -160,7 +182,8 @@
       "video_url": "https://grok.com/imagine/post/8bb57c2e-77a7-4b8e-80c4-7c0d2677b75e",
       "post_url": "https://grok.com/imagine/post/8bb57c2e-77a7-4b8e-80c4-7c0d2677b75e",
       "executed_at": "2026-05-02T01:52:16.890148",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 19,
@@ -169,7 +192,8 @@
       "video_url": "https://grok.com/imagine/post/8ccfa810-cf7c-484d-90bb-ce6cd94ac754",
       "post_url": "https://grok.com/imagine/post/8ccfa810-cf7c-484d-90bb-ce6cd94ac754",
       "executed_at": "2026-05-02T02:01:11.543129",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 20,
@@ -178,7 +202,8 @@
       "video_url": "https://grok.com/imagine/post/8db87686-0a53-45f9-b0ac-ddb38eca8bcf",
       "post_url": "https://grok.com/imagine/post/8db87686-0a53-45f9-b0ac-ddb38eca8bcf",
       "executed_at": "2026-05-02T07:03:27.185161",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 21,
@@ -187,7 +212,8 @@
       "video_url": "https://grok.com/imagine/post/3f95f9a0-7e85-45ad-abb7-6ff81356e1aa",
       "post_url": "https://grok.com/imagine/post/3f95f9a0-7e85-45ad-abb7-6ff81356e1aa",
       "executed_at": "2026-05-02T07:13:38.145228",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 22,
@@ -196,7 +222,8 @@
       "video_url": "https://grok.com/imagine/post/fd7c570e-5ca6-4f2b-b629-9eb18d414d48",
       "post_url": "https://grok.com/imagine/post/fd7c570e-5ca6-4f2b-b629-9eb18d414d48",
       "executed_at": "2026-05-02T07:19:57.753319",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 23,
@@ -205,7 +232,8 @@
       "video_url": "https://grok.com/imagine/post/7b5f97f7-bf9d-42af-a0ff-25b1e701e025",
       "post_url": "https://grok.com/imagine/post/7b5f97f7-bf9d-42af-a0ff-25b1e701e025",
       "executed_at": "2026-05-02T07:26:35.365090",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 24,
@@ -214,7 +242,8 @@
       "video_url": "https://grok.com/imagine/post/ba408280-d3e5-467e-9098-7e639f759352",
       "post_url": "https://grok.com/imagine/post/ba408280-d3e5-467e-9098-7e639f759352",
       "executed_at": "2026-05-02T07:32:47.481425",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 25,
@@ -223,7 +252,8 @@
       "video_url": "https://grok.com/imagine/post/4cab6f03-e5db-41e6-a579-46de4fc72cf6",
       "post_url": "https://grok.com/imagine/post/4cab6f03-e5db-41e6-a579-46de4fc72cf6",
       "executed_at": "2026-05-02T07:38:58.748565",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 26,
@@ -232,7 +262,8 @@
       "video_url": "https://grok.com/imagine/post/5fb2e2f4-4359-4580-ab90-1ef7dd35329f",
       "post_url": "https://grok.com/imagine/post/5fb2e2f4-4359-4580-ab90-1ef7dd35329f",
       "executed_at": "2026-05-02T07:45:14.985706",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 27,
@@ -241,7 +272,8 @@
       "video_url": "https://grok.com/imagine/post/4d5b1426-4c49-43fc-99a3-8e35084e9e19",
       "post_url": "https://grok.com/imagine/post/4d5b1426-4c49-43fc-99a3-8e35084e9e19",
       "executed_at": "2026-05-02T07:51:35.394058",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 28,
@@ -250,7 +282,8 @@
       "video_url": "https://grok.com/imagine/post/8eba5eaa-dfc9-4b2c-bf9f-e28f3eb35eff",
       "post_url": "https://grok.com/imagine/post/8eba5eaa-dfc9-4b2c-bf9f-e28f3eb35eff",
       "executed_at": "2026-05-02T07:58:13.372653",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 29,
@@ -259,7 +292,8 @@
       "video_url": "https://grok.com/imagine/post/4ff099f1-6fd7-4f0e-bcb5-bd013310d8db",
       "post_url": "https://grok.com/imagine/post/4ff099f1-6fd7-4f0e-bcb5-bd013310d8db",
       "executed_at": "2026-05-02T08:04:37.479427",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 30,
@@ -268,7 +302,8 @@
       "video_url": "https://grok.com/imagine/post/bedf5553-ab0b-4b8f-8042-9213e9fd60f2",
       "post_url": "https://grok.com/imagine/post/bedf5553-ab0b-4b8f-8042-9213e9fd60f2",
       "executed_at": "2026-05-02T08:11:01.017614",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 31,
@@ -277,7 +312,8 @@
       "video_url": "https://grok.com/imagine/post/ff8b1f7c-786d-4fe6-b1e2-32a092ac5501",
       "post_url": "https://grok.com/imagine/post/ff8b1f7c-786d-4fe6-b1e2-32a092ac5501",
       "executed_at": "2026-05-02T08:17:24.512341",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 32,
@@ -286,7 +322,8 @@
       "video_url": "https://grok.com/imagine/post/4109c622-6b12-4960-b27d-2b36ab7c5b97",
       "post_url": "https://grok.com/imagine/post/4109c622-6b12-4960-b27d-2b36ab7c5b97",
       "executed_at": "2026-05-02T08:23:52.160850",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 33,
@@ -295,7 +332,8 @@
       "video_url": "https://grok.com/imagine/post/5c3700a8-0c21-4479-a716-6756de695fd0",
       "post_url": "https://grok.com/imagine/post/5c3700a8-0c21-4479-a716-6756de695fd0",
       "executed_at": "2026-05-02T08:30:20.556815",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 34,
@@ -304,7 +342,8 @@
       "video_url": "https://grok.com/imagine/post/0f6e156f-248b-49fb-803b-7c9966e508ba",
       "post_url": "https://grok.com/imagine/post/0f6e156f-248b-49fb-803b-7c9966e508ba",
       "executed_at": "2026-05-02T08:36:42.175885",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 35,
@@ -313,7 +352,8 @@
       "video_url": "https://grok.com/imagine/post/29eeab43-9a18-4f55-a1a1-8078aada6e71",
       "post_url": "https://grok.com/imagine/post/29eeab43-9a18-4f55-a1a1-8078aada6e71",
       "executed_at": "2026-05-02T08:43:14.670759",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 36,
@@ -322,7 +362,8 @@
       "video_url": "https://grok.com/imagine/post/263cfe69-f1df-47c9-8f30-331e88e31417",
       "post_url": "https://grok.com/imagine/post/263cfe69-f1df-47c9-8f30-331e88e31417",
       "executed_at": "2026-05-02T08:49:47.086356",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 37,
@@ -331,7 +372,8 @@
       "video_url": "https://grok.com/imagine/post/3639bb98-794b-4a94-ae99-e5c537e88e8b",
       "post_url": "https://grok.com/imagine/post/3639bb98-794b-4a94-ae99-e5c537e88e8b",
       "executed_at": "2026-05-02T08:56:25.529525",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 38,
@@ -340,7 +382,8 @@
       "video_url": "https://imagine-public.x.ai/imagine-public/share-videos/74fab8ad-191c-44e2-bc98-4916eb74d31a.mp4",
       "post_url": "https://grok.com/imagine/post/74fab8ad-191c-44e2-bc98-4916eb74d31a",
       "executed_at": "2026-05-02T09:46:11.817255",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 39,
@@ -349,7 +392,8 @@
       "video_url": "https://imagine-public.x.ai/imagine-public/share-videos/0b7d8e78-e6ce-4330-85a9-9c4a0948162c.mp4",
       "post_url": "https://grok.com/imagine/post/0b7d8e78-e6ce-4330-85a9-9c4a0948162c",
       "executed_at": "2026-05-02T09:53:37.174437",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 40,
@@ -358,7 +402,8 @@
       "video_url": "https://grok.com/imagine/post/234efd2b-e94d-4b16-9119-95c0bcc1cbd8",
       "post_url": "",
       "executed_at": "2026-05-02T16:59:13.178034",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 41,
@@ -367,7 +412,8 @@
       "video_url": "https://grok.com/imagine/post/81048b69-c3de-48db-87b4-04e91c6a8b9c",
       "post_url": "",
       "executed_at": "2026-05-02T17:08:29.837433",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 42,
@@ -376,7 +422,8 @@
       "video_url": "https://grok.com/imagine/post/bfb57e54-3ad1-4463-90c6-bce0863b0acf",
       "post_url": "",
       "executed_at": "2026-05-02T17:20:28.732133",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 43,
@@ -385,33 +432,47 @@
       "video_url": "https://grok.com/imagine/post/5f8f9747-5fc7-4b46-b848-155137f8555a",
       "post_url": "",
       "executed_at": "2026-05-02T17:32:14.394507",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 44,
       "prompt": "An ultra-realistic highly detailed har gow (shrimp dumplings) sitting in a traditional bamboo steamer. The wrappers are slightly translucent, glossy, and pleated, showing the pink plump shrimp filling inside. Thick steam rolling out, macro photography. Aspect ratio 9:16 portrait",
       "status": "completed",
-      "instagram_upload": "mapped"
+      "asset": "mapped",
+      "upload": []
     },
     {
       "id": 45,
       "prompt": "An ultra-realistic highly detailed mouth-watering pulled pork sandwich. Rich, sticky, mahogany BBQ sauce dripping down the sides, topped with creamy crisp coleslaw on a soft potato bun. Dramatic side lighting highlighting the glossy sauce, steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "",
+      "post_url": "https://grok.com/imagine/post/6c07fd80-6977-43f0-b9c8-7b005b405045",
+      "executed_at": "2026-05-03T16:10:29.702115"
     },
     {
       "id": 46,
       "prompt": "An ultra-realistic highly detailed massive breakfast burrito sliced in half. Steaming hot, fluffy scrambled eggs, melted sharp cheddar cheese stretching, crispy golden hash browns, and spicy red chorizo. Dark rustic background. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "",
+      "post_url": "https://grok.com/imagine/post/e39b3ba2-2916-4859-be20-e03059ece043",
+      "executed_at": "2026-05-03T16:16:48.261527"
     },
     {
       "id": 47,
       "prompt": "An ultra-realistic highly detailed charred cob of corn held by a hand. Thickly coated in creamy mayonnaise, generously crumbled white cotija cheese, and a vibrant red dusting of chili powder. Vibrant, lively background. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "",
+      "post_url": "https://grok.com/imagine/post/1a4238c6-839b-4a22-9041-eea2264840cf",
+      "executed_at": "2026-05-03T16:22:19.935877"
     },
     {
       "id": 48,
       "prompt": "An ultra-realistic highly detailed perfectly poached egg on top of Canadian bacon and a toasted English muffin. The egg is sliced open, and golden, runny yolk is spilling out, mixing with a rich, glossy, buttery hollandaise sauce. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "",
+      "post_url": "https://grok.com/imagine/post/c43a79f1-648e-43bc-8940-2567e609fc7d",
+      "executed_at": "2026-05-03T16:28:10.937648"
     },
     {
       "id": 49,
