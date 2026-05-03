@@ -101,6 +101,17 @@ This document serves as the standard operating procedure for generating images o
       ```
 
 5.  **Wait for Detail Page**: Grok will automatically navigate to the detailed view page. Ensure this page stays in the foreground; if it loses focus, use `browseros/show_page`.
+6.  **Select 1st Image**: Grok generates two images during image generation. Select the first image (often labeled "Thumbnail 2") before proceeding to video generation. Use `browseros/evaluate_script`:
+      ```javascript
+      (function() {
+        const firstImage = document.querySelector('img[alt="Thumbnail 2"]'); 
+        if (firstImage) {
+          firstImage.click();
+          return "Clicked Thumbnail 2";
+        }
+        return "Thumbnail 2 not found";
+      })()
+      ```
 
 ## Phase 4: Video Generation
 

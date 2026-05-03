@@ -551,17 +551,26 @@
     {
       "id": 57,
       "prompt": "An ultra-realistic highly detailed pad Thai noodles being tossed in a flaming hot wok. Tangles of glossy rice noodles, bright orange shrimp, crushed peanuts, and bean sprouts flying in the air. dramatic fire lighting, action shot. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "N/A",
+      "post_url": "N/A",
+      "executed_at": "2026-05-03T23:44:03.998077"
     },
     {
       "id": 58,
       "prompt": "An ultra-realistic highly detailed sizzling stone bowl of bibimbap. A perfect sunny-side-up egg with bright yellow yolk on top, surrounded by colorful arranged vegetables and gochujang sauce. steam rising, vibrant colors. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "N/A",
+      "post_url": "N/A",
+      "executed_at": "2026-05-03T23:53:04.217733"
     },
     {
       "id": 59,
       "prompt": "An ultra-realistic highly detailed tower of crispy onion rings. Thick-cut sweet onions in a shattering golden beer batter, glistening with oil, coarse salt visible. dipping into creamy ranch sauce, macro shot. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "N/A",
+      "post_url": "N/A",
+      "executed_at": "2026-05-04T00:01:34.271129"
     },
     {
       "id": 60,
