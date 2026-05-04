@@ -69,7 +69,7 @@ This document serves as the standard operating procedure for generating images o
         return "Not found";
       })()
       ```
-    - Call `browseros/take_snapshot` to find the ID of the newly visible "Choose Files" button.
+    - Call `browseros/take_snapshot` to find the element ID of the newly visible button "Choose Files".
     - Call `browseros/upload_file` with that ID and the image path.
 
 3.  **Enter Static Prompt**: 
@@ -146,6 +146,12 @@ This document serves as the standard operating procedure for generating images o
 ## Phase 7: Recording & Tracking
 
 1.  **Update Tracker**: Run `python3 scripts/py/grok_tracker.py --project <ID> complete <ID> "N/A" "N/A"` (or provide URLs if available).
+
+## Phase 8: Cleanup
+
+1.  **Close Tabs**: Once the task is complete and tracked, close the Gemini and Grok tabs to keep the browser organized.
+    - Use `browseros/list_pages` to identify the correct page IDs.
+    - Call `browseros/close_page` for each tab.
 
 ---
 
