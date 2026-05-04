@@ -23,7 +23,9 @@
       "post_url": "https://grok.com/imagine/post/718a7885-c7b0-4fe4-9979-ca489b17aea0",
       "executed_at": "2026-05-01T21:28:44.571188",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ]
     },
     {
       "id": 3,
@@ -554,7 +556,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-03T23:44:03.998077"
+      "executed_at": "2026-05-03T23:44:03.998077",
+      "asset": "mapped"
     },
     {
       "id": 58,
@@ -562,7 +565,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-03T23:53:04.217733"
+      "executed_at": "2026-05-03T23:53:04.217733",
+      "asset": "mapped"
     },
     {
       "id": 59,
@@ -570,7 +574,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-04T00:01:34.271129"
+      "executed_at": "2026-05-04T00:01:34.271129",
+      "asset": "mapped"
     },
     {
       "id": 60,
@@ -578,7 +583,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-04T00:16:09.713576"
+      "executed_at": "2026-05-04T00:16:09.713576",
+      "asset": "mapped"
     },
     {
       "id": 61,
@@ -586,7 +592,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-04T00:24:34.992702"
+      "executed_at": "2026-05-04T00:24:34.992702",
+      "asset": "mapped"
     },
     {
       "id": 62,
@@ -594,7 +601,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-04T00:36:59.441670"
+      "executed_at": "2026-05-04T00:36:59.441670",
+      "asset": "mapped"
     },
     {
       "id": 63,
@@ -602,7 +610,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-04T08:40:51.169836"
+      "executed_at": "2026-05-04T08:40:51.169836",
+      "asset": "mapped"
     },
     {
       "id": 64,
@@ -610,7 +619,8 @@
       "status": "completed",
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/4ba641e5-7757-42fb-a000-22b071f41b8c/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/4ba641e5-7757-42fb-a000-22b071f41b8c",
-      "executed_at": "2026-05-04T09:31:04.367684"
+      "executed_at": "2026-05-04T09:31:04.367684",
+      "asset": "mapped"
     },
     {
       "id": 65,
@@ -618,7 +628,8 @@
       "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-04T09:45:47.049604"
+      "executed_at": "2026-05-04T09:45:47.049604",
+      "asset": "mapped"
     },
     {
       "id": 66,
@@ -626,7 +637,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/7e1c050f-b953-4995-b87e-8d0d87c7f363",
       "post_url": "https://grok.com/imagine/post/7e1c050f-b953-4995-b87e-8d0d87c7f363",
-      "executed_at": "2026-05-04T10:13:49.945051"
+      "executed_at": "2026-05-04T10:13:49.945051",
+      "asset": "mapped"
     },
     {
       "id": 67,
@@ -634,7 +646,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/7e1c050f-b953-4995-b87e-8d0d87c7f363",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T10:19:52.228386"
+      "executed_at": "2026-05-04T10:19:52.228386",
+      "asset": "mapped"
     },
     {
       "id": 68,
@@ -642,7 +655,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/1f148236-c961-4f50-b4d0-1eb49e8ea1d9",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T10:26:49.434414"
+      "executed_at": "2026-05-04T10:26:49.434414",
+      "asset": "mapped"
     },
     {
       "id": 69,
@@ -650,7 +664,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/0fc49f59-5e12-44f6-9ba3-a5ff9c9dc3f3",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T10:33:25.362015"
+      "executed_at": "2026-05-04T10:33:25.362015",
+      "asset": "mapped"
     },
     {
       "id": 70,
@@ -658,7 +673,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/8db878d6-42b6-472d-85b5-f0b780fd6c2a",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T10:40:39.546239"
+      "executed_at": "2026-05-04T10:40:39.546239",
+      "asset": "mapped"
     },
     {
       "id": 71,
@@ -666,7 +682,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/b26a9b17-98f2-4614-b17b-edbef329a747",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T10:47:20.999002"
+      "executed_at": "2026-05-04T10:47:20.999002",
+      "asset": "mapped"
     },
     {
       "id": 72,
@@ -674,7 +691,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/448aa0d4-3f13-4994-a882-9bc1a79f992f",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T10:54:25.666559"
+      "executed_at": "2026-05-04T10:54:25.666559",
+      "asset": "mapped"
     },
     {
       "id": 73,
@@ -682,7 +700,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/0eb66b62-5e00-4a30-b002-1dd379c31003",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T12:25:10.308058"
+      "executed_at": "2026-05-04T12:25:10.308058",
+      "asset": "mapped"
     },
     {
       "id": 74,
@@ -690,7 +709,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/9133ee7a-6673-4f01-9b52-98cbd63ec46d",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T12:32:53.507116"
+      "executed_at": "2026-05-04T12:32:53.507116",
+      "asset": "mapped"
     },
     {
       "id": 75,
@@ -698,7 +718,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/524d8cea-0473-492b-9c90-695697147fef",
       "post_url": "DOWNLOADED",
-      "executed_at": "2026-05-04T12:40:33.990511"
+      "executed_at": "2026-05-04T12:40:33.990511",
+      "asset": "mapped"
     },
     {
       "id": 76,
@@ -706,87 +727,151 @@
       "status": "completed",
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/53b08388-60c4-4a5c-b1d5-b9e207c56f1c/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/53b08388-60c4-4a5c-b1d5-b9e207c56f1c",
-      "executed_at": "2026-05-04T13:12:09.160602"
+      "executed_at": "2026-05-04T13:12:09.160602",
+      "asset": "mapped"
     },
     {
       "id": 77,
       "prompt": "An ultra-realistic highly detailed bowl of fresh poke with vibrant red ahi tuna cubes, bright orange salmon, creamy avocado, edamame, and tobiko roe over warm rice. Hawaiian sunshine lighting, colorful and fresh. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "placeholder",
+      "post_url": "placeholder",
+      "executed_at": "2026-05-04T14:06:00.828632",
+      "asset": "mapped"
     },
     {
       "id": 78,
       "prompt": "An ultra-realistic highly detailed crème brûlée being torched. The sugar crust bubbling and caramelizing to a perfect golden glass, cracking under a silver spoon to reveal creamy vanilla custard. elegant bistro lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "placeholder",
+      "post_url": "placeholder",
+      "executed_at": "2026-05-04T14:13:12.773264",
+      "asset": "mapped"
     },
     {
       "id": 79,
       "prompt": "An ultra-realistic highly detailed steaming bowl of Japanese curry over rice. Thick, rich, golden-brown curry with tender beef, carrots, and potatoes, glistening with fat. cozy izakaya lighting, steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "placeholder",
+      "post_url": "placeholder",
+      "executed_at": "2026-05-04T14:20:27.343899",
+      "asset": "mapped"
     },
     {
       "id": 80,
       "prompt": "An ultra-realistic highly detailed freshly made arepa being split and stuffed. Crispy golden corn exterior, filled with shredded beef, black beans, plantains, and creamy white cheese. Colombian street food vibes, macro shot. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/37e77321-c33b-43ff-a9b7-524efe25dc30/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/37e77321-c33b-43ff-a9b7-524efe25dc30",
+      "executed_at": "2026-05-04T19:57:13.300067",
+      "asset": "mapped"
     },
     {
       "id": 81,
       "prompt": "An ultra-realistic highly detailed sizzling hot stone bowl of mapo tofu. Silky white tofu cubes in fiery red chili oil, ground pork, and Sichuan peppercorns, bubbling violently. Sichuan restaurant steam, dramatic. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/c79b8777-be5a-4239-9ebc-0fa6e4544951/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/c79b8777-be5a-4239-9ebc-0fa6e4544951",
+      "executed_at": "2026-05-04T20:03:45.050697",
+      "asset": "mapped"
     },
     {
       "id": 82,
       "prompt": "An ultra-realistic highly detailed freshly fried beignet buried under a mountain of powdered sugar. Steam escaping the fluffy interior, cafe au lait in the background. New Orleans French Quarter morning light. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/e400ef84-8648-40de-8bd5-bae62a391cbd/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/e400ef84-8648-40de-8bd5-bae62a391cbd",
+      "executed_at": "2026-05-04T20:10:27.836109",
+      "asset": "mapped"
     },
     {
       "id": 83,
       "prompt": "An ultra-realistic highly detailed hand-held banh mi sandwich. Crispy baguette stuffed with pâté, Vietnamese ham, pickled daikon and carrots, fresh cilantro, and jalapeños. Saigon street food lighting, textures popping. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/d14bd1c3-d9d9-4cb3-bd82-98fb6871c996/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/d14bd1c3-d9d9-4cb3-bd82-98fb6871c996",
+      "executed_at": "2026-05-04T20:18:00.441131",
+      "asset": "mapped"
     },
     {
       "id": 84,
       "prompt": "An ultra-realistic highly detailed bubbling skillet of mac and cheese being scooped. Gooey, stringy cheddar and mozzarella stretching from the spoon, crispy breadcrumb topping. comfort food lighting, golden and warm. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/6908b6ba-7226-4b4f-a07e-e06bcf910ea2/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/6908b6ba-7226-4b4f-a07e-e06bcf910ea2",
+      "executed_at": "2026-05-04T20:25:20.783220",
+      "asset": "mapped"
     },
     {
       "id": 85,
       "prompt": "An ultra-realistic highly detailed freshly grilled fish taco. Flaky white cod with blackened seasoning, crunchy purple cabbage slaw, creamy chipotle sauce, and a squeeze of lime. Baja beach lighting, vibrant colors. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "N/A",
+      "post_url": "https://grok.com/imagine/post/7bdb65bc-8962-4cdf-9d25-874ca1e83f0d",
+      "executed_at": "2026-05-04T20:32:34.863314",
+      "asset": "mapped"
     },
     {
       "id": 86,
       "prompt": "An ultra-realistic highly detailed molten chocolate lava cake with a spoon breaking through the center. Thick, dark hot fudge flowing out onto the plate, vanilla ice cream melting alongside. romantic dessert lighting, macro. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/6d08d3ed-0d13-4c8d-9b56-5d9c3928495d/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/6d08d3ed-0d13-4c8d-9b56-5d9c3928495d",
+      "executed_at": "2026-05-04T21:00:36.506979",
+      "asset": "mapped"
     },
     {
       "id": 87,
       "prompt": "An ultra-realistic highly detailed hand-held shawarma wrap being unwrapped. Rotisserie chicken, garlic toum sauce, pickles, and fries wrapped in warm pita, sauce dripping. Middle Eastern night market lighting, steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/1fe739f8-13e2-44cd-a82c-4b9a73005dfb/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/1fe739f8-13e2-44cd-a82c-4b9a73005dfb",
+      "executed_at": "2026-05-04T21:07:04.309929",
+      "asset": "mapped"
     },
     {
       "id": 88,
       "prompt": "An ultra-realistic highly detailed freshly steamed pork bao bun. Fluffy, snowy white dough with a slight sheen, torn open to reveal sweet char siu pork filling inside. dim sum cart lighting, steam wisps. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/31950027-dcdf-4681-b839-0b5321370a44/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/31950027-dcdf-4681-b839-0b5321370a44",
+      "executed_at": "2026-05-04T21:13:36.793111",
+      "asset": "mapped"
     },
     {
       "id": 89,
       "prompt": "An ultra-realistic highly detailed hand-held Cubano sandwich being pressed. Crispy, buttered Cuban bread, layers of ham, roasted pork, Swiss cheese, pickles, and yellow mustard flattening on a hot plancha. Miami cafe lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/48f7f0bd-005d-4fef-974c-75ff3635a04c/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/48f7f0bd-005d-4fef-974c-75ff3635a04c",
+      "executed_at": "2026-05-04T21:20:19.796453",
+      "asset": "mapped"
     },
     {
       "id": 90,
       "prompt": "An ultra-realistic highly detailed bubbling pot of beef bourguignon. Deep red wine sauce coating tender chunks of beef, pearl onions, and mushrooms. Fresh thyme sprigs, rustic French kitchen setting. cozy winter lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/64a293ba-4f60-4730-aeec-a28f871ae601/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/64a293ba-4f60-4730-aeec-a28f871ae601",
+      "executed_at": "2026-05-04T21:27:16.107840",
+      "asset": "mapped"
     },
     {
       "id": 91,
       "prompt": "An ultra-realistic highly detailed hand-held Chicago-style deep dish pizza slice. Thick, buttery crust, chunky tomato sauce on top, layers of mozzarella and Italian sausage, cheese pull stretching. Windy City pizzeria lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://imagine-public.x.ai/imagine-public/share-videos/eecbb75b-4032-4afa-a783-7b3cacd17354.mp4",
+      "post_url": "https://grok.com/imagine/post/eecbb75b-4032-4afa-a783-7b3cacd17354",
+      "executed_at": "2026-05-04T22:56:01.354739"
     },
     {
       "id": 92,
       "prompt": "An ultra-realistic highly detailed plate of freshly made gnocchi in brown butter sage sauce. Crispy, golden pan-seared dumplings, flecked with fried sage leaves, showered with parmesan. Tuscan trattoria lighting, rustic. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/f2a420c7-d31d-432c-9475-94429442bbe7/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/f2a420c7-d31d-432c-9475-94429442bbe7",
+      "executed_at": "2026-05-04T23:02:24.126721",
+      "asset": "mapped"
     },
     {
       "id": 93,
@@ -826,6 +911,131 @@
     {
       "id": 100,
       "prompt": "An ultra-realistic highly detailed hand-held bacon cheeseburger with two smash patties. Crispy bacon strips, melted American cheese, secret sauce dripping, pickles, on a toasted potato bun. American diner lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 101,
+      "prompt": "An ultra-realistic highly detailed steaming bowl of Japanese miso ramen with rich pork broth, bouncy noodles, a perfectly charred corn cob half, bamboo shoots, and a bright orange seasoned soft egg. Cozy izakaya lighting, steam rising. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 102,
+      "prompt": "An ultra-realistic highly detailed hand-held New York deli pastrami sandwich on thick marble rye. Towering pink-red steamed pastrami slices glistening with fat, smear of spicy brown mustard, sour pickle spear on the side. Deli counter lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 103,
+      "prompt": "An ultra-realistic highly detailed fresh poke bowl with cubed ahi tuna, glistening in sesame soy marinade, on seasoned sushi rice, topped with edamame, avocado slices, crispy wonton strips, and furikake. Bright Hawaiian cafe lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 104,
+      "prompt": "An ultra-realistic highly detailed sizzling skillet of shakshuka. Bright red tomato and pepper sauce bubbling around three poached eggs, crumbled white feta, fresh parsley, served with torn crusty bread. North African market lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 105,
+      "prompt": "An ultra-realistic highly detailed golden crème brûlée ramekin. Silky vanilla custard topped with a perfectly caramelized amber sugar crust just shattered by a spoon, cream rising through the crack. Elegant patisserie lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 106,
+      "prompt": "An ultra-realistic highly detailed plate of golden saffron risotto Milanese. Creamy, flowing Arborio rice with vibrant yellow color from saffron, topped with a golden shower of parmesan and black pepper. Rustic Milanese trattoria lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 107,
+      "prompt": "An ultra-realistic highly detailed Detroit-style square pizza fresh from a blue steel pan. Crispy, caramelized cheese-crust edges, two thick stripes of chunky tomato sauce over thick mozzarella, airy thick dough. Michigan pizzeria lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 108,
+      "prompt": "An ultra-realistic highly detailed crispy Baja-style fish tacos on warm corn tortillas. Beer-battered cod fillets, shredded purple cabbage, chipotle crema drizzle, fresh lime wedges, and pickled onions. Coastal taqueria lighting, action shot. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 109,
+      "prompt": "An ultra-realistic highly detailed gooey baked mac and cheese in a cast iron skillet. Bubbling golden Panko crust with crispy edges, molten cheddar oozing through, thick creamy sauce visible where a spoon has been pulled through. Comfort food lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 110,
+      "prompt": "An ultra-realistic highly detailed fresh saigon-style banh mi sandwich split open. Shattering-crisp baguette, layers of pork pate and grilled char siu, pickled daikon and carrots, fresh cilantro, sliced jalapeños. Vietnamese street market lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 111,
+      "prompt": "An ultra-realistic highly detailed bowl of fiery Sichuan mapo tofu. Silky white tofu cubes trembling in a brick-red spicy Doubanjiang sauce, glistening with chili oil, topped with ground pork and green onions. Sichuan restaurant lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 112,
+      "prompt": "An ultra-realistic highly detailed plate of fluffy New Orleans beignets dusted in a thick blizzard of powdered sugar. Three pillowy fried dough squares, golden inside, with a cafe au lait in the background. French Quarter cafe lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 113,
+      "prompt": "An ultra-realistic highly detailed Venezuelan corn arepa split open and stuffed. Griddle-charred masa disc, crammed with shredded black pork, black beans, sweet fried plantains, and salty white cheese crumbles. Caracas street food lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 114,
+      "prompt": "An ultra-realistic highly detailed Philly cheesesteak on a long Amoroso roll. Thinly shaved ribeye, caramelized onions and peppers, smothered in melted Cheez Whiz, juices soaking into the soft bread. South Philadelphia sandwich shop lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 115,
+      "prompt": "An ultra-realistic highly detailed glorious full rack of St. Louis style BBQ pork ribs. Deep mahogany lacquered glaze, smoke ring visible on sliced rib, fat glistening, meat barely clinging to the bone. Smokehouse pitmaster lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 116,
+      "prompt": "An ultra-realistic highly detailed hand-rolled cinnamon sugar Mexican street churros in a paper cone. Long ridged golden fried dough sticks dusted in cinnamon sugar, served with a thick dark chocolate dipping sauce. Night carnival lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 117,
+      "prompt": "An ultra-realistic highly detailed rich Japanese beef curry served over a mound of fluffy white rice. Dark, glossy curry sauce with tender potato and carrot chunks, with a side of pickled red ginger and a drizzle of tonkatsu sauce. Japanese home kitchen lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 118,
+      "prompt": "An ultra-realistic highly detailed juicy char siu pork bao bun torn open to reveal the sweet red BBQ pork filling inside. Fluffy snow-white dough with slight sheen, steam wisping from the filling. Hong Kong dim sum cart lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 119,
+      "prompt": "An ultra-realistic highly detailed towering slice of NYC-style cheese pizza on a paper plate, drooping with the weight of gooey mozzarella. Crispy thin crust with char bubbles, bright tomato sauce visible at the edges. New York pizzeria counter lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 120,
+      "prompt": "An ultra-realistic highly detailed golden-brown Belgian liege waffle on a street vendor cart. Thick, caramelized pearl sugar pockets on the outside, warm and dense interior, topped with a strawberry compote and fresh whipped cream. European street market lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 121,
+      "prompt": "An ultra-realistic highly detailed hand-held crispy Korean fried chicken sandwich. Double-fried crackling battered thigh with a sticky soy garlic glaze, topped with pickled daikon slaw and toasted sesame seeds in a brioche bun. Seoul street food lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 122,
+      "prompt": "An ultra-realistic highly detailed classic Greek spanakopita triangle. Shatteringly crisp golden phyllo pastry, layers visible at the broken corner, spinach and feta filling dark and savory inside. Mediterranean taverna lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 123,
+      "prompt": "An ultra-realistic highly detailed Indian chicken tikka masala in a dark copper karahi. Bright orange creamy tomato sauce coating charred tandoori chicken chunks, fresh ginger strips on top, served with a fluffy naan bread. Northern Indian restaurant lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 124,
+      "prompt": "An ultra-realistic highly detailed hand-held smash patty Oklahoma onion burger. Thin beef patty smashed over a pile of raw onion on a flat top grill, American cheese melting over crispy onion lace edges, steaming on a soft white bun. Oklahoman diner lighting. Aspect ratio 9:16 portrait",
+      "status": "pending"
+    },
+    {
+      "id": 125,
+      "prompt": "An ultra-realistic highly detailed whole roasted Peking duck hanging on a hook. Deep mahogany and lacquered glass-like crispy skin, steam rising, with thin mandarin pancakes, hoisin sauce, and cucumber sticks arranged below. Beijing duck restaurant lighting. Aspect ratio 9:16 portrait",
       "status": "pending"
     }
   ]

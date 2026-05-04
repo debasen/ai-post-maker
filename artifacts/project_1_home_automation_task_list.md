@@ -1,0 +1,56 @@
+# Project 1 Home Automation Task List
+
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [x] /grok_home_automation --project-1
+- [x] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
+- [ ] /grok_home_automation --project-1
+- [ ] sleep 200
