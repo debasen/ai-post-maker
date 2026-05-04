@@ -92,7 +92,7 @@ This document serves as the standard operating procedure for generating assets o
     - Call `browseros/take_snapshot` on the active page.
     - Identify the interactive element with `aria-label="Download"`.
 2.  **Download the File**:
-    - **Wait for Readiness**: Once the "Download" button becomes active, wait 10-15 seconds to ensure the final video file is stabilized and ready for transfer.
+    - **Wait for Readiness**: Once the "Download" button becomes active, wait 5 seconds to ensure the final video file is stabilized and ready for transfer.
     - Call `browseros/download_file` with the identified element ID.
     - Set `path` to the project destination directory (Replace N): `/Users/dsen/Projects/ai-post-maker/project-<N>/assets/current/`.
 3.  **Rename**:

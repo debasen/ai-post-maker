@@ -599,18 +599,18 @@
     {
       "id": 63,
       "prompt": "An ultra-realistic highly detailed hot bowl of Vietnamese bun cha. Grilled pork patties in caramelized glaze, vermicelli noodles, fresh herbs, and a side of tangy dipping sauce with floating chili slices. steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending",
+      "status": "completed",
       "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-04T00:44:11.049874"
+      "executed_at": "2026-05-04T08:40:51.169836"
     },
     {
       "id": 64,
       "prompt": "An ultra-realistic highly detailed gourmet lobster roll overflowing with chunks of butter-poached lobster meat. Drizzled with melted butter, served in a toasted split-top bun with a side of rippled chips. New England coastal vibe. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "video_url": "local",
-      "post_url": "local",
-      "executed_at": "2026-05-04T00:57:16.088475"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/4ba641e5-7757-42fb-a000-22b071f41b8c/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/4ba641e5-7757-42fb-a000-22b071f41b8c",
+      "executed_at": "2026-05-04T09:31:04.367684"
     },
     {
       "id": 65,
