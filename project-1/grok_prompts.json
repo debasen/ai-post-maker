@@ -615,65 +615,98 @@
     {
       "id": 65,
       "prompt": "An ultra-realistic highly detailed sizzling plate of beef bulgogi. Thinly sliced marinated beef caramelizing on a hot cast iron, glistening with sweet soy glaze, sesame seeds, and green onions. Korean BBQ restaurant lighting. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/456bfd6c-9cac-4a9f-a4c4-6faa570381fb/generated_video.mp4?cache=1",
+      "status": "completed",
+      "video_url": "N/A",
       "post_url": "N/A",
-      "executed_at": "2026-05-04T01:08:53.252402"
+      "executed_at": "2026-05-04T09:45:47.049604"
     },
     {
       "id": 66,
       "prompt": "An ultra-realistic highly detailed hand pulling apart a freshly baked garlic knot. Steam escaping, revealing soft, fluffy bread inside, coated in glistening garlic butter and parmesan. pizzeria lighting, cheese pull. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/7e1c050f-b953-4995-b87e-8d0d87c7f363",
+      "post_url": "https://grok.com/imagine/post/7e1c050f-b953-4995-b87e-8d0d87c7f363",
+      "executed_at": "2026-05-04T10:13:49.945051"
     },
     {
       "id": 67,
       "prompt": "An ultra-realistic highly detailed creamy bowl of New England clam chowder in a sourdough bread bowl. Thick, rich white soup loaded with clams and potatoes, topped with crispy bacon bits. cozy foggy harbor lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/7e1c050f-b953-4995-b87e-8d0d87c7f363",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T10:19:52.228386"
     },
     {
       "id": 68,
       "prompt": "An ultra-realistic highly detailed freshly made churro being dipped into thick, dark Mexican hot chocolate. Crispy, ridged golden exterior, dusted heavily with cinnamon sugar, steam rising. street fair lighting, macro shot. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/1f148236-c961-4f50-b4d0-1eb49e8ea1d9",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T10:26:49.434414"
     },
     {
       "id": 69,
       "prompt": "An ultra-realistic highly detailed shakshuka pan with two perfectly poached eggs in spicy red tomato and pepper sauce. Bright yellow yolks, crumbled feta, and fresh cilantro. bubbling sauce, rustic iron skillet. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/0fc49f59-5e12-44f6-9ba3-a5ff9c9dc3f3",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T10:33:25.362015"
     },
     {
       "id": 70,
       "prompt": "An ultra-realistic highly detailed porterhouse steak being flipped on a blazing grill. Deep char marks, flames licking the edges, juices dripping onto hot coals below. dramatic fire-lit barbecue scene. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/8db878d6-42b6-472d-85b5-f0b780fd6c2a",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T10:40:39.546239"
     },
     {
       "id": 71,
       "prompt": "An ultra-realistic highly detailed loaded baked potato split open. Fluffy white interior, melting butter pooling, crispy bacon bits, bright green chives, and a huge dollop of sour cream. steakhouse lighting, steaming hot. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/b26a9b17-98f2-4614-b17b-edbef329a747",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T10:47:20.999002"
     },
     {
       "id": 72,
       "prompt": "An ultra-realistic highly detailed creamy bowl of risotto milanese being stirred. Rich, golden saffron-infused Arborio rice, glistening with butter, topped with shaved parmesan. elegant Italian kitchen lighting, steam wisps. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/448aa0d4-3f13-4994-a882-9bc1a79f992f",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T10:54:25.666559"
     },
     {
       "id": 73,
       "prompt": "An ultra-realistic highly detailed hand-held Detroit-style pizza slice. Thick, crispy caramelized cheese edges, fluffy focaccia-like crust, stripes of thick red sauce on top. cheese stretch, dark moody background. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/0eb66b62-5e00-4a30-b002-1dd379c31003",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T12:25:10.308058"
     },
     {
       "id": 74,
       "prompt": "An ultra-realistic highly detailed sizzling fajita platter arriving at the table. Strips of charred steak, colorful peppers and onions on a smoking cast iron, flour tortillas on the side. restaurant steam, dramatic lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/9133ee7a-6673-4f01-9b52-98cbd63ec46d",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T12:32:53.507116"
     },
     {
       "id": 75,
       "prompt": "An ultra-realistic highly detailed freshly shucked oyster with a dash of bright red cocktail sauce and a squeeze of lemon. Glistening on a bed of crushed ice, briny seawater droplets. elegant raw bar lighting, macro. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/524d8cea-0473-492b-9c90-695697147fef",
+      "post_url": "DOWNLOADED",
+      "executed_at": "2026-05-04T12:40:33.990511"
     },
     {
       "id": 76,
       "prompt": "An ultra-realistic highly detailed towering pastrami on rye sandwich. Hand-carved, thick pink pastrami with a peppery bark, dripping with melted Swiss, tangy sauerkraut oozing out. deli counter lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/53b08388-60c4-4a5c-b1d5-b9e207c56f1c/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/53b08388-60c4-4a5c-b1d5-b9e207c56f1c",
+      "executed_at": "2026-05-04T13:12:09.160602"
     },
     {
       "id": 77,
