@@ -575,32 +575,50 @@
     {
       "id": 60,
       "prompt": "An ultra-realistic highly detailed hand holding a loaded Philly cheesesteak. Thinly sliced ribeye, dripping with melted provolone and caramelized onions, stuffed in a soft hoagie roll. dark background, dramatic lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "N/A",
+      "post_url": "N/A",
+      "executed_at": "2026-05-04T00:16:09.713576"
     },
     {
       "id": 61,
       "prompt": "An ultra-realistic highly detailed classic eggs Benedict cut open with a fork. Golden, runny hollandaise sauce spilling over poached eggs, covering crispy Canadian bacon and toasted English muffin. bright brunch lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "N/A",
+      "post_url": "N/A",
+      "executed_at": "2026-05-04T00:24:34.992702"
     },
     {
       "id": 62,
       "prompt": "An ultra-realistic highly detailed street-style elote (Mexican street corn) being dipped in mayonnaise. Generously rolled in crumbled cotija cheese and bright red tajín spice. vibrant outdoor lighting, dripping cheese. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "N/A",
+      "post_url": "N/A",
+      "executed_at": "2026-05-04T00:36:59.441670"
     },
     {
       "id": 63,
       "prompt": "An ultra-realistic highly detailed hot bowl of Vietnamese bun cha. Grilled pork patties in caramelized glaze, vermicelli noodles, fresh herbs, and a side of tangy dipping sauce with floating chili slices. steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "pending",
+      "video_url": "N/A",
+      "post_url": "N/A",
+      "executed_at": "2026-05-04T00:44:11.049874"
     },
     {
       "id": 64,
       "prompt": "An ultra-realistic highly detailed gourmet lobster roll overflowing with chunks of butter-poached lobster meat. Drizzled with melted butter, served in a toasted split-top bun with a side of rippled chips. New England coastal vibe. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "pending",
+      "video_url": "local",
+      "post_url": "local",
+      "executed_at": "2026-05-04T00:57:16.088475"
     },
     {
       "id": 65,
       "prompt": "An ultra-realistic highly detailed sizzling plate of beef bulgogi. Thinly sliced marinated beef caramelizing on a hot cast iron, glistening with sweet soy glaze, sesame seeds, and green onions. Korean BBQ restaurant lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "pending",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/456bfd6c-9cac-4a9f-a4c4-6faa570381fb/generated_video.mp4?cache=1",
+      "post_url": "N/A",
+      "executed_at": "2026-05-04T01:08:53.252402"
     },
     {
       "id": 66,
