@@ -876,22 +876,34 @@
     {
       "id": 93,
       "prompt": "An ultra-realistic highly detailed freshly made pavlova dessert. Crisp white meringue shell with marshmallow center, topped with a mountain of whipped cream, kiwi slices, and passion fruit pulp dripping down. bright Australian cafe light. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/5db71b95-0289-4a42-954b-79f13e4900f7/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/5db71b95-0289-4a42-954b-79f13e4900f7",
+      "executed_at": "2026-05-05T09:02:55.286958"
     },
     {
       "id": 94,
       "prompt": "An ultra-realistic highly detailed sizzling plate of gambas al ajillo. Jumbo prawns swimming in bubbling golden olive oil with sliced garlic and red chili flakes in a clay cazuela. Spanish tapas bar lighting, steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/554f24eb-be9f-40e7-b70e-6589e8e7e823/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/554f24eb-be9f-40e7-b70e-6589e8e7e823",
+      "executed_at": "2026-05-05T09:09:26.733581"
     },
     {
       "id": 95,
       "prompt": "An ultra-realistic highly detailed freshly rolled ice cream being scraped into curls on a frozen plate. Creamy vanilla base with crushed Oreo cookies and fresh strawberries mixed in. Thai night market lighting, action shot. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/aadb19f3-e5db-46ec-a741-eb3cdf7673da/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/aadb19f3-e5db-46ec-a741-eb3cdf7673da",
+      "executed_at": "2026-05-05T09:16:05.843077"
     },
     {
       "id": 96,
       "prompt": "An ultra-realistic highly detailed hand-held Nashville hot chicken sandwich. Thick, craggy fried chicken coated in fiery red cayenne oil, topped with pickles and white bread, sauce dripping. Southern comfort lighting, dramatic. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/fad2c172-94e2-4f03-a446-f662a4fdca81/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/fad2c172-94e2-4f03-a446-f662a4fdca81",
+      "executed_at": "2026-05-05T09:25:45.968413"
     },
     {
       "id": 97,
