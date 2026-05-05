@@ -709,13 +709,13 @@ Steps: 👨‍🍳 Slice onions into 1/2 inch thick rings. 🥣 Whisk flour and 
 ID: 60
 Caption:
 ```
-🥩 Ribeye Steak 🥩
+🥩 Authentic Philly Cheesesteak 🥖
 
 Recipe: 
-Ingredients: 🥩 16oz bone-in ribeye steak (thick cut), 🧈 2 tbsp unsalted butter, 🧄 3 cloves garlic, 🌿 2 sprigs rosemary, 🧂 sea salt, 🧂 and coarse black pepper. 
-Steps: 👨‍🍳 Take steak out 1 hour before cooking to reach room temp. 🥣 Pat extremely dry and season heavily. 🔥 Sear in a hot cast iron skillet for 3 mins to develop a crust. ⏲️ Flip, add butter, garlic, and rosemary. 🍳 Tilt the pan and spoon the foaming butter over the steak continuously for 3 more mins. 🔪 Rest for 10 mins before slicing.
+Ingredients: 🥩 1/2 lb thinly shaved ribeye, 🥖 1 long hoagie roll (Amoroso), 🧅 1/2 onion (diced), 🧀 2 oz Cheez Whiz (or provolone), and 🫒 oil. 
+Steps: 👨‍🍳 Sauté onions until caramelized. 🥣 On a very hot griddle, sear the shaved steak, chopping it with a spatula. 🔥 Mix in the onions. ⏲️ Top with a generous amount of Cheez Whiz until molten. 🍳 Place the split roll over the meat to steam, then scoop everything up into the sandwich.
 
-#steak #ribeye #grilling #meat #dinner #carnivore #castiron #beef #steakdinner 🌮🍱
+#phillycheesesteak #cheesesteak #sandwich #philadelphia #lunch #comfortfood #cheese #steak 🌮🍱
 ```
 
 ID: 61
@@ -817,25 +817,25 @@ Steps: 👨‍🍳 Bring water, sugar, salt, and oil to a boil. 🥣 Remove from
 ID: 69
 Caption:
 ```
-🥚 Classic Eggs Benedict with Hollandaise 🥚
+🍳 Classic Mediterranean Shakshuka 🍅
 
 Recipe: 
-Ingredients: 🍞 2 English muffin halves, 🥓 2 slices Canadian bacon, 🥚 2 large eggs, 🍅 1 tbsp vinegar. Sauce: 3 egg yolks, 🍋 1 tbsp lemon juice, 🧈 1/2 cup melted butter, 🌶️ pinch of cayenne. 
-Steps: 👨‍🍳 Poach eggs in simmering water with vinegar for 3 mins. 🥣 To make hollandaise: whisk yolks and lemon juice over a water bath, slowly drizzling in melted butter until thick. 🔥 Toast the muffins and top with seared bacon and the poached eggs. ⏲️ Smother in the warm hollandaise and top with a dash of cayenne.
+Ingredients: 🥚 4 large eggs, 🍅 2 cups tomato sauce (with onions and peppers), 🧄 2 cloves garlic, 🥄 1 tsp cumin, 🌶️ 1 tsp paprika, 🧀 1/2 cup crumbled feta, and 🌿 fresh parsley. 
+Steps: 👨‍🍳 Sauté onions, peppers, and garlic until soft. 🥣 Add tomatoes and spices; simmer until thickened. 🔥 Crack eggs directly into the sauce. ⏲️ Cover and cook for 5-8 mins until whites are set but yolks are runny. 🍳 Sprinkle with feta and parsley; serve with crusty bread.
 
-#eggsbenedict #brunch #breakfast #eggs #hollandaise #morning #classic #brunchtime 🌮🍱
+#shakshuka #eggs #breakfast #brunch #healthy #vegetarian #middleeastern #eggsforbreakfast 🌮🍱
 ```
 
 ID: 70
 Caption:
 ```
-🥩 Porterhouse Steak 🥩
+🥩 Sizzling Cast-Iron Porterhouse Steak 🥩
 
 Recipe: 
-Ingredients: 🥩 16oz bone-in ribeye steak (thick cut), 🧈 2 tbsp unsalted butter, 🧄 3 cloves garlic, 🌿 2 sprigs rosemary, 🧂 sea salt, 🧂 and coarse black pepper. 
-Steps: 👨‍🍳 Take steak out 1 hour before cooking to reach room temp. 🥣 Pat extremely dry and season heavily. 🔥 Sear in a hot cast iron skillet for 3 mins to develop a crust. ⏲️ Flip, add butter, garlic, and rosemary. 🍳 Tilt the pan and spoon the foaming butter over the steak continuously for 3 more mins. 🔪 Rest for 10 mins before slicing.
+Ingredients: 🥩 24oz Porterhouse steak, 🧈 3 tbsp unsalted butter, 🧄 4 cloves garlic, 🌿 2 sprigs rosemary/thyme, 🧂 sea salt, 🧂 and coarse black pepper. 
+Steps: 👨‍🍳 Take steak out 1 hour before cooking to reach room temp. 🥣 Pat extremely dry and season heavily. 🔥 Sear in a screaming hot cast iron skillet for 4 mins per side to develop a deep crust. ⏲️ Flip, add butter, garlic, and herbs. 🍳 Tilt the pan and baste the steak with the foaming butter for 2 more mins. 🔪 Rest for 10 mins before carving.
 
-#steak #ribeye #grilling #meat #dinner #carnivore #castiron #beef #steakdinner 🌮🍱
+#porterhouse #steak #beef #grilling #meat #dinner #carnivore #castiron #steakdinner 🌮🍱
 ```
 
 ID: 71
@@ -1081,13 +1081,13 @@ Steps: 👨‍🍳 Sear bacon and beef in a dutch oven. 🥣 Sauté onions and c
 ID: 91
 Caption:
 ```
-✨ Gourmet Chef's Specialty Dish ✨
+🍕 Authentic Chicago Deep Dish Pizza 🍕
 
 Recipe: 
-Ingredients: Selection of farm-fresh seasonal ingredients, signature house-made spices, 🌿 aromatic herbs, 🍅 and a secret specialty sauce. 
-Steps: 👨‍🍳 Meticulously prepare each component with artisan techniques. 🥣 Sauté, roast, or sear to highlight the natural flavors of the ingredients. 🔥 Plate with elegance and garnish with fresh micro-herbs. ⏲️ Serve immediately to capture the dish at its peak of flavor and texture.
+Ingredients: 🍕 Thick cornmeal-infused dough, 🧀 1 lb whole milk mozzarella (sliced), 🥩 1/2 lb Italian sausage, 🍅 2 cups chunky tomato sauce, and 🧀 grated parmesan. 
+Steps: 👨‍🍳 Press dough into a deep, well-oiled cake pan. 🥣 Layer the mozzarella first (under the sauce!), then the sausage. 🔥 Cover with a thick layer of chunky tomato sauce. ⏲️ Bake at 425°F (220°C) for 35-45 minutes until the crust is golden and the filling is hot. 🍳 Finish with a sprinkle of parmesan.
 
-#gourmet #foodie #delicious #cooking #dinner #freshfood #chefspecial #foodart 🌮🍱
+#deepdish #chicago #pizza #chicagostyle #cheese #dinner #pizzalover #sausage 🌮🍱
 ```
 
 ID: 92
@@ -1196,5 +1196,305 @@ Ingredients: 🥩 1/2 lb ground chuck (80/20), 🧀 2 slices American cheese, �
 Steps: 👨‍🍳 Divide beef into two 1/4 lb balls. 🥣 Place on a screaming hot cast iron griddle and smash completely flat with a heavy spatula. 🔥 Season with salt. ⏲️ Sear for 2 mins until a deep brown crust forms. 🍳 Flip, add cheese to both patties, and stack them. 🔪 Place on a toasted, buttered bun with sauce, onions, and pickles.
 
 #burger #cheeseburger #smashburger #grilling #dinner #foodporn #burgerlover #juicy 🌮🍱
+```
+
+ID: 101
+Caption:
+```
+🍜 Miso Ramen with Chashu Pork 🍜
+
+Recipe: 
+Ingredients: 🍜 Fresh ramen noodles, 🥣 rich miso broth (soybean paste, 🦴 dashi), 🥩 sliced chashu pork, 🥚 marinated soft-boiled egg, 🌽 sweet corn, 🧈 a pat of butter, 🌊 nori, and 🌿 green onions. 
+Steps: 👨‍🍳 Simmer dashi with miso paste until rich and fragrant. 🥣 Boil ramen noodles until al dente. 🔥 Sear the chashu in a pan. ⏲️ Assemble by pouring hot broth over noodles. 🍳 Top with the egg, corn, butter, nori, and a mountain of scallions.
+
+#ramen #misoramen #japanesefood #noodles #comfortfood #ramenlover #asianfood #umami 🍜🍥✨
+```
+
+ID: 102
+Caption:
+```
+🥩 NYC Deli Style Pastrami on Rye 🍞
+
+Recipe: 
+Ingredients: 🥩 1 lb sliced hot pastrami, 🍞 2 slices marble rye bread, 🍯 2 tbsp spicy brown mustard, 🥒 and a large kosher drill pickle. 
+Steps: 👨‍🍳 Steam the pastrami slices in a steamer basket for 10 minutes until the fat is translucent and the meat is incredibly tender. 🥣 Generously slather both slices of rye with spicy mustard. 🔥 Pile the hot meat at least 3 inches high on the bread. ⏲️ Serve immediately with a side of pickled green tomatoes or a classic drill spear.
+
+#pastrami #sandwich #deli #lunch #nycfood #beef #classic #delicatessen 🌮🍱
+```
+
+ID: 103
+Caption:
+```
+🐟 Hawaiian Ahi Tuna Poke Bowl 🥗
+
+Recipe: 
+Ingredients: 🐟 1/2 lb sashimi-grade ahi tuna, 🍣 2 cups sushi rice, 🍅 1/4 cup soy sauce, 🫒 1 tsp sesame oil, 🫚 1/2 tsp ginger, 1/4 cup sliced scallions, 🥑 1/2 avocado, 🫛 and edamame. 
+Steps: 👨‍🍳 Cube the tuna into 1/2 inch pieces. 🥣 Whisk soy, sesame oil, and ginger; toss with the tuna and scallions. 🔥 Let marinate for 15 mins. ⏲️ Scoop warm rice into a bowl. 🍳 Top with the marinated tuna, sliced avocado, edamame, and a sprinkle of furikake or sesame seeds. 🔪 Serve chilled.
+
+#poke #pokebowl #healthy #seafood #tuna #fresh #lunchideas #hawaiianfood 🌮🍱
+```
+
+ID: 104
+Caption:
+```
+🍳 Classic Mediterranean Shakshuka 🍅
+
+Recipe: 
+Ingredients: 🥚 4 large eggs, 🍅 2 cups tomato sauce (with onions and peppers), 🧄 2 cloves garlic, 🥄 1 tsp cumin, 🌶️ 1 tsp paprika, 🧀 1/2 cup crumbled feta, and 🌿 fresh parsley. 
+Steps: 👨‍🍳 Sauté onions, peppers, and garlic until soft. 🥣 Add tomatoes and spices; simmer until thickened. 🔥 Crack eggs directly into the sauce. ⏲️ Cover and cook for 5-8 mins until whites are set but yolks are runny. 🍳 Sprinkle with feta and parsley; serve with crusty bread.
+
+#shakshuka #eggs #breakfast #brunch #healthy #vegetarian #middleeastern #eggsforbreakfast 🌮🍱
+```
+
+ID: 105
+Caption:
+```
+🍦 Classic Vanilla Bean Crème Brûlée 🍦
+
+Recipe: 
+Ingredients: 2 cups heavy cream, 🍦 1 vanilla bean (scraped), 🥚 5 egg yolks, 🍬 1/2 cup sugar (plus extra for the crust). 
+Steps: 👨‍🍳 Heat cream and vanilla bean until just boiling. 🥣 Whisk yolks and sugar until pale. 🔥 Slowly pour the hot cream into the yolks while whisking. ⏲️ Pour into ramekins. 🍳 Bake in a water bath at 300°F (150°C) for 35-40 mins until set but jiggly. 🔪 Chill for 4 hours. 🥧 Before serving, sprinkle a thin layer of sugar on top and use a kitchen torch to melt it into a dark, glass-like caramel.
+
+#cremebrulee #dessert #frenchfood #sweet #finedining #vanilla #baking #custard 🌮🍱
+```
+
+ID: 106
+Caption:
+```
+🪻 Golden Saffron Risotto Milanese 🍚
+
+Recipe: 
+Ingredients: 🌾 1.5 cups Arborio rice, 🪻 1 pinch saffron threads, 🍗 5 cups warm chicken stock, 🍷 1/2 cup dry white wine, 🧅 1 shallot (minced), 🧈 4 tbsp butter, 🧀 1/2 cup parmesan cheese. 
+Steps: 👨‍🍳 Soak saffron in 2 tbsp of warm stock. 🥣 Sauté shallot in 2 tbsp butter. 🔥 Add rice and toast for 2 mins. ⏲️ Add wine and stir until absorbed. 🍳 Add stock 1 ladle at a time, stirring constantly until each is absorbed before adding the next. 🔪 When rice is al dente, stir in the saffron liquid, remaining butter, and parmesan. 🥧 The result should be creamy and flow on the plate.
+
+#risotto #italianfood #gourmet #dinner #cooking #saffron #creamy #milanese 🌮🍱
+```
+
+ID: 107
+Caption:
+```
+✨ Detroit-Style Crispy Edge Deep Dish ✨
+
+Recipe: 
+Ingredients: 🍕 High-hydration pizza dough, 🧀 1 lb Wisconsin brick cheese (cubed), 🍅 1/2 cup thick tomato sauce, and a square blue steel pan. 
+Steps: 👨‍🍳 Press dough into a well-oiled square pan; let rise for 2 hours. 🥣 Push the cubed cheese all the way to the edges of the pan (this creates the famous charred crust). 🔥 Bake at 500°F (260°C) for 12-15 mins. ⏲️ After baking, ladle two thick 'racing stripes' of hot tomato sauce over the cheese. 🍳 Depan carefully and serve.
+
+#detroitstylepizza #pizza #deepdish #cheese #crispy #dinner #pizzalover #detroit 🌮🍱
+```
+
+ID: 108
+Caption:
+```
+🌮 Baja-Style Crispy Fish Tacos 🌮
+
+Recipe: 
+Ingredients: 🐟 1 lb white fish (cod/mahi), 🍺 1 cup beer batter, 🫓 corn tortillas, 2 cups shredded cabbage, 1/2 cup chipotle crema, 🍋 and fresh lime. 
+Steps: 👨‍🍳 Dip fish strips in a light beer batter and fry until golden and airy. 🥣 Char the corn tortillas over a gas flame. 🔥 Place fish in the tortilla, top with a heap of crunchy cabbage, and a heavy drizzle of smoky chipotle crema. ⏲️ Serve with plenty of lime wedges and a side of pickled onions.
+
+#fishtacos #tacos #mexicanfood #healthy #seafood #dinner #fresh #baja 🌮🍱
+```
+
+ID: 109
+Caption:
+```
+🧀 Ultra-Creamy Baked Mac & Cheese 🧀
+
+Recipe: 
+Ingredients: 🍪 1 lb elbow macaroni, 🧈 1/2 cup butter, 🌾 1/2 cup flour, 🥛 4 cups whole milk, 🧀 4 cups shredded sharp cheddar, 🧀 1 cup mozzarella, 🥃 and 1/2 cup Panko breadcrumbs. 
+Steps: 👨‍🍳 Make a roux with butter and flour; whisk in milk until thick. 🥣 Stir in 3 cups of cheese until a smooth sauce forms. 🔥 Toss with cooked pasta. ⏲️ Pour into a baking dish and top with remaining cheese and Panko. 🍳 Bake at 375°F (190°C) for 20-25 mins until the top is golden and the edges are bubbling with molten cheese.
+
+#macandcheese #cheese #comfortfood #dinner #cheesypull #kidsfavorite #pasta #bakedmac 🌮🍱
+```
+
+ID: 110
+Caption:
+```
+🥖 Saigon Street Banh Mi 🥖
+
+Recipe: 
+Ingredients: 1 crispy baguette, 🐷 2 tbsp pork pâté, 2 tbsp mayo, 🐷 sliced grilled pork, 🥒 pickled daikon and 🥕 carrots, 🌿 fresh cilantro, jalapeño slices, 🧪 and a dash of Maggi seasoning. 
+Steps: 👨‍🍳 Toast the baguette until the outside is shattering-crisp. 🥣 Spread pâté on one side and mayo on the other. 🔥 Layer in the grilled pork. ⏲️ Add a generous amount of tangy pickled veggies to cut the fat. 🍳 Top with whole cilantro sprigs and jalapeños. 🔪 Finish with a few drops of Maggi seasoning for that authentic savory kick.
+
+#banhmi #vietnamesefood #sandwich #streetfood #healthy #lunch #asianfood #vietnamese 🌮🍱
+```
+
+ID: 111
+Caption:
+```
+⬜ Fiery Sichuan Mapo Tofu 🥘
+
+Recipe: 
+Ingredients: ⬜ 1 block soft tofu (cubed), 🐷 1/4 lb ground pork, 2 tbsp Doubanjiang (spicy bean paste), 🧂 1 tsp Sichuan peppercorns (ground), 🍗 1 cup chicken broth, 🫚 and ginger/garlic. 
+Steps: 👨‍🍳 Sauté pork with minced ginger and garlic. 🥣 Add Doubanjiang and cook until the oil turns red. 🔥 Pour in broth and bring to a simmer. ⏲️ Gently slide in tofu cubes. 🍳 Simmer for 5 mins. 🔪 Thicken with a cornstarch slurry. 🥧 Finish with a heavy dusting of toasted Sichuan peppercorn powder and plenty of green onions. 🧺 Serve with rice.
+
+#mapotofu #sichuanfood #spicy #tofu #asiancuisine #dinner #spicyfood #chinesefood 🌮🍱
+```
+
+ID: 112
+Caption:
+```
+🍩 New Orleans Cafe Du Monde Style Beignets 🍩
+
+Recipe: 
+Ingredients: 1 cup warm water, 🍬 1/4 cup sugar, 🧂 1/2 tsp salt, 🥚 1 egg, 🧈 2 tbsp butter, 🌾 3.5 cups flour, 🍞 1 tbsp yeast, 🍬 and 2 cups powdered sugar for dusting. 
+Steps: 👨‍🍳 Mix dough and let rise for 2 hours. 🥣 Roll out to 1/4 inch thickness and cut into 2-inch squares. 🔥 Deep fry in 360°F oil. ⏲️ They will puff up like pillows; flip once. 🍳 Drain briefly on paper towels. 🔪 While piping hot, toss in a paper bag with a massive amount of powdered sugar until completely white. 🥧 Serve with cafe au lait.
+
+#beignets #neworleans #dessert #sweet #pastry #breakfast #cafeaulait #nola 🌮🍱
+```
+
+ID: 113
+Caption:
+```
+🌽 Pabellon Stuffed Corn Arepas 🫓
+
+Recipe: 
+Ingredients: 🌽 2 cups pre-cooked cornmeal (P.A.N.), 2.5 cups water, 🧂 1 tsp salt. Filling: Shredded beef, black beans, 🍌 fried plantains, 🧀 and salty white cheese. 
+Steps: 👨‍🍳 Mix cornmeal, water, and salt; let sit for 5 mins. 🥣 Form into thick discs. 🔥 Grill on each side for 5 mins, then bake at 350°F for 10 mins until they sound hollow when tapped. ⏲️ Split open but leave a hinge. 🍳 Stuff with hot shredded beef, seasoned beans, sweet plantains, and a heavy sprinkle of cheese.
+
+#arepa #venezuelanfood #streetfood #glutenfree #dinner #corn #healthy #latinfood 🌮🍱
+```
+
+ID: 114
+Caption:
+```
+🥩 Authentic Philly Cheesesteak 🥖
+
+Recipe: 
+Ingredients: 🥩 1/2 lb thinly shaved ribeye, 🥖 1 long hoagie roll (Amoroso), 🧅 1/2 onion (diced), 🧀 2 oz Cheez Whiz (or provolone), and 🫒 oil. 
+Steps: 👨‍🍳 Sauté onions until caramelized. 🥣 On a very hot griddle, sear the shaved steak, chopping it with a spatula. 🔥 Mix in the onions. ⏲️ Top with a generous amount of Cheez Whiz until molten. 🍳 Place the split roll over the meat to steam, then scoop everything up into the sandwich.
+
+#phillycheesesteak #cheesesteak #sandwich #philadelphia #lunch #comfortfood #cheese #steak 🌮🍱
+```
+
+ID: 115
+Caption:
+```
+🍖 Fall-Off-The-Bone BBQ Pork Ribs 🐷
+
+Recipe: 
+Ingredients: 🍖 1 rack baby back ribs, 🍬 1/4 cup dry rub (brown sugar, 🌶️ paprika, 🧄 garlic, 🧅 onion), 🍅 1 cup hickory BBQ sauce, 🍎 1/2 cup apple juice (for spritzing). 
+Steps: 👨‍🍳 Remove the membrane from the back of the ribs. 🥣 Apply dry rub generously. 🔥 Bake or smoke at 275°F (135°C) for 3 hours, spritzing with apple juice every 45 mins. ⏲️ Wrap in foil with a bit of butter and sauce for 1 hour. 🍳 Unwrap, brush with more sauce, and grill for 10 mins to caramelize the glaze.
+
+#bbqribs #porkribs #grilling #barbecue #meat #dinner #sticky #ribs 🌮🍱
+```
+
+ID: 116
+Caption:
+```
+🪵 Crispy Cinnamon Sugar Street Churros 🍬
+
+Recipe: 
+Ingredients: 1 cup water, 🍬 2 tbsp sugar, 🧂 1/2 tsp salt, 🫒 2 tbsp oil, 🍬 1 cup flour. Coating: 1/2 cup sugar, 🪵 1 tsp cinnamon. Dip: 4oz dark chocolate, 1/2 cup heavy cream. 
+Steps: 👨‍🍳 Bring water, sugar, salt, and oil to a boil. 🥣 Remove from heat and stir in flour until a ball forms. 🔥 Let cool slightly, then pipe through a star tip into 375°F oil. ⏲️ Fry for 2 mins per side until deep golden. 🍳 Roll immediately in cinnamon sugar. 🔪 For the dip: pour hot cream over chocolate and stir until smooth.
+
+#churros #dessert #streetfood #sweet #mexicanfood #snack #chocolate #cinnamon 🌮🍱
+```
+
+ID: 117
+Caption:
+```
+🥩 Rich & Comforting Japanese Beef Curry 🍛
+
+Recipe: 
+Ingredients: 🥩 1/2 lb beef chuck, 🥔 2 potatoes, 🥕 1 carrot, 🧅 1 onion, 4 cups water, 🍛 and 1 box Japanese curry roux (e.g., Vermont or S&B). 
+Steps: 👨‍🍳 Sauté meat and onions until browned. 🥣 Add potatoes and carrots. 🔥 Add water and simmer for 20-30 mins until tender. ⏲️ Turn off the heat and stir in the curry roux blocks until fully dissolved. 🍳 Simmer on low for 5 more minutes until the sauce is thick and glossy. 🔪 Serve over a large mound of steamed short-grain white rice.
+
+#japanesecurry #curry #comfortfood #dinner #healthy #asianfood #ricebowl #curryrice 🌮🍱
+```
+
+ID: 118
+Caption:
+```
+✨ Fluffy Steamed Char Siu Bao ✨
+
+Recipe: 
+Ingredients: 🥨 Bao dough (flour, 🍞 yeast, 🍬 sugar, 🐷 water). Filling: 1 cup diced BBQ pork, 🍅 1 tbsp oyster sauce, 1 tsp hoisin, 🫚 1 tsp minced ginger. 
+Steps: 👨‍🍳 Sauté the pork with the sauces and ginger until sticky; let cool. 🥣 Flatten dough circles, place a spoonful of pork in the center, and pleat the top to seal. 🔥 Place on parchment squares and steam for 12 minutes. ⏲️ The buns should be snow-white, incredibly fluffy, and burst open slightly at the top to reveal the sweet red pork.
+
+#porkbao #dimsum #chinesefood #asiancuisine #dumplings #steamedbun #snacks #charsiu 🌮🍱
+```
+
+ID: 119
+Caption:
+```
+🍕 NYC-Style Thin Crust Cheese Pizza 🍕
+
+Recipe: 
+Ingredients: 🍕 Homemade dough, 🍅 1/2 cup herb-spiced tomato sauce, 🧀 2 cups low-moisture mozzarella, 🧀 1/4 cup parmesan, and 🫒 olive oil. 
+Steps: 👨‍🍳 Stretch dough extremely thin (about 16 inches). 🥣 Spread a light layer of sauce and a heavy layer of mozzarella. 🔥 Bake at 550°F (290°C) on a pizza stone until the crust is crisp and the cheese is bubbling with golden-brown spots. ⏲️ Slice into large triangles that can be folded.
+
+#pizza #cheesepizza #nycpizza #pizzatime #dinner #foodie #pizzalover #homemadepizza 🌮🍱
+```
+
+ID: 120
+Caption:
+```
+🧇 Authentic Belgian Liege Waffle 🧇
+
+Recipe: 
+Ingredients: 🌾 2 cups flour, 🍞 1 tbsp yeast, 🥛 1/2 cup milk, 🥚 2 eggs, 🧈 1 cup softened butter, 🍬 1 cup pearl sugar, and 🍦 1 tsp vanilla. 
+Steps: 👨‍🍳 Prepare a thick yeast dough and let rise. 🥣 Knead in the pearl sugar (this is the secret!). 🔥 Scoop balls of dough into a hot waffle iron. ⏲️ The pearl sugar will caramelize on the outside, creating a crunchy, sweet shell. 🍳 Serve warm without syrup; they are perfect on their own.
+
+#liegewaffle #waffle #belgianwaffle #breakfast #brunch #sweet #belgian #pearlsugar 🌮🍱
+```
+
+ID: 121
+Caption:
+```
+🍗 Korean Fried Chicken Sandwich 🥪
+
+Recipe: 
+Ingredients: 🍗 1 double-fried chicken thigh, 🍞 brioche bun, 🥬 pickled daikon slaw, 🧪 spicy gochujang mayo, and 🥒 pickles. 
+Steps: 👨‍🍳 Double-fry the chicken until shattering-crisp. 🥣 Toss in a soy garlic or sweet-spicy glaze. 🔥 Spread gochujang mayo on the toasted bun. ⏲️ Add a thick stack of pickles and the crunchy slaw. 🍳 Top with the glazed chicken and close the sandwich.
+
+#koreanfriedchicken #chickensandwich #friedchicken #spicy #asianfood #crispy #kfc #burger 🌮🍱
+```
+
+ID: 122
+Caption:
+```
+🥐 Traditional Greek Spanakopita 🥬
+
+Recipe: 
+Ingredients: 🥐 1 pack phyllo pastry, 🥬 1 lb fresh spinach (wilted and drained), 🧀 1 cup feta cheese, 🥚 2 eggs, 🌿 1/4 cup fresh dill, 🧅 2 scallions, and 🧈 1/2 cup melted butter. 
+Steps: 👨‍🍳 Mix spinach, feta, eggs, and herbs. 🥣 Layer sheets of phyllo, brushing each with butter. 🔥 Place the spinach filling in the center and fold into a large coil or individual triangles. ⏲️ Bake at 375°F (190°C) for 35-40 mins until the pastry is deep golden and incredibly flaky.
+
+#spanakopita #greekfood #spinachpie #vegetarian #healthy #mediterranean #appetizer #flaky 🌮🍱
+```
+
+ID: 123
+Caption:
+```
+🍗 Creamy Chicken Tikka Masala 🍛
+
+Recipe: 
+Ingredients: 🍗 1 lb chicken tikka (yogurt-marinated and grilled), 🍅 2 cups tomato puree, 🥛 1/2 cup heavy cream, 🧈 2 tbsp butter, 🧄 1 tbsp ginger-garlic paste, 🥄 garam masala, and 🌿 cilantro. 
+Steps: 👨‍🍳 Sauté aromatics in butter. 🥣 Add tomatoes and spices; simmer until rich. 🔥 Stir in the cream to create the signature orange sauce. ⏲️ Add the grilled chicken pieces and simmer for 10 mins. 🍳 Garnish with cream and cilantro; serve with garlic naan.
+
+#chickentikkamasala #indianfood #curry #dinner #chicken #spicy #asiancuisine #comfortfood 🌮🍱
+```
+
+ID: 124
+Caption:
+```
+🍔 Oklahoma Onion Burger 🧅
+
+Recipe: 
+Ingredients: 🥩 1/4 lb ground beef ball, 🧅 1 large onion (sliced paper-thin), 🧀 1 slice American cheese, 🍞 1 soft white bun, and 🥒 pickles. 
+Steps: 👨‍🍳 Place the beef ball on a hot griddle and top with a massive pile of onions. 🥣 Smash the onions into the meat with a heavy spatula. 🔥 Sear until the onions are charred and the meat has a deep crust. ⏲️ Flip and top with cheese. 🍳 Place the bun over the meat to steam. 🔪 Serve with pickles and mustard.
+
+#onionburger #oklahomaburger #burger #smashburger #onion #grilling #dinner #foodporn 🌮🍱
+```
+
+ID: 125
+Caption:
+```
+🦆 Crispy Peking Duck 🦆
+
+Recipe: 
+Ingredients: 🦆 1 whole duck, 🍯 maltose syrup/honey glaze, 🫓 thin pancakes, 🥒 cucumber strips, 🧅 scallion brushes, and 🥣 hoisin sauce. 
+Steps: 👨‍🍳 Air-dry the duck for 24 hours. 🥣 Glaze with syrup and roast at 400°F until the skin is like mahogany glass. 🔥 Carve the skin and meat into thin slices. ⏲️ Serve with warm pancakes; spread hoisin, add duck, cucumber, and scallions, and roll it up.
+
+#pekingduck #chinesefood #crispyduck #dinner #finedining #asiancuisine #gourmet #duck 🌮🍱
 ```
 

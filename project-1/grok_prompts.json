@@ -35,7 +35,9 @@
       "post_url": "https://grok.com/imagine/post/72585091-da45-4b6a-a034-895f494094d8",
       "executed_at": "2026-05-01T22:42:07.032092",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ]
     },
     {
       "id": 4,
