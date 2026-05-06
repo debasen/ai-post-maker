@@ -959,67 +959,105 @@
     {
       "id": 103,
       "prompt": "An ultra-realistic highly detailed fresh poke bowl with cubed ahi tuna, glistening in sesame soy marinade, on seasoned sushi rice, topped with edamame, avocado slices, crispy wonton strips, and furikake. Bright Hawaiian cafe lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/bc2b19d3-6259-458e-9dcc-9624524eb4d4/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/bc2b19d3-6259-458e-9dcc-9624524eb4d4",
+      "executed_at": "2026-05-06T19:26:14.595206"
     },
     {
       "id": 104,
       "prompt": "An ultra-realistic highly detailed sizzling skillet of shakshuka. Bright red tomato and pepper sauce bubbling around three poached eggs, crumbled white feta, fresh parsley, served with torn crusty bread. North African market lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/24db3d06-b363-49cd-8da5-7107ed328db0/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/24db3d06-b363-49cd-8da5-7107ed328db0",
+      "executed_at": "2026-05-06T19:29:21.911669"
     },
     {
       "id": 105,
       "prompt": "An ultra-realistic highly detailed golden crème brûlée ramekin. Silky vanilla custard topped with a perfectly caramelized amber sugar crust just shattered by a spoon, cream rising through the crack. Elegant patisserie lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/340e30a1-1f96-4158-bfd7-b7610b630921/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/340e30a1-1f96-4158-bfd7-b7610b630921",
+      "executed_at": "2026-05-06T19:33:37.515452"
     },
     {
       "id": 106,
       "prompt": "An ultra-realistic highly detailed plate of golden saffron risotto Milanese. Creamy, flowing Arborio rice with vibrant yellow color from saffron, topped with a golden shower of parmesan and black pepper. Rustic Milanese trattoria lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/61a3fef6-1201-4127-8d88-9c5a015f9997/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/61a3fef6-1201-4127-8d88-9c5a015f9997",
+      "executed_at": "2026-05-06T19:37:04.596917"
     },
     {
       "id": 107,
       "prompt": "An ultra-realistic highly detailed Detroit-style square pizza fresh from a blue steel pan. Crispy, caramelized cheese-crust edges, two thick stripes of chunky tomato sauce over thick mozzarella, airy thick dough. Michigan pizzeria lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/738c6420-beb5-4b7f-b078-58a552c72b9e/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/738c6420-beb5-4b7f-b078-58a552c72b9e",
+      "executed_at": "2026-05-06T19:40:37.745402"
     },
     {
       "id": 108,
       "prompt": "An ultra-realistic highly detailed crispy Baja-style fish tacos on warm corn tortillas. Beer-battered cod fillets, shredded purple cabbage, chipotle crema drizzle, fresh lime wedges, and pickled onions. Coastal taqueria lighting, action shot. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-06T20:01:05.876508"
     },
     {
       "id": 109,
       "prompt": "An ultra-realistic highly detailed gooey baked mac and cheese in a cast iron skillet. Bubbling golden Panko crust with crispy edges, molten cheddar oozing through, thick creamy sauce visible where a spoon has been pulled through. Comfort food lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-06T20:01:20.871921"
     },
     {
       "id": 110,
       "prompt": "An ultra-realistic highly detailed fresh saigon-style banh mi sandwich split open. Shattering-crisp baguette, layers of pork pate and grilled char siu, pickled daikon and carrots, fresh cilantro, sliced jalapeños. Vietnamese street market lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-06T20:01:26.362989"
     },
     {
       "id": 111,
       "prompt": "An ultra-realistic highly detailed bowl of fiery Sichuan mapo tofu. Silky white tofu cubes trembling in a brick-red spicy Doubanjiang sauce, glistening with chili oil, topped with ground pork and green onions. Sichuan restaurant lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-06T20:01:51.606303"
     },
     {
       "id": 112,
       "prompt": "An ultra-realistic highly detailed plate of fluffy New Orleans beignets dusted in a thick blizzard of powdered sugar. Three pillowy fried dough squares, golden inside, with a cafe au lait in the background. French Quarter cafe lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-06T20:01:57.085216"
     },
     {
       "id": 113,
       "prompt": "An ultra-realistic highly detailed Venezuelan corn arepa split open and stuffed. Griddle-charred masa disc, crammed with shredded black pork, black beans, sweet fried plantains, and salty white cheese crumbles. Caracas street food lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-06T20:03:41.566867"
     },
     {
       "id": 114,
       "prompt": "An ultra-realistic highly detailed Philly cheesesteak on a long Amoroso roll. Thinly shaved ribeye, caramelized onions and peppers, smothered in melted Cheez Whiz, juices soaking into the soft bread. South Philadelphia sandwich shop lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-06T20:03:47.084423"
     },
     {
       "id": 115,
       "prompt": "An ultra-realistic highly detailed glorious full rack of St. Louis style BBQ pork ribs. Deep mahogany lacquered glaze, smoke ring visible on sliced rib, fat glistening, meat barely clinging to the bone. Smokehouse pitmaster lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "image_failed",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-06T20:16:24.091531"
     },
     {
       "id": 116,
