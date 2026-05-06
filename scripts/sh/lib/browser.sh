@@ -158,6 +158,40 @@ bos_click_by_snap_pattern() {
     bos_click "$ref"
 }
 
+bos_get_first_link_ref() {
+    if [ "${DRY_RUN:-0}" = "1" ]; then
+        return 1
+    fi
+    local snap_output
+    snap_output=$(bos_snap)
+    if [ $? -ne 0 ]; then
+        return 1
+    fi
+    local snapshot_text
+    snapshot_text=$(echo "$snap_output" | jq -r '.snapshot // empty' 2>/dev/null)
+    if [ -z "$snapshot_text" ]; then
+        return 1
+    fi
+    local ref
+    ref=$(echo "$snapshot_text" | grep -E '^\[[0-9]+\][[:space:]]+link[[:space:]]+' | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+    if [ -n "$ref" ]; then
+        echo "$ref"
+        return 0
+    fi
+    return 1
+}
+
+bos_click_first_link() {
+    local ref
+    ref=$(bos_get_first_link_ref)
+    if [ $? -ne 0 ] || [ -z "$ref" ]; then
+        log WARN "Could not find first link element in snapshot"
+        return 1
+    fi
+    log INFO "Clicking first link element [ref: $ref]"
+    bos_click "$ref"
+}
+
 bos_fill() {
     local ref="$1"
     local text="$2"

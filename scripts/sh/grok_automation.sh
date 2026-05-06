@@ -205,20 +205,30 @@ phase_3_image_generation() {
 phase_4_video_generation() {
     log_section "Phase 4: Video Generation"
 
-    log INFO "Finding generated image..."
-    local img_info
-    img_info=$(bos_find_element "$SELECTOR_IMAGE" 30)
-    if [ $? -ne 0 ]; then
-        log FATAL "Could not find generated image"
+    log INFO "Opening image detail page..."
+
+    # Primary Method: Use snapshot to find and click the first link element
+    log INFO "Trying snapshot method to find first image link..."
+    if retry_with_backoff "bos_click_first_link" 3 2; then
+        log INFO "Clicked first link from snapshot"
+        _dry_run_sleep 2
+    else
+        # Fallback Method: Click the generated image coordinates
+        log WARN "Snapshot link method failed, falling back to image coordinates..."
+        local img_info
+        img_info=$(bos_find_element "$SELECTOR_IMAGE" 30)
+        if [ $? -ne 0 ]; then
+            log FATAL "Could not find generated image"
+        fi
+
+        local img_x img_y
+        img_x=$(echo "$img_info" | jq -r '.x')
+        img_y=$(echo "$img_info" | jq -r '.y')
+
+        log INFO "Clicking on generated image at ($img_x, $img_y)..."
+        bos_click_at "$img_x" "$img_y"
+        _dry_run_sleep 2
     fi
-
-    local img_x img_y
-    img_x=$(echo "$img_info" | jq -r '.x')
-    img_y=$(echo "$img_info" | jq -r '.y')
-
-    log INFO "Clicking on generated image at ($img_x, $img_y)..."
-    bos_click_at "$img_x" "$img_y"
-    _dry_run_sleep 2
 
     log INFO "Looking for Make video button..."
     local mv_info

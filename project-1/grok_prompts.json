@@ -1062,7 +1062,10 @@
     {
       "id": 116,
       "prompt": "An ultra-realistic highly detailed hand-rolled cinnamon sugar Mexican street churros in a paper cone. Long ridged golden fried dough sticks dusted in cinnamon sugar, served with a thick dark chocolate dipping sauce. Night carnival lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-06T20:31:50.162017"
     },
     {
       "id": 117,
