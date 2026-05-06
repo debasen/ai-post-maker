@@ -910,32 +910,51 @@
     {
       "id": 97,
       "prompt": "An ultra-realistic highly detailed perfectly seared duck breast being sliced. Crispy, scored golden skin giving way to pink, juicy meat, with a rich cherry gastrique pooling on the plate. fine dining lighting, elegant. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "",
+      "post_url": "",
+      "executed_at": "2026-05-05T21:55:15.387535"
     },
     {
       "id": 98,
       "prompt": "An ultra-realistic highly detailed hand-held tornado potato on a stick. Spiral-cut crispy fried potato, coated in tangy cheese powder and bright orange chili seasoning. Korean street food lighting, crunchy textures. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/3fb4f3e5-af6b-4a0d-9d87-ce962373ef5b/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/3fb4f3e5-af6b-4a0d-9d87-ce962373ef5b",
+      "executed_at": "2026-05-05T23:20:34.124920",
+      "asset": "mapped"
     },
     {
       "id": 99,
       "prompt": "An ultra-realistic highly detailed freshly baked peach cobbler with a golden, buttery biscuit crust. Juicy, bubbling peach filling oozing through cracks, topped with melting vanilla ice cream. Southern porch lighting, cozy. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/db92f772-4780-4296-821d-f540286de71e/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/db92f772-4780-4296-821d-f540286de71e",
+      "executed_at": "2026-05-05T23:27:21.801183"
     },
     {
       "id": 100,
       "prompt": "An ultra-realistic highly detailed hand-held bacon cheeseburger with two smash patties. Crispy bacon strips, melted American cheese, secret sauce dripping, pickles, on a toasted potato bun. American diner lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/a9420ea6-345b-4cb0-8e6c-8d760ce29951/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/a9420ea6-345b-4cb0-8e6c-8d760ce29951",
+      "executed_at": "2026-05-05T23:34:11.278514"
     },
     {
       "id": 101,
       "prompt": "An ultra-realistic highly detailed steaming bowl of Japanese miso ramen with rich pork broth, bouncy noodles, a perfectly charred corn cob half, bamboo shoots, and a bright orange seasoned soft egg. Cozy izakaya lighting, steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/d0d1dd57-7c2f-493d-ac00-aca8bebb9cb1/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/d0d1dd57-7c2f-493d-ac00-aca8bebb9cb1",
+      "executed_at": "2026-05-05T23:40:36.313213"
     },
     {
       "id": 102,
       "prompt": "An ultra-realistic highly detailed hand-held New York deli pastrami sandwich on thick marble rye. Towering pink-red steamed pastrami slices glistening with fat, smear of spicy brown mustard, sour pickle spear on the side. Deli counter lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/f4db3868-a130-4cab-a877-02dd079e048e/generated_video.mp4?cache=1",
+      "post_url": "https://grok.com/imagine/post/f4db3868-a130-4cab-a877-02dd079e048e",
+      "executed_at": "2026-05-06T10:06:18.109034"
     },
     {
       "id": 103,
