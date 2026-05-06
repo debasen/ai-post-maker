@@ -253,7 +253,7 @@ phase_5_monitoring() {
     log_section "Phase 5: Monitoring & Validation"
 
     local poll_interval=20
-    local max_wait=600
+    local max_wait=150
     local elapsed=0
 
     log INFO "Polling for video completion (max ${max_wait}s)..."
@@ -262,13 +262,16 @@ phase_5_monitoring() {
         local page_text
         page_text=$(bos_text)
 
-        if echo "$page_text" | grep -qi "download"; then
-            log INFO "Video ready (Download button detected)"
+        local snapshot_text
+        snapshot_text=$(bos_snap)
+
+        if echo "$snapshot_text" | grep -q "Redo video"; then
+            log INFO "Video ready (Redo video button detected)"
             break
         fi
 
-        if echo "$page_text" | grep -qi "thumbnail"; then
-            log INFO "Video ready (Thumbnail button detected)"
+        if echo "$snapshot_text" | grep "Download" | grep -qv "(disabled)"; then
+            log INFO "Video ready (Download button enabled)"
             break
         fi
 
@@ -282,7 +285,7 @@ phase_5_monitoring() {
             fi
         fi
 
-        if echo "$page_text" | grep -qi "warning"; then
+        if echo "$snapshot_text" | grep -qi "warning"; then
             log WARN "Video generation warning detected"
             local post_url
             post_url=$(bos_get_page_url)
