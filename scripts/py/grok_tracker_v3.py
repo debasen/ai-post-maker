@@ -205,8 +205,8 @@ if __name__ == "__main__":
         sys.exit(1)
 
     project_id = args[1]
-    if project_id not in ("1", "2", "3"):
-        print(json.dumps({"error": f"Invalid project '{project_id}'. Must be 1, 2, or 3."}))
+    if project_id not in ("1", "2", "3", "4"):
+        print(json.dumps({"error": f"Invalid project '{project_id}'. Must be 1, 2, 3, or 4."}))
         sys.exit(1)
 
     file_path = get_project_path(project_id)

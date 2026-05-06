@@ -1,6 +1,6 @@
 {
   "config": {
-    "thumbnail_id": "88deec98-d2aa-4212-afa9-d5c7a5954b2a",
+    "thumbnail_id": "a0b200e0-dd43-424e-a758-824608bc16c8",
     "video_type": null
   },
   "prompts": [
@@ -203,62 +203,92 @@
       "id": 20,
       "prompt": "Imagine the exact model in a 1920s speakeasy. Wearing a gold fringe micro bikini and a long pearl necklace. Looking at the camera with a mysterious, flirty gaze. Smoky, dim atmosphere. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Roaring and ready. 🥂✨ #model #fashionmodel #hot #spicy #1920sfashion #speakeasy #vintageglam #goldfringe",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/b864a622-6f00-46d1-aedb-20725a1a9f8c",
+      "post_url": "https://grok.com/imagine/post/8f01e147-2557-4299-a16d-25a17b0ea75b",
+      "executed_at": "2026-05-06T12:45:21.741783"
     },
     {
       "id": 21,
       "prompt": "Imagine the exact model in a rustic barn. Wearing a denim jacket over a red plaid bikini. Looking at the camera with a warm, country-chic smile. Golden light through wood slats. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She hitches the jacket off one shoulder and laughs. Slight camera zoom. Maintain correct movement and physics.",
       "instagram_caption": "Barnyard beauty. 🚜❤️ #model #fashionmodel #hot #spicy #countrygirl #barnphotography #chicstyle #summerlook",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/806c052c-5fc2-435d-a6eb-8338277824e4",
+      "post_url": "https://grok.com/imagine/post/19ba4d2f-79c9-428b-97e6-ca02011f1942",
+      "executed_at": "2026-05-06T12:53:04.521608"
     },
     {
       "id": 22,
       "prompt": "Imagine the exact model on an NYC rooftop at sunset. Wearing a black leather micro bikini. Looking at the camera with a sharp, dominant expression. Skyline in background. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Concrete jungle queen. 🏙️🖤 #model #fashionmodel #hot #spicy #nycrooftop #citylights #leatherbikini #urbanedge",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/a285243d-75f7-43e6-983b-ebf8a64077c4",
+      "post_url": "https://grok.com/imagine/post/a74489f1-a6a6-497f-abc1-977720f26f13",
+      "executed_at": "2026-05-06T12:56:24.239341"
     },
     {
       "id": 23,
       "prompt": "Imagine the exact model in a field of red tulips. Wearing a white lace micro bikini. Looking at the camera with a soft, innocent expression. Bright daylight. Wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Spring in her step. 🌷🤍 #model #fashionmodel #hot #spicy #tulipfield #springvibes #naturalbeauty #whitelace",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/21795962-ceff-4b99-a751-e2969da265cf",
+      "post_url": "https://grok.com/imagine/post/34b0e2df-8776-443b-a8e1-9634383d952b",
+      "executed_at": "2026-05-06T13:23:40.349941"
     },
     {
       "id": 24,
       "prompt": "Imagine the exact model in a high-end designer shoe closet. Wearing a silk slip over a black micro bikini. Looking at the camera while holding a crystal flute of wine. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Best of both worlds. 👠🥂 #model #fashionmodel #hot #spicy #luxurycloset #shoelover #glamourlook #finewine",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/8dfda8e0-da0d-4464-b66a-715c1ed3741c",
+      "post_url": "https://grok.com/imagine/post/f520f80b-1b59-4f5e-a545-5b5116e63652",
+      "executed_at": "2026-05-06T17:05:23.261112"
     },
     {
       "id": 25,
       "prompt": "Imagine the exact model in a professional recording booth. Wearing an oversized hoodie open over a silver micro bikini. Looking at the camera through the microphone with an intense, focused gaze. Blue studio light. Medium close-up, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "The beat goes on. 🎙️✨ #model #fashionmodel #hot #spicy #studiolife #musicproduction #silverstyle #vocalist",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/623cdafc-68fa-4e14-bb75-56c7b61792df",
+      "post_url": "https://grok.com/imagine/post/2529523d-ddb1-408c-9f1d-aefb7995e736",
+      "executed_at": "2026-05-06T17:12:01.896695"
     },
     {
       "id": 26,
       "prompt": "Imagine the exact model on a Venetian gondola at dusk. Wearing a red lace bodysuit. Looking at the camera with a romantic, mysterious expression. Ancient buildings in background. Medium shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Venetian secrets. 🛶❤️ #model #fashionmodel #hot #spicy #veniceitaly #gondolaride #travelgram #romanticnight",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/59c18bae-4ca4-42bb-aed8-5a4fe12d7d8d",
+      "post_url": "https://grok.com/imagine/post/fc8d9024-f42d-4ee7-8ec9-164d6d2208ab",
+      "executed_at": "2026-05-06T17:18:41.088947"
     },
     {
       "id": 27,
       "prompt": "Imagine the exact model in a futuristic mirror maze. Wearing a holographic micro bikini. Looking at the camera while surrounded by her reflections. Vibrant laser lights. Full body shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Reflection of perfection. 🪞✨ #model #fashionmodel #hot #spicy #mirrormaze #futuristic #neonvibe #scifistyle",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/73198a2e-590e-4cd2-a340-9ab58c55fc0a",
+      "post_url": "https://grok.com/imagine/post/a0e4dace-743f-404b-8356-323487234728",
+      "executed_at": "2026-05-06T17:25:58.034203"
     },
     {
       "id": 28,
       "prompt": "Imagine the exact model in a luxury stable. Wearing a brown leather jacket over a white bikini. Looking at the camera with a soft, equestrian-chic gaze. Standing next to a white horse. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Wild and free. 🐎🤎 #model #fashionmodel #hot #spicy #equestrianstyle #stablelife #naturebeauty #chicvibe",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/aabdb04e-3156-49b5-8bb2-3fbc2bf52401",
+      "post_url": "https://grok.com/imagine/post/f578c500-7cc8-49b0-9304-5e312c992887",
+      "executed_at": "2026-05-06T17:32:39.044618"
     },
     {
       "id": 29,
       "prompt": "Imagine the exact model in a high-end sushi bar. Wearing a black latex micro bikini beneath a sheer organza kimono. Looking at the camera with a playful, curious expression. Neon sign reflection in the background. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Late night cravings. 🍣✨ #model #fashionmodel #hot #spicy #sushitime #tokyonight #latexfashion #urbanvibes",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/346f9768-cda1-4cbc-b64d-122561e6ab33",
+      "post_url": "https://grok.com/imagine/post/6f4dd046-fcec-4633-837b-aed929e47428",
+      "executed_at": "2026-05-06T17:39:16.959197"
     },
     {
       "id": 30,
