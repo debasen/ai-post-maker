@@ -252,7 +252,7 @@ phase_4_video_generation() {
 phase_5_monitoring() {
     log_section "Phase 5: Monitoring & Validation"
 
-    local poll_interval=20
+    local poll_interval=10
     local max_wait=150
     local elapsed=0
 
