@@ -1498,3 +1498,603 @@ Steps: 👨‍🍳 Air-dry the duck for 24 hours. 🥣 Glaze with syrup and roas
 #pekingduck #chinesefood #crispyduck #dinner #finedining #asiancuisine #gourmet #duck 🌮🍱
 ```
 
+ID: 126
+Caption:
+```
+🍗 Crispy Chicken Parmesan 🍗
+
+Recipe: 
+Ingredients: 🍗 2 chicken breasts, 🌾 1 cup breadcrumbs, 🍅 1 cup marinara, 🧀 1 cup mozzarella. 
+Steps: 👨‍🍳 Bread the chicken and fry until golden. 🥣 Top with marinara and cheese. 🔥 Bake at 400°F until cheese is bubbly and golden.
+
+#chickenparm #italianfood #dinner #comfortfood 🌮🍱
+```
+
+ID: 127
+Caption:
+```
+🥩 Classic Beef Wellington 🥩
+
+Recipe: 
+Ingredients: 🥩 1 beef tenderloin, 🍄 2 cups finely chopped mushrooms, 🥐 1 sheet puff pastry, 🍖 prosciutto slices. 
+Steps: 👨‍🍳 Sear the beef tenderloin. 🥣 Spread duxelles over prosciutto and wrap the beef. 🔥 Wrap in puff pastry. ⏲️ Bake at 400°F until pastry is golden.
+
+#beefwellington #gourmet #dinner #finedining 🌮🍱
+```
+
+ID: 128
+Caption:
+```
+🌮 Slow-Cooked Tacos Birria 🌮
+
+Recipe: 
+Ingredients: 🌮 corn tortillas, 🥩 2 lbs beef chuck, 🌶️ dried guajillo chilies, 🧀 1 cup Oaxaca cheese. 
+Steps: 👨‍🍳 Slow cook beef with chilies and spices until tender. 🥣 Shred the beef. 🔥 Dip tortillas in the broth, fill with meat and cheese, and pan-fry until crispy.
+
+#birria #tacos #mexicanfood #streetfood 🌮🍱
+```
+
+ID: 129
+Caption:
+```
+🦐 Garlic Butter Shrimp Scampi 🦐
+
+Recipe: 
+Ingredients: 🦐 1 lb large shrimp, 🧈 4 tbsp butter, 🧄 4 cloves garlic, 🍷 1/2 cup white wine, 🍝 linguine. 
+Steps: 👨‍🍳 Cook linguine. 🥣 Sauté garlic in butter, add shrimp and cook until pink. 🔥 Pour in wine and simmer. ⏲️ Toss with pasta and parsley.
+
+#shrimp #scampi #seafood #pasta #italian 🌮🍱
+```
+
+ID: 130
+Caption:
+```
+🍕 Classic Margherita Pizza 🍕
+
+Recipe: 
+Ingredients: 🍕 pizza dough, 🍅 1/2 cup San Marzano sauce, 🧀 fresh mozzarella, 🌿 fresh basil leaves. 
+Steps: 👨‍🍳 Stretch dough thin. 🥣 Spread sauce, add torn mozzarella and basil. 🔥 Bake at 500°F on a pizza stone until crust is blistered.
+
+#margherita #pizza #italianfood #homemadepizza 🌮🍱
+```
+
+ID: 131
+Caption:
+```
+🍝 Cheesy Baked Ziti 🍝
+
+Recipe: 
+Ingredients: 🍝 1 lb ziti, 🥩 1/2 lb ground beef, 🍅 2 cups marinara, 🧀 1 cup ricotta, 🧀 2 cups mozzarella. 
+Steps: 👨‍🍳 Cook ziti and brown beef. 🥣 Mix pasta, beef, marinara, and ricotta. 🔥 Top with mozzarella and bake until golden and bubbly.
+
+#bakedziti #pasta #italian #comfortfood 🌮🍱
+```
+
+ID: 132
+Caption:
+```
+🍚 Shrimp Fried Rice 🍚
+
+Recipe: 
+Ingredients: 🍚 3 cups day-old cooked rice, 🦐 1/2 lb shrimp, 🥚 2 eggs, 🥕 1/2 cup peas and carrots, 🍅 soy sauce. 
+Steps: 👨‍🍳 Scramble eggs in a hot wok. 🥣 Sauté shrimp and veggies. 🔥 Add rice and soy sauce, tossing continuously over high heat.
+
+#friedrice #asianfood #shrimp #dinner 🌮🍱
+```
+
+ID: 133
+Caption:
+```
+🐟 British Fish and Chips 🐟
+
+Recipe: 
+Ingredients: 🐟 2 large cod fillets, 🍺 1 cup beer, 🌾 1 cup flour, 🥔 4 large potatoes, 🍅 tartar sauce. 
+Steps: 👨‍🍳 Cut potatoes into fries and fry until golden. 🥣 Dip cod in beer batter. 🔥 Deep fry at 375°F until the crust is crispy and golden.
+
+#fishandchips #britishfood #seafood #friedfood 🌮🍱
+```
+
+ID: 134
+Caption:
+```
+🥘 Authentic Seafood Paella 🥘
+
+Recipe: 
+Ingredients: 🥘 1.5 cups bomba rice, 🦐 mixed seafood (shrimp, mussels), 🌶️ chorizo, 🌼 pinch of saffron, 🍅 3 cups broth. 
+Steps: 👨‍🍳 Sauté chorizo and sofrito. 🥣 Add rice, broth, and saffron; do not stir. 🔥 Arrange seafood on top and simmer until rice is tender and a crust (socarrat) forms.
+
+#paella #spanishfood #seafood #rice 🌮🍱
+```
+
+ID: 135
+Caption:
+```
+🍝 Spicy Clam Linguine 🍝
+
+Recipe: 
+Ingredients: 🍝 1 lb linguine, 🐚 2 dozen littleneck clams, 🧄 4 cloves garlic, 🌶️ chili flakes, 🍷 1 cup white wine. 
+Steps: 👨‍🍳 Sauté garlic and chili flakes in olive oil. 🥣 Add clams and wine, cover until clams open. 🔥 Toss with cooked linguine and fresh parsley.
+
+#linguine #clams #seafood #pasta #italian 🌮🍱
+```
+
+ID: 136
+Caption:
+```
+🥣 Rich Lobster Bisque 🥣
+
+Recipe: 
+Ingredients: 🦞 2 lobster tails, 🥛 1 cup heavy cream, 🍷 1/4 cup brandy, 🍅 2 tbsp tomato paste, 🧅 aromatics. 
+Steps: 👨‍🍳 Sauté aromatics and simmer with lobster shells to make broth. 🥣 Strain, add cream, brandy, and tomato paste. 🔥 Simmer until thick, garnish with lobster meat.
+
+#lobster #bisque #soup #gourmet #seafood 🌮🍱
+```
+
+ID: 137
+Caption:
+```
+🥪 Juicy French Dip Sandwich 🥪
+
+Recipe: 
+Ingredients: 🥪 1 baguette, 🥩 1/2 lb deli roast beef, 🧀 4 slices provolone, 🥣 2 cups beef broth. 
+Steps: 👨‍🍳 Warm roast beef in beef broth. 🥣 Toast baguette with provolone until melted. 🔥 Pile beef onto the bread and serve with a bowl of the broth for dipping.
+
+#frenchdip #sandwich #beef #lunch #comfortfood 🌮🍱
+```
+
+ID: 138
+Caption:
+```
+🥟 Steamed Pork Dumplings 🥟
+
+Recipe: 
+Ingredients: 🥟 dumpling wrappers, 🐷 1/2 lb ground pork, 🥬 1/2 cup minced cabbage, 🫚 1 tsp minced ginger. 
+Steps: 👨‍🍳 Mix pork, cabbage, and seasonings. 🥣 Place a spoonful in each wrapper and pleat to seal. 🔥 Steam for 8-10 minutes until cooked through.
+
+#dumplings #chinesefood #dimsum #pork #asiancuisine 🌮🍱
+```
+
+ID: 139
+Caption:
+```
+🍗 Spicy Buffalo Wings 🍗
+
+Recipe: 
+Ingredients: 🍗 2 lbs chicken wings, 🌶️ 1/2 cup hot sauce, 🧈 1/4 cup melted butter, 🥛 blue cheese dressing. 
+Steps: 👨‍🍳 Fry wings at 375°F until crispy. 🥣 Whisk hot sauce and melted butter. 🔥 Toss the hot wings in the sauce until fully coated.
+
+#buffalowings #wings #spicy #snack #gameday 🌮🍱
+```
+
+ID: 140
+Caption:
+```
+🥙 Crispy Falafel Wrap 🥙
+
+Recipe: 
+Ingredients: 🥙 warm pita, 🧆 1 cup dry chickpeas (soaked), 🌿 fresh parsley and cilantro, 🍅 tahini sauce. 
+Steps: 👨‍🍳 Blend soaked chickpeas with herbs and spices. 🥣 Form into balls and deep fry until crispy. 🔥 Wrap in pita with veggies and a heavy drizzle of tahini.
+
+#falafel #middleeasternfood #vegetarian #wrap #healthy 🌮🍱
+```
+
+ID: 141
+Caption:
+```
+🥙 Greek Gyro Sandwich 🥙
+
+Recipe: 
+Ingredients: 🥙 fluffy pita bread, 🥩 1/2 lb gyro meat (lamb/beef), 🥒 1/2 cup tzatziki sauce, 🍅 tomatoes and onions. 
+Steps: 👨‍🍳 Sear gyro meat until crispy edges form. 🥣 Warm the pita. 🔥 Layer meat, veggies, and a generous dollop of tzatziki sauce.
+
+#gyro #greekfood #streetfood #sandwich #lamb 🌮🍱
+```
+
+ID: 142
+Caption:
+```
+🍝 Classic Beef Stroganoff 🍝
+
+Recipe: 
+Ingredients: 🍝 1 lb egg noodles, 🥩 1 lb beef sirloin strips, 🍄 2 cups sliced mushrooms, 🥛 1 cup sour cream. 
+Steps: 👨‍🍳 Sear beef strips quickly and remove. 🥣 Sauté mushrooms and onions, then add broth to make sauce. 🔥 Stir in beef and sour cream, serve over cooked noodles.
+
+#beefstroganoff #comfortfood #pasta #dinner #beef 🌮🍱
+```
+
+ID: 143
+Caption:
+```
+🍆 Provencal Ratatouille 🍆
+
+Recipe: 
+Ingredients: 🍆 1 eggplant, 🥒 2 zucchini, 🍅 4 tomatoes, 🧄 3 cloves garlic, 🌿 fresh thyme. 
+Steps: 👨‍🍳 Slice all vegetables into thin, uniform rounds. 🥣 Spread tomato sauce in a baking dish and arrange veggie slices in an overlapping spiral. 🔥 Bake at 375°F until veggies are tender.
+
+#ratatouille #frenchfood #vegetarian #healthy #vegetables 🌮🍱
+```
+
+ID: 144
+Caption:
+```
+🧀 Classic Swiss Cheese Fondue 🧀
+
+Recipe: 
+Ingredients: 🧀 2 cups grated Gruyère, 🧀 2 cups grated Emmental, 🍷 1 cup dry white wine, 🥖 1 crusty baguette. 
+Steps: 👨‍🍳 Rub a pot with a garlic clove and heat wine. 🥣 Slowly whisk in the cheeses until smooth and melted. 🔥 Keep warm over a flame and dip bread cubes.
+
+#fondue #cheese #swissfood #appetizer #comfortfood 🌮🍱
+```
+
+ID: 145
+Caption:
+```
+🥞 Elegant Crêpes Suzette 🥞
+
+Recipe: 
+Ingredients: 🥞 4 thin crêpes, 🍊 1/2 cup fresh orange juice, 🧈 3 tbsp butter, 🥃 2 tbsp Grand Marnier. 
+Steps: 👨‍🍳 Melt butter and orange juice in a skillet. 🥣 Fold crêpes into quarters and place in the simmering sauce. 🔥 Add Grand Marnier and carefully ignite to flambé.
+
+#crepes #frenchdessert #sweet #dessert #gourmet 🌮🍱
+```
+
+ID: 146
+Caption:
+```
+🍳 Classic Eggs Florentine 🍳
+
+Recipe: 
+Ingredients: 🍞 2 English muffin halves, 🍳 2 poached eggs, 🥬 1 cup sautéed spinach, 🧈 1/4 cup hollandaise sauce. 
+Steps: 👨‍🍳 Poach eggs and toast muffins. 🥣 Sauté spinach with a touch of garlic. 🔥 Assemble muffins, spinach, and eggs, then drown in warm hollandaise.
+
+#eggsflorentine #breakfast #brunch #eggs #vegetarian 🌮🍱
+```
+
+ID: 147
+Caption:
+```
+🍗 Zesty Chicken Piccata 🍗
+
+Recipe: 
+Ingredients: 🍗 2 thinly pounded chicken breasts, 🍋 2 tbsp lemon juice, 🟢 2 tbsp capers, 🧈 3 tbsp butter. 
+Steps: 👨‍🍳 Dredge chicken in flour and pan-sear until golden. 🥣 Remove chicken, add lemon juice, capers, and butter to the pan to form a sauce. 🔥 Return chicken to the pan to coat.
+
+#chickenpiccata #italian #chicken #dinner #lemon 🌮🍱
+```
+
+ID: 148
+Caption:
+```
+🥩 Spicy Beef Rendang 🥩
+
+Recipe: 
+Ingredients: 🥩 1.5 lbs beef chuck, 🥥 1 can coconut milk, 🌿 2 stalks lemongrass, 🌶️ rendang spice paste. 
+Steps: 👨‍🍳 Sauté spice paste and lemongrass. 🥣 Add beef and coconut milk. 🔥 Simmer uncovered on low heat for 3-4 hours until the liquid evaporates and the beef fries in the spiced oils.
+
+#rendang #indonesianfood #beef #curry #spicy 🌮🍱
+```
+
+ID: 149
+Caption:
+```
+🥣 Thai Tom Kha Gai 🥣
+
+Recipe: 
+Ingredients: 🥥 1 can coconut milk, 🍗 1/2 lb sliced chicken breast, 🍄 1 cup mushrooms, 🫚 1 inch galangal, 🍋 2 stalks lemongrass. 
+Steps: 👨‍🍳 Simmer coconut milk with smashed galangal and lemongrass. 🥣 Add chicken and mushrooms; cook until tender. 🔥 Season with fish sauce and lime juice.
+
+#tomkha #thaifood #soup #coconut #healthy 🌮🍱
+```
+
+ID: 150
+Caption:
+```
+🐟 Miso Glazed Black Cod 🐟
+
+Recipe: 
+Ingredients: 🐟 2 black cod fillets, 🍅 3 tbsp white miso paste, 🍶 2 tbsp mirin, 🍬 1 tbsp sugar. 
+Steps: 👨‍🍳 Whisk miso, mirin, and sugar; marinate fish for 24 hours. 🥣 Broil the fish until the top is deeply caramelized and charred at the edges. 🔥 Serve immediately with pickled ginger.
+
+#blackcod #japanese #seafood #gourmet #dinner 🌮🍱
+```
+
+ID: 151
+Caption:
+```
+🍲 Moroccan Lamb Tagine 🍲
+
+Recipe: 
+Ingredients: 🥩 1.5 lbs lamb shoulder cubes, 🍑 1/2 cup dried apricots, 🌰 1/4 cup toasted almonds, 🪵 Moroccan spice blend. 
+Steps: 👨‍🍳 Sear lamb with spices in a tagine or heavy pot. 🥣 Add broth and simmer on low for 2 hours. 🔥 Stir in apricots and simmer until tender; garnish with almonds.
+
+#tagine #moroccanfood #lamb #stew #dinner 🌮🍱
+```
+
+ID: 152
+Caption:
+```
+🥩 Milanese Osso Buco 🥩
+
+Recipe: 
+Ingredients: 🥩 2 large veal shanks, 🍅 1 cup crushed tomatoes, 🍷 1/2 cup white wine, 🌿 gremolata (parsley, lemon zest, garlic). 
+Steps: 👨‍🍳 Dredge shanks in flour and sear until brown. 🥣 Braise in wine, tomatoes, and broth for 2.5 hours until fall-apart tender. 🔥 Garnish with fresh gremolata.
+
+#ossobuco #italian #veal #dinner #gourmet 🌮🍱
+```
+
+ID: 153
+Caption:
+```
+🥩 Crispy Veal Milanese 🥩
+
+Recipe: 
+Ingredients: 🥩 1 large bone-in veal chop, 🌾 1 cup breadcrumbs, 🥚 1 egg, 🧈 1/4 cup clarified butter, 🍋 lemon wedges. 
+Steps: 👨‍🍳 Pound veal thin, dip in egg, and coat in breadcrumbs. 🥣 Pan-fry in hot clarified butter until deep golden brown on both sides. 🔥 Serve immediately with a squeeze of fresh lemon.
+
+#milanese #italian #veal #friedfood #dinner 🌮🍱
+```
+
+ID: 154
+Caption:
+```
+🍲 Spiced Aloo Gobi 🍲
+
+Recipe: 
+Ingredients: 🥔 2 potatoes (cubed), 🥦 1 head cauliflower (florets), 🥄 1 tsp turmeric, 🥄 1 tsp cumin seeds, 🌶️ green chilies. 
+Steps: 👨‍🍳 Sauté cumin seeds and chilies in oil. 🥣 Add potatoes, cauliflower, and spices. 🔥 Cover and cook on low heat until tender and slightly charred.
+
+#aloogobi #indianfood #vegetarian #vegan #curry 🌮🍱
+```
+
+ID: 155
+Caption:
+```
+🍛 Creamy Butter Chicken 🍛
+
+Recipe: 
+Ingredients: 🍗 1 lb marinated chicken, 🍅 1.5 cups tomato puree, 🧈 3 tbsp butter, 🥛 1/2 cup heavy cream, 🥄 garam masala. 
+Steps: 👨‍🍳 Grill marinated chicken until charred. 🥣 Simmer tomato puree, spices, and butter. 🔥 Stir in cream and chicken; simmer for 10 minutes.
+
+#butterchicken #indianfood #curry #chicken #comfortfood 🌮🍱
+```
+
+ID: 156
+Caption:
+```
+🥗 Street-Style Samosa Chaat 🥗
+
+Recipe: 
+Ingredients: 🥟 2 large vegetable samosas, 🍲 1 cup chana masala (chickpea curry), 🥛 1/4 cup plain yogurt, 🌿 mint and tamarind chutneys. 
+Steps: 👨‍🍳 Crush warm samosas in a bowl. 🥣 Pour hot chana masala over them. 🔥 Drizzle generously with yogurt and both chutneys; top with crunchy sev.
+
+#samosachaat #indianstreetfood #vegetarian #snack #spicy 🌮🍱
+```
+
+ID: 157
+Caption:
+```
+🌮 Baja Crispy Fish Tacos 🌮
+
+Recipe: 
+Ingredients: 🌮 4 corn tortillas, 🐟 1/2 lb white fish fillets, 🍺 beer batter, 🥬 1 cup shredded purple cabbage, 🌶️ chipotle mayo. 
+Steps: 👨‍🍳 Dip fish in beer batter and deep fry until crispy. 🥣 Warm tortillas. 🔥 Assemble tacos with fish, cabbage, and a heavy drizzle of chipotle mayo.
+
+#fishtacos #tacos #mexican #seafood #streetfood 🌮🍱
+```
+
+ID: 158
+Caption:
+```
+🌶️ Authentic Chiles Rellenos 🌶️
+
+Recipe: 
+Ingredients: 🌶️ 4 large poblano peppers, 🧀 2 cups Oaxaca cheese, 🥚 3 eggs (separated), 🍅 1 cup light tomato broth. 
+Steps: 👨‍🍳 Roast, peel, and deseed poblanos; stuff with cheese. 🥣 Whip egg whites to stiff peaks, fold in yolks. 🔥 Dip peppers in batter and fry; serve in hot tomato broth.
+
+#chilesrellenos #mexicanfood #vegetarian #spicy #dinner 🌮🍱
+```
+
+ID: 159
+Caption:
+```
+🥟 Flaky Beef Empanadas 🥟
+
+Recipe: 
+Ingredients: 🥟 empanada dough discs, 🥩 1/2 lb ground beef, 🧅 1/2 cup diced onions, 🫒 1/4 cup green olives, 🥚 1 boiled egg (chopped). 
+Steps: 👨‍🍳 Brown beef with onions and spices. 🥣 Place filling, olives, and egg on dough discs; fold and crimp edges. 🔥 Bake at 400°F until golden brown.
+
+#empanadas #latinfood #beef #snack #baking 🌮🍱
+```
+
+ID: 160
+Caption:
+```
+🥗 Fresh Peruvian Ceviche 🥗
+
+Recipe: 
+Ingredients: 🐟 1 lb fresh sea bass, 🍋 1/2 cup fresh lime juice, 🧅 1/2 red onion (thinly sliced), 🌶️ 1 aji limo pepper, 🌿 fresh cilantro. 
+Steps: 👨‍🍳 Dice fish and mix with salt. 🥣 Pour lime juice over fish to cure for 5-10 minutes. 🔥 Toss with onions, chilies, and cilantro; serve immediately.
+
+#ceviche #peruvianfood #seafood #healthy #fresh 🌮🍱
+```
+
+ID: 161
+Caption:
+```
+🫓 Cheesy Arepas de Queso 🫓
+
+Recipe: 
+Ingredients: 🫓 2 cups precooked cornmeal (masarepa), 🥛 warm water, 🧀 2 cups mozzarella or queso blanco, 🧈 butter. 
+Steps: 👨‍🍳 Mix cornmeal and water to form a dough. 🥣 Shape into thick discs and sear on a hot buttered griddle. 🔥 Split open and stuff generously with cheese until melted.
+
+#arepas #colombianfood #cheese #snack #comfortfood 🌮🍱
+```
+
+ID: 162
+Caption:
+```
+🍟 Classic Canadian Poutine 🍟
+
+Recipe: 
+Ingredients: 🍟 4 cups hot french fries, 🧀 1 cup fresh cheese curds, 🥣 1.5 cups hot beef gravy. 
+Steps: 👨‍🍳 Fry potatoes until extra crispy. 🥣 Mound fries on a plate and top evenly with cheese curds. 🔥 Pour steaming hot gravy over the top to slightly melt the curds.
+
+#poutine #canadianfood #fries #cheese #comfortfood 🌮🍱
+```
+
+ID: 163
+Caption:
+```
+🍗 Spicy Jamaican Jerk Chicken 🍗
+
+Recipe: 
+Ingredients: 🍗 4 chicken leg quarters, 🌶️ 2 scotch bonnet peppers, 🧅 scallions, 🌿 fresh thyme, 🪵 1 tbsp ground allspice. 
+Steps: 👨‍🍳 Blend peppers, aromatics, and spices into a paste; marinate chicken overnight. 🥣 Grill slowly over indirect heat with pimento wood smoke. 🔥 Sear over high heat for a crispy, charred skin.
+
+#jerkchicken #jamaicanfood #spicy #grilling #chicken 🌮🍱
+```
+
+ID: 164
+Caption:
+```
+🫓 Flaky Roti Canai with Curry 🫓
+
+Recipe: 
+Ingredients: 🫓 2 prepared roti canai dough balls, 🧈 ghee, 🍛 1 cup chicken curry. 
+Steps: 👨‍🍳 Stretch and flip dough until paper-thin, then fold to create layers. 🥣 Pan-fry with ghee until golden and flaky. 🔥 Crush the hot bread lightly with hands and serve with hot curry.
+
+#roticanai #malaysianfood #bread #curry #streetfood 🌮🍱
+```
+
+ID: 165
+Caption:
+```
+🍚 Authentic Hainanese Chicken Rice 🍚
+
+Recipe: 
+Ingredients: 🍗 1 whole chicken, 🍚 2 cups jasmine rice, 🫚 fresh ginger, 🧅 scallions, 🌶️ chili-garlic sauce. 
+Steps: 👨‍🍳 Poach chicken gently with ginger and scallions; plunge into ice water for silky skin. 🥣 Fry rice in chicken fat, then cook in the poaching broth. 🔥 Serve sliced chicken over rice with dipping sauces.
+
+#chickenrice #singaporeanfood #asianfood #healthy #chicken 🌮🍱
+```
+
+ID: 166
+Caption:
+```
+🍜 Spicy Nyonya Laksa 🍜
+
+Recipe: 
+Ingredients: 🍜 1/2 lb rice noodles, 🥥 2 cups coconut milk, 🦐 1/2 lb shrimp, 🌶️ laksa curry paste, 🌿 fresh laksa leaf. 
+Steps: 👨‍🍳 Sauté laksa paste until fragrant; add coconut milk and broth to simmer. 🥣 Boil noodles and blanch shrimp. 🔥 Assemble bowls with noodles and toppings, then pour the hot, rich broth over everything.
+
+#laksa #malaysianfood #noodles #spicy #soup 🌮🍱
+```
+
+ID: 167
+Caption:
+```
+🥞 Crispy Banh Xeo 🥞
+
+Recipe: 
+Ingredients: 🥞 rice flour and turmeric batter, 🐷 1/4 lb sliced pork belly, 🦐 1/4 lb shrimp, 🌱 1 cup bean sprouts. 
+Steps: 👨‍🍳 Sear pork and shrimp in a hot skillet. 🥣 Pour in a thin layer of batter to coat the pan; it will sizzle loudly. 🔥 Add bean sprouts, cover briefly, then fold in half when the crepe is crispy.
+
+#banhxeo #vietnamesefood #crepe #streetfood #crispy 🌮🍱
+```
+
+ID: 168
+Caption:
+```
+🥗 Spicy Som Tum (Papaya Salad) 🥗
+
+Recipe: 
+Ingredients: 🥗 2 cups shredded green papaya, 🍅 1/2 cup cherry tomatoes, 🥜 1/4 cup roasted peanuts, 🌶️ bird's eye chilies, 🍋 lime and fish sauce. 
+Steps: 👨‍🍳 Pound chilies and garlic in a mortar. 🥣 Add tomatoes and beans, bruising them lightly. 🔥 Toss with papaya, peanuts, and a dressing of lime, fish sauce, and palm sugar.
+
+#somtum #thaifood #salad #spicy #healthy 🌮🍱
+```
+
+ID: 169
+Caption:
+```
+🍛 Japanese Katsu Curry 🍛
+
+Recipe: 
+Ingredients: 🥩 1 pork loin cutlet, 🌾 panko breadcrumbs, 🍛 1.5 cups Japanese curry sauce, 🍚 cooked white rice. 
+Steps: 👨‍🍳 Bread the pork cutlet with flour, egg, and panko; deep fry until golden. 🥣 Slice the crispy cutlet and place over rice. 🔥 Pour hot, thick curry sauce generously over half the cutlet.
+
+#katsucurry #japanesefood #curry #pork #comfortfood 🌮🍱
+```
+
+ID: 170
+Caption:
+```
+🍢 Charcoal-Grilled Yakitori 🍢
+
+Recipe: 
+Ingredients: 🍢 chicken thigh chunks, 🧅 1 bunch thick scallions, 🍅 1/2 cup soy sauce, 🍶 1/4 cup mirin. 
+Steps: 👨‍🍳 Thread alternating pieces of chicken and scallion onto bamboo skewers. 🥣 Grill over very hot charcoal. 🔥 Brush frequently with the soy-mirin tare glaze until sticky and charred.
+
+#yakitori #japanesefood #grilling #chicken #streetfood 🌮🍱
+```
+
+ID: 171
+Caption:
+```
+🥞 Savory Okonomiyaki 🥞
+
+Recipe: 
+Ingredients: 🥞 okonomiyaki batter (flour, yam, eggs), 🥬 2 cups shredded cabbage, 🐷 4 slices pork belly, 🐟 bonito flakes, 🍅 okonomiyaki sauce. 
+Steps: 👨‍🍳 Mix cabbage into the batter and pour onto a hot griddle. 🥣 Lay pork belly slices on top. 🔥 Flip to crisp the pork, then top with a crisscross of sauces and dancing bonito flakes.
+
+#okonomiyaki #japanesefood #streetfood #pancake #comfortfood 🌮🍱
+```
+
+ID: 172
+Caption:
+```
+🐙 Sizzling Takoyaki 🐙
+
+Recipe: 
+Ingredients: 🐙 1/2 cup diced boiled octopus, 🥞 takoyaki batter (dashi-based), 🌿 pickled red ginger, 🐟 bonito flakes. 
+Steps: 👨‍🍳 Pour batter into a hot, oiled takoyaki pan. 🥣 Drop octopus pieces into each mold. 🔥 Use picks to rotate the batter 90 degrees as it cooks to form perfect, golden-brown spheres. ⏲️ Top with sauces and flakes.
+
+#takoyaki #japanesefood #streetfood #octopus #snack 🌮🍱
+```
+
+ID: 173
+Caption:
+```
+🥘 Classic Greek Moussaka 🥘
+
+Recipe: 
+Ingredients: 🍆 2 large eggplants, 🥩 1 lb ground lamb or beef, 🍅 2 cups tomato sauce, 🥛 2 cups thick béchamel sauce, 🧀 grated cheese. 
+Steps: 👨‍🍳 Roast eggplant slices until soft. 🥣 Simmer meat with tomatoes and warm spices like cinnamon. 🔥 Layer eggplant and meat in a dish, top with a thick layer of béchamel and bake until golden.
+
+#moussaka #greekfood #casserole #comfortfood #dinner 🌮🍱
+```
+
+ID: 174
+Caption:
+```
+🍢 Char-Grilled Pork Souvlaki 🍢
+
+Recipe: 
+Ingredients: 🥩 1 lb pork shoulder cubes, 🍋 2 tbsp lemon juice, 🌿 1 tbsp dried oregano, 🫒 2 tbsp olive oil, 🥙 pita bread. 
+Steps: 👨‍🍳 Marinate pork cubes in lemon, olive oil, and oregano. 🥣 Skewer the meat and grill over high heat until charred and cooked through. 🔥 Serve with pita, tzatziki, and a fresh Greek salad.
+
+#souvlaki #greekfood #grilling #pork #streetfood 🌮🍱
+```
+
+ID: 175
+Caption:
+```
+🍗 Sizzling Tandoori Chicken 🍗
+
+Recipe: 
+Ingredients: 🍗 4 chicken leg quarters, 🥛 1 cup thick yogurt, 🌶️ 2 tbsp tandoori masala, 🍋 lemon juice. 
+Steps: 👨‍🍳 Score the chicken and marinate in spiced yogurt for 12 hours. 🥣 Roast in a very hot oven or grill until deeply charred and the juices run clear. 🔥 Serve with sliced red onions and a squeeze of lemon.
+
+#tandoorichicken #indianfood #chicken #grilling #spicy 🌮🍱
+```
+

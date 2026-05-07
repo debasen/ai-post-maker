@@ -8,6 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
 # Source libraries
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 source "$SCRIPT_DIR/lib/logging.sh"
 source "$SCRIPT_DIR/lib/validation.sh"
 source "$SCRIPT_DIR/lib/tracker.sh"
@@ -140,8 +141,17 @@ phase_2_navigation() {
     log_section "Phase 2: Platform Navigation"
 
     log INFO "Checking BrowserOS health..."
+    if ! bos_health; then
+        log INFO "BrowserOS not reachable, attempting to launch..."
+        if ! _bos launch; then
+            log FATAL "BrowserOS not reachable. Run: browseros-cli init --auto && browseros-cli launch"
+        fi
+        # Wait a bit for server to stabilize even after launch says it's ready
+        sleep 5
+    fi
+    
     if ! retry_with_backoff "bos_health" "$MAX_RETRIES" 5; then
-        log FATAL "BrowserOS not reachable. Run: browseros-cli init --auto && browseros-cli launch"
+        log FATAL "BrowserOS not reachable after launch attempt."
     fi
     log INFO "BrowserOS is healthy"
 

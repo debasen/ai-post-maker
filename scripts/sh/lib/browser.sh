@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 # lib/browser.sh — browseros-cli wrappers with retry logic
 
+# lib/browser.sh — browseros-cli wrappers with retry logic
+if ! command -v "${BROWSEROS_CLI:-browseros-cli}" >/dev/null 2>&1; then
+    if [ -f "/opt/homebrew/bin/browseros-cli" ]; then
+        export BROWSEROS_CLI="/opt/homebrew/bin/browseros-cli"
+    elif [ -f "/usr/local/bin/browseros-cli" ]; then
+        export BROWSEROS_CLI="/usr/local/bin/browseros-cli"
+    fi
+fi
 BROWSEROS_CLI="${BROWSEROS_CLI:-browseros-cli}"
 
 # Selectors — overridable via environment
