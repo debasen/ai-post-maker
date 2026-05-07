@@ -2098,3 +2098,303 @@ Steps: 👨‍🍳 Score the chicken and marinate in spiced yogurt for 12 hours.
 #tandoorichicken #indianfood #chicken #grilling #spicy 🌮🍱
 ```
 
+ID: 176
+Caption:
+```
+🍗 Southern Chicken and Waffles 🍗
+
+Recipe: 
+Ingredients: 🍗 2 pieces fried chicken, 🧇 1 Belgian waffle, 🧈 butter, 🍯 pure maple syrup. 
+Steps: 👨‍🍳 Fry chicken until golden and crispy. 🥣 Bake the waffle until fluffy. 🔥 Assemble the chicken on top of the waffle and drown in syrup.
+
+#chickenandwaffles #southernfood #brunch #comfortfood 🌮🍱
+```
+
+ID: 177
+Caption:
+```
+🥪 Gourmet Croque Madame 🥪
+
+Recipe: 
+Ingredients: 🥪 thick brioche, 🍖 sliced ham, 🧀 gruyere cheese, 🥛 béchamel sauce, 🍳 1 egg. 
+Steps: 👨‍🍳 Layer ham and cheese on bread. 🥣 Top with béchamel and more cheese. 🔥 Bake until bubbly, then top with a fried egg.
+
+#croquemadame #frenchfood #brunch #sandwich 🌮🍱
+```
+
+ID: 178
+Caption:
+```
+🦐 Creamy Shrimp and Grits 🦐
+
+Recipe: 
+Ingredients: 🦐 1/2 lb shrimp, 🥣 1 cup stone-ground grits, 🧀 cheddar cheese, 🥓 bacon bits. 
+Steps: 👨‍🍳 Cook grits with cream and cheese. 🥣 Sauté shrimp and bacon in Cajun spices. 🔥 Pour the shrimp and sauce generously over the hot grits.
+
+#shrimpandgrits #southernfood #comfortfood #seafood 🌮🍱
+```
+
+ID: 179
+Caption:
+```
+🍳 Classic Huevos Rancheros 🍳
+
+Recipe: 
+Ingredients: 🌮 2 corn tortillas, 🍳 2 eggs, 🍅 ranchero salsa, 🥑 avocado, 🧀 cotija cheese. 
+Steps: 👨‍🍳 Lightly fry tortillas. 🥣 Fry eggs and place on tortillas. 🔥 Smother in hot salsa and garnish with avocado and cheese.
+
+#huevosrancheros #mexicanfood #breakfast #eggs #spicy 🌮🍱
+```
+
+ID: 180
+Caption:
+```
+🍜 Savory Pad See Ew 🍜
+
+Recipe: 
+Ingredients: 🍜 wide rice noodles, 🥩 sliced beef, 🥦 Chinese broccoli, 🥚 1 egg, 🍅 dark soy sauce. 
+Steps: 👨‍🍳 Scramble egg in a smoking wok. 🥣 Add beef and broccoli. 🔥 Toss in noodles and dark soy sauce, cooking until edges are caramelized.
+
+#padseeew #thaifood #noodles #asiancuisine #streetfood 🌮🍱
+```
+
+ID: 181
+Caption:
+```
+🍣 Spicy Tuna Sushi Roll 🍣
+
+Recipe: 
+Ingredients: 🍣 sushi rice and nori, 🐟 fresh tuna, 🌶️ sriracha mayo, 🥒 cucumber. 
+Steps: 👨‍🍳 Mix minced tuna with spicy mayo. 🥣 Spread rice on nori, add tuna and cucumber. 🔥 Roll tightly, slice, and drizzle with extra sauce.
+
+#spicytuna #sushi #japanesefood #seafood #healthy 🌮🍱
+```
+
+ID: 182
+Caption:
+```
+🐉 Tempura Dragon Roll 🐉
+
+Recipe: 
+Ingredients: 🍣 sushi rice and nori, 🍤 shrimp tempura, 🥑 avocado, 🍯 unagi sauce. 
+Steps: 👨‍🍳 Roll shrimp tempura inside rice and nori. 🥣 Thinly slice avocado and drape over the roll. 🔥 Shape with a bamboo mat and drizzle with sweet eel sauce.
+
+#dragonroll #sushi #japanesefood #seafood #avocado 🌮🍱
+```
+
+ID: 183
+Caption:
+```
+🥘 Fiery Tteokbokki 🥘
+
+Recipe: 
+Ingredients: 🥘 Korean rice cakes, 🌶️ gochujang sauce, 🐟 fish cakes, 🥚 boiled egg. 
+Steps: 👨‍🍳 Simmer gochujang, broth, and sugar to make sauce. 🥣 Add rice cakes and fish cakes. 🔥 Cook until the sauce is thick and sticky.
+
+#tteokbokki #koreanfood #spicy #streetfood #snack 🌮🍱
+```
+
+ID: 184
+Caption:
+```
+🍚 Sizzling Kimchi Fried Rice 🍚
+
+Recipe: 
+Ingredients: 🍚 2 cups cooked rice, 🥬 1 cup chopped kimchi, 🐷 sliced pork belly, 🍳 1 egg, 🌿 seaweed. 
+Steps: 👨‍🍳 Fry pork belly until crispy. 🥣 Add kimchi and rice, tossing until vibrant red. 🔥 Top with a fried egg and seaweed strips.
+
+#kimchifriedrice #koreanfood #spicy #ricebowl #comfortfood 🌮🍱
+```
+
+ID: 185
+Caption:
+```
+🌯 Crispy Jianbing 🌯
+
+Recipe: 
+Ingredients: 🌯 crepe batter, 🥚 1 egg, 🍘 crispy wonton cracker, 🧅 scallions, 🌶️ chili and hoisin sauce. 
+Steps: 👨‍🍳 Spread batter thin on a hot griddle. 🥣 Crack an egg over it and spread. 🔥 Add sauces, scallions, and the cracker, then fold into a parcel.
+
+#jianbing #chinesefood #streetfood #breakfast #crepe 🌮🍱
+```
+
+ID: 186
+Caption:
+```
+🍜 Spicy Dan Dan Noodles 🍜
+
+Recipe: 
+Ingredients: 🍜 fresh noodles, 🌶️ chili oil and Sichuan peppercorns, 🐷 minced pork, 🥜 crushed peanuts. 
+Steps: 👨‍🍳 Fry minced pork until crispy. 🥣 Whisk sesame paste, soy sauce, and chili oil in a bowl. 🔥 Add cooked noodles, top with pork and peanuts, and mix well.
+
+#dandannoodles #chinesefood #spicy #noodles #sichuan 🌮🍱
+```
+
+ID: 187
+Caption:
+```
+🍗 Kung Pao Chicken 🍗
+
+Recipe: 
+Ingredients: 🍗 diced chicken, 🥜 roasted peanuts, 🌶️ dried red chilies, 🧅 scallions, 🍅 Kung Pao sauce. 
+Steps: 👨‍🍳 Marinate chicken and sear in a hot wok. 🥣 Add chilies, scallions, and sauce. 🔥 Toss until thickened, then fold in crunchy peanuts.
+
+#kungpaochicken #chinesefood #spicy #asianfood #chicken 🌮🍱
+```
+
+ID: 188
+Caption:
+```
+🥟 Steamed Pork Shumai 🥟
+
+Recipe: 
+Ingredients: 🥟 dumpling wrappers, 🐷 minced pork, 🦐 chopped shrimp, 🟠 tobiko (fish roe). 
+Steps: 👨‍🍳 Mix pork and shrimp filling. 🥣 Form into open-faced cups using wrappers. 🔥 Top with roe and steam for 10 minutes until plump and juicy.
+
+#shumai #dimsum #dumplings #chinesefood #asiancuisine 🌮🍱
+```
+
+ID: 189
+Caption:
+```
+🥧 Golden Egg Tart 🥧
+
+Recipe: 
+Ingredients: 🥧 puff pastry shells, 🥚 3 eggs, 🥛 1 cup evaporated milk, 🍬 1/2 cup sugar. 
+Steps: 👨‍🍳 Whisk eggs, milk, and sugar into a smooth custard. 🥣 Pour into pastry shells. 🔥 Bake until the pastry is flaky and the custard is just set with caramelized spots.
+
+#eggtart #dimsum #dessert #pastry #sweet 🌮🍱
+```
+
+ID: 190
+Caption:
+```
+🥗 Classic Caesar Salad 🥗
+
+Recipe: 
+Ingredients: 🥬 fresh romaine, 🍞 garlic croutons, 🧀 shaved parmesan, 🐟 Caesar dressing. 
+Steps: 👨‍🍳 Whisk egg yolk, olive oil, garlic, lemon, and anchovies for dressing. 🥣 Toss with crisp romaine leaves. 🔥 Garnish heavily with croutons and parmesan.
+
+#caesarsalad #salad #healthy #italian #fresh 🌮🍱
+```
+
+ID: 191
+Caption:
+```
+🥑 Avocado Toast with Poached Egg 🥑
+
+Recipe: 
+Ingredients: 🍞 thick sourdough, 🥑 1 ripe avocado, 🍳 1 poached egg, 🌶️ red pepper flakes. 
+Steps: 👨‍🍳 Toast bread until crispy. 🥣 Mash avocado with lemon and salt, spread thickly. 🔥 Top with a warm poached egg and pepper flakes.
+
+#avocadotoast #brunch #breakfast #healthy #avocado 🌮🍱
+```
+
+ID: 192
+Caption:
+```
+🌯 Fresh Spring Rolls 🌯
+
+Recipe: 
+Ingredients: 🌯 rice paper wrappers, 🦐 cooked shrimp, 🥬 fresh herbs and lettuce, 🥜 peanut dipping sauce. 
+Steps: 👨‍🍳 Soften rice paper in warm water. 🥣 Layer shrimp, herbs, and noodles. 🔥 Roll tightly and serve fresh with thick peanut sauce.
+
+#springrolls #vietnamesefood #healthy #fresh #appetizer 🌮🍱
+```
+
+ID: 193
+Caption:
+```
+🥭 Mango Sticky Rice 🥭
+
+Recipe: 
+Ingredients: 🍚 glutinous rice, 🥥 coconut milk, 🥭 1 ripe yellow mango, 🍬 palm sugar. 
+Steps: 👨‍🍳 Steam sticky rice until tender. 🥣 Simmer coconut milk and sugar, then pour over rice. 🔥 Serve with fresh mango slices and a drizzle of coconut cream.
+
+#mangostickyrice #thaifood #dessert #sweet #mango 🌮🍱
+```
+
+ID: 194
+Caption:
+```
+🥓 Crispy Pork Belly (Siu Yuk) 🥓
+
+Recipe: 
+Ingredients: 🐷 1 slab pork belly, 🧂 coarse sea salt, 🪵 five-spice powder. 
+Steps: 👨‍🍳 Score and dry the pork skin thoroughly. 🥣 Rub meat with five-spice. 🔥 Roast at high heat with a salt crust, then broil until the skin puffs into a crispy crackling.
+
+#porkbelly #chinesefood #crispy #bbq #meat 🌮🍱
+```
+
+ID: 195
+Caption:
+```
+🍰 Matcha Mille Crepe Cake 🍰
+
+Recipe: 
+Ingredients: 🍰 thin matcha crepes, 🥛 fresh whipped cream, 🍵 matcha powder. 
+Steps: 👨‍🍳 Cook twenty paper-thin matcha crepes. 🥣 Stack them, spreading a thin layer of cream between each. 🔥 Chill to set, then dust the top with fresh matcha powder.
+
+#millecrepe #matcha #cake #dessert #japanese 🌮🍱
+```
+
+ID: 196
+Caption:
+```
+🥩 Sizzling Steak Fajitas 🥩
+
+Recipe: 
+Ingredients: 🥩 sliced skirt steak, 🫑 bell peppers and onions, 🌮 flour tortillas, 🌶️ fajita seasoning. 
+Steps: 👨‍🍳 Marinate steak in lime and spices. 🥣 Sear peppers and onions in a hot cast iron. 🔥 Add steak, cooking quickly, and serve sizzling hot.
+
+#fajitas #mexicanfood #steak #grilling #sizzling 🌮🍱
+```
+
+ID: 197
+Caption:
+```
+🍜 Aromatic Pho Bo 🍜
+
+Recipe: 
+Ingredients: 🍜 rice noodles, 🥩 rare beef slices, 🦴 rich beef bone broth, 🌿 Thai basil and bean sprouts. 
+Steps: 👨‍🍳 Simmer bones and charred spices for 24 hours. 🥣 Place noodles and raw beef in a bowl. 🔥 Pour boiling broth over the meat to cook it instantly, garnish with herbs.
+
+#pho #vietnamesefood #soup #noodles #comfortfood 🌮🍱
+```
+
+ID: 198
+Caption:
+```
+🦑 Crispy Fried Calamari 🦑
+
+Recipe: 
+Ingredients: 🦑 fresh calamari rings, 🌾 seasoned flour, 🍋 lemon wedges, 🍅 marinara sauce. 
+Steps: 👨‍🍳 Toss calamari in seasoned flour. 🥣 Deep fry in very hot oil for 60 seconds until light golden. 🔥 Drain, salt immediately, and serve with lemon and marinara.
+
+#calamari #seafood #friedfood #appetizer #italianfood 🌮🍱
+```
+
+ID: 199
+Caption:
+```
+🥯 Toasted Bagel with Lox 🥯
+
+Recipe: 
+Ingredients: 🥯 everything bagel, 🧀 cream cheese, 🐟 smoked salmon (lox), 🧅 red onion, 🟢 capers. 
+Steps: 👨‍🍳 Slice and toast the bagel. 🥣 Spread a generous layer of cream cheese. 🔥 Top with ribbons of smoked salmon, thinly sliced onions, and capers.
+
+#bagelandlox #breakfast #bagel #nyc #smokedsalmon 🌮🍱
+```
+
+ID: 200
+Caption:
+```
+🍣 Spicy Tuna Crispy Rice 🍣
+
+Recipe: 
+Ingredients: 🍚 sushi rice, 🐟 spicy minced tuna, 🌶️ sliced jalapeño, 🫒 sesame oil. 
+Steps: 👨‍🍳 Press sushi rice into a block and pan-fry until golden and crispy. 🥣 Mix tuna with spicy mayo. 🔥 Mound tuna on the crispy rice and top with a jalapeño slice.
+
+#crispyrice #sushi #japanesefood #spicytuna #appetizer 🌮🍱
+```
+
