@@ -1110,12 +1110,18 @@
     {
       "id": 122,
       "prompt": "An ultra-realistic highly detailed classic Greek spanakopita triangle. Shatteringly crisp golden phyllo pastry, layers visible at the broken corner, spinach and feta filling dark and savory inside. Mediterranean taverna lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/f9345ebc-3b77-494f-afcf-79d90894e5a3",
+      "post_url": "https://grok.com/imagine/post/f9345ebc-3b77-494f-afcf-79d90894e5a3",
+      "executed_at": "2026-05-07T11:37:32.387265"
     },
     {
       "id": 123,
       "prompt": "An ultra-realistic highly detailed Indian chicken tikka masala in a dark copper karahi. Bright orange creamy tomato sauce coating charred tandoori chicken chunks, fresh ginger strips on top, served with a fluffy naan bread. Northern Indian restaurant lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/14e28414-dc11-4ffe-9327-2de7b64c2a60",
+      "post_url": "https://grok.com/imagine/post/14e28414-dc11-4ffe-9327-2de7b64c2a60",
+      "executed_at": "2026-05-07T12:23:26.426970"
     },
     {
       "id": 124,

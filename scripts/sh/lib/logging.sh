@@ -20,16 +20,19 @@ log_level_to_int() {
     esac
 }
 
+# Example of the new log initialization in lib/logging.sh
 log_init() {
     local dir="${1:-./logs}"
     LOG_DIR="$dir"
     mkdir -p "$LOG_DIR"
-    local ts
-    ts=$(date +%Y%m%d_%H%M%S)
-    LOG_FILE="$LOG_DIR/grok_automation_${ts}.log"
-    touch "$LOG_FILE"
+    local script_name
+    script_name=$(basename "$0" .sh)
+    LOG_FILE="$LOG_DIR/${script_name}.log"
+    # Truncate existing log file to "override" instead of creating new ones
+    : > "$LOG_FILE"
     log INFO "Logging initialized: $LOG_FILE"
 }
+
 
 log() {
     local level="$1"
