@@ -313,56 +313,69 @@ phase_6_asset_management() {
     log INFO "Waiting 5 seconds for file stabilization..."
     _dry_run_sleep 5
 
-    log INFO "Finding Download button..."
-    local dl_info
-    dl_info=$(bos_find_element "$SELECTOR_DOWNLOAD" 30)
+    log INFO "Taking snapshot to find Download button..."
     local dl_ref=""
-    local dl_x=""
-    local dl_y=""
-
-    if [ $? -eq 0 ]; then
-        dl_x=$(echo "$dl_info" | jq -r '.x // empty')
-        dl_y=$(echo "$dl_info" | jq -r '.y // empty')
-    fi
-
-    # Fallback: try snap pattern
-    if [ -z "$dl_x" ]; then
-        log WARN "Download button not found via selector, trying snap fallback..."
+    local retries=0
+    local max_dl_retries=3
+    while [ "$retries" -lt "$max_dl_retries" ]; do
         dl_ref=$(bos_get_snap_ref 'Download')
-        if [ -z "$dl_ref" ]; then
-            log FATAL "Download button not found"
+        if [ -n "$dl_ref" ]; then
+            break
         fi
+        log WARN "Download button not found in snapshot, retrying..."
+        _dry_run_sleep 2
+        retries=$((retries + 1))
+    done
+
+    if [ -z "$dl_ref" ]; then
+        log FATAL "Download button not found in snapshot after $max_dl_retries retries"
     fi
+    log INFO "Download button found: ref $dl_ref"
 
     local dest_dir="$REPO_ROOT/project-$PROJECT_ID/assets/current"
     mkdir -p "$dest_dir"
     log INFO "Destination: $dest_dir"
 
+    log INFO "Downloading via browseros-cli (ref: $dl_ref)..."
+    local download_output
     local download_exit=0
-    if [ -n "$dl_ref" ]; then
-        log INFO "Downloading via browseros-cli (ref: $dl_ref)..."
-        download_with_curl_fallback "$dl_ref" "$dest_dir"
-        download_exit=$?
+    if [ "$DRY_RUN" = "1" ]; then
+        log INFO "[DRY-RUN] Would download ref $dl_ref to $dest_dir"
+        touch "$dest_dir/dry-run-video.mp4"
+        download_output="Downloaded \"dry-run-video.mp4\" to $dest_dir/dry-run-video.mp4"
     else
-        log INFO "Clicking download at ($dl_x, $dl_y)..."
-        bos_click_at "$dl_x" "$dl_y"
-        sleep 5
+        download_output=$(bos_download "$dl_ref" "$dest_dir" 2>&1)
+        download_exit=$?
     fi
+    log DEBUG "Download output: $download_output"
 
     if [ "$download_exit" -ne 0 ]; then
         log FATAL "Download failed"
     fi
 
-    log INFO "Running downloader process..."
-    local downloader_result
-    downloader_result=$(downloader_process "$PROJECT_ID" "$dest_dir" "$PROMPT_ID")
-    log DEBUG "Downloader result: $downloader_result"
-
-    if ! echo "$downloader_result" | jq -e '.success' >/dev/null 2>&1; then
-        log FATAL "Downloader failed: $(echo "$downloader_result" | jq -r '.error')"
+    local downloaded_file
+    downloaded_file=$(echo "$download_output" | sed -n 's/.*Downloaded "\([^"]*\)".*/\1/p')
+    if [ -z "$downloaded_file" ]; then
+        downloaded_file=$(ls -t "$dest_dir"/*.mp4 2>/dev/null | head -1)
+        downloaded_file=$(basename "$downloaded_file" 2>/dev/null)
     fi
 
-    FINAL_PATH=$(echo "$downloader_result" | jq -r '.path')
+    if [ -z "$downloaded_file" ]; then
+        log FATAL "Could not determine downloaded file name"
+    fi
+
+    log INFO "Downloaded file: $downloaded_file"
+
+    local final_name="${PROMPT_ID}.mp4"
+    local src_path="$dest_dir/$downloaded_file"
+    local dst_path="$dest_dir/$final_name"
+
+    if [ "$src_path" != "$dst_path" ]; then
+        mv "$src_path" "$dst_path"
+        log INFO "Renamed to: $final_name"
+    fi
+
+    FINAL_PATH="$dst_path"
     log INFO "Asset saved: $FINAL_PATH"
 
     if ! validate_file "$FINAL_PATH" 1024; then

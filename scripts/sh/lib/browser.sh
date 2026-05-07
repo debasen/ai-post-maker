@@ -60,22 +60,17 @@ bos_eval() {
 
 bos_snap() {
     if [ "${DRY_RUN:-0}" = "1" ]; then
-        echo '{"snapshot":"[9999] button \"Download\""}'
+        echo '[9999] button "Download"'
         return 0
     fi
-    _bos snap --json
+    _bos snap
 }
 
 bos_get_snap_ref() {
     local pattern="$1"
-    local snap_output
-    snap_output=$(bos_snap)
-    if [ $? -ne 0 ]; then
-        return 1
-    fi
     local snapshot_text
-    snapshot_text=$(echo "$snap_output" | jq -r '.snapshot // empty' 2>/dev/null)
-    if [ -z "$snapshot_text" ]; then
+    snapshot_text=$(bos_snap)
+    if [ $? -ne 0 ]; then
         return 1
     fi
     local ref
