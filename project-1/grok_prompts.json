@@ -1078,22 +1078,34 @@
     {
       "id": 118,
       "prompt": "An ultra-realistic highly detailed juicy char siu pork bao bun torn open to reveal the sweet red BBQ pork filling inside. Fluffy snow-white dough with slight sheen, steam wisping from the filling. Hong Kong dim sum cart lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/3457a2c4-4d13-4f1c-ab55-d6bc6b4827f1",
+      "post_url": "https://grok.com/imagine/post/3457a2c4-4d13-4f1c-ab55-d6bc6b4827f1",
+      "executed_at": "2026-05-07T10:44:56.943656"
     },
     {
       "id": 119,
       "prompt": "An ultra-realistic highly detailed towering slice of NYC-style cheese pizza on a paper plate, drooping with the weight of gooey mozzarella. Crispy thin crust with char bubbles, bright tomato sauce visible at the edges. New York pizzeria counter lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/39cb85d0-df47-4f83-8be0-6e6a601bcd5e",
+      "post_url": "https://grok.com/imagine/post/39cb85d0-df47-4f83-8be0-6e6a601bcd5e",
+      "executed_at": "2026-05-07T11:17:32.148769"
     },
     {
       "id": 120,
       "prompt": "An ultra-realistic highly detailed golden-brown Belgian liege waffle on a street vendor cart. Thick, caramelized pearl sugar pockets on the outside, warm and dense interior, topped with a strawberry compote and fresh whipped cream. European street market lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/7f0bdb26-cff8-4fa3-a54b-39da317f5038",
+      "post_url": "https://grok.com/imagine/post/7f0bdb26-cff8-4fa3-a54b-39da317f5038",
+      "executed_at": "2026-05-07T11:22:59.902204"
     },
     {
       "id": 121,
       "prompt": "An ultra-realistic highly detailed hand-held crispy Korean fried chicken sandwich. Double-fried crackling battered thigh with a sticky soy garlic glaze, topped with pickled daikon slaw and toasted sesame seeds in a brioche bun. Seoul street food lighting. Aspect ratio 9:16 portrait",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/cd86e051-b478-4d04-9fba-3731acc8b32c",
+      "post_url": "https://grok.com/imagine/post/cd86e051-b478-4d04-9fba-3731acc8b32c",
+      "executed_at": "2026-05-07T11:27:30.135617"
     },
     {
       "id": 122,
