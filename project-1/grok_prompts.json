@@ -1068,9 +1068,11 @@
     {
       "id": 115,
       "prompt": "An ultra-realistic highly detailed glorious full rack of St. Louis style BBQ pork ribs. Deep mahogany lacquered glaze, smoke ring visible on sliced rib, fat glistening, meat barely clinging to the bone. Smokehouse pitmaster lighting. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-06T20:16:24.091531"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/f5c54d79-a66f-444a-8856-2f2ecf2ded0e",
+      "executed_at": "2026-05-07T19:13:00.168175",
+      "video_url": "https://grok.com/imagine/post/f5c54d79-a66f-444a-8856-2f2ecf2ded0e",
+      "asset": "mapped"
     },
     {
       "id": 116,
@@ -1146,10 +1148,10 @@
     {
       "id": 124,
       "prompt": "An ultra-realistic highly detailed hand-held smash patty Oklahoma onion burger. Thin beef patty smashed over a pile of raw onion on a flat top grill, American cheese melting over crispy onion lace edges, steaming on a soft white bun. Oklahoman diner lighting. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "video_url": "https://grok.com/imagine/post/7c4009a8-2fad-438a-b24c-72d1eb827f57",
-      "post_url": "https://grok.com/imagine/post/2502b0fa-0843-46ad-b10b-3ade35e36fba",
-      "executed_at": "2026-05-07T12:55:43.266009",
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/d982491d-64bd-41fa-b56a-325c3ee2fcdf",
+      "post_url": "https://grok.com/imagine/post/d982491d-64bd-41fa-b56a-325c3ee2fcdf",
+      "executed_at": "2026-05-07T19:22:50.969973",
       "asset": "mapped"
     },
     {
@@ -1227,37 +1229,47 @@
     {
       "id": 133,
       "prompt": "An ultra-realistic highly detailed thick cod fillets in a shatteringly crisp beer batter, served with thick-cut golden fries and tartar sauce. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T14:44:08.983282"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/c2926798-c63e-48e9-ae44-9cc252a280e1",
+      "executed_at": "2026-05-07T19:32:49.132552",
+      "video_url": "https://grok.com/imagine/post/c2926798-c63e-48e9-ae44-9cc252a280e1",
+      "asset": "mapped"
     },
     {
       "id": 134,
       "prompt": "An ultra-realistic highly detailed vibrant saffron-infused rice cooked in a wide pan, studded with mussels, clams, shrimp, and smoky chorizo. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T14:54:11.861042"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/d4e03f49-22e0-4561-bfb5-b3497af033c2",
+      "executed_at": "2026-05-07T19:43:02.737927",
+      "video_url": "https://grok.com/imagine/post/d4e03f49-22e0-4561-bfb5-b3497af033c2",
+      "asset": "mapped"
     },
     {
       "id": 135,
       "prompt": "An ultra-realistic highly detailed al dente linguine tossed in a white wine, garlic, and chili flake sauce, brimming with fresh littleneck clams. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T15:03:41.582346"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/8646955f-ae9c-46a6-8bfb-94604e3f2cf0",
+      "executed_at": "2026-05-07T19:52:29.683620",
+      "video_url": "https://grok.com/imagine/post/8646955f-ae9c-46a6-8bfb-94604e3f2cf0",
+      "asset": "mapped"
     },
     {
       "id": 136,
       "prompt": "An ultra-realistic highly detailed a velvety, deeply flavored creamy soup infused with lobster shells and brandy, topped with fresh lobster meat chunks. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T15:14:10.511703"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/547f6dc0-3251-4beb-996b-fad9a63e49f1",
+      "executed_at": "2026-05-07T20:03:01.194197",
+      "video_url": "https://grok.com/imagine/post/547f6dc0-3251-4beb-996b-fad9a63e49f1",
+      "asset": "mapped"
     },
     {
       "id": 137,
       "prompt": "An ultra-realistic highly detailed thinly sliced warm roast beef piled high on a toasted baguette with melted provolone, served with a rich au jus. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T15:23:40.762431"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/47c7f76d-abc1-47a8-b81f-c0fa4b1e3371",
+      "executed_at": "2026-05-07T20:12:21.135598",
+      "video_url": "https://grok.com/imagine/post/47c7f76d-abc1-47a8-b81f-c0fa4b1e3371",
+      "asset": "mapped"
     },
     {
       "id": 138,
@@ -1280,16 +1292,19 @@
     {
       "id": 140,
       "prompt": "An ultra-realistic highly detailed golden-fried, herb-packed chickpea patties wrapped in warm pita with fresh veggies and dripping with tahini sauce. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T15:54:09.777185"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/773c5392-d359-4ace-8c73-6502a2d2124f",
+      "executed_at": "2026-05-07T20:22:19.133946",
+      "video_url": "https://grok.com/imagine/post/773c5392-d359-4ace-8c73-6502a2d2124f",
+      "asset": "mapped"
     },
     {
       "id": 141,
       "prompt": "An ultra-realistic highly detailed thin shavings of spit-roasted lamb and beef on a fluffy pita, topped with tomatoes, onions, and cool tzatziki. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T16:04:09.360542"
+      "status": "pending",
+      "post_url": "https://grok.com/imagine/post/04fd7bcb-6d50-4405-8901-ad1f60eb0bb8",
+      "executed_at": "2026-05-07T20:30:55.398712",
+      "video_url": "https://grok.com/imagine/post/04fd7bcb-6d50-4405-8901-ad1f60eb0bb8"
     },
     {
       "id": 142,
@@ -1346,77 +1361,89 @@
     {
       "id": 148,
       "prompt": "An ultra-realistic highly detailed slow-cooked, deeply caramelized Indonesian beef stew infused with coconut milk, lemongrass, and rich spices. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T17:13:39.314892"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/4cbd40df-f197-4ea0-b406-3a2f484a52c6",
+      "executed_at": "2026-05-07T20:42:20.488048",
+      "video_url": "https://grok.com/imagine/post/4cbd40df-f197-4ea0-b406-3a2f484a52c6",
+      "asset": "mapped"
     },
     {
       "id": 149,
       "prompt": "An ultra-realistic highly detailed a fragrant, creamy coconut milk soup with tender chicken, galangal, lemongrass, and earthy mushrooms. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T17:24:23.105321"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/af34a3ef-1ac2-45b0-b7ea-a0543fd3bc42",
+      "executed_at": "2026-05-07T20:52:19.158160",
+      "video_url": "https://grok.com/imagine/post/af34a3ef-1ac2-45b0-b7ea-a0543fd3bc42",
+      "asset": "mapped"
     },
     {
       "id": 150,
       "prompt": "An ultra-realistic highly detailed a buttery, flaky fillet of black cod with a deeply caramelized, sweet and savory miso glaze. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T17:34:11.143265"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/0ce3c2d7-db47-4cd9-a2b9-7cda8b368219",
+      "executed_at": "2026-05-07T21:03:03.401583",
+      "video_url": "https://grok.com/imagine/post/0ce3c2d7-db47-4cd9-a2b9-7cda8b368219",
+      "asset": "mapped"
     },
     {
       "id": 151,
       "prompt": "An ultra-realistic highly detailed a slow-braised, aromatic stew of tender lamb, sweet apricots, and toasted almonds cooked in a traditional clay pot. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T17:44:09.902464"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/012b6444-6211-4d78-99bd-1eae07587cf8",
+      "executed_at": "2026-05-07T21:23:02.366997",
+      "video_url": "https://grok.com/imagine/post/012b6444-6211-4d78-99bd-1eae07587cf8",
+      "asset": "mapped"
     },
     {
       "id": 152,
       "prompt": "An ultra-realistic highly detailed tender, slow-braised veal shanks in a rich white wine and tomato broth, topped with vibrant, zesty gremolata. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T17:54:09.607041"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/cc1f0b8c-581a-43a4-9435-93a463279f3f",
+      "executed_at": "2026-05-07T21:32:49.268150",
+      "video_url": "https://grok.com/imagine/post/cc1f0b8c-581a-43a4-9435-93a463279f3f",
+      "asset": "mapped"
     },
     {
       "id": 153,
       "prompt": "An ultra-realistic highly detailed a massive, bone-in veal chop pounded thin, breaded, and pan-fried to a shattering crisp golden brown. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-07T18:04:08.149938"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/f9b32bbb-374c-4856-8cca-c87e45d32df0",
+      "executed_at": "2026-05-07T21:42:19.701777",
+      "video_url": "https://grok.com/imagine/post/f9b32bbb-374c-4856-8cca-c87e45d32df0",
+      "asset": "mapped"
     },
     {
       "id": 154,
       "prompt": "An ultra-realistic highly detailed a fragrant, dry Indian curry of perfectly roasted cauliflower florets and tender potatoes, heavily spiced with turmeric and cumin. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-07T18:14:09.908892"
     },
     {
       "id": 155,
       "prompt": "An ultra-realistic highly detailed tender, yogurt-marinated chicken chunks bathed in a rich, velvety tomato and butter sauce, served with naan. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-07T18:24:10.669158"
     },
     {
       "id": 156,
       "prompt": "An ultra-realistic highly detailed crushed, crispy potato samosas smothered in spicy chickpea curry, cool yogurt, and sweet and tangy chutneys. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-07T18:34:09.566791"
     },
     {
       "id": 157,
       "prompt": "An ultra-realistic highly detailed golden beer-battered fish fillets in warm corn tortillas, topped with crunchy shredded cabbage and tangy chipotle crema. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-07T18:44:09.248095"
     },
     {
       "id": 158,
       "prompt": "An ultra-realistic highly detailed roasted, peeled poblano peppers stuffed with melting cheese, coated in a fluffy egg batter, and fried until golden. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-07T18:54:08.571053"
     },
@@ -1426,7 +1453,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/40351665-371b-4633-9468-f4697cdcf16d",
       "post_url": "https://grok.com/imagine/post/40351665-371b-4633-9468-f4697cdcf16d",
-      "executed_at": "2026-05-07T19:04:45.589467"
+      "executed_at": "2026-05-07T19:04:45.589467",
+      "asset": "mapped"
     },
     {
       "id": 160,
