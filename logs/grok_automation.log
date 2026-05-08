@@ -1,0 +1,819 @@
+[2026-05-08 14:00:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-08 14:00:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-08 14:00:00] [INFO] Starting Grok automation for project 1
+[2026-05-08 14:00:00] [INFO] Starting Grok automation for project 1
+[2026-05-08 14:00:00] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-08 14:00:00] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-08 14:00:00] [INFO] ========================================
+[2026-05-08 14:00:00] [INFO] ========================================
+[2026-05-08 14:00:00] [INFO]   Phase 1: Preparation
+[2026-05-08 14:00:00] [INFO]   Phase 1: Preparation
+[2026-05-08 14:00:00] [INFO] ========================================
+[2026-05-08 14:00:00] [INFO] ========================================
+[2026-05-08 14:00:00] [INFO] Using tracker: grok_tracker.py
+[2026-05-08 14:00:00] [INFO] Using tracker: grok_tracker.py
+[2026-05-08 14:00:00] [INFO] Fetching next pending prompt...
+[2026-05-08 14:00:00] [INFO] Fetching next pending prompt...
+[2026-05-08 14:00:00] [DEBUG] Tracker response: {"id": 164, "prompt": "An ultra-realistic highly detailed incredibly flaky, buttery, and layered flatbread served steaming hot with a side of rich, aromatic chicken curry for dipping. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-07T23:33:38.612116"}
+[2026-05-08 14:00:00] [INFO] Next prompt ID: 164
+[2026-05-08 14:00:00] [INFO] Next prompt ID: 164
+[2026-05-08 14:00:00] [INFO] Status: pending
+[2026-05-08 14:00:00] [INFO] Status: pending
+[2026-05-08 14:00:00] [DEBUG] Prompt: An ultra-realistic highly detailed incredibly flaky, buttery, and layered flatbread served steaming hot with a side of rich, aromatic chicken curry for dipping. Aspect ratio 9:16 portrait
+[2026-05-08 14:00:00] [INFO] ========================================
+[2026-05-08 14:00:00] [INFO] ========================================
+[2026-05-08 14:00:00] [INFO]   Phase 2: Platform Navigation
+[2026-05-08 14:00:00] [INFO]   Phase 2: Platform Navigation
+[2026-05-08 14:00:00] [INFO] ========================================
+[2026-05-08 14:00:00] [INFO] ========================================
+[2026-05-08 14:00:00] [INFO] Checking BrowserOS health...
+[2026-05-08 14:00:00] [INFO] Checking BrowserOS health...
+
+[2026-05-08 14:00:01] [CMD] browseros-cli health 
+[2026-05-08 14:00:01] [EXIT] 0
+[2026-05-08 14:00:01] [OUT] ---
+Server: ok
+CDP:    connected
+[2026-05-08 14:00:01] [OUT] ---
+[2026-05-08 14:00:02] [DEBUG] Retry attempt 1/3: bos_health
+
+[2026-05-08 14:00:03] [CMD] browseros-cli health 
+[2026-05-08 14:00:03] [EXIT] 0
+[2026-05-08 14:00:03] [OUT] ---
+Server: ok
+CDP:    connected
+[2026-05-08 14:00:03] [OUT] ---
+[2026-05-08 14:00:03] [INFO] BrowserOS is healthy
+[2026-05-08 14:00:03] [INFO] BrowserOS is healthy
+[2026-05-08 14:00:03] [INFO] Navigating to Grok Imagine...
+[2026-05-08 14:00:03] [INFO] Navigating to Grok Imagine...
+
+[2026-05-08 14:00:34] [CMD] browseros-cli nav https://grok.com/imagine
+[2026-05-08 14:00:34] [EXIT] 0
+[2026-05-08 14:00:34] [OUT] ---
+Navigated to https://grok.com/imagine
+[2026-05-08 14:00:34] [OUT] ---
+Navigated to https://grok.com/imagine
+[2026-05-08 14:00:37] [INFO] ========================================
+[2026-05-08 14:00:37] [INFO] ========================================
+[2026-05-08 14:00:37] [INFO]   Phase 3: Image Generation
+[2026-05-08 14:00:37] [INFO]   Phase 3: Image Generation
+[2026-05-08 14:00:37] [INFO] ========================================
+[2026-05-08 14:00:37] [INFO] ========================================
+[2026-05-08 14:00:37] [INFO] Finding input area...
+[2026-05-08 14:00:37] [INFO] Finding input area...
+
+[2026-05-08 14:00:38] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('div[contenteditable="true"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-08 14:00:38] [EXIT] 0
+[2026-05-08 14:00:38] [OUT] ---
+{"found":true,"x":720.5,"y":679,"width":720,"height":56}
+[2026-05-08 14:00:38] [OUT] ---
+[2026-05-08 14:00:38] [INFO] Input area found at (720.5, 679)
+[2026-05-08 14:00:38] [INFO] Input area found at (720.5, 679)
+[2026-05-08 14:00:38] [INFO] Typing prompt...
+[2026-05-08 14:00:38] [INFO] Typing prompt...
+
+[2026-05-08 14:00:39] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('div[contenteditable="true"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-08 14:00:39] [EXIT] 0
+[2026-05-08 14:00:39] [OUT] ---
+{"found":true,"x":720.5,"y":679,"width":720,"height":56}
+[2026-05-08 14:00:39] [OUT] ---
+[2026-05-08 14:00:39] [DEBUG] Using click-at + eval fallback on coordinates 720.5,679
+
+[2026-05-08 14:00:40] [CMD] browseros-cli click-at 720.5 679
+[2026-05-08 14:00:40] [EXIT] 0
+[2026-05-08 14:00:40] [OUT] ---
+Clicked at (720, 679)
+[2026-05-08 14:00:40] [OUT] ---
+Clicked at (720, 679)
+
+[2026-05-08 14:00:41] [CMD] browseros-cli eval (function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = "An ultra-realistic highly detailed incredibly flaky, buttery, and layered flatbread served steaming hot with a side of rich, aromatic chicken curry for dipping. Aspect ratio 9:16 portrait"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()
+[2026-05-08 14:00:41] [EXIT] 0
+[2026-05-08 14:00:41] [OUT] ---
+{"success":true}
+[2026-05-08 14:00:41] [OUT] ---
+{"success":true}
+[2026-05-08 14:00:42] [INFO] Submitting prompt...
+[2026-05-08 14:00:42] [INFO] Submitting prompt...
+
+[2026-05-08 14:00:43] [CMD] browseros-cli key Enter
+[2026-05-08 14:00:43] [EXIT] 0
+[2026-05-08 14:00:43] [OUT] ---
+Pressed Enter
+[2026-05-08 14:00:43] [OUT] ---
+Pressed Enter
+[2026-05-08 14:00:45] [INFO] Verifying submission...
+[2026-05-08 14:00:45] [INFO] Verifying submission...
+
+[2026-05-08 14:00:46] [CMD] browseros-cli eval document.querySelector('div[contenteditable="true"]')?.innerText?.trim() || ''
+[2026-05-08 14:00:46] [EXIT] 0
+[2026-05-08 14:00:46] [OUT] ---
+
+[2026-05-08 14:00:46] [OUT] ---
+
+[2026-05-08 14:00:49] [CMD] browseros-cli eval document.querySelector('img[alt="Generated image"], .generating, .loading, [role="progressbar"]') !== null
+[2026-05-08 14:00:49] [EXIT] 0
+[2026-05-08 14:00:49] [OUT] ---
+true
+[2026-05-08 14:00:49] [OUT] ---
+[2026-05-08 14:00:49] [INFO] Submission verified (input cleared or loading detected)
+[2026-05-08 14:00:49] [INFO] Submission verified (input cleared or loading detected)
+[2026-05-08 14:00:49] [INFO] Waiting for image generation...
+[2026-05-08 14:00:49] [INFO] Waiting for image generation...
+
+[2026-05-08 14:00:50] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-08 14:00:50] [EXIT] 0
+[2026-05-08 14:00:50] [OUT] ---
+{"found":true,"x":214,"y":375,"width":290,"height":516}
+[2026-05-08 14:00:50] [OUT] ---
+[2026-05-08 14:00:50] [INFO] Images generated successfully
+[2026-05-08 14:00:50] [INFO] Images generated successfully
+[2026-05-08 14:00:50] [INFO] ========================================
+[2026-05-08 14:00:50] [INFO] ========================================
+[2026-05-08 14:00:50] [INFO]   Phase 4: Video Generation
+[2026-05-08 14:00:50] [INFO]   Phase 4: Video Generation
+[2026-05-08 14:00:50] [INFO] ========================================
+[2026-05-08 14:00:50] [INFO] ========================================
+[2026-05-08 14:00:50] [INFO] Opening image detail page...
+[2026-05-08 14:00:50] [INFO] Opening image detail page...
+[2026-05-08 14:00:50] [INFO] Trying snapshot method to find first image link...
+[2026-05-08 14:00:50] [INFO] Trying snapshot method to find first image link...
+[2026-05-08 14:00:50] [DEBUG] Retry attempt 1/3: bos_click_first_link
+
+[2026-05-08 14:00:51] [CMD] browseros-cli snap 
+[2026-05-08 14:00:51] [EXIT] 0
+[2026-05-08 14:00:51] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[59836] button "Back"
+[62035] button "Save"
+[62039] button "Make video"
+[62055] button "Save"
+[62059] button "Make video"
+[62075] button "Save"
+[62079] button "Make video"
+[62095] button "Save"
+[62099] button "Make video"
+[62124] button "Generate More"
+[54152] button "Saved"
+[54099] button "Upload"
+[54108] button "Submit" (disabled)
+[54143] button "Canvas"
+[54124] radio "Image"
+[54125] radio "Video"
+[54132] radio "Speed"
+[54133] radio "Quality"
+[54142] button "Aspect Ratio" (collapsed)
+[62020] clickable "An ultra-realistic highly detailed incredibly flaky, buttery, and layered flatbread served steaming "
+[54153] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[54144] clickable "ImageVideo"
+[54135] clickable "SpeedQuality"
+[54146] clickable "9:16"
+[2026-05-08 14:00:51] [OUT] ---
+[2026-05-08 14:00:51] [WARN] Could not find first link element in snapshot
+[2026-05-08 14:00:51] [WARN] Could not find first link element in snapshot
+[2026-05-08 14:00:51] [WARN] Attempt 1 failed, retrying in 2s...
+[2026-05-08 14:00:51] [WARN] Attempt 1 failed, retrying in 2s...
+[2026-05-08 14:00:53] [DEBUG] Retry attempt 2/3: bos_click_first_link
+
+[2026-05-08 14:00:54] [CMD] browseros-cli snap 
+[2026-05-08 14:00:54] [EXIT] 0
+[2026-05-08 14:00:54] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[59836] button "Back"
+[62035] button "Save"
+[62039] button "Make video"
+[62055] button "Save"
+[62059] button "Make video"
+[62075] button "Save"
+[62079] button "Make video"
+[62095] button "Save"
+[62099] button "Make video"
+[62124] button "Generate More"
+[54152] button "Saved"
+[54099] button "Upload"
+[54108] button "Submit" (disabled)
+[54143] button "Canvas"
+[54124] radio "Image"
+[54125] radio "Video"
+[54132] radio "Speed"
+[54133] radio "Quality"
+[54142] button "Aspect Ratio" (collapsed)
+[62020] clickable "An ultra-realistic highly detailed incredibly flaky, buttery, and layered flatbread served steaming "
+[54153] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[54144] clickable "ImageVideo"
+[54135] clickable "SpeedQuality"
+[54146] clickable "9:16"
+[2026-05-08 14:00:54] [OUT] ---
+[2026-05-08 14:00:54] [WARN] Could not find first link element in snapshot
+[2026-05-08 14:00:54] [WARN] Could not find first link element in snapshot
+[2026-05-08 14:00:54] [WARN] Attempt 2 failed, retrying in 4s...
+[2026-05-08 14:00:54] [WARN] Attempt 2 failed, retrying in 4s...
+[2026-05-08 14:00:58] [DEBUG] Retry attempt 3/3: bos_click_first_link
+
+[2026-05-08 14:00:59] [CMD] browseros-cli snap 
+[2026-05-08 14:00:59] [EXIT] 0
+[2026-05-08 14:00:59] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[59836] button "Back"
+[62035] button "Save"
+[62039] button "Make video"
+[62055] button "Save"
+[62059] button "Make video"
+[62075] button "Save"
+[62079] button "Make video"
+[62095] button "Save"
+[62099] button "Make video"
+[62124] button "Generate More"
+[54152] button "Saved"
+[54099] button "Upload"
+[54108] button "Submit" (disabled)
+[54143] button "Canvas"
+[54124] radio "Image"
+[54125] radio "Video"
+[54132] radio "Speed"
+[54133] radio "Quality"
+[54142] button "Aspect Ratio" (collapsed)
+[62020] clickable "An ultra-realistic highly detailed incredibly flaky, buttery, and layered flatbread served steaming "
+[54153] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[54144] clickable "ImageVideo"
+[54135] clickable "SpeedQuality"
+[54146] clickable "9:16"
+[2026-05-08 14:00:59] [OUT] ---
+[2026-05-08 14:00:59] [WARN] Could not find first link element in snapshot
+[2026-05-08 14:00:59] [WARN] Could not find first link element in snapshot
+[2026-05-08 14:00:59] [WARN] Attempt 3 failed, retrying in 8s...
+[2026-05-08 14:00:59] [WARN] Attempt 3 failed, retrying in 8s...
+[2026-05-08 14:01:07] [WARN] Snapshot link method failed, falling back to image coordinates...
+[2026-05-08 14:01:07] [WARN] Snapshot link method failed, falling back to image coordinates...
+
+[2026-05-08 14:01:08] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-08 14:01:08] [EXIT] 0
+[2026-05-08 14:01:08] [OUT] ---
+{"found":true,"x":214,"y":375,"width":290,"height":516}
+[2026-05-08 14:01:08] [OUT] ---
+[2026-05-08 14:01:08] [INFO] Clicking on generated image at (214, 375)...
+[2026-05-08 14:01:08] [INFO] Clicking on generated image at (214, 375)...
+
+[2026-05-08 14:01:09] [CMD] browseros-cli click-at 214 375
+[2026-05-08 14:01:09] [EXIT] 0
+[2026-05-08 14:01:09] [OUT] ---
+Clicked at (214, 375)
+[2026-05-08 14:01:09] [OUT] ---
+Clicked at (214, 375)
+[2026-05-08 14:01:11] [INFO] Looking for Make video button...
+[2026-05-08 14:01:11] [INFO] Looking for Make video button...
+
+[2026-05-08 14:01:13] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('[aria-label="Make video"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-08 14:01:13] [EXIT] 0
+[2026-05-08 14:01:13] [OUT] ---
+{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}
+[2026-05-08 14:01:13] [OUT] ---
+
+[2026-05-08 14:01:14] [CMD] browseros-cli click-at 572.87890625 618.5
+[2026-05-08 14:01:14] [EXIT] 0
+[2026-05-08 14:01:14] [OUT] ---
+Clicked at (572, 618)
+[2026-05-08 14:01:14] [OUT] ---
+Clicked at (572, 618)
+[2026-05-08 14:01:14] [INFO] Video generation triggered
+[2026-05-08 14:01:14] [INFO] Video generation triggered
+[2026-05-08 14:01:17] [INFO] ========================================
+[2026-05-08 14:01:17] [INFO] ========================================
+[2026-05-08 14:01:17] [INFO]   Phase 5: Monitoring & Validation
+[2026-05-08 14:01:17] [INFO]   Phase 5: Monitoring & Validation
+[2026-05-08 14:01:17] [INFO] ========================================
+[2026-05-08 14:01:17] [INFO] ========================================
+[2026-05-08 14:01:17] [INFO] Polling for video completion (max 150s)...
+[2026-05-08 14:01:17] [INFO] Polling for video completion (max 150s)...
+
+[2026-05-08 14:01:18] [CMD] browseros-cli text 
+[2026-05-08 14:01:18] [EXIT] 0
+[2026-05-08 14:01:18] [OUT] ---
+Generating6%720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:01:18] [OUT] ---
+
+[2026-05-08 14:01:19] [CMD] browseros-cli snap 
+[2026-05-08 14:01:19] [EXIT] 0
+[2026-05-08 14:01:19] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "8%"
+[62367] button "Cancel"
+[62197] button "Unsave" (disabled)
+[62198] button "Compose Post" (disabled)
+[62200] button "Download" (disabled)
+[62201] button "Create share link" (disabled)
+[62202] button "More options" (disabled, collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62138] clickable "8%"
+[62174] clickable "Generating8%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
+[2026-05-08 14:01:19] [OUT] ---
+[2026-05-08 14:01:19] [INFO] Still generating... 6%
+[2026-05-08 14:01:19] [INFO] Still generating... 6%
+[2026-05-08 14:01:29] [DEBUG] Elapsed: 10s
+
+[2026-05-08 14:01:30] [CMD] browseros-cli text 
+[2026-05-08 14:01:30] [EXIT] 0
+[2026-05-08 14:01:30] [OUT] ---
+Generating20%720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:01:30] [OUT] ---
+
+[2026-05-08 14:01:31] [CMD] browseros-cli snap 
+[2026-05-08 14:01:31] [EXIT] 0
+[2026-05-08 14:01:31] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "20%"
+[62367] button "Cancel"
+[62197] button "Unsave" (disabled)
+[62198] button "Compose Post" (disabled)
+[62200] button "Download" (disabled)
+[62201] button "Create share link" (disabled)
+[62202] button "More options" (disabled, collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62138] clickable "20%"
+[62174] clickable "Generating20%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
+[2026-05-08 14:01:31] [OUT] ---
+[2026-05-08 14:01:32] [INFO] Still generating... 20%
+[2026-05-08 14:01:32] [INFO] Still generating... 20%
+[2026-05-08 14:01:42] [DEBUG] Elapsed: 20s
+
+[2026-05-08 14:01:43] [CMD] browseros-cli text 
+[2026-05-08 14:01:43] [EXIT] 0
+[2026-05-08 14:01:43] [OUT] ---
+Generating30%720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:01:43] [OUT] ---
+
+[2026-05-08 14:01:44] [CMD] browseros-cli snap 
+[2026-05-08 14:01:44] [EXIT] 0
+[2026-05-08 14:01:44] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "32%"
+[62367] button "Cancel"
+[62197] button "Unsave" (disabled)
+[62198] button "Compose Post" (disabled)
+[62200] button "Download" (disabled)
+[62201] button "Create share link" (disabled)
+[62202] button "More options" (disabled, collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62138] clickable "32%"
+[62174] clickable "Generating32%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
+[2026-05-08 14:01:44] [OUT] ---
+[2026-05-08 14:01:44] [INFO] Still generating... 30%
+[2026-05-08 14:01:44] [INFO] Still generating... 30%
+[2026-05-08 14:01:54] [DEBUG] Elapsed: 30s
+
+[2026-05-08 14:01:55] [CMD] browseros-cli text 
+[2026-05-08 14:01:55] [EXIT] 0
+[2026-05-08 14:01:55] [OUT] ---
+Generating46%720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:01:55] [OUT] ---
+
+[2026-05-08 14:01:56] [CMD] browseros-cli snap 
+[2026-05-08 14:01:56] [EXIT] 0
+[2026-05-08 14:01:56] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "47%"
+[62367] button "Cancel"
+[62197] button "Unsave" (disabled)
+[62198] button "Compose Post" (disabled)
+[62200] button "Download" (disabled)
+[62201] button "Create share link" (disabled)
+[62202] button "More options" (disabled, collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62138] clickable "47%"
+[62174] clickable "Generating47%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
+[2026-05-08 14:01:56] [OUT] ---
+[2026-05-08 14:01:56] [INFO] Still generating... 46%
+[2026-05-08 14:01:56] [INFO] Still generating... 46%
+[2026-05-08 14:02:06] [DEBUG] Elapsed: 40s
+
+[2026-05-08 14:02:07] [CMD] browseros-cli text 
+[2026-05-08 14:02:07] [EXIT] 0
+[2026-05-08 14:02:07] [OUT] ---
+Generating63%720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:02:07] [OUT] ---
+
+[2026-05-08 14:02:08] [CMD] browseros-cli snap 
+[2026-05-08 14:02:08] [EXIT] 0
+[2026-05-08 14:02:08] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "65%"
+[62367] button "Cancel"
+[62197] button "Unsave" (disabled)
+[62198] button "Compose Post" (disabled)
+[62200] button "Download" (disabled)
+[62201] button "Create share link" (disabled)
+[62202] button "More options" (disabled, collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62138] clickable "65%"
+[62174] clickable "Generating65%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
+[2026-05-08 14:02:08] [OUT] ---
+[2026-05-08 14:02:08] [INFO] Still generating... 63%
+[2026-05-08 14:02:08] [INFO] Still generating... 63%
+[2026-05-08 14:02:19] [DEBUG] Elapsed: 50s
+
+[2026-05-08 14:02:20] [CMD] browseros-cli text 
+[2026-05-08 14:02:20] [EXIT] 0
+[2026-05-08 14:02:20] [OUT] ---
+Generating79%720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:02:20] [OUT] ---
+
+[2026-05-08 14:02:21] [CMD] browseros-cli snap 
+[2026-05-08 14:02:21] [EXIT] 0
+[2026-05-08 14:02:21] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "80%"
+[62367] button "Cancel"
+[62197] button "Unsave" (disabled)
+[62198] button "Compose Post" (disabled)
+[62200] button "Download" (disabled)
+[62201] button "Create share link" (disabled)
+[62202] button "More options" (disabled, collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62138] clickable "80%"
+[62174] clickable "Generating80%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
+[2026-05-08 14:02:21] [OUT] ---
+[2026-05-08 14:02:21] [INFO] Still generating... 79%
+[2026-05-08 14:02:21] [INFO] Still generating... 79%
+[2026-05-08 14:02:31] [DEBUG] Elapsed: 60s
+
+[2026-05-08 14:02:32] [CMD] browseros-cli text 
+[2026-05-08 14:02:32] [EXIT] 0
+[2026-05-08 14:02:32] [OUT] ---
+Generating92%720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:02:32] [OUT] ---
+
+[2026-05-08 14:02:33] [CMD] browseros-cli snap 
+[2026-05-08 14:02:33] [EXIT] 0
+[2026-05-08 14:02:33] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "93%"
+[62367] button "Cancel"
+[62197] button "Unsave" (disabled)
+[62198] button "Compose Post" (disabled)
+[62200] button "Download" (disabled)
+[62201] button "Create share link" (disabled)
+[62202] button "More options" (disabled, collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62138] clickable "93%"
+[62174] clickable "Generating93%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
+[2026-05-08 14:02:33] [OUT] ---
+[2026-05-08 14:02:33] [INFO] Still generating... 92%
+[2026-05-08 14:02:33] [INFO] Still generating... 92%
+[2026-05-08 14:02:43] [DEBUG] Elapsed: 70s
+
+[2026-05-08 14:02:44] [CMD] browseros-cli text 
+[2026-05-08 14:02:44] [EXIT] 0
+[2026-05-08 14:02:44] [OUT] ---
+Generating99%720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:02:44] [OUT] ---
+
+[2026-05-08 14:02:45] [CMD] browseros-cli snap 
+[2026-05-08 14:02:45] [EXIT] 0
+[2026-05-08 14:02:45] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "99%"
+[62367] button "Cancel"
+[62197] button "Unsave" (disabled)
+[62198] button "Compose Post" (disabled)
+[62200] button "Download" (disabled)
+[62201] button "Create share link" (disabled)
+[62202] button "More options" (disabled, collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62138] clickable "99%"
+[62174] clickable "Generating99%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
+[2026-05-08 14:02:45] [OUT] ---
+[2026-05-08 14:02:45] [INFO] Still generating... 99%
+[2026-05-08 14:02:45] [INFO] Still generating... 99%
+[2026-05-08 14:02:55] [DEBUG] Elapsed: 80s
+
+[2026-05-08 14:02:56] [CMD] browseros-cli text 
+[2026-05-08 14:02:56] [EXIT] 0
+[2026-05-08 14:02:56] [OUT] ---
+8s+ 10s→18s720p
+
+## Upgrade to SuperGrok
+[2026-05-08 14:02:56] [OUT] ---
+
+[2026-05-08 14:02:57] [CMD] browseros-cli snap 
+[2026-05-08 14:02:57] [EXIT] 0
+[2026-05-08 14:02:57] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "Thumbnail 2"
+[62154] button "Pause"
+[62574] button "0:09 / 0:10"
+[62162] button "Unmute"
+[62317] button "Extend from Frame"
+[62197] button "Unsave"
+[62198] button "Compose Post"
+[62553] button "Redo video"
+[62200] button "Download"
+[62201] button "Create share link"
+[62202] button "More options" (collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62174] clickable "Your browser does not support the video tag.Your browser does not support the video tag.MoreMake vid"
+[2026-05-08 14:02:57] [OUT] ---
+[2026-05-08 14:02:57] [INFO] Video ready (Redo video button detected)
+[2026-05-08 14:02:57] [INFO] Video ready (Redo video button detected)
+[2026-05-08 14:02:57] [INFO] ========================================
+[2026-05-08 14:02:57] [INFO] ========================================
+[2026-05-08 14:02:57] [INFO]   Phase 6: Asset Management
+[2026-05-08 14:02:57] [INFO]   Phase 6: Asset Management
+[2026-05-08 14:02:57] [INFO] ========================================
+[2026-05-08 14:02:57] [INFO] ========================================
+[2026-05-08 14:02:57] [INFO] Checking for video preference dialog...
+[2026-05-08 14:02:57] [INFO] Checking for video preference dialog...
+
+[2026-05-08 14:02:58] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(@class, 'text-xl') and contains(@class, 'font-bold') and text()='Which video do you prefer to keep?']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText : ''; })()
+[2026-05-08 14:02:58] [EXIT] 0
+[2026-05-08 14:02:58] [OUT] ---
+
+[2026-05-08 14:02:58] [OUT] ---
+[2026-05-08 14:02:58] [INFO] Waiting 5 seconds for file stabilization...
+[2026-05-08 14:02:58] [INFO] Waiting 5 seconds for file stabilization...
+[2026-05-08 14:03:03] [INFO] Taking snapshot to find Download button...
+[2026-05-08 14:03:03] [INFO] Taking snapshot to find Download button...
+
+[2026-05-08 14:03:05] [CMD] browseros-cli snap 
+[2026-05-08 14:03:05] [EXIT] 0
+[2026-05-08 14:03:05] [OUT] ---
+[54018] link "Home page"
+[54022] button "Search"
+[54028] link
+[54034] link
+[54043] link
+[54330] button "History"
+[54052] button "Toggle Sidebar"
+[54057] button "DS" (collapsed)
+[62131] link "Back"
+[62136] button "Next post"
+[62294] button "Thumbnail 1"
+[62354] button "Thumbnail 2"
+[62154] button "Pause"
+[62574] button "0:06 / 0:10"
+[62162] button "Unmute"
+[62317] button "Extend from Frame"
+[62197] button "Unsave"
+[62198] button "Compose Post"
+[62553] button "Redo video"
+[62200] button "Download"
+[62201] button "Create share link"
+[62202] button "More options" (collapsed)
+[54152] button "Saved"
+[54108] button "Make video" (disabled)
+[62174] clickable "Your browser does not support the video tag.Your browser does not support the video tag.MoreMake vid"
+[2026-05-08 14:03:05] [OUT] ---
+[2026-05-08 14:03:05] [INFO] Download button found: ref 62200
+[2026-05-08 14:03:05] [INFO] Download button found: ref 62200
+[2026-05-08 14:03:05] [INFO] Destination: /Users/dsen/Projects/ai-post-maker/project-1/assets/current
+[2026-05-08 14:03:05] [INFO] Destination: /Users/dsen/Projects/ai-post-maker/project-1/assets/current
+[2026-05-08 14:03:05] [INFO] Downloading via browseros-cli (ref: 62200)...
+[2026-05-08 14:03:05] [INFO] Downloading via browseros-cli (ref: 62200)...
+
+[2026-05-08 14:03:07] [CMD] browseros-cli download 62200 /Users/dsen/Projects/ai-post-maker/project-1/assets/current
+[2026-05-08 14:03:07] [EXIT] 0
+[2026-05-08 14:03:07] [OUT] ---
+Downloaded "grok-video-17f840a5-9d67-4603-8cc6-8873d2b862f8.mp4" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/grok-video-17f840a5-9d67-4603-8cc6-8873d2b862f8.mp4
+[2026-05-08 14:03:07] [OUT] ---
+[2026-05-08 14:03:07] [DEBUG] Download output: Downloaded "grok-video-17f840a5-9d67-4603-8cc6-8873d2b862f8.mp4" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/grok-video-17f840a5-9d67-4603-8cc6-8873d2b862f8.mp4
+[2026-05-08 14:03:07] [INFO] Downloaded file: grok-video-17f840a5-9d67-4603-8cc6-8873d2b862f8.mp4
+[2026-05-08 14:03:07] [INFO] Downloaded file: grok-video-17f840a5-9d67-4603-8cc6-8873d2b862f8.mp4
+[2026-05-08 14:03:07] [INFO] Renamed to: 164.mp4
+[2026-05-08 14:03:07] [INFO] Renamed to: 164.mp4
+[2026-05-08 14:03:07] [INFO] Asset saved: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/164.mp4
+[2026-05-08 14:03:07] [INFO] Asset saved: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/164.mp4
+[2026-05-08 14:03:07] [INFO] File validated: 7472520 bytes
+[2026-05-08 14:03:07] [INFO] File validated: 7472520 bytes
+[2026-05-08 14:03:07] [INFO] ========================================
+[2026-05-08 14:03:07] [INFO] ========================================
+[2026-05-08 14:03:07] [INFO]   Phase 7: Recording & Tracking
+[2026-05-08 14:03:07] [INFO]   Phase 7: Recording & Tracking
+[2026-05-08 14:03:07] [INFO] ========================================
+[2026-05-08 14:03:07] [INFO] ========================================
+[2026-05-08 14:03:07] [INFO] Getting page URL...
+[2026-05-08 14:03:07] [INFO] Getting page URL...
+
+[2026-05-08 14:03:08] [CMD] browseros-cli eval window.location.href
+[2026-05-08 14:03:08] [EXIT] 0
+[2026-05-08 14:03:08] [OUT] ---
+https://grok.com/imagine/post/aacc5f3a-3c38-459e-a70f-b3f62b6b6712
+[2026-05-08 14:03:08] [OUT] ---
+[2026-05-08 14:03:08] [INFO] Post URL: https://grok.com/imagine/post/aacc5f3a-3c38-459e-a70f-b3f62b6b6712
+[2026-05-08 14:03:08] [INFO] Post URL: https://grok.com/imagine/post/aacc5f3a-3c38-459e-a70f-b3f62b6b6712
+[2026-05-08 14:03:08] [INFO] Getting video URL...
+[2026-05-08 14:03:08] [INFO] Getting video URL...
+
+[2026-05-08 14:03:09] [CMD] browseros-cli eval document.querySelector('video')?.src || window.location.href
+[2026-05-08 14:03:09] [EXIT] 0
+[2026-05-08 14:03:09] [OUT] ---
+https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/aacc5f3a-3c38-459e-a70f-b3f62b6b6712/generated_video.mp4?cache=1
+[2026-05-08 14:03:09] [OUT] ---
+[2026-05-08 14:03:09] [INFO] Video URL: https://grok.com/imagine/post/aacc5f3a-3c38-459e-a70f-b3f62b6b6712
+[2026-05-08 14:03:09] [INFO] Video URL: https://grok.com/imagine/post/aacc5f3a-3c38-459e-a70f-b3f62b6b6712
+[2026-05-08 14:03:09] [INFO] Updating tracker...
+[2026-05-08 14:03:09] [INFO] Updating tracker...
+[2026-05-08 14:03:09] [DEBUG] Tracker result: {"success": true, "id": "164"}
+[2026-05-08 14:03:09] [INFO] Prompt 164 marked complete
+[2026-05-08 14:03:09] [INFO] Prompt 164 marked complete
+[2026-05-08 14:03:09] [INFO] ========================================
+[2026-05-08 14:03:09] [INFO] ========================================
+[2026-05-08 14:03:09] [INFO]   Complete
+[2026-05-08 14:03:09] [INFO]   Complete
+[2026-05-08 14:03:09] [INFO] ========================================
+[2026-05-08 14:03:09] [INFO] ========================================
+[2026-05-08 14:03:09] [INFO] Successfully processed prompt 164
+[2026-05-08 14:03:09] [INFO] Successfully processed prompt 164
+[2026-05-08 14:03:09] [INFO] Asset: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/164.mp4
+[2026-05-08 14:03:09] [INFO] Asset: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/164.mp4
+[2026-05-08 14:03:09] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-08 14:03:09] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log

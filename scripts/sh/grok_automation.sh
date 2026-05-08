@@ -188,6 +188,51 @@ phase_3_image_generation() {
     if [ $? -ne 0 ]; then
         log FATAL "Failed to submit prompt"
     fi
+    _dry_run_sleep 2
+
+    log INFO "Verifying submission..."
+    local submission_verified=false
+    local input_check loading_check
+
+    input_check=$(bos_eval "document.querySelector('$SELECTOR_INPUT')?.innerText?.trim() || ''")
+    input_check=$(echo "$input_check" | jq -r '.result // empty' 2>/dev/null)
+    loading_check=$(bos_eval "document.querySelector('img[alt=\"Generated image\"], .generating, .loading, [role=\"progressbar\"]') !== null")
+    loading_check=$(echo "$loading_check" | jq -r '.result // \"false\"' 2>/dev/null)
+
+    if [ -z "$input_check" ] || [ "$loading_check" = "true" ]; then
+        submission_verified=true
+        log INFO "Submission verified (input cleared or loading detected)"
+    fi
+
+    if [ "$submission_verified" != "true" ]; then
+        log WARN "Submission not verified after Enter key, trying submit button fallback..."
+        local submit_btn_info
+        submit_btn_info=$(bos_find_element "$SELECTOR_SUBMIT" 5)
+        if [ $? -eq 0 ]; then
+            local submit_x submit_y
+            submit_x=$(echo "$submit_btn_info" | jq -r '.x')
+            submit_y=$(echo "$submit_btn_info" | jq -r '.y')
+            log INFO "Clicking submit button at ($submit_x, $submit_y)..."
+            bos_click_at "$submit_x" "$submit_y"
+            _dry_run_sleep 2
+
+            input_check=$(bos_eval "document.querySelector('$SELECTOR_INPUT')?.innerText?.trim() || ''")
+            input_check=$(echo "$input_check" | jq -r '.result // empty' 2>/dev/null)
+            loading_check=$(bos_eval "document.querySelector('img[alt=\"Generated image\"], .generating, .loading, [role=\"progressbar\"]') !== null")
+            loading_check=$(echo "$loading_check" | jq -r '.result // \"false\"' 2>/dev/null)
+
+            if [ -z "$input_check" ] || [ "$loading_check" = "true" ]; then
+                submission_verified=true
+                log INFO "Submission verified after button click"
+            fi
+        else
+            log WARN "Submit button not found for fallback"
+        fi
+    fi
+
+    if [ "$submission_verified" != "true" ]; then
+        log FATAL "Failed to verify prompt submission after Enter key and button fallback"
+    fi
 
     log INFO "Waiting for image generation..."
     if ! bos_wait_for "bos_find_element \"\$SELECTOR_IMAGE\" 1 >/dev/null" 5 120; then
@@ -319,6 +364,9 @@ phase_5_monitoring() {
 # Phase 6: Asset Management
 phase_6_asset_management() {
     log_section "Phase 6: Asset Management"
+
+    log INFO "Checking for video preference dialog..."
+    bos_handle_video_preference
 
     log INFO "Waiting 5 seconds for file stabilization..."
     _dry_run_sleep 5

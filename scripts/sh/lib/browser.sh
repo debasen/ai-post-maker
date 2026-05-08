@@ -16,6 +16,7 @@ SELECTOR_INPUT="${SELECTOR_INPUT:-div[contenteditable=\"true\"]}"
 SELECTOR_IMAGE="${SELECTOR_IMAGE:-img[alt=\"Generated image\"]}"
 SELECTOR_DOWNLOAD="${SELECTOR_DOWNLOAD:-[aria-label=\"Download\"]}"
 SELECTOR_MAKE_VIDEO="${SELECTOR_MAKE_VIDEO:-[aria-label=\"Make video\"]}"
+SELECTOR_SUBMIT="${SELECTOR_SUBMIT:-button[type=\"submit\"][aria-label=\"Submit\"]}"
 
 _bos() {
     local cmd="$1"
@@ -350,4 +351,33 @@ bos_wait_for_selector() {
     local selector="$1"
     local timeout="${2:-30}"
     _bos wait --selector "$selector" --wait-timeout "$((timeout * 1000))"
+}
+
+bos_handle_video_preference() {
+    if [ "${DRY_RUN:-0}" = "1" ]; then
+        log INFO "[DRY-RUN] Would check for video preference dialog"
+        return 0
+    fi
+    local heading_text
+    heading_text=$(bos_eval "(function() { var h = document.evaluate(\"//h3[contains(@class, 'text-xl') and contains(@class, 'font-bold') and text()='Which video do you prefer to keep?']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText : ''; })()")
+    heading_text=$(echo "$heading_text" | jq -r '.result // empty' 2>/dev/null)
+    if [ "$heading_text" = "Which video do you prefer to keep?" ]; then
+        log INFO "Video preference dialog detected, selecting first card..."
+        local card_info
+        card_info=$(bos_eval "(function() { var card = document.evaluate(\"//div[contains(@class, 'group') and contains(@class, 'relative') and contains(@class, 'mx-auto') and contains(@class, 'rounded-2xl') and contains(@class, 'overflow-hidden')][1]\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; if (!card) return JSON.stringify({found: false}); var rect = card.getBoundingClientRect(); return JSON.stringify({found: true, x: rect.left + rect.width / 2, y: rect.top + rect.height / 2}); })()")
+        local found
+        found=$(echo "$card_info" | jq -r '.found // false' 2>/dev/null)
+        if [ "$found" = "true" ]; then
+            local card_x card_y
+            card_x=$(echo "$card_info" | jq -r '.x')
+            card_y=$(echo "$card_info" | jq -r '.y')
+            bos_click_at "$card_x" "$card_y"
+            sleep 2
+            return 0
+        else
+            log WARN "Could not find first video card"
+            return 1
+        fi
+    fi
+    return 0
 }

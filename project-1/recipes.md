@@ -1504,10 +1504,10 @@ Caption:
 🍗 Crispy Chicken Parmesan 🍗
 
 Recipe: 
-Ingredients: 🍗 2 chicken breasts, 🌾 1 cup breadcrumbs, 🍅 1 cup marinara, 🧀 1 cup mozzarella. 
-Steps: 👨‍🍳 Bread the chicken and fry until golden. 🥣 Top with marinara and cheese. 🔥 Bake at 400°F until cheese is bubbly and golden.
+Ingredients: 🍗 2 large chicken breasts (butterflied and pounded to 1/2 inch), 🌾 1 cup Italian seasoned breadcrumbs, 🥚 2 large eggs (beaten), 🧀 1.5 cups shredded mozzarella cheese, 🍅 1.5 cups marinara sauce, 🧀 1/2 cup grated parmesan cheese, 🌿 fresh basil leaves, 🫒 olive oil for frying. 
+Steps: 👨‍🍳 Pat chicken dry and season with salt and pepper. Dredge in flour, dip in beaten eggs, then coat generously in seasoned breadcrumbs. 🥣 Heat 1/4 inch of olive oil in a large skillet over medium-high heat until shimmering. 🔥 Fry chicken for 3-4 minutes per side until deeply golden and crispy; drain on a wire rack. 🍅 Spread a thin layer of marinara in a baking dish, place fried chicken on top, then ladle more sauce over each piece. 🧀 Generously sprinkle mozzarella and parmesan over the chicken. ⏲️ Bake at 425°F (220°C) for 15-18 minutes until the cheese is bubbling and slightly browned. 🌿 Garnish with fresh basil and serve with extra warm marinara on the side.
 
-#chickenparm #italianfood #dinner #comfortfood 🌮🍱
+#chickenparm #italianfood #dinner #comfortfood #chickenrecipes #pastanight #cheesy #homemade 🌮🍱
 ```
 
 ID: 127
@@ -1516,10 +1516,10 @@ Caption:
 🥩 Classic Beef Wellington 🥩
 
 Recipe: 
-Ingredients: 🥩 1 beef tenderloin, 🍄 2 cups finely chopped mushrooms, 🥐 1 sheet puff pastry, 🍖 prosciutto slices. 
-Steps: 👨‍🍳 Sear the beef tenderloin. 🥣 Spread duxelles over prosciutto and wrap the beef. 🔥 Wrap in puff pastry. ⏲️ Bake at 400°F until pastry is golden.
+Ingredients: 🥩 2 lbs center-cut beef tenderloin, 🍄 1.5 lbs finely chopped mushrooms (duxelles), 🥐 1 sheet high-quality puff pastry, 🍖 8-10 thin slices prosciutto di Parma, 🧈 2 tbsp Dijon mustard, 🧅 1 shallot (minced), 🧈 2 tbsp unsalted butter, 🥚 1 egg (beaten, for egg wash). 
+Steps: 👨‍🍳 Season the beef generously and sear in a hot pan with butter for 2 minutes on all sides until browned; brush with Dijon mustard and chill. 🍄 Sauté shallots in butter, add mushrooms, and cook for 15-20 minutes until all moisture evaporates; season and cool completely. 🥣 Lay out plastic wrap, shingle prosciutto slices, spread cooled duxelles evenly, then place the chilled beef at the edge and roll tightly. 🥐 Roll out puff pastry, unwrap the beef onto it, brush edges with egg wash, and wrap tightly trimming excess; chill for 30 minutes. ⏲️ Brush with egg wash, score decorative lines, and bake at 400°F (200°C) for 30-35 minutes until pastry is deep golden. ❄️ Rest for 10 minutes before slicing thickly with a sharp serrated knife. 🔪 Serve with red wine reduction sauce on the side.
 
-#beefwellington #gourmet #dinner #finedining 🌮🍱
+#beefwellington #gourmet #dinner #finedining #beefrecipes #specialoccasion #pastry #classiccooking 🌮🍱
 ```
 
 ID: 128
@@ -1528,10 +1528,10 @@ Caption:
 🌮 Slow-Cooked Tacos Birria 🌮
 
 Recipe: 
-Ingredients: 🌮 corn tortillas, 🥩 2 lbs beef chuck, 🌶️ dried guajillo chilies, 🧀 1 cup Oaxaca cheese. 
-Steps: 👨‍🍳 Slow cook beef with chilies and spices until tender. 🥣 Shred the beef. 🔥 Dip tortillas in the broth, fill with meat and cheese, and pan-fry until crispy.
+Ingredients: 🥩 2 lbs beef chuck roast (cut into chunks), 🌶️ 4 dried guajillo chilies, 🌶️ 2 dried ancho chilies, 🧅 1 large white onion (quartered), 🍅 4 roma tomatoes, 🫚 4 cloves garlic, 🍖 4 cups beef broth, 🧀 1.5 cups shredded Oaxaca cheese, 🌮 12 fresh corn tortillas, 🍋 lime wedges, 🌿 fresh cilantro. 
+Steps: 🔥 Toast dried chilies in a dry skillet for 30 seconds per side until fragrant; soak in hot water for 20 minutes. 🍅 Roast tomatoes, onion, and garlic under a broiler until charred and blistered, about 8 minutes. 🥣 Blend soaked chilies, roasted vegetables, and a cup of broth until completely smooth. 🥩 Season beef with salt and sear in a hot Dutch oven until browned on all sides; pour in the chili sauce and remaining broth. ⏲️ Cover and braise at 325°F (165°C) for 3-3.5 hours until the beef shreds effortlessly with a fork. 🍖 Remove beef, shred it, and skim excess fat from the rich consommé; keep broth warm for dipping. 🔥 Dip corn tortillas into the hot consommé, fill with shredded beef and cheese, fold, and pan-fry in a hot skillet until crispy and golden. 🌿 Serve immediately with extra consommé for dipping, plus fresh cilantro and lime wedges.
 
-#birria #tacos #mexicanfood #streetfood 🌮🍱
+#birria #tacos #mexicanfood #streetfood #slowcooked #consomme #beefrecipes #taconight 🌮🍱
 ```
 
 ID: 129
@@ -1540,10 +1540,10 @@ Caption:
 🦐 Garlic Butter Shrimp Scampi 🦐
 
 Recipe: 
-Ingredients: 🦐 1 lb large shrimp, 🧈 4 tbsp butter, 🧄 4 cloves garlic, 🍷 1/2 cup white wine, 🍝 linguine. 
-Steps: 👨‍🍳 Cook linguine. 🥣 Sauté garlic in butter, add shrimp and cook until pink. 🔥 Pour in wine and simmer. ⏲️ Toss with pasta and parsley.
+Ingredients: 🦐 1 lb large shrimp (peeled and deveined), 🧈 6 tbsp unsalted butter, 🧄 6 cloves garlic (thinly sliced), 🍷 1/2 cup dry white wine, 🍋 juice of 1 lemon, 🍝 12 oz linguine pasta, 🌿 1/4 cup fresh parsley (chopped), 🌶️ 1/2 tsp red pepper flakes. 
+Steps: 🍝 Cook linguine in heavily salted boiling water until al dente, about 8-10 minutes; reserve 1 cup pasta water before draining. 🧈 Melt 4 tbsp butter in a large skillet over medium heat; add garlic and red pepper flakes, sautéing for 1-2 minutes until fragrant but not browned. 🔥 Add shrimp in a single layer, season with salt and pepper, and cook for 2 minutes per side until pink and just opaque. 🍷 Pour in white wine and lemon juice, scraping up any browned bits; simmer for 2 minutes to reduce slightly. 🥣 Add drained linguine to the skillet along with remaining butter and a splash of reserved pasta water; toss vigorously to emulsify. 🌿 Remove from heat, stir in fresh parsley, and adjust seasoning with more lemon juice if needed. ⏲️ Serve immediately in warmed bowls with crusty bread to soak up the sauce.
 
-#shrimp #scampi #seafood #pasta #italian 🌮🍱
+#shrimp #scampi #seafood #pasta #italian #garlicbutter #datenight #comfortfood 🌮🍱
 ```
 
 ID: 130
@@ -1552,10 +1552,10 @@ Caption:
 🍕 Classic Margherita Pizza 🍕
 
 Recipe: 
-Ingredients: 🍕 pizza dough, 🍅 1/2 cup San Marzano sauce, 🧀 fresh mozzarella, 🌿 fresh basil leaves. 
-Steps: 👨‍🍳 Stretch dough thin. 🥣 Spread sauce, add torn mozzarella and basil. 🔥 Bake at 500°F on a pizza stone until crust is blistered.
+Ingredients: 🍕 1 lb homemade or high-quality pizza dough, 🍅 3/4 cup San Marzano tomato sauce (hand-crushed), 🧀 8 oz fresh mozzarella di bufala (torn into pieces), 🌿 fresh basil leaves, 🫒 extra virgin olive oil, 🧂 flaky sea salt, 🌾 semolina flour for dusting, 🧄 1 clove garlic (halved). 
+Steps: 🌡️ Place a pizza stone or inverted baking sheet in the oven and preheat to 500°F (260°C) for at least 45 minutes. 🍕 Stretch and shape the dough on a floured surface into a 12-inch round, leaving a slightly thicker edge for the crust. 🧄 Rub the halved garlic clove over the dough, then spread a thin, even layer of crushed San Marzano tomatoes, leaving a 1-inch border. 🧀 Distribute torn mozzarella evenly over the sauce, then drizzle with high-quality extra virgin olive oil. 🔥 Carefully slide the pizza onto the preheated stone and bake for 8-12 minutes until the crust is blistered and charred in spots and the cheese is bubbling. 🌿 Remove from oven and immediately scatter fresh basil leaves over the top; season with flaky sea salt. ⏲️ Let cool for 2 minutes before slicing into wedges and serving.
 
-#margherita #pizza #italianfood #homemadepizza 🌮🍱
+#margherita #pizza #italianfood #homemadepizza #woodfired #neapolitan #freshmozzarella #basil 🌮🍱
 ```
 
 ID: 131
@@ -1564,10 +1564,10 @@ Caption:
 🍝 Cheesy Baked Ziti 🍝
 
 Recipe: 
-Ingredients: 🍝 1 lb ziti, 🥩 1/2 lb ground beef, 🍅 2 cups marinara, 🧀 1 cup ricotta, 🧀 2 cups mozzarella. 
-Steps: 👨‍🍳 Cook ziti and brown beef. 🥣 Mix pasta, beef, marinara, and ricotta. 🔥 Top with mozzarella and bake until golden and bubbly.
+Ingredients: 🍝 1 lb ziti pasta, 🥩 1/2 lb ground beef (80/20 blend), 🍅 3 cups marinara sauce, 🧀 1 cup whole milk ricotta cheese, 🧀 2 cups shredded mozzarella cheese, 🧀 1/2 cup grated parmesan cheese, 🧄 3 cloves garlic (minced), 🌿 1 tbsp dried Italian herbs. 
+Steps: 🍝 Cook ziti in salted boiling water for 2 minutes less than package directions; drain and toss with a drizzle of olive oil to prevent sticking. 🥩 Brown ground beef in a large skillet over medium-high heat, breaking it up with a spoon; add garlic and Italian herbs and cook for 1 minute. 🍅 Stir in marinara sauce and simmer for 10 minutes to meld flavors; season with salt and pepper. 🥣 In a large bowl, combine half the sauce with the cooked pasta and dollops of ricotta; gently fold to distribute without breaking the noodles. 🔥 Layer half the pasta mixture in a greased 9x13 baking dish, spread remaining sauce, then top with mozzarella and parmesan. ⏲️ Cover with foil and bake at 375°F (190°C) for 25 minutes, then remove foil and bake 10-15 more minutes until cheese is golden and bubbly. 🌿 Let rest for 10 minutes before serving with garlic bread.
 
-#bakedziti #pasta #italian #comfortfood 🌮🍱
+#bakedziti #pasta #italian #comfortfood #casserole #cheesy #familydinner #pastalover 🌮🍱
 ```
 
 ID: 132
@@ -1576,10 +1576,10 @@ Caption:
 🍚 Shrimp Fried Rice 🍚
 
 Recipe: 
-Ingredients: 🍚 3 cups day-old cooked rice, 🦐 1/2 lb shrimp, 🥚 2 eggs, 🥕 1/2 cup peas and carrots, 🍅 soy sauce. 
-Steps: 👨‍🍳 Scramble eggs in a hot wok. 🥣 Sauté shrimp and veggies. 🔥 Add rice and soy sauce, tossing continuously over high heat.
+Ingredients: 🍚 3 cups day-old jasmine rice (chilled overnight), 🦐 1/2 lb large shrimp (peeled and deveined), 🥚 2 large eggs (lightly beaten), 🥕 1/2 cup frozen peas and diced carrots, 🌿 3 scallions (thinly sliced), 🧄 3 cloves garlic (minced), 🫚 1 tbsp grated fresh ginger, 🍅 3 tbsp soy sauce, 🍾 1 tbsp sesame oil. 
+Steps: 🥚 Heat 1 tbsp oil in a wok over high heat until smoking; pour in eggs, scramble quickly, and remove to a plate. 🦐 Add shrimp to the wok, season with salt, and stir-fry for 2-3 minutes until pink and curled; remove and set aside with eggs. 🧄 Add remaining oil, garlic, ginger, and white parts of scallions; stir-fry for 30 seconds until fragrant. 🥕 Add peas and carrots, stir-fry for 1 minute, then add the cold rice, breaking up clumps with a spatula. 🍅 Pour soy sauce and sesame oil around the edges of the wok, tossing everything continuously for 3-4 minutes until rice is heated through and slightly toasted. 🔥 Return eggs and shrimp to the wok, toss to combine, and cook for 1 more minute. 🌿 Garnish with green scallion tops and serve immediately.
 
-#friedrice #asianfood #shrimp #dinner 🌮🍱
+#friedrice #asianfood #shrimp #dinner #wokcooking #chinesefood #leftoverrice #stirfry 🌮🍱
 ```
 
 ID: 133
@@ -1588,10 +1588,10 @@ Caption:
 🐟 British Fish and Chips 🐟
 
 Recipe: 
-Ingredients: 🐟 2 large cod fillets, 🍺 1 cup beer, 🌾 1 cup flour, 🥔 4 large potatoes, 🍅 tartar sauce. 
-Steps: 👨‍🍳 Cut potatoes into fries and fry until golden. 🥣 Dip cod in beer batter. 🔥 Deep fry at 375°F until the crust is crispy and golden.
+Ingredients: 🐟 2 large cod fillets (skinless, 6-8 oz each), 🍺 1 cup cold light beer, 🌾 1.5 cups all-purpose flour, 🥔 4 large russet potatoes, 🥄 1 tsp baking powder, 🧂 1 tsp salt, 🍋 lemon wedges, 🍅 1 cup homemade tartar sauce. 
+Steps: 🥔 Peel potatoes and cut into 1/2-inch thick chips; soak in cold water for 30 minutes to remove starch, then drain and pat completely dry. 🔥 Heat oil to 325°F (165°C) and blanch chips for 4-5 minutes until softened but not browned; drain on a rack. 🥣 Whisk 1 cup flour, baking powder, and salt; gradually stir in cold beer until a smooth, thick batter forms. 🐟 Pat cod fillets dry, dredge in remaining flour, shaking off excess, then dip into the beer batter, letting excess drip off. 🔥 Fry cod in 375°F (190°C) oil for 4-6 minutes until the batter is puffed, golden, and crispy; drain on a wire rack. 🍟 Increase oil to 375°F and fry the par-cooked chips for 2-3 minutes until golden and crispy; season immediately with salt. 🍋 Serve the fish and chips piping hot with lemon wedges, tartar sauce, and a sprinkle of malt vinegar.
 
-#fishandchips #britishfood #seafood #friedfood 🌮🍱
+#fishandchips #britishfood #seafood #friedfood #pubfood #cod #comfortfood #crispy 🌮🍱
 ```
 
 ID: 134
@@ -1600,10 +1600,10 @@ Caption:
 🥘 Authentic Seafood Paella 🥘
 
 Recipe: 
-Ingredients: 🥘 1.5 cups bomba rice, 🦐 mixed seafood (shrimp, mussels), 🌶️ chorizo, 🌼 pinch of saffron, 🍅 3 cups broth. 
-Steps: 👨‍🍳 Sauté chorizo and sofrito. 🥣 Add rice, broth, and saffron; do not stir. 🔥 Arrange seafood on top and simmer until rice is tender and a crust (socarrat) forms.
+Ingredients: 🥘 1.5 cups bomba rice (or short-grain Valencia rice), 🦐 1/2 lb jumbo shrimp (shell-on), 🐚 1/2 lb mussels (scrubbed and debearded), 🌶️ 1/2 lb Spanish chorizo (sliced), 🧅 1 large onion (diced), 🫑 1 red bell pepper (diced), 🧄 4 cloves garlic (minced), 🌼 generous pinch of saffron threads, 🍅 3 cups hot fish or chicken broth, 🫒 1/4 cup olive oil. 
+Steps: 🫒 Heat olive oil in a wide paella pan over medium-high heat; sauté chorizo for 3-4 minutes until it renders its red oil. 🧅 Add onion and bell pepper, cooking for 5 minutes until softened; stir in garlic and cook for 30 seconds. 🍅 Add tomatoes and cook until thickened into a sofrito, about 5 minutes; stir in rice to coat with the flavorful oil. 🌼 Dissolve saffron in hot broth, then pour into the pan; shake the pan gently to distribute rice evenly but do not stir. 🔥 Bring to a boil, then reduce to a simmer for 10 minutes without stirring. 🦐 Nestle shrimp and mussels into the rice, cover loosely with foil, and cook for another 8-10 minutes until seafood is cooked and rice is al dente. ⏲️ Remove from heat, cover with a clean kitchen towel, and let rest for 5 minutes to develop the socarrat (crispy bottom crust); serve with lemon wedges.
 
-#paella #spanishfood #seafood #rice 🌮🍱
+#paella #spanishfood #seafood #rice #socarrat #valencia #dinnerparty #traditional 🌮🍱
 ```
 
 ID: 135
@@ -1612,10 +1612,10 @@ Caption:
 🍝 Spicy Clam Linguine 🍝
 
 Recipe: 
-Ingredients: 🍝 1 lb linguine, 🐚 2 dozen littleneck clams, 🧄 4 cloves garlic, 🌶️ chili flakes, 🍷 1 cup white wine. 
-Steps: 👨‍🍳 Sauté garlic and chili flakes in olive oil. 🥣 Add clams and wine, cover until clams open. 🔥 Toss with cooked linguine and fresh parsley.
+Ingredients: 🍝 1 lb dried linguine, 🐚 2 dozen fresh littleneck clams (scrubbed clean), 🧄 6 cloves garlic (thinly sliced), 🌶️ 1/2 tsp red pepper flakes, 🍷 1 cup dry white wine, 🫒 1/3 cup extra virgin olive oil, 🌿 1/4 cup fresh parsley (chopped), 🧈 2 tbsp unsalted butter. 
+Steps: 🍝 Cook linguine in a large pot of heavily salted boiling water until just shy of al dente; reserve 1 cup pasta water before draining. 🫒 Heat olive oil in a large, deep skillet over medium heat; add garlic and red pepper flakes, sautéing gently for 2-3 minutes until garlic is golden and fragrant. 🍷 Pour in white wine, increase heat to medium-high, and simmer for 3-4 minutes to reduce slightly and cook off the alcohol. 🐚 Add clams, cover tightly with a lid, and steam for 5-7 minutes, shaking the pan occasionally, until all clams have opened (discard any that remain closed). 🧈 Add butter and a splash of reserved pasta water to the clam broth, swirling to emulsify into a silky sauce. 🔥 Add drained linguine to the skillet and toss vigorously for 1-2 minutes until the pasta is coated and finishes cooking in the sauce. 🌿 Remove from heat, stir in fresh parsley, and serve immediately in shallow bowls with crusty bread.
 
-#linguine #clams #seafood #pasta #italian 🌮🍱
+#linguine #clams #seafood #pasta #italian #vongole #datenight #mediterranean 🌮🍱
 ```
 
 ID: 136
@@ -1624,10 +1624,10 @@ Caption:
 🥣 Rich Lobster Bisque 🥣
 
 Recipe: 
-Ingredients: 🦞 2 lobster tails, 🥛 1 cup heavy cream, 🍷 1/4 cup brandy, 🍅 2 tbsp tomato paste, 🧅 aromatics. 
-Steps: 👨‍🍳 Sauté aromatics and simmer with lobster shells to make broth. 🥣 Strain, add cream, brandy, and tomato paste. 🔥 Simmer until thick, garnish with lobster meat.
+Ingredients: 🦞 2 whole lobster tails (about 8 oz each), 🥛 1.5 cups heavy cream, 🍷 1/4 cup cognac or brandy, 🍅 3 tbsp tomato paste, 🧅 1 large onion (diced), 🥕 1 carrot (diced), 🧄 3 cloves garlic (minced), 🌿 2 tbsp fresh tarragon, 🦐 4 cups seafood or fish stock. 
+Steps: 🔥 Steam lobster tails for 6-8 minutes until shells are bright red and meat is opaque; remove meat, chop, and refrigerate. 🦴 Break up shells and sauté with onion, carrot, and garlic in butter for 8-10 minutes until vegetables caramelize. 🍅 Stir in tomato paste and cook for 2 minutes, then deglaze with brandy, scraping up all browned bits. 🥣 Add seafood stock and simmer for 45 minutes; strain through a fine mesh sieve, pressing on solids to extract all liquid. 🥛 Return strained broth to pot, whisk in heavy cream, and simmer gently for 15 minutes until slightly thickened. 🔥 Add half the chopped lobster meat to the bisque and simmer for 5 minutes to infuse flavor; season with salt, white pepper, and cayenne. 🌿 Serve in warmed bowls topped with remaining lobster chunks and a sprinkle of fresh tarragon.
 
-#lobster #bisque #soup #gourmet #seafood 🌮🍱
+#lobster #bisque #soup #gourmet #seafood #finedining #creamysoup #specialoccasion 🌮🍱
 ```
 
 ID: 137
@@ -1636,10 +1636,10 @@ Caption:
 🥪 Juicy French Dip Sandwich 🥪
 
 Recipe: 
-Ingredients: 🥪 1 baguette, 🥩 1/2 lb deli roast beef, 🧀 4 slices provolone, 🥣 2 cups beef broth. 
-Steps: 👨‍🍳 Warm roast beef in beef broth. 🥣 Toast baguette with provolone until melted. 🔥 Pile beef onto the bread and serve with a bowl of the broth for dipping.
+Ingredients: 🥖 1 crusty French baguette (12 inches), 🥩 3/4 lb thinly sliced rare roast beef (deli or leftover), 🧀 6 slices provolone cheese, 🥣 3 cups rich beef broth, 🧅 1 small yellow onion (thinly sliced), 🧈 2 tbsp butter, 🧄 2 cloves garlic (minced), 🌿 1 tsp fresh thyme leaves. 
+Steps: 🧈 Melt butter in a saucepan over medium heat; sauté onion for 8-10 minutes until caramelized and sweet, then add garlic and thyme. 🥣 Pour in beef broth, bring to a simmer, and cook for 10 minutes to infuse with aromatics; keep warm over low heat. 🧀 Split the baguette lengthwise, pile provolone on the bottom half, and toast under the broiler for 1-2 minutes until cheese is melted and bubbly. 🥩 Divide warm roast beef into the hot broth, letting it soak for 30 seconds to heat through and absorb flavor. 🔥 Pile the dripping wet beef onto the cheesy baguette bottom, cap with the top half, and slice into individual sandwiches. 🥣 Serve each sandwich with a small bowl of the hot broth (au jus) on the side for dipping, and extra broth for refills.
 
-#frenchdip #sandwich #beef #lunch #comfortfood 🌮🍱
+#frenchdip #sandwich #beef #lunch #comfortfood #roastbeef #aujus #dinner 🌮🍱
 ```
 
 ID: 138
@@ -1648,10 +1648,10 @@ Caption:
 🥟 Steamed Pork Dumplings 🥟
 
 Recipe: 
-Ingredients: 🥟 dumpling wrappers, 🐷 1/2 lb ground pork, 🥬 1/2 cup minced cabbage, 🫚 1 tsp minced ginger. 
-Steps: 👨‍🍳 Mix pork, cabbage, and seasonings. 🥣 Place a spoonful in each wrapper and pleat to seal. 🔥 Steam for 8-10 minutes until cooked through.
+Ingredients: 🥟 30 round dumpling wrappers, 🐷 1/2 lb ground pork (80/20 blend), 🥬 1 cup napa cabbage (finely minced), 🫚 1 tbsp grated fresh ginger, 🧄 2 cloves garlic (minced), 🌿 2 scallions (finely chopped), 🥄 1 tbsp soy sauce, 🥄 1 tsp sesame oil, 🥄 1/2 tsp white pepper. 
+Steps: 🧂 Sprinkle minced cabbage with a pinch of salt, let sit for 10 minutes, then squeeze out excess moisture with a clean kitchen towel. 🥣 In a large bowl, combine pork, drained cabbage, ginger, garlic, scallions, soy sauce, sesame oil, and white pepper; stir vigorously in one direction for 2 minutes until sticky. 🥟 Place 1 tsp filling in the center of a wrapper, dip your finger in water and moisten the edges, fold in half, and make 5-6 pleats along the top to seal. 🔥 Line a bamboo steamer with parchment paper or cabbage leaves, arrange dumplings without touching, and steam over boiling water for 8-10 minutes. ⏲️ The dumplings are done when the wrappers turn slightly translucent and the filling reaches 160°F (71°C) internally. 🍜 Serve immediately with black vinegar, soy sauce, and chili oil for dipping.
 
-#dumplings #chinesefood #dimsum #pork #asiancuisine 🌮🍱
+#dumplings #chinesefood #dimsum #pork #asiancuisine #steamed #homemade #appetizer 🌮🍱
 ```
 
 ID: 139
@@ -1660,10 +1660,10 @@ Caption:
 🍗 Spicy Buffalo Wings 🍗
 
 Recipe: 
-Ingredients: 🍗 2 lbs chicken wings, 🌶️ 1/2 cup hot sauce, 🧈 1/4 cup melted butter, 🥛 blue cheese dressing. 
-Steps: 👨‍🍳 Fry wings at 375°F until crispy. 🥣 Whisk hot sauce and melted butter. 🔥 Toss the hot wings in the sauce until fully coated.
+Ingredients: 🍗 2 lbs chicken wings (split into flats and drumettes), 🌶️ 1/2 cup Frank's RedHot original hot sauce, 🧈 4 tbsp unsalted butter, 🥄 1 tbsp white vinegar, 🥄 1/2 tsp Worcestershire sauce, 🥛 1/2 cup blue cheese dressing, 🥕 celery sticks, 🌾 1/2 cup all-purpose flour. 
+Steps: 🧂 Pat wings completely dry with paper towels; toss with flour and a generous pinch of salt, then refrigerate uncovered for 1 hour to dry the skin further. 🔥 Heat oil in a deep pot to 375°F (190°C); fry wings in batches for 10-12 minutes until deeply golden and crispy, and internal temperature reaches 165°F (74°C). 🥣 While wings fry, melt butter in a saucepan, then whisk in hot sauce, vinegar, and Worcestershire; simmer for 2 minutes and keep warm. 🍗 Transfer fried wings immediately to a large mixing bowl, pour the warm sauce over them, and toss vigorously until every wing is fully coated. 🔥 For extra crispy wings, arrange sauced wings on a wire rack over a baking sheet and broil for 2-3 minutes to caramelize the sauce slightly. 🥕 Serve piping hot on a platter with blue cheese dressing and crisp celery sticks on the side.
 
-#buffalowings #wings #spicy #snack #gameday 🌮🍱
+#buffalowings #wings #spicy #snack #gameday #superbowl #friedfood #appetizer 🌮🍱
 ```
 
 ID: 140
@@ -1672,10 +1672,10 @@ Caption:
 🥙 Crispy Falafel Wrap 🥙
 
 Recipe: 
-Ingredients: 🥙 warm pita, 🧆 1 cup dry chickpeas (soaked), 🌿 fresh parsley and cilantro, 🍅 tahini sauce. 
-Steps: 👨‍🍳 Blend soaked chickpeas with herbs and spices. 🥣 Form into balls and deep fry until crispy. 🔥 Wrap in pita with veggies and a heavy drizzle of tahini.
+Ingredients: 🧆 1 cup dried chickpeas (soaked overnight, not canned), 🌿 1 cup fresh parsley (packed), 🌿 1/2 cup fresh cilantro (packed), 🧅 1 small yellow onion (quartered), 🧄 4 cloves garlic, 🥄 1 tsp ground cumin, 🥄 1 tsp ground coriander, 🥙 4 warm pita breads, 🍅 1/2 cup tahini sauce, 🥒 1 cup shredded lettuce, 🍅 diced tomatoes, pickled turnips. 
+Steps: 🧂 Drain soaked chickpeas thoroughly and pat dry; they should still have a slight bite when you bite into one. 🥣 Add chickpeas, herbs, onion, garlic, and spices to a food processor; pulse until a coarse, grainy mixture forms that holds together when squeezed (do not over-process into hummus). ❄️ Transfer mixture to a bowl, cover, and refrigerate for at least 1 hour to allow flavors to meld and the mixture to firm up. 🔥 Heat 2 inches of oil to 350°F (175°C); form mixture into ping-pong sized balls and fry in batches for 3-4 minutes until deep mahogany and crispy. 🥙 Warm pitas briefly, then spread a generous layer of tahini inside, add lettuce, tomatoes, and pickled turnips. 🔥 Nestle 3-4 hot falafel balls into each pita and drizzle with more tahini; serve immediately while hot and crunchy.
 
-#falafel #middleeasternfood #vegetarian #wrap #healthy 🌮🍱
+#falafel #middleeasternfood #vegetarian #wrap #healthy #vegan #streetfood #mediterranean 🌮🍱
 ```
 
 ID: 141
@@ -1684,10 +1684,10 @@ Caption:
 🥙 Greek Gyro Sandwich 🥙
 
 Recipe: 
-Ingredients: 🥙 fluffy pita bread, 🥩 1/2 lb gyro meat (lamb/beef), 🥒 1/2 cup tzatziki sauce, 🍅 tomatoes and onions. 
-Steps: 👨‍🍳 Sear gyro meat until crispy edges form. 🥣 Warm the pita. 🔥 Layer meat, veggies, and a generous dollop of tzatziki sauce.
+Ingredients: 🥙 4 fluffy pita breads, 🥩 1 lb ground lamb (80/20 blend), 🥩 1/2 lb ground beef, 🧅 1 small onion (finely grated), 🧄 3 cloves garlic (minced), 🌿 1 tbsp dried oregano, 🥒 1/2 cup tzatziki sauce, 🍅 1 tomato (diced), 🧅 1/2 red onion (thinly sliced), 🍟 french fries (optional). 
+Steps: 🥣 In a food processor, combine ground lamb, beef, grated onion, garlic, oregano, salt, pepper, and a pinch of cumin; blend until a smooth, paste-like consistency forms. 🔥 Press the meat mixture firmly into a loaf pan, cover with foil, and bake at 325°F (165°C) for 1 hour; drain fat and let cool slightly. 🔪 Slice the cooked meatloaf as thinly as possible, then sear the slices in a hot skillet with a little oil until edges are crispy and caramelized. 🥙 Warm pitas on a dry skillet or directly over a gas flame for 20 seconds per side until soft and slightly charred. 🥒 Spread a generous layer of tzatziki on each warm pita, then pile on seared meat, diced tomatoes, and thinly sliced red onion. 🔥 Wrap tightly in foil or parchment paper, and serve with extra tzatziki and lemon wedges on the side.
 
-#gyro #greekfood #streetfood #sandwich #lamb 🌮🍱
+#gyro #greekfood #streetfood #sandwich #lamb #mediterranean #tzatziki #comfortfood 🌮🍱
 ```
 
 ID: 142
@@ -1696,10 +1696,10 @@ Caption:
 🍝 Classic Beef Stroganoff 🍝
 
 Recipe: 
-Ingredients: 🍝 1 lb egg noodles, 🥩 1 lb beef sirloin strips, 🍄 2 cups sliced mushrooms, 🥛 1 cup sour cream. 
-Steps: 👨‍🍳 Sear beef strips quickly and remove. 🥣 Sauté mushrooms and onions, then add broth to make sauce. 🔥 Stir in beef and sour cream, serve over cooked noodles.
+Ingredients: 🍝 1 lb wide egg noodles, 🥩 1.5 lbs beef sirloin (cut into 1/4-inch strips against the grain), 🍄 12 oz cremini mushrooms (sliced), 🧅 1 large yellow onion (thinly sliced), 🧄 3 cloves garlic (minced), 🥛 1 cup full-fat sour cream, 🍷 1/2 cup dry white wine, 🥄 2 tbsp all-purpose flour, 🧈 3 tbsp unsalted butter, 🌿 2 tbsp fresh dill (chopped). 
+Steps: 🧂 Season beef strips generously with salt and pepper; sear in 1 tbsp butter over high heat in batches for 1 minute per side until browned but still pink inside; remove and set aside. 🧈 Add remaining butter to the same pan; sauté onions for 5 minutes until softened, then add mushrooms and cook for 8-10 minutes until golden and their moisture evaporates. 🧄 Stir in garlic and cook for 30 seconds until fragrant; sprinkle flour over vegetables and stir for 1 minute to cook out the raw taste. 🍷 Deglaze with white wine, scraping up browned bits, and simmer for 2 minutes until slightly reduced. 🥛 Reduce heat to low, stir in sour cream and beef broth, and simmer gently for 3-4 minutes until sauce thickens (do not boil or sour cream will curdle). 🔥 Return beef and any accumulated juices to the pan; simmer for 2 minutes just to heat through. 🍝 Serve immediately over hot buttered egg noodles, garnished with fresh dill and extra black pepper.
 
-#beefstroganoff #comfortfood #pasta #dinner #beef 🌮🍱
+#beefstroganoff #comfortfood #pasta #dinner #beef #russianfood #creamysauce #homemade 🌮🍱
 ```
 
 ID: 143
@@ -1708,10 +1708,10 @@ Caption:
 🍆 Provencal Ratatouille 🍆
 
 Recipe: 
-Ingredients: 🍆 1 eggplant, 🥒 2 zucchini, 🍅 4 tomatoes, 🧄 3 cloves garlic, 🌿 fresh thyme. 
-Steps: 👨‍🍳 Slice all vegetables into thin, uniform rounds. 🥣 Spread tomato sauce in a baking dish and arrange veggie slices in an overlapping spiral. 🔥 Bake at 375°F until veggies are tender.
+Ingredients: 🍆 1 large eggplant (sliced into 1/8-inch rounds), 🥒 2 medium zucchini (sliced into 1/8-inch rounds), 🍅 4 Roma tomatoes (sliced into 1/8-inch rounds), 🫑 1 yellow bell pepper (diced), 🧅 1 large yellow onion (diced), 🧄 4 cloves garlic (minced), 🍅 1 cup crushed San Marzano tomatoes, 🌿 2 tbsp fresh thyme leaves, 🫒 1/4 cup extra virgin olive oil, 🧀 2 tbsp grated Gruyère (optional). 
+Steps: 🧂 Lay eggplant slices on a baking sheet, sprinkle with salt, and let sit for 30 minutes to draw out bitterness; pat dry with paper towels. 🔥 Roast yellow pepper and onion in olive oil at 400°F (200°C) for 20 minutes until caramelized; blend with crushed tomatoes, garlic, and thyme to make a smooth sauce. 🥣 Spread the sauce evenly in the bottom of a round baking dish or cast iron skillet. 🍆 Arrange slices of eggplant, zucchini, and tomato in alternating overlapping circles, standing them upright and packing them tightly. 🫒 Drizzle generously with olive oil, season with salt and pepper, and cover tightly with foil. ⏲️ Bake at 375°F (190°C) for 45 minutes, then remove foil and bake another 15-20 minutes until vegetables are tender and slightly caramelized on top. 🧀 Optionally sprinkle with Gruyère in the last 5 minutes; let rest 10 minutes before serving.
 
-#ratatouille #frenchfood #vegetarian #healthy #vegetables 🌮🍱
+#ratatouille #frenchfood #vegetarian #healthy #vegetables #provence #mediterranean #vegan 🌮🍱
 ```
 
 ID: 144
@@ -1720,10 +1720,10 @@ Caption:
 🧀 Classic Swiss Cheese Fondue 🧀
 
 Recipe: 
-Ingredients: 🧀 2 cups grated Gruyère, 🧀 2 cups grated Emmental, 🍷 1 cup dry white wine, 🥖 1 crusty baguette. 
-Steps: 👨‍🍳 Rub a pot with a garlic clove and heat wine. 🥣 Slowly whisk in the cheeses until smooth and melted. 🔥 Keep warm over a flame and dip bread cubes.
+Ingredients: 🧀 2 cups aged Gruyère cheese (coarsely grated), 🧀 2 cups Emmental cheese (coarsely grated), 🍷 1 cup dry white wine (Sauvignon Blanc or Swiss Fendant), 🥄 1 tbsp cornstarch, 🧄 1 clove garlic (halved), 🍋 1 tbsp fresh lemon juice, 🥄 1 tbsp kirsch (cherry brandy), 🥖 1 crusty French baguette (cut into 1-inch cubes), 🍎 1 Granny Smith apple (cubed). 
+Steps: 🧄 Rub the inside of a heavy-bottomed fondue pot or enameled cast iron pot with the cut side of the garlic clove; discard garlic. 🍷 Pour wine and lemon juice into the pot and heat over medium-low until gently simmering but not boiling. 🥣 Toss grated cheeses with cornstarch in a large bowl until evenly coated; this prevents clumping and creates a silky texture. 🧀 Add cheese to the warm wine one handful at a time, stirring constantly in a figure-eight motion with a wooden spoon until each addition is completely melted. 🔥 Once all cheese is incorporated and smooth, stir in kirsch and a pinch of nutmeg and white pepper. ⏲️ Keep the fondue warm over a low flame or tealight burner, stirring occasionally to prevent a skin from forming. 🥖 Spear bread cubes and apple pieces with long fondue forks, swirl in the cheese, and enjoy with a crisp white wine.
 
-#fondue #cheese #swissfood #appetizer #comfortfood 🌮🍱
+#fondue #cheese #swissfood #appetizer #comfortfood #datenight #winterfood #party 🌮🍱
 ```
 
 ID: 145
@@ -1732,10 +1732,10 @@ Caption:
 🥞 Elegant Crêpes Suzette 🥞
 
 Recipe: 
-Ingredients: 🥞 4 thin crêpes, 🍊 1/2 cup fresh orange juice, 🧈 3 tbsp butter, 🥃 2 tbsp Grand Marnier. 
-Steps: 👨‍🍳 Melt butter and orange juice in a skillet. 🥣 Fold crêpes into quarters and place in the simmering sauce. 🔥 Add Grand Marnier and carefully ignite to flambé.
+Ingredients: 🥞 8 thin homemade crêpes, 🍊 1/2 cup fresh orange juice (from 2-3 oranges), 🍊 2 tbsp orange zest, 🧈 4 tbsp unsalted butter, 🍬 2 tbsp sugar, 🥃 3 tbsp Grand Marnier or Cointreau, 🥃 1 tbsp Cognac, 🍊 1 orange (segmented for garnish). 
+Steps: 🍊 In a large non-stick skillet, melt butter with sugar over medium heat, stirring until sugar dissolves and begins to caramelize slightly, about 3 minutes. 🍊 Add orange juice, zest, and a pinch of salt; simmer for 2 minutes to reduce into a glossy, fragrant sauce. 🥞 Lay one crêpe flat in the pan, let it soak for 10 seconds, then fold it in half and in half again to form a triangle; push to the side and repeat with remaining crêpes. 🥃 Once all crêpes are folded and arranged in the pan, pour Grand Marnier and Cognac over them. 🔥 Carefully tilt the pan toward the flame (or use a long match) to ignite the alcohol; let the flames subside naturally, shaking the pan gently. ⏲️ The alcohol will burn off, leaving a warm, caramelized orange glaze coating the crêpes. 🍊 Serve immediately on warmed plates, spooning extra sauce over the top and garnishing with fresh orange segments.
 
-#crepes #frenchdessert #sweet #dessert #gourmet 🌮🍱
+#crepes #frenchdessert #sweet #dessert #gourmet #flambe #orangedessert #elegant 🌮🍱
 ```
 
 ID: 146
@@ -1744,10 +1744,10 @@ Caption:
 🍳 Classic Eggs Florentine 🍳
 
 Recipe: 
-Ingredients: 🍞 2 English muffin halves, 🍳 2 poached eggs, 🥬 1 cup sautéed spinach, 🧈 1/4 cup hollandaise sauce. 
-Steps: 👨‍🍳 Poach eggs and toast muffins. 🥣 Sauté spinach with a touch of garlic. 🔥 Assemble muffins, spinach, and eggs, then drown in warm hollandaise.
+Ingredients: 🍞 2 English muffins (split and toasted), 🍳 4 large eggs, 🥬 2 cups fresh baby spinach, 🧈 1/2 cup unsalted butter, 🥚 2 large egg yolks, 🍋 1 tbsp fresh lemon juice, 🧂 pinch of cayenne pepper, 🧂 pinch of salt, 🧄 1 clove garlic (minced). 
+Steps: 🍳 Bring a pot of water to a gentle simmer; crack each egg into a small bowl, create a vortex with a spoon, and slide eggs in; poach for 3 minutes for runny yolks; remove with a slotted spoon. 🧈 Make hollandaise: whisk egg yolks and lemon juice in a double boiler over simmering water until thickened, then slowly drizzle in melted butter while whisking constantly until sauce is glossy; season with cayenne and salt. 🥬 Sauté spinach with garlic and a pat of butter in a skillet over medium heat for 2-3 minutes until wilted; season with salt, pepper, and a grating of nutmeg. 🍞 Split and toast English muffins until golden and crispy around the edges. 🔥 Assemble by placing muffin halves on plates, topping with a mound of warm sautéed spinach, then a perfectly poached egg. 🧈 Generously ladle warm hollandaise over each egg, allowing it to cascade down the sides; serve immediately.
 
-#eggsflorentine #breakfast #brunch #eggs #vegetarian 🌮🍱
+#eggsflorentine #breakfast #brunch #eggs #vegetarian #hollandaise #poachedeggs #frenchcuisine 🌮🍱
 ```
 
 ID: 147
@@ -1756,10 +1756,10 @@ Caption:
 🍗 Zesty Chicken Piccata 🍗
 
 Recipe: 
-Ingredients: 🍗 2 thinly pounded chicken breasts, 🍋 2 tbsp lemon juice, 🟢 2 tbsp capers, 🧈 3 tbsp butter. 
-Steps: 👨‍🍳 Dredge chicken in flour and pan-sear until golden. 🥣 Remove chicken, add lemon juice, capers, and butter to the pan to form a sauce. 🔥 Return chicken to the pan to coat.
+Ingredients: 🍗 4 boneless skinless chicken breasts (butterflied and pounded to 1/4 inch), 🌾 1/2 cup all-purpose flour, 🧈 4 tbsp unsalted butter, 🫒 3 tbsp olive oil, 🍋 1/3 cup fresh lemon juice, 🍋 2 tbsp lemon zest, 🟢 3 tbsp capers (drained), 🍷 1/2 cup dry white wine, 🌿 2 tbsp fresh parsley (chopped), 🧄 2 cloves garlic (minced). 
+Steps: 🧂 Season chicken cutlets with salt and pepper; dredge in flour, shaking off excess. 🔥 Heat 2 tbsp butter and olive oil in a large skillet over medium-high heat until foaming subsides. 🍗 Pan-sear chicken in batches for 3 minutes per side until golden brown and cooked through (165°F internal); transfer to a warm plate. 🧄 Add garlic to the same pan, sauté for 30 seconds, then deglaze with white wine, scraping up browned bits; simmer for 2 minutes. 🍋 Stir in lemon juice, lemon zest, capers, and remaining butter; swirl pan until butter melts and sauce emulsifies, about 1 minute. 🔥 Return chicken to the pan, spooning sauce over each piece; simmer for 2 minutes to heat through and meld flavors. 🌿 Transfer to a serving platter, pour remaining sauce over the top, and garnish generously with fresh parsley and lemon wheels.
 
-#chickenpiccata #italian #chicken #dinner #lemon 🌮🍱
+#chickenpiccata #italian #chicken #dinner #lemon #capers #panseared #weeknightdinner 🌮🍱
 ```
 
 ID: 148
@@ -1768,10 +1768,10 @@ Caption:
 🥩 Spicy Beef Rendang 🥩
 
 Recipe: 
-Ingredients: 🥩 1.5 lbs beef chuck, 🥥 1 can coconut milk, 🌿 2 stalks lemongrass, 🌶️ rendang spice paste. 
-Steps: 👨‍🍳 Sauté spice paste and lemongrass. 🥣 Add beef and coconut milk. 🔥 Simmer uncovered on low heat for 3-4 hours until the liquid evaporates and the beef fries in the spiced oils.
+Ingredients: 🥩 2 lbs beef chuck (cut into 2-inch cubes), 🥥 1 can (14 oz) full-fat coconut milk, 🌿 3 stalks lemongrass (smashed), 🌶️ 5 dried red chilies (soaked and ground), 🧅 1 large onion (roughly chopped), 🧄 6 cloves garlic, 🫚 2-inch piece galangal (or ginger), 🌿 4 kaffir lime leaves, 🥄 1 tbsp tamarind paste, 🍬 1 tbsp palm sugar. 
+Steps: 🔥 Blend soaked chilies, onion, garlic, and galangal into a smooth spice paste (rempah) using a food processor or mortar and pestle. 🥣 Heat a splash of oil in a heavy Dutch oven over medium heat; fry the spice paste and lemongrass for 8-10 minutes until deeply fragrant and the oil begins to separate. 🥩 Add beef cubes, tossing to coat thoroughly in the spice paste; sear for 5 minutes until lightly browned on all sides. 🥥 Pour in coconut milk, kaffir lime leaves, tamarind paste, and palm sugar; bring to a gentle boil, then reduce heat to the lowest setting. ⏲️ Simmer uncovered for 3-4 hours, stirring every 20-30 minutes, until the liquid completely evaporates and the beef begins to fry in the rendered spiced coconut oil. 🔥 Continue cooking for another 30-45 minutes, stirring frequently, until the beef is dark mahogany, the sauce is thick and caramelized, and the oil separates. 🌿 Remove lemongrass and lime leaves; let rest for 15 minutes before serving with steamed jasmine rice.
 
-#rendang #indonesianfood #beef #curry #spicy 🌮🍱
+#rendang #indonesianfood #beef #curry #spicy #slowcooked #coconut #southeastasian 🌮🍱
 ```
 
 ID: 149
@@ -1780,10 +1780,10 @@ Caption:
 🥣 Thai Tom Kha Gai 🥣
 
 Recipe: 
-Ingredients: 🥥 1 can coconut milk, 🍗 1/2 lb sliced chicken breast, 🍄 1 cup mushrooms, 🫚 1 inch galangal, 🍋 2 stalks lemongrass. 
-Steps: 👨‍🍳 Simmer coconut milk with smashed galangal and lemongrass. 🥣 Add chicken and mushrooms; cook until tender. 🔥 Season with fish sauce and lime juice.
+Ingredients: 🥥 2 cans (14 oz each) full-fat coconut milk, 🍗 1 lb boneless skinless chicken thighs (sliced thin), 🍄 8 oz straw mushrooms (halved), 🫚 3-inch piece galangal (sliced), 🍋 3 stalks lemongrass (smashed), 🍋 4 kaffir lime leaves, 🌶️ 2 Thai bird's eye chilies (smashed), 🐟 2 tbsp fish sauce, 🍋 2 tbsp fresh lime juice, 🌿 fresh cilantro. 
+Steps: 🥣 Pour coconut milk and 1 cup water into a pot; add galangal, lemongrass, lime leaves, and chilies. 🔥 Bring to a gentle simmer over medium heat and cook for 10 minutes to infuse the broth with aromatics. 🍗 Add sliced chicken thighs, stirring to separate pieces; simmer for 5-7 minutes until chicken is cooked through and tender. 🍄 Add straw mushrooms and simmer for another 3 minutes until just softened. 🐟 Season with fish sauce, starting with 1 tbsp and adjusting to taste; stir in lime juice for brightness. 🔥 Taste and balance flavors: it should be creamy, sour, salty, and aromatic with a gentle heat from the chilies. 🌿 Remove from heat, discard lemongrass and galangal pieces, and ladle into bowls; garnish with fresh cilantro and an extra squeeze of lime.
 
-#tomkha #thaifood #soup #coconut #healthy 🌮🍱
+#tomkha #thaifood #soup #coconut #healthy #galangal #lemongrass #comfortfood 🌮🍱
 ```
 
 ID: 150
@@ -1792,10 +1792,10 @@ Caption:
 🐟 Miso Glazed Black Cod 🐟
 
 Recipe: 
-Ingredients: 🐟 2 black cod fillets, 🍅 3 tbsp white miso paste, 🍶 2 tbsp mirin, 🍬 1 tbsp sugar. 
-Steps: 👨‍🍳 Whisk miso, mirin, and sugar; marinate fish for 24 hours. 🥣 Broil the fish until the top is deeply caramelized and charred at the edges. 🔥 Serve immediately with pickled ginger.
+Ingredients: 🐟 2 black cod fillets (6 oz each, skin-on), 🍅 3 tbsp white miso paste (shiro miso), 🍶 2 tbsp mirin, 🍶 2 tbsp sake, 🍬 1 tbsp sugar, 🧈 1 tbsp unsalted butter (melted), 🫚 1 tsp grated fresh ginger, 🍋 pickled ginger for garnish. 
+Steps: 🥣 Whisk together miso paste, mirin, sake, sugar, melted butter, and grated ginger in a small bowl until completely smooth. 🐟 Pat cod fillets dry and place in a shallow dish; pour marinade over fish, turning to coat both sides evenly. ❄️ Cover tightly and refrigerate for at least 24 hours (up to 48 hours) to allow the miso to deeply penetrate and tenderize the fish. 🔥 Preheat broiler to high and line a baking sheet with foil; scrape excess marinade off the fish and place skin-side down. 🔥 Broil 6 inches from the heat source for 8-10 minutes, watching carefully, until the top is deeply caramelized, glossy, and slightly charred at the edges. 🐟 The fish should be opaque and flake easily when tested with a fork; do not overcook. 🍋 Serve immediately on warmed plates with pickled ginger, a drizzle of the reduced marinade, and steamed white rice.
 
-#blackcod #japanese #seafood #gourmet #dinner 🌮🍱
+#blackcod #japanese #seafood #gourmet #dinner #misoglaze #nobu #asianfusion 🌮🍱
 ```
 
 ID: 151
@@ -1804,10 +1804,10 @@ Caption:
 🍲 Moroccan Lamb Tagine 🍲
 
 Recipe: 
-Ingredients: 🥩 1.5 lbs lamb shoulder cubes, 🍑 1/2 cup dried apricots, 🌰 1/4 cup toasted almonds, 🪵 Moroccan spice blend. 
-Steps: 👨‍🍳 Sear lamb with spices in a tagine or heavy pot. 🥣 Add broth and simmer on low for 2 hours. 🔥 Stir in apricots and simmer until tender; garnish with almonds.
+Ingredients: 🥩 2 lbs lamb shoulder (cut into 2-inch cubes), 🍑 1 cup dried apricots (halved), 🌰 1/2 cup toasted slivered almonds, 🧅 2 large yellow onions (diced), 🧄 4 cloves garlic (minced), 🫚 2-inch piece ginger (grated), 🪵 2 tsp ras el hanout spice blend, 🌿 1 tsp ground cumin, 🌿 1 tsp ground cinnamon, 🍯 2 tbsp honey, 🍋 2 preserved lemons (quartered). 
+Steps: 🧂 Season lamb generously with salt, pepper, ras el hanout, cumin, and cinnamon; sear in batches in a tagine or Dutch oven until deeply browned on all sides. 🧅 Add onions to the same pot, sauté for 8 minutes until softened and golden; stir in garlic and ginger and cook for 1 minute. 🍯 Deglaze with 2 cups of warm lamb or chicken broth and stir in honey; return lamb and any juices to the pot. ⏲️ Cover and simmer on low heat for 1.5 hours, turning meat occasionally, until lamb is beginning to tenderize. 🍑 Add dried apricots and preserved lemons, nestling them into the broth; continue cooking for another 45 minutes. 🔥 Remove lid for the final 15 minutes to reduce sauce slightly; the lamb should be fork-tender and the sauce thick and fragrant. 🌰 Transfer to a serving platter, sprinkle generously with toasted almonds, and serve with warm couscous and fresh cilantro.
 
-#tagine #moroccanfood #lamb #stew #dinner 🌮🍱
+#tagine #moroccanfood #lamb #stew #dinner #slowcooked #apricots #northafrican 🌮🍱
 ```
 
 ID: 152
@@ -1816,10 +1816,10 @@ Caption:
 🥩 Milanese Osso Buco 🥩
 
 Recipe: 
-Ingredients: 🥩 2 large veal shanks, 🍅 1 cup crushed tomatoes, 🍷 1/2 cup white wine, 🌿 gremolata (parsley, lemon zest, garlic). 
-Steps: 👨‍🍳 Dredge shanks in flour and sear until brown. 🥣 Braise in wine, tomatoes, and broth for 2.5 hours until fall-apart tender. 🔥 Garnish with fresh gremolata.
+Ingredients: 🥩 4 thick-cut veal shanks (2-3 inches, tied with kitchen twine), 🌾 1/2 cup all-purpose flour, 🍅 1 cup crushed San Marzano tomatoes, 🍷 1 cup dry white wine, 🧅 1 large onion (diced), 🥕 1 carrot (diced), 🧄 3 cloves garlic (minced), 🌿 2 cups beef or veal broth, 🍋 2 tbsp fresh lemon zest, 🌿 1/4 cup fresh parsley (minced). 
+Steps: 🧂 Season veal shanks with salt and pepper, then dredge in flour, shaking off excess. 🔥 Sear shanks in a Dutch oven with olive oil over medium-high heat for 4 minutes per side until deeply browned; remove and set aside. 🧅 Add onion, carrot, and celery to the pot; sauté for 8 minutes until vegetables soften and begin to caramelize. 🧄 Stir in garlic and cook for 30 seconds, then deglaze with white wine, scraping up all browned bits; simmer for 3 minutes. 🍅 Add crushed tomatoes and broth, bring to a simmer, then return shanks to the pot, nestling them into the liquid. ⏲️ Cover and braise at 325°F (165°C) for 2.5-3 hours, turning shanks halfway, until meat is fall-apart tender and the marrow is soft and creamy. 🌿 Combine parsley, lemon zest, and minced garlic for gremolata; sprinkle over each shank just before serving with risotto alla Milanese.
 
-#ossobuco #italian #veal #dinner #gourmet 🌮🍱
+#ossobuco #italian #veal #dinner #gourmet #braised #milanese #comfortfood 🌮🍱
 ```
 
 ID: 153
@@ -1828,10 +1828,10 @@ Caption:
 🥩 Crispy Veal Milanese 🥩
 
 Recipe: 
-Ingredients: 🥩 1 large bone-in veal chop, 🌾 1 cup breadcrumbs, 🥚 1 egg, 🧈 1/4 cup clarified butter, 🍋 lemon wedges. 
-Steps: 👨‍🍳 Pound veal thin, dip in egg, and coat in breadcrumbs. 🥣 Pan-fry in hot clarified butter until deep golden brown on both sides. 🔥 Serve immediately with a squeeze of fresh lemon.
+Ingredients: 🥩 4 bone-in veal chops (pounded to 1/4 inch), 🌾 1.5 cups fine dry breadcrumbs, 🥚 2 large eggs (beaten), 🧀 1/2 cup grated parmesan cheese, 🧈 1/2 cup clarified butter (or ghee), 🍋 2 lemons (cut into wedges), 🌿 fresh arugula, 🍅 2 cups cherry tomatoes (halved), 🧂 salt and white pepper. 
+Steps: 🧂 Season pounded veal chops generously with salt and white pepper on both sides. 🥣 Set up a breading station: mix breadcrumbs with parmesan in one shallow dish, beat eggs in another. 🥩 Dredge each chop in flour, shake off excess, dip in beaten eggs, then press firmly into the breadcrumb mixture, coating evenly on both sides. 🧈 Heat clarified butter in a large skillet over medium-high heat until shimmering but not smoking. 🔥 Fry chops two at a time for 3-4 minutes per side until the coating is deep golden brown and crispy; transfer to a wire rack to stay crisp. 🍋 Toss arugula and cherry tomatoes with lemon juice, olive oil, salt, and pepper for a bright salad. 🌿 Serve the hot veal Milanese topped with the arugula salad and plenty of lemon wedges on the side.
 
-#milanese #italian #veal #friedfood #dinner 🌮🍱
+#milanese #italian #veal #friedfood #dinner #cotoletta #crispy #elegant 🌮🍱
 ```
 
 ID: 154
@@ -1840,10 +1840,10 @@ Caption:
 🍲 Spiced Aloo Gobi 🍲
 
 Recipe: 
-Ingredients: 🥔 2 potatoes (cubed), 🥦 1 head cauliflower (florets), 🥄 1 tsp turmeric, 🥄 1 tsp cumin seeds, 🌶️ green chilies. 
-Steps: 👨‍🍳 Sauté cumin seeds and chilies in oil. 🥣 Add potatoes, cauliflower, and spices. 🔥 Cover and cook on low heat until tender and slightly charred.
+Ingredients: 🥔 3 medium russet potatoes (peeled and cubed), 🥦 1 medium head cauliflower (cut into florets), 🥄 1 tsp turmeric powder, 🥄 1 tsp cumin seeds, 🌶️ 2 green chilies (slit lengthwise), 🧅 1 large onion (diced), 🧄 3 cloves garlic (minced), 🫚 1-inch piece ginger (grated), 🍅 2 medium tomatoes (diced), 🫒 3 tbsp vegetable oil, 🌿 fresh cilantro. 
+Steps: 🫒 Heat oil in a large skillet over medium heat; add cumin seeds and let them sizzle for 15 seconds until fragrant. 🧅 Add diced onion and sauté for 6-8 minutes until golden brown; stir in garlic, ginger, and green chilies. 🍅 Add diced tomatoes, turmeric, and a pinch of salt; cook for 5 minutes until tomatoes break down into a thick masala. 🥔 Add potato cubes and stir to coat in the masala; cover and cook for 8 minutes, stirring occasionally. 🥦 Add cauliflower florets, toss gently to combine, and add 2 tablespoons of water; cover and cook on low for 15-20 minutes. 🔥 Remove lid, increase heat to medium-high, and dry-fry for 3-4 minutes until vegetables are slightly charred and caramelized at the edges. 🌿 Garnish generously with fresh cilantro and serve hot with warm roti or basmati rice.
 
-#aloogobi #indianfood #vegetarian #vegan #curry 🌮🍱
+#aloogobi #indianfood #vegetarian #vegan #curry #cauliflower #potato #homemade 🌮🍱
 ```
 
 ID: 155
@@ -1852,10 +1852,10 @@ Caption:
 🍛 Creamy Butter Chicken 🍛
 
 Recipe: 
-Ingredients: 🍗 1 lb marinated chicken, 🍅 1.5 cups tomato puree, 🧈 3 tbsp butter, 🥛 1/2 cup heavy cream, 🥄 garam masala. 
-Steps: 👨‍🍳 Grill marinated chicken until charred. 🥣 Simmer tomato puree, spices, and butter. 🔥 Stir in cream and chicken; simmer for 10 minutes.
+Ingredients: 🍗 1.5 lbs boneless skinless chicken thighs (cubed), 🥛 1 cup full-fat plain yogurt, 🍋 2 tbsp lemon juice, 🥄 2 tsp garam masala, 🥄 1 tsp turmeric, 🥄 1 tsp cumin, 🍅 2 cups tomato puree, 🧈 4 tbsp unsalted butter, 🥛 1/2 cup heavy cream, 🧄 4 cloves garlic (minced), 🫚 1-inch piece ginger (grated), 🌶️ 1 tsp Kashmiri chili powder. 
+Steps: 🥣 Marinate chicken in yogurt, lemon juice, half the garam masala, turmeric, and cumin for at least 2 hours (preferably overnight) in the refrigerator. 🔥 Thread marinated chicken onto skewers and grill over high heat or broil for 5-6 minutes per side until charred and cooked through; set aside. 🧈 Melt butter in a large saucepan over medium heat; sauté garlic and ginger for 1 minute until fragrant. 🍅 Stir in tomato puree, Kashmiri chili powder, remaining garam masala, and salt; simmer for 15 minutes until sauce thickens and raw tomato taste disappears. 🥛 Reduce heat to low and slowly stir in heavy cream; simmer for 5 minutes until the sauce is silky and orange-hued. 🔥 Add grilled chicken pieces to the sauce, stirring to coat; simmer for another 5 minutes to meld flavors. 🌿 Finish with a pat of butter and a drizzle of cream swirled on top; serve with garlic naan and steamed basmati rice.
 
-#butterchicken #indianfood #curry #chicken #comfortfood 🌮🍱
+#butterchicken #indianfood #curry #chicken #comfortfood #creamy #tandoori #naan 🌮🍱
 ```
 
 ID: 156
@@ -1864,10 +1864,10 @@ Caption:
 🥗 Street-Style Samosa Chaat 🥗
 
 Recipe: 
-Ingredients: 🥟 2 large vegetable samosas, 🍲 1 cup chana masala (chickpea curry), 🥛 1/4 cup plain yogurt, 🌿 mint and tamarind chutneys. 
-Steps: 👨‍🍳 Crush warm samosas in a bowl. 🥣 Pour hot chana masala over them. 🔥 Drizzle generously with yogurt and both chutneys; top with crunchy sev.
+Ingredients: 🥟 2 large vegetable samosas (freshly fried), 🍲 1 cup chana masala (warm chickpea curry), 🥛 1/2 cup thick plain yogurt (whisked smooth), 🌿 3 tbsp green mint chutney, 🍅 3 tbsp sweet tamarind chutney, 🧅 1/4 cup finely diced red onion, 🌶️ 1 tbsp chaat masala, 🥔 1/4 cup crispy sev (chickpea flour noodles), 🌿 fresh cilantro. 
+Steps: 🔥 Fry or reheat samosas until piping hot and crispy, then immediately break them into large chunks in a shallow serving bowl. 🍲 Ladle warm chana masala generously over the crushed samosas, making sure every piece is soaked in the spicy chickpea curry. 🥛 Drizzle whisked yogurt in a zigzag pattern over the chana masala, followed by mint chutney and tamarind chutney in alternating lines. 🧅 Sprinkle diced red onion evenly over the top, then dust generously with chaat masala for that signature tangy, spicy kick. 🥔 Scatter a generous handful of crispy sev over everything for crunch; the contrast of soft, crunchy, and saucy is essential. 🌿 Garnish with fresh cilantro leaves and a final drizzle of tamarind chutney. 🔥 Serve immediately while the samosas are still crisp underneath and all the layers are warm.
 
-#samosachaat #indianstreetfood #vegetarian #snack #spicy 🌮🍱
+#samosachaat #indianstreetfood #vegetarian #snack #spicy #chaat #samosa #indianfood 🌮🍱
 ```
 
 ID: 157
@@ -1876,10 +1876,10 @@ Caption:
 🌮 Baja Crispy Fish Tacos 🌮
 
 Recipe: 
-Ingredients: 🌮 4 corn tortillas, 🐟 1/2 lb white fish fillets, 🍺 beer batter, 🥬 1 cup shredded purple cabbage, 🌶️ chipotle mayo. 
-Steps: 👨‍🍳 Dip fish in beer batter and deep fry until crispy. 🥣 Warm tortillas. 🔥 Assemble tacos with fish, cabbage, and a heavy drizzle of chipotle mayo.
+Ingredients: 🌮 8 small corn tortillas, 🐟 1 lb white fish fillets (cod or tilapia, cut into strips), 🌾 1 cup all-purpose flour, 🍺 1 cup cold Mexican beer, 🥄 1 tsp baking powder, 🥬 2 cups shredded purple cabbage, 🥑 1 ripe avocado (sliced), 🌶️ 1/2 cup chipotle mayo, 🍋 2 limes (cut into wedges), 🌿 fresh cilantro. 
+Steps: 🥣 Whisk flour, baking powder, and a pinch of salt; slowly stir in cold beer until a smooth, thick batter forms. 🔥 Heat 2 inches of oil to 375°F (190°C); pat fish dry, dredge in seasoned flour, dip in beer batter, and fry for 3-4 minutes until puffed and golden. 🥬 Toss shredded cabbage with lime juice, a pinch of salt, and a drizzle of olive oil for a quick slaw. 🌮 Warm corn tortillas on a dry skillet for 30 seconds per side until soft and slightly charred; wrap in a towel to keep warm. 🐟 Place 2-3 crispy fish strips on each tortilla, top with a mound of cabbage slaw and a few avocado slices. 🌶️ Drizzle generously with chipotle mayo and squeeze fresh lime over the top. 🌿 Garnish with fresh cilantro and serve immediately with extra lime wedges and hot sauce.
 
-#fishtacos #tacos #mexican #seafood #streetfood 🌮🍱
+#fishtacos #tacos #mexican #seafood #streetfood #bajafresh #crispyfish #taconight 🌮🍱
 ```
 
 ID: 158
@@ -1888,10 +1888,10 @@ Caption:
 🌶️ Authentic Chiles Rellenos 🌶️
 
 Recipe: 
-Ingredients: 🌶️ 4 large poblano peppers, 🧀 2 cups Oaxaca cheese, 🥚 3 eggs (separated), 🍅 1 cup light tomato broth. 
-Steps: 👨‍🍳 Roast, peel, and deseed poblanos; stuff with cheese. 🥣 Whip egg whites to stiff peaks, fold in yolks. 🔥 Dip peppers in batter and fry; serve in hot tomato broth.
+Ingredients: 🌶️ 6 large poblano peppers, 🧀 2 cups shredded Oaxaca cheese (or Monterey Jack), 🥚 4 large eggs (separated), 🌾 1/2 cup all-purpose flour, 🍅 2 cups tomato broth (caldo de jitomate), 🧅 1 small onion (diced), 🧄 2 cloves garlic (minced), 🫒 vegetable oil for frying, 🧂 salt. 
+Steps: 🔥 Char poblano peppers directly over a gas flame or under a broiler, turning frequently, until blackened all over; place in a covered bowl to steam for 10 minutes. 🧤 Rub off the charred skin with your fingers or a paper towel; make a small slit near the stem and carefully remove seeds while keeping the pepper intact. 🧀 Stuff each pepper with a generous amount of shredded cheese; secure the opening with toothpicks if needed. 🥣 Whip egg whites with a pinch of salt until stiff peaks form; gently fold in beaten yolks to create a fluffy batter. 🌾 Dredge stuffed peppers in flour, shaking off excess, then dip into the egg batter, coating completely. 🔥 Fry in 1 inch of hot oil (350°F/175°C) for 3-4 minutes per side until puffed and golden; drain on a rack. 🍅 Warm tomato broth with onion and garlic; place fried peppers in shallow bowls and ladle broth over them.
 
-#chilesrellenos #mexicanfood #vegetarian #spicy #dinner 🌮🍱
+#chilesrellenos #mexicanfood #vegetarian #spicy #dinner #poblano #cheese #authentic 🌮🍱
 ```
 
 ID: 159
@@ -1900,10 +1900,10 @@ Caption:
 🥟 Flaky Beef Empanadas 🥟
 
 Recipe: 
-Ingredients: 🥟 empanada dough discs, 🥩 1/2 lb ground beef, 🧅 1/2 cup diced onions, 🫒 1/4 cup green olives, 🥚 1 boiled egg (chopped). 
-Steps: 👨‍🍳 Brown beef with onions and spices. 🥣 Place filling, olives, and egg on dough discs; fold and crimp edges. 🔥 Bake at 400°F until golden brown.
+Ingredients: 🥟 12 empanada dough discs (or homemade), 🥩 1/2 lb ground beef, 🧅 1 large onion (finely diced), 🫒 1/4 cup green olives (chopped), 🥚 2 hard-boiled eggs (chopped), 🌶️ 1 tsp smoked paprika, 🥄 1 tsp ground cumin, 🧄 2 cloves garlic (minced), 🥚 1 egg (beaten, for egg wash). 
+Steps: 🥩 Brown ground beef in a skillet over medium-high heat, breaking it apart with a spoon until no pink remains; remove and drain excess fat. 🧅 Sauté onion and garlic in the same pan for 5 minutes until softened; add paprika, cumin, salt, pepper, and cook for 1 minute. 🥣 Return beef to pan, stir in chopped olives and a splash of beef broth; simmer for 5 minutes until mixture is moist but not wet; cool completely. 🥚 Lay dough discs on a clean surface, place 2 tablespoons of filling in the center, top with chopped hard-boiled egg. 🔥 Brush edges with water, fold dough over to create a half-moon, and press edges firmly; crimp with a fork or make decorative repulgue folds. 🥚 Brush tops with egg wash and bake at 400°F (200°C) for 20-25 minutes until deep golden and flaky. ⏲️ Let cool for 5 minutes before serving with chimichurri or salsa criolla.
 
-#empanadas #latinfood #beef #snack #baking 🌮🍱
+#empanadas #latinfood #beef #snack #baking #argentinian #handpie #comfortfood 🌮🍱
 ```
 
 ID: 160
@@ -1912,10 +1912,10 @@ Caption:
 🥗 Fresh Peruvian Ceviche 🥗
 
 Recipe: 
-Ingredients: 🐟 1 lb fresh sea bass, 🍋 1/2 cup fresh lime juice, 🧅 1/2 red onion (thinly sliced), 🌶️ 1 aji limo pepper, 🌿 fresh cilantro. 
-Steps: 👨‍🍳 Dice fish and mix with salt. 🥣 Pour lime juice over fish to cure for 5-10 minutes. 🔥 Toss with onions, chilies, and cilantro; serve immediately.
+Ingredients: 🐟 1 lb fresh sea bass or corvina (sushi-grade), 🍋 1 cup fresh lime juice (from 8-10 limes), 🧅 1/2 red onion (thinly sliced into half-moons), 🌶️ 1 aji limo pepper (or serrano, minced), 🌿 1/2 cup fresh cilantro (chopped), 🌽 1/2 cup Peruvian corn (choclo), 🍠 1 sweet potato (boiled and sliced), 🧂 sea salt. 
+Steps: 🐟 Cut fish into uniform 1/2-inch cubes, removing any bloodlines or sinew; place in a non-reactive glass or ceramic bowl. 🧂 Season fish with a generous pinch of sea salt and gently toss; let sit for 2 minutes to begin firming the flesh. 🍋 Pour fresh lime juice over the fish, ensuring all pieces are submerged; stir gently and refrigerate for 5-10 minutes until the fish turns opaque white (the acid 'cooks' it). 🌶️ Add thinly sliced red onion, minced aji limo, and chopped cilantro; fold gently to combine without breaking the delicate fish. 🔥 Taste and adjust seasoning with more salt or lime juice; the balance should be bright, acidic, and refreshing. 🌽 Arrange boiled sweet potato slices and Peruvian corn on the side of each serving bowl. 🥣 Spoon the ceviche into chilled bowls, pour a little of the leche de tigre (citrus marinade) over the top, and serve immediately with crisp plantain chips.
 
-#ceviche #peruvianfood #seafood #healthy #fresh 🌮🍱
+#ceviche #peruvianfood #seafood #healthy #fresh #lechedetigre #rawfish #lime 🌮🍱
 ```
 
 ID: 161
@@ -1924,10 +1924,10 @@ Caption:
 🫓 Cheesy Arepas de Queso 🫓
 
 Recipe: 
-Ingredients: 🫓 2 cups precooked cornmeal (masarepa), 🥛 warm water, 🧀 2 cups mozzarella or queso blanco, 🧈 butter. 
-Steps: 👨‍🍳 Mix cornmeal and water to form a dough. 🥣 Shape into thick discs and sear on a hot buttered griddle. 🔥 Split open and stuff generously with cheese until melted.
+Ingredients: 🫓 2 cups precooked white cornmeal (masarepa), 🥛 1.5 cups warm water, 🧀 2 cups shredded mozzarella or queso blanco, 🧈 3 tbsp unsalted butter (melted), 🧂 1 tsp salt, 🧈 butter for the griddle, 🥑 sliced avocado for serving. 
+Steps: 🥣 In a large bowl, combine masarepa and salt; gradually add warm water while mixing with your hands until a smooth, pliable dough forms (it should not crack when rolled into a ball). 🧈 Knead in melted butter until fully incorporated; let dough rest for 5 minutes to hydrate. 🧀 Divide dough into 8 equal portions; flatten each into a 3-inch disc about 1/2 inch thick, then create a small well in the center and stuff with a generous pinch of cheese. 🔥 Fold edges over the cheese, seal, and gently flatten again into a thick disc, being careful not to let cheese escape. 🧈 Heat a griddle or cast iron skillet over medium heat with a pat of butter; cook arepas for 6-8 minutes per side until a golden crust forms and they sound hollow when tapped. 🔥 Reduce heat to low, cover with a lid, and cook for another 3-4 minutes to ensure the cheese inside is completely melted and gooey. 🥑 Serve immediately, split open and topped with butter and sliced avocado.
 
-#arepas #colombianfood #cheese #snack #comfortfood 🌮🍱
+#arepas #colombianfood #cheese #snack #comfortfood #cornbread #glutenfree #streetfood 🌮🍱
 ```
 
 ID: 162
@@ -1936,10 +1936,10 @@ Caption:
 🍟 Classic Canadian Poutine 🍟
 
 Recipe: 
-Ingredients: 🍟 4 cups hot french fries, 🧀 1 cup fresh cheese curds, 🥣 1.5 cups hot beef gravy. 
-Steps: 👨‍🍳 Fry potatoes until extra crispy. 🥣 Mound fries on a plate and top evenly with cheese curds. 🔥 Pour steaming hot gravy over the top to slightly melt the curds.
+Ingredients: 🥔 3 large russet potatoes (cut into 1/4-inch fries), 🧀 2 cups fresh cheese curds (room temperature), 🥣 2 cups rich beef gravy, 🥄 2 tbsp cornstarch, 🥄 2 tbsp unsalted butter, 🧂 1 tsp sea salt, 🫒 vegetable oil for frying. 
+Steps: 🥔 Soak cut potatoes in ice water for at least 30 minutes to remove excess starch; drain and pat completely dry with clean towels. 🔥 Heat oil to 325°F (165°C) and blanch fries for 4-5 minutes until cooked through but pale; drain on a wire rack and let rest for 10 minutes. 🥣 Make beef gravy: melt butter in a saucepan, whisk in cornstarch to form a roux, then slowly whisk in beef stock; simmer until thick enough to coat the back of a spoon. 🔥 Increase oil temperature to 375°F (190°C); fry blanched potatoes for 2-3 minutes until deeply golden and crispy; drain and season immediately with sea salt. 🍟 Mound hot fries in a large, shallow bowl or plate; scatter cheese curds evenly over the top while fries are piping hot. 🔥 Ladle steaming hot gravy over the entire mound, ensuring some curds are buried under the gravy to melt while others remain squeaky and intact. ⏲️ Serve immediately with a fork; the contrast of crispy fries, melted and squeaky curds, and rich gravy is essential.
 
-#poutine #canadianfood #fries #cheese #comfortfood 🌮🍱
+#poutine #canadianfood #fries #cheese #comfortfood #gravy #cheesecurds #late-night 🌮🍱
 ```
 
 ID: 163
@@ -1948,10 +1948,10 @@ Caption:
 🍗 Spicy Jamaican Jerk Chicken 🍗
 
 Recipe: 
-Ingredients: 🍗 4 chicken leg quarters, 🌶️ 2 scotch bonnet peppers, 🧅 scallions, 🌿 fresh thyme, 🪵 1 tbsp ground allspice. 
-Steps: 👨‍🍳 Blend peppers, aromatics, and spices into a paste; marinate chicken overnight. 🥣 Grill slowly over indirect heat with pimento wood smoke. 🔥 Sear over high heat for a crispy, charred skin.
+Ingredients: 🍗 4 chicken leg quarters (skin-on, bone-in), 🌶️ 2 scotch bonnet peppers (stemmed), 🧅 6 scallions (roughly chopped), 🌿 4 sprigs fresh thyme (leaves only), 🪵 1 tbsp ground allspice, 🫚 1-inch piece ginger (sliced), 🧄 4 cloves garlic, 🍋 juice of 2 limes, 🥄 2 tbsp soy sauce, 🥄 1 tbsp brown sugar. 
+Steps: 🥣 In a blender, combine scotch bonnets, scallions, thyme, allspice, ginger, garlic, lime juice, soy sauce, and brown sugar; blend into a thick, fragrant paste. 🍗 Score chicken skin deeply with a sharp knife; rub the jerk paste all over and under the skin, massaging it into the meat. ❄️ Cover and refrigerate for at least 12 hours (preferably 24) to allow the aggressive flavors to penetrate deeply. 🔥 Prepare a two-zone grill: pile coals on one side and add soaked pimento wood chips or allspice berries for authentic smoke flavor. 🍗 Grill chicken skin-side up on the cool side, covered, for 45-55 minutes, maintaining 300-325°F, until internal temperature reaches 165°F (74°C). 🔥 Move chicken directly over the hot coals for the final 3-4 minutes per side to char and crisp the skin. 🍋 Let rest for 5 minutes before serving with rice and peas, fried plantains, and extra jerk sauce on the side.
 
-#jerkchicken #jamaicanfood #spicy #grilling #chicken 🌮🍱
+#jerkchicken #jamaicanfood #spicy #grilling #chicken #caribbean #scotchbonnet #bbq 🌮🍱
 ```
 
 ID: 164
@@ -1960,10 +1960,10 @@ Caption:
 🫓 Flaky Roti Canai with Curry 🫓
 
 Recipe: 
-Ingredients: 🫓 2 prepared roti canai dough balls, 🧈 ghee, 🍛 1 cup chicken curry. 
-Steps: 👨‍🍳 Stretch and flip dough until paper-thin, then fold to create layers. 🥣 Pan-fry with ghee until golden and flaky. 🔥 Crush the hot bread lightly with hands and serve with hot curry.
+Ingredients: 🫓 2 prepared roti canai dough balls (or frozen paratha), 🧈 3 tbsp ghee (clarified butter), 🍛 2 cups Malaysian chicken curry (warm), 🧅 1/2 small onion (finely diced), 🫚 1 tsp grated ginger, 🧄 2 cloves garlic (minced), 🌿 fresh cilantro, 🥄 1 tsp sugar. 
+Steps: ❄️ If using frozen dough, let it thaw completely and come to room temperature for 1 hour; this relaxes the gluten for stretching. 🔥 Oil your hands and a clean work surface generously with ghee; flatten a dough ball and begin stretching it from the center outward. 🫓 Pick up the edges and slap the dough back down, stretching it paper-thin until you can almost see through it; the thinner, the flakier the result. 🧈 Lift the thin sheet and fold it into an envelope shape or twist it into a spiral to create layers; flatten gently with your palm. 🔥 Cook on a hot, greased flat griddle for 2-3 minutes per side until golden brown, spotted with darker char marks, and crispy. 🍛 Serve immediately alongside a bowl of hot, fragrant chicken curry for dipping; clap the roti between your hands to separate the flaky layers. 🌿 Garnish curry with fresh cilantro and a sprinkle of diced raw onion for crunch.
 
-#roticanai #malaysianfood #bread #curry #streetfood 🌮🍱
+#roticanai #malaysianfood #bread #curry #streetfood #flaky #paratha #southeastasian 🌮🍱
 ```
 
 ID: 165
@@ -1972,10 +1972,10 @@ Caption:
 🍚 Authentic Hainanese Chicken Rice 🍚
 
 Recipe: 
-Ingredients: 🍗 1 whole chicken, 🍚 2 cups jasmine rice, 🫚 fresh ginger, 🧅 scallions, 🌶️ chili-garlic sauce. 
-Steps: 👨‍🍳 Poach chicken gently with ginger and scallions; plunge into ice water for silky skin. 🥣 Fry rice in chicken fat, then cook in the poaching broth. 🔥 Serve sliced chicken over rice with dipping sauces.
+Ingredients: 🍗 1 whole free-range chicken (about 3.5 lbs), 🍚 2 cups jasmine rice (rinsed), 🫚 4-inch piece ginger (sliced), 🧅 6 scallions, 🌿 2 tbsp sesame oil, 🧄 4 cloves garlic (smashed), 🌶️ 2 tbsp chili-garlic sauce, 🍋 2 tbsp dark soy sauce, 🥒 1 cucumber (sliced). 
+Steps: 🍗 Bring a large pot of water to a boil with ginger slices and scallions; gently lower the whole chicken in, breast-side up. ⏲️ Poach at a bare simmer for 45-50 minutes, skimming foam occasionally; the water should barely bubble. 🧊 Immediately plunge the cooked chicken into an ice bath for 10 minutes to stop cooking and set the skin to a silky, gelatinous texture. 🍚 Reserve 3 cups of the poaching broth; sauté rinsed rice in chicken fat and ginger until fragrant, then cook in the hot broth. 🔥 Rub the cooled chicken all over with sesame oil and salt; chop through the bones Chinese-style into neat pieces. 🌶️ Make dipping sauces: chili-garlic with lime juice, ginger-scallion oil with salt, and dark soy sauce with a splash of poaching broth. 🥒 Serve chicken at room temperature over hot rice, with cucumber slices and all three sauces on the side.
 
-#chickenrice #singaporeanfood #asianfood #healthy #chicken 🌮🍱
+#chickenrice #singaporeanfood #asianfood #healthy #chicken #hainanese #poached #comfortfood 🌮🍱
 ```
 
 ID: 166
@@ -1984,10 +1984,10 @@ Caption:
 🍜 Spicy Nyonya Laksa 🍜
 
 Recipe: 
-Ingredients: 🍜 1/2 lb rice noodles, 🥥 2 cups coconut milk, 🦐 1/2 lb shrimp, 🌶️ laksa curry paste, 🌿 fresh laksa leaf. 
-Steps: 👨‍🍳 Sauté laksa paste until fragrant; add coconut milk and broth to simmer. 🥣 Boil noodles and blanch shrimp. 🔥 Assemble bowls with noodles and toppings, then pour the hot, rich broth over everything.
+Ingredients: 🍜 1/2 lb thick rice noodles (laksa noodles), 🥥 2 cans (14 oz each) coconut milk, 🦐 1/2 lb large shrimp (peeled and deveined), 🌶️ 3 tbsp Nyonya laksa curry paste, 🐟 2 cups fish or shrimp stock, 🥚 2 hard-boiled eggs (halved), 🌱 1 cup bean sprouts, 🌿 fresh laksa leaves (or Vietnamese mint), 🍤 fish cakes (sliced). 
+Steps: 🥣 Heat 2 tbsp oil in a large pot over medium heat; fry laksa paste for 3-4 minutes until deeply fragrant and the oil begins to separate. 🥥 Pour in fish stock and bring to a simmer; add coconut milk slowly, stirring constantly, and bring back to a gentle bubble (do not boil vigorously or coconut milk will split). 🍤 Add fish cakes and simmer for 5 minutes; add shrimp and cook for 2-3 minutes until pink and curled; remove from heat. 🍜 Cook rice noodles in boiling water according to package directions; drain and rinse under cold water to stop cooking. 🥚 Divide noodles among deep bowls; arrange bean sprouts, hard-boiled egg halves, and fish cake slices on top. 🔥 Ladle the hot, fragrant laksa broth and shrimp over the noodles, ensuring each bowl gets plenty of curry and coconut richness. 🌿 Garnish with torn laksa leaves, a squeeze of lime, and a spoonful of sambal chili paste on the side.
 
-#laksa #malaysianfood #noodles #spicy #soup 🌮🍱
+#laksa #malaysianfood #noodles #spicy #soup #nyonya #coconut #comfortfood 🌮🍱
 ```
 
 ID: 167
@@ -1996,10 +1996,10 @@ Caption:
 🥞 Crispy Banh Xeo 🥞
 
 Recipe: 
-Ingredients: 🥞 rice flour and turmeric batter, 🐷 1/4 lb sliced pork belly, 🦐 1/4 lb shrimp, 🌱 1 cup bean sprouts. 
-Steps: 👨‍🍳 Sear pork and shrimp in a hot skillet. 🥣 Pour in a thin layer of batter to coat the pan; it will sizzle loudly. 🔥 Add bean sprouts, cover briefly, then fold in half when the crepe is crispy.
+Ingredients: 🥞 1 cup rice flour, 🥄 1/2 tsp turmeric powder, 🥛 3/4 cup coconut milk, 🐷 1/4 lb thinly sliced pork belly, 🦐 1/4 lb medium shrimp (peeled), 🌱 2 cups bean sprouts, 🧅 1/2 small onion (thinly sliced), 🥬 fresh lettuce leaves, 🌿 fresh mint and cilantro, 🍋 nuoc cham dipping sauce. 
+Steps: 🥣 Whisk rice flour, turmeric, coconut milk, and 3/4 cup water into a smooth, thin batter; let rest for 30 minutes. 🔥 Heat 1 tbsp vegetable oil in a 10-inch non-stick skillet over high heat until smoking; add pork belly and shrimp, sear for 1 minute. 🧅 Scatter sliced onion over the meat, then pour in a thin layer of batter (about 1/3 cup), tilting the pan to create a lacy, crispy crepe. 🔥 The batter should sizzle loudly and immediately bubble; cook uncovered for 2-3 minutes until edges are lacy and golden. 🌱 Add a generous handful of bean sprouts to one half of the crepe; cover with a lid for 1 minute to soften sprouts slightly. 🔥 Remove lid and continue cooking for another 1-2 minutes until the bottom is deeply golden and crispy; fold in half. 🥬 Serve immediately with lettuce leaves, fresh herbs, and nuoc cham; wrap torn pieces of crepe in lettuce with herbs and dip in sauce.
 
-#banhxeo #vietnamesefood #crepe #streetfood #crispy 🌮🍱
+#banhxeo #vietnamesefood #crepe #streetfood #crispy #turmeric #coconut #vietnamese 🌮🍱
 ```
 
 ID: 168
@@ -2008,10 +2008,10 @@ Caption:
 🥗 Spicy Som Tum (Papaya Salad) 🥗
 
 Recipe: 
-Ingredients: 🥗 2 cups shredded green papaya, 🍅 1/2 cup cherry tomatoes, 🥜 1/4 cup roasted peanuts, 🌶️ bird's eye chilies, 🍋 lime and fish sauce. 
-Steps: 👨‍🍳 Pound chilies and garlic in a mortar. 🥣 Add tomatoes and beans, bruising them lightly. 🔥 Toss with papaya, peanuts, and a dressing of lime, fish sauce, and palm sugar.
+Ingredients: 🥗 3 cups shredded unripe green papaya, 🍅 1 cup cherry tomatoes (halved), 🥜 1/3 cup roasted peanuts (lightly crushed), 🌶️ 3 Thai bird's eye chilies, 🍋 juice of 2 limes, 🐟 2 tbsp fish sauce, 🍬 1 tbsp palm sugar, 🥒 1/2 cup long beans (cut into 2-inch pieces), 🧄 3 cloves garlic, 🍤 2 tbsp dried shrimp (optional). 
+Steps: 🌶️ Pound garlic and chilies in a large clay mortar with a wooden pestle until broken down into a coarse paste. 🍅 Add long beans and cherry tomatoes; bruise lightly with the pestle to release juices without completely pulverizing. 🍬 Add fish sauce, lime juice, and palm sugar; stir and pound briefly to dissolve the sugar into the dressing. 🥗 Add shredded papaya and dried shrimp; use the pestle to bruise and the spoon to toss, working the dressing into every strand. 🥜 Taste and balance flavors: it should be spicy, sour, salty, and sweet all at once; adjust with more lime, fish sauce, or sugar as needed. 🔥 Add crushed peanuts and toss one final time; the salad should be vibrant, crunchy, and intensely flavored. 🥗 Serve immediately in a shallow bowl with sticky rice and grilled chicken on the side, or enjoy as a refreshing standalone dish.
 
-#somtum #thaifood #salad #spicy #healthy 🌮🍱
+#somtum #thaifood #salad #spicy #healthy #papayasalad #isanfood #streetfood 🌮🍱
 ```
 
 ID: 169
@@ -2020,10 +2020,10 @@ Caption:
 🍛 Japanese Katsu Curry 🍛
 
 Recipe: 
-Ingredients: 🥩 1 pork loin cutlet, 🌾 panko breadcrumbs, 🍛 1.5 cups Japanese curry sauce, 🍚 cooked white rice. 
-Steps: 👨‍🍳 Bread the pork cutlet with flour, egg, and panko; deep fry until golden. 🥣 Slice the crispy cutlet and place over rice. 🔥 Pour hot, thick curry sauce generously over half the cutlet.
+Ingredients: 🥩 2 boneless pork loin cutlets (pounded to 1/2 inch), 🌾 1.5 cups panko breadcrumbs, 🌾 1/2 cup all-purpose flour, 🥚 2 large eggs (beaten), 🍛 1 box Japanese curry roux (mild or medium), 🍚 3 cups cooked short-grain white rice, 🧅 1 large onion (diced), 🥕 2 carrots (diced), 🥔 2 medium potatoes (cubed), 🫒 vegetable oil for frying. 
+Steps: 🥣 Set up a breading station: flour in one dish, beaten eggs in another, panko in a third; season pork cutlets with salt and pepper. 🥩 Dredge pork in flour, dip in egg, then coat thoroughly in panko, pressing firmly so crumbs adhere. 🔥 Heat 2 inches of oil to 350°F (175°C); fry cutlets for 4-5 minutes until deep golden and internal temperature reaches 145°F (63°C); drain on a wire rack. 🍛 Make curry: sauté onion in a pot until soft, add carrots and potatoes, cover with 4 cups water, and simmer for 15 minutes until vegetables are tender. 🥢 Break curry roux blocks into the pot; stir until completely dissolved and simmer for 5 minutes until thick and glossy. 🍚 Pack hot rice into a small bowl, invert onto a plate to create a perfect dome. 🔥 Slice katsu into 1-inch strips, arrange over the rice, and pour generous ladles of curry over one side of the cutlet.
 
-#katsucurry #japanesefood #curry #pork #comfortfood 🌮🍱
+#katsucurry #japanesefood #curry #pork #comfortfood #tonkatsu #panko #japan 🌮🍱
 ```
 
 ID: 170
@@ -2032,10 +2032,10 @@ Caption:
 🍢 Charcoal-Grilled Yakitori 🍢
 
 Recipe: 
-Ingredients: 🍢 chicken thigh chunks, 🧅 1 bunch thick scallions, 🍅 1/2 cup soy sauce, 🍶 1/4 cup mirin. 
-Steps: 👨‍🍳 Thread alternating pieces of chicken and scallion onto bamboo skewers. 🥣 Grill over very hot charcoal. 🔥 Brush frequently with the soy-mirin tare glaze until sticky and charred.
+Ingredients: 🍢 1 lb boneless skinless chicken thighs (cut into 1-inch pieces), 🧅 1 bunch thick Japanese scallions (negi, cut into 1-inch pieces), 🍅 1/2 cup soy sauce, 🍶 1/4 cup mirin, 🍶 1/4 cup sake, 🍬 2 tbsp sugar, 🧄 2 cloves garlic (smashed), 🫚 1-inch piece ginger (sliced). 
+Steps: 🥣 Make tare glaze: combine soy sauce, mirin, sake, sugar, garlic, and ginger in a small saucepan; simmer for 10 minutes until slightly thickened and syrupy; strain and cool. 🍢 Soak bamboo skewers in water for 30 minutes to prevent burning; thread 4-5 pieces of chicken alternating with scallion pieces onto each skewer. 🔥 Prepare a charcoal grill with lump charcoal; you want very high, direct heat with the grate positioned close to the coals. 🍗 Grill skewers for 3-4 minutes per side, turning frequently, until chicken is nearly cooked through and has light char marks. 🔥 Begin brushing with tare glaze and continue grilling, turning and brushing every 30 seconds, for 2-3 more minutes until sticky, glossy, and deeply caramelized. ⏲️ The chicken should reach 165°F (74°C) internally and the scallions should be wilted and slightly charred. 🍋 Serve immediately with a sprinkle of shichimi togarashi and a cold beer.
 
-#yakitori #japanesefood #grilling #chicken #streetfood 🌮🍱
+#yakitori #japanesefood #grilling #chicken #streetfood #izakaya #skewers #japanesebbq 🌮🍱
 ```
 
 ID: 171
@@ -2044,10 +2044,10 @@ Caption:
 🥞 Savory Okonomiyaki 🥞
 
 Recipe: 
-Ingredients: 🥞 okonomiyaki batter (flour, yam, eggs), 🥬 2 cups shredded cabbage, 🐷 4 slices pork belly, 🐟 bonito flakes, 🍅 okonomiyaki sauce. 
-Steps: 👨‍🍳 Mix cabbage into the batter and pour onto a hot griddle. 🥣 Lay pork belly slices on top. 🔥 Flip to crisp the pork, then top with a crisscross of sauces and dancing bonito flakes.
+Ingredients: 🥞 1 cup all-purpose flour, 🥚 2 large eggs, 🥛 3/4 cup dashi broth, 🥬 2 cups shredded green cabbage, 🐷 6 thin slices pork belly, 🥓 4 strips cooked bacon (chopped), 🍤 tenkasu (tempura bits), 🐟 bonito flakes, 🍅 okonomiyaki sauce, 🧂 Japanese mayonnaise. 
+Steps: 🥣 Whisk flour, eggs, and dashi into a smooth batter; fold in shredded cabbage, tenkasu, and bacon pieces until evenly coated. 🔥 Heat a large non-stick griddle or skillet over medium heat with a thin layer of oil; pour half the batter to form a thick 8-inch round pancake. 🐷 Arrange 3 slices of pork belly on top, pressing gently into the batter; cover and cook for 4-5 minutes until the bottom is golden and set. 🔥 Use two spatulas to carefully flip the okonomiyaki; cook uncovered for another 4-5 minutes until pork is crispy and the center is cooked through. 🥞 Flip once more so the pork side is up; drizzle generously with okonomiyaki sauce and mayonnaise in a crisscross pattern. 🔥 Sprinkle with aonori (seaweed powder) and a generous handful of bonito flakes, which will dance and curl from the heat. 🥢 Cut into wedges and serve immediately with pickled ginger on the side.
 
-#okonomiyaki #japanesefood #streetfood #pancake #comfortfood 🌮🍱
+#okonomiyaki #japanesefood #streetfood #pancake #comfortfood #osaka #cabbage #japan 🌮🍱
 ```
 
 ID: 172
@@ -2056,10 +2056,10 @@ Caption:
 🐙 Sizzling Takoyaki 🐙
 
 Recipe: 
-Ingredients: 🐙 1/2 cup diced boiled octopus, 🥞 takoyaki batter (dashi-based), 🌿 pickled red ginger, 🐟 bonito flakes. 
-Steps: 👨‍🍳 Pour batter into a hot, oiled takoyaki pan. 🥣 Drop octopus pieces into each mold. 🔥 Use picks to rotate the batter 90 degrees as it cooks to form perfect, golden-brown spheres. ⏲️ Top with sauces and flakes.
+Ingredients: 🐙 1/2 lb boiled octopus (diced into 1/2-inch pieces), 🥞 1 cup takoyaki flour mix, 🥚 1 large egg, 🥛 1.5 cups ice water, 🌿 2 tbsp beni shoga (pickled red ginger), 🧅 2 tbsp tenkasu (tempura scraps), 🐟 bonito flakes, 🍅 takoyaki sauce, 🧂 Japanese mayonnaise, 🌿 aonori seaweed powder. 
+Steps: 🔥 Heat a takoyaki pan (special cast iron mold with half-sphere indentations) over medium-high heat until very hot; brush each mold generously with oil. 🥣 Whisk takoyaki flour, egg, and ice water into a thin, smooth batter; pour into a measuring cup with a spout for easy pouring. 🥄 Fill each mold almost to the top with batter; it will overflow slightly, which is necessary for forming perfect spheres. 🐙 Drop 1-2 pieces of octopus, a pinch of pickled ginger, and tenkasu into the center of each mold. 🔥 After 2 minutes, use bamboo skewers to rotate each takoyaki 90 degrees, tucking the overflowed batter underneath; continue rotating every minute. ⏲️ Cook for 8-10 minutes total, rotating frequently, until each ball is evenly golden brown, crispy outside, and creamy inside. 🍅 Transfer to a plate, drizzle with takoyaki sauce and mayo, sprinkle with aonori and bonito flakes.
 
-#takoyaki #japanesefood #streetfood #octopus #snack 🌮🍱
+#takoyaki #japanesefood #streetfood #octopus #snack #osaka #japanesestreetfood #seafood 🌮🍱
 ```
 
 ID: 173
@@ -2068,10 +2068,10 @@ Caption:
 🥘 Classic Greek Moussaka 🥘
 
 Recipe: 
-Ingredients: 🍆 2 large eggplants, 🥩 1 lb ground lamb or beef, 🍅 2 cups tomato sauce, 🥛 2 cups thick béchamel sauce, 🧀 grated cheese. 
-Steps: 👨‍🍳 Roast eggplant slices until soft. 🥣 Simmer meat with tomatoes and warm spices like cinnamon. 🔥 Layer eggplant and meat in a dish, top with a thick layer of béchamel and bake until golden.
+Ingredients: 🍆 3 large eggplants (sliced into 1/4-inch rounds), 🥩 1.5 lbs ground lamb, 🍅 2 cups crushed tomatoes, 🥛 3 cups whole milk, 🧈 4 tbsp unsalted butter, 🌾 1/4 cup all-purpose flour, 🧀 1 cup grated kefalotyri or parmesan cheese, 🧅 1 large onion (diced), 🧄 3 cloves garlic (minced), 🌿 1 tsp dried oregano, 🪵 1/2 tsp ground cinnamon. 
+Steps: 🧂 Salt eggplant slices and let drain for 30 minutes to remove bitterness; pat dry and brush with olive oil. 🔥 Roast eggplant at 400°F (200°C) for 20 minutes until soft and lightly golden; set aside. 🥩 Brown ground lamb in a skillet; add onion, garlic, oregano, and cinnamon; cook for 5 minutes. 🍅 Stir in crushed tomatoes and simmer for 15 minutes until thick and fragrant; season with salt, pepper, and a pinch of nutmeg. 🥛 Make béchamel: melt butter, whisk in flour, cook for 1 minute, then gradually whisk in warm milk until thick and smooth; stir in half the cheese and remove from heat. 🥘 Assemble: layer half the eggplant in a greased baking dish, spread all the meat sauce, top with remaining eggplant, then pour béchamel evenly over the top. 🔥 Sprinkle remaining cheese on top and bake at 375°F (190°C) for 45-50 minutes until golden and bubbling. ❄️ Let rest for 15 minutes before slicing into squares.
 
-#moussaka #greekfood #casserole #comfortfood #dinner 🌮🍱
+#moussaka #greekfood #casserole #comfortfood #dinner #eggplant #lamb #mediterranean 🌮🍱
 ```
 
 ID: 174
@@ -2080,10 +2080,10 @@ Caption:
 🍢 Char-Grilled Pork Souvlaki 🍢
 
 Recipe: 
-Ingredients: 🥩 1 lb pork shoulder cubes, 🍋 2 tbsp lemon juice, 🌿 1 tbsp dried oregano, 🫒 2 tbsp olive oil, 🥙 pita bread. 
-Steps: 👨‍🍳 Marinate pork cubes in lemon, olive oil, and oregano. 🥣 Skewer the meat and grill over high heat until charred and cooked through. 🔥 Serve with pita, tzatziki, and a fresh Greek salad.
+Ingredients: 🥩 1.5 lbs pork shoulder (cut into 1.5-inch cubes), 🍋 juice of 2 lemons, 🌿 2 tbsp dried oregano, 🫒 1/3 cup extra virgin olive oil, 🧄 4 cloves garlic (minced), 🥙 4 warm pita breads, 🥒 1 cup tzatziki sauce, 🍅 2 tomatoes (diced), 🧅 1 red onion (thinly sliced). 
+Steps: 🥣 Whisk lemon juice, olive oil, oregano, garlic, salt, and black pepper in a bowl; add pork cubes and toss to coat thoroughly. ❄️ Cover and marinate in the refrigerator for at least 4 hours (preferably overnight) for maximum flavor penetration. 🔥 Soak wooden skewers in water for 30 minutes; thread 4-5 pork cubes onto each skewer, leaving small gaps between pieces for even cooking. 🔥 Prepare a hot charcoal or gas grill; cook skewers over direct high heat for 3-4 minutes per side, turning frequently, until deeply charred and cooked through (145°F internal). 🥙 Warm pitas briefly on the grill for 30 seconds per side until soft and slightly blistered. 🥒 Spread a generous layer of tzatziki on each pita, top with grilled pork, diced tomatoes, and thinly sliced red onion. 🔥 Serve immediately with lemon wedges and extra tzatziki for dipping, plus a side of Greek salad.
 
-#souvlaki #greekfood #grilling #pork #streetfood 🌮🍱
+#souvlaki #greekfood #grilling #pork #streetfood #mediterranean #kebab #greek 🌮🍱
 ```
 
 ID: 175
@@ -2092,10 +2092,10 @@ Caption:
 🍗 Sizzling Tandoori Chicken 🍗
 
 Recipe: 
-Ingredients: 🍗 4 chicken leg quarters, 🥛 1 cup thick yogurt, 🌶️ 2 tbsp tandoori masala, 🍋 lemon juice. 
-Steps: 👨‍🍳 Score the chicken and marinate in spiced yogurt for 12 hours. 🥣 Roast in a very hot oven or grill until deeply charred and the juices run clear. 🔥 Serve with sliced red onions and a squeeze of lemon.
+Ingredients: 🍗 6 chicken drumsticks (skin removed, slashed deeply), 🥛 1 cup thick plain yogurt, 🌶️ 3 tbsp tandoori masala powder, 🍋 juice of 2 lemons, 🧄 4 cloves garlic (made into paste), 🫚 1-inch piece ginger (grated), 🥄 1 tbsp vegetable oil, 🧅 1/2 red onion (thinly sliced), 🌿 fresh cilantro. 
+Steps: 🍗 Make deep slashes in the chicken flesh down to the bone; this allows the marinade to penetrate deeply and ensures even cooking. 🥣 Whisk yogurt, tandoori masala, lemon juice, garlic-ginger paste, oil, and salt until smooth and vibrant red-orange. 🍗 Coat chicken thoroughly in the marinade, massaging it into the slashes; cover and refrigerate for at least 12 hours (up to 24). 🔥 Preheat oven to its highest setting (500-550°F / 260-290°C) or prepare a very hot grill; place chicken on a wire rack over a baking sheet to catch drips. 🔥 Roast for 25-30 minutes, turning once halfway, until the exterior is deeply charred and blistered and the internal temperature reaches 165°F (74°C). 🧅 Let rest for 5 minutes; the juices should run clear when pierced near the bone. 🌿 Serve on a sizzling platter with sliced red onions, lemon wedges, fresh cilantro, and mint chutney on the side.
 
-#tandoorichicken #indianfood #chicken #grilling #spicy 🌮🍱
+#tandoorichicken #indianfood #chicken #grilling #spicy #tandoor #indianbbq #yogurtmarinade 🌮🍱
 ```
 
 ID: 176
@@ -2104,10 +2104,10 @@ Caption:
 🍗 Southern Chicken and Waffles 🍗
 
 Recipe: 
-Ingredients: 🍗 2 pieces fried chicken, 🧇 1 Belgian waffle, 🧈 butter, 🍯 pure maple syrup. 
-Steps: 👨‍🍳 Fry chicken until golden and crispy. 🥣 Bake the waffle until fluffy. 🔥 Assemble the chicken on top of the waffle and drown in syrup.
+Ingredients: 🍗 4 bone-in chicken thighs, 🥛 1 cup buttermilk, 🌾 1 cup all-purpose flour, 🌽 1/2 cup cornstarch, 🥄 1 tbsp Cajun seasoning, 🧇 2 cups waffle batter, 🧈 4 tbsp unsalted butter, 🍯 1/2 cup pure maple syrup, 🌶️ hot sauce. 
+Steps: 🥣 Marinate chicken thighs in buttermilk and hot sauce for at least 4 hours (preferably overnight) in the refrigerator. 🌾 Mix flour, cornstarch, Cajun seasoning, salt, and pepper in a large shallow dish; dredge chicken, pressing coating firmly onto the meat. 🔥 Heat vegetable oil to 350°F (175°C) in a deep skillet; fry chicken for 12-15 minutes until deeply golden and internal temperature reaches 165°F (74°C). 🧇 While chicken rests, cook waffles in a preheated waffle iron until deeply golden and crisp on the outside, fluffy inside. 🧈 Brush hot waffles with melted butter and place on warm plates. 🔥 Top each waffle with 2 pieces of crispy fried chicken, drizzle generously with warm maple syrup, and add a few dashes of hot sauce. 🌿 Garnish with a pat of butter and serve immediately with extra syrup on the side.
 
-#chickenandwaffles #southernfood #brunch #comfortfood 🌮🍱
+#chickenandwaffles #southernfood #brunch #comfortfood #friedchicken #waffles #soulfood #maple 🌮🍱
 ```
 
 ID: 177
@@ -2116,10 +2116,10 @@ Caption:
 🥪 Gourmet Croque Madame 🥪
 
 Recipe: 
-Ingredients: 🥪 thick brioche, 🍖 sliced ham, 🧀 gruyere cheese, 🥛 béchamel sauce, 🍳 1 egg. 
-Steps: 👨‍🍳 Layer ham and cheese on bread. 🥣 Top with béchamel and more cheese. 🔥 Bake until bubbly, then top with a fried egg.
+Ingredients: 🥪 4 thick slices brioche bread, 🍖 8 oz high-quality sliced ham, 🧀 1.5 cups grated Gruyère cheese, 🥛 1.5 cups whole milk, 🧈 3 tbsp unsalted butter, 🌾 2 tbsp all-purpose flour, 🍳 4 large eggs, 🧂 pinch of ground nutmeg, 🌿 fresh thyme. 
+Steps: 🥛 Make béchamel: melt 2 tbsp butter in a saucepan, whisk in flour, cook for 1 minute, then gradually whisk in warm milk until thick and smooth; stir in half the Gruyère and nutmeg until melted. 🥪 Brush brioche slices with melted butter and toast in a skillet until golden; spread béchamel on two slices. 🍖 Layer ham on the béchamel, top with remaining Gruyère, and cap with the other two slices of bread, béchamel-side down. 🔥 Spread more béchamel on top of each sandwich and sprinkle with remaining cheese; place on a baking sheet. ⏲️ Bake at 400°F (200°C) for 10-12 minutes until the cheese is bubbling and golden brown with crispy edges. 🍳 While sandwiches bake, fry eggs sunny-side up in butter with crispy edges and runny yolks. 🔥 Place a fried egg on top of each hot croque madame, season with black pepper and fresh thyme, and serve immediately.
 
-#croquemadame #frenchfood #brunch #sandwich 🌮🍱
+#croquemadame #frenchfood #brunch #sandwich #gruyere #bechamel #friedegg #parisian 🌮🍱
 ```
 
 ID: 178
@@ -2128,10 +2128,10 @@ Caption:
 🦐 Creamy Shrimp and Grits 🦐
 
 Recipe: 
-Ingredients: 🦐 1/2 lb shrimp, 🥣 1 cup stone-ground grits, 🧀 cheddar cheese, 🥓 bacon bits. 
-Steps: 👨‍🍳 Cook grits with cream and cheese. 🥣 Sauté shrimp and bacon in Cajun spices. 🔥 Pour the shrimp and sauce generously over the hot grits.
+Ingredients: 🦐 1 lb large shrimp (peeled and deveined), 🥣 1 cup stone-ground white grits, 🥛 2 cups whole milk, 🥛 1 cup chicken stock, 🧀 1 cup sharp cheddar cheese (grated), 🥓 4 slices thick-cut bacon (diced), 🧈 3 tbsp unsalted butter, 🧄 3 cloves garlic (minced), 🌶️ 1 tsp Cajun seasoning, 🌿 fresh scallions. 
+Steps: 🥣 Bring milk, stock, and 1 tsp salt to a boil in a saucepan; slowly whisk in grits, reduce to low, and cook for 20-25 minutes, stirring frequently, until thick and creamy. 🧀 Remove from heat, stir in cheddar cheese and 2 tbsp butter until fully melted; cover and keep warm. 🥓 Cook diced bacon in a large skillet over medium heat until crispy; remove with a slotted spoon, leaving the rendered fat. 🧄 Add shrimp to the hot bacon fat, season with Cajun spice, and cook for 2 minutes per side until pink and curled; remove and set aside. 🍷 Add garlic to the skillet, sauté for 30 seconds, then deglaze with a splash of chicken stock or white wine; simmer for 2 minutes. 🔥 Return shrimp and bacon to the skillet, toss to coat in the sauce, and cook for 1 minute to heat through. 🥣 Spoon creamy grits into warm bowls, make a well in the center, and top with the shrimp, bacon, and sauce; garnish with scallions.
 
-#shrimpandgrits #southernfood #comfortfood #seafood 🌮🍱
+#shrimpandgrits #southernfood #comfortfood #seafood #lowcountry #grits #bacon #southerncooking 🌮🍱
 ```
 
 ID: 179
@@ -2140,10 +2140,10 @@ Caption:
 🍳 Classic Huevos Rancheros 🍳
 
 Recipe: 
-Ingredients: 🌮 2 corn tortillas, 🍳 2 eggs, 🍅 ranchero salsa, 🥑 avocado, 🧀 cotija cheese. 
-Steps: 👨‍🍳 Lightly fry tortillas. 🥣 Fry eggs and place on tortillas. 🔥 Smother in hot salsa and garnish with avocado and cheese.
+Ingredients: 🌮 4 corn tortillas, 🍳 4 large eggs, 🍅 2 cups ranchero salsa (homemade or high-quality jarred), 🥑 2 ripe avocados (sliced), 🧀 1/2 cup crumbled cotija cheese, 🥛 1/2 cup refried black beans, 🧈 2 tbsp unsalted butter, 🌿 fresh cilantro, 🌶️ sliced jalapeños. 
+Steps: 🍅 Warm ranchero salsa in a saucepan over low heat; if making from scratch, sauté onions, garlic, and tomatoes with cumin and chipotle, then blend until smooth. 🥛 Heat refried beans in a small pot with a splash of water until warm and spreadable; season with salt and a pinch of cumin. 🧈 Melt butter in a non-stick skillet over medium heat; fry eggs sunny-side up until whites are set but yolks remain runny, about 3 minutes. 🌮 Lightly fry corn tortillas in a dry skillet for 30 seconds per side until soft and slightly blistered; keep warm wrapped in a clean towel. 🥣 Spread a layer of warm refried beans on each tortilla, top with a fried egg, and ladle hot ranchero salsa over the top. 🥑 Arrange avocado slices over the salsa, then sprinkle generously with crumbled cotija cheese and fresh cilantro. 🔥 Serve immediately with extra salsa on the side, warm tortillas, and sliced jalapeños for heat.
 
-#huevosrancheros #mexicanfood #breakfast #eggs #spicy 🌮🍱
+#huevosrancheros #mexicanfood #breakfast #eggs #spicy #rancheros #brunch #avocado 🌮🍱
 ```
 
 ID: 180
@@ -2152,10 +2152,10 @@ Caption:
 🍜 Savory Pad See Ew 🍜
 
 Recipe: 
-Ingredients: 🍜 wide rice noodles, 🥩 sliced beef, 🥦 Chinese broccoli, 🥚 1 egg, 🍅 dark soy sauce. 
-Steps: 👨‍🍳 Scramble egg in a smoking wok. 🥣 Add beef and broccoli. 🔥 Toss in noodles and dark soy sauce, cooking until edges are caramelized.
+Ingredients: 🍜 14 oz fresh wide rice noodles (sen yai), 🥩 1/2 lb flank steak (thinly sliced against the grain), 🥦 2 cups Chinese broccoli (gai lan, stems sliced, leaves left whole), 🥚 2 large eggs, 🍅 2 tbsp dark soy sauce, 🍶 2 tbsp light soy sauce, 🍬 1 tbsp palm sugar, 🧄 4 cloves garlic (roughly chopped), 🫒 3 tbsp vegetable oil. 
+Steps: 🥣 Combine dark soy sauce, light soy sauce, and palm sugar in a small bowl; stir until sugar dissolves to create the seasoning sauce. 🫒 Heat a wok or large skillet over the highest heat until smoking; add 2 tbsp oil and sear beef for 1 minute per side until browned but still pink inside; remove and set aside. 🧄 Add remaining oil to the wok, toss in garlic, and stir-fry for 15 seconds until fragrant and just beginning to golden. 🥦 Add Chinese broccoli stems first, stir-fry for 1 minute, then add leaves and cook for 30 seconds until wilted. 🍜 Add fresh rice noodles (gently separate them first) and the seasoning sauce; toss constantly for 2 minutes until noodles are evenly coated and beginning to caramelize at the edges. 🥚 Push noodles to one side, crack eggs into the empty space, scramble quickly, then fold into the noodles. 🔥 Return beef to the wok, toss everything together for 30 seconds, and serve immediately with chili vinegar and crushed peanuts on the side.
 
-#padseeew #thaifood #noodles #asiancuisine #streetfood 🌮🍱
+#padseeew #thaifood #noodles #asiancuisine #streetfood #wok #thaistreetfood #beef 🌮🍱
 ```
 
 ID: 181
@@ -2164,10 +2164,10 @@ Caption:
 🍣 Spicy Tuna Sushi Roll 🍣
 
 Recipe: 
-Ingredients: 🍣 sushi rice and nori, 🐟 fresh tuna, 🌶️ sriracha mayo, 🥒 cucumber. 
-Steps: 👨‍🍳 Mix minced tuna with spicy mayo. 🥣 Spread rice on nori, add tuna and cucumber. 🔥 Roll tightly, slice, and drizzle with extra sauce.
+Ingredients: 🍣 2 cups sushi rice (seasoned with rice vinegar, sugar, and salt), 🐟 8 oz sashimi-grade tuna (finely diced), 🌶️ 2 tbsp sriracha, 🧈 2 tbsp Kewpie mayonnaise, 🥒 1/2 seedless cucumber (cut into matchsticks), 🌿 2 sheets nori (toasted seaweed), 🥢 sesame seeds, 🍶 soy sauce for dipping. 
+Steps: 🍣 Place a bamboo sushi mat on a clean surface, lay a sheet of nori shiny-side down, and spread a thin, even layer of seasoned sushi rice, leaving a 1-inch strip at the top edge. 🐟 In a bowl, combine diced tuna, sriracha, and mayonnaise; mix gently with a fork until the tuna is evenly coated in the spicy sauce. 🥒 Arrange a line of cucumber matchsticks across the center of the rice, then top with a generous strip of spicy tuna mixture. 🔥 Using the bamboo mat, roll the sushi tightly away from you, applying gentle but firm pressure to create a compact cylinder; seal the edge with a dab of water. 🔪 Let the roll rest seam-side down for 2 minutes, then slice into 8 even pieces using a sharp, wet knife (wipe clean between cuts). 🥢 Arrange on a plate, sprinkle with toasted sesame seeds, and serve with soy sauce, pickled ginger, and wasabi.
 
-#spicytuna #sushi #japanesefood #seafood #healthy 🌮🍱
+#spicytuna #sushi #japanesefood #seafood #healthy #sushiroll #tuna #rawfish 🌮🍱
 ```
 
 ID: 182
@@ -2176,10 +2176,10 @@ Caption:
 🐉 Tempura Dragon Roll 🐉
 
 Recipe: 
-Ingredients: 🍣 sushi rice and nori, 🍤 shrimp tempura, 🥑 avocado, 🍯 unagi sauce. 
-Steps: 👨‍🍳 Roll shrimp tempura inside rice and nori. 🥣 Thinly slice avocado and drape over the roll. 🔥 Shape with a bamboo mat and drizzle with sweet eel sauce.
+Ingredients: 🍣 2 cups sushi rice (seasoned), 🍤 4 large shrimp (butterflied and tempura fried), 🥑 2 ripe avocados (thinly sliced), 🍯 3 tbsp unagi (eel) sauce, 🌿 2 sheets nori, 🐟 tobiko (flying fish roe), 🥢 sesame seeds, 🍤 tempura batter (flour, ice water, egg). 
+Steps: 🍤 Make shrimp tempura: dredge butterflied shrimp in flour, dip in ice-cold tempura batter, and deep fry at 350°F (175°C) for 2-3 minutes until light golden and crispy; drain on a wire rack. 🍣 Lay a sheet of nori on a bamboo mat, spread seasoned rice evenly, then flip so rice is facing down (this is an inside-out roll). 🍤 Arrange 2 tempura shrimp horizontally across the center of the nori, leaving a small gap between them. 🔥 Roll tightly using the bamboo mat, pressing firmly to ensure the rice adheres to the shrimp and the roll is compact. 🥑 Peel and thinly slice avocados; fan the slices over the top of the roll, using the bamboo mat to press them gently into the rice. 🔪 Slice the roll into 8 pieces with a sharp, wet knife; wipe blade clean between cuts for neat edges. 🐟 Drizzle generously with unagi sauce, sprinkle with tobiko and sesame seeds, and serve with pickled ginger and wasabi.
 
-#dragonroll #sushi #japanesefood #seafood #avocado 🌮🍱
+#dragonroll #sushi #japanesefood #seafood #avocado #tempura #specialroll #sushilover 🌮🍱
 ```
 
 ID: 183
@@ -2188,10 +2188,10 @@ Caption:
 🥘 Fiery Tteokbokki 🥘
 
 Recipe: 
-Ingredients: 🥘 Korean rice cakes, 🌶️ gochujang sauce, 🐟 fish cakes, 🥚 boiled egg. 
-Steps: 👨‍🍳 Simmer gochujang, broth, and sugar to make sauce. 🥣 Add rice cakes and fish cakes. 🔥 Cook until the sauce is thick and sticky.
+Ingredients: 🥘 1 lb cylindrical Korean rice cakes (tteok), 🌶️ 3 tbsp gochujang (Korean chili paste), 🐟 2 sheets fish cake (eomuk, cut into triangles), 🥚 2 hard-boiled eggs, 🧅 1/2 small onion (sliced), 🍬 1 tbsp sugar, 🫚 2 cloves garlic (minced), 🍜 2 cups anchovy or dashi broth, 🌿 scallions (cut into 2-inch pieces). 
+Steps: 🥣 In a wide, shallow pan or Korean ddukbaegi, combine broth, gochujang, sugar, and garlic; whisk until the gochujang is fully dissolved into the liquid. 🔥 Bring to a boil over medium-high heat, then add rice cakes and onion slices; simmer for 5 minutes, stirring occasionally. 🐟 Add fish cake pieces and continue cooking for another 5-7 minutes, stirring frequently, as the sauce begins to reduce and thicken. 🥚 Add hard-boiled eggs to the pan, gently rolling them in the sauce so they absorb the red color and spicy flavor. 🔥 Continue simmering for 3-4 more minutes until the sauce is thick, glossy, and clings to the rice cakes; the rice cakes should be chewy and tender. 🌿 Toss in scallion pieces and cook for 30 seconds until just wilted. 🔥 Serve immediately in the hot pot, garnished with sesame seeds and more scallions; eat while hot and stretchy.
 
-#tteokbokki #koreanfood #spicy #streetfood #snack 🌮🍱
+#tteokbokki #koreanfood #spicy #streetfood #snack #ricecakes #gochujang #koreanstreetfood 🌮🍱
 ```
 
 ID: 184
@@ -2200,10 +2200,10 @@ Caption:
 🍚 Sizzling Kimchi Fried Rice 🍚
 
 Recipe: 
-Ingredients: 🍚 2 cups cooked rice, 🥬 1 cup chopped kimchi, 🐷 sliced pork belly, 🍳 1 egg, 🌿 seaweed. 
-Steps: 👨‍🍳 Fry pork belly until crispy. 🥣 Add kimchi and rice, tossing until vibrant red. 🔥 Top with a fried egg and seaweed strips.
+Ingredients: 🍚 3 cups day-old cooked short-grain rice, 🥬 1.5 cups well-fermented kimchi (chopped, with juices), 🐷 1/2 lb pork belly (thinly sliced), 🍳 2 large eggs, 🌿 2 sheets nori (cut into thin strips), 🧄 3 cloves garlic (minced), 🫒 2 tbsp sesame oil, 🌶️ 1 tsp gochujang, 🌿 2 scallions (sliced). 
+Steps: 🐷 Heat a wok over high heat until smoking; add pork belly and cook for 3-4 minutes until crispy and the fat has rendered; remove and set aside. 🧄 Add garlic to the pork fat, stir-fry for 15 seconds, then add chopped kimchi and gochujang; cook for 2 minutes until fragrant and slightly caramelized. 🍚 Add day-old rice, breaking up clumps with a spatula; stir-fry vigorously for 3-4 minutes until each grain is coated in the red kimchi oil and heated through. 🥣 Pour in kimchi juice and sesame oil, tossing continuously for 1 minute; the rice should take on a vibrant reddish-orange hue. 🔥 Return crispy pork belly to the wok, toss to combine, and cook for 1 more minute. 🍳 Fry eggs sunny-side up in a separate pan with crispy edges and runny yolks. 🌿 Divide rice among bowls, top each with a fried egg, nori strips, and sliced scallions; break the yolk and mix everything together before eating.
 
-#kimchifriedrice #koreanfood #spicy #ricebowl #comfortfood 🌮🍱
+#kimchifriedrice #koreanfood #spicy #ricebowl #comfortfood #kimchi #porkbelly #korean 🌮🍱
 ```
 
 ID: 185
@@ -2212,10 +2212,10 @@ Caption:
 🌯 Crispy Jianbing 🌯
 
 Recipe: 
-Ingredients: 🌯 crepe batter, 🥚 1 egg, 🍘 crispy wonton cracker, 🧅 scallions, 🌶️ chili and hoisin sauce. 
-Steps: 👨‍🍳 Spread batter thin on a hot griddle. 🥣 Crack an egg over it and spread. 🔥 Add sauces, scallions, and the cracker, then fold into a parcel.
+Ingredients: 🌯 1 cup mung bean flour, 🥚 2 large eggs, 🥛 1.5 cups water, 🍘 4 crispy wonton crackers, 🧅 2 scallions (chopped), 🌿 fresh cilantro, 🌶️ 2 tbsp chili garlic sauce, 🍅 2 tbsp hoisin sauce, 🧈 sesame seeds. 
+Steps: 🥣 Whisk mung bean flour, water, and a pinch of salt into a thin, pourable batter; let rest for 15 minutes. 🔥 Heat a large, flat crepe pan or griddle over medium-high heat; brush lightly with oil and pour a ladle of batter, immediately spreading it into a thin, even circle. 🥚 Crack an egg onto the wet batter and use a spatula to spread it evenly across the surface; sprinkle with sesame seeds, scallions, and cilantro while the egg is still wet. 🔥 Flip the entire crepe carefully and cook for 30 seconds until the egg side is set and lightly golden. 🍅 Brush hoisin sauce and chili garlic sauce across the center of the crepe. 🍘 Place a crispy wonton cracker in the center, then fold the bottom third up and roll the sides inward to form a rectangular parcel. 🔥 Serve immediately while hot and crispy; the contrast of soft crepe, savory egg, crunchy cracker, and sweet-spicy sauce is irresistible.
 
-#jianbing #chinesefood #streetfood #breakfast #crepe 🌮🍱
+#jianbing #chinesefood #streetfood #breakfast #crepe #beijing #streetfoodasia #crispy 🌮🍱
 ```
 
 ID: 186
@@ -2224,10 +2224,10 @@ Caption:
 🍜 Spicy Dan Dan Noodles 🍜
 
 Recipe: 
-Ingredients: 🍜 fresh noodles, 🌶️ chili oil and Sichuan peppercorns, 🐷 minced pork, 🥜 crushed peanuts. 
-Steps: 👨‍🍳 Fry minced pork until crispy. 🥣 Whisk sesame paste, soy sauce, and chili oil in a bowl. 🔥 Add cooked noodles, top with pork and peanuts, and mix well.
+Ingredients: 🍜 12 oz fresh Chinese wheat noodles, 🌶️ 3 tbsp chili oil (with sediment), 🐷 1/2 lb ground pork, 🥜 2 tbsp roasted peanuts (crushed), 🥄 2 tbsp Chinese sesame paste (or tahini), 🥄 1 tbsp Sichuan peppercorns (toasted and ground), 🥄 2 tbsp light soy sauce, 🥄 1 tbsp Chinkiang black vinegar, 🧅 2 scallions (finely chopped). 
+Steps: 🥜 Crush roasted peanuts with the side of a knife; set aside for garnish. 🥣 In a large serving bowl, combine sesame paste, soy sauce, black vinegar, chili oil, and ground Sichuan peppercorns; whisk with 2 tbsp noodle cooking water to create a silky, fragrant sauce. 🐷 Heat a wok over high heat; add ground pork and stir-fry for 4-5 minutes, breaking it up, until crispy and deeply browned; season with a pinch of salt. 🍜 Cook fresh noodles in boiling water according to package directions (usually 2-3 minutes); drain, reserving 1/2 cup cooking water. 🔥 Add hot noodles directly to the bowl with the sauce, tossing vigorously with chopsticks until every strand is coated in the spicy, nutty, numbing dressing. 🐷 Top with crispy pork, crushed peanuts, and chopped scallions; add more chili oil if desired. 🥢 Serve immediately while hot, mixing everything together at the table before eating.
 
-#dandannoodles #chinesefood #spicy #noodles #sichuan 🌮🍱
+#dandannoodles #chinesefood #spicy #noodles #sichuan #sichuanpepper #streetfood #noodleworship 🌮🍱
 ```
 
 ID: 187
@@ -2236,10 +2236,10 @@ Caption:
 🍗 Kung Pao Chicken 🍗
 
 Recipe: 
-Ingredients: 🍗 diced chicken, 🥜 roasted peanuts, 🌶️ dried red chilies, 🧅 scallions, 🍅 Kung Pao sauce. 
-Steps: 👨‍🍳 Marinate chicken and sear in a hot wok. 🥣 Add chilies, scallions, and sauce. 🔥 Toss until thickened, then fold in crunchy peanuts.
+Ingredients: 🍗 1.5 lbs boneless skinless chicken thighs (cut into 1-inch cubes), 🥜 1/2 cup roasted peanuts, 🌶️ 8-10 dried red chilies (cut into segments, seeds shaken out), 🧅 3 scallions (cut into 1-inch pieces), 🧄 3 cloves garlic (sliced), 🫚 1-inch piece ginger (sliced), 🍅 3 tbsp light soy sauce, 🍶 2 tbsp Chinese black vinegar, 🍬 1 tbsp sugar, 🥄 1 tsp cornstarch. 
+Steps: 🍗 Marinate chicken cubes in 1 tbsp soy sauce, 1 tsp cornstarch, and 1 tsp oil for 15 minutes. 🥣 Make the sauce: combine remaining soy sauce, black vinegar, sugar, and 2 tbsp water in a small bowl; stir until sugar dissolves. 🔥 Heat a wok over highest heat until smoking; add 2 tbsp oil and sear chicken in batches for 2 minutes until golden but not fully cooked; remove and set aside. 🌶️ Add dried chilies to the wok, stir-fry for 15 seconds until fragrant and darkening; add garlic and ginger, stir-fry for 20 seconds. 🧅 Add white parts of scallions and toss for 30 seconds; return chicken to the wok. 🍅 Pour in the sauce, tossing constantly for 1-2 minutes until the liquid reduces to a glossy coating on the chicken. 🔥 Add peanuts and green scallion pieces, toss for 30 seconds, and serve immediately over steamed white rice.
 
-#kungpaochicken #chinesefood #spicy #asianfood #chicken 🌮🍱
+#kungpaochicken #chinesefood #spicy #asianfood #chicken #sichuan #wok #takeoutathome 🌮🍱
 ```
 
 ID: 188
@@ -2248,10 +2248,10 @@ Caption:
 🥟 Steamed Pork Shumai 🥟
 
 Recipe: 
-Ingredients: 🥟 dumpling wrappers, 🐷 minced pork, 🦐 chopped shrimp, 🟠 tobiko (fish roe). 
-Steps: 👨‍🍳 Mix pork and shrimp filling. 🥣 Form into open-faced cups using wrappers. 🔥 Top with roe and steam for 10 minutes until plump and juicy.
+Ingredients: 🥟 24 round shumai wrappers (or gyoza wrappers with corners trimmed), 🐷 1/2 lb ground pork, 🦐 1/4 lb shrimp (peeled, deveined, and finely chopped), 🟠 2 tbsp tobiko (flying fish roe), 🫚 1 tbsp grated fresh ginger, 🧄 2 cloves garlic (minced), 🥄 1 tbsp soy sauce, 🥄 1 tsp sesame oil, 🌿 2 shiitake mushrooms (finely diced). 
+Steps: 🥣 In a large bowl, combine ground pork, chopped shrimp, ginger, garlic, soy sauce, sesame oil, diced shiitake, and a pinch of white pepper; stir vigorously in one direction for 2 minutes until sticky and well-combined. 🥟 Place 1 heaping teaspoon of filling in the center of each wrapper; gather the edges up around the filling, pleating slightly, and press gently to form an open cup shape (the top should remain exposed). 🟠 Use a wet finger to smooth the top of the filling, then press a small amount of tobiko into the center of each shumai for a pop of color and briny flavor. 🔥 Line a bamboo steamer with parchment paper or cabbage leaves; arrange shumai without touching each other to prevent sticking. ⏲️ Steam over boiling water for 8-10 minutes until the pork is cooked through (160°F internal) and the wrappers become slightly translucent and tender. 🌿 Serve immediately while hot, with black vinegar, soy sauce, and chili oil for dipping.
 
-#shumai #dimsum #dumplings #chinesefood #asiancuisine 🌮🍱
+#shumai #dimsum #dumplings #chinesefood #asiancuisine #steamed #shrimp #yumcha 🌮🍱
 ```
 
 ID: 189
@@ -2260,10 +2260,10 @@ Caption:
 🥧 Golden Egg Tart 🥧
 
 Recipe: 
-Ingredients: 🥧 puff pastry shells, 🥚 3 eggs, 🥛 1 cup evaporated milk, 🍬 1/2 cup sugar. 
-Steps: 👨‍🍳 Whisk eggs, milk, and sugar into a smooth custard. 🥣 Pour into pastry shells. 🔥 Bake until the pastry is flaky and the custard is just set with caramelized spots.
+Ingredients: 🥧 1 sheet frozen puff pastry (thawed), 🥚 4 large egg yolks, 🥛 3/4 cup heavy cream, 🥛 1/2 cup whole milk, 🍬 1/3 cup granulated sugar, 🍬 1 tbsp honey, 🧈 1 tsp vanilla extract, 🧂 pinch of salt. 
+Steps: 🔥 Preheat oven to 400°F (200°C); roll out puff pastry to 1/8-inch thickness and cut into circles to fit a 12-cup muffin tin, pressing gently into the molds. ❄️ Prick bottoms with a fork and refrigerate for 15 minutes to prevent shrinking during baking. 🥚 Whisk egg yolks, cream, milk, sugar, honey, vanilla, and salt until completely smooth; strain through a fine mesh sieve to remove any foam or bubbles. 🔥 Blind bake pastry shells for 8-10 minutes until lightly golden and puffed; use a spoon to gently press down any bubbles that form. 🥣 Pour custard into the warm shells, filling each to 80% full; reduce oven temperature to 350°F (175°C). ⏲️ Bake for 18-22 minutes until the custard is just set with a slight jiggle in the center and the tops have caramelized spots. ❄️ Cool completely in the tin before unmolding; the custard will continue to set as it cools.
 
-#eggtart #dimsum #dessert #pastry #sweet 🌮🍱
+#eggtart #dimsum #dessert #pastry #sweet #hongkong #custard #baking 🌮🍱
 ```
 
 ID: 190
@@ -2272,10 +2272,10 @@ Caption:
 🥗 Classic Caesar Salad 🥗
 
 Recipe: 
-Ingredients: 🥬 fresh romaine, 🍞 garlic croutons, 🧀 shaved parmesan, 🐟 Caesar dressing. 
-Steps: 👨‍🍳 Whisk egg yolk, olive oil, garlic, lemon, and anchovies for dressing. 🥣 Toss with crisp romaine leaves. 🔥 Garnish heavily with croutons and parmesan.
+Ingredients: 🥬 2 large heads romaine lettuce (washed and torn into bite-sized pieces), 🍞 2 cups day-old bread (cubed), 🧀 1/2 cup freshly shaved parmesan, 🐟 6 anchovy fillets, 🥚 1 large egg yolk (coddled), 🧄 2 cloves garlic, 🍋 juice of 1 lemon, 🫒 1/2 cup extra virgin olive oil, 🧂 freshly ground black pepper. 
+Steps: 🍞 Make croutons: toss bread cubes with olive oil, salt, and garlic powder; bake at 375°F (190°C) for 10-12 minutes until golden and crispy; set aside. 🐟 Mash anchovies and minced garlic into a paste on a cutting board using the side of a knife. 🥚 In a large wooden bowl, whisk the anchovy-garlic paste with egg yolk, lemon juice, and a few drops of Worcestershire sauce until smooth. 🫒 Slowly drizzle in olive oil while whisking constantly to create a thick, emulsified dressing; season generously with black pepper. 🥬 Add romaine leaves to the bowl and toss gently but thoroughly, ensuring every leaf is coated in the creamy dressing. 🧀 Add half the shaved parmesan and toss again; taste and adjust with more lemon juice or salt if needed. 🔥 Scatter crispy croutons and remaining parmesan over the top; serve immediately in the classic wooden bowl.
 
-#caesarsalad #salad #healthy #italian #fresh 🌮🍱
+#caesarsalad #salad #healthy #italian #fresh #romaine #anchovies #classic 🌮🍱
 ```
 
 ID: 191
@@ -2284,10 +2284,10 @@ Caption:
 🥑 Avocado Toast with Poached Egg 🥑
 
 Recipe: 
-Ingredients: 🍞 thick sourdough, 🥑 1 ripe avocado, 🍳 1 poached egg, 🌶️ red pepper flakes. 
-Steps: 👨‍🍳 Toast bread until crispy. 🥣 Mash avocado with lemon and salt, spread thickly. 🔥 Top with a warm poached egg and pepper flakes.
+Ingredients: 🍞 2 thick slices sourdough bread, 🥑 2 ripe Hass avocados, 🍳 2 large eggs, 🍋 juice of 1 lemon, 🌶️ 1/2 tsp red pepper flakes, 🧂 flaky sea salt, 🫒 extra virgin olive oil, 🌿 microgreens or radish sprouts. 
+Steps: 🍞 Toast sourdough slices in a toaster or under the broiler until deeply golden and crispy around the edges; brush lightly with olive oil while warm. 🥑 Halve avocados, remove pits, and scoop flesh into a bowl; add lemon juice, salt, and a drizzle of olive oil; mash with a fork, leaving some chunks for texture. 🍳 Bring a pot of water to a gentle simmer; add 1 tbsp vinegar; crack each egg into a small bowl, create a gentle whirlpool, and slide eggs in; poach for 3 minutes for runny yolks. 🥣 Spread mashed avocado thickly and evenly over each toast, creating gentle ridges with the back of a spoon. 🍳 Remove poached eggs with a slotted spoon, blot on a paper towel, and place one on each avocado toast. 🌶️ Sprinkle generously with flaky sea salt, red pepper flakes, and a final drizzle of high-quality olive oil; garnish with microgreens.
 
-#avocadotoast #brunch #breakfast #healthy #avocado 🌮🍱
+#avocadotoast #brunch #breakfast #healthy #avocado #poachedeggs #sourdough #trendy 🌮🍱
 ```
 
 ID: 192
@@ -2296,10 +2296,10 @@ Caption:
 🌯 Fresh Spring Rolls 🌯
 
 Recipe: 
-Ingredients: 🌯 rice paper wrappers, 🦐 cooked shrimp, 🥬 fresh herbs and lettuce, 🥜 peanut dipping sauce. 
-Steps: 👨‍🍳 Soften rice paper in warm water. 🥣 Layer shrimp, herbs, and noodles. 🔥 Roll tightly and serve fresh with thick peanut sauce.
+Ingredients: 🌯 12 round rice paper wrappers (22cm), 🦐 12 cooked jumbo shrimp (halved lengthwise), 🥬 1 cup fresh mint leaves, 🌿 1 cup fresh cilantro, 🥬 1 cup butter lettuce leaves, 🍜 3 oz rice vermicelli (cooked and cooled), 🥕 1 carrot (julienned), 🥜 1/2 cup creamy peanut dipping sauce. 
+Steps: 🍜 Cook rice vermicelli according to package directions; drain, rinse under cold water, and toss with a drop of sesame oil to prevent sticking. 🦐 Cook shrimp in boiling water for 2 minutes until pink and opaque; cool in ice water, peel, devein, and halve lengthwise. 🌯 Fill a shallow pie dish with warm water; dip one rice paper for 5-10 seconds until just pliable but still slightly firm (it will continue to soften as you work). 🥬 Lay the softened wrapper on a clean, damp towel; place a lettuce leaf in the center, then a small bundle of vermicelli, carrot strips, mint, and cilantro. 🦐 Arrange 3 shrimp halves, cut-side up, in a row above the vegetable bundle; this creates the beautiful pink spiral visible through the translucent wrapper. 🔥 Fold the bottom of the wrapper over the filling, fold in the sides tightly, and roll upward into a firm cylinder; the roll should be tight enough to hold together but not tear. 🥜 Serve immediately with thick peanut dipping sauce, or wrap individually in plastic wrap for up to 2 hours.
 
-#springrolls #vietnamesefood #healthy #fresh #appetizer 🌮🍱
+#springrolls #vietnamesefood #healthy #fresh #appetizer #ricepaper #shrimp #vietnamese 🌮🍱
 ```
 
 ID: 193
@@ -2308,10 +2308,10 @@ Caption:
 🥭 Mango Sticky Rice 🥭
 
 Recipe: 
-Ingredients: 🍚 glutinous rice, 🥥 coconut milk, 🥭 1 ripe yellow mango, 🍬 palm sugar. 
-Steps: 👨‍🍳 Steam sticky rice until tender. 🥣 Simmer coconut milk and sugar, then pour over rice. 🔥 Serve with fresh mango slices and a drizzle of coconut cream.
+Ingredients: 🍚 1.5 cups Thai glutinous rice (sweet rice), 🥥 1 can (14 oz) full-fat coconut milk, 🥭 2 large ripe yellow mangoes (sliced), 🍬 1/4 cup palm sugar (or brown sugar), 🧂 1/4 tsp salt, 🌿 2 tbsp toasted sesame seeds, 🥥 2 tbsp coconut cream (for drizzling). 
+Steps: 🍚 Rinse glutinous rice until water runs clear; soak in cold water for at least 4 hours (preferably overnight). 🔥 Drain rice and steam in a bamboo steamer lined with cheesecloth for 25-30 minutes until tender and translucent. 🥥 While rice steams, gently heat coconut milk with palm sugar and salt in a saucepan, stirring until sugar dissolves; do not boil. 🍚 Transfer hot steamed rice to a large bowl; slowly pour the warm sweetened coconut milk over the rice, folding gently with a spatula. ❄️ Cover and let sit for 30 minutes, allowing the rice to absorb all the coconut milk and become creamy and luscious. 🥭 Peel and slice mangoes into thick cheeks; score in a crosshatch pattern and fan out on the plate. 🔥 Serve a mound of warm sticky rice alongside the mango, drizzle with thick coconut cream, and sprinkle with toasted sesame seeds.
 
-#mangostickyrice #thaifood #dessert #sweet #mango 🌮🍱
+#mangostickyrice #thaifood #dessert #sweet #mango #coconut #thaidesert #sticky-rice 🌮🍱
 ```
 
 ID: 194
@@ -2320,10 +2320,10 @@ Caption:
 🥓 Crispy Pork Belly (Siu Yuk) 🥓
 
 Recipe: 
-Ingredients: 🐷 1 slab pork belly, 🧂 coarse sea salt, 🪵 five-spice powder. 
-Steps: 👨‍🍳 Score and dry the pork skin thoroughly. 🥣 Rub meat with five-spice. 🔥 Roast at high heat with a salt crust, then broil until the skin puffs into a crispy crackling.
+Ingredients: 🐷 2 lbs skin-on pork belly slab, 🧂 2 tbsp coarse sea salt, 🪵 1 tsp five-spice powder, 🧂 1 tsp white pepper, 🧄 2 cloves garlic (minced), 🫚 1 tsp grated ginger, 🧂 1 tbsp rice vinegar, 🧂 1 tsp baking powder. 
+Steps: 🧂 Pat pork belly completely dry, especially the skin; score the skin in a tight crosshatch pattern, being careful not to cut into the meat. 🥣 Rub the meat side (not skin) with five-spice, white pepper, garlic, and ginger; flip and brush skin with rice vinegar, then pat baking powder evenly over the surface. ❄️ Place on a wire rack over a baking sheet, uncovered, in the refrigerator for at least 12 hours (up to 24) to dry the skin completely. 🔥 Remove from fridge and let come to room temperature for 30 minutes; the skin should feel papery dry. ⏲️ Roast at 400°F (200°C) for 25 minutes, then reduce to 325°F (165°C) and cook for 1.5 hours until the meat is tender. 🔥 Increase oven to broil (500°F+) and place pork 6 inches from the heating element for 5-8 minutes, rotating as needed, until the skin puffs and blisters into a glass-like crackling. 🔪 Rest for 10 minutes, then chop through the bones with a cleaver into bite-sized pieces.
 
-#porkbelly #chinesefood #crispy #bbq #meat 🌮🍱
+#porkbelly #chinesefood #crispy #bbq #meat #siuyuk #cantonese #roastpork 🌮🍱
 ```
 
 ID: 195
@@ -2332,10 +2332,10 @@ Caption:
 🍰 Matcha Mille Crepe Cake 🍰
 
 Recipe: 
-Ingredients: 🍰 thin matcha crepes, 🥛 fresh whipped cream, 🍵 matcha powder. 
-Steps: 👨‍🍳 Cook twenty paper-thin matcha crepes. 🥣 Stack them, spreading a thin layer of cream between each. 🔥 Chill to set, then dust the top with fresh matcha powder.
+Ingredients: 🍰 20-24 thin crepes, 🥛 2 cups heavy whipping cream, 🍬 1/3 cup powdered sugar, 🍵 2 tbsp matcha powder (plus extra for dusting), 🥚 6 large eggs, 🥛 2.5 cups whole milk, 🌾 2 cups all-purpose flour, 🧈 4 tbsp melted butter, 🍬 1/3 cup granulated sugar. 
+Steps: 🥣 Make crepe batter: whisk eggs, milk, melted butter, sugar, and 1 tbsp matcha until smooth; gradually whisk in flour until lump-free; strain and refrigerate for 1 hour. 🔥 Heat a 10-inch non-stick pan over medium heat; brush with butter, pour 1/4 cup batter, and swirl to create a thin, even crepe; cook for 1 minute per side. ⏲️ Repeat to make 20-24 crepes, stacking them on a plate with parchment paper between each; let cool completely. 🥛 Whip heavy cream with powdered sugar and remaining matcha powder until stiff peaks form. 🥣 Place one crepe on a cake stand, spread a thin, even layer of matcha whipped cream (about 2 tbsp), then top with another crepe. 🔥 Repeat until all crepes are stacked, finishing with a crepe on top; the cake should be about 3-4 inches tall. ❄️ Refrigerate for at least 2 hours to set; before serving, dust generously with matcha powder through a fine sieve.
 
-#millecrepe #matcha #cake #dessert #japanese 🌮🍱
+#millecrepe #matcha #cake #dessert #japanese #greentea #layeredcake #elegant 🌮🍱
 ```
 
 ID: 196
@@ -2344,10 +2344,10 @@ Caption:
 🥩 Sizzling Steak Fajitas 🥩
 
 Recipe: 
-Ingredients: 🥩 sliced skirt steak, 🫑 bell peppers and onions, 🌮 flour tortillas, 🌶️ fajita seasoning. 
-Steps: 👨‍🍳 Marinate steak in lime and spices. 🥣 Sear peppers and onions in a hot cast iron. 🔥 Add steak, cooking quickly, and serve sizzling hot.
+Ingredients: 🥩 1.5 lbs skirt steak (trimmed), 🫑 2 red bell peppers (sliced into strips), 🫑 2 green bell peppers (sliced into strips), 🧅 2 large yellow onions (sliced into half-moons), 🌮 8 warm flour tortillas, 🍋 juice of 3 limes, 🫒 3 tbsp olive oil, 🌶️ 2 tbsp fajita seasoning, 🌿 fresh cilantro, 🥛 sour cream. 
+Steps: 🍋 Marinate skirt steak with lime juice, 1 tbsp olive oil, and half the fajita seasoning for at least 1 hour at room temperature. 🔥 Heat a large cast iron skillet over highest heat until smoking; add 1 tbsp oil and sear peppers and onions for 6-8 minutes until charred and slightly softened but still crisp; remove and set aside. 🥩 Add remaining oil to the screaming hot skillet; sear steak for 2-3 minutes per side for medium-rare (130°F internal); transfer to a cutting board and tent with foil. 🔥 Add vegetables back to the skillet to reheat and pick up steak drippings; squeeze fresh lime over everything. 🔪 Slice steak thinly against the grain, revealing the beautiful pink interior; the meat should be juicy and tender. 🔥 Pile steak and vegetables onto a preheated sizzling platter or cast iron plate; serve immediately with warm tortillas, sour cream, guacamole, and pico de gallo.
 
-#fajitas #mexicanfood #steak #grilling #sizzling 🌮🍱
+#fajitas #mexicanfood #steak #grilling #sizzling #skirtsteak #texmex #dinner 🌮🍱
 ```
 
 ID: 197
@@ -2356,10 +2356,10 @@ Caption:
 🍜 Aromatic Pho Bo 🍜
 
 Recipe: 
-Ingredients: 🍜 rice noodles, 🥩 rare beef slices, 🦴 rich beef bone broth, 🌿 Thai basil and bean sprouts. 
-Steps: 👨‍🍳 Simmer bones and charred spices for 24 hours. 🥣 Place noodles and raw beef in a bowl. 🔥 Pour boiling broth over the meat to cook it instantly, garnish with herbs.
+Ingredients: 🦴 3 lbs beef marrow bones, 🥩 1 lb beef chuck, 🍜 1 lb flat rice noodles (banh pho), 🧅 2 large yellow onions (halved), 🫚 4-inch piece ginger (halved), ⭐ 6 star anise pods, 🪵 3-inch cinnamon stick, 🍃 6 whole cloves, 🌿 1 tbsp coriander seeds, 🐟 3 tbsp fish sauce, 🌿 Thai basil, 🌱 bean sprouts, 🍋 lime wedges, 🌶️ sliced jalapeños. 
+Steps: 🔥 Char onion and ginger halves directly over a gas flame or under a broiler until deeply blackened; this creates the signature smoky depth of pho broth. 🦴 Parboil bones and chuck in a large stockpot for 10 minutes; drain and rinse thoroughly to remove impurities for a clear broth. 🥣 Fill pot with 5 quarts water, add bones, chuck, charred onion, ginger, and all toasted spices; bring to a gentle simmer. ⏲️ Simmer uncovered for 10-12 hours, skimming foam and fat from the surface every 30 minutes; add hot water as needed to maintain the liquid level. 🥩 Remove chuck after 3 hours, cool, and refrigerate; thinly slice against the grain just before serving. 🍜 Soak rice noodles in hot water for 20 minutes until pliable; drain and portion into large bowls. 🔥 Place raw beef slices and warm chuck slices over noodles; ladle screaming hot broth through a fine mesh strainer directly over the meat to cook it instantly. 🌿 Serve with a plate of Thai basil, bean sprouts, lime wedges, jalapeños, and hoisin sauce for guests to customize.
 
-#pho #vietnamesefood #soup #noodles #comfortfood 🌮🍱
+#pho #vietnamesefood #soup #noodles #comfortfood #beefpho #broth #vietnamese 🌮🍱
 ```
 
 ID: 198
@@ -2368,10 +2368,10 @@ Caption:
 🦑 Crispy Fried Calamari 🦑
 
 Recipe: 
-Ingredients: 🦑 fresh calamari rings, 🌾 seasoned flour, 🍋 lemon wedges, 🍅 marinara sauce. 
-Steps: 👨‍🍳 Toss calamari in seasoned flour. 🥣 Deep fry in very hot oil for 60 seconds until light golden. 🔥 Drain, salt immediately, and serve with lemon and marinara.
+Ingredients: 🦑 1 lb fresh calamari (tubes cut into 1/2-inch rings, tentacles left whole), 🌾 1.5 cups all-purpose flour, 🌽 1/2 cup cornstarch, 🥄 1 tsp baking powder, 🧂 1 tsp salt, 🌶️ 1/2 tsp cayenne pepper, 🍋 2 lemons (cut into wedges), 🍅 1 cup marinara sauce (warmed). 
+Steps: 🦑 Pat calamari completely dry with paper towels; moisture is the enemy of crispy fried seafood. 🥣 Whisk flour, cornstarch, baking powder, salt, and cayenne in a large bowl; this combination creates an incredibly light, crispy coating. 🔥 Heat 2 inches of vegetable oil to 375°F (190°C) in a deep pot; the oil should shimmer and a drop of batter should sizzle immediately. 🦑 Toss calamari in the seasoned flour mixture, shaking off excess; fry in small batches for exactly 60-90 seconds until pale golden and tender. 🔥 Overcooking makes calamari rubbery; the rings should curl slightly and the coating should be light, not dark. 🧂 Remove with a spider skimmer and drain on a wire rack; season immediately with flaky sea salt while hot. 🍋 Serve in a paper-lined basket with lemon wedges and warm marinara sauce for dipping; squeeze lemon over just before eating.
 
-#calamari #seafood #friedfood #appetizer #italianfood 🌮🍱
+#calamari #seafood #friedfood #appetizer #italianfood #crispy #squid #beachfood 🌮🍱
 ```
 
 ID: 199
@@ -2380,10 +2380,10 @@ Caption:
 🥯 Toasted Bagel with Lox 🥯
 
 Recipe: 
-Ingredients: 🥯 everything bagel, 🧀 cream cheese, 🐟 smoked salmon (lox), 🧅 red onion, 🟢 capers. 
-Steps: 👨‍🍳 Slice and toast the bagel. 🥣 Spread a generous layer of cream cheese. 🔥 Top with ribbons of smoked salmon, thinly sliced onions, and capers.
+Ingredients: 🥯 2 everything bagels (fresh, from a good bakery), 🧀 4 oz full-fat cream cheese (softened), 🐟 4 oz thinly sliced Nova smoked salmon (lox), 🧅 1/4 small red onion (thinly sliced into rings), 🟢 1 tbsp capers (drained), 🍅 2 thin tomato slices, 🌿 fresh dill sprigs, 🍋 lemon wedges. 
+Steps: 🥯 Slice bagels in half horizontally with a serrated knife; toast cut-side down in a skillet over medium heat or under a broiler until golden and slightly crispy. 🧀 Let bagel halves cool for 1 minute, then spread a thick, generous layer of cream cheese on each half, reaching all the way to the edges. 🐟 Drape thin slices of lox over the cream cheese in elegant, overlapping folds; the salmon should be velvety and glistening. 🧅 Arrange red onion rings over the salmon, scatter capers generously, and add a thin slice of ripe tomato if desired. 🌿 Garnish with fresh dill fronds and a squeeze of lemon juice; the acidity cuts through the rich cream cheese and fatty fish. 🍋 Season with freshly cracked black pepper; no salt needed as the lox and capers provide plenty. 🔥 Serve immediately, open-faced, with extra lemon wedges and perhaps a few cucumber slices for crunch.
 
-#bagelandlox #breakfast #bagel #nyc #smokedsalmon 🌮🍱
+#bagelandlox #breakfast #bagel #nyc #smokedsalmon #brunch #jewishdeli #newyork 🌮🍱
 ```
 
 ID: 200
@@ -2392,9 +2392,9 @@ Caption:
 🍣 Spicy Tuna Crispy Rice 🍣
 
 Recipe: 
-Ingredients: 🍚 sushi rice, 🐟 spicy minced tuna, 🌶️ sliced jalapeño, 🫒 sesame oil. 
-Steps: 👨‍🍳 Press sushi rice into a block and pan-fry until golden and crispy. 🥣 Mix tuna with spicy mayo. 🔥 Mound tuna on the crispy rice and top with a jalapeño slice.
+Ingredients: 🍚 2 cups sushi rice (seasoned with rice vinegar, sugar, salt), 🐟 8 oz sashimi-grade tuna (finely diced), 🌶️ 1 tbsp sriracha, 🧈 2 tbsp Kewpie mayonnaise, 🫒 1 tbsp sesame oil, 🌶️ 1 jalapeño (thinly sliced into rings), 🟢 1 tbsp sliced scallions, 🌿 microgreens for garnish, 🫒 vegetable oil for frying. 
+Steps: 🍚 Press warm, seasoned sushi rice firmly into a square baking dish lined with plastic wrap; pack it tightly to about 1-inch thickness. ❄️ Refrigerate for at least 2 hours or overnight until completely firm and cold; this is essential for clean slicing and crispy frying. 🔪 Turn the rice block out onto a cutting board and slice into 3-inch squares or rectangles using a sharp knife dipped in water. 🔥 Heat 1/4 inch of vegetable oil in a non-stick skillet over medium-high heat; fry rice cakes for 3-4 minutes per side until golden brown and crispy. 🐟 Combine diced tuna, sriracha, Kewpie mayo, and sesame oil in a bowl; fold gently until the tuna is evenly coated in the spicy sauce. 🌶️ Top each crispy rice cake with a generous mound of spicy tuna, pressing it gently so it adheres. 🔥 Garnish each piece with a thin slice of jalapeño, scattered scallions, and a few delicate microgreens; serve immediately while the rice is still warm and crispy.
 
-#crispyrice #sushi #japanesefood #spicytuna #appetizer 🌮🍱
+#crispyrice #sushi #japanesefood #spicytuna #appetizer #tuna #sashimi #fusion 🌮🍱
 ```
 
