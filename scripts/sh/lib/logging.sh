@@ -45,7 +45,11 @@ log() {
     ts=$(date '+%Y-%m-%d %H:%M:%S')
     local line="[$ts] [$level] $message"
     if [ "$target" -ge "$current" ]; then
-        echo "$line" >&2
+        # Only write to stderr if it's a terminal or we have no log file
+        # Prevents duplicate lines when stderr is redirected to the log file
+        if [ -t 2 ] || [ -z "$LOG_FILE" ]; then
+            echo "$line" >&2
+        fi
     fi
     if [ -n "$LOG_FILE" ]; then
         echo "$line" >> "$LOG_FILE"

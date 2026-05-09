@@ -11,6 +11,17 @@ if ! command -v "${BROWSEROS_CLI:-browseros-cli}" >/dev/null 2>&1; then
 fi
 BROWSEROS_CLI="${BROWSEROS_CLI:-browseros-cli}"
 
+_bos_check_session_error() {
+    local output="$1"
+    if echo "$output" | grep -q "Session with given id not found"; then
+        return 0
+    fi
+    if echo "$output" | grep -q "CDP error"; then
+        return 0
+    fi
+    return 1
+}
+
 # Selectors — overridable via environment
 SELECTOR_INPUT="${SELECTOR_INPUT:-div[contenteditable=\"true\"]}"
 SELECTOR_IMAGE="${SELECTOR_IMAGE:-img[alt=\"Generated image\"]}"
@@ -49,7 +60,16 @@ bos_health() {
 bos_navigate() {
     local url="$1"
     log DEBUG "bos_navigate: url=$url"
-    _bos nav "$url"
+    local output
+    output=$(_bos nav "$url")
+    local nav_exit=$?
+    if [ $nav_exit -ne 0 ]; then
+        if _bos_check_session_error "$output"; then
+            log ERROR "CDP session lost during navigation"
+            return 2
+        fi
+        return 1
+    fi
 }
 
 bos_eval() {
@@ -65,6 +85,10 @@ bos_eval() {
     local eval_exit=$?
     log DEBUG "bos_eval: exit=$eval_exit output='${output:0:120}'"
     if [ $eval_exit -ne 0 ]; then
+        if _bos_check_session_error "$output"; then
+            log ERROR "CDP session lost during eval"
+            return 2
+        fi
         log ERROR "bos_eval failed for: $js"
         return 1
     fi
@@ -150,6 +174,10 @@ bos_find_element() {
         output=$(bos_find_element_coords "$selector")
         local coords_exit=$?
         log DEBUG "bos_find_element: attempt elapsed=${elapsed}s exit=$coords_exit output='${output:0:120}'"
+        if [ "$coords_exit" -eq 2 ]; then
+            log ERROR "CDP session lost, aborting element search for '$selector'"
+            return 2
+        fi
         if [ $coords_exit -eq 0 ]; then
             local found
             found=$(echo "$output" | jq -r '.found // false' 2>/dev/null)

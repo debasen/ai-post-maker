@@ -78,7 +78,9 @@ phase_2_navigation() {
     log_section "Phase 2: Platform Navigation"
 
     log INFO "Navigating to Grok Imagine..."
-    bos_navigate "https://grok.com/imagine"
+    if ! bos_navigate "https://grok.com/imagine"; then
+        log FATAL "Failed to navigate to Grok Imagine"
+    fi
     _dry_run_sleep 2
 }
 
@@ -91,7 +93,9 @@ phase_3_image_generation() {
     input_info=$(bos_find_element "$SELECTOR_INPUT" 30)
     local find_exit=$?
     log DEBUG "phase_3: find_element exit=$find_exit"
-    if [ $find_exit -ne 0 ]; then
+    if [ "$find_exit" -eq 2 ]; then
+        log FATAL "Browser CDP session lost — restart BrowserOS required"
+    elif [ $find_exit -ne 0 ]; then
         log FATAL "Could not find Grok input area"
     fi
 
