@@ -1679,16 +1679,18 @@
     {
       "id": 184,
       "prompt": "An ultra-realistic, highly detailed vibrant red fried rice packed with tangy, fermented kimchi and pork belly, topped with a crispy fried egg and roasted seaweed strips. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T16:34:00.466462"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/8f42ecac-4750-4922-9033-a8116f604a09",
+      "executed_at": "2026-05-09T23:33:10.528016",
+      "video_url": "https://grok.com/imagine/post/8f42ecac-4750-4922-9033-a8116f604a09"
     },
     {
       "id": 185,
       "prompt": "An ultra-realistic, highly detailed a massive, folded Chinese street crepe brushed with sweet hoisin and spicy chili sauce, filled with a crispy wonton cracker, egg, and scallions. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T16:44:29.813679"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751",
+      "executed_at": "2026-05-09T23:43:09.689557",
+      "video_url": "https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751"
     },
     {
       "id": 186,
@@ -2540,6 +2542,356 @@
       "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-09T11:40:00"
+    },
+    {
+      "id": 301,
+      "prompt": "An ultra-realistic, highly detailed golden honey-glazed chicken thighs sizzling in a cast iron skillet, sticky glaze caramelizing on the skin, fresh cilantro garnish, steam rising. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:01:00"
+    },
+    {
+      "id": 302,
+      "prompt": "An ultra-realistic, highly detailed jumbo sea scallops seared to perfection, golden crust glistening, sitting on a bed of sweet pea puree, microgreens, lemon zest. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:02:00"
+    },
+    {
+      "id": 303,
+      "prompt": "An ultra-realistic, highly detailed creamy sun-dried tomato chicken pasta, wide penne noodles coated in rich orange sauce, shaved parmesan falling like snow, fresh basil. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:03:00"
+    },
+    {
+      "id": 304,
+      "prompt": "An ultra-realistic, highly detailed Mediterranean grilled chicken salad in a white bowl, vibrant greens, kalamata olives, crumbled feta, cherry tomatoes, grilled chicken strips. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:04:00"
+    },
+    {
+      "id": 305,
+      "prompt": "An ultra-realistic, highly detailed steaming bowl of Thai green curry with chicken, vibrant green coconut broth, Thai eggplant, bamboo shoots, fresh basil. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:05:00"
+    },
+    {
+      "id": 306,
+      "prompt": "An ultra-realistic, highly detailed jumbo lump crab cakes, golden crispy exterior, one broken open to reveal tender crab meat, remoulade drizzle, lemon wedge. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:06:00"
+    },
+    {
+      "id": 307,
+      "prompt": "An ultra-realistic, highly detailed whole roasted chicken on a rustic cutting board, golden crackling skin, lemon wedges, rosemary sprigs, roasted baby potatoes. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:07:00"
+    },
+    {
+      "id": 308,
+      "prompt": "An ultra-realistic, highly detailed deep bowl of Vietnamese chicken pho, clear aromatic broth, rice noodles, shredded chicken, fresh herbs, lime wedges, steam rising. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:08:00"
+    },
+    {
+      "id": 309,
+      "prompt": "An ultra-realistic, highly detailed white pizza fresh from a wood oven, bubbling ricotta and mozzarella, wilted spinach, garlic slices, charred leopard-spotted crust. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:09:00"
+    },
+    {
+      "id": 310,
+      "prompt": "An ultra-realistic, highly detailed wide pot of coconut curry mussels, plump open mussels in creamy red broth, cilantro, crusty baguette on the side. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:10:00"
+    },
+    {
+      "id": 311,
+      "prompt": "An ultra-realistic, highly detailed hand-held buttermilk fried chicken sandwich, crispy craggy coating, pickles, shredded lettuce, spicy mayo on a brioche bun. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:11:00"
+    },
+    {
+      "id": 312,
+      "prompt": "An ultra-realistic, highly detailed slice of lemon lavender pound cake, dense moist crumb, lemon glaze dripping down the sides, dried lavender buds. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:12:00"
+    },
+    {
+      "id": 313,
+      "prompt": "An ultra-realistic, highly detailsd thick slice of Spanish tortilla, layers of tender potato and egg, golden edges, served at room temperature with alioli. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:13:00"
+    },
+    {
+      "id": 314,
+      "prompt": "An ultra-realistic, highly detailed crispy rice blocks topped with spicy diced tuna, sriracha drizzle, black sesame seeds, jalapeño slice. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:14:00"
+    },
+    {
+      "id": 315,
+      "prompt": "An ultra-realistic, highly detailed spatchcocked peri peri chicken on a grill, deeply charred and fiery red skin, crispy edges, lemon halves. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:15:00"
+    },
+    {
+      "id": 316,
+      "prompt": "An ultra-realistic, highly detailsd elegant lobster thermidor, creamy sauce bubbling under a golden cheese crust, served in the lobster shell. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:16:00"
+    },
+    {
+      "id": 317,
+      "prompt": "An ultra-realistic, highly detailed twirled linguine with shrimp fra diavolo, bright red tomato sauce, plump pink shrimp, parsley, chili flakes. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:17:00"
+    },
+    {
+      "id": 318,
+      "prompt": "An ultra-realistic, highly detailsd refreshing watermelon feta salad, ice-cold red cubes, white feta crumbles, fresh mint, balsamic glaze drizzle. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:18:00"
+    },
+    {
+      "id": 319,
+      "prompt": "An ultra-realistic, highly detailed sliced chicken katsu on a plate, golden panko crust, shredded cabbage, drizzle of thick dark tonkatsu sauce. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:19:00"
+    },
+    {
+      "id": 320,
+      "prompt": "An ultra-realistic, highly detailed decadent dark chocolate raspberry tart, glossy ganache surface, fresh raspberries arranged on top, cocoa dusted. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:20:00"
+    },
+    {
+      "id": 321,
+      "prompt": "An ultra-realistic, highly detailed sizzling chicken tikka skewers on a metal plate, charred and blistered, vibrant red-orange color, cilantro garnish. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:21:00"
+    },
+    {
+      "id": 322,
+      "prompt": "An ultra-realistic, highly detailed dan dan noodles in a deep bowl, glossy sesame-chili sauce coating wheat noodles, crispy ground chicken, crushed peanuts. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:22:00"
+    },
+    {
+      "id": 323,
+      "prompt": "An ultra-realistic, highly detailsd hand-held grilled shrimp tacos, charred jumbo shrimp, purple cabbage slaw, avocado slices, chipotle crema drizzle. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:23:00"
+    },
+    {
+      "id": 324,
+      "prompt": "An ultra-realistic, highly detailsd towering tiramisu crepe cake, twenty thin layers visible from the side, dusted with cocoa, sliced to reveal interior. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:24:00"
+    },
+    {
+      "id": 325,
+      "prompt": "An ultra-realistic, highly detailsd creamy roasted butternut squash soup in a bowl, vibrant orange, coconut cream swirl, toasted pumpkin seeds, thyme. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:25:00"
+    },
+    {
+      "id": 326,
+      "prompt": "An ultra-realistic, highly detailsd chicken satay skewers on a banana leaf, charred edges, peanut sauce in a small bowl, cucumber relish on the side. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:26:00"
+    },
+    {
+      "id": 327,
+      "prompt": "An ultra-realistic, highly detailsd bang bang shrimp piled high, crispy panko-coated shrimp coated in creamy orange-pink sauce, shredded lettuce base. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:27:00"
+    },
+    {
+      "id": 328,
+      "prompt": "An ultra-realistic, highly detailsd margherita flatbread on a rustic board, blistered crust, melted fresh mozzarella, bright basil leaves, olive oil glistening. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:28:00"
+    },
+    {
+      "id": 329,
+      "prompt": "An ultra-realistic, highly detailsd soft shell crab sandwich, crispy fried crab on brioche, remoulade oozing, lettuce and tomato visible. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:29:00"
+    },
+    {
+      "id": 330,
+      "prompt": "An ultra-realistic, highly detailsd slice of passion fruit cheesecake, creamy yellow filling, glossy passion fruit glaze dripping down the sides, graham crust. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:30:00"
+    },
+    {
+      "id": 331,
+      "prompt": "An ultra-realistic, highly detailsd golden chicken pot pie, flaky puff pastry lid, creamy filling bubbling through vents, steam escaping. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:31:00"
+    },
+    {
+      "id": 332,
+      "prompt": "An ultra-realistic, highly detailsd tempura udon in a ceramic bowl, thick noodles in hot dashi, crispy shrimp tempura, scallions, nori. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:32:00"
+    },
+    {
+      "id": 333,
+      "prompt": "An ultra-realistic, highly detailsd Nashville hot chicken tenders, fiery red cayenne coating, served on white bread with pickles, oil soaking into bread. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:33:00"
+    },
+    {
+      "id": 334,
+      "prompt": "An ultra-realistic, highly detailsd elegant pistachio rose water cake slice, pale green crumb, rose buttercream frosting, crushed pistachios on top. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:34:00"
+    },
+    {
+      "id": 335,
+      "prompt": "An ultra-realistic, highly detailsd oysters Rockefeller on a half shell, spinach and breadcrumb topping bubbling and golden, lemon wedges, rock salt bed. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:35:00"
+    },
+    {
+      "id": 336,
+      "prompt": "An ultra-realistic, highly detailsd cacio e pepe pasta being twirled, glossy pecorino sauce clinging to spaghetti, generous black pepper, steam wisps. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:36:00"
+    },
+    {
+      "id": 337,
+      "prompt": "An ultra-realistic, highly detailsd harissa roasted chicken thighs, deeply charred red skin, fresh cilantro, served on a rustic plate with couscous. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:37:00"
+    },
+    {
+      "id": 338,
+      "prompt": "An ultra-realistic, highly detailsd shrimp and grits in a bowl, creamy white grits, plump shrimp, pan juices, scallions, southern comfort lighting. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:38:00"
+    },
+    {
+      "id": 339,
+      "prompt": "An ultra-realistic, highly detailsd fluffy ricotta hotcakes stacked high, golden edges, melting honey butter, fresh berries, powdered sugar dusting. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:39:00"
+    },
+    {
+      "id": 340,
+      "prompt": "An ultra-realistic, highly detailsd bubbling kimchi jjigae in a black stone pot, aged kimchi, tofu cubes, chicken, steam rising, vibrant red broth. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:40:00"
+    },
+    {
+      "id": 341,
+      "prompt": "An ultra-realistic, highly detailsd Cajun shrimp boil dumped on newspaper, bright red shrimp, corn on the cob, potatoes, lemon halves, messy and festive. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:41:00"
+    },
+    {
+      "id": 342,
+      "prompt": "An ultra-realistic, highly detailsd spinach and feta gozleme on a wooden board, golden blistered flatbread, cut in half to show savory filling. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:42:00"
+    },
+    {
+      "id": 343,
+      "prompt": "An ultra-realistic, highly detailsd lemon pepper chicken wings, crispy golden skin, lemon zest visible, black pepper, blue cheese dressing on the side. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:43:00"
+    },
+    {
+      "id": 344,
+      "prompt": "An ultra-realistic, highly detailsd miso ramen bowl, rich cloudy broth, wavy noodles, corn, nori, soft-boiled egg, scallions, steam rising. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:44:00"
+    },
+    {
+      "id": 345,
+      "prompt": "An ultra-realistic, highly detailsd grilled halloumi salad, golden seared cheese slices, arugula, watermelon cubes, mint, balsamic drizzle. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:45:00"
+    },
+    {
+      "id": 346,
+      "prompt": "An ultra-realistic, highly detailsd burnt Basque cheesecake slice, deeply caramelized top, creamy custardy interior, on a white plate. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:46:00"
+    },
+    {
+      "id": 347,
+      "prompt": "An ultra-realistic, highly detailsd chicken shawarma bowl, sliced marinated chicken, colorful vegetables, tahini drizzle, rice base, warm pita. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:47:00"
+    },
+    {
+      "id": 348,
+      "prompt": "An ultra-realistic, highly detailsd grilled calamari steak, crosshatch grill marks, lemon wedges, arugula salad, Mediterranean lighting. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:48:00"
+    },
+    {
+      "id": 349,
+      "prompt": "An ultra-realistic, highly detailsd pesto genovese with gigli pasta, vibrant green basil pesto, toasted pine nuts, parmesan shavings, rustic bowl. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:49:00"
+    },
+    {
+      "id": 350,
+      "prompt": "An ultra-realistic, highly detailsd Sichuan dry-fried chicken, crispy chicken cubes, dried red chilies, Sichuan peppercorns, scallions, wok hei. Aspect ratio 9:16 portrait",
+      "status": "pending",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-09T17:50:00"
     }
   ]
 }

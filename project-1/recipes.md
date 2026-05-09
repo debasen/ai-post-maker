@@ -2998,3 +2998,604 @@ Steps: 🦀 Pat soft shell crabs completely dry with paper towels; season lightl
 #softshellcrab #tempura #seafood #japanesefood #crispy #appetizer #fried #sushi 🌮🍱
 ```
 
+
+ID: 251
+Caption:
+```
+🍗 Crispy Honey Garlic Chicken 🍗
+
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken thighs (bone-in, skin-on), 🍯 1/4 cup honey, 🧄 4 cloves garlic (minced), 🍅 3 tbsp soy sauce, 🍋 2 tbsp rice vinegar, 🌶️ 1 tsp chili flakes, 🫒 2 tbsp olive oil, 🌿 2 tbsp fresh cilantro, 🧂 salt and pepper
+Steps: 👨‍🍳 Pat chicken thighs dry and season generously with salt and pepper. 🔥 Heat olive oil in a large oven-safe skillet over medium-high heat; sear chicken skin-side down for 5-6 minutes until deeply golden and crispy. 🍳 Flip chicken and sear for 3 more minutes; remove and set aside. 🧄 Pour off excess fat, leaving 1 tbsp; sauté garlic for 30 seconds until fragrant. 🍯 Whisk honey, soy sauce, rice vinegar, and chili flakes in a bowl; pour into the skillet and simmer for 2 minutes. 🔥 Return chicken to the pan, skin-side up, and spoon glaze over the top. ⏲️ Bake at 400°F (200°C) for 15-18 minutes until internal temp reaches 165°F (74°C). 🌿 Garnish with fresh cilantro and serve with steamed rice.
+
+#honeygarlicchicken #chicken #dinner #asianfood #comfortfood #easyrecipes #glazed #weeknight 🌮🍱
+```
+
+ID: 252
+Caption:
+```
+🦐 Garlic Butter Scallops 🦐
+
+Recipe: 
+Ingredients: 🦐 12 large sea scallops (dry-packed), 🧈 4 tbsp unsalted butter, 🫒 2 tbsp olive oil, 🧄 4 cloves garlic (minced), 🍋 2 tbsp fresh lemon juice, 🌿 2 tbsp fresh parsley (chopped), 🧂 sea salt, 🧂 cracked black pepper
+Steps: 👨‍🍳 Remove side muscle from scallops and pat extremely dry; season both sides with sea salt and pepper. 🔥 Heat olive oil in a large skillet over high heat until smoking. ⏲️ Add scallops in a single layer, leaving space between them; sear for 2 minutes without moving to develop a deep golden crust. 🍳 Flip scallops, add butter and garlic to the pan; cook for 1 minute while tilting the pan and spooning foaming butter over the scallops. 🍋 Remove from heat, drizzle with lemon juice, and sprinkle with fresh parsley. 🔥 Serve immediately over creamy risotto or with crusty bread to soak up the garlic butter.
+
+#scallops #seafood #garlicbutter #finedining #dinner #easyrecipes #datenight #gourmet 🌮🍱
+```
+
+ID: 253
+Caption:
+```
+🍝 Creamy Sun-Dried Tomato Chicken Pasta 🍝
+
+Recipe: 
+Ingredients: 🍗 2 large chicken breasts (sliced into strips), 🍝 12 oz penne pasta, 🌞 1/2 cup sun-dried tomatoes (packed in oil), 🥛 1 cup heavy cream, 🧀 1/2 cup grated parmesan, 🧄 3 cloves garlic (minced), 🌿 1 tsp Italian seasoning, 🫒 2 tbsp olive oil
+Steps: 👨‍🍳 Cook penne in salted boiling water until al dente; reserve 1 cup pasta water before draining. 🔥 Heat olive oil in a large skillet over medium-high heat; season chicken strips and sear for 4-5 minutes until golden and cooked through; remove and set aside. 🧄 Sauté garlic and sun-dried tomatoes in the same pan for 1 minute until fragrant. 🥛 Pour in heavy cream and Italian seasoning; simmer for 3-4 minutes until slightly thickened. 🧀 Stir in parmesan until melted and smooth; add cooked pasta and toss to coat, adding reserved pasta water as needed. 🔥 Return chicken to the pan and toss everything together for 1 minute. 🌿 Serve immediately with extra parmesan and fresh basil.
+
+#pastadinner #chickenpasta #creamypasta #italianfood #comfortfood #dinner #sundriedtomato #weeknight 🌮🍱
+```
+
+ID: 254
+Caption:
+```
+🥗 Mediterranean Grilled Chicken Salad 🥗
+
+Recipe: 
+Ingredients: 🍗 2 large chicken breasts, 🥬 6 cups mixed greens, 🍅 1 cup cherry tomatoes (halved), 🥒 1 cucumber (diced), 🫒 1/2 cup kalamata olives, 🧀 1/2 cup feta cheese (crumbled), 🧅 1/4 red onion (thinly sliced), 🫒 3 tbsp extra virgin olive oil, 🍋 2 tbsp red wine vinegar, 🥄 1 tsp Dijon mustard
+Steps: 👨‍🍳 Marinate chicken breasts in olive oil, lemon juice, oregano, salt, and pepper for at least 30 minutes. 🔥 Grill over medium-high heat for 6-7 minutes per side until internal temp reaches 165°F (74°C); rest for 5 minutes, then slice. 🥬 In a large bowl, combine mixed greens, tomatoes, cucumber, olives, red onion, and feta. 🍋 Whisk olive oil, red wine vinegar, Dijon mustard, salt, and pepper for the dressing. 🥗 Toss salad with dressing until evenly coated; divide among plates. 🔥 Top each salad with sliced grilled chicken and a sprinkle of dried oregano; serve with warm pita bread.
+
+#salad #chickensalad #mediterranean #healthy #lunch #grilledchicken #feta #fresh 🌮🍱
+```
+
+ID: 255
+Caption:
+```
+🍛 Thai Green Curry with Chicken 🍛
+
+Recipe: 
+Ingredients: 🍗 1 lb chicken thighs (cut into chunks), 🥥 1 can (14 oz) coconut milk, 🌶️ 3 tbsp green curry paste, 🫑 1 cup Thai eggplant (quartered), 🫑 1/2 cup bamboo shoots, 🌿 1 cup Thai basil leaves, 🐟 2 tbsp fish sauce, 🍬 1 tsp palm sugar, 🍋 2 kaffir lime leaves
+Steps: 👨‍🍳 Spoon 3 tbsp of the thick coconut cream from the top of the can into a wok or deep skillet; heat over medium until it bubbles and separates. 🔥 Fry green curry paste in the coconut cream for 2-3 minutes until deeply fragrant. 🥥 Pour in remaining coconut milk and 1/2 cup water; bring to a gentle simmer. 🍗 Add chicken chunks and bamboo shoots; simmer for 10-12 minutes until chicken is cooked through. 🫑 Add Thai eggplant and simmer for 5 more minutes until tender but not mushy. 🐟 Season with fish sauce and palm sugar; taste and balance salty, sweet, and spicy. 🌿 Tear kaffir lime leaves and Thai basil into the curry; stir for 30 seconds and remove from heat. 🍚 Serve immediately over jasmine rice.
+
+#thaigreencurry #curry #thai #chicken #coconut #spicy #asiancuisine #dinner 🌮🍱
+```
+
+ID: 256
+Caption:
+```
+🦀 Maryland Crab Cakes 🦀
+
+Recipe: 
+Ingredients: 🦀 1 lb lump crab meat (picked over for shells), 🥚 1 large egg (beaten), 🍞 1/4 cup breadcrumbs, 🥄 2 tbsp mayonnaise, 🥄 1 tbsp Dijon mustard, 🥄 1 tbsp Worcestershire sauce, 🌿 1 tbsp fresh parsley (chopped), 🧈 2 tbsp unsalted butter, 🍋 lemon wedges, 🧂 Old Bay seasoning
+Steps: 👨‍🍳 Gently pick through crab meat to remove any shell fragments, being careful not to break up the lumps. 🥣 In a small bowl, whisk egg, mayo, Dijon, Worcestershire, parsley, and a pinch of Old Bay seasoning. 🦀 Pour mixture over crab meat and add breadcrumbs; fold gently with a rubber spatula until just combined. ❄️ Cover and refrigerate for 30 minutes to allow mixture to firm up. 🔥 Form into 6 loose patties; heat butter in a skillet over medium heat until foaming. 🍳 Cook crab cakes for 4 minutes per side until deeply golden and heated through; do not press down or flip more than once. 🍋 Serve immediately with lemon wedges, tartar sauce, and a sprinkle of Old Bay.
+
+#crabcakes #seafood #crab #dinner #appetizer #maryland #comfortfood #easy 🌮🍱
+```
+
+ID: 257
+Caption:
+```
+🥘 Lemon Herb Roasted Chicken 🥘
+
+Recipe: 
+Ingredients: 🍗 1 whole chicken (about 4 lbs), 🍋 2 lemons (halved), 🌿 4 sprigs fresh rosemary, 🌿 4 sprigs fresh thyme, 🧄 6 cloves garlic (smashed), 🧈 4 tbsp unsalted butter (softened), 🫒 2 tbsp olive oil, 🥔 1.5 lbs baby potatoes, 🧂 sea salt, 🧂 cracked black pepper
+Steps: 👨‍🍳 Pat chicken completely dry inside and out; let sit at room temperature for 45 minutes. 🧈 Mix softened butter with chopped rosemary, thyme, lemon zest, salt, and pepper; rub all over and under the skin. 🍋 Stuff cavity with lemon halves, garlic cloves, and herb sprigs; tie legs together with kitchen twine. 🥔 Toss baby potatoes with olive oil, salt, and pepper; arrange around the chicken in a roasting pan. 🔥 Roast at 425°F (220°C) for 1 hour 15 minutes, basting with pan juices every 20 minutes, until thigh temp reaches 165°F (74°C). 🍳 Let rest for 15 minutes before carving; the juices should run clear. 🌿 Serve carved chicken with roasted potatoes, pan juices, and extra lemon wedges.
+
+#roastchicken #chicken #dinner #comfortfood #familydinner #lemon #herbs #roasted 🌮🍱
+```
+
+ID: 258
+Caption:
+```
+🍜 Vietnamese Chicken Pho 🍜
+
+Recipe: 
+Ingredients: 🍗 2 lbs chicken wings and thighs, 🍜 1 lb flat rice noodles (pho), 🧅 1 large yellow onion (halved), 🫚 4-inch piece ginger (halved lengthwise), 🌿 3 star anise, 🪵 2 cinnamon sticks, 🍃 4 cloves, 🐟 3 tbsp fish sauce, 🌿 fresh Thai basil, 🌱 bean sprouts, 🍋 lime wedges
+Steps: 👨‍🍳 Char onion and ginger directly over a gas flame or under the broiler until blackened in spots; scrape off charred bits and rinse. 🔥 Place chicken, charred aromatics, star anise, cinnamon, and cloves in a large pot; cover with 12 cups cold water. ⏲️ Bring to a boil, then reduce to a bare simmer; skim foam constantly for the first 20 minutes. 🍗 Simmer gently for 1.5 hours; remove chicken, shred meat, and return bones to broth for 30 more minutes. 🐟 Strain broth through a fine mesh sieve; season with fish sauce and a pinch of sugar. 🍜 Cook noodles according to package; divide among bowls and top with shredded chicken. 🔥 Ladle boiling hot broth over the noodles; garnish with basil, bean sprouts, lime, and sliced jalapeños.
+
+#pho #vietnamesefood #chicken #noodles #soup #comfortfood #healthy #asianfood 🌮🍱
+```
+
+ID: 259
+Caption:
+```
+🍕 White Pizza with Spinach & Ricotta 🍕
+
+Recipe: 
+Ingredients: 🍕 1 lb pizza dough, 🧀 1 cup whole milk ricotta, 🧀 1.5 cups shredded mozzarella, 🥬 2 cups fresh baby spinach, 🧄 3 cloves garlic (thinly sliced), 🫒 2 tbsp olive oil, 🧀 1/4 cup grated parmesan, 🪵 1/2 tsp dried oregano, 🧂 red pepper flakes
+Steps: 👨‍🍳 Preheat oven to 500°F (260°C) with a pizza stone inside for at least 45 minutes. 🥬 Sauté spinach with garlic and olive oil over medium heat for 2 minutes until wilted; season with salt and pepper; drain excess liquid. 🧀 Mix ricotta with parmesan, oregano, and a pinch of salt in a small bowl. 🍕 Stretch dough into a 12-inch round on a floured peel. 🥣 Spread ricotta mixture evenly over the dough, leaving a 1-inch border; top with mozzarella and sautéed spinach. 🔥 Slide onto the hot pizza stone and bake for 8-10 minutes until crust is blistered and cheese is bubbling with golden spots. 🌿 Remove from oven, drizzle with olive oil, and sprinkle with red pepper flakes; let cool 2 minutes before slicing.
+
+#whitepizza #vegetarian #pizza #spinach #ricotta #italian #dinner #comfortfood 🌮🍱
+```
+
+ID: 260
+Caption:
+```
+🍤 Coconut Curry Mussels 🍤
+
+Recipe: 
+Ingredients: 🍤 2 lbs fresh mussels (scrubbed and debearded), 🥥 1 can (14 oz) coconut milk, 🌶️ 2 tbsp red curry paste, 🧅 1 shallot (minced), 🧄 3 cloves garlic (minced), 🫚 1 tbsp grated fresh ginger, 🍋 2 tbsp fish sauce, 🍬 1 tsp brown sugar, 🌿 fresh cilantro, 🥖 crusty baguette
+Steps: 👨‍🍳 Inspect mussels and discard any that are cracked or do not close when tapped; pull off beards with a firm tug. 🔥 Heat a large pot or Dutch oven over medium-high heat; add 1 tbsp oil and sauté shallot, garlic, and ginger for 2 minutes. 🌶️ Add red curry paste and fry for 1 minute until fragrant and the oil begins to separate. 🥥 Pour in coconut milk, fish sauce, and brown sugar; bring to a gentle simmer. 🍤 Add mussels all at once, cover tightly with a lid, and steam for 5-7 minutes, shaking the pot occasionally. 🔥 Check after 5 minutes; most mussels should be wide open; discard any that remain closed. 🌿 Stir in fresh cilantro and a squeeze of lime juice; ladle into deep bowls with plenty of broth. 🥖 Serve immediately with crusty baguette for dipping.
+
+#mussels #seafood #curry #coconut #dinner #appetizer #datenight #thaifood 🌮🍱
+```
+
+ID: 261
+Caption:
+```
+🥞 Buttermilk Fried Chicken Sandwich 🥞
+
+Recipe: 
+Ingredients: 🍗 2 large boneless chicken thighs, 🥛 1 cup buttermilk, 🌶️ 1 tbsp hot sauce, 🌾 1 cup all-purpose flour, 🌽 1/2 cup cornstarch, 🌶️ 1 tsp paprika, 🍞 2 brioche buns, 🥒 dill pickle slices, 🥬 shredded iceberg lettuce, 🍯 spicy mayo
+Steps: 👨‍🍳 Marinate chicken thighs in buttermilk and hot sauce for at least 4 hours (preferably overnight) in the refrigerator. 🌾 Mix flour, cornstarch, paprika, garlic powder, onion powder, cayenne, salt, and pepper in a shallow dish. 🔥 Heat 2 inches of oil to 350°F (175°C); dredge chicken in the flour mixture, pressing firmly to adhere. 🍗 Fry chicken for 6-7 minutes until deeply golden and internal temp reaches 165°F (74°C); drain on a wire rack. 🍞 Toast brioche buns with butter until golden and crisp. 🥣 Spread spicy mayo on both bun halves; layer lettuce, pickles, and the crispy chicken thigh. 🔥 Close the sandwich and serve immediately with extra pickles and fries.
+
+#friedchicken #chickensandwich #crispy #comfortfood #lunch #dinner #spicy #burger 🌮🍱
+```
+
+ID: 262
+Caption:
+```
+🍰 Lemon Lavender Pound Cake 🍰
+
+Recipe: 
+Ingredients: 🌾 2 cups all-purpose flour, 🍬 1.5 cups granulated sugar, 🧈 1 cup unsalted butter (softened), 🥚 4 large eggs, 🍋 1/4 cup fresh lemon juice, 🍋 2 tbsp lemon zest, 🪻 1 tbsp dried culinary lavender, 🥛 1/2 cup whole milk, 🥄 1 tsp baking powder, 🧂 1/2 tsp salt
+Steps: 👨‍🍳 Preheat oven to 325°F (165°C); grease and flour a 9x5 inch loaf pan. 🧈 Cream butter and sugar together until light and fluffy, about 4-5 minutes. 🥚 Add eggs one at a time, beating well after each addition; mix in lemon zest and lavender. 🥣 Whisk flour, baking powder, and salt in a separate bowl; add to butter mixture alternately with milk and lemon juice, beginning and ending with flour. 🔥 Pour batter into prepared pan and smooth the top; bake for 65-75 minutes until a toothpick comes out clean. 🍋 While warm, brush top with a lemon glaze made from powdered sugar and lemon juice. 🪻 Let cool completely before slicing; the crumb should be dense, moist, and fragrant with lavender.
+
+#poundcake #lemon #lavender #dessert #baking #sweet #teatime #homemade 🌮🍱
+```
+
+ID: 263
+Caption:
+```
+🥘 Spanish Tortilla (Tortilla Española) 🥘
+
+Recipe: 
+Ingredients: 🥔 4 large Yukon Gold potatoes (thinly sliced), 🥚 6 large eggs, 🧅 1 large yellow onion (thinly sliced), 🫒 1.5 cups olive oil, 🧂 sea salt, 🧂 cracked black pepper
+Steps: 👨‍🍳 Heat olive oil in a 10-inch non-stick skillet over medium heat; add potato and onion slices in batches, seasoning with salt. 🔥 Cook gently for 20-25 minutes, turning occasionally, until potatoes are tender but not browned; drain in a colander, reserving 3 tbsp oil. 🥚 Beat eggs vigorously in a large bowl until foamy; season with salt and pepper; fold in drained potatoes and onions gently. 🔥 Heat reserved oil in the same skillet over medium-high heat; pour in the egg and potato mixture, spreading evenly. ⏲️ Cook for 3-4 minutes, shaking the pan occasionally, until edges are set and bottom is golden. 🥘 Invert onto a large plate, slide back into the pan, and cook for another 3 minutes. 🔥 Let cool to room temperature before slicing into wedges; serve with alioli or tomato bread.
+
+#spanishtortilla #tapas #eggs #potato #spanishfood #vegetarian #brunch #appetizer 🌮🍱
+```
+
+ID: 264
+Caption:
+```
+🍣 Spicy Tuna Crispy Rice 🍣
+
+Recipe: 
+Ingredients: 🍣 2 cups sushi rice (cooked and seasoned), 🐟 8 oz sashimi-grade tuna (diced), 🌶️ 2 tbsp sriracha, 🍅 1 tbsp soy sauce, 🫒 1 tsp sesame oil, 🥒 1 scallion (thinly sliced), 🧂 black sesame seeds, 🫒 vegetable oil for frying
+Steps: 👨‍🍳 Press warm sushi rice firmly into a greased 8x8 inch pan, smoothing the top; cover and refrigerate for at least 2 hours until completely firm. 🔥 Turn the chilled rice block out onto a cutting board; cut into 12 equal rectangles. 🫒 Heat 1/4 inch of oil in a skillet over medium-high heat; fry rice rectangles for 3-4 minutes per side until deep golden and crispy. 🐟 Mix diced tuna with sriracha, soy sauce, sesame oil, and scallion in a bowl. 🍣 Place a generous spoonful of spicy tuna on top of each crispy rice block. 🌿 Garnish with black sesame seeds and a tiny dollop of sriracha mayo; serve immediately while the rice is still warm and crunchy.
+
+#crispyrice #spicytuna #sushi #japanesefood #appetizer #seafood #tuna #asian 🌮🍱
+```
+
+ID: 265
+Caption:
+```
+🍗 Peri Peri Grilled Chicken 🍗
+
+Recipe: 
+Ingredients: 🍗 1 whole chicken (spatchcocked), 🌶️ 3 tbsp peri peri sauce, 🧄 4 cloves garlic, 🍋 juice of 2 lemons, 🫒 3 tbsp olive oil, 🌶️ 1 tsp smoked paprika, 🌿 1 tsp dried oregano, 🧂 sea salt, 🧂 cracked black pepper
+Steps: 👨‍🍳 Place spatchcocked chicken in a large dish; score the legs and thighs deeply. 🥣 Blend peri peri sauce, garlic, lemon juice, olive oil, paprika, oregano, and salt into a marinade. 🔥 Rub marinade all over and under the skin; refrigerate for at least 4 hours (preferably overnight). 🔥 Prepare a two-zone grill: sear chicken skin-side down over direct heat for 5 minutes until charred. ⏲️ Move to indirect heat, cover, and grill for 45-55 minutes until thigh reaches 165°F (74°C), basting with extra sauce. 🍋 Let rest for 10 minutes before carving; serve with extra peri peri sauce and grilled lemon wedges.
+
+#periperi #chicken #grilling #spicy #africanfood #dinner #bbq #portuguese 🌮🍱
+```
+
+ID: 266
+Caption:
+```
+🦞 Lobster Thermidor 🦞
+
+Recipe: 
+Ingredients: 🦞 2 whole lobsters (about 1.5 lbs each), 🧈 4 tbsp unsalted butter, 🍄 1/2 cup cremini mushrooms (diced), 🧅 1 shallot (minced), 🥄 2 tbsp all-purpose flour, 🥛 1 cup whole milk, 🧀 1/2 cup Gruyère cheese (grated), 🍶 2 tbsp dry sherry, 🍋 1 tsp Dijon mustard, 🧂 paprika
+Steps: 👨‍🍳 Steam lobsters for 8 minutes until shells are bright red; remove meat from tails and claws, chop into chunks, and reserve shells. 🧈 Melt butter in a saucepan; sauté mushrooms and shallot for 5 minutes until softened. 🥄 Stir in flour and cook for 1 minute; gradually whisk in milk to form a smooth béchamel. 🧀 Remove from heat; stir in Gruyère, sherry, Dijon, and a pinch of nutmeg until cheese melts. 🦞 Fold lobster meat into the sauce; spoon mixture back into the reserved lobster shells. 🔥 Top with extra cheese and a dusting of paprika; broil for 3-4 minutes until bubbly and golden. 🌿 Serve immediately with lemon wedges and fresh parsley.
+
+#lobster #thermidor #seafood #finedining #dinner #gourmet #specialoccasion #french 🌮🍱
+```
+
+ID: 267
+Caption:
+```
+🍝 Shrimp Fra Diavolo 🍝
+
+Recipe: 
+Ingredients: 🦐 1 lb large shrimp (peeled and deveined), 🍝 1 lb linguine, 🍅 1 can (28 oz) crushed San Marzano tomatoes, 🌶️ 1 tsp red pepper flakes, 🧄 4 cloves garlic (thinly sliced), 🍷 1/2 cup dry white wine, 🫒 1/4 cup extra virgin olive oil, 🌿 1/4 cup fresh parsley (chopped), 🧂 sea salt
+Steps: 👨‍🍳 Bring a large pot of salted water to a boil; cook linguine until just shy of al dente; reserve 1 cup pasta water. 🔥 Heat olive oil in a large skillet over medium heat; add garlic and red pepper flakes; sauté for 1 minute until fragrant. 🦐 Add shrimp in a single layer; season with salt and cook for 2 minutes per side until pink; remove and set aside. 🍷 Deglaze pan with white wine, scraping up browned bits; simmer for 2 minutes. 🍅 Add crushed tomatoes and simmer for 8-10 minutes until slightly thickened. 🔥 Return shrimp to the sauce; add drained linguine and toss vigorously, adding pasta water to emulsify. 🌿 Stir in fresh parsley and a drizzle of olive oil; serve immediately with crusty bread.
+
+#shrimp #pasta #italian #spicy #seafood #dinner #datenight #comfortfood 🌮🍱
+```
+
+ID: 268
+Caption:
+```
+🥗 Watermelon Feta Salad 🥗
+
+Recipe: 
+Ingredients: 🍉 4 cups seedless watermelon (cubed), 🧀 1 cup feta cheese (crumbled), 🌿 1/2 cup fresh mint leaves (torn), 🫒 2 tbsp extra virgin olive oil, 🍋 1 tbsp balsamic glaze, 🧂 flaky sea salt, 🧂 cracked black pepper
+Steps: 👨‍🍳 Cut watermelon into 1-inch cubes, removing any seeds; place in a large mixing bowl and refrigerate for 30 minutes until ice cold. 🧀 Crumble feta cheese into chunks over the watermelon; add torn mint leaves. 🫒 Drizzle with high-quality extra virgin olive oil and balsamic glaze. 🧂 Sprinkle generously with flaky sea salt and cracked black pepper. 🔥 Gently toss everything together just before serving, being careful not to break up the delicate watermelon cubes. 🌿 Transfer to a chilled serving platter and garnish with extra mint; serve immediately on a hot summer day.
+
+#watermelonsalad #feta #salad #summer #healthy #refreshing #mediterranean #vegetarian 🌮🍱
+```
+
+ID: 269
+Caption:
+```
+🍗 Crispy Chicken Katsu 🍗
+
+Recipe: 
+Ingredients: 🍗 4 boneless skinless chicken breasts (pounded to 1/2 inch), 🌾 1.5 cups panko breadcrumbs, 🌾 1/2 cup all-purpose flour, 🥚 2 large eggs (beaten), 🧂 salt and pepper, 🫒 vegetable oil for frying, 🍛 tonkatsu sauce, 🥗 shredded cabbage
+Steps: 👨‍🍳 Season chicken breasts with salt and pepper; dredge in flour, shaking off excess. 🥚 Dip floured chicken into beaten eggs, then coat thoroughly in panko, pressing firmly to adhere. 🔥 Heat 1 inch of oil to 350°F (175°C) in a large skillet; fry chicken for 4-5 minutes per side until deep golden and internal temp reaches 165°F (74°C). 🥗 Drain on a wire rack; let rest for 3 minutes before slicing into strips. 🥗 Arrange shredded cabbage on plates; place sliced katsu alongside. 🍅 Drizzle generously with tonkatsu sauce and serve with steamed rice and miso soup.
+
+#chickenkatsu #japanesefood #crispy #friedchicken #comfortfood #dinner #asianfood #panko 🌮🍱
+```
+
+ID: 270
+Caption:
+```
+🍫 Dark Chocolate Raspberry Tart 🍫
+
+Recipe: 
+Ingredients: 🍫 8 oz dark chocolate (70% cacao), 🧈 1/2 cup unsalted butter, 🥚 3 large eggs, 🍬 1/4 cup granulated sugar, 🍓 1 cup fresh raspberries, 🥨 1 pre-baked tart shell, 🍦 whipped cream for serving, 🧂 sea salt
+Steps: 👨‍🍳 Preheat oven to 325°F (165°C). 🍫 Melt chocolate and butter together in a double boiler until silky smooth; remove from heat and cool slightly. 🥚 Whisk eggs and sugar until pale and thick, about 3 minutes. 🥣 Fold egg mixture into cooled chocolate until completely combined and glossy. 🔥 Pour filling into pre-baked tart shell; smooth the top with an offset spatula. ⏲️ Bake for 18-22 minutes until edges are set but center still jiggles slightly. ❄️ Cool to room temperature, then refrigerate for 2 hours until firm. 🍓 Top with fresh raspberries and a dusting of cocoa powder just before serving; add whipped cream.
+
+#chocolatetart #raspberry #dessert #chocolate #baking #sweet #french #pastry 🌮🍱
+```
+
+ID: 271
+Caption:
+```
+🥘 Chicken Tikka Skewers 🥘
+
+Recipe: 
+Ingredients: 🍗 1.5 lbs boneless skinless chicken thighs (cut into chunks), 🥛 1 cup plain yogurt, 🍋 2 tbsp lemon juice, 🥄 2 tbsp tikka masala spice blend, 🧄 3 cloves garlic (minced), 🫚 1-inch piece ginger (grated), 🌶️ 1 tsp Kashmiri chili powder, 🍋 lemon wedges, 🌿 fresh cilantro
+Steps: 👨‍🍳 Whisk yogurt, lemon juice, tikka masala, garlic, ginger, chili powder, and salt in a large bowl. 🍗 Add chicken chunks and toss to coat thoroughly; cover and marinate for at least 4 hours (preferably overnight). 🔥 Soak wooden skewers in water for 30 minutes; thread chicken onto skewers, leaving space between pieces. 🔥 Prepare a hot grill or preheat broiler; grill skewers for 4-5 minutes per side until charred in spots and internal temp reaches 165°F (74°C). 🌿 Brush with melted butter mixed with chaat masala immediately after grilling. 🍋 Serve hot with lemon wedges, mint chutney, and sliced onions; garnish with fresh cilantro.
+
+#tikkaskewers #indianfood #chicken #grilling #spicy #tandoori #appetizer #datenight 🌮🍱
+```
+
+ID: 272
+Caption:
+```
+🍜 Dan Dan Noodles 🍜
+
+Recipe: 
+Ingredients: 🍜 12 oz fresh Chinese wheat noodles, 🥩 1/2 lb ground chicken, 🥜 3 tbsp sesame paste (or tahini), 🌶️ 2 tbsp chili oil, 🍅 2 tbsp soy sauce, 🍶 1 tbsp Chinese black vinegar, 🧄 2 cloves garlic (minced), 🫚 1 tsp grated ginger, 🥬 2 cups baby bok choy (blanched), 🥜 crushed peanuts
+Steps: 👨‍🍳 Cook noodles in boiling water according to package; drain and rinse under cold water; divide among serving bowls. 🔥 Heat a skillet over medium-high heat; brown ground chicken with a pinch of salt until crispy, about 6-8 minutes. 🥜 In a bowl, whisk sesame paste, chili oil, soy sauce, black vinegar, garlic, ginger, and 2 tbsp warm water until smooth. 🥬 Blanch bok choy in boiling water for 1 minute; drain and arrange around noodles. 🍜 Spoon the sauce over the noodles and top with crispy ground chicken. 🥜 Garnish with crushed peanuts, scallions, and extra chili oil; toss everything together before eating.
+
+#dannoodles #chinesefood #noodles #spicy #comfortfood #sichuan #dinner #asian 🌮🍱
+```
+
+ID: 273
+Caption:
+```
+🦐 Grilled Shrimp Tacos 🦐
+
+Recipe: 
+Ingredients: 🦐 1 lb jumbo shrimp (peeled and deveined), 🫓 8 small corn tortillas, 🥬 2 cups shredded cabbage, 🥑 1 ripe avocado (sliced), 🍋 2 limes, 🌶️ 1 tsp chipotle powder, 🫒 2 tbsp olive oil, 🌿 fresh cilantro, 🍯 chipotle crema
+Steps: 👨‍🍳 Toss shrimp with olive oil, chipotle powder, cumin, garlic powder, salt, and lime juice; marinate for 20 minutes. 🔥 Heat a grill or grill pan over high heat; grill shrimp for 2 minutes per side until pink and slightly charred. 🫓 Warm corn tortillas on the grill for 30 seconds per side until soft and pliable. 🥬 Toss shredded cabbage with lime juice and a pinch of salt for a quick slaw. 🦐 Assemble tacos by placing 3-4 shrimp on each tortilla; top with cabbage slaw and avocado slices. 🍯 Drizzle with chipotle crema and garnish with fresh cilantro; serve with lime wedges and hot sauce.
+
+#shrimptacos #tacos #mexican #seafood #grilling #dinner #fresh #taconight 🌮🍱
+```
+
+ID: 274
+Caption:
+```
+🍰 Tiramisu Crepe Cake 🍰
+
+Recipe: 
+Ingredients: 🥞 20 thin crepes (homemade or store-bought), 🧀 2 cups mascarpone cheese, ☕ 1 cup strong espresso (cooled), 🥚 2 large eggs (separated), 🍬 1/2 cup powdered sugar, 🍫 cocoa powder for dusting, 🍦 1 tsp vanilla extract, 🥃 2 tbsp coffee liqueur (optional)
+Steps: 👨‍🍳 Whisk egg yolks and powdered sugar until pale and thick; fold in mascarpone and vanilla until smooth. 🥚 Beat egg whites to stiff peaks and gently fold into mascarpone mixture. ☕ Mix espresso with coffee liqueur in a shallow dish. 🥞 Dip each crepe briefly in espresso and layer on a cake stand, spreading a thin layer of mascarpone cream between each. 🔥 Continue layering until all crepes are used, finishing with a thick layer of cream on top. ❄️ Refrigerate for at least 4 hours (preferably overnight) to set and meld flavors. 🍫 Dust generously with cocoa powder just before serving; slice into wedges like a cake.
+
+#crepecake #tiramisu #dessert #french #italian #sweet #baking #coffee 🌮🍱
+```
+
+ID: 275
+Caption:
+```
+🥣 Roasted Butternut Squash Soup 🥣
+
+Recipe: 
+Ingredients: 🎃 1 large butternut squash (peeled and cubed), 🧅 1 large yellow onion (diced), 🧄 3 cloves garlic, 🥕 1 large carrot (diced), 🥣 4 cups vegetable broth, 🥛 1/2 cup coconut milk, 🪵 1 tsp ground cinnamon, 🧂 sea salt, 🧂 cracked black pepper, 🫒 2 tbsp olive oil
+Steps: 👨‍🍳 Preheat oven to 400°F (200°C); toss butternut squash, onion, carrot, and garlic with olive oil, salt, and pepper. 🔥 Spread on a baking sheet and roast for 35-40 minutes until vegetables are deeply caramelized and tender. 🥣 Transfer roasted vegetables to a large pot; add vegetable broth and cinnamon. ⏲️ Bring to a simmer and cook for 10 minutes; blend with an immersion blender until completely silky smooth. 🥛 Stir in coconut milk and simmer for 5 more minutes; taste and adjust seasoning with salt and a pinch of nutmeg. 🌿 Serve in warm bowls with a swirl of coconut cream, toasted pumpkin seeds, and fresh thyme.
+
+#butternutsquash #soup #vegetarian #healthy #comfortfood #fall #vegan #cozy 🌮🍱
+```
+
+ID: 276
+Caption:
+```
+🍗 Chicken Satay with Peanut Sauce 🍗
+
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken breast (cut into thin strips), 🥜 1/2 cup creamy peanut butter, 🍅 3 tbsp soy sauce, 🍋 2 tbsp lime juice, 🧄 2 cloves garlic (minced), 🫚 1 tsp grated ginger, 🍬 2 tbsp brown sugar, 🌶️ 1/2 tsp chili flakes, 🥥 1/2 cup coconut milk
+Steps: 👨‍🍳 Thread chicken strips onto soaked bamboo skewers; season lightly with salt. 🥜 Make peanut sauce: whisk peanut butter, soy sauce, lime juice, garlic, ginger, brown sugar, chili flakes, and coconut milk until smooth. 🔥 Reserve half the sauce for dipping; use the other half to brush onto the chicken skewers. 🔥 Grill skewers over medium-high heat for 3-4 minutes per side until charred and cooked through. 🍋 Brush with extra peanut sauce immediately after grilling. 🌿 Serve hot with the reserved dipping sauce, cucumber relish, and steamed jasmine rice.
+
+#satay #chicken #thai #peanutsauce #grilling #appetizer #asianfood #skewers 🌮🍱
+```
+
+ID: 277
+Caption:
+```
+🍤 Bang Bang Shrimp 🍤
+
+Recipe: 
+Ingredients: 🍤 1 lb large shrimp (peeled and deveined), 🌽 1/2 cup cornstarch, 🥚 1 large egg (beaten), 🌾 1 cup panko breadcrumbs, 🫒 vegetable oil for frying, 🍯 1/2 cup mayonnaise, 🌶️ 2 tbsp sweet chili sauce, 🌶️ 1 tsp sriracha, 🍋 1 tbsp lime juice
+Steps: 👨‍🍳 Pat shrimp dry; dredge in cornstarch, dip in beaten egg, then coat in panko breadcrumbs. 🔥 Heat 2 inches of oil to 375°F (190°C); fry shrimp in batches for 2-3 minutes until golden and crispy; drain on a wire rack. 🍯 Make bang bang sauce: whisk mayo, sweet chili sauce, sriracha, and lime juice until smooth and creamy. 🍤 Toss hot fried shrimp in the bang bang sauce until evenly coated. 🌿 Serve immediately over shredded lettuce, garnished with scallions and sesame seeds; extra sauce on the side.
+
+#bangbangshrimp #shrimp #seafood #appetizer #spicy #fried #dinner #easy 🌮🍱
+```
+
+ID: 278
+Caption:
+```
+🍕 Margherita Flatbread 🍕
+
+Recipe: 
+Ingredients: 🫓 2 large naan or flatbread, 🍅 1 cup San Marzano tomato sauce, 🧀 8 oz fresh mozzarella (sliced), 🌿 fresh basil leaves, 🫒 extra virgin olive oil, 🧂 flaky sea salt, 🧄 1 clove garlic (halved)
+Steps: 👨‍🍳 Preheat oven to 450°F (230°C) with a baking sheet inside. 🫓 Rub each flatbread with the cut side of the garlic clove; spread a thin layer of tomato sauce, leaving a border. 🧀 Arrange mozzarella slices evenly over the sauce; drizzle with olive oil. 🔥 Carefully place flatbreads on the hot baking sheet; bake for 8-10 minutes until cheese is bubbling and edges are crisp. 🌿 Remove from oven and immediately scatter fresh basil leaves over the top; season with flaky sea salt. 🔪 Let cool for 1 minute, then slice and serve.
+
+#flatbread #margherita #pizza #vegetarian #quickdinner #italian #mozzarella #basil 🌮🍱
+```
+
+ID: 279
+Caption:
+```
+🦀 Soft Shell Crab Sandwich 🦀
+
+Recipe: 
+Ingredients: 🦀 4 soft shell crabs (cleaned), 🌾 1/2 cup all-purpose flour, 🌽 1/4 cup cornmeal, 🧂 1 tsp Old Bay seasoning, 🫒 vegetable oil for frying, 🍞 4 brioche buns, 🥬 shredded lettuce, 🍅 sliced tomato, 🍯 remoulade sauce
+Steps: 👨‍🍳 Pat soft shell crabs completely dry; season flour and cornmeal mixture with Old Bay, salt, and pepper. 🔥 Dredge crabs in the flour mixture, shaking off excess. 🔥 Heat 1/2 inch of oil to 350°F (175°C); fry crabs for 3 minutes per side until golden and crispy. 🍞 Toast brioche buns until golden; spread remoulade on both halves. 🥬 Layer lettuce, tomato slices, and the fried soft shell crab on the bottom bun. 🔥 Close the sandwich and serve immediately with pickles and coleslaw.
+
+#softshellcrab #sandwich #seafood #crispy #lunch #dinner #summerfood #delicious 🌮🍱
+```
+
+ID: 280
+Caption:
+```
+🍰 Passion Fruit Cheesecake 🍰
+
+Recipe: 
+Ingredients: 🧀 2 blocks cream cheese (softened), 🍬 3/4 cup sugar, 🥚 2 large eggs, 🍦 1 tsp vanilla extract, 🥨 1.5 cups graham cracker crumbs, 🧈 1/3 cup melted butter, 🍋 1/2 cup passion fruit pulp (fresh or frozen), 🍬 2 tbsp sugar (for topping)
+Steps: 👨‍🍳 Mix graham cracker crumbs and melted butter; press into the bottom of a springform pan; bake at 350°F for 8 minutes; cool. 🧀 Beat cream cheese and sugar until smooth; add eggs one at a time, then vanilla; do not overmix. 🔥 Pour filling over crust; bake at 325°F for 45-50 minutes until edges are set but center jiggles slightly. ❄️ Cool to room temperature, then refrigerate for at least 6 hours. 🍋 Warm passion fruit pulp with 2 tbsp sugar until dissolved; cool slightly. 🍰 Pour passion fruit glaze over the chilled cheesecake just before serving; let it drip down the sides.
+
+#passionfruit #cheesecake #dessert #baking #sweet #tropical #creamy #dessertlover 🌮🍱
+```
+
+ID: 281
+Caption:
+```
+🥘 Chicken Pot Pie 🥘
+
+Recipe: 
+Ingredients: 🍗 2 cups cooked chicken (diced), 🥕 1 cup carrots (diced), 🫛 1 cup frozen peas, 🧅 1 small onion (diced), 🧈 4 tbsp unsalted butter, 🌾 1/4 cup all-purpose flour, 🥛 1.5 cups chicken broth, 🥛 1/2 cup whole milk, 🥐 1 sheet puff pastry, 🥚 1 egg (beaten)
+Steps: 👨‍🍳 Preheat oven to 400°F (200°C). 🧈 Melt butter in a large skillet; sauté onion and carrots for 5 minutes until softened. 🌾 Stir in flour and cook for 1 minute; gradually whisk in chicken broth and milk. ⏲️ Simmer until thickened, about 5 minutes; stir in chicken and peas; season with salt, pepper, and thyme. 🔥 Pour filling into a deep pie dish or oven-safe skillet. 🥐 Top with puff pastry, trimming excess; crimp edges and cut vents in the center. 🥚 Brush with egg wash and bake for 25-30 minutes until pastry is deep golden and filling is bubbling. 🔥 Let cool for 10 minutes before serving.
+
+#chickenpotpie #comfortfood #chicken #dinner #homemade #pastry #familydinner #cozy 🌮🍱
+```
+
+ID: 282
+Caption:
+```
+🍤 Tempura Udon 🍤
+
+Recipe: 
+Ingredients: 🍜 2 servings fresh udon noodles, 🦐 4 large shrimp (peeled and deveined), 🥬 1 cup mixed vegetables (sweet potato, bell pepper, green beans), 🌾 1 cup cake flour, 🥚 1 egg (ice cold), 🧊 1 cup ice cold sparkling water, 🍲 4 cups dashi broth, 🍅 2 tbsp soy sauce, 🍶 1 tbsp mirin
+Steps: 👨‍🍳 Make tempura batter: gently mix cake flour, ice-cold egg, and sparkling water with chopsticks; do not overmix; keep the batter icy cold. 🔥 Heat 2 inches of oil to 340°F (170°C); dip shrimp and vegetables in batter, letting excess drip off; fry for 2-3 minutes until pale golden and crispy. 🍲 Bring dashi, soy sauce, and mirin to a simmer in a pot; add udon noodles and cook for 2 minutes until heated through. 🥣 Divide noodles and broth among deep bowls. 🔥 Arrange tempura shrimp and vegetables on top of the noodles, resting on the edge of the bowl. 🌿 Garnish with sliced scallions and a sprinkle of shichimi togarashi; serve immediately.
+
+#tempuraudon #japanesefood #noodles #tempura #comfortfood #dinner #seafood #udon 🌮🍱
+```
+
+ID: 283
+Caption:
+```
+🍗 Nashville Hot Chicken Tenders 🍗
+
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken tenderloins, 🥛 1 cup buttermilk, 🌶️ 2 tbsp cayenne pepper, 🧂 1 tbsp brown sugar, 🌾 1.5 cups all-purpose flour, 🌽 1/2 cup cornstarch, 🧂 1 tsp garlic powder, 🍞 white bread slices, 🥒 dill pickle slices
+Steps: 👨‍🍳 Marinate chicken tenders in buttermilk and hot sauce for at least 2 hours. 🌾 Mix flour, cornstarch, garlic powder, onion powder, paprika, salt, and pepper in a shallow dish. 🔥 Heat oil to 350°F (175°C); dredge tenders in flour mixture and fry for 5-6 minutes until deeply golden and internal temp reaches 165°F (74°C). 🌶️ Make hot oil: mix melted lard or butter with cayenne, brown sugar, garlic powder, and paprika. 🍗 Toss hot fried tenders in the spicy oil until completely coated. 🍞 Serve on white bread slices with pickles on top; the bread soaks up the fiery oil.
+
+#nashvillehotchicken #spicy #chicken #friedchicken #comfortfood #southern #hotchicken #dinner 🌮🍱
+```
+
+ID: 284
+Caption:
+```
+🍰 Pistachio Rose Water Cake 🍰
+
+Recipe: 
+Ingredients: 🌾 2 cups all-purpose flour, 🍬 1.5 cups sugar, 🧈 3/4 cup unsalted butter (softened), 🥚 3 large eggs, 🥛 1 cup whole milk, 🥜 1/2 cup ground pistachios, 🌹 2 tbsp rose water, 🥄 1 tsp baking powder, 🧂 1/2 tsp salt, 🥜 crushed pistachios for garnish
+Steps: 👨‍🍳 Preheat oven to 350°F (175°C); grease and flour two 9-inch round cake pans. 🧈 Cream butter and sugar until light and fluffy; add eggs one at a time, then rose water. 🥣 Whisk flour, baking powder, and salt; add alternately with milk, beginning and ending with flour. 🥜 Fold in ground pistachios until evenly distributed. 🔥 Divide batter between pans; bake for 25-30 minutes until a toothpick comes out clean. ❄️ Cool in pans for 10 minutes, then turn out onto wire racks to cool completely. 🧈 Frost with rose water buttercream and garnish with crushed pistachios and dried rose petals.
+
+#pistachiocake #rosewater #dessert #baking #sweet #elegant #middleeastern #cake 🌮🍱
+```
+
+ID: 285
+Caption:
+```
+🦪 Oysters Rockefeller 🦪
+
+Recipe: 
+Ingredients: 🦪 24 fresh oysters on the half shell, 🥬 2 cups fresh spinach (chopped), 🧈 4 tbsp unsalted butter, 🧅 1 shallot (minced), 🧄 2 cloves garlic (minced), 🌿 2 tbsp fresh parsley (chopped), 🍞 1/2 cup breadcrumbs, 🍋 juice of 1 lemon, 🧂 Tabasco sauce
+Steps: 👨‍🍳 Shuck oysters carefully, preserving the liquor; arrange on a bed of rock salt on a baking sheet. 🧈 Melt butter in a skillet; sauté shallot and garlic for 2 minutes until fragrant. 🥬 Add spinach and parsley; cook for 3 minutes until spinach wilts; season with lemon juice, salt, pepper, and a few dashes of Tabasco. 🍞 Stir in breadcrumbs until the mixture holds together; let cool slightly. 🦪 Spoon a generous tablespoon of spinach mixture over each oyster. 🔥 Broil for 4-5 minutes until topping is golden and bubbling; serve immediately with lemon wedges.
+
+#oystersrockefeller #seafood #oysters #appetizer #finedining #classic #elegant #luxury 🌮🍱
+```
+
+ID: 286
+Caption:
+```
+🍝 Cacio e Pepe 🍝
+
+Recipe: 
+Ingredients: 🍝 1 lb spaghetti or tonnarelli, 🧀 1.5 cups Pecorino Romano (finely grated), 🧈 4 tbsp unsalted butter (cold, cubed), 🧂 2 tsp freshly cracked black pepper, 🧂 sea salt, 🥣 1/2 cup pasta cooking water (reserved)
+Steps: 👨‍🍳 Bring a large pot of heavily salted water to a boil; cook pasta until al dente; reserve 1 cup pasta water before draining. 🔥 Toast cracked black pepper in a large dry skillet over medium heat for 1-2 minutes until fragrant. 🥣 Add 1/2 cup pasta water and 3 tbsp cold butter to the pepper; swirl to emulsify. 🍝 Add drained pasta to the skillet; toss vigorously over low heat. 🧀 Remove from heat; add grated Pecorino Romano and remaining cold butter; toss constantly, adding more pasta water as needed, until a silky, creamy sauce coats every strand. 🔥 The sauce should be glossy and clinging to the pasta, not pooling at the bottom; serve immediately with extra cracked pepper.
+
+#cacioepepe #pasta #italian #cheese #roman #comfortfood #simple #authentic 🌮🍱
+```
+
+ID: 287
+Caption:
+```
+🍗 Harissa Roasted Chicken Thighs 🍗
+
+Recipe: 
+Ingredients: 🍗 8 bone-in skin-on chicken thighs, 🌶️ 3 tbsp harissa paste, 🫒 2 tbsp olive oil, 🧄 3 cloves garlic (minced), 🍋 juice of 1 lemon, 🌿 1 tsp ground cumin, 🌿 1 tsp ground coriander, 🧂 sea salt, 🧂 cracked black pepper, 🌿 fresh cilantro
+Steps: 👨‍🍳 Pat chicken thighs dry; season with salt and pepper. 🥣 Mix harissa, olive oil, garlic, lemon juice, cumin, and coriander into a paste. 🔥 Rub harissa mixture all over and under the skin of the chicken; marinate for at least 30 minutes. 🔥 Preheat oven to 425°F (220°C); arrange chicken skin-side up on a wire rack set over a baking sheet. ⏲️ Roast for 35-40 minutes until skin is deeply charred and crispy and internal temp reaches 165°F (74°C). 🌿 Let rest for 5 minutes; garnish with fresh cilantro and serve with couscous or flatbread and a cooling yogurt sauce.
+
+#harissachicken #chicken #spicy #moroccan #dinner #roasted #comfortfood #mediterranean 🌮🍱
+```
+
+ID: 288
+Caption:
+```
+🍤 Shrimp and Grits 🍤
+
+Recipe: 
+Ingredients: 🍤 1 lb large shrimp (peeled and deveined), 🌽 1 cup stone-ground grits, 🥛 4 cups whole milk, 🧈 4 tbsp unsalted butter, 🧄 2 cloves garlic (minced), 🌶️ 1/2 tsp cayenne pepper, 🧂 sea salt, 🧂 cracked black pepper, 🌿 fresh parsley, 🥓 turkey bacon or omit
+Steps: 👨‍🍳 Bring milk to a boil in a saucepan; whisk in grits and reduce heat to low; cook for 20-25 minutes until creamy, stirring frequently; stir in butter and a pinch of salt. 🔥 Season shrimp with salt, paprika, and cayenne; sauté in a skillet with butter and garlic for 2-3 minutes per side until pink. 🍤 Divide creamy grits among bowls; top with shrimp and spoon pan juices over the top. 🌿 Garnish with scallions and fresh parsley; serve immediately with hot sauce on the side.
+
+#shrimpandgrits #seafood #southern #comfortfood #dinner #shrimp #creamy #classic 🌮🍱
+```
+
+ID: 289
+Caption:
+```
+🥞 Ricotta Hotcakes 🥞
+
+Recipe: 
+Ingredients: 🥛 1 cup fresh ricotta cheese, 🥚 3 large eggs (separated), 🥛 1/2 cup whole milk, 🌾 3/4 cup all-purpose flour, 🥄 1 tsp baking powder, 🧂 1/4 tsp salt, 🍯 honey for drizzling, 🧈 butter for cooking, 🍓 fresh berries for serving
+Steps: 👨‍🍳 Whisk egg yolks, ricotta, and milk in a large bowl until smooth. 🥣 Sift flour, baking powder, and salt together; gently fold into ricotta mixture until just combined. 🥚 Beat egg whites to stiff peaks; fold gently into the batter in two additions, keeping as much air as possible. 🧈 Melt butter on a non-stick griddle over medium-low heat; pour 1/3 cup batter per hotcake. ⏲️ Cook for 3 minutes until bubbles form on the surface and the bottom is golden; flip and cook for 2 more minutes. 🍯 Stack hotcakes high on a plate; drizzle with honey and top with fresh berries and a dusting of powdered sugar.
+
+#ricottahotcakes #breakfast #brunch #pancakes #fluffy #sweet #morning #comfortfood 🌮🍱
+```
+
+ID: 290
+Caption:
+```
+🍜 Kimchi Jjigae (Kimchi Stew) 🍜
+
+Recipe: 
+Ingredients: 🥬 2 cups aged kimchi (with juice), 🍲 4 cups water, 🍗 1/2 lb chicken thigh (sliced), ⬜ 1/2 block firm tofu (cubed), 🧅 1/2 onion (sliced), 🧄 2 cloves garlic (minced), 🌶️ 1 tbsp gochugaru, 🍅 1 tbsp soy sauce, 🫒 1 tbsp sesame oil, 🌿 scallions
+Steps: 👨‍🍳 Sauté kimchi, onion, and garlic in a pot with sesame oil for 3-4 minutes until fragrant. 🔥 Add chicken and gochugaru; stir-fry for 2 minutes. 🍲 Add water and kimchi juice; bring to a boil, then simmer for 15 minutes. ⬜ Add tofu cubes and soy sauce; simmer for another 5 minutes. 🌿 Garnish with sliced scallions and serve bubbling hot with steamed rice.
+
+#kimchijjigae #koreanfood #stew #kimchi #comfortfood #spicy #dinner #asian 🌮🍱
+```
+
+ID: 291
+Caption:
+```
+🦐 Cajun Shrimp Boil 🦐
+
+Recipe: 
+Ingredients: 🦐 1.5 lbs jumbo shrimp (shell-on), 🥔 1.5 lbs baby potatoes, 🌽 4 ears corn (halved), 🧅 1 large onion (quartered), 🧄 4 cloves garlic (smashed), 🌶️ 1/4 cup Cajun seasoning, 🍋 2 lemons (halved), 🧈 1/2 cup melted butter, 🌿 fresh parsley
+Steps: 👨‍🍳 Fill a large pot with 8 quarts water; add Cajun seasoning, onion, garlic, and lemons; bring to a rolling boil. 🥔 Add potatoes and cook for 10 minutes until slightly tender. 🌽 Add corn and cook for 5 more minutes. 🦐 Add shrimp and cook for 2-3 minutes until pink and opaque; drain the entire pot. 🧈 Toss the boil with melted butter and a squeeze of fresh lemon juice. 🌿 Dump onto a newspaper-lined table and garnish with parsley; eat with your hands.
+
+#shrimpboil #cajun #seafood #summer #partyfood #spicy #shrimp #comfortfood 🌮🍱
+```
+
+ID: 292
+Caption:
+```
+🍕 Spinach and Feta Gozleme 🍕
+
+Recipe: 
+Ingredients: 🥐 2 cups all-purpose flour, 🥛 3/4 cup warm water, 🧂 1/2 tsp salt, 🥬 2 cups fresh spinach (chopped), 🧀 1 cup feta cheese (crumbled), 🧅 1 small onion (diced), 🫒 2 tbsp olive oil, 🧂 black pepper, 🥛 yogurt for serving
+Steps: 👨‍🍳 Mix flour, salt, and warm water to form a soft dough; knead for 5 minutes; cover and rest for 30 minutes. 🥬 Sauté onion and spinach in olive oil until wilted; cool slightly, then mix with crumbled feta and black pepper. 🔥 Divide dough into 4 pieces; roll each into a thin rectangle. 🥣 Spread spinach-feta filling over half of each rectangle; fold over and seal edges. 🔥 Cook on a hot dry griddle for 2-3 minutes per side until golden and blistered. 🥛 Serve hot with a side of thick yogurt.
+
+#gozleme #turkishfood #spinach #feta #flatbread #vegetarian #streetfood #snack 🌮🍱
+```
+
+ID: 293
+Caption:
+```
+🍗 Lemon Pepper Wings 🍗
+
+Recipe: 
+Ingredients: 🍗 2 lbs chicken wings (split into flats and drumettes), 🍋 zest of 3 lemons, 🧂 2 tbsp cracked black pepper, 🧈 4 tbsp melted butter, 🧂 1 tsp garlic powder, 🧂 1 tsp onion powder, 🧂 1 tsp salt, 🥣 blue cheese dressing
+Steps: 👨‍🍳 Pat wings dry and toss with salt, garlic powder, and onion powder. 🔥 Bake at 425°F (220°C) on a wire rack for 45-50 minutes until crispy and golden, flipping halfway. 🧈 Toss hot wings with melted butter, lemon zest, and cracked black pepper immediately after baking. 🥣 Serve with blue cheese dressing and celery sticks; the bright lemon and pepper should be bold and aromatic.
+
+#lemonpepperwings #chickenwings #wings #snack #gameday #appetizer #lemon #crispy 🌮🍱
+```
+
+ID: 294
+Caption:
+```
+🍜 Miso Ramen 🍜
+
+Recipe: 
+Ingredients: 🍜 2 servings fresh ramen noodles, 🥣 4 cups rich chicken broth, 🍅 3 tbsp white miso paste, 🧈 1 tbsp butter, 🌽 1/2 cup corn kernels, 🌊 2 sheets nori, 🥚 1 soft-boiled egg (halved), 🌿 scallions (sliced), 🫚 1 tsp grated ginger
+Steps: 👨‍🍳 Simmer chicken broth with ginger for 10 minutes. 🥣 Whisk miso paste with a ladle of hot broth until smooth; stir back into the pot with butter. 🍜 Cook ramen noodles separately; drain and place in bowls. 🔥 Ladle hot miso broth over noodles. 🌽 Top with corn, nori, soft-boiled egg, and scallions. 🌿 Serve immediately with chili oil on the side.
+
+#misoramen #ramen #japanesefood #noodles #comfortfood #soup #umami #dinner 🌮🍱
+```
+
+ID: 295
+Caption:
+```
+🥗 Grilled Halloumi Salad 🥗
+
+Recipe: 
+Ingredients: 🧀 8 oz halloumi cheese (sliced), 🥬 4 cups arugula, 🍉 1 cup watermelon (cubed), 🥒 1/2 cucumber (sliced), 🍅 1 cup cherry tomatoes, 🫒 2 tbsp olive oil, 🍋 1 tbsp lemon juice, 🧂 black pepper, 🌿 fresh mint
+Steps: 👨‍🍳 Heat a dry grill pan over high heat; grill halloumi slices for 1-2 minutes per side until golden grill marks appear. 🥬 Arrange arugula, watermelon, cucumber, and tomatoes on a platter. 🫒 Whisk olive oil and lemon juice; drizzle over the salad. 🧀 Place grilled halloumi on top; garnish with fresh mint and cracked black pepper. 🔥 Serve immediately while the cheese is still warm and squeaky.
+
+#halloumi #salad #vegetarian #grilledcheese #mediterranean #healthy #fresh #summer 🌮🍱
+```
+
+ID: 296
+Caption:
+```
+🍰 Basque Burnt Cheesecake 🍰
+
+Recipe: 
+Ingredients: 🧀 2 lbs cream cheese (room temperature), 🍬 1.5 cups sugar, 🥚 6 large eggs, 🥛 1.5 cups heavy cream, 🌾 1/4 cup all-purpose flour, 🍦 1 tsp vanilla extract, 🧂 pinch of salt
+Steps: 👨‍🍳 Preheat oven to 400°F (200°C); line a 9-inch springform pan with parchment, letting it extend above the rim. 🧀 Beat cream cheese and sugar until smooth and creamy. 🥚 Add eggs one at a time, beating well after each addition. 🥛 Add heavy cream, vanilla, and salt; mix until combined. 🌾 Sift in flour and fold gently until just incorporated. 🔥 Pour batter into prepared pan; bake for 50-60 minutes until the top is deeply caramelized and almost burnt, and the center still jiggles. ❄️ Cool completely at room temperature; the cheesecake will deflate and crack on top. 🔪 Refrigerate for at least 4 hours before slicing; the interior should be creamy and custardy.
+
+#basquecheesecake #burntcheesecake #dessert #spanish #baking #sweet #creamy #trending 🌮🍱
+```
+
+ID: 297
+Caption:
+```
+🍗 Chicken Shawarma Bowl 🍗
+
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken thighs (sliced), 🥄 2 tbsp shawarma spice blend, 🫒 2 tbsp olive oil, 🍋 juice of 1 lemon, 🥬 2 cups shredded lettuce, 🍅 1 cup diced tomatoes, 🥒 1/2 cucumber (diced), 🧅 1/4 red onion (sliced), 🥣 tahini sauce, 🍚 cooked rice
+Steps: 👨‍🍳 Marinate chicken with shawarma spices, olive oil, and lemon juice for at least 1 hour. 🔥 Grill or pan-sear chicken over high heat for 4-5 minutes per side until charred and cooked through. 🍚 Divide rice among bowls; top with shredded lettuce, tomatoes, cucumber, and red onion. 🍗 Slice grilled chicken and arrange over the vegetables. 🥣 Drizzle generously with tahini sauce and a squeeze of lemon; serve with warm pita.
+
+#shawarma #chicken #bowl #mediterranean #healthy #lunch #dinner #mealprep 🌮🍱
+```
+
+ID: 298
+Caption:
+```
+🦑 Grilled Calamari Steak 🦑
+
+Recipe: 
+Ingredients: 🦑 4 large calamari steaks, 🫒 3 tbsp olive oil, 🧄 3 cloves garlic (minced), 🍋 juice of 2 lemons, 🌿 2 tbsp fresh parsley (chopped), 🌶️ 1/2 tsp red pepper flakes, 🧂 sea salt, 🧂 cracked black pepper, 🥗 arugula salad
+Steps: 👨‍🍳 Pat calamari steaks dry and score lightly in a crosshatch pattern on both sides. 🥣 Whisk olive oil, garlic, lemon juice, parsley, red pepper flakes, salt, and pepper; marinate steaks for 20 minutes. 🔥 Heat a grill or grill pan over high heat; grill calamari for 2 minutes per side until opaque and lightly charred. 🍋 Remove from heat and squeeze fresh lemon over the top. 🥗 Serve immediately over arugula dressed with lemon and olive oil.
+
+#calamari #seafood #grilling #healthy #dinner #mediterranean #lemon #fresh 🌮🍱
+```
+
+ID: 299
+Caption:
+```
+🍝 Pesto Genovese with Gigli 🍝
+
+Recipe: 
+Ingredients: 🍝 1 lb gigli or campanelle pasta, 🌿 2 cups fresh basil leaves, 🧀 1/2 cup parmesan (grated), 🥜 1/3 cup pine nuts, 🧄 2 cloves garlic, 🫒 1/2 cup extra virgin olive oil, 🧂 sea salt, 🧀 extra parmesan for serving
+Steps: 👨‍🍳 Toast pine nuts in a dry skillet for 2 minutes until golden; cool slightly. 🌿 Blend basil, pine nuts, garlic, and parmesan in a food processor; drizzle in olive oil until a smooth pesto forms. 🍝 Cook pasta in salted water until al dente; reserve 1/2 cup pasta water. 🥣 Toss hot pasta with pesto and a splash of pasta water until glossy and coated. 🧀 Serve immediately with extra parmesan and a drizzle of olive oil.
+
+#pesto #pasta #italian #vegetarian #basil #comfortfood #dinner #fresh 🌮🍱
+```
+
+ID: 300
+Caption:
+```
+🍗 Sichuan Dry-Fried Chicken 🍗
+
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken thighs (boneless, cubed), 🌶️ 1/4 cup dried red chilies, 🌶️ 1 tbsp Sichuan peppercorns, 🫚 1 tbsp grated ginger, 🧄 3 cloves garlic (sliced), 🍅 2 tbsp soy sauce, 🍶 1 tbsp shaoxing wine, 🍬 1 tsp sugar, 🌿 scallions
+Steps: 👨‍🍳 Marinate chicken cubes in soy sauce, shaoxing wine, and cornstarch for 20 minutes. 🔥 Deep-fry chicken in batches at 375°F (190°C) for 4-5 minutes until deeply golden and crispy; drain on a rack. 🔥 In a wok, toast dried chilies and Sichuan peppercorns in oil until fragrant. 🧄 Add ginger, garlic, and scallions; stir-fry for 30 seconds. 🍗 Return chicken to the wok; toss with sugar and a pinch of salt. 🔥 Stir-fry for 1 minute until everything is coated and aromatic; serve immediately.
+
+#sichuanchicken #spicy #chinese #chicken #wok #dinner #asiancuisine #crispy 🌮🍱
+```
+
