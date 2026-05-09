@@ -1929,23 +1929,24 @@
     {
       "id": 216,
       "prompt": "An ultra-realistic, highly detailed crispy tempura vegetables including sweet potato, bell pepper, and onion, served with tentsuyu dipping sauce. Aspect ratio 9:16 portrait",
-      "status": "pending",
+      "status": "video_failed",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T00:34:25.482965"
+      "executed_at": "2026-05-09T11:24:17.319468"
     },
     {
       "id": 217,
       "prompt": "An ultra-realistic, highly detailed hand-rolled sushi burrito filled with salmon, avocado, cucumber, and spicy mayo, cut in half to show layers. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T00:44:23.073429"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/c2dfbe40-24fb-438f-a9e3-a1845b7117cb",
+      "executed_at": "2026-05-09T11:28:52.217852",
+      "video_url": "https://grok.com/imagine/post/c2dfbe40-24fb-438f-a9e3-a1845b7117cb"
     },
     {
       "id": 218,
       "prompt": "An ultra-realistic, highly detailed warm apple crisp with a buttery oat streusel topping, served with vanilla ice cream melting on the side. Aspect ratio 9:16 portrait",
-      "status": "pending",
+      "status": "video_failed",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T00:54:18.989392"
+      "executed_at": "2026-05-09T11:34:23.043132"
     },
     {
       "id": 219,

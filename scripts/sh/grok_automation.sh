@@ -7,28 +7,8 @@ set -uo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
-# Source libraries
-export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
-source "$SCRIPT_DIR/lib/logging.sh"
-source "$SCRIPT_DIR/lib/validation.sh"
-source "$SCRIPT_DIR/lib/tracker.sh"
-source "$SCRIPT_DIR/lib/browser.sh"
-
-# Defaults
-PROJECT_ID=""
-DRY_RUN=0
-LOG_DIR="$REPO_ROOT/logs"
-TIMEOUT=300
-MAX_RETRIES=3
-HEADLESS=0
-
-_dry_run_sleep() {
-    if [ "$DRY_RUN" = "1" ]; then
-        sleep 0
-    else
-        sleep "$1"
-    fi
-}
+# Source Framework
+source "$SCRIPT_DIR/lib/framework.sh"
 
 usage() {
     cat <<EOF
@@ -52,49 +32,6 @@ Environment Variables:
   SELECTOR_MAKE_VIDEO    CSS selector for make video button
   LOG_LEVEL              DEBUG, INFO, WARN, ERROR (default: INFO)
 EOF
-}
-
-parse_args() {
-    while [ $# -gt 0 ]; do
-        case "$1" in
-            --project)
-                PROJECT_ID="$2"
-                shift 2
-                ;;
-            --dry-run)
-                DRY_RUN=1
-                shift
-                ;;
-            --log-dir)
-                LOG_DIR="$2"
-                shift 2
-                ;;
-            --timeout)
-                TIMEOUT="$2"
-                shift 2
-                ;;
-            --max-retries)
-                MAX_RETRIES="$2"
-                shift 2
-                ;;
-            --headless)
-                HEADLESS=1
-                shift
-                ;;
-            --tracker)
-                shift 2
-                ;;
-            -h|--help)
-                usage
-                exit 0
-                ;;
-            *)
-                echo "Unknown option: $1"
-                usage
-                exit 1
-                ;;
-        esac
-    done
 }
 
 # Phase 1: Preparation
@@ -139,21 +76,6 @@ phase_1_preparation() {
 # Phase 2: Platform Navigation
 phase_2_navigation() {
     log_section "Phase 2: Platform Navigation"
-
-    log INFO "Checking BrowserOS health..."
-    if ! bos_health; then
-        log INFO "BrowserOS not reachable, attempting to launch..."
-        if ! _bos launch; then
-            log FATAL "BrowserOS not reachable. Run: browseros-cli init --auto && browseros-cli launch"
-        fi
-        # Wait a bit for server to stabilize even after launch says it's ready
-        sleep 5
-    fi
-    
-    if ! retry_with_backoff "bos_health" "$MAX_RETRIES" 5; then
-        log FATAL "BrowserOS not reachable after launch attempt."
-    fi
-    log INFO "BrowserOS is healthy"
 
     log INFO "Navigating to Grok Imagine..."
     bos_navigate "https://grok.com/imagine"
@@ -435,21 +357,7 @@ phase_7_recording() {
 }
 
 main() {
-    parse_args "$@"
-
-    # Export for libraries
-    export DRY_RUN
-    export MAX_RETRIES
-
-    log_init "$LOG_DIR"
-
-    if [ "$DRY_RUN" = "1" ]; then
-        log INFO "=== DRY RUN MODE ==="
-        log INFO "No actual browser commands will be executed"
-    fi
-
-    log INFO "Starting Grok automation for project $PROJECT_ID"
-    log INFO "Timeout: ${TIMEOUT}s, Max retries: $MAX_RETRIES"
+    framework_setup "$@"
 
     phase_1_preparation
     phase_2_navigation
