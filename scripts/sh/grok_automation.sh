@@ -86,10 +86,12 @@ phase_2_navigation() {
 phase_3_image_generation() {
     log_section "Phase 3: Image Generation"
 
-    log INFO "Finding input area..."
+    log INFO "Finding input area... selector='$SELECTOR_INPUT'"
     local input_info
     input_info=$(bos_find_element "$SELECTOR_INPUT" 30)
-    if [ $? -ne 0 ]; then
+    local find_exit=$?
+    log DEBUG "phase_3: find_element exit=$find_exit"
+    if [ $find_exit -ne 0 ]; then
         log FATAL "Could not find Grok input area"
     fi
 
@@ -98,28 +100,61 @@ phase_3_image_generation() {
     input_y=$(echo "$input_info" | jq -r '.y')
     log INFO "Input area found at ($input_x, $input_y)"
 
-    log INFO "Typing prompt..."
+    log INFO "Typing prompt (length=${#PROMPT_TEXT})..."
+    log DEBUG "phase_3: prompt_text='${PROMPT_TEXT:0:80}...'"
     bos_type_text "$PROMPT_TEXT"
-    if [ $? -ne 0 ]; then
+    local type_exit=$?
+    log DEBUG "phase_3: type_text exit=$type_exit"
+    if [ $type_exit -ne 0 ]; then
         log FATAL "Failed to type prompt"
     fi
     _dry_run_sleep 1
 
     log INFO "Submitting prompt..."
     bos_key "Enter"
-    if [ $? -ne 0 ]; then
+    local key_exit=$?
+    log DEBUG "phase_3: key Enter exit=$key_exit"
+    if [ $key_exit -ne 0 ]; then
         log FATAL "Failed to submit prompt"
     fi
 
-    log INFO "Waiting for image generation..."
-    if ! bos_wait_for "bos_find_element \"\$SELECTOR_IMAGE\" 1 >/dev/null" 5 120; then
+    local poll_interval=5
+    local max_wait=120
+    local elapsed=0
+    local img_ready=0
+    log INFO "Waiting for image generation (max_wait=${max_wait}s, poll=${poll_interval}s)..."
+
+    while [ "$elapsed" -lt "$max_wait" ]; do
+        log DEBUG "phase_3: polling image gen, elapsed=${elapsed}s"
+
+        if bos_find_element "$SELECTOR_IMAGE" 1 >/dev/null 2>&1; then
+            log INFO "Image generated successfully (selector found)"
+            img_ready=1
+            break
+        fi
+
+        if bos_check_image_preference; then
+            log INFO "Image preference dialog detected (image generation complete)"
+            img_ready=1
+            break
+        fi
+
+        _dry_run_sleep "$poll_interval"
+        elapsed=$((elapsed + poll_interval))
+        log DEBUG "Elapsed: ${elapsed}s"
+    done
+
+    log DEBUG "phase_3: poll loop ended, img_ready=$img_ready elapsed=${elapsed}s"
+    if [ "$img_ready" -eq 0 ]; then
         # Check for warning/failure indicators
         local page_text
         page_text=$(bos_text)
+        log DEBUG "phase_3: page_text length=${#page_text}"
         if echo "$page_text" | grep -qi "warning"; then
             log WARN "Image generation warning detected"
             local post_url
             post_url=$(bos_get_page_url)
+            log DEBUG "phase_3: warning post_url='$post_url'"
             if [ "$PROJECT_ID" != "3" ]; then
                 tracker_mark_image_warning "$PROJECT_ID" "$PROMPT_ID" "$post_url"
             else
@@ -130,47 +165,63 @@ phase_3_image_generation() {
         tracker_mark_image_failed "$PROJECT_ID" "$PROMPT_ID" "$(bos_get_page_url)"
         log FATAL "Timeout waiting for image generation"
     fi
-    log INFO "Images generated successfully"
 }
 
 # Phase 4: Video Generation
 phase_4_video_generation() {
     log_section "Phase 4: Video Generation"
 
-    log INFO "Checking for image preference dialog..."
-    if ! bos_handle_image_preference; then
-        log WARN "Failed to handle image preference dialog, continuing anyway..."
+    local elapsed=0
+    local max_wait=15
+    local handled=0
+    log INFO "Checking for image preference dialog (max_wait=${max_wait}s)..."
+    while [ "$elapsed" -lt "$max_wait" ]; do
+        log DEBUG "phase_4: polling image preference dialog, elapsed=${elapsed}s"
+        local handle_exit
+        bos_handle_image_preference
+        handle_exit=$?
+        log DEBUG "phase_4: handle_image_preference exit=$handle_exit"
+        if [ "$handle_exit" -eq 0 ]; then
+            log INFO "Image preference dialog handled successfully"
+            handled=1
+            break
+        elif [ "$handle_exit" -eq 1 ]; then
+            log WARN "Image preference dialog found but Skip button missing, retrying..."
+        fi
+        _dry_run_sleep 2
+        elapsed=$((elapsed + 2))
+    done
+    log DEBUG "phase_4: image preference dialog loop ended, handled=$handled elapsed=${elapsed}s"
+
+    if [ "$handled" -eq 0 ]; then
+        log INFO "No image preference dialog appeared after ${max_wait}s, continuing..."
     fi
 
     log INFO "Opening image detail page..."
 
-    # Primary Method: Use snapshot to find and click the first link element
-    log INFO "Trying snapshot method to find first image link..."
-    if retry_with_backoff "bos_click_first_link" 3 2; then
-        log INFO "Clicked first link from snapshot"
-        _dry_run_sleep 2
-    else
-        # Fallback Method: Click the generated image coordinates
-        log WARN "Snapshot link method failed, falling back to image coordinates..."
-        local img_info
-        img_info=$(bos_find_element "$SELECTOR_IMAGE" 30)
-        if [ $? -ne 0 ]; then
-            log FATAL "Could not find generated image"
-        fi
-
-        local img_x img_y
-        img_x=$(echo "$img_info" | jq -r '.x')
-        img_y=$(echo "$img_info" | jq -r '.y')
-
-        log INFO "Clicking on generated image at ($img_x, $img_y)..."
-        bos_click_at "$img_x" "$img_y"
-        _dry_run_sleep 2
+    log INFO "Clicking generated image to open detail page..."
+    local img_info
+    img_info=$(bos_find_element "$SELECTOR_IMAGE" 30)
+    local img_exit=$?
+    log DEBUG "phase_4: find_element SELECTOR_IMAGE exit=$img_exit"
+    if [ $img_exit -ne 0 ]; then
+        log FATAL "Could not find generated image"
     fi
 
-    log INFO "Looking for Make video button..."
+    local img_x img_y
+    img_x=$(echo "$img_info" | jq -r '.x')
+    img_y=$(echo "$img_info" | jq -r '.y')
+
+    log INFO "Clicking on generated image at ($img_x, $img_y)..."
+    bos_click_at "$img_x" "$img_y"
+    _dry_run_sleep 2
+
+    log INFO "Looking for Make video button... selector='$SELECTOR_MAKE_VIDEO'"
     local mv_info
     mv_info=$(bos_find_element "$SELECTOR_MAKE_VIDEO" 30)
-    if [ $? -ne 0 ]; then
+    local mv_exit=$?
+    log DEBUG "phase_4: find_element SELECTOR_MAKE_VIDEO exit=$mv_exit"
+    if [ $mv_exit -ne 0 ]; then
         log WARN "Make video button not found via selector, trying snap fallback..."
         if ! retry_with_backoff "bos_click_by_snap_pattern 'Make video'" 3 2; then
             log FATAL "Could not find Make video button"
@@ -179,6 +230,7 @@ phase_4_video_generation() {
         local mv_x mv_y
         mv_x=$(echo "$mv_info" | jq -r '.x')
         mv_y=$(echo "$mv_info" | jq -r '.y')
+        log INFO "Make video button found at ($mv_x, $mv_y), clicking..."
         bos_click_at "$mv_x" "$mv_y"
     fi
     log INFO "Video generation triggered"
@@ -192,23 +244,36 @@ phase_5_monitoring() {
     local poll_interval=10
     local max_wait=150
     local elapsed=0
+    local video_ready=0
 
-    log INFO "Polling for video completion (max ${max_wait}s)..."
+    log INFO "Polling for video completion (max ${max_wait}s, interval=${poll_interval}s)..."
 
     while [ "$elapsed" -lt "$max_wait" ]; do
+        log DEBUG "phase_5: poll iteration elapsed=${elapsed}s"
+
         local page_text
         page_text=$(bos_text)
+        log DEBUG "phase_5: page_text lines=$(echo "$page_text" | wc -l | tr -d ' ')"
 
         local snapshot_text
         snapshot_text=$(bos_snap)
+        log DEBUG "phase_5: snapshot lines=$(echo "$snapshot_text" | wc -l | tr -d ' ')"
+
+        if bos_check_video_preference; then
+            log INFO "Video preference dialog detected (video generation complete)"
+            video_ready=1
+            break
+        fi
 
         if echo "$snapshot_text" | grep -q "Redo video"; then
             log INFO "Video ready (Redo video button detected)"
+            video_ready=1
             break
         fi
 
         if echo "$snapshot_text" | grep "Download" | grep -qv "(disabled)"; then
             log INFO "Video ready (Download button enabled)"
+            video_ready=1
             break
         fi
 
@@ -226,6 +291,7 @@ phase_5_monitoring() {
             log WARN "Video generation warning detected"
             local post_url
             post_url=$(bos_get_page_url)
+            log DEBUG "phase_5: warning post_url='$post_url'"
             tracker_mark_video_warning "$PROJECT_ID" "$PROMPT_ID" "$post_url"
             log FATAL "Video generation warning — prompt marked for retry"
         fi
@@ -235,9 +301,11 @@ phase_5_monitoring() {
         log DEBUG "Elapsed: ${elapsed}s"
     done
 
-    if [ "$elapsed" -ge "$max_wait" ]; then
+    log DEBUG "phase_5: poll loop ended, video_ready=$video_ready elapsed=${elapsed}s"
+    if [ "$video_ready" -eq 0 ]; then
         local post_url
         post_url=$(bos_get_page_url)
+        log DEBUG "phase_5: timeout post_url='$post_url'"
         tracker_mark_video_failed "$PROJECT_ID" "$PROMPT_ID" "$post_url"
         log FATAL "Timeout waiting for video generation"
     fi
@@ -248,8 +316,16 @@ phase_6_asset_management() {
     log_section "Phase 6: Asset Management"
 
     log INFO "Checking for video preference dialog..."
-    if ! bos_handle_video_preference; then
-        log WARN "Failed to handle video preference dialog, continuing anyway..."
+    local video_handle_exit
+    bos_handle_video_preference
+    video_handle_exit=$?
+    log DEBUG "phase_6: handle_video_preference exit=$video_handle_exit"
+    if [ "$video_handle_exit" -eq 1 ]; then
+        log WARN "Failed to handle video preference dialog (Skip button not found), continuing anyway..."
+    elif [ "$video_handle_exit" -eq 0 ]; then
+        log INFO "Video preference dialog handled successfully"
+    else
+        log DEBUG "phase_6: no video preference dialog present"
     fi
 
     log INFO "Waiting 5 seconds for file stabilization..."
@@ -260,7 +336,9 @@ phase_6_asset_management() {
     local retries=0
     local max_dl_retries=3
     while [ "$retries" -lt "$max_dl_retries" ]; do
+        log DEBUG "phase_6: find Download attempt=$retries"
         dl_ref=$(bos_get_snap_ref 'Download')
+        log DEBUG "phase_6: dl_ref='$dl_ref'"
         if [ -n "$dl_ref" ]; then
             break
         fi
@@ -289,17 +367,20 @@ phase_6_asset_management() {
         download_output=$(bos_download "$dl_ref" "$dest_dir" 2>&1)
         download_exit=$?
     fi
-    log DEBUG "Download output: $download_output"
+    log DEBUG "phase_6: download_exit=$download_output"
+    log DEBUG "phase_6: download output: $download_output"
 
     if [ "$download_exit" -ne 0 ]; then
-        log FATAL "Download failed"
+        log FATAL "Download failed (exit $download_exit)"
     fi
 
     local downloaded_file
     downloaded_file=$(echo "$download_output" | sed -n 's/.*Downloaded "\([^"]*\)".*/\1/p')
+    log DEBUG "phase_6: downloaded_file from regex='$downloaded_file'"
     if [ -z "$downloaded_file" ]; then
         downloaded_file=$(ls -t "$dest_dir"/*.mp4 2>/dev/null | head -1)
         downloaded_file=$(basename "$downloaded_file" 2>/dev/null)
+        log DEBUG "phase_6: downloaded_file from ls='$downloaded_file'"
     fi
 
     if [ -z "$downloaded_file" ]; then
@@ -323,7 +404,9 @@ phase_6_asset_management() {
     if ! validate_file "$FINAL_PATH" 1024; then
         log FATAL "Downloaded file is missing or too small"
     fi
-    log INFO "File validated: $(stat -f%z "$FINAL_PATH" 2>/dev/null || stat -c%s "$FINAL_PATH" 2>/dev/null) bytes"
+    local fsize
+    fsize=$(stat -f%z "$FINAL_PATH" 2>/dev/null || stat -c%s "$FINAL_PATH" 2>/dev/null)
+    log INFO "File validated: $fsize bytes"
 }
 
 # Phase 7: Recording & Tracking
@@ -339,15 +422,17 @@ phase_7_recording() {
     local video_url
     video_url=$(bos_eval "document.querySelector('video')?.src || window.location.href")
     video_url=$(echo "$video_url" | jq -r '.result // empty' 2>/dev/null)
+    log DEBUG "phase_7: video_url from eval='$video_url'"
     if [ -z "$video_url" ]; then
         video_url="$post_url"
+        log DEBUG "phase_7: falling back to post_url"
     fi
     log INFO "Video URL: $video_url"
 
-    log INFO "Updating tracker..."
+    log INFO "Updating tracker... project=$PROJECT_ID prompt=$PROMPT_ID"
     local tracker_result
     tracker_result=$(tracker_complete "$PROJECT_ID" "$PROMPT_ID" "$video_url" "$post_url")
-    log DEBUG "Tracker result: $tracker_result"
+    log DEBUG "phase_7: tracker_result='$tracker_result'"
 
     if echo "$tracker_result" | jq -e '.success' >/dev/null 2>&1; then
         log INFO "Prompt $PROMPT_ID marked complete"
@@ -371,6 +456,7 @@ main() {
     log INFO "Successfully processed prompt $PROMPT_ID"
     log INFO "Asset: $FINAL_PATH"
     log INFO "Log file: $LOG_FILE"
+    log DEBUG "main: finished"
 }
 
 main "$@"
