@@ -222,6 +222,34 @@ def mark_uploaded(file_path, prompt_id, platform):
     else:
         print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
 
+def mark_scheduled(file_path, prompt_id, platform, schedule_json):
+    """Append platform to upload array and add schedule entry."""
+    data = load_data(file_path)
+    prompts = data.get("prompts", [])
+    found = False
+    for item in prompts:
+        if str(item.get("id")) == str(prompt_id):
+            if "upload" not in item:
+                item["upload"] = []
+            if platform not in item["upload"]:
+                item["upload"].append(platform)
+            if "scheduled" not in item:
+                item["scheduled"] = []
+            try:
+                schedule_data = json.loads(schedule_json)
+            except json.JSONDecodeError:
+                print(json.dumps({"success": False, "error": "Invalid schedule JSON"}))
+                return
+            item["scheduled"].append({platform: schedule_data})
+            found = True
+            break
+    
+    if found:
+        save_data(file_path, data)
+        print(json.dumps({"success": True, "id": prompt_id, "platform": platform}))
+    else:
+        print(json.dumps({"success": False, "error": f"ID {prompt_id} not found"}))
+
 def print_usage():
     print(
         "Usage: python3 scripts/py/grok_tracker.py --project <1|2|3|4> "
@@ -230,7 +258,7 @@ def print_usage():
         "mark_video_warning <id> <post_url> | mark_image_failed <id> <post_url> | "
         "update_field <id> <field_name> <value> | "
         "get_next_to_map | update_mapping_status <id> <status> | "
-        "mark_uploaded <id> <platform>]"
+        "mark_uploaded <id> <platform> | mark_scheduled <id> <platform> '<json>']"
     )
 
 if __name__ == "__main__":
@@ -294,6 +322,11 @@ if __name__ == "__main__":
             print("Usage: ... mark_uploaded <id> <platform>")
             sys.exit(1)
         mark_uploaded(file_path, args[3], args[4])
+    elif command == "mark_scheduled":
+        if len(args) < 6:
+            print("Usage: ... mark_scheduled <id> <platform> '<json>'")
+            sys.exit(1)
+        mark_scheduled(file_path, args[3], args[4], args[5])
     else:
         print(json.dumps({"error": f"Unknown command '{command}'"}))
         print_usage()

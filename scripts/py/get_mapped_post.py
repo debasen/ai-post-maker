@@ -43,6 +43,8 @@ def main():
     )
     parser.add_argument("--project", type=int, required=True, help="Project ID")
     parser.add_argument("--platform", type=str, required=True, choices=["instagram", "facebook", "youtube"], help="Platform to check")
+    parser.add_argument("--limit", type=int, default=1, help="Number of assets to return (default: 1)")
+    parser.add_argument("--json", action="store_true", help="Output as JSON array")
     args = parser.parse_args()
 
     filepath = get_project_path(args.project)
@@ -59,8 +61,16 @@ def main():
 
     # The JSON structure contains a 'prompts' key which holds the list of entries
     prompts = data.get("prompts", [])
+    results = []
     for entry in prompts:
         if entry.get("asset") == "mapped" and args.platform not in entry.get("upload", []):
+            # Also skip if already scheduled for this platform
+            scheduled = entry.get("scheduled", [])
+            already_scheduled = any(
+                args.platform in s for s in scheduled
+            )
+            if already_scheduled:
+                continue
             prompt_id = entry["id"]
             caption = entry.get("instagram_caption")
             
@@ -68,12 +78,22 @@ def main():
             if not caption:
                 caption = get_caption_from_md(args.project, prompt_id)
             
-            print(f"ID: {prompt_id}")
-            print(f"Caption: {caption}")
-            return
+            if args.json:
+                results.append({"id": prompt_id, "caption": caption})
+                if len(results) >= args.limit:
+                    break
+            else:
+                print(f"ID: {prompt_id}")
+                print(f"Caption: {caption}")
+                return
 
-    print(f"⚠️  No prompts with 'mapped' status found in project-{args.project} for platform {args.platform}")
-    sys.exit(0)
+    if args.json:
+        print(json.dumps(results))
+        return
+
+    if not results:
+        print(f"⚠️  No prompts with 'mapped' status found in project-{args.project} for platform {args.platform}")
+        sys.exit(0)
 
 if __name__ == "__main__":
     main()

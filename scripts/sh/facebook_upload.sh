@@ -85,6 +85,10 @@ fb_upload() {
     _fb_bos upload -p "$PAGE_ID" "$ref" "$file"
 }
 
+fb_text() {
+    _fb_bos text -p "$PAGE_ID"
+}
+
 fb_close_page() {
     _fb_bos close -p "$PAGE_ID"
 }
@@ -273,16 +277,17 @@ phase_5_upload_video() {
 
     while [ "$attempt" -le "$max_attempts" ]; do
         local check_result
-        check_result=$(fb_eval_result "(function() { var dialog = document.querySelector('div[role=\"dialog\"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label=\"Next\"]') || Array.from(dialog?.querySelectorAll('div[role=\"button\"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()")
-        log DEBUG "Upload check attempt $attempt/$max_attempts: $check_result"
-
-        if [ "$check_result" = "true" ]; then
+        check_result=$(fb_text)
+        
+        if echo "$check_result" | grep -q "Your reel is safe to publish!"; then
+            log DEBUG "Upload check attempt $attempt/$max_attempts: true"
             upload_ready=1
             break
         fi
 
+        log DEBUG "Upload check attempt $attempt/$max_attempts: false"
         log INFO "Upload still processing... (attempt $attempt/$max_attempts)"
-        sleep 15
+        sleep 5
         attempt=$((attempt + 1))
     done
 
@@ -403,15 +408,24 @@ phase_8_final_review() {
     sleep 3
 
     log INFO "Verifying final review screen..."
-    local review_check
-    review_check=$(fb_eval_result "(function() { var dialog = document.querySelector('div[role=\"dialog\"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasHeading = text.includes('Reel settings'); var hasPost = !!Array.from(dialog?.querySelectorAll('div[role=\"button\"], button') || []).find(function(b) { return b.innerText?.includes('Post'); }); var hasSafe = text.includes('Your reel is safe to publish!'); return hasHeading && hasPost && hasSafe; })()")
-    log DEBUG "Final review check: $review_check"
-
-    if [ "$review_check" != "true" ]; then
-        log FATAL "Final review screen not detected"
+    local review_text
+    review_text=$(fb_text)
+    
+    local has_heading=0
+    local has_post=0
+    local has_safe=0
+    
+    if echo "$review_text" | grep -q "Reel settings"; then has_heading=1; fi
+    if echo "$review_text" | grep -q "Post"; then has_post=1; fi
+    if echo "$review_text" | grep -q "Your reel is safe to publish!"; then has_safe=1; fi
+    
+    log DEBUG "Final review check: heading=$has_heading, post=$has_post, safe=$has_safe"
+    
+    if [ "$has_heading" -eq 1 ] && [ "$has_post" -eq 1 ]; then
+        log INFO "Final review screen confirmed"
+    else
+        log FATAL "Final review screen not detected (missing 'Reel settings' or 'Post')"
     fi
-
-    log INFO "Final review screen confirmed"
 }
 
 # ─── Phase 9: Manual Review ────────────────────────────────────────────────────

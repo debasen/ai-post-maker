@@ -71,7 +71,9 @@
       "post_url": "https://grok.com/imagine/post/cfb64405-106a-47f7-9444-97a28b9bb82e",
       "executed_at": "2026-05-01T23:37:03.474552",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ]
     },
     {
       "id": 7,
@@ -2435,51 +2437,58 @@
     {
       "id": 268,
       "prompt": "An ultra-realistic, highly detailed highly detailsd decadent chocolate fondant in a ramekin, molten center flowing out onto the plate, vanilla ice cream melting alongside. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-10T18:14:49.885767"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/d96f2ea0-1e21-428d-a7b9-4c71316fa909",
+      "executed_at": "2026-05-10T22:03:17.035295",
+      "video_url": "https://grok.com/imagine/post/d96f2ea0-1e21-428d-a7b9-4c71316fa909"
     },
     {
       "id": 269,
       "prompt": "An ultra-realistic, highly detailed highly detailed tandoori chicken tikka skewers, charred and blistered from high heat, vibrant red-orange color, lemon wedges, cilantro. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-10T18:24:52.031916"
+      "status": "completed",
+      "post_url": "https://www.facebook.com/",
+      "executed_at": "2026-05-10T22:13:16.024248",
+      "video_url": "https://www.facebook.com/"
     },
     {
       "id": 270,
       "prompt": "An ultra-realistic, highly detailed highly detailed creamy butternut squash soup in a bowl, vibrant orange color, swirl of coconut cream, roasted pumpkin seeds on top. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T06:40:00"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/08c4ee9e-a0f4-4278-9c9d-07171a3ef71e",
+      "executed_at": "2026-05-10T22:23:03.687664",
+      "video_url": "https://grok.com/imagine/post/08c4ee9e-a0f4-4278-9c9d-07171a3ef71e"
     },
     {
       "id": 271,
       "prompt": "An ultra-realistic, highly detailed highly detailed grilled vegetable flatbread, charred eggplant, bell peppers, red onion, crumbled goat cheese, fresh thyme, balsamic drizzle. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T06:50:00"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/443a3eca-040d-4ba8-80ed-970b34783cad",
+      "executed_at": "2026-05-10T22:32:31.603284",
+      "video_url": "https://grok.com/imagine/post/443a3eca-040d-4ba8-80ed-970b34783cad"
     },
     {
       "id": 272,
       "prompt": "An ultra-realistic, highly detailed highly detailed crispy coconut shrimp on a platter, golden and glistening, sweet chili sauce in a small bowl, lime wedges. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T07:00:00"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/1d2d8d47-3319-4c0e-a0b7-14feb64a7b3d",
+      "executed_at": "2026-05-10T22:42:54.900103",
+      "video_url": "https://grok.com/imagine/post/1d2d8d47-3319-4c0e-a0b7-14feb64a7b3d"
     },
     {
       "id": 273,
       "prompt": "An ultra-realistic, highly detailed highly detailed lemon dill roasted chicken legs on a bed of baby potatoes, crispy golden skin, fresh dill sprigs, lemon slices. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T07:10:00"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/dab02d45-c262-4111-873b-b69d13a92d3f",
+      "executed_at": "2026-05-10T22:53:10.531752",
+      "video_url": "https://grok.com/imagine/post/dab02d45-c262-4111-873b-b69d13a92d3f"
     },
     {
       "id": 274,
       "prompt": "An ultra-realistic, highly detailed highly detailsd ricotta hotcakes with honey butter, fluffy golden pancakes, melting honey butter pooling on top, powdered sugar dusting. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T07:20:00"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/003dc2cd-3406-4df2-8ea5-63b7451eef81",
+      "executed_at": "2026-05-10T23:43:03.489095",
+      "video_url": "https://grok.com/imagine/post/003dc2cd-3406-4df2-8ea5-63b7451eef81"
     },
     {
       "id": 275,
