@@ -1,56 +1,56 @@
-[2026-05-09 23:40:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
-[2026-05-09 23:40:00] [INFO] Starting automation for project 1
-[2026-05-09 23:40:00] [INFO] Timeout: 300s, Max retries: 3
-[2026-05-09 23:40:00] [INFO] Checking BrowserOS health...
+[2026-05-10 05:30:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-10 05:30:00] [INFO] Starting automation for project 1
+[2026-05-10 05:30:00] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-10 05:30:00] [INFO] Checking BrowserOS health...
 
-[2026-05-09 23:40:01] [CMD] browseros-cli health 
-[2026-05-09 23:40:01] [EXIT] 0
-[2026-05-09 23:40:01] [OUT] ---
+[2026-05-10 05:30:03] [CMD] browseros-cli health 
+[2026-05-10 05:30:03] [EXIT] 0
+[2026-05-10 05:30:03] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-09 23:40:01] [OUT] ---
-[2026-05-09 23:40:01] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-05-09 23:40:01] [DEBUG] Retry attempt 1/3: bos_health
+[2026-05-10 05:30:03] [OUT] ---
+[2026-05-10 05:30:03] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-10 05:30:03] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-05-09 23:40:02] [CMD] browseros-cli health 
-[2026-05-09 23:40:02] [EXIT] 0
-[2026-05-09 23:40:02] [OUT] ---
+[2026-05-10 05:30:04] [CMD] browseros-cli health 
+[2026-05-10 05:30:04] [EXIT] 0
+[2026-05-10 05:30:04] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-09 23:40:02] [OUT] ---
-[2026-05-09 23:40:02] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-05-09 23:40:02] [INFO] BrowserOS is healthy
-[2026-05-09 23:40:02] [INFO] ========================================
-[2026-05-09 23:40:02] [INFO]   Phase 1: Preparation
-[2026-05-09 23:40:02] [INFO] ========================================
-[2026-05-09 23:40:02] [INFO] Using tracker: grok_tracker.py
-[2026-05-09 23:40:02] [INFO] Fetching next pending prompt...
-[2026-05-09 23:40:02] [DEBUG] Tracker response: {"id": 185, "prompt": "An ultra-realistic, highly detailed a massive, folded Chinese street crepe brushed with sweet hoisin and spicy chili sauce, filled with a crispy wonton cracker, egg, and scallions. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-09T16:44:29.813679"}
-[2026-05-09 23:40:02] [INFO] Next prompt ID: 185
-[2026-05-09 23:40:02] [INFO] Status: pending
-[2026-05-09 23:40:02] [DEBUG] Prompt: An ultra-realistic, highly detailed a massive, folded Chinese street crepe brushed with sweet hoisin and spicy chili sauce, filled with a crispy wonton cracker, egg, and scallions. Aspect ratio 9:16 portrait
-[2026-05-09 23:40:02] [INFO] ========================================
-[2026-05-09 23:40:02] [INFO]   Phase 2: Platform Navigation
-[2026-05-09 23:40:02] [INFO] ========================================
-[2026-05-09 23:40:02] [INFO] Navigating to Grok Imagine...
-[2026-05-09 23:40:02] [DEBUG] bos_navigate: url=https://grok.com/imagine
+[2026-05-10 05:30:04] [OUT] ---
+[2026-05-10 05:30:04] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-10 05:30:04] [INFO] BrowserOS is healthy
+[2026-05-10 05:30:04] [INFO] ========================================
+[2026-05-10 05:30:04] [INFO]   Phase 1: Preparation
+[2026-05-10 05:30:04] [INFO] ========================================
+[2026-05-10 05:30:04] [INFO] Using tracker: grok_tracker.py
+[2026-05-10 05:30:04] [INFO] Fetching next pending prompt...
+[2026-05-10 05:30:04] [DEBUG] Tracker response: {"id": 261, "prompt": "An ultra-realistic, highly detailed highly detailed cacio e pepe pasta in a deep bowl, glossy pecorino romano sauce clinging to spaghetti, cracked black pepper, steam rising. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-09T08:03:45.279250"}
+[2026-05-10 05:30:04] [INFO] Next prompt ID: 261
+[2026-05-10 05:30:04] [INFO] Status: pending
+[2026-05-10 05:30:04] [DEBUG] Prompt: An ultra-realistic, highly detailed highly detailed cacio e pepe pasta in a deep bowl, glossy pecorino romano sauce clinging to spaghetti, cracked black pepper, steam rising. Aspect ratio 9:16 portrait
+[2026-05-10 05:30:04] [INFO] ========================================
+[2026-05-10 05:30:04] [INFO]   Phase 2: Platform Navigation
+[2026-05-10 05:30:04] [INFO] ========================================
+[2026-05-10 05:30:04] [INFO] Navigating to Grok Imagine...
+[2026-05-10 05:30:04] [DEBUG] bos_navigate: url=https://grok.com/imagine
 
-[2026-05-09 23:40:34] [CMD] browseros-cli nav https://grok.com/imagine
-[2026-05-09 23:40:34] [EXIT] 0
-[2026-05-09 23:40:34] [OUT] ---
+[2026-05-10 05:30:36] [CMD] browseros-cli nav https://grok.com/imagine
+[2026-05-10 05:30:36] [EXIT] 0
+[2026-05-10 05:30:36] [OUT] ---
 Navigated to https://grok.com/imagine
-[2026-05-09 23:40:34] [OUT] ---
-[2026-05-09 23:40:36] [INFO] ========================================
-[2026-05-09 23:40:36] [INFO]   Phase 3: Image Generation
-[2026-05-09 23:40:36] [INFO] ========================================
-[2026-05-09 23:40:36] [INFO] Finding input area... selector='div[contenteditable="true"]'
-[2026-05-09 23:40:36] [DEBUG] bos_find_element: selector='div[contenteditable="true"]' timeout=30s
-[2026-05-09 23:40:36] [DEBUG] bos_find_element_coords: selector='div[contenteditable="true"]'
-[2026-05-09 23:40:36] [DEBUG] bos_eval: js='(function() {
+[2026-05-10 05:30:36] [OUT] ---
+[2026-05-10 05:30:38] [INFO] ========================================
+[2026-05-10 05:30:38] [INFO]   Phase 3: Image Generation
+[2026-05-10 05:30:38] [INFO] ========================================
+[2026-05-10 05:30:38] [INFO] Finding input area... selector='div[contenteditable="true"]'
+[2026-05-10 05:30:38] [DEBUG] bos_find_element: selector='div[contenteditable="true"]' timeout=30s
+[2026-05-10 05:30:38] [DEBUG] bos_find_element_coords: selector='div[contenteditable="true"]'
+[2026-05-10 05:30:38] [DEBUG] bos_eval: js='(function() {
     var el = document.querySelector('div[contenteditable="true"]');
     if (!el) return JSON.stringify({fo'
 
-[2026-05-09 23:40:37] [CMD] browseros-cli eval (function() {
+[2026-05-10 05:30:39] [CMD] browseros-cli eval (function() {
     var el = document.querySelector('div[contenteditable="true"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -62,26 +62,26 @@ Navigated to https://grok.com/imagine
         height: rect.height
     });
 })()
-[2026-05-09 23:40:37] [EXIT] 0
-[2026-05-09 23:40:37] [OUT] ---
-{"found":true,"x":720.5,"y":637,"width":720,"height":56}
-[2026-05-09 23:40:37] [OUT] ---
-[2026-05-09 23:40:37] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":720.5,"y":637,"width":720,"height":56}'
-[2026-05-09 23:40:37] [DEBUG] bos_find_element_coords: output='{"found":true,"x":720.5,"y":637,"width":720,"height":56}'
-[2026-05-09 23:40:37] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":637,"width":720,"height":56}'
-[2026-05-09 23:40:37] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":637}
-[2026-05-09 23:40:37] [DEBUG] phase_3: find_element exit=0
-[2026-05-09 23:40:37] [INFO] Input area found at (720.5, 637)
-[2026-05-09 23:40:37] [INFO] Typing prompt (length=207)...
-[2026-05-09 23:40:37] [DEBUG] phase_3: prompt_text='An ultra-realistic, highly detailed a massive, folded Chinese street crepe brush...'
-[2026-05-09 23:40:37] [DEBUG] bos_type_text: text length=207 selector='div[contenteditable="true"]'
-[2026-05-09 23:40:37] [DEBUG] bos_find_element: selector='div[contenteditable="true"]' timeout=10s
-[2026-05-09 23:40:37] [DEBUG] bos_find_element_coords: selector='div[contenteditable="true"]'
-[2026-05-09 23:40:37] [DEBUG] bos_eval: js='(function() {
+[2026-05-10 05:30:39] [EXIT] 0
+[2026-05-10 05:30:39] [OUT] ---
+{"found":true,"x":720.5,"y":679,"width":720,"height":56}
+[2026-05-10 05:30:39] [OUT] ---
+[2026-05-10 05:30:39] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-10 05:30:39] [DEBUG] bos_find_element_coords: output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-10 05:30:39] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-10 05:30:39] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
+[2026-05-10 05:30:39] [DEBUG] phase_3: find_element exit=0
+[2026-05-10 05:30:39] [INFO] Input area found at (720.5, 679)
+[2026-05-10 05:30:39] [INFO] Typing prompt (length=201)...
+[2026-05-10 05:30:39] [DEBUG] phase_3: prompt_text='An ultra-realistic, highly detailed highly detailed cacio e pepe pasta in a deep...'
+[2026-05-10 05:30:39] [DEBUG] bos_type_text: text length=201 selector='div[contenteditable="true"]'
+[2026-05-10 05:30:39] [DEBUG] bos_find_element: selector='div[contenteditable="true"]' timeout=10s
+[2026-05-10 05:30:39] [DEBUG] bos_find_element_coords: selector='div[contenteditable="true"]'
+[2026-05-10 05:30:39] [DEBUG] bos_eval: js='(function() {
     var el = document.querySelector('div[contenteditable="true"]');
     if (!el) return JSON.stringify({fo'
 
-[2026-05-09 23:40:38] [CMD] browseros-cli eval (function() {
+[2026-05-10 05:30:40] [CMD] browseros-cli eval (function() {
     var el = document.querySelector('div[contenteditable="true"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -93,52 +93,52 @@ Navigated to https://grok.com/imagine
         height: rect.height
     });
 })()
-[2026-05-09 23:40:38] [EXIT] 0
-[2026-05-09 23:40:38] [OUT] ---
-{"found":true,"x":720.5,"y":637,"width":720,"height":56}
-[2026-05-09 23:40:38] [OUT] ---
-[2026-05-09 23:40:38] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":720.5,"y":637,"width":720,"height":56}'
-[2026-05-09 23:40:38] [DEBUG] bos_find_element_coords: output='{"found":true,"x":720.5,"y":637,"width":720,"height":56}'
-[2026-05-09 23:40:38] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":637,"width":720,"height":56}'
-[2026-05-09 23:40:38] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":637}
-[2026-05-09 23:40:38] [DEBUG] bos_type_text: find_element exit=0 input_info='{"found":true,"x":720.5,"y":637,"width":720,"height":56}'
-[2026-05-09 23:40:38] [DEBUG] Using click-at + eval fallback on coordinates 720.5,637
-[2026-05-09 23:40:38] [DEBUG] bos_click_at: x=720.5 y=637
+[2026-05-10 05:30:40] [EXIT] 0
+[2026-05-10 05:30:40] [OUT] ---
+{"found":true,"x":720.5,"y":679,"width":720,"height":56}
+[2026-05-10 05:30:40] [OUT] ---
+[2026-05-10 05:30:40] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-10 05:30:40] [DEBUG] bos_find_element_coords: output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-10 05:30:40] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-10 05:30:40] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
+[2026-05-10 05:30:40] [DEBUG] bos_type_text: find_element exit=0 input_info='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-10 05:30:40] [DEBUG] Using click-at + eval fallback on coordinates 720.5,679
+[2026-05-10 05:30:40] [DEBUG] bos_click_at: x=720.5 y=679
 
-[2026-05-09 23:40:39] [CMD] browseros-cli click-at 720.5 637
-[2026-05-09 23:40:39] [EXIT] 0
-[2026-05-09 23:40:39] [OUT] ---
-Clicked at (720, 637)
-[2026-05-09 23:40:39] [OUT] ---
-Clicked at (720, 637)
-[2026-05-09 23:40:39] [DEBUG] bos_eval: js='(function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: f'
+[2026-05-10 05:30:46] [CMD] browseros-cli click-at 720.5 679
+[2026-05-10 05:30:46] [EXIT] 0
+[2026-05-10 05:30:46] [OUT] ---
+Clicked at (720, 679)
+[2026-05-10 05:30:46] [OUT] ---
+Clicked at (720, 679)
+[2026-05-10 05:30:46] [DEBUG] bos_eval: js='(function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: f'
 
-[2026-05-09 23:40:40] [CMD] browseros-cli eval (function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = "An ultra-realistic, highly detailed a massive, folded Chinese street crepe brushed with sweet hoisin and spicy chili sauce, filled with a crispy wonton cracker, egg, and scallions. Aspect ratio 9:16 portrait"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()
-[2026-05-09 23:40:40] [EXIT] 0
-[2026-05-09 23:40:40] [OUT] ---
+[2026-05-10 05:30:47] [CMD] browseros-cli eval (function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = "An ultra-realistic, highly detailed highly detailed cacio e pepe pasta in a deep bowl, glossy pecorino romano sauce clinging to spaghetti, cracked black pepper, steam rising. Aspect ratio 9:16 portrait"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()
+[2026-05-10 05:30:47] [EXIT] 0
+[2026-05-10 05:30:47] [OUT] ---
 {"success":true}
-[2026-05-09 23:40:40] [OUT] ---
-[2026-05-09 23:40:40] [DEBUG] bos_eval: exit=0 output='{"success":true}'
-[2026-05-09 23:40:40] [DEBUG] bos_type_text: eval output='{"success":true}'
-[2026-05-09 23:40:40] [DEBUG] phase_3: type_text exit=0
-[2026-05-09 23:40:41] [INFO] Submitting prompt...
+[2026-05-10 05:30:47] [OUT] ---
+[2026-05-10 05:30:47] [DEBUG] bos_eval: exit=0 output='{"success":true}'
+[2026-05-10 05:30:47] [DEBUG] bos_type_text: eval output='{"success":true}'
+[2026-05-10 05:30:47] [DEBUG] phase_3: type_text exit=0
+[2026-05-10 05:30:48] [INFO] Submitting prompt...
 
-[2026-05-09 23:40:42] [CMD] browseros-cli key Enter
-[2026-05-09 23:40:42] [EXIT] 0
-[2026-05-09 23:40:42] [OUT] ---
+[2026-05-10 05:30:50] [CMD] browseros-cli key Enter
+[2026-05-10 05:30:50] [EXIT] 0
+[2026-05-10 05:30:50] [OUT] ---
 Pressed Enter
-[2026-05-09 23:40:42] [OUT] ---
+[2026-05-10 05:30:50] [OUT] ---
 Pressed Enter
-[2026-05-09 23:40:42] [DEBUG] phase_3: key Enter exit=0
-[2026-05-09 23:40:42] [INFO] Waiting for image generation (max_wait=120s, poll=5s)...
-[2026-05-09 23:40:42] [DEBUG] phase_3: polling image gen, elapsed=0s
-[2026-05-09 23:40:42] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
-[2026-05-09 23:40:42] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
-[2026-05-09 23:40:42] [DEBUG] bos_eval: js='(function() {
+[2026-05-10 05:30:50] [DEBUG] phase_3: key Enter exit=0
+[2026-05-10 05:30:50] [INFO] Waiting for image generation (max_wait=120s, poll=5s)...
+[2026-05-10 05:30:50] [DEBUG] phase_3: polling image gen, elapsed=0s
+[2026-05-10 05:30:50] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:30:50] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:30:50] [DEBUG] bos_eval: js='(function() {
     var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({fou'
 
-[2026-05-09 23:40:43] [CMD] browseros-cli eval (function() {
+[2026-05-10 05:30:51] [CMD] browseros-cli eval (function() {
     var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -150,135 +150,35 @@ Pressed Enter
         height: rect.height
     });
 })()
-[2026-05-09 23:40:43] [EXIT] 0
-[2026-05-09 23:40:43] [OUT] ---
-{"found":true,"x":214,"y":375,"width":290,"height":516}
-[2026-05-09 23:40:43] [OUT] ---
-[2026-05-09 23:40:43] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
-[2026-05-09 23:40:43] [DEBUG] bos_find_element_coords: output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
-[2026-05-09 23:40:43] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
-[2026-05-09 23:40:43] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":375}
-[2026-05-09 23:40:43] [INFO] Image generated successfully (selector found)
-[2026-05-09 23:40:43] [DEBUG] phase_3: poll loop ended, img_ready=1 elapsed=0s
-[2026-05-09 23:40:43] [INFO] ========================================
-[2026-05-09 23:40:43] [INFO]   Phase 4: Video Generation
-[2026-05-09 23:40:43] [INFO] ========================================
-[2026-05-09 23:40:43] [INFO] Checking for image preference dialog (max_wait=15s)...
-[2026-05-09 23:40:43] [DEBUG] phase_4: polling image preference dialog, elapsed=0s
-[2026-05-09 23:40:43] [DEBUG] bos_handle_image_preference: starting
-[2026-05-09 23:40:43] [DEBUG] bos_check_image_preference: checking for image preference dialog...
-[2026-05-09 23:40:43] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+[2026-05-10 05:30:51] [EXIT] 0
+[2026-05-10 05:30:51] [OUT] ---
+{"found":false}
+[2026-05-10 05:30:51] [OUT] ---
+[2026-05-10 05:30:51] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:30:51] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:30:51] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:30:51] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:30:53] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:30:53] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:30:53] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
 
-[2026-05-09 23:40:44] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:40:44] [EXIT] 0
-[2026-05-09 23:40:44] [OUT] ---
+[2026-05-10 05:30:54] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:30:54] [EXIT] 0
+[2026-05-10 05:30:54] [OUT] ---
 
-[2026-05-09 23:40:44] [OUT] ---
-[2026-05-09 23:40:44] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:40:44] [DEBUG] bos_check_image_preference: heading_text=''
-[2026-05-09 23:40:45] [DEBUG] bos_check_image_preference: dialog NOT detected
-[2026-05-09 23:40:45] [DEBUG] bos_handle_image_preference: no dialog present
-[2026-05-09 23:40:45] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-09 23:40:47] [DEBUG] phase_4: polling image preference dialog, elapsed=2s
-[2026-05-09 23:40:47] [DEBUG] bos_handle_image_preference: starting
-[2026-05-09 23:40:47] [DEBUG] bos_check_image_preference: checking for image preference dialog...
-[2026-05-09 23:40:47] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:40:48] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:40:48] [EXIT] 0
-[2026-05-09 23:40:48] [OUT] ---
-
-[2026-05-09 23:40:48] [OUT] ---
-[2026-05-09 23:40:48] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:40:48] [DEBUG] bos_check_image_preference: heading_text=''
-[2026-05-09 23:40:48] [DEBUG] bos_check_image_preference: dialog NOT detected
-[2026-05-09 23:40:48] [DEBUG] bos_handle_image_preference: no dialog present
-[2026-05-09 23:40:48] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-09 23:40:50] [DEBUG] phase_4: polling image preference dialog, elapsed=4s
-[2026-05-09 23:40:50] [DEBUG] bos_handle_image_preference: starting
-[2026-05-09 23:40:50] [DEBUG] bos_check_image_preference: checking for image preference dialog...
-[2026-05-09 23:40:50] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:40:51] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:40:51] [EXIT] 0
-[2026-05-09 23:40:51] [OUT] ---
-
-[2026-05-09 23:40:51] [OUT] ---
-[2026-05-09 23:40:51] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:40:51] [DEBUG] bos_check_image_preference: heading_text=''
-[2026-05-09 23:40:51] [DEBUG] bos_check_image_preference: dialog NOT detected
-[2026-05-09 23:40:51] [DEBUG] bos_handle_image_preference: no dialog present
-[2026-05-09 23:40:51] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-09 23:40:53] [DEBUG] phase_4: polling image preference dialog, elapsed=6s
-[2026-05-09 23:40:53] [DEBUG] bos_handle_image_preference: starting
-[2026-05-09 23:40:53] [DEBUG] bos_check_image_preference: checking for image preference dialog...
-[2026-05-09 23:40:53] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:40:54] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:40:54] [EXIT] 0
-[2026-05-09 23:40:54] [OUT] ---
-Which image do you prefer to keep?
-[2026-05-09 23:40:54] [OUT] ---
-[2026-05-09 23:40:54] [DEBUG] bos_eval: exit=0 output='Which image do you prefer to keep?'
-[2026-05-09 23:40:54] [DEBUG] bos_check_image_preference: heading_text='Which image do you prefer to keep?'
-[2026-05-09 23:40:54] [DEBUG] bos_check_image_preference: dialog DETECTED
-[2026-05-09 23:40:54] [INFO] Image preference dialog detected, looking for Skip button...
-[2026-05-09 23:40:54] [DEBUG] bos_get_snap_ref: searching for pattern='Skip'
-[2026-05-09 23:40:54] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:40:55] [CMD] browseros-cli snap 
-[2026-05-09 23:40:55] [EXIT] 0
-[2026-05-09 23:40:55] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[17580] button "Back"
-[19251] button "Save"
-[19255] button "Make video"
-[19271] button "Save"
-[19275] button "Make video"
-[19291] button "Save"
-[19295] button "Make video"
-[19311] button "Save"
-[19315] button "Make video"
-[19360] button "Skip"
-[19236] clickable "An ultra-realistic, highly detailed a massive, folded Chinese street crepe brushed with sweet hoisin"
-[19373] clickable "Which image do you prefer to keep?Your feedback will help us improve the quality of our images. Skip"
-[2026-05-09 23:40:55] [OUT] ---
-[2026-05-09 23:40:55] [DEBUG] bos_snap: lines=20
-[2026-05-09 23:40:55] [DEBUG] bos_get_snap_ref: bos_snap exit=0, lines=20
-[2026-05-09 23:40:55] [DEBUG] bos_get_snap_ref: grep matches for 'Skip': 2 lines
-[2026-05-09 23:40:55] [DEBUG] bos_get_snap_ref: match lines: [19360] button "Skip"
-[19373] clickable "Which image do you prefer to keep?Your feedback will help us improve the quality of our images. Skip"
-[2026-05-09 23:40:55] [DEBUG] bos_get_snap_ref: extracted ref='19360' from pattern='Skip'
-[2026-05-09 23:40:55] [DEBUG] bos_handle_image_preference: skip_ref='19360'
-[2026-05-09 23:40:55] [INFO] Skip button found: ref 19360, clicking...
-[2026-05-09 23:40:55] [DEBUG] bos_click: ref=19360
-
-[2026-05-09 23:40:56] [CMD] browseros-cli click 19360
-[2026-05-09 23:40:56] [EXIT] 0
-[2026-05-09 23:40:56] [OUT] ---
-Clicked [19360] at (664, 117)
-[2026-05-09 23:40:56] [OUT] ---
-Clicked [19360] at (664, 117)
-[2026-05-09 23:40:58] [DEBUG] bos_handle_image_preference: dialog dismissed
-[2026-05-09 23:40:58] [DEBUG] phase_4: handle_image_preference exit=0
-[2026-05-09 23:40:58] [INFO] Image preference dialog handled successfully
-[2026-05-09 23:40:58] [DEBUG] phase_4: image preference dialog loop ended, handled=1 elapsed=6s
-[2026-05-09 23:40:58] [INFO] Opening image detail page...
-[2026-05-09 23:40:58] [INFO] Clicking generated image to open detail page...
-[2026-05-09 23:40:58] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=30s
-[2026-05-09 23:40:58] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
-[2026-05-09 23:40:58] [DEBUG] bos_eval: js='(function() {
+[2026-05-10 05:30:54] [OUT] ---
+[2026-05-10 05:30:54] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:30:54] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:30:54] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:30:59] [DEBUG] Elapsed: 5s
+[2026-05-10 05:30:59] [DEBUG] phase_3: polling image gen, elapsed=5s
+[2026-05-10 05:30:59] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:30:59] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:30:59] [DEBUG] bos_eval: js='(function() {
     var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({fou'
 
-[2026-05-09 23:40:59] [CMD] browseros-cli eval (function() {
+[2026-05-10 05:31:00] [CMD] browseros-cli eval (function() {
     var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -290,33 +190,36 @@ Clicked [19360] at (664, 117)
         height: rect.height
     });
 })()
-[2026-05-09 23:40:59] [EXIT] 0
-[2026-05-09 23:40:59] [OUT] ---
-{"found":true,"x":214,"y":375,"width":290,"height":516}
-[2026-05-09 23:40:59] [OUT] ---
-[2026-05-09 23:40:59] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
-[2026-05-09 23:40:59] [DEBUG] bos_find_element_coords: output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
-[2026-05-09 23:40:59] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
-[2026-05-09 23:40:59] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":375}
-[2026-05-09 23:40:59] [DEBUG] phase_4: find_element SELECTOR_IMAGE exit=0
-[2026-05-09 23:40:59] [INFO] Clicking on generated image at (214, 375)...
-[2026-05-09 23:40:59] [DEBUG] bos_click_at: x=214 y=375
+[2026-05-10 05:31:00] [EXIT] 0
+[2026-05-10 05:31:00] [OUT] ---
+{"found":false}
+[2026-05-10 05:31:00] [OUT] ---
+[2026-05-10 05:31:00] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:31:00] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:31:00] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:31:00] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:31:03] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:31:03] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:31:03] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
 
-[2026-05-09 23:41:00] [CMD] browseros-cli click-at 214 375
-[2026-05-09 23:41:00] [EXIT] 0
-[2026-05-09 23:41:00] [OUT] ---
-Clicked at (214, 375)
-[2026-05-09 23:41:00] [OUT] ---
-Clicked at (214, 375)
-[2026-05-09 23:41:02] [INFO] Looking for Make video button... selector='[aria-label="Make video"]'
-[2026-05-09 23:41:02] [DEBUG] bos_find_element: selector='[aria-label="Make video"]' timeout=30s
-[2026-05-09 23:41:02] [DEBUG] bos_find_element_coords: selector='[aria-label="Make video"]'
-[2026-05-09 23:41:02] [DEBUG] bos_eval: js='(function() {
-    var el = document.querySelector('[aria-label="Make video"]');
-    if (!el) return JSON.stringify({foun'
+[2026-05-10 05:31:04] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:31:04] [EXIT] 0
+[2026-05-10 05:31:04] [OUT] ---
 
-[2026-05-09 23:41:03] [CMD] browseros-cli eval (function() {
-    var el = document.querySelector('[aria-label="Make video"]');
+[2026-05-10 05:31:04] [OUT] ---
+[2026-05-10 05:31:04] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:31:04] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:31:04] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:31:09] [DEBUG] Elapsed: 10s
+[2026-05-10 05:31:09] [DEBUG] phase_3: polling image gen, elapsed=10s
+[2026-05-10 05:31:09] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:31:09] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:31:09] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:31:10] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
     return JSON.stringify({
@@ -327,638 +230,898 @@ Clicked at (214, 375)
         height: rect.height
     });
 })()
-[2026-05-09 23:41:03] [EXIT] 0
-[2026-05-09 23:41:03] [OUT] ---
-{"found":true,"x":584.87890625,"y":576.5,"width":133.7578125,"height":40}
-[2026-05-09 23:41:03] [OUT] ---
-[2026-05-09 23:41:03] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":584.87890625,"y":576.5,"width":133.7578125,"height":40}'
-[2026-05-09 23:41:03] [DEBUG] bos_find_element_coords: output='{"found":true,"x":584.87890625,"y":576.5,"width":133.7578125,"height":40}'
-[2026-05-09 23:41:03] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":584.87890625,"y":576.5,"width":133.7578125,"height":40}'
-[2026-05-09 23:41:03] [INFO] Element found: selector='[aria-label="Make video"]' coords={"x":584.87890625,"y":576.5}
-[2026-05-09 23:41:03] [DEBUG] phase_4: find_element SELECTOR_MAKE_VIDEO exit=0
-[2026-05-09 23:41:03] [INFO] Make video button found at (584.87890625, 576.5), clicking...
-[2026-05-09 23:41:03] [DEBUG] bos_click_at: x=584.87890625 y=576.5
+[2026-05-10 05:31:10] [EXIT] 0
+[2026-05-10 05:31:10] [OUT] ---
+{"found":false}
+[2026-05-10 05:31:10] [OUT] ---
+[2026-05-10 05:31:10] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:31:10] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:31:10] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:31:10] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:31:12] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:31:12] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:31:12] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
 
-[2026-05-09 23:41:04] [CMD] browseros-cli click-at 584.87890625 576.5
-[2026-05-09 23:41:04] [EXIT] 0
-[2026-05-09 23:41:04] [OUT] ---
-Clicked at (584, 576)
-[2026-05-09 23:41:04] [OUT] ---
-Clicked at (584, 576)
-[2026-05-09 23:41:04] [INFO] Video generation triggered
-[2026-05-09 23:41:07] [INFO] ========================================
-[2026-05-09 23:41:07] [INFO]   Phase 5: Monitoring & Validation
-[2026-05-09 23:41:07] [INFO] ========================================
-[2026-05-09 23:41:07] [INFO] Polling for video completion (max 150s, interval=10s)...
-[2026-05-09 23:41:07] [DEBUG] phase_5: poll iteration elapsed=0s
-[2026-05-09 23:41:07] [DEBUG] bos_text: fetching page text
+[2026-05-10 05:31:13] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:31:13] [EXIT] 0
+[2026-05-10 05:31:13] [OUT] ---
 
-[2026-05-09 23:41:08] [CMD] browseros-cli text 
-[2026-05-09 23:41:08] [EXIT] 0
-[2026-05-09 23:41:08] [OUT] ---
-Generating6%720p
+[2026-05-10 05:31:13] [OUT] ---
+[2026-05-10 05:31:13] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:31:13] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:31:13] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:31:18] [DEBUG] Elapsed: 15s
+[2026-05-10 05:31:18] [DEBUG] phase_3: polling image gen, elapsed=15s
+[2026-05-10 05:31:18] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:31:18] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:31:18] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:31:20] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:31:20] [EXIT] 0
+[2026-05-10 05:31:20] [OUT] ---
+{"found":false}
+[2026-05-10 05:31:20] [OUT] ---
+[2026-05-10 05:31:20] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:31:20] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:31:20] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:31:20] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:31:22] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:31:22] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:31:22] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:31:23] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:31:23] [EXIT] 0
+[2026-05-10 05:31:23] [OUT] ---
+
+[2026-05-10 05:31:23] [OUT] ---
+[2026-05-10 05:31:23] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:31:23] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:31:23] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:31:29] [DEBUG] Elapsed: 20s
+[2026-05-10 05:31:29] [DEBUG] phase_3: polling image gen, elapsed=20s
+[2026-05-10 05:31:29] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:31:29] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:31:29] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:31:30] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:31:30] [EXIT] 0
+[2026-05-10 05:31:30] [OUT] ---
+{"found":false}
+[2026-05-10 05:31:30] [OUT] ---
+[2026-05-10 05:31:30] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:31:30] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:31:30] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:31:30] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:31:32] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:31:32] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:31:32] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:31:33] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:31:33] [EXIT] 0
+[2026-05-10 05:31:33] [OUT] ---
+
+[2026-05-10 05:31:33] [OUT] ---
+[2026-05-10 05:31:33] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:31:33] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:31:33] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:31:38] [DEBUG] Elapsed: 25s
+[2026-05-10 05:31:38] [DEBUG] phase_3: polling image gen, elapsed=25s
+[2026-05-10 05:31:38] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:31:38] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:31:38] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:31:39] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:31:39] [EXIT] 0
+[2026-05-10 05:31:39] [OUT] ---
+{"found":false}
+[2026-05-10 05:31:39] [OUT] ---
+[2026-05-10 05:31:39] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:31:39] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:31:39] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:31:39] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:31:42] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:31:42] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:31:42] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:31:43] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:31:43] [EXIT] 0
+[2026-05-10 05:31:43] [OUT] ---
+
+[2026-05-10 05:31:43] [OUT] ---
+[2026-05-10 05:31:43] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:31:43] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:31:43] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:31:48] [DEBUG] Elapsed: 30s
+[2026-05-10 05:31:48] [DEBUG] phase_3: polling image gen, elapsed=30s
+[2026-05-10 05:31:48] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:31:48] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:31:48] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:31:49] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:31:49] [EXIT] 0
+[2026-05-10 05:31:49] [OUT] ---
+{"found":false}
+[2026-05-10 05:31:49] [OUT] ---
+[2026-05-10 05:31:49] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:31:49] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:31:49] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:31:49] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:31:51] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:31:51] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:31:51] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:31:52] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:31:52] [EXIT] 0
+[2026-05-10 05:31:52] [OUT] ---
+
+[2026-05-10 05:31:52] [OUT] ---
+[2026-05-10 05:31:52] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:31:52] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:31:52] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:31:57] [DEBUG] Elapsed: 35s
+[2026-05-10 05:31:57] [DEBUG] phase_3: polling image gen, elapsed=35s
+[2026-05-10 05:31:57] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:31:57] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:31:57] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:31:58] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:31:58] [EXIT] 0
+[2026-05-10 05:31:58] [OUT] ---
+{"found":false}
+[2026-05-10 05:31:58] [OUT] ---
+[2026-05-10 05:31:58] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:31:58] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:31:58] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:31:58] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:32:00] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:32:00] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:32:00] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:32:01] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:32:01] [EXIT] 0
+[2026-05-10 05:32:01] [OUT] ---
+
+[2026-05-10 05:32:01] [OUT] ---
+[2026-05-10 05:32:01] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:32:01] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:32:01] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:32:07] [DEBUG] Elapsed: 40s
+[2026-05-10 05:32:07] [DEBUG] phase_3: polling image gen, elapsed=40s
+[2026-05-10 05:32:07] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:32:07] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:32:07] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:32:08] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:32:08] [EXIT] 0
+[2026-05-10 05:32:08] [OUT] ---
+{"found":false}
+[2026-05-10 05:32:08] [OUT] ---
+[2026-05-10 05:32:08] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:32:08] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:32:08] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:32:08] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:32:10] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:32:10] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:32:10] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:32:11] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:32:11] [EXIT] 0
+[2026-05-10 05:32:11] [OUT] ---
+
+[2026-05-10 05:32:11] [OUT] ---
+[2026-05-10 05:32:11] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:32:11] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:32:11] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:32:16] [DEBUG] Elapsed: 45s
+[2026-05-10 05:32:16] [DEBUG] phase_3: polling image gen, elapsed=45s
+[2026-05-10 05:32:16] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:32:16] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:32:16] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:32:17] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:32:17] [EXIT] 0
+[2026-05-10 05:32:17] [OUT] ---
+{"found":false}
+[2026-05-10 05:32:17] [OUT] ---
+[2026-05-10 05:32:17] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:32:17] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:32:17] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:32:17] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:32:19] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:32:19] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:32:19] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:32:20] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:32:20] [EXIT] 0
+[2026-05-10 05:32:20] [OUT] ---
+
+[2026-05-10 05:32:20] [OUT] ---
+[2026-05-10 05:32:20] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:32:20] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:32:20] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:32:25] [DEBUG] Elapsed: 50s
+[2026-05-10 05:32:25] [DEBUG] phase_3: polling image gen, elapsed=50s
+[2026-05-10 05:32:25] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:32:25] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:32:25] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:32:26] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:32:26] [EXIT] 0
+[2026-05-10 05:32:26] [OUT] ---
+{"found":false}
+[2026-05-10 05:32:26] [OUT] ---
+[2026-05-10 05:32:26] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:32:26] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:32:26] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:32:26] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:32:28] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:32:28] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:32:28] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:32:29] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:32:29] [EXIT] 0
+[2026-05-10 05:32:29] [OUT] ---
+
+[2026-05-10 05:32:29] [OUT] ---
+[2026-05-10 05:32:29] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:32:29] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:32:29] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:32:34] [DEBUG] Elapsed: 55s
+[2026-05-10 05:32:34] [DEBUG] phase_3: polling image gen, elapsed=55s
+[2026-05-10 05:32:34] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:32:34] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:32:34] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:32:36] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:32:36] [EXIT] 0
+[2026-05-10 05:32:36] [OUT] ---
+{"found":false}
+[2026-05-10 05:32:36] [OUT] ---
+[2026-05-10 05:32:36] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:32:36] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:32:36] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:32:36] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:32:39] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:32:39] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:32:39] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:32:40] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:32:40] [EXIT] 0
+[2026-05-10 05:32:40] [OUT] ---
+
+[2026-05-10 05:32:40] [OUT] ---
+[2026-05-10 05:32:40] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:32:40] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:32:40] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:32:45] [DEBUG] Elapsed: 60s
+[2026-05-10 05:32:45] [DEBUG] phase_3: polling image gen, elapsed=60s
+[2026-05-10 05:32:45] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:32:45] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:32:45] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:32:46] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:32:46] [EXIT] 0
+[2026-05-10 05:32:46] [OUT] ---
+{"found":false}
+[2026-05-10 05:32:46] [OUT] ---
+[2026-05-10 05:32:46] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:32:46] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:32:46] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:32:46] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:32:48] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:32:48] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:32:48] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:32:50] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:32:50] [EXIT] 0
+[2026-05-10 05:32:50] [OUT] ---
+
+[2026-05-10 05:32:50] [OUT] ---
+[2026-05-10 05:32:50] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:32:50] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:32:50] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:32:55] [DEBUG] Elapsed: 65s
+[2026-05-10 05:32:55] [DEBUG] phase_3: polling image gen, elapsed=65s
+[2026-05-10 05:32:55] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:32:55] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:32:55] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:32:56] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:32:56] [EXIT] 0
+[2026-05-10 05:32:56] [OUT] ---
+{"found":false}
+[2026-05-10 05:32:56] [OUT] ---
+[2026-05-10 05:32:56] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:32:56] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:32:56] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:32:56] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:32:59] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:32:59] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:32:59] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:33:00] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:33:00] [EXIT] 0
+[2026-05-10 05:33:00] [OUT] ---
+
+[2026-05-10 05:33:00] [OUT] ---
+[2026-05-10 05:33:00] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:33:00] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:33:00] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:33:06] [DEBUG] Elapsed: 70s
+[2026-05-10 05:33:06] [DEBUG] phase_3: polling image gen, elapsed=70s
+[2026-05-10 05:33:06] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:33:06] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:33:06] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:33:07] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:33:07] [EXIT] 0
+[2026-05-10 05:33:07] [OUT] ---
+{"found":false}
+[2026-05-10 05:33:07] [OUT] ---
+[2026-05-10 05:33:07] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:33:07] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:33:07] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:33:07] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:33:09] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:33:09] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:33:09] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:33:12] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:33:12] [EXIT] 0
+[2026-05-10 05:33:12] [OUT] ---
+
+[2026-05-10 05:33:12] [OUT] ---
+[2026-05-10 05:33:12] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:33:12] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:33:12] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:33:17] [DEBUG] Elapsed: 75s
+[2026-05-10 05:33:17] [DEBUG] phase_3: polling image gen, elapsed=75s
+[2026-05-10 05:33:17] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:33:17] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:33:17] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:33:18] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:33:18] [EXIT] 0
+[2026-05-10 05:33:18] [OUT] ---
+{"found":false}
+[2026-05-10 05:33:18] [OUT] ---
+[2026-05-10 05:33:18] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:33:18] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:33:18] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:33:18] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:33:20] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:33:20] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:33:20] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:33:22] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:33:22] [EXIT] 0
+[2026-05-10 05:33:22] [OUT] ---
+
+[2026-05-10 05:33:22] [OUT] ---
+[2026-05-10 05:33:22] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:33:22] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:33:22] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:33:27] [DEBUG] Elapsed: 80s
+[2026-05-10 05:33:27] [DEBUG] phase_3: polling image gen, elapsed=80s
+[2026-05-10 05:33:27] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:33:27] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:33:27] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:33:28] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:33:28] [EXIT] 0
+[2026-05-10 05:33:28] [OUT] ---
+{"found":false}
+[2026-05-10 05:33:28] [OUT] ---
+[2026-05-10 05:33:28] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:33:28] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:33:28] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:33:28] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:33:30] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:33:30] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:33:31] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:33:32] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:33:32] [EXIT] 0
+[2026-05-10 05:33:32] [OUT] ---
+
+[2026-05-10 05:33:32] [OUT] ---
+[2026-05-10 05:33:32] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:33:32] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:33:32] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:33:38] [DEBUG] Elapsed: 85s
+[2026-05-10 05:33:38] [DEBUG] phase_3: polling image gen, elapsed=85s
+[2026-05-10 05:33:38] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:33:38] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:33:38] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:33:41] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:33:41] [EXIT] 0
+[2026-05-10 05:33:41] [OUT] ---
+{"found":false}
+posthog 2026/05/10 05:33:41 WARN: shutdown timeout exceeded, some messages may be lost
+posthog 2026/05/10 05:33:41 WARN: shutdown timeout: 1 batches still in flight
+[2026-05-10 05:33:41] [OUT] ---
+[2026-05-10 05:33:41] [DEBUG] bos_eval: exit=0 output='{"found":false}
+posthog 2026/05/10 05:33:41 WARN: shutdown timeout exceeded, some messages may be lost
+posthog 2026/05/1'
+[2026-05-10 05:33:41] [DEBUG] bos_find_element_coords: output='{"found":false}
+posthog 2026/05/10 05:33:41 WARN: shutdown timeout exceeded, some messages may be lost
+posthog 2026/05/1'
+[2026-05-10 05:33:41] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}
+posthog 2026/05/10 05:33:41 WARN: shutdown timeout exceeded, some messages may be lost
+posthog 2026/05/1'
+[2026-05-10 05:33:41] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:33:43] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:33:43] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:33:43] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:33:44] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:33:44] [EXIT] 0
+[2026-05-10 05:33:44] [OUT] ---
+
+[2026-05-10 05:33:44] [OUT] ---
+[2026-05-10 05:33:44] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:33:44] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:33:44] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:33:49] [DEBUG] Elapsed: 90s
+[2026-05-10 05:33:49] [DEBUG] phase_3: polling image gen, elapsed=90s
+[2026-05-10 05:33:49] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:33:49] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:33:49] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:33:50] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:33:50] [EXIT] 0
+[2026-05-10 05:33:50] [OUT] ---
+{"found":false}
+[2026-05-10 05:33:50] [OUT] ---
+[2026-05-10 05:33:50] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:33:50] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:33:50] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:33:50] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:33:52] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:33:52] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:33:52] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:33:53] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:33:53] [EXIT] 0
+[2026-05-10 05:33:53] [OUT] ---
+
+[2026-05-10 05:33:53] [OUT] ---
+[2026-05-10 05:33:53] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:33:53] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:33:53] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:33:58] [DEBUG] Elapsed: 95s
+[2026-05-10 05:33:58] [DEBUG] phase_3: polling image gen, elapsed=95s
+[2026-05-10 05:33:58] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:33:58] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:33:58] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:33:59] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:33:59] [EXIT] 0
+[2026-05-10 05:33:59] [OUT] ---
+{"found":false}
+[2026-05-10 05:33:59] [OUT] ---
+[2026-05-10 05:33:59] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:33:59] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:33:59] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:33:59] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:34:01] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:34:01] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:34:01] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:34:02] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:34:02] [EXIT] 0
+[2026-05-10 05:34:02] [OUT] ---
+
+[2026-05-10 05:34:02] [OUT] ---
+[2026-05-10 05:34:02] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:34:02] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:34:02] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:34:07] [DEBUG] Elapsed: 100s
+[2026-05-10 05:34:07] [DEBUG] phase_3: polling image gen, elapsed=100s
+[2026-05-10 05:34:07] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:34:07] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:34:07] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:34:09] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:34:09] [EXIT] 0
+[2026-05-10 05:34:09] [OUT] ---
+{"found":false}
+[2026-05-10 05:34:09] [OUT] ---
+[2026-05-10 05:34:09] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:34:09] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:34:09] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:34:09] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:34:11] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:34:11] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:34:11] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:34:12] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:34:12] [EXIT] 0
+[2026-05-10 05:34:12] [OUT] ---
+
+[2026-05-10 05:34:12] [OUT] ---
+[2026-05-10 05:34:12] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:34:12] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:34:12] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:34:17] [DEBUG] Elapsed: 105s
+[2026-05-10 05:34:17] [DEBUG] phase_3: polling image gen, elapsed=105s
+[2026-05-10 05:34:17] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:34:17] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:34:17] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:34:18] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:34:18] [EXIT] 0
+[2026-05-10 05:34:18] [OUT] ---
+{"found":false}
+[2026-05-10 05:34:18] [OUT] ---
+[2026-05-10 05:34:18] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:34:18] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:34:18] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:34:18] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:34:20] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:34:20] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:34:20] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:34:21] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:34:21] [EXIT] 0
+[2026-05-10 05:34:21] [OUT] ---
+
+[2026-05-10 05:34:21] [OUT] ---
+[2026-05-10 05:34:22] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:34:22] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:34:22] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:34:27] [DEBUG] Elapsed: 110s
+[2026-05-10 05:34:27] [DEBUG] phase_3: polling image gen, elapsed=110s
+[2026-05-10 05:34:27] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:34:27] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:34:27] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:34:28] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:34:28] [EXIT] 0
+[2026-05-10 05:34:28] [OUT] ---
+{"found":false}
+[2026-05-10 05:34:28] [OUT] ---
+[2026-05-10 05:34:28] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:34:28] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:34:28] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:34:28] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:34:30] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:34:30] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:34:30] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:34:31] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:34:31] [EXIT] 0
+[2026-05-10 05:34:31] [OUT] ---
+
+[2026-05-10 05:34:31] [OUT] ---
+[2026-05-10 05:34:31] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:34:31] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:34:31] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:34:36] [DEBUG] Elapsed: 115s
+[2026-05-10 05:34:36] [DEBUG] phase_3: polling image gen, elapsed=115s
+[2026-05-10 05:34:36] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-10 05:34:36] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-10 05:34:36] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-10 05:34:37] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-10 05:34:37] [EXIT] 0
+[2026-05-10 05:34:37] [OUT] ---
+{"found":false}
+[2026-05-10 05:34:37] [OUT] ---
+[2026-05-10 05:34:37] [DEBUG] bos_eval: exit=0 output='{"found":false}'
+[2026-05-10 05:34:37] [DEBUG] bos_find_element_coords: output='{"found":false}'
+[2026-05-10 05:34:37] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":false}'
+[2026-05-10 05:34:37] [DEBUG] bos_find_element: found=false, retrying...
+[2026-05-10 05:34:39] [WARN] Element not found: img[alt="Generated image"] (timeout 1s)
+[2026-05-10 05:34:39] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-10 05:34:39] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-10 05:34:40] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-10 05:34:40] [EXIT] 0
+[2026-05-10 05:34:40] [OUT] ---
+
+[2026-05-10 05:34:40] [OUT] ---
+[2026-05-10 05:34:40] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-10 05:34:40] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-10 05:34:40] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-10 05:34:45] [DEBUG] Elapsed: 120s
+[2026-05-10 05:34:45] [DEBUG] phase_3: poll loop ended, img_ready=0 elapsed=120s
+[2026-05-10 05:34:45] [DEBUG] bos_text: fetching page text
+
+[2026-05-10 05:34:47] [CMD] browseros-cli text 
+[2026-05-10 05:34:47] [EXIT] 0
+[2026-05-10 05:34:47] [OUT] ---
+# Featured Templates
+
+An ultra-realistic, highly detailed highly detailed cacio e pepe pasta in a deep bowl, glossy pecorino romano sauce clinging to spaghetti, cracked black pepper, steam rising. Aspect ratio 9:16 portrait
 
 ## Upgrade to SuperGrok
-[2026-05-09 23:41:08] [OUT] ---
-[2026-05-09 23:41:08] [DEBUG] bos_text: lines=3
-[2026-05-09 23:41:08] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:41:08] [DEBUG] bos_snap: taking snapshot
+[2026-05-10 05:34:47] [OUT] ---
+[2026-05-10 05:34:47] [DEBUG] bos_text: lines=5
+[2026-05-10 05:34:47] [DEBUG] phase_3: page_text length=248
+[2026-05-10 05:34:47] [DEBUG] bos_get_page_url: evaluating window.location.href
+[2026-05-10 05:34:47] [DEBUG] bos_eval: js='window.location.href'
 
-[2026-05-09 23:41:09] [CMD] browseros-cli snap 
-[2026-05-09 23:41:09] [EXIT] 0
-[2026-05-09 23:41:09] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "8%"
-[19738] button "Cancel"
-[19581] button "Unsave" (disabled)
-[19582] button "Compose Post" (disabled)
-[19584] button "Download" (disabled)
-[19585] button "Create share link" (disabled)
-[19586] button "More options" (disabled, collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19522] clickable "8%"
-[19558] clickable "Generating8%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
-[2026-05-09 23:41:09] [OUT] ---
-[2026-05-09 23:41:09] [DEBUG] bos_snap: lines=22
-[2026-05-09 23:41:09] [DEBUG] phase_5: snapshot lines=22
-[2026-05-09 23:41:09] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:41:09] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:41:10] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:41:10] [EXIT] 0
-[2026-05-09 23:41:10] [OUT] ---
-
-[2026-05-09 23:41:10] [OUT] ---
-[2026-05-09 23:41:10] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:41:10] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:41:10] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:41:10] [INFO] Still generating... 6%
-[2026-05-09 23:41:20] [DEBUG] Elapsed: 10s
-[2026-05-09 23:41:20] [DEBUG] phase_5: poll iteration elapsed=10s
-[2026-05-09 23:41:20] [DEBUG] bos_text: fetching page text
-
-[2026-05-09 23:41:21] [CMD] browseros-cli text 
-[2026-05-09 23:41:21] [EXIT] 0
-[2026-05-09 23:41:21] [OUT] ---
-Generating20%720p
-
-## Upgrade to SuperGrok
-[2026-05-09 23:41:21] [OUT] ---
-[2026-05-09 23:41:21] [DEBUG] bos_text: lines=3
-[2026-05-09 23:41:21] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:41:21] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:41:23] [CMD] browseros-cli snap 
-[2026-05-09 23:41:23] [EXIT] 0
-[2026-05-09 23:41:23] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "27%"
-[19738] button "Cancel"
-[19581] button "Unsave" (disabled)
-[19582] button "Compose Post" (disabled)
-[19584] button "Download" (disabled)
-[19585] button "Create share link" (disabled)
-[19586] button "More options" (disabled, collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19522] clickable "27%"
-[19558] clickable "Generating27%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
-[2026-05-09 23:41:23] [OUT] ---
-[2026-05-09 23:41:23] [DEBUG] bos_snap: lines=22
-[2026-05-09 23:41:23] [DEBUG] phase_5: snapshot lines=22
-[2026-05-09 23:41:23] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:41:23] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:41:24] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:41:24] [EXIT] 0
-[2026-05-09 23:41:24] [OUT] ---
-
-[2026-05-09 23:41:24] [OUT] ---
-[2026-05-09 23:41:24] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:41:24] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:41:24] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:41:24] [INFO] Still generating... 20%
-[2026-05-09 23:41:34] [DEBUG] Elapsed: 20s
-[2026-05-09 23:41:34] [DEBUG] phase_5: poll iteration elapsed=20s
-[2026-05-09 23:41:34] [DEBUG] bos_text: fetching page text
-
-[2026-05-09 23:41:35] [CMD] browseros-cli text 
-[2026-05-09 23:41:35] [EXIT] 0
-[2026-05-09 23:41:35] [OUT] ---
-Generating32%720p
-
-## Upgrade to SuperGrok
-[2026-05-09 23:41:35] [OUT] ---
-[2026-05-09 23:41:35] [DEBUG] bos_text: lines=3
-[2026-05-09 23:41:35] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:41:35] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:41:36] [CMD] browseros-cli snap 
-[2026-05-09 23:41:36] [EXIT] 0
-[2026-05-09 23:41:36] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "33%"
-[19738] button "Cancel"
-[19581] button "Unsave" (disabled)
-[19582] button "Compose Post" (disabled)
-[19584] button "Download" (disabled)
-[19585] button "Create share link" (disabled)
-[19586] button "More options" (disabled, collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19522] clickable "33%"
-[19558] clickable "Generating33%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
-[2026-05-09 23:41:36] [OUT] ---
-[2026-05-09 23:41:36] [DEBUG] bos_snap: lines=22
-[2026-05-09 23:41:36] [DEBUG] phase_5: snapshot lines=22
-[2026-05-09 23:41:36] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:41:36] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:41:37] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:41:37] [EXIT] 0
-[2026-05-09 23:41:37] [OUT] ---
-
-[2026-05-09 23:41:37] [OUT] ---
-[2026-05-09 23:41:37] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:41:37] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:41:37] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:41:37] [INFO] Still generating... 32%
-[2026-05-09 23:41:47] [DEBUG] Elapsed: 30s
-[2026-05-09 23:41:47] [DEBUG] phase_5: poll iteration elapsed=30s
-[2026-05-09 23:41:47] [DEBUG] bos_text: fetching page text
-
-[2026-05-09 23:41:48] [CMD] browseros-cli text 
-[2026-05-09 23:41:48] [EXIT] 0
-[2026-05-09 23:41:48] [OUT] ---
-Generating43%720p
-
-## Upgrade to SuperGrok
-[2026-05-09 23:41:48] [OUT] ---
-[2026-05-09 23:41:48] [DEBUG] bos_text: lines=3
-[2026-05-09 23:41:48] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:41:48] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:41:49] [CMD] browseros-cli snap 
-[2026-05-09 23:41:49] [EXIT] 0
-[2026-05-09 23:41:49] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "44%"
-[19738] button "Cancel"
-[19581] button "Unsave" (disabled)
-[19582] button "Compose Post" (disabled)
-[19584] button "Download" (disabled)
-[19585] button "Create share link" (disabled)
-[19586] button "More options" (disabled, collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19522] clickable "44%"
-[19558] clickable "Generating44%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
-[2026-05-09 23:41:49] [OUT] ---
-[2026-05-09 23:41:49] [DEBUG] bos_snap: lines=22
-[2026-05-09 23:41:49] [DEBUG] phase_5: snapshot lines=22
-[2026-05-09 23:41:49] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:41:49] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:41:50] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:41:50] [EXIT] 0
-[2026-05-09 23:41:50] [OUT] ---
-
-[2026-05-09 23:41:50] [OUT] ---
-[2026-05-09 23:41:51] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:41:51] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:41:51] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:41:51] [INFO] Still generating... 43%
-[2026-05-09 23:42:01] [DEBUG] Elapsed: 40s
-[2026-05-09 23:42:01] [DEBUG] phase_5: poll iteration elapsed=40s
-[2026-05-09 23:42:01] [DEBUG] bos_text: fetching page text
-
-[2026-05-09 23:42:02] [CMD] browseros-cli text 
-[2026-05-09 23:42:02] [EXIT] 0
-[2026-05-09 23:42:02] [OUT] ---
-Generating59%720p
-
-## Upgrade to SuperGrok
-[2026-05-09 23:42:02] [OUT] ---
-[2026-05-09 23:42:02] [DEBUG] bos_text: lines=3
-[2026-05-09 23:42:02] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:42:02] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:42:03] [CMD] browseros-cli snap 
-[2026-05-09 23:42:03] [EXIT] 0
-[2026-05-09 23:42:03] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "60%"
-[19738] button "Cancel"
-[19581] button "Unsave" (disabled)
-[19582] button "Compose Post" (disabled)
-[19584] button "Download" (disabled)
-[19585] button "Create share link" (disabled)
-[19586] button "More options" (disabled, collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19522] clickable "60%"
-[19558] clickable "Generating60%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
-[2026-05-09 23:42:03] [OUT] ---
-[2026-05-09 23:42:03] [DEBUG] bos_snap: lines=22
-[2026-05-09 23:42:03] [DEBUG] phase_5: snapshot lines=22
-[2026-05-09 23:42:03] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:42:03] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:42:04] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:42:04] [EXIT] 0
-[2026-05-09 23:42:04] [OUT] ---
-
-[2026-05-09 23:42:04] [OUT] ---
-[2026-05-09 23:42:04] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:42:04] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:42:04] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:42:04] [INFO] Still generating... 59%
-[2026-05-09 23:42:14] [DEBUG] Elapsed: 50s
-[2026-05-09 23:42:14] [DEBUG] phase_5: poll iteration elapsed=50s
-[2026-05-09 23:42:14] [DEBUG] bos_text: fetching page text
-
-[2026-05-09 23:42:15] [CMD] browseros-cli text 
-[2026-05-09 23:42:15] [EXIT] 0
-[2026-05-09 23:42:15] [OUT] ---
-Generating75%720p
-
-## Upgrade to SuperGrok
-[2026-05-09 23:42:15] [OUT] ---
-[2026-05-09 23:42:15] [DEBUG] bos_text: lines=3
-[2026-05-09 23:42:15] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:42:15] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:42:16] [CMD] browseros-cli snap 
-[2026-05-09 23:42:16] [EXIT] 0
-[2026-05-09 23:42:16] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "76%"
-[19738] button "Cancel"
-[19581] button "Unsave" (disabled)
-[19582] button "Compose Post" (disabled)
-[19584] button "Download" (disabled)
-[19585] button "Create share link" (disabled)
-[19586] button "More options" (disabled, collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19522] clickable "76%"
-[19558] clickable "Generating76%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
-[2026-05-09 23:42:16] [OUT] ---
-[2026-05-09 23:42:16] [DEBUG] bos_snap: lines=22
-[2026-05-09 23:42:16] [DEBUG] phase_5: snapshot lines=22
-[2026-05-09 23:42:16] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:42:16] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:42:17] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:42:17] [EXIT] 0
-[2026-05-09 23:42:17] [OUT] ---
-
-[2026-05-09 23:42:17] [OUT] ---
-[2026-05-09 23:42:17] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:42:17] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:42:17] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:42:17] [INFO] Still generating... 75%
-[2026-05-09 23:42:27] [DEBUG] Elapsed: 60s
-[2026-05-09 23:42:27] [DEBUG] phase_5: poll iteration elapsed=60s
-[2026-05-09 23:42:27] [DEBUG] bos_text: fetching page text
-
-[2026-05-09 23:42:29] [CMD] browseros-cli text 
-[2026-05-09 23:42:29] [EXIT] 0
-[2026-05-09 23:42:29] [OUT] ---
-Generating90%720p
-
-## Upgrade to SuperGrok
-[2026-05-09 23:42:29] [OUT] ---
-[2026-05-09 23:42:29] [DEBUG] bos_text: lines=3
-[2026-05-09 23:42:29] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:42:29] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:42:30] [CMD] browseros-cli snap 
-[2026-05-09 23:42:30] [EXIT] 0
-[2026-05-09 23:42:30] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "92%"
-[19738] button "Cancel"
-[19581] button "Unsave" (disabled)
-[19582] button "Compose Post" (disabled)
-[19584] button "Download" (disabled)
-[19585] button "Create share link" (disabled)
-[19586] button "More options" (disabled, collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19522] clickable "92%"
-[19558] clickable "Generating92%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
-[2026-05-09 23:42:30] [OUT] ---
-[2026-05-09 23:42:30] [DEBUG] bos_snap: lines=22
-[2026-05-09 23:42:30] [DEBUG] phase_5: snapshot lines=22
-[2026-05-09 23:42:30] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:42:30] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:42:31] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:42:31] [EXIT] 0
-[2026-05-09 23:42:31] [OUT] ---
-
-[2026-05-09 23:42:31] [OUT] ---
-[2026-05-09 23:42:31] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:42:31] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:42:31] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:42:31] [INFO] Still generating... 90%
-[2026-05-09 23:42:41] [DEBUG] Elapsed: 70s
-[2026-05-09 23:42:41] [DEBUG] phase_5: poll iteration elapsed=70s
-[2026-05-09 23:42:41] [DEBUG] bos_text: fetching page text
-
-[2026-05-09 23:42:42] [CMD] browseros-cli text 
-[2026-05-09 23:42:42] [EXIT] 0
-[2026-05-09 23:42:42] [OUT] ---
-Generating99%720p
-
-## Upgrade to SuperGrok
-[2026-05-09 23:42:42] [OUT] ---
-[2026-05-09 23:42:42] [DEBUG] bos_text: lines=3
-[2026-05-09 23:42:42] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:42:42] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:42:43] [CMD] browseros-cli snap 
-[2026-05-09 23:42:43] [EXIT] 0
-[2026-05-09 23:42:43] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "99%"
-[19738] button "Cancel"
-[19581] button "Unsave" (disabled)
-[19582] button "Compose Post" (disabled)
-[19584] button "Download" (disabled)
-[19585] button "Create share link" (disabled)
-[19586] button "More options" (disabled, collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19522] clickable "99%"
-[19558] clickable "Generating99%CancelMoreUnmute0s+ 10s→10sExtend from Frame"
-[2026-05-09 23:42:43] [OUT] ---
-[2026-05-09 23:42:43] [DEBUG] bos_snap: lines=22
-[2026-05-09 23:42:43] [DEBUG] phase_5: snapshot lines=22
-[2026-05-09 23:42:43] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:42:43] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:42:44] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:42:44] [EXIT] 0
-[2026-05-09 23:42:44] [OUT] ---
-
-[2026-05-09 23:42:44] [OUT] ---
-[2026-05-09 23:42:44] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:42:44] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:42:44] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:42:44] [INFO] Still generating... 99%
-[2026-05-09 23:42:54] [DEBUG] Elapsed: 80s
-[2026-05-09 23:42:54] [DEBUG] phase_5: poll iteration elapsed=80s
-[2026-05-09 23:42:54] [DEBUG] bos_text: fetching page text
-
-[2026-05-09 23:42:55] [CMD] browseros-cli text 
-[2026-05-09 23:42:55] [EXIT] 0
-[2026-05-09 23:42:55] [OUT] ---
-1s+ 10s→11s720p
-
-## Upgrade to SuperGrok
-[2026-05-09 23:42:55] [OUT] ---
-[2026-05-09 23:42:55] [DEBUG] bos_text: lines=3
-[2026-05-09 23:42:55] [DEBUG] phase_5: page_text lines=3
-[2026-05-09 23:42:55] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:42:56] [CMD] browseros-cli snap 
-[2026-05-09 23:42:56] [EXIT] 0
-[2026-05-09 23:42:56] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "Thumbnail 2"
-[19538] button "Pause"
-[19959] button "0:01 / 0:10"
-[19546] button "Unmute"
-[19701] button "Extend from Frame"
-[19581] button "Unsave"
-[19582] button "Compose Post"
-[19938] button "Redo video"
-[19584] button "Download"
-[19585] button "Create share link"
-[19586] button "More options" (collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19558] clickable "Your browser does not support the video tag.Your browser does not support the video tag.MoreMake vid"
-[2026-05-09 23:42:56] [OUT] ---
-[2026-05-09 23:42:56] [DEBUG] bos_snap: lines=25
-[2026-05-09 23:42:56] [DEBUG] phase_5: snapshot lines=25
-[2026-05-09 23:42:56] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:42:56] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:42:57] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:42:57] [EXIT] 0
-[2026-05-09 23:42:57] [OUT] ---
-
-[2026-05-09 23:42:57] [OUT] ---
-[2026-05-09 23:42:57] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:42:57] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:42:57] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:42:57] [INFO] Video ready (Redo video button detected)
-[2026-05-09 23:42:57] [DEBUG] phase_5: poll loop ended, video_ready=1 elapsed=80s
-[2026-05-09 23:42:57] [INFO] ========================================
-[2026-05-09 23:42:57] [INFO]   Phase 6: Asset Management
-[2026-05-09 23:42:57] [INFO] ========================================
-[2026-05-09 23:42:57] [INFO] Checking for video preference dialog...
-[2026-05-09 23:42:57] [DEBUG] bos_handle_video_preference: starting
-[2026-05-09 23:42:57] [DEBUG] bos_check_video_preference: checking for video preference dialog...
-[2026-05-09 23:42:57] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
-
-[2026-05-09 23:42:58] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-09 23:42:58] [EXIT] 0
-[2026-05-09 23:42:58] [OUT] ---
-
-[2026-05-09 23:42:58] [OUT] ---
-[2026-05-09 23:42:58] [DEBUG] bos_eval: exit=0 output=''
-[2026-05-09 23:42:58] [DEBUG] bos_check_video_preference: heading_text=''
-[2026-05-09 23:42:59] [DEBUG] bos_check_video_preference: dialog NOT detected
-[2026-05-09 23:42:59] [DEBUG] bos_handle_video_preference: no dialog present
-[2026-05-09 23:42:59] [DEBUG] phase_6: handle_video_preference exit=2
-[2026-05-09 23:42:59] [DEBUG] phase_6: no video preference dialog present
-[2026-05-09 23:42:59] [INFO] Waiting 5 seconds for file stabilization...
-[2026-05-09 23:43:04] [INFO] Taking snapshot to find Download button...
-[2026-05-09 23:43:04] [DEBUG] phase_6: find Download attempt=0
-[2026-05-09 23:43:04] [DEBUG] bos_get_snap_ref: searching for pattern='Download'
-[2026-05-09 23:43:04] [DEBUG] bos_snap: taking snapshot
-
-[2026-05-09 23:43:05] [CMD] browseros-cli snap 
-[2026-05-09 23:43:05] [EXIT] 0
-[2026-05-09 23:43:05] [OUT] ---
-[12359] link "Home page"
-[12363] button "Search"
-[12369] link
-[12375] link
-[12384] link
-[16536] button "History"
-[12393] button "Toggle Sidebar"
-[12398] button "DS" (collapsed)
-[19515] link "Back"
-[19520] button "Next post"
-[19678] button "Thumbnail 1"
-[19748] button "Thumbnail 2"
-[19538] button "Pause"
-[19959] button "0:09 / 0:10"
-[19546] button "Unmute"
-[19701] button "Extend from Frame"
-[19581] button "Unsave"
-[19582] button "Compose Post"
-[19938] button "Redo video"
-[19584] button "Download"
-[19585] button "Create share link"
-[19586] button "More options" (collapsed)
-[19464] button "Saved"
-[19420] button "Make video" (disabled)
-[19558] clickable "Your browser does not support the video tag.Your browser does not support the video tag.MoreMake vid"
-[2026-05-09 23:43:05] [OUT] ---
-[2026-05-09 23:43:05] [DEBUG] bos_snap: lines=25
-[2026-05-09 23:43:05] [DEBUG] bos_get_snap_ref: bos_snap exit=0, lines=25
-[2026-05-09 23:43:05] [DEBUG] bos_get_snap_ref: grep matches for 'Download': 1 lines
-[2026-05-09 23:43:05] [DEBUG] bos_get_snap_ref: match lines: [19584] button "Download"
-[2026-05-09 23:43:05] [DEBUG] bos_get_snap_ref: extracted ref='19584' from pattern='Download'
-[2026-05-09 23:43:05] [DEBUG] phase_6: dl_ref='19584'
-[2026-05-09 23:43:05] [INFO] Download button found: ref 19584
-[2026-05-09 23:43:05] [INFO] Destination: /Users/dsen/Projects/ai-post-maker/project-1/assets/current
-[2026-05-09 23:43:05] [INFO] Downloading via browseros-cli (ref: 19584)...
-[2026-05-09 23:43:05] [DEBUG] bos_download: ref=19584 dest_dir=/Users/dsen/Projects/ai-post-maker/project-1/assets/current
-
-[2026-05-09 23:43:07] [CMD] browseros-cli download 19584 /Users/dsen/Projects/ai-post-maker/project-1/assets/current
-[2026-05-09 23:43:07] [EXIT] 0
-[2026-05-09 23:43:07] [OUT] ---
-Downloaded "grok-video-a8d98e2c-4a62-4b43-b2f9-e35c3a1ff711.mp4" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/grok-video-a8d98e2c-4a62-4b43-b2f9-e35c3a1ff711.mp4
-[2026-05-09 23:43:07] [OUT] ---
-[2026-05-09 23:43:07] [DEBUG] phase_6: download_exit=Downloaded "grok-video-a8d98e2c-4a62-4b43-b2f9-e35c3a1ff711.mp4" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/grok-video-a8d98e2c-4a62-4b43-b2f9-e35c3a1ff711.mp4
-[2026-05-09 23:43:07] [DEBUG] phase_6: download output: Downloaded "grok-video-a8d98e2c-4a62-4b43-b2f9-e35c3a1ff711.mp4" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/grok-video-a8d98e2c-4a62-4b43-b2f9-e35c3a1ff711.mp4
-[2026-05-09 23:43:07] [DEBUG] phase_6: downloaded_file from regex='grok-video-a8d98e2c-4a62-4b43-b2f9-e35c3a1ff711.mp4'
-[2026-05-09 23:43:07] [INFO] Downloaded file: grok-video-a8d98e2c-4a62-4b43-b2f9-e35c3a1ff711.mp4
-[2026-05-09 23:43:07] [INFO] Renamed to: 185.mp4
-[2026-05-09 23:43:07] [INFO] Asset saved: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/185.mp4
-[2026-05-09 23:43:07] [INFO] File validated: 13841303 bytes
-[2026-05-09 23:43:07] [INFO] ========================================
-[2026-05-09 23:43:07] [INFO]   Phase 7: Recording & Tracking
-[2026-05-09 23:43:07] [INFO] ========================================
-[2026-05-09 23:43:07] [INFO] Getting page URL...
-[2026-05-09 23:43:07] [DEBUG] bos_get_page_url: evaluating window.location.href
-[2026-05-09 23:43:07] [DEBUG] bos_eval: js='window.location.href'
-
-[2026-05-09 23:43:08] [CMD] browseros-cli eval window.location.href
-[2026-05-09 23:43:08] [EXIT] 0
-[2026-05-09 23:43:08] [OUT] ---
-https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751
-[2026-05-09 23:43:08] [OUT] ---
-[2026-05-09 23:43:08] [DEBUG] bos_eval: exit=0 output='https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751'
-[2026-05-09 23:43:08] [DEBUG] bos_get_page_url: url='https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751'
-[2026-05-09 23:43:08] [INFO] Post URL: https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751
-[2026-05-09 23:43:08] [INFO] Getting video URL...
-[2026-05-09 23:43:08] [DEBUG] bos_eval: js='document.querySelector('video')?.src || window.location.href'
-
-[2026-05-09 23:43:09] [CMD] browseros-cli eval document.querySelector('video')?.src || window.location.href
-[2026-05-09 23:43:09] [EXIT] 0
-[2026-05-09 23:43:09] [OUT] ---
-https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/fa39dc65-46b6-46fc-bf87-078bc2477751/generated_video.mp4?cache=1
-[2026-05-09 23:43:09] [OUT] ---
-[2026-05-09 23:43:09] [DEBUG] bos_eval: exit=0 output='https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/fa39dc65-46b6-46fc-bf87-078bc2477751/genera'
-[2026-05-09 23:43:09] [DEBUG] phase_7: video_url from eval=''
-[2026-05-09 23:43:09] [DEBUG] phase_7: falling back to post_url
-[2026-05-09 23:43:09] [INFO] Video URL: https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751
-[2026-05-09 23:43:09] [INFO] Updating tracker... project=1 prompt=185
-[2026-05-09 23:43:09] [DEBUG] phase_7: tracker_result='{"success": true, "id": "185"}'
-[2026-05-09 23:43:09] [INFO] Prompt 185 marked complete
-[2026-05-09 23:43:09] [INFO] ========================================
-[2026-05-09 23:43:09] [INFO]   Complete
-[2026-05-09 23:43:09] [INFO] ========================================
-[2026-05-09 23:43:09] [INFO] Successfully processed prompt 185
-[2026-05-09 23:43:09] [INFO] Asset: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/185.mp4
-[2026-05-09 23:43:09] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
-[2026-05-09 23:43:09] [DEBUG] main: finished
+[2026-05-10 05:34:48] [CMD] browseros-cli eval window.location.href
+[2026-05-10 05:34:48] [EXIT] 0
+[2026-05-10 05:34:48] [OUT] ---
+https://grok.com/imagine
+[2026-05-10 05:34:48] [OUT] ---
+[2026-05-10 05:34:48] [DEBUG] bos_eval: exit=0 output='https://grok.com/imagine'
+[2026-05-10 05:34:48] [DEBUG] bos_get_page_url: url='https://grok.com/imagine'
+{"success": true, "id": "261", "status": "image_failed"}
+[2026-05-10 05:34:48] [FATAL] Timeout waiting for image generation
