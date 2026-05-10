@@ -1,0 +1,270 @@
+[2026-05-10 19:47:16] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/facebook_upload.log
+[2026-05-10 19:47:16] [INFO] Starting automation for project 1
+[2026-05-10 19:47:16] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-10 19:47:16] [INFO] Checking BrowserOS health...
+
+[2026-05-10 19:47:18] [CMD] browseros-cli health 
+[2026-05-10 19:47:18] [EXIT] 0
+[2026-05-10 19:47:18] [OUT] ---
+Server: ok
+CDP:    connected
+[2026-05-10 19:47:18] [OUT] ---
+[2026-05-10 19:47:18] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-10 19:47:18] [DEBUG] Retry attempt 1/3: bos_health
+
+[2026-05-10 19:47:18] [CMD] browseros-cli health 
+[2026-05-10 19:47:18] [EXIT] 0
+[2026-05-10 19:47:18] [OUT] ---
+Server: ok
+CDP:    connected
+[2026-05-10 19:47:18] [OUT] ---
+[2026-05-10 19:47:18] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-10 19:47:18] [INFO] BrowserOS is healthy
+[2026-05-10 19:47:18] [INFO] ========================================
+[2026-05-10 19:47:18] [INFO]   Phase 1: Identify Project and Asset
+[2026-05-10 19:47:18] [INFO] ========================================
+[2026-05-10 19:47:18] [INFO] Fetching mapped post for project 1...
+[2026-05-10 19:47:18] [DEBUG] get_mapped_post exit=0 output='ID: 6
+Caption: 🍎 Rustic Lattice-Top Apple Pie 🥧
+
+Recipe: 
+Ingredients: 🥟 Double pie crust, 🍎 6 large Granny Smith apples (peeled and sliced), 🍬 3/4 cup sugar, 🪵 2 tsp cinnamon, 🌰 1/4 tsp nutmeg, 🍋 1 tbsp lemon juice, 🧈 2 tbsp butter, and 🥚 1 egg for wash. 
+Steps: 🍎 Toss apple slices with sugar, spices, and lemon juice. 🥧 Line a pie dish with the bottom crust and fill with apples. 🔪 Cut the remaining crust into strips and weave a lattice over the top. 🥟 Crimp the edges and brush with egg wash. ⏲️ Bake at 375°F (190°C) for 50-60 minutes until the crust is golden and the filling is bubbling.
+
+#applepie #baking #dessert #homemade #comfortfood #fallvibes #pietime #autumn 🥧✨'
+[2026-05-10 19:47:18] [INFO] Asset ID: 6
+[2026-05-10 19:47:18] [INFO] Caption length: 662 chars
+[2026-05-10 19:47:18] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/6.mp4
+[2026-05-10 19:47:18] [INFO] Asset file size: 4736158 bytes
+[2026-05-10 19:47:18] [INFO] ========================================
+[2026-05-10 19:47:18] [INFO]   Phase 2: Read Facebook Reels URL
+[2026-05-10 19:47:18] [INFO] ========================================
+[2026-05-10 19:47:19] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+[2026-05-10 19:47:19] [INFO] ========================================
+[2026-05-10 19:47:19] [INFO]   Phase 3: Open Facebook Reels Page
+[2026-05-10 19:47:19] [INFO] ========================================
+[2026-05-10 19:47:19] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+
+[2026-05-10 19:47:19] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
+[2026-05-10 19:47:19] [EXIT] 0
+[2026-05-10 19:47:19] [OUT] ---
+{"background":false,"hidden":false,"pageId":27,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
+[2026-05-10 19:47:19] [OUT] ---
+[2026-05-10 19:47:19] [INFO] Page opened with ID: 27
+[2026-05-10 19:47:24] [INFO] Taking snapshot...
+
+[2026-05-10 19:47:25] [CMD] browseros-cli snap -p 27
+[2026-05-10 19:47:25] [EXIT] 0
+[2026-05-10 19:47:25] [OUT] ---
+[2128] link "Professional dashboard"
+[2139] link "Ad Centre"
+[2149] link "Reels"
+[2163] button "Facebook menu" (collapsed)
+[2168] link "Messenger"
+[2171] link "Messenger" (disabled)
+[7] button "Notifications, 1 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[2674] button "Hide Menu"
+[2707] link "Professional dashboard"
+[2720] link "Insights"
+[2733] link "Ad Centre"
+[2746] link "Create ads"
+[2759] link "Boost Instagram post"
+[2772] link "Settings"
+[2808] button "Collapse"
+[2823] link "Meta Verified"
+[2836] link "Leads Centre"
+[2854] link "Meta Business Suite notification"
+[2885] button "Advertise"
+[2914] link "View profile cover photo"
+[2927] button "Edit cover photo" (collapsed)
+[2947] button "Share a thought..." (collapsed)
+[2959] button "Profile picture actions" (collapsed)
+[2983] button "Tasty Affair "
+[2988] link "4 followers"
+[2990] link "0 following"
+[2997] link "Professional dashboard"
+[3009] link "Edit profile"
+[3021] link "Add to story"
+[3040] button "Food and drink"
+[3069] tab "All"
+[3074] tab "About"
+[3079] tab "Reels" (selected)
+[3083] tab "Photos"
+[3088] tab "Followers"
+[3094] tab "More profile sections" (collapsed)
+[3129] button "Profile settings see more options" (collapsed)
+[3149] link "Reels"
+[3152] button "Create reel"
+[3195] link "Reel tile preview"
+[3211] link "Reel tile preview"
+[3227] link "Reel tile preview"
+[3243] link "Reel tile preview"
+[3259] link "Reel tile preview"
+[3275] link "Reel tile preview"
+[3291] link "Reel tile preview"
+[3307] link "Reel tile preview"
+[3323] link "Reel tile preview"
+[3339] link "Reel tile preview"
+[2026-05-10 19:47:25] [OUT] ---
+[2026-05-10 19:47:26] [DEBUG] Snapshot lines: 54
+[2026-05-10 19:47:26] [INFO] Page loaded successfully
+[2026-05-10 19:47:26] [INFO] ========================================
+[2026-05-10 19:47:26] [INFO]   Phase 4: Open Create Reel Dialog
+[2026-05-10 19:47:26] [INFO] ========================================
+
+[2026-05-10 19:47:26] [CMD] browseros-cli snap -p 27
+[2026-05-10 19:47:26] [EXIT] 0
+[2026-05-10 19:47:26] [OUT] ---
+[2128] link "Professional dashboard"
+[2139] link "Ad Centre"
+[2149] link "Reels"
+[2163] button "Facebook menu" (collapsed)
+[2168] link "Messenger"
+[2171] link "Messenger" (disabled)
+[7] button "Notifications, 1 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[2674] button "Hide Menu"
+[2707] link "Professional dashboard"
+[2720] link "Insights"
+[2733] link "Ad Centre"
+[2746] link "Create ads"
+[2759] link "Boost Instagram post"
+[2772] link "Settings"
+[2808] button "Collapse"
+[2823] link "Meta Verified"
+[2836] link "Leads Centre"
+[2854] link "Meta Business Suite notification"
+[2885] button "Advertise"
+[2914] link "View profile cover photo"
+[2927] button "Edit cover photo" (collapsed)
+[2947] button "Share a thought..." (collapsed)
+[2959] button "Profile picture actions" (collapsed)
+[2983] button "Tasty Affair "
+[2988] link "4 followers"
+[2990] link "0 following"
+[2997] link "Professional dashboard"
+[3009] link "Edit profile"
+[3021] link "Add to story"
+[3040] button "Food and drink"
+[3069] tab "All"
+[3074] tab "About"
+[3079] tab "Reels" (selected)
+[3083] tab "Photos"
+[3088] tab "Followers"
+[3094] tab "More profile sections" (collapsed)
+[3129] button "Profile settings see more options" (collapsed)
+[3149] link "Reels"
+[3152] button "Create reel"
+[3195] link "Reel tile preview"
+[3211] link "Reel tile preview"
+[3227] link "Reel tile preview"
+[3243] link "Reel tile preview"
+[3259] link "Reel tile preview"
+[3275] link "Reel tile preview"
+[3291] link "Reel tile preview"
+[3307] link "Reel tile preview"
+[3323] link "Reel tile preview"
+[3339] link "Reel tile preview"
+[2026-05-10 19:47:26] [OUT] ---
+[2026-05-10 19:47:26] [INFO] Clicking 'Create reel' button (ref: 3152)...
+
+[2026-05-10 19:47:28] [CMD] browseros-cli click -p 27 3152
+[2026-05-10 19:47:28] [EXIT] 0
+[2026-05-10 19:47:28] [OUT] ---
+Clicked [3152] at (1189, 731)
+[2026-05-10 19:47:28] [OUT] ---
+[2026-05-10 19:47:31] [INFO] Verifying dialog opened...
+
+[2026-05-10 19:47:32] [CMD] browseros-cli eval -p 27 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
+[2026-05-10 19:47:32] [EXIT] 0
+[2026-05-10 19:47:32] [OUT] ---
+true
+[2026-05-10 19:47:32] [OUT] ---
+[2026-05-10 19:47:32] [DEBUG] Dialog check result: true
+[2026-05-10 19:47:32] [INFO] Create reel dialog confirmed
+[2026-05-10 19:47:32] [INFO] ========================================
+[2026-05-10 19:47:32] [INFO]   Phase 5: Upload the Video File
+[2026-05-10 19:47:32] [INFO] ========================================
+[2026-05-10 19:47:32] [INFO] Making file inputs visible...
+
+[2026-05-10 19:47:33] [CMD] browseros-cli eval -p 27 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
+[2026-05-10 19:47:33] [EXIT] 0
+[2026-05-10 19:47:33] [OUT] ---
+undefined
+[2026-05-10 19:47:33] [OUT] ---
+[2026-05-10 19:47:33] [INFO] Taking snapshot to find Choose File buttons...
+
+[2026-05-10 19:47:34] [CMD] browseros-cli snap -p 27
+[2026-05-10 19:47:34] [EXIT] 0
+[2026-05-10 19:47:34] [OUT] ---
+[2059] link "Facebook"
+[46] combobox "Search Facebook" (collapsed)
+[2107] link "Home"
+[2118] link "Pages"
+[2128] link "Professional dashboard"
+[2139] link "Ad Centre"
+[2149] link "Reels"
+[2163] button "Facebook menu" (collapsed)
+[2168] link "Messenger"
+[2171] link "Messenger" (disabled)
+[7] button "Notifications, 1 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[4003] button "Close"
+[4025] button "Choose File"
+[4026] button "Add Video or drag and drop"
+[4049] button "Choose File"
+[4050] button "Upload video for reel"
+[3468] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
+[4084] clickable "Your video previewUpload your video in order to see a preview here."
+[2026-05-10 19:47:34] [OUT] ---
+[2026-05-10 19:47:35] [INFO] Attempting upload via available Choose File buttons...
+[2026-05-10 19:47:35] [INFO] Trying Choose File button ref: 4025
+
+[2026-05-10 19:47:35] [CMD] browseros-cli upload -p 27 4025 /Users/dsen/Projects/ai-post-maker/project-1/assets/6.mp4
+[2026-05-10 19:47:35] [EXIT] 0
+[2026-05-10 19:47:35] [OUT] ---
+Set 1 file(s) on [4025]
+[2026-05-10 19:47:35] [OUT] ---
+[2026-05-10 19:47:35] [INFO] Upload initiated via ref: 4025
+[2026-05-10 19:47:50] [INFO] Polling for upload completion...
+
+[2026-05-10 19:47:51] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
+[2026-05-10 19:47:51] [EXIT] 0
+[2026-05-10 19:47:51] [OUT] ---
+false
+[2026-05-10 19:47:51] [OUT] ---
+[2026-05-10 19:47:51] [DEBUG] Upload check attempt 1/16: false
+[2026-05-10 19:47:51] [INFO] Upload still processing... (attempt 1/16)
+
+[2026-05-10 19:48:07] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
+[2026-05-10 19:48:07] [EXIT] 0
+[2026-05-10 19:48:07] [OUT] ---
+false
+[2026-05-10 19:48:07] [OUT] ---
+[2026-05-10 19:48:07] [DEBUG] Upload check attempt 2/16: false
+[2026-05-10 19:48:07] [INFO] Upload still processing... (attempt 2/16)
+
+[2026-05-10 19:48:24] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
+[2026-05-10 19:48:24] [EXIT] 0
+[2026-05-10 19:48:24] [OUT] ---
+false
+[2026-05-10 19:48:24] [OUT] ---
+[2026-05-10 19:48:24] [DEBUG] Upload check attempt 3/16: false
+[2026-05-10 19:48:24] [INFO] Upload still processing... (attempt 3/16)
+
+[2026-05-10 19:48:40] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
+[2026-05-10 19:48:40] [EXIT] 0
+[2026-05-10 19:48:40] [OUT] ---
+false
+[2026-05-10 19:48:40] [OUT] ---
+[2026-05-10 19:48:40] [DEBUG] Upload check attempt 4/16: false
+[2026-05-10 19:48:40] [INFO] Upload still processing... (attempt 4/16)
+
+[2026-05-10 19:48:56] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
+[2026-05-10 19:48:56] [EXIT] 0
+[2026-05-10 19:48:56] [OUT] ---
+false
+[2026-05-10 19:48:56] [OUT] ---
+[2026-05-10 19:48:56] [DEBUG] Upload check attempt 5/16: false
+[2026-05-10 19:48:56] [INFO] Upload still processing... (attempt 5/16)
