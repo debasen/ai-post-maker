@@ -59,7 +59,9 @@
       "post_url": "https://grok.com/imagine/post/f0a3f9b2-bfda-467d-8842-e850e8f82575",
       "executed_at": "2026-05-01T23:28:19.798604",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ]
     },
     {
       "id": 6,

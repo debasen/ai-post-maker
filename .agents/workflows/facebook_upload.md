@@ -114,7 +114,7 @@ document.querySelectorAll('input[type="file"]').forEach(i => {
 const dialog = document.querySelector('div[role="dialog"]');
 const text = dialog ? dialog.innerText : document.body.innerText;
 const hasSafe = dialog ? dialog.innerText.includes('Your reel is safe to publish!') : false;
-const hasNext = Array.from(dialog?.querySelectorAll('div[role="button"]') || []).some(b => b.innerText?.includes('Next'));
+const hasNext = !!dialog?.querySelector('div[aria-label="Next"]');
 hasSafe && hasNext
 ```
 
@@ -125,7 +125,7 @@ hasSafe && hasNext
 ```javascript
 const dialog = document.querySelector('div[role="dialog"]');
 const hasSafe = dialog ? dialog.innerText.includes('Your reel is safe to publish!') : false;
-const hasNext = !!dialog?.querySelector('div[role="button"]')?.innerText?.includes('Next');
+const hasNext = !!dialog?.querySelector('div[aria-label="Next"]');
 hasSafe && hasNext
 ```
 
