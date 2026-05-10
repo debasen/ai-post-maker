@@ -73,6 +73,12 @@ fb_click() {
     _fb_bos click -p "$PAGE_ID" "$ref"
 }
 
+fb_fill() {
+    local ref="$1"
+    local text="$2"
+    _fb_bos fill -p "$PAGE_ID" "$ref" "$text"
+}
+
 fb_upload() {
     local ref="$1"
     local file="$2"
@@ -325,27 +331,49 @@ phase_6_navigate_caption() {
 phase_7_enter_caption() {
     log_section "Phase 7: Enter the Caption"
 
-    log INFO "Focusing caption textbox..."
-    local focus_check
-    focus_check=$(fb_eval_result "(function() { var el = document.querySelector('[contenteditable=\"true\"]') || document.querySelector('div[role=\"textbox\"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*=\"Describe your reel\"]'); if (el) { el.click(); el.focus(); } return !!el; })()")
-    if [ "$focus_check" != "true" ]; then
-        log FATAL "Failed to focus caption textbox"
+    log INFO "Finding caption textbox..."
+    local textbox_ref
+    # Try specific patterns first, then fall back to generic roles
+    textbox_ref=$(fb_get_snap_ref 'textbox "Describe')
+    if [ -z "$textbox_ref" ]; then
+        textbox_ref=$(fb_get_snap_ref 'textbox')
+    fi
+    if [ -z "$textbox_ref" ]; then
+        textbox_ref=$(fb_get_snap_ref 'paragraph')
+    fi
+    if [ -z "$textbox_ref" ]; then
+        log FATAL "Could not find caption textbox in snapshot"
     fi
 
-    log INFO "Clearing existing text..."
-    fb_eval "document.activeElement.innerText = '';" > /dev/null
+    log INFO "Typing caption into textbox (ref: $textbox_ref)..."
+    if fb_fill "$textbox_ref" "$CAPTION"; then
+        log INFO "Fill command succeeded"
+    else
+        log WARN "Fill command failed (element may not support fill). Falling back to JS insertHTML..."
 
-    log INFO "Typing caption..."
-    # JSON-encode caption for safe JS injection
-    local json_caption
-    json_caption=$(printf '%s' "$CAPTION" | jq -Rs '.')
-    fb_eval "(function() { var caption = $json_caption; var el = document.activeElement; el.focus(); document.execCommand('insertText', false, caption); })()" > /dev/null
+        # Focus the textbox first
+        local focus_check
+        focus_check=$(fb_eval_result "(function() { var el = document.querySelector('[contenteditable=\"true\"]') || document.querySelector('div[role=\"textbox\"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*=\"Describe your reel\"]'); if (el) { el.click(); el.focus(); } return !!el; })()")
+        if [ "$focus_check" != "true" ]; then
+            log FATAL "Failed to focus caption textbox for fallback"
+        fi
+
+        # Clear existing text
+        fb_eval "document.activeElement.innerHTML = '';" > /dev/null
+
+        # JSON-encode caption for safe JS injection
+        local json_caption
+        json_caption=$(printf '%s' "$CAPTION" | jq -Rs '.')
+
+        # Use insertHTML with <br> tags to preserve line breaks in contenteditable
+        fb_eval "(function() { var caption = $json_caption; var el = document.activeElement; el.focus(); var htmlCaption = caption.replace(/\n/g, '<br>').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); document.execCommand('insertHTML', false, htmlCaption); })()" > /dev/null
+    fi
 
     sleep 2
 
     log INFO "Verifying caption was entered..."
     local caption_verify
-    caption_verify=$(fb_eval_result "(function() { var text = document.activeElement?.innerText || ''; return text.length > 50; })()")
+    caption_verify=$(fb_eval_result "(function() { var el = document.querySelector('[contenteditable=\"true\"]') || document.querySelector('div[role=\"textbox\"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*=\"Describe your reel\"]'); var text = el?.innerText || ''; return text.length > 50; })()")
     if [ "$caption_verify" != "true" ]; then
         log FATAL "Caption verification failed (text too short or missing)"
     fi

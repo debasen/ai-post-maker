@@ -1560,7 +1560,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/1147ebb2-9960-4b53-a9ae-d69e4e7b8100",
       "executed_at": "2026-05-08T14:13:05.409937",
-      "video_url": "https://grok.com/imagine/post/1147ebb2-9960-4b53-a9ae-d69e4e7b8100"
+      "video_url": "https://grok.com/imagine/post/1147ebb2-9960-4b53-a9ae-d69e4e7b8100",
+      "asset": "mapped"
     },
     {
       "id": 170,
@@ -1568,7 +1569,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/0ce56b16-1c57-41d9-800a-70fc8c4725df",
       "executed_at": "2026-05-08T14:23:02.149301",
-      "video_url": "https://grok.com/imagine/post/0ce56b16-1c57-41d9-800a-70fc8c4725df"
+      "video_url": "https://grok.com/imagine/post/0ce56b16-1c57-41d9-800a-70fc8c4725df",
+      "asset": "mapped"
     },
     {
       "id": 171,
@@ -1576,7 +1578,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/5d37f687-757b-42dd-9286-442c635cc19f",
       "executed_at": "2026-05-08T14:33:02.303981",
-      "video_url": "https://grok.com/imagine/post/5d37f687-757b-42dd-9286-442c635cc19f"
+      "video_url": "https://grok.com/imagine/post/5d37f687-757b-42dd-9286-442c635cc19f",
+      "asset": "mapped"
     },
     {
       "id": 172,
@@ -1620,7 +1623,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/3a429ff8-98a2-4840-aee4-4df70bb6a841",
       "executed_at": "2026-05-08T14:42:26.721984",
-      "video_url": "https://grok.com/imagine/post/3a429ff8-98a2-4840-aee4-4df70bb6a841"
+      "video_url": "https://grok.com/imagine/post/3a429ff8-98a2-4840-aee4-4df70bb6a841",
+      "asset": "mapped"
     },
     {
       "id": 177,
@@ -1628,7 +1632,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/0e41960b-a451-415b-a453-11358b572d04",
       "executed_at": "2026-05-08T14:53:01.391835",
-      "video_url": "https://grok.com/imagine/post/0e41960b-a451-415b-a453-11358b572d04"
+      "video_url": "https://grok.com/imagine/post/0e41960b-a451-415b-a453-11358b572d04",
+      "asset": "mapped"
     },
     {
       "id": 178,
@@ -1636,7 +1641,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/fbb85fae-267d-4b84-bf06-4739b1ffc468",
       "executed_at": "2026-05-08T15:03:03.217267",
-      "video_url": "https://grok.com/imagine/post/fbb85fae-267d-4b84-bf06-4739b1ffc468"
+      "video_url": "https://grok.com/imagine/post/fbb85fae-267d-4b84-bf06-4739b1ffc468",
+      "asset": "mapped"
     },
     {
       "id": 179,
@@ -1644,7 +1650,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/5f751a0e-8331-4d14-acfd-33181612929c",
       "executed_at": "2026-05-08T15:13:02.722670",
-      "video_url": "https://grok.com/imagine/post/5f751a0e-8331-4d14-acfd-33181612929c"
+      "video_url": "https://grok.com/imagine/post/5f751a0e-8331-4d14-acfd-33181612929c",
+      "asset": "mapped"
     },
     {
       "id": 180,
@@ -1652,7 +1659,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/05fe62fd-33ee-400d-a869-9ed4ae79b153",
       "executed_at": "2026-05-08T15:23:00.014735",
-      "video_url": "https://grok.com/imagine/post/05fe62fd-33ee-400d-a869-9ed4ae79b153"
+      "video_url": "https://grok.com/imagine/post/05fe62fd-33ee-400d-a869-9ed4ae79b153",
+      "asset": "mapped"
     },
     {
       "id": 181,
@@ -1660,7 +1668,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/9b6275e6-1a4f-4fa0-8569-1ede90d5b5ad",
       "executed_at": "2026-05-08T15:32:31.239372",
-      "video_url": "https://grok.com/imagine/post/9b6275e6-1a4f-4fa0-8569-1ede90d5b5ad"
+      "video_url": "https://grok.com/imagine/post/9b6275e6-1a4f-4fa0-8569-1ede90d5b5ad",
+      "asset": "mapped"
     },
     {
       "id": 182,
@@ -1668,7 +1677,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/84cacd23-23f9-4574-aa64-c734c7a4d136",
       "executed_at": "2026-05-08T19:49:20.611673",
-      "video_url": "https://grok.com/imagine/post/84cacd23-23f9-4574-aa64-c734c7a4d136"
+      "video_url": "https://grok.com/imagine/post/84cacd23-23f9-4574-aa64-c734c7a4d136",
+      "asset": "mapped"
     },
     {
       "id": 183,
@@ -1676,7 +1686,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/fb60e494-b69e-4510-b0d5-bc59113c8582",
       "executed_at": "2026-05-09T08:42:39.187624",
-      "video_url": "https://grok.com/imagine/post/fb60e494-b69e-4510-b0d5-bc59113c8582"
+      "video_url": "https://grok.com/imagine/post/fb60e494-b69e-4510-b0d5-bc59113c8582",
+      "asset": "mapped"
     },
     {
       "id": 184,
@@ -1684,7 +1695,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/8f42ecac-4750-4922-9033-a8116f604a09",
       "executed_at": "2026-05-09T23:33:10.528016",
-      "video_url": "https://grok.com/imagine/post/8f42ecac-4750-4922-9033-a8116f604a09"
+      "video_url": "https://grok.com/imagine/post/8f42ecac-4750-4922-9033-a8116f604a09",
+      "asset": "mapped"
     },
     {
       "id": 185,
@@ -1692,7 +1704,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751",
       "executed_at": "2026-05-09T23:43:09.689557",
-      "video_url": "https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751"
+      "video_url": "https://grok.com/imagine/post/fa39dc65-46b6-46fc-bf87-078bc2477751",
+      "asset": "mapped"
     },
     {
       "id": 186,
@@ -1700,7 +1713,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/36a3bad3-86bb-4ae9-a97b-7fe3347c2b5b",
       "executed_at": "2026-05-08T20:32:29.714985",
-      "video_url": "https://grok.com/imagine/post/36a3bad3-86bb-4ae9-a97b-7fe3347c2b5b"
+      "video_url": "https://grok.com/imagine/post/36a3bad3-86bb-4ae9-a97b-7fe3347c2b5b",
+      "asset": "mapped"
     },
     {
       "id": 187,
@@ -1708,7 +1722,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/8bd8759a-37fe-4e7b-a390-d54c1e44dda0",
       "executed_at": "2026-05-08T20:43:15.553747",
-      "video_url": "https://grok.com/imagine/post/8bd8759a-37fe-4e7b-a390-d54c1e44dda0"
+      "video_url": "https://grok.com/imagine/post/8bd8759a-37fe-4e7b-a390-d54c1e44dda0",
+      "asset": "mapped"
     },
     {
       "id": 188,
@@ -1752,7 +1767,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/3578e717-1ee2-48e8-b35c-a863b481d954",
       "executed_at": "2026-05-08T20:53:02.604837",
-      "video_url": "https://grok.com/imagine/post/3578e717-1ee2-48e8-b35c-a863b481d954"
+      "video_url": "https://grok.com/imagine/post/3578e717-1ee2-48e8-b35c-a863b481d954",
+      "asset": "mapped"
     },
     {
       "id": 193,
@@ -1760,7 +1776,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/69fc0445-4b47-449d-be80-147a800f7cad",
       "executed_at": "2026-05-08T21:02:25.967035",
-      "video_url": "https://grok.com/imagine/post/69fc0445-4b47-449d-be80-147a800f7cad"
+      "video_url": "https://grok.com/imagine/post/69fc0445-4b47-449d-be80-147a800f7cad",
+      "asset": "mapped"
     },
     {
       "id": 194,
@@ -1768,7 +1785,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/5bb7960e-ef68-4331-9f4a-67220bcb8f0a",
       "executed_at": "2026-05-09T09:09:16.430435",
-      "video_url": "https://grok.com/imagine/post/5bb7960e-ef68-4331-9f4a-67220bcb8f0a"
+      "video_url": "https://grok.com/imagine/post/5bb7960e-ef68-4331-9f4a-67220bcb8f0a",
+      "asset": "mapped"
     },
     {
       "id": 195,
@@ -1776,7 +1794,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/ddf0f666-dcf8-4db3-a80b-45e2c5482279",
       "executed_at": "2026-05-08T21:22:37.091461",
-      "video_url": "https://grok.com/imagine/post/ddf0f666-dcf8-4db3-a80b-45e2c5482279"
+      "video_url": "https://grok.com/imagine/post/ddf0f666-dcf8-4db3-a80b-45e2c5482279",
+      "asset": "mapped"
     },
     {
       "id": 196,
@@ -1784,7 +1803,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/d19bd575-a72d-400a-a0fa-b069120d53d5",
       "post_url": "https://grok.com/imagine/post/d19bd575-a72d-400a-a0fa-b069120d53d5",
-      "executed_at": "2026-05-08T18:18:09.392924"
+      "executed_at": "2026-05-08T18:18:09.392924",
+      "asset": "mapped"
     },
     {
       "id": 197,
@@ -1792,7 +1812,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/3ea6dce3-e64e-445f-a480-a5d842fea9e3",
       "post_url": "https://grok.com/imagine/post/3ea6dce3-e64e-445f-a480-a5d842fea9e3",
-      "executed_at": "2026-05-08T18:22:30.314127"
+      "executed_at": "2026-05-08T18:22:30.314127",
+      "asset": "mapped"
     },
     {
       "id": 198,
@@ -1800,7 +1821,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/dbf40bb1-0680-4338-a9c0-4e75588f8b5a",
       "post_url": "https://grok.com/imagine/post/dbf40bb1-0680-4338-a9c0-4e75588f8b5a",
-      "executed_at": "2026-05-08T18:32:41.589746"
+      "executed_at": "2026-05-08T18:32:41.589746",
+      "asset": "mapped"
     },
     {
       "id": 199,
@@ -1808,7 +1830,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/c43b29f8-beea-42d0-a2f0-100f189be7d3",
       "executed_at": "2026-05-08T21:32:56.045810",
-      "video_url": "https://grok.com/imagine/post/c43b29f8-beea-42d0-a2f0-100f189be7d3"
+      "video_url": "https://grok.com/imagine/post/c43b29f8-beea-42d0-a2f0-100f189be7d3",
+      "asset": "mapped"
     },
     {
       "id": 200,
@@ -1816,7 +1839,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/72bd7b8d-82e4-4263-ae27-d92b16ac067c",
       "executed_at": "2026-05-08T21:42:21.202963",
-      "video_url": "https://grok.com/imagine/post/72bd7b8d-82e4-4263-ae27-d92b16ac067c"
+      "video_url": "https://grok.com/imagine/post/72bd7b8d-82e4-4263-ae27-d92b16ac067c",
+      "asset": "mapped"
     },
     {
       "id": 201,
@@ -1824,7 +1848,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/2356290d-b385-4163-a1fc-99292d105698",
       "executed_at": "2026-05-09T09:12:19.650630",
-      "video_url": "https://grok.com/imagine/post/2356290d-b385-4163-a1fc-99292d105698"
+      "video_url": "https://grok.com/imagine/post/2356290d-b385-4163-a1fc-99292d105698",
+      "asset": "mapped"
     },
     {
       "id": 202,
@@ -1832,7 +1857,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/ceba19f5-9ea1-49c9-87ec-fc17a835d7cd",
       "executed_at": "2026-05-08T22:02:59.676079",
-      "video_url": "https://grok.com/imagine/post/ceba19f5-9ea1-49c9-87ec-fc17a835d7cd"
+      "video_url": "https://grok.com/imagine/post/ceba19f5-9ea1-49c9-87ec-fc17a835d7cd",
+      "asset": "mapped"
     },
     {
       "id": 203,
@@ -1840,7 +1866,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/5fbc9fbe-22f8-4510-bad0-fb91021409d4",
       "executed_at": "2026-05-08T22:13:04.788124",
-      "video_url": "https://grok.com/imagine/post/5fbc9fbe-22f8-4510-bad0-fb91021409d4"
+      "video_url": "https://grok.com/imagine/post/5fbc9fbe-22f8-4510-bad0-fb91021409d4",
+      "asset": "mapped"
     },
     {
       "id": 204,
@@ -1848,7 +1875,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/a03b9eca-e317-48b0-981a-8e81b806133b",
       "executed_at": "2026-05-09T19:06:02.567095",
-      "video_url": "https://grok.com/imagine/post/a03b9eca-e317-48b0-981a-8e81b806133b"
+      "video_url": "https://grok.com/imagine/post/a03b9eca-e317-48b0-981a-8e81b806133b",
+      "asset": "mapped"
     },
     {
       "id": 205,
@@ -1856,7 +1884,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/dde5294a-edba-4d7e-bc1f-44f273c60163",
       "executed_at": "2026-05-09T19:14:06.308715",
-      "video_url": "https://grok.com/imagine/post/dde5294a-edba-4d7e-bc1f-44f273c60163"
+      "video_url": "https://grok.com/imagine/post/dde5294a-edba-4d7e-bc1f-44f273c60163",
+      "asset": "mapped"
     },
     {
       "id": 206,
@@ -1864,7 +1893,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/18bb0e11-d499-4d69-a81a-76e7f5ccd198",
       "executed_at": "2026-05-09T19:22:26.259265",
-      "video_url": "https://grok.com/imagine/post/18bb0e11-d499-4d69-a81a-76e7f5ccd198"
+      "video_url": "https://grok.com/imagine/post/18bb0e11-d499-4d69-a81a-76e7f5ccd198",
+      "asset": "mapped"
     },
     {
       "id": 207,
@@ -1872,7 +1902,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/17a277a6-e181-42c9-87a2-db961213d30f",
       "executed_at": "2026-05-09T20:58:56.547485",
-      "video_url": "https://grok.com/imagine/post/17a277a6-e181-42c9-87a2-db961213d30f"
+      "video_url": "https://grok.com/imagine/post/17a277a6-e181-42c9-87a2-db961213d30f",
+      "asset": "mapped"
     },
     {
       "id": 208,
@@ -1880,7 +1911,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/f6288a92-0a4e-4752-9779-a8738b6eed7f",
       "executed_at": "2026-05-09T21:02:38.536073",
-      "video_url": "https://grok.com/imagine/post/f6288a92-0a4e-4752-9779-a8738b6eed7f"
+      "video_url": "https://grok.com/imagine/post/f6288a92-0a4e-4752-9779-a8738b6eed7f",
+      "asset": "mapped"
     },
     {
       "id": 209,
@@ -1888,7 +1920,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/c7ff57a1-fffc-49bc-9463-f9d91a712e34",
       "executed_at": "2026-05-09T10:12:52.515726",
-      "video_url": "https://grok.com/imagine/post/c7ff57a1-fffc-49bc-9463-f9d91a712e34"
+      "video_url": "https://grok.com/imagine/post/c7ff57a1-fffc-49bc-9463-f9d91a712e34",
+      "asset": "mapped"
     },
     {
       "id": 210,
@@ -1896,7 +1929,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/fb26b2b5-0d96-4f98-b0d4-be0e0f933ead",
       "executed_at": "2026-05-09T21:13:11.391369",
-      "video_url": "https://grok.com/imagine/post/fb26b2b5-0d96-4f98-b0d4-be0e0f933ead"
+      "video_url": "https://grok.com/imagine/post/fb26b2b5-0d96-4f98-b0d4-be0e0f933ead",
+      "asset": "mapped"
     },
     {
       "id": 211,
@@ -1904,7 +1938,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/c8f9b402-2cf0-40f9-9156-488366e25c47",
       "executed_at": "2026-05-09T10:32:50.821845",
-      "video_url": "https://grok.com/imagine/post/c8f9b402-2cf0-40f9-9156-488366e25c47"
+      "video_url": "https://grok.com/imagine/post/c8f9b402-2cf0-40f9-9156-488366e25c47",
+      "asset": "mapped"
     },
     {
       "id": 212,
@@ -1912,7 +1947,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/efef8234-fee3-4612-a78d-9b0faf3d86cc",
       "executed_at": "2026-05-09T10:42:36.572020",
-      "video_url": "https://grok.com/imagine/post/efef8234-fee3-4612-a78d-9b0faf3d86cc"
+      "video_url": "https://grok.com/imagine/post/efef8234-fee3-4612-a78d-9b0faf3d86cc",
+      "asset": "mapped"
     },
     {
       "id": 213,
@@ -1920,7 +1956,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/c3e4814b-9762-42af-95b7-367aca411208",
       "executed_at": "2026-05-09T21:23:14.810939",
-      "video_url": "https://grok.com/imagine/post/c3e4814b-9762-42af-95b7-367aca411208"
+      "video_url": "https://grok.com/imagine/post/c3e4814b-9762-42af-95b7-367aca411208",
+      "asset": "mapped"
     },
     {
       "id": 214,
@@ -1928,7 +1965,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/79a3eff3-432d-4e36-b1c7-ba083fcb776e",
       "executed_at": "2026-05-09T21:32:44.416668",
-      "video_url": "https://grok.com/imagine/post/79a3eff3-432d-4e36-b1c7-ba083fcb776e"
+      "video_url": "https://grok.com/imagine/post/79a3eff3-432d-4e36-b1c7-ba083fcb776e",
+      "asset": "mapped"
     },
     {
       "id": 215,
@@ -1936,7 +1974,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/70af868d-4714-4387-b5f9-40c35d670437",
       "executed_at": "2026-05-09T11:12:27.837463",
-      "video_url": "https://grok.com/imagine/post/70af868d-4714-4387-b5f9-40c35d670437"
+      "video_url": "https://grok.com/imagine/post/70af868d-4714-4387-b5f9-40c35d670437",
+      "asset": "mapped"
     },
     {
       "id": 216,
@@ -1944,7 +1983,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/6cf7aa47-419c-4e8c-87b4-eb7aad3f8b37",
       "executed_at": "2026-05-09T21:43:15.851204",
-      "video_url": "https://grok.com/imagine/post/6cf7aa47-419c-4e8c-87b4-eb7aad3f8b37"
+      "video_url": "https://grok.com/imagine/post/6cf7aa47-419c-4e8c-87b4-eb7aad3f8b37",
+      "asset": "mapped"
     },
     {
       "id": 217,
@@ -1952,7 +1992,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/c2dfbe40-24fb-438f-a9e3-a1845b7117cb",
       "executed_at": "2026-05-09T11:28:52.217852",
-      "video_url": "https://grok.com/imagine/post/c2dfbe40-24fb-438f-a9e3-a1845b7117cb"
+      "video_url": "https://grok.com/imagine/post/c2dfbe40-24fb-438f-a9e3-a1845b7117cb",
+      "asset": "mapped"
     },
     {
       "id": 218,
@@ -1960,7 +2001,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/d0480c8d-d6c2-4166-b1f3-092edd7e412e",
       "executed_at": "2026-05-09T21:52:33.355582",
-      "video_url": "https://grok.com/imagine/post/d0480c8d-d6c2-4166-b1f3-092edd7e412e"
+      "video_url": "https://grok.com/imagine/post/d0480c8d-d6c2-4166-b1f3-092edd7e412e",
+      "asset": "mapped"
     },
     {
       "id": 219,
@@ -1968,7 +2010,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/9b4a3ee4-e056-414e-b255-a2b55b187626",
       "executed_at": "2026-05-09T11:42:27.078519",
-      "video_url": "https://grok.com/imagine/post/9b4a3ee4-e056-414e-b255-a2b55b187626"
+      "video_url": "https://grok.com/imagine/post/9b4a3ee4-e056-414e-b255-a2b55b187626",
+      "asset": "mapped"
     },
     {
       "id": 220,
@@ -1976,7 +2019,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/876a0fb6-3507-4773-9afb-b7c1f720bb4f",
       "executed_at": "2026-05-09T22:02:42.185330",
-      "video_url": "https://grok.com/imagine/post/876a0fb6-3507-4773-9afb-b7c1f720bb4f"
+      "video_url": "https://grok.com/imagine/post/876a0fb6-3507-4773-9afb-b7c1f720bb4f",
+      "asset": "mapped"
     },
     {
       "id": 221,
@@ -1984,7 +2028,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/47d12725-5a78-416e-9d30-bbdb51d50fda",
       "executed_at": "2026-05-09T22:13:15.363249",
-      "video_url": "https://grok.com/imagine/post/47d12725-5a78-416e-9d30-bbdb51d50fda"
+      "video_url": "https://grok.com/imagine/post/47d12725-5a78-416e-9d30-bbdb51d50fda",
+      "asset": "mapped"
     },
     {
       "id": 222,
@@ -1992,7 +2037,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/fabe6d5c-b0e6-4404-844a-5b5d130ea3ca",
       "executed_at": "2026-05-09T23:52:28.216707",
-      "video_url": "https://grok.com/imagine/post/fabe6d5c-b0e6-4404-844a-5b5d130ea3ca"
+      "video_url": "https://grok.com/imagine/post/fabe6d5c-b0e6-4404-844a-5b5d130ea3ca",
+      "asset": "mapped"
     },
     {
       "id": 223,
@@ -2000,7 +2046,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/7572e0aa-9c25-4938-9ed8-184438e14d7d",
       "executed_at": "2026-05-10T00:02:35.847553",
-      "video_url": "https://grok.com/imagine/post/7572e0aa-9c25-4938-9ed8-184438e14d7d"
+      "video_url": "https://grok.com/imagine/post/7572e0aa-9c25-4938-9ed8-184438e14d7d",
+      "asset": "mapped"
     },
     {
       "id": 224,
@@ -2008,7 +2055,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/62eb8ba2-1716-4407-a68d-59294b1ad168",
       "executed_at": "2026-05-10T00:12:58.378043",
-      "video_url": "https://grok.com/imagine/post/62eb8ba2-1716-4407-a68d-59294b1ad168"
+      "video_url": "https://grok.com/imagine/post/62eb8ba2-1716-4407-a68d-59294b1ad168",
+      "asset": "mapped"
     },
     {
       "id": 225,
@@ -2016,7 +2064,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/9e1e1403-3076-45b9-ac0c-328a6209a9e6",
       "executed_at": "2026-05-10T00:22:36.492204",
-      "video_url": "https://grok.com/imagine/post/9e1e1403-3076-45b9-ac0c-328a6209a9e6"
+      "video_url": "https://grok.com/imagine/post/9e1e1403-3076-45b9-ac0c-328a6209a9e6",
+      "asset": "mapped"
     },
     {
       "id": 226,
@@ -2024,7 +2073,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/5ef0cbea-e55d-4327-b2f1-0a59619b00c9",
       "executed_at": "2026-05-09T12:49:57.484371",
-      "video_url": "https://grok.com/imagine/post/5ef0cbea-e55d-4327-b2f1-0a59619b00c9"
+      "video_url": "https://grok.com/imagine/post/5ef0cbea-e55d-4327-b2f1-0a59619b00c9",
+      "asset": "mapped"
     },
     {
       "id": 227,
@@ -2032,7 +2082,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/bfdaf157-7c50-4dc2-831b-6146591baac2",
       "executed_at": "2026-05-09T12:53:11.964232",
-      "video_url": "https://grok.com/imagine/post/bfdaf157-7c50-4dc2-831b-6146591baac2"
+      "video_url": "https://grok.com/imagine/post/bfdaf157-7c50-4dc2-831b-6146591baac2",
+      "asset": "mapped"
     },
     {
       "id": 228,
@@ -2040,7 +2091,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/4d488bfd-294c-4eb9-a004-adb4c41ce6e0",
       "executed_at": "2026-05-09T13:02:58.349076",
-      "video_url": "https://grok.com/imagine/post/4d488bfd-294c-4eb9-a004-adb4c41ce6e0"
+      "video_url": "https://grok.com/imagine/post/4d488bfd-294c-4eb9-a004-adb4c41ce6e0",
+      "asset": "mapped"
     },
     {
       "id": 229,
@@ -2048,7 +2100,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/0044595f-2ca1-4db4-b10f-9611c12f792b",
       "executed_at": "2026-05-09T14:26:49.028389",
-      "video_url": "https://grok.com/imagine/post/0044595f-2ca1-4db4-b10f-9611c12f792b"
+      "video_url": "https://grok.com/imagine/post/0044595f-2ca1-4db4-b10f-9611c12f792b",
+      "asset": "mapped"
     },
     {
       "id": 230,
@@ -2056,7 +2109,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/fbc538c8-614c-4f6b-9e5f-eee02fe7ae4c",
       "executed_at": "2026-05-09T14:33:00.159949",
-      "video_url": "https://grok.com/imagine/post/fbc538c8-614c-4f6b-9e5f-eee02fe7ae4c"
+      "video_url": "https://grok.com/imagine/post/fbc538c8-614c-4f6b-9e5f-eee02fe7ae4c",
+      "asset": "mapped"
     },
     {
       "id": 231,
@@ -2064,7 +2118,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/c781f8ec-7d82-4f58-97f4-5b78904695a9",
       "executed_at": "2026-05-10T00:32:29.326497",
-      "video_url": "https://grok.com/imagine/post/c781f8ec-7d82-4f58-97f4-5b78904695a9"
+      "video_url": "https://grok.com/imagine/post/c781f8ec-7d82-4f58-97f4-5b78904695a9",
+      "asset": "mapped"
     },
     {
       "id": 232,
@@ -2072,7 +2127,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/926bf628-6a60-4885-b7a4-9d9d7b3a7f8d",
       "executed_at": "2026-05-10T00:42:29.676217",
-      "video_url": "https://grok.com/imagine/post/926bf628-6a60-4885-b7a4-9d9d7b3a7f8d"
+      "video_url": "https://grok.com/imagine/post/926bf628-6a60-4885-b7a4-9d9d7b3a7f8d",
+      "asset": "mapped"
     },
     {
       "id": 233,
@@ -2080,7 +2136,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/61917e94-b88e-4ab0-ada6-b5b622f61c97",
       "executed_at": "2026-05-10T00:52:37.961729",
-      "video_url": "https://grok.com/imagine/post/61917e94-b88e-4ab0-ada6-b5b622f61c97"
+      "video_url": "https://grok.com/imagine/post/61917e94-b88e-4ab0-ada6-b5b622f61c97",
+      "asset": "mapped"
     },
     {
       "id": 234,
@@ -2088,7 +2145,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/57ae11aa-a0f2-49f7-a773-e7d24461d59f",
       "executed_at": "2026-05-10T01:02:36.769946",
-      "video_url": "https://grok.com/imagine/post/57ae11aa-a0f2-49f7-a773-e7d24461d59f"
+      "video_url": "https://grok.com/imagine/post/57ae11aa-a0f2-49f7-a773-e7d24461d59f",
+      "asset": "mapped"
     },
     {
       "id": 235,
@@ -2096,7 +2154,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/e517d069-a568-4d55-9c45-fe3787218df8",
       "executed_at": "2026-05-10T01:12:54.956440",
-      "video_url": "https://grok.com/imagine/post/e517d069-a568-4d55-9c45-fe3787218df8"
+      "video_url": "https://grok.com/imagine/post/e517d069-a568-4d55-9c45-fe3787218df8",
+      "asset": "mapped"
     },
     {
       "id": 236,
@@ -2104,7 +2163,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/f12e4b3b-9726-4b8c-ba9e-47e459cced35",
       "executed_at": "2026-05-10T01:23:06.144980",
-      "video_url": "https://grok.com/imagine/post/f12e4b3b-9726-4b8c-ba9e-47e459cced35"
+      "video_url": "https://grok.com/imagine/post/f12e4b3b-9726-4b8c-ba9e-47e459cced35",
+      "asset": "mapped"
     },
     {
       "id": 237,
@@ -2112,7 +2172,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/5feac119-c75f-43ff-b9cc-da6fe370b191",
       "executed_at": "2026-05-10T01:31:55.323177",
-      "video_url": "https://grok.com/imagine/post/5feac119-c75f-43ff-b9cc-da6fe370b191"
+      "video_url": "https://grok.com/imagine/post/5feac119-c75f-43ff-b9cc-da6fe370b191",
+      "asset": "mapped"
     },
     {
       "id": 238,
@@ -2120,7 +2181,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/8510f395-f9d9-47fb-aa68-6b43d5fbaeae",
       "executed_at": "2026-05-10T01:42:29.069551",
-      "video_url": "https://grok.com/imagine/post/8510f395-f9d9-47fb-aa68-6b43d5fbaeae"
+      "video_url": "https://grok.com/imagine/post/8510f395-f9d9-47fb-aa68-6b43d5fbaeae",
+      "asset": "mapped"
     },
     {
       "id": 239,
@@ -2128,7 +2190,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/6d2f4323-b4c7-4854-8524-712b136f6c66",
       "executed_at": "2026-05-10T01:53:07.640864",
-      "video_url": "https://grok.com/imagine/post/6d2f4323-b4c7-4854-8524-712b136f6c66"
+      "video_url": "https://grok.com/imagine/post/6d2f4323-b4c7-4854-8524-712b136f6c66",
+      "asset": "mapped"
     },
     {
       "id": 240,
@@ -2136,7 +2199,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/626d79d4-6eb4-4685-adf7-ca29b2f8d016",
       "executed_at": "2026-05-10T02:03:05.778796",
-      "video_url": "https://grok.com/imagine/post/626d79d4-6eb4-4685-adf7-ca29b2f8d016"
+      "video_url": "https://grok.com/imagine/post/626d79d4-6eb4-4685-adf7-ca29b2f8d016",
+      "asset": "mapped"
     },
     {
       "id": 241,
@@ -2144,7 +2208,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/0d4fe58c-2b99-408a-a738-4e00e81b1cea",
       "executed_at": "2026-05-10T02:12:35.989378",
-      "video_url": "https://grok.com/imagine/post/0d4fe58c-2b99-408a-a738-4e00e81b1cea"
+      "video_url": "https://grok.com/imagine/post/0d4fe58c-2b99-408a-a738-4e00e81b1cea",
+      "asset": "mapped"
     },
     {
       "id": 242,
@@ -2152,7 +2217,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/596dfcbb-acaf-41f5-acd3-de43573a368b",
       "executed_at": "2026-05-10T02:22:55.023979",
-      "video_url": "https://grok.com/imagine/post/596dfcbb-acaf-41f5-acd3-de43573a368b"
+      "video_url": "https://grok.com/imagine/post/596dfcbb-acaf-41f5-acd3-de43573a368b",
+      "asset": "mapped"
     },
     {
       "id": 243,
@@ -2160,7 +2226,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/c5e3c093-3900-4383-b447-1e097ceb70ef",
       "executed_at": "2026-05-10T02:33:05.261239",
-      "video_url": "https://grok.com/imagine/post/c5e3c093-3900-4383-b447-1e097ceb70ef"
+      "video_url": "https://grok.com/imagine/post/c5e3c093-3900-4383-b447-1e097ceb70ef",
+      "asset": "mapped"
     },
     {
       "id": 244,
@@ -2168,7 +2235,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/aa59180b-3cdc-4aa3-94f8-8be5c5daa619",
       "executed_at": "2026-05-10T02:42:58.970030",
-      "video_url": "https://grok.com/imagine/post/aa59180b-3cdc-4aa3-94f8-8be5c5daa619"
+      "video_url": "https://grok.com/imagine/post/aa59180b-3cdc-4aa3-94f8-8be5c5daa619",
+      "asset": "mapped"
     },
     {
       "id": 245,
@@ -2176,7 +2244,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/0190a8f9-8e6b-436f-8823-b2d00a9b02d6",
       "executed_at": "2026-05-10T02:52:57.807773",
-      "video_url": "https://grok.com/imagine/post/0190a8f9-8e6b-436f-8823-b2d00a9b02d6"
+      "video_url": "https://grok.com/imagine/post/0190a8f9-8e6b-436f-8823-b2d00a9b02d6",
+      "asset": "mapped"
     },
     {
       "id": 246,
@@ -2184,133 +2253,148 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/f9954cec-0d25-4f0e-bf01-9cc3f38da32b",
       "executed_at": "2026-05-10T03:02:55.090441",
-      "video_url": "https://grok.com/imagine/post/f9954cec-0d25-4f0e-bf01-9cc3f38da32b"
+      "video_url": "https://grok.com/imagine/post/f9954cec-0d25-4f0e-bf01-9cc3f38da32b",
+      "asset": "mapped"
     },
     {
       "id": 247,
       "prompt": "An ultra-realistic, highly detailed fresh Greek salad in a white bowl, cucumbers, tomatoes, olives, feta cheese, red onion, oregano dressing. Aspect ratio 9:16 portrait",
-      "status": "video_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-10T03:14:38.649715"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/240a3e1e-41b7-4904-baa5-86695980dca2",
+      "executed_at": "2026-05-10T18:43:17.416694",
+      "video_url": "https://grok.com/imagine/post/240a3e1e-41b7-4904-baa5-86695980dca2",
+      "asset": "mapped"
     },
     {
       "id": 248,
       "prompt": "An ultra-realistic, highly detailed warm bread pudding with raisins, drizzled with bourbon caramel sauce, vanilla ice cream melting. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-10T03:24:31.096220"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/f5d525d0-3962-4c72-b809-96d77c2d32f5",
+      "executed_at": "2026-05-10T18:52:56.053281",
+      "video_url": "https://grok.com/imagine/post/f5d525d0-3962-4c72-b809-96d77c2d32f5",
+      "asset": "mapped"
     },
     {
       "id": 249,
       "prompt": "An ultra-realistic, highly detailed crispy coconut-crusted tilapia fillets on a plate with mango salsa and lime cilantro rice. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-10T03:34:32.100793"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/6519ff58-9797-4909-b1d7-2e509bbed5c8",
+      "executed_at": "2026-05-10T19:02:42.712892",
+      "video_url": "https://grok.com/imagine/post/6519ff58-9797-4909-b1d7-2e509bbed5c8",
+      "asset": "mapped"
     },
     {
       "id": 250,
       "prompt": "An ultra-realistic, highly detailed hand-held chicken Caesar wrap with crisp lettuce, parmesan, croutons, and creamy dressing in a spinach tortilla. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-10T03:44:03.818570"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/b2541078-41c3-4fe8-8cbe-1e8ff150a99d",
+      "executed_at": "2026-05-10T19:12:27.895762",
+      "video_url": "https://grok.com/imagine/post/b2541078-41c3-4fe8-8cbe-1e8ff150a99d",
+      "asset": "mapped"
     },
     {
       "id": 251,
       "prompt": "An ultra-realistic, highly detailed highly detailed crispy lemon herb roasted chicken on a rustic cutting board, golden shatteringly crisp skin, fresh rosemary and thyme sprigs, lemon wedges, steam rising. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-10T03:54:31.767394"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/21b52f26-b629-4fc8-b597-a31780931b52",
+      "executed_at": "2026-05-10T19:22:53.164353",
+      "video_url": "https://grok.com/imagine/post/21b52f26-b629-4fc8-b597-a31780931b52",
+      "asset": "mapped"
     },
     {
       "id": 252,
       "prompt": "An ultra-realistic, highly detailed highly detailed garlic butter shrimp scampi over linguine, plump pink shrimp glistening in a buttery lemon garlic sauce, fresh parsley, parmesan shavings. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-10T04:04:31.842673"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/754cee0b-3552-418b-9189-070a868e8af2",
+      "executed_at": "2026-05-10T19:32:54.930186",
+      "video_url": "https://grok.com/imagine/post/754cee0b-3552-418b-9189-070a868e8af2",
+      "asset": "mapped"
     },
     {
       "id": 253,
       "prompt": "An ultra-realistic, highly detailed highly detailed creamy wild mushroom risotto in a deep bowl, caramelized mixed mushrooms, truffle oil drizzle, shaved parmesan, steam wisps. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T04:14:31.549789"
     },
     {
       "id": 254,
       "prompt": "An ultra-realistic, highly detailed highly detailed fluffy Japanese souffle pancakes stacked tall, jiggling gently, topped with fresh strawberries and whipped cream, bright airy lighting. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T04:24:02.844816"
     },
     {
       "id": 255,
       "prompt": "An ultra-realistic, highly detailed highly detailed herb-crusted baked salmon fillets, golden panko crust, fresh dill, lemon wedges, roasted asparagus on the side. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T04:34:31.674085"
     },
     {
       "id": 256,
       "prompt": "An ultra-realistic, highly detailed highly detailed Mediterranean chickpea salad in a white bowl, vibrant cherry tomatoes, cucumber, kalamata olives, feta crumbles, fresh mint, lemon dressing. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T04:44:02.380468"
     },
     {
       "id": 257,
       "prompt": "An ultra-realistic, highly detailed highly detailed crispy air fryer chicken wings in a basket, golden and glistening, blue cheese dressing and celery sticks on the side. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T04:54:32.080758"
     },
     {
       "id": 258,
       "prompt": "An ultra-realistic, highly detailed highly detailed dark chocolate avocado mousse in crystal glasses, silky smooth texture, topped with fresh raspberries and chocolate shavings. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T05:04:31.805177"
     },
     {
       "id": 259,
       "prompt": "An ultra-realistic, highly detailed highly detailed Thai coconut chicken soup in a ceramic bowl, creamy broth with galangal and lemongrass, tender chicken, kaffir lime leaves, fresh cilantro. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T05:14:33.236941"
     },
     {
       "id": 260,
       "prompt": "An ultra-realistic, highly detailed highly detailed blueberry lemon ricotta pancakes stacked high, golden fluffy edges, fresh blueberries bursting, maple syrup dripping down. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T05:24:16.604115"
     },
     {
       "id": 261,
       "prompt": "An ultra-realistic, highly detailed highly detailed cacio e pepe pasta in a deep bowl, glossy pecorino romano sauce clinging to spaghetti, cracked black pepper, steam rising. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-10T05:34:48.233040"
     },
     {
       "id": 262,
       "prompt": "An ultra-realistic, highly detailed highly detailed coconut curry mussels in a wide pot, plump mussels open in creamy red curry broth, fresh cilantro, crusty bread on the side. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T08:14:15.339808"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/b3cdc6ad-0141-4752-8459-d03c12a02b24",
+      "executed_at": "2026-05-10T17:23:33.535211",
+      "video_url": "https://grok.com/imagine/post/b3cdc6ad-0141-4752-8459-d03c12a02b24",
+      "asset": "mapped"
     },
     {
       "id": 263,
       "prompt": "An ultra-realistic, highly detailed highly detailed honey garlic glazed chicken thighs on a platter, sticky golden glaze, charred edges, sesame seeds, sliced scallions. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T08:24:17.136213"
+      "executed_at": "2026-05-10T17:34:54.194790"
     },
     {
       "id": 264,
       "prompt": "An ultra-realistic, highly detailed highly detailed watermelon feta salad on a platter, ice-cold watermelon cubes, crumbled feta, fresh mint leaves, balsamic glaze drizzle. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T08:34:16.415056"
+      "executed_at": "2026-05-10T17:44:48.188403"
     },
     {
       "id": 265,
@@ -2318,35 +2402,36 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/4f051686-f355-4084-a5f1-ba67b66d7777",
       "executed_at": "2026-05-09T08:37:58.570066",
-      "video_url": "https://grok.com/imagine/post/4f051686-f355-4084-a5f1-ba67b66d7777"
+      "video_url": "https://grok.com/imagine/post/4f051686-f355-4084-a5f1-ba67b66d7777",
+      "asset": "mapped"
     },
     {
       "id": 266,
       "prompt": "An ultra-realistic, highly detailed highly detailed Caprese stuffed garlic bread, ciabatta loaf split open, melted mozzarella, cherry tomatoes, fresh basil, balsamic glaze. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T06:00:00"
+      "executed_at": "2026-05-10T17:54:50.542683"
     },
     {
       "id": 267,
       "prompt": "An ultra-realistic, highly detailed highly detailed pan-seared scallops on vibrant green pea puree, golden crusts, fresh mint leaves, elegant plating. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T06:10:00"
+      "executed_at": "2026-05-10T18:04:48.955643"
     },
     {
       "id": 268,
       "prompt": "An ultra-realistic, highly detailed highly detailsd decadent chocolate fondant in a ramekin, molten center flowing out onto the plate, vanilla ice cream melting alongside. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T06:20:00"
+      "executed_at": "2026-05-10T18:14:49.885767"
     },
     {
       "id": 269,
       "prompt": "An ultra-realistic, highly detailed highly detailed tandoori chicken tikka skewers, charred and blistered from high heat, vibrant red-orange color, lemon wedges, cilantro. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-09T06:30:00"
+      "executed_at": "2026-05-10T18:24:52.031916"
     },
     {
       "id": 270,
