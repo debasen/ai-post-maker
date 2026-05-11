@@ -95,6 +95,11 @@ fb_upload() {
     _fb_bos upload -p "$PAGE_ID" "$ref" "$file"
 }
 
+fb_key() {
+    local key="$1"
+    _fb_bos key -p "$PAGE_ID" "$key"
+}
+
 fb_text() {
     _fb_bos text -p "$PAGE_ID"
 }
@@ -204,30 +209,49 @@ load_or_generate_schedule() {
         log INFO "Loading schedule from: $schedule_path"
     else
         schedule_path="$REPO_ROOT/project-$PROJECT_ID/schedule.json"
-        if [ -f "$schedule_path" ]; then
-            log INFO "Existing schedule found: $schedule_path"
-        else
-            log INFO "Generating new schedule..."
-            python3 "$REPO_ROOT/scripts/generate_reel_schedule.py" > "$schedule_path"
-            log INFO "Schedule saved to: $schedule_path"
-        fi
+        log INFO "Ensuring schedule exists for project-$PROJECT_ID..."
+        python3 "$REPO_ROOT/scripts/generate_reel_schedule.py" --project "$PROJECT_ID"
+        log INFO "Schedule path: $schedule_path"
     fi
 
-    # Read schedule entries into array
+    # Read schedule entries, normalize status fields
     local json_content
     json_content=$(cat "$schedule_path")
+
+    # Normalize: add status="pending" if missing
+    json_content=$(echo "$json_content" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+for entry in data:
+    if 'status' not in entry:
+        entry['status'] = 'pending'
+json.dump(data, sys.stdout, indent=2)
+")
+
+    # Save normalized version back
+    echo "$json_content" > "$schedule_path"
+
+    # Filter to unscheduled entries only
+    local unscheduled
+    unscheduled=$(echo "$json_content" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+unscheduled = [e for e in data if e.get('status') != 'scheduled']
+json.dump(unscheduled, sys.stdout, indent=2)
+")
+
     local entry_count
-    entry_count=$(echo "$json_content" | jq 'length')
+    entry_count=$(echo "$unscheduled" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))")
 
     if [ "$entry_count" -eq 0 ]; then
-        log FATAL "Schedule is empty"
+        log FATAL "No unscheduled entries in schedule"
     fi
 
-    log INFO "Schedule entries: $entry_count"
+    log INFO "Unscheduled entries: $entry_count"
 
-    # Store entries in a global temp file for indexed access
+    # Store unscheduled entries in a global temp file for indexed access
     SCHEDULE_TEMP="$(mktemp)"
-    echo "$json_content" | jq -c '.[]' > "$SCHEDULE_TEMP"
+    echo "$unscheduled" | jq -c '.[]' > "$SCHEDULE_TEMP"
 }
 
 get_schedule_entry() {
@@ -241,6 +265,47 @@ get_schedule_entry() {
     SCHEDULE_DAY=$(echo "$line" | jq -r '.day')
     SCHEDULE_TIME=$(echo "$line" | jq -r '.time')
     return 0
+}
+
+mark_schedule_entry_done() {
+    local date="$1"
+    local time="$2"
+
+    local schedule_path
+    if [ -n "$SCHEDULE_FILE" ]; then
+        schedule_path="$SCHEDULE_FILE"
+    else
+        schedule_path="$REPO_ROOT/project-$PROJECT_ID/schedule.json"
+    fi
+
+    if [ ! -f "$schedule_path" ]; then
+        log WARN "Schedule file not found for marking done: $schedule_path"
+        return 1
+    fi
+
+    python3 -c "
+import json
+path = '$schedule_path'
+date = '$date'
+time = '$time'
+
+with open(path, 'r') as f:
+    data = json.load(f)
+
+marked = False
+for entry in data:
+    if entry.get('date') == date and entry.get('time') == time and entry.get('status') != 'scheduled':
+        entry['status'] = 'scheduled'
+        marked = True
+        break
+
+if marked:
+    with open(path, 'w') as f:
+        json.dump(data, f, indent=2)
+    print('marked')
+else:
+    print('not_found')
+" > /dev/null
 }
 
 # ─── Phase 1: Identify Project and Asset ───────────────────────────────────────
@@ -330,6 +395,10 @@ phase_3_open_page() {
     log INFO "Page loaded successfully"
 }
 
+fb_scroll_down() {
+    _fb_bos scroll -p "$PAGE_ID" down
+}
+
 # ─── Phase 4: Open "Create Reel" Dialog ────────────────────────────────────────
 
 phase_4_open_dialog() {
@@ -337,6 +406,12 @@ phase_4_open_dialog() {
 
     local create_ref
     create_ref=$(fb_get_snap_ref 'button "Create reel"')
+    if [ -z "$create_ref" ]; then
+        log INFO "'Create reel' not in initial snapshot, scrolling down..."
+        fb_scroll_down
+        sleep 2
+        create_ref=$(fb_get_snap_ref 'button "Create reel"')
+    fi
     if [ -z "$create_ref" ]; then
         log FATAL "Could not find 'Create reel' button in snapshot"
     fi
@@ -551,42 +626,25 @@ phase_8_final_review() {
 phase_9_open_scheduling() {
     log_section "Phase 9: Open Scheduling Options"
 
-    # Find scheduling trigger via snapshot
+    log INFO "Finding 'Scheduling options' button..."
     local sched_ref
-    sched_ref=$(fb_get_snap_ref 'button "Scheduling options"')
+    sched_ref=$(fb_get_snap_ref 'Scheduling options')
     if [ -z "$sched_ref" ]; then
-        sched_ref=$(fb_get_snap_ref 'div "Scheduling options"')
+        sched_ref=$(fb_get_snap_ref 'Publish now')
     fi
     if [ -z "$sched_ref" ]; then
-        # Fallback: look via JS for any button containing "Scheduling"
-        sched_ref=$(fb_eval_result "(function() { var btns = Array.from(document.querySelectorAll('div[role=\"button\"], button')); for (var i = 0; i < btns.length; i++) { var b = btns[i]; var txt = b.innerText || b.textContent || ''; if (txt.toLowerCase().includes('scheduling options')) return i; } return ''; })()")
-    fi
-
-    if [ -z "$sched_ref" ]; then
-        log WARN "Could not find 'Scheduling options' trigger via snapshot or JS"
-        local snap_debug
-        snap_debug=$(fb_snap)
-        log_save_artifact "phase9_snapshot" "$snap_debug"
-        log FATAL "Could not find 'Scheduling options' trigger (snapshot saved to log dir)"
+        log FATAL "Could not find 'Scheduling options' button in snapshot"
     fi
 
     log INFO "Clicking scheduling trigger (ref: $sched_ref)..."
     fb_click "$sched_ref"
     sleep 3
 
-    # Verify popup opened - look for date picker or "Schedule for later" button
-    local popup_check
-    popup_check=$(fb_eval_result "!!document.querySelector('button[aria-label*=\"Date Picker\"]') || !!document.querySelector('button[aria-label*=\"Time Picker\"]')")
-    if [ "$popup_check" != "true" ]; then
-        # Try broader check
-        popup_check=$(fb_eval_result "document.body.innerText.includes('Schedule for later')")
-    fi
-    if [ "$popup_check" != "true" ]; then
-        log WARN "Scheduling popup not immediately detected, waiting..."
-        sleep 3
-        popup_check=$(fb_eval_result "document.body.innerText.includes('Schedule for later')")
-    fi
-    if [ "$popup_check" != "true" ]; then
+    log INFO "Verifying scheduling popup opened..."
+    local popup_text
+    popup_text=$(fb_snap)
+    if ! echo "$popup_text" | grep -q "Open Date Picker" && \
+       ! echo "$popup_text" | grep -q "Schedule for later"; then
         log FATAL "Scheduling popup not detected"
     fi
 
@@ -598,86 +656,78 @@ phase_9_open_scheduling() {
 phase_10_fill_datetime() {
     log_section "Phase 10: Fill Date and Time"
 
-    # Parse current schedule entry
-    # SCHEDULE_DATE, SCHEDULE_DAY, SCHEDULE_TIME are set by get_schedule_entry
+    local sched_year="${SCHEDULE_DATE:0:4}"
+    local sched_month_num="${SCHEDULE_DATE:5:2}"
+    local sched_day="${SCHEDULE_DATE:8:2}"
+    local sched_month=""
+    case "$sched_month_num" in
+        01) sched_month="January" ;;
+        02) sched_month="February" ;;
+        03) sched_month="March" ;;
+        04) sched_month="April" ;;
+        05) sched_month="May" ;;
+        06) sched_month="June" ;;
+        07) sched_month="July" ;;
+        08) sched_month="August" ;;
+        09) sched_month="September" ;;
+        10) sched_month="October" ;;
+        11) sched_month="November" ;;
+        12) sched_month="December" ;;
+    esac
 
-    # Format date for Facebook UI: "11 May 2026"
-    local fb_date
-    fb_date=$(python3 -c "from datetime import datetime; print(datetime.strptime('$SCHEDULE_DATE', '%Y-%m-%d').strftime('%d %B %Y'))")
-
-    # Format time: HH:MM (strip seconds)
-    local fb_time
-    fb_time="${SCHEDULE_TIME%:*}"  # e.g., 09:29
+    local fb_date="$sched_day $sched_month $sched_year"
+    local fb_time="${SCHEDULE_TIME:0:5}"
 
     log INFO "Setting date: $fb_date, time: $fb_time"
 
-    # ── Date: click the date picker button, then use JS to select the date ──
+    # -- Date selection --
+    log INFO "Clicking 'Date' to open date picker..."
+    local date_label_ref
+    date_label_ref=$(fb_get_snap_ref 'clickable "Date"')
+    if [ -z "$date_label_ref" ]; then
+        log FATAL "Could not find 'Date' clickable in snapshot"
+    fi
+    fb_click "$date_label_ref"
+    sleep 2
+
+    log INFO "Taking snapshot to find date cell..."
+    local snapshot_text
+    snapshot_text=$(fb_snap)
+
     local date_ref
-    date_ref=$(fb_get_snap_ref 'button "Open Date Picker"')
-    if [ -n "$date_ref" ]; then
-        log INFO "Clicking date picker (ref: $date_ref)..."
-        fb_click "$date_ref"
-        sleep 2
+    date_ref=$(echo "$snapshot_text" | grep -i "$fb_date" | awk 'length < 100' | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+
+    if [ -z "$date_ref" ]; then
+        log FATAL "Could not find date cell for $fb_date in calendar snapshot"
     fi
 
-    # Use JS to find and click the correct date cell
-    local date_set
-    date_set=$(fb_eval_result "(function() {
-        var target = '$fb_date';
-        var cells = document.querySelectorAll('[role=\"dialog\"] [role=\"gridcell\"], [role=\"dialog\"] td, [role=\"dialog\"] [class*=\"calendar\"] *');
-        for (var i = 0; i < cells.length; i++) {
-            var txt = cells[i].getAttribute('aria-label') || cells[i].innerText || '';
-            if (txt.trim() === target || txt.includes(target)) {
-                cells[i].click();
-                return 'clicked: ' + txt;
-            }
-        }
-        // Fallback: try to find any clickable containing the date
-        var all = document.querySelectorAll('[role=\"dialog\"] *');
-        for (var i = 0; i < all.length; i++) {
-            var txt = all[i].getAttribute('aria-label') || '';
-            if (txt.includes(target)) {
-                all[i].click();
-                return 'clicked fallback: ' + txt;
-            }
-        }
-        return 'date not found in calendar';
-    })()")
-    log DEBUG "Date selection result: $date_set"
-    sleep 1
+    log INFO "Clicking date cell (ref: $date_ref)..."
+    fb_click "$date_ref"
+    sleep 2
 
-    # ── Time: use JS to find the input and set value directly ──
-    local time_set
-    time_set=$(fb_eval_result "(function() {
-        var timeValue = '$fb_time';
-        // Find input near 'Time' label
-        var timeLabel = Array.from(document.querySelectorAll('*')).find(function(e) {
-            return (e.innerText || '').trim() === 'Time';
-        });
-        if (timeLabel) {
-            var parent = timeLabel.parentElement;
-            var input = parent.querySelector('input, select');
-            if (input) {
-                input.value = timeValue;
-                input.dispatchEvent(new Event('input', {bubbles: true}));
-                input.dispatchEvent(new Event('change', {bubbles: true}));
-                return 'set time to ' + timeValue;
-            }
-        }
-        // Fallback: search by aria-label
-        var inputs = document.querySelectorAll('input, select');
-        for (var i = 0; i < inputs.length; i++) {
-            var label = (inputs[i].getAttribute('aria-label') || '').toLowerCase();
-            if (label.includes('time')) {
-                inputs[i].value = timeValue;
-                inputs[i].dispatchEvent(new Event('change', {bubbles: true}));
-                return 'set time via aria-label to ' + timeValue;
-            }
-        }
-        return 'time input not found';
-    })()")
-    log DEBUG "Time selection result: $time_set"
-    sleep 1
+    # -- Time selection --
+    log INFO "Clicking 'Time' to open time picker..."
+    local time_label_ref
+    time_label_ref=$(fb_get_snap_ref 'clickable "Time"')
+    if [ -z "$time_label_ref" ]; then
+        log FATAL "Could not find 'Time' clickable in snapshot"
+    fi
+    fb_click "$time_label_ref"
+    sleep 2
+
+    log INFO "Taking snapshot to find time option..."
+    snapshot_text=$(fb_snap)
+
+    local time_ref
+    time_ref=$(echo "$snapshot_text" | grep "option \"$fb_time\"" | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+
+    if [ -z "$time_ref" ]; then
+        log FATAL "Could not find time option $fb_time in snapshot"
+    fi
+
+    log INFO "Clicking time option (ref: $time_ref)..."
+    fb_click "$time_ref"
+    sleep 2
 
     log INFO "Date and time filled"
 }
@@ -687,36 +737,18 @@ phase_10_fill_datetime() {
 phase_11_click_schedule() {
     log_section "Phase 11: Click Schedule"
 
+    log INFO "Finding 'Schedule for later' button..."
     local sched_btn_ref
     sched_btn_ref=$(fb_get_snap_ref 'button "Schedule for later"')
     if [ -z "$sched_btn_ref" ]; then
-        sched_btn_ref=$(fb_get_snap_ref 'div "Schedule for later"')
-    fi
-    if [ -z "$sched_btn_ref" ]; then
-        # Try via JS
-        sched_btn_ref=$(fb_eval_result "(function() { var btns = Array.from(document.querySelectorAll('div[role=\"button\"], button')); for (var i = 0; i < btns.length; i++) { var b = btns[i]; var txt = b.innerText || b.textContent || ''; if (txt.trim() === 'Schedule for later') return i; } return ''; })()")
-    fi
-
-    if [ -z "$sched_btn_ref" ]; then
-        log WARN "Could not find 'Schedule for later' button via snapshot or JS"
-        local snap_debug
-        snap_debug=$(fb_snap)
-        log_save_artifact "phase11_snapshot" "$snap_debug"
-        log FATAL "Could not find 'Schedule for later' button (snapshot saved to log dir)"
+        log FATAL "Could not find 'Schedule for later' button in snapshot"
     fi
 
     log INFO "Clicking 'Schedule for later' button (ref: $sched_btn_ref)..."
     fb_click "$sched_btn_ref"
     sleep 5
 
-    # Verify – look for success indicator
-    local verify
-    verify=$(fb_eval_result "document.body.innerText.includes('Scheduled') || document.body.innerText.includes('Your reel is scheduled') || document.body.innerText.includes('successfully scheduled') || document.body.innerText.includes('Your post is scheduled')")
-    log INFO "Schedule verification: $verify"
-
-    if [ "$verify" != "true" ]; then
-        log WARN "Could not confirm scheduling success via text check"
-    fi
+    log INFO "Schedule submitted"
 }
 
 # ─── Phase 12: User Verification ───────────────────────────────────────────────
@@ -807,7 +839,14 @@ main() {
         phase_10_fill_datetime
         phase_11_click_schedule
         phase_12_user_confirm
+        local confirm_exit=$?
         phase_13_close_tab
+
+        if [ $confirm_exit -ne 0 ]; then
+            log WARN "User did not confirm entry $((current_idx + 1)). Stopping scheduler."
+            break
+        fi
+        mark_schedule_entry_done "$SCHEDULE_DATE" "$SCHEDULE_TIME"
 
         current_idx=$((current_idx + 1))
 

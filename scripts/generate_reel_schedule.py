@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import json
 import random
+import sys
+import os
 from datetime import datetime, timedelta
 
 DAYS_TOTAL = 29
@@ -14,18 +16,29 @@ WEEKEND_DAYS = {"Saturday", "Sunday"}
 
 random.seed()
 
+
+def get_project_path(project_id):
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.dirname(script_dir)
+    return os.path.join(repo_root, f"project-{project_id}", "schedule.json")
+
+
 def pick_time(windows=WINDOWS):
     start, end = random.choice(windows)
     hour = random.randint(start, end - 1)
-    minute = random.randint(0, 59)
-    second = random.randint(0, 59)
+    # Round minutes to nearest 5-minute interval (0, 5, 10, 15, ..., 55)
+    minute = random.choice(range(0, 60, 5))
+    second = 0
     return hour, minute, second
+
 
 def format_time(h, m, s):
     return f"{h:02d}:{m:02d}:{s:02d}"
 
-def get_day_name(d: datetime):
+
+def get_day_name(d):
     return d.strftime("%A")
+
 
 def pick_two_times():
     h1, m1, s1 = pick_time()
@@ -34,11 +47,23 @@ def pick_two_times():
         h2, m2, s2 = pick_time()
     return sorted([format_time(h1, m1, s1), format_time(h2, m2, s2)])
 
-def main():
-    start_date = datetime(2026, 5, 10, 22, 15, 53) + timedelta(days=1)
-    dates = [start_date + timedelta(days=i) for i in range(DAYS_TOTAL)]
 
-    # Base schedule: 1 post per day
+def load_schedule(path):
+    if not os.path.exists(path):
+        return None
+    with open(path, "r") as f:
+        return json.load(f)
+
+
+def all_scheduled(schedule):
+    if not schedule:
+        return True
+    return all(entry.get("status") == "scheduled" for entry in schedule)
+
+
+def generate_schedule(start_date, days_total=DAYS_TOTAL):
+    dates = [start_date + timedelta(days=i) for i in range(days_total)]
+
     schedule = []
     for d in dates:
         h, m, s = pick_time()
@@ -46,13 +71,12 @@ def main():
             "date": d.strftime("%Y-%m-%d"),
             "day": get_day_name(d),
             "time": format_time(h, m, s),
-            "posts": 1
+            "posts": 1,
+            "status": "pending"
         })
 
     double_indices = set()
 
-    # --- Every weekend: pick Sat OR Sun for double post ---
-    # Group dates by weekend (Sat-Sun pairs)
     weekends = []
     current_weekend = []
     for i, d in enumerate(dates):
@@ -73,7 +97,6 @@ def main():
         chosen = random.choice(weekend)
         double_indices.add(chosen)
 
-    # --- One random weekday double post, not adjacent to any double-post day ---
     weekday_indices = [i for i, d in enumerate(dates) if get_day_name(d) not in WEEKEND_DAYS]
     forbidden = set()
     for idx in double_indices:
@@ -87,12 +110,10 @@ def main():
         weekday_double = random.choice(valid_weekdays)
         double_indices.add(weekday_double)
 
-    # Apply double posts
     for idx in double_indices:
         schedule[idx]["posts"] = 2
         schedule[idx]["time"] = pick_two_times()
 
-    # Flatten output
     output = []
     for entry in schedule:
         if isinstance(entry["time"], list):
@@ -100,17 +121,47 @@ def main():
                 output.append({
                     "date": entry["date"],
                     "day": entry["day"],
-                    "time": t
+                    "time": t,
+                    "status": "pending"
                 })
         else:
             output.append({
                 "date": entry["date"],
                 "day": entry["day"],
-                "time": entry["time"]
+                "time": entry["time"],
+                "status": "pending"
             })
 
     output.sort(key=lambda x: (x["date"], x["time"]))
-    print(json.dumps(output, indent=2))
+    return output
+
+
+def save_schedule(path, schedule):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(schedule, f, indent=2)
+
+
+def main():
+    if len(sys.argv) < 3 or sys.argv[1] != "--project":
+        print("Usage: generate_reel_schedule.py --project <1|2>", file=sys.stderr)
+        sys.exit(1)
+
+    project_id = sys.argv[2]
+    schedule_path = get_project_path(project_id)
+
+    existing = load_schedule(schedule_path)
+    if existing is not None and not all_scheduled(existing):
+        print(f"Schedule exists with unscheduled entries: {schedule_path}")
+        print(json.dumps({"regenerated": False, "path": schedule_path, "reason": "unscheduled_entries_exist"}))
+        sys.exit(0)
+
+    start_date = datetime.now().date() + timedelta(days=1)
+    schedule = generate_schedule(start_date)
+    save_schedule(schedule_path, schedule)
+    print(f"Generated schedule: {schedule_path}")
+    print(json.dumps({"regenerated": True, "path": schedule_path, "entries": len(schedule)}))
+
 
 if __name__ == "__main__":
     main()
