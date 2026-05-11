@@ -334,6 +334,8 @@ phase_1_identify_asset() {
     ASSET_ID=$(echo "$mapped_output" | awk '/^ID:/{print substr($0, index($0,$2))}')
     CAPTION=$(echo "$mapped_output" | awk 'BEGIN{found=0} /^Caption:/{found=1; sub(/^Caption:[[:space:]]*/, ""); print; next} found && /^ID:/{exit} found{print}')
 
+    log INFO "CAPTION: >>>$CAPTION<<<"
+
     if [ -z "$ASSET_ID" ]; then
         log FATAL "No mapped asset found for project $PROJECT_ID"
     fi

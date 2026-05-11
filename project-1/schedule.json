@@ -9,31 +9,31 @@
     "date": "2026-05-13",
     "day": "Wednesday",
     "time": "18:50:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-05-14",
     "day": "Thursday",
     "time": "18:55:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-05-15",
     "day": "Friday",
     "time": "20:55:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-05-16",
     "day": "Saturday",
     "time": "10:10:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-05-16",
     "day": "Saturday",
     "time": "18:25:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-05-17",

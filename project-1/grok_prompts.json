@@ -104,7 +104,18 @@
       "post_url": "https://grok.com/imagine/post/c54031ab-0387-47d7-b7e1-2c9caf31f76f",
       "executed_at": "2026-05-02T00:38:52.939538",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-13",
+            "day": "Wednesday",
+            "time": "18:50:00"
+          }
+        }
+      ]
     },
     {
       "id": 9,
@@ -114,7 +125,18 @@
       "post_url": "https://grok.com/imagine/post/3e441633-489b-4737-84f6-72f29d86dae0",
       "executed_at": "2026-05-02T00:44:22.918602",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-14",
+            "day": "Thursday",
+            "time": "18:55:00"
+          }
+        }
+      ]
     },
     {
       "id": 10,
@@ -124,7 +146,18 @@
       "post_url": "https://grok.com/imagine/post/1f4828cd-3430-4bfc-a57d-de8675912d44",
       "executed_at": "2026-05-02T00:51:28.396883",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-15",
+            "day": "Friday",
+            "time": "20:55:00"
+          }
+        }
+      ]
     },
     {
       "id": 11,
@@ -134,7 +167,18 @@
       "post_url": "https://grok.com/imagine/post/d5b6c184-4de4-4f3a-be9b-6858d320fc1a",
       "executed_at": "2026-05-02T01:00:28.026311",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-16",
+            "day": "Saturday",
+            "time": "10:10:00"
+          }
+        }
+      ]
     },
     {
       "id": 12,
@@ -144,7 +188,18 @@
       "post_url": "https://grok.com/imagine/post/8e216f66-c5eb-41b2-bb8f-8c8584196a96",
       "executed_at": "2026-05-02T01:03:11.349271",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-16",
+            "day": "Saturday",
+            "time": "18:25:00"
+          }
+        }
+      ]
     },
     {
       "id": 13,
