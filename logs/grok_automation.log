@@ -1,36 +1,737 @@
-[2026-05-10 22:00:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
-[2026-05-10 22:00:00] [INFO] Starting automation for project 1
-[2026-05-10 22:00:00] [INFO] Timeout: 300s, Max retries: 3
-[2026-05-10 22:00:00] [INFO] Checking BrowserOS health...
+[2026-05-12 12:28:22] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-12 12:28:22] [INFO] Starting automation for project 1
+[2026-05-12 12:28:22] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-12 12:28:22] [INFO] Checking BrowserOS health...
 
-[2026-05-10 22:00:02] [CMD] browseros-cli health 
-[2026-05-10 22:00:02] [EXIT] 0
-[2026-05-10 22:00:02] [OUT] ---
+[2026-05-12 12:28:23] [CMD] browseros-cli health 
+[2026-05-12 12:28:23] [EXIT] 0
+[2026-05-12 12:28:23] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-10 22:00:02] [OUT] ---
-[2026-05-10 22:00:02] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-05-10 22:00:02] [DEBUG] Retry attempt 1/3: bos_health
+[2026-05-12 12:28:23] [OUT] ---
+[2026-05-12 12:28:23] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-12 12:28:23] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-05-10 22:00:03] [CMD] browseros-cli health 
-[2026-05-10 22:00:03] [EXIT] 0
-[2026-05-10 22:00:03] [OUT] ---
+[2026-05-12 12:28:24] [CMD] browseros-cli health 
+[2026-05-12 12:28:24] [EXIT] 0
+[2026-05-12 12:28:24] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-10 22:00:03] [OUT] ---
-[2026-05-10 22:00:03] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-05-10 22:00:03] [INFO] BrowserOS is healthy
-[2026-05-10 22:00:03] [INFO] ========================================
-[2026-05-10 22:00:03] [INFO]   Phase 1: Preparation
-[2026-05-10 22:00:03] [INFO] ========================================
-[2026-05-10 22:00:03] [INFO] Using tracker: grok_tracker.py
-[2026-05-10 22:00:03] [INFO] Fetching next pending prompt...
-[2026-05-10 22:00:03] [DEBUG] Tracker response: {"id": 268, "prompt": "An ultra-realistic, highly detailed highly detailsd decadent chocolate fondant in a ramekin, molten center flowing out onto the plate, vanilla ice cream melting alongside. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-10T18:14:49.885767"}
-[2026-05-10 22:00:03] [INFO] Next prompt ID: 268
-[2026-05-10 22:00:03] [INFO] Status: pending
-[2026-05-10 22:00:03] [DEBUG] Prompt: An ultra-realistic, highly detailed highly detailsd decadent chocolate fondant in a ramekin, molten center flowing out onto the plate, vanilla ice cream melting alongside. Aspect ratio 9:16 portrait
-[2026-05-10 22:00:03] [INFO] ========================================
-[2026-05-10 22:00:03] [INFO]   Phase 2: Platform Navigation
-[2026-05-10 22:00:03] [INFO] ========================================
-[2026-05-10 22:00:03] [INFO] Navigating to Grok Imagine...
-[2026-05-10 22:00:03] [DEBUG] bos_navigate: url=https://grok.com/imagine
+[2026-05-12 12:28:24] [OUT] ---
+[2026-05-12 12:28:24] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-12 12:28:24] [INFO] BrowserOS is healthy
+[2026-05-12 12:28:24] [INFO] ========================================
+[2026-05-12 12:28:24] [INFO]   Phase 1: Preparation
+[2026-05-12 12:28:24] [INFO] ========================================
+[2026-05-12 12:28:24] [INFO] Using tracker: grok_tracker.py
+[2026-05-12 12:28:24] [INFO] Fetching next pending prompt...
+[2026-05-12 12:28:24] [DEBUG] Tracker response: {"id": 286, "prompt": "An ultra-realistic, highly detailed highly detailsd farro salad with roasted vegetables, colorful zucchini, peppers, tomatoes, crumbled feta, fresh basil, grain bowl. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-12T09:14:50.566574"}
+[2026-05-12 12:28:24] [INFO] Next prompt ID: 286
+[2026-05-12 12:28:24] [INFO] Status: pending
+[2026-05-12 12:28:24] [DEBUG] Prompt: An ultra-realistic, highly detailed highly detailsd farro salad with roasted vegetables, colorful zucchini, peppers, tomatoes, crumbled feta, fresh basil, grain bowl. Aspect ratio 9:16 portrait
+[2026-05-12 12:28:24] [INFO] ========================================
+[2026-05-12 12:28:24] [INFO]   Phase 2: Platform Navigation
+[2026-05-12 12:28:24] [INFO] ========================================
+[2026-05-12 12:28:24] [INFO] Navigating to Grok Imagine...
+[2026-05-12 12:28:24] [DEBUG] bos_navigate: url=https://grok.com/imagine
+
+[2026-05-12 12:28:56] [CMD] browseros-cli nav https://grok.com/imagine
+[2026-05-12 12:28:56] [EXIT] 0
+[2026-05-12 12:28:56] [OUT] ---
+Navigated to https://grok.com/imagine
+[2026-05-12 12:28:56] [OUT] ---
+[2026-05-12 12:28:58] [INFO] ========================================
+[2026-05-12 12:28:58] [INFO]   Phase 3: Image Generation
+[2026-05-12 12:28:58] [INFO] ========================================
+[2026-05-12 12:28:58] [INFO] Finding input area... selector='div[contenteditable="true"]'
+[2026-05-12 12:28:58] [DEBUG] bos_find_element: selector='div[contenteditable="true"]' timeout=30s
+[2026-05-12 12:28:58] [DEBUG] bos_find_element_coords: selector='div[contenteditable="true"]'
+[2026-05-12 12:28:58] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('div[contenteditable="true"]');
+    if (!el) return JSON.stringify({fo'
+
+[2026-05-12 12:28:59] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('div[contenteditable="true"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-12 12:28:59] [EXIT] 0
+[2026-05-12 12:28:59] [OUT] ---
+{"found":true,"x":720.5,"y":679,"width":720,"height":56}
+[2026-05-12 12:28:59] [OUT] ---
+[2026-05-12 12:28:59] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-12 12:28:59] [DEBUG] bos_find_element_coords: output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-12 12:28:59] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-12 12:28:59] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
+[2026-05-12 12:28:59] [DEBUG] phase_3: find_element exit=0
+[2026-05-12 12:28:59] [INFO] Input area found at (720.5, 679)
+[2026-05-12 12:28:59] [INFO] Typing prompt (length=193)...
+[2026-05-12 12:28:59] [DEBUG] phase_3: prompt_text='An ultra-realistic, highly detailed highly detailsd farro salad with roasted veg...'
+[2026-05-12 12:28:59] [DEBUG] bos_type_text: text length=193 selector='div[contenteditable="true"]'
+[2026-05-12 12:28:59] [DEBUG] bos_find_element: selector='div[contenteditable="true"]' timeout=10s
+[2026-05-12 12:28:59] [DEBUG] bos_find_element_coords: selector='div[contenteditable="true"]'
+[2026-05-12 12:28:59] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('div[contenteditable="true"]');
+    if (!el) return JSON.stringify({fo'
+
+[2026-05-12 12:29:00] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('div[contenteditable="true"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-12 12:29:00] [EXIT] 0
+[2026-05-12 12:29:00] [OUT] ---
+{"found":true,"x":720.5,"y":679,"width":720,"height":56}
+[2026-05-12 12:29:00] [OUT] ---
+[2026-05-12 12:29:00] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-12 12:29:00] [DEBUG] bos_find_element_coords: output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-12 12:29:00] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-12 12:29:00] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
+[2026-05-12 12:29:00] [DEBUG] bos_type_text: find_element exit=0 input_info='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-12 12:29:00] [DEBUG] Using click-at + eval fallback on coordinates 720.5,679
+[2026-05-12 12:29:00] [DEBUG] bos_click_at: x=720.5 y=679
+
+[2026-05-12 12:29:01] [CMD] browseros-cli click-at 720.5 679
+[2026-05-12 12:29:01] [EXIT] 0
+[2026-05-12 12:29:01] [OUT] ---
+Clicked at (720, 679)
+[2026-05-12 12:29:01] [OUT] ---
+[2026-05-12 12:29:01] [DEBUG] bos_eval: js='(function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: f'
+
+[2026-05-12 12:29:03] [CMD] browseros-cli eval (function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = "An ultra-realistic, highly detailed highly detailsd farro salad with roasted vegetables, colorful zucchini, peppers, tomatoes, crumbled feta, fresh basil, grain bowl. Aspect ratio 9:16 portrait"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()
+[2026-05-12 12:29:03] [EXIT] 0
+[2026-05-12 12:29:03] [OUT] ---
+{"success":true}
+[2026-05-12 12:29:03] [OUT] ---
+[2026-05-12 12:29:03] [DEBUG] bos_eval: exit=0 output='{"success":true}'
+[2026-05-12 12:29:03] [DEBUG] bos_type_text: eval output='{"success":true}'
+[2026-05-12 12:29:03] [DEBUG] phase_3: type_text exit=0
+[2026-05-12 12:29:04] [INFO] Submitting prompt...
+
+[2026-05-12 12:29:06] [CMD] browseros-cli key Enter
+[2026-05-12 12:29:06] [EXIT] 0
+[2026-05-12 12:29:06] [OUT] ---
+Pressed Enter
+[2026-05-12 12:29:06] [OUT] ---
+[2026-05-12 12:29:06] [DEBUG] phase_3: key Enter exit=0
+[2026-05-12 12:29:06] [INFO] Waiting for image generation (max_wait=120s, poll=5s)...
+[2026-05-12 12:29:06] [DEBUG] phase_3: polling image gen, elapsed=0s
+[2026-05-12 12:29:06] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-12 12:29:06] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-12 12:29:06] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-12 12:29:07] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-12 12:29:07] [EXIT] 0
+[2026-05-12 12:29:07] [OUT] ---
+{"found":true,"x":214,"y":375,"width":290,"height":516}
+[2026-05-12 12:29:07] [OUT] ---
+[2026-05-12 12:29:07] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
+[2026-05-12 12:29:07] [DEBUG] bos_find_element_coords: output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
+[2026-05-12 12:29:07] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
+[2026-05-12 12:29:07] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":375}
+[2026-05-12 12:29:07] [INFO] Image generated successfully (selector found)
+[2026-05-12 12:29:07] [DEBUG] phase_3: poll loop ended, img_ready=1 elapsed=0s
+[2026-05-12 12:29:07] [INFO] ========================================
+[2026-05-12 12:29:07] [INFO]   Phase 4: Video Generation
+[2026-05-12 12:29:07] [INFO] ========================================
+[2026-05-12 12:29:07] [INFO] Checking for image preference dialog (max_wait=15s)...
+[2026-05-12 12:29:07] [DEBUG] phase_4: polling image preference dialog, elapsed=0s
+[2026-05-12 12:29:07] [DEBUG] bos_handle_image_preference: starting
+[2026-05-12 12:29:07] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-12 12:29:07] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:29:08] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:29:08] [EXIT] 0
+[2026-05-12 12:29:08] [OUT] ---
+
+[2026-05-12 12:29:08] [OUT] ---
+[2026-05-12 12:29:08] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:29:08] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-12 12:29:08] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-12 12:29:08] [DEBUG] bos_handle_image_preference: no dialog present
+[2026-05-12 12:29:08] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-12 12:29:10] [DEBUG] phase_4: polling image preference dialog, elapsed=2s
+[2026-05-12 12:29:10] [DEBUG] bos_handle_image_preference: starting
+[2026-05-12 12:29:10] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-12 12:29:10] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:29:11] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:29:11] [EXIT] 0
+[2026-05-12 12:29:11] [OUT] ---
+
+[2026-05-12 12:29:11] [OUT] ---
+[2026-05-12 12:29:11] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:29:11] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-12 12:29:11] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-12 12:29:11] [DEBUG] bos_handle_image_preference: no dialog present
+[2026-05-12 12:29:11] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-12 12:29:13] [DEBUG] phase_4: polling image preference dialog, elapsed=4s
+[2026-05-12 12:29:13] [DEBUG] bos_handle_image_preference: starting
+[2026-05-12 12:29:13] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-12 12:29:13] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:29:14] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:29:14] [EXIT] 0
+[2026-05-12 12:29:14] [OUT] ---
+
+[2026-05-12 12:29:14] [OUT] ---
+[2026-05-12 12:29:14] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:29:14] [DEBUG] bos_check_image_preference: heading_text=''
+[2026-05-12 12:29:14] [DEBUG] bos_check_image_preference: dialog NOT detected
+[2026-05-12 12:29:14] [DEBUG] bos_handle_image_preference: no dialog present
+[2026-05-12 12:29:14] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-12 12:29:16] [DEBUG] phase_4: polling image preference dialog, elapsed=6s
+[2026-05-12 12:29:16] [DEBUG] bos_handle_image_preference: starting
+[2026-05-12 12:29:16] [DEBUG] bos_check_image_preference: checking for image preference dialog...
+[2026-05-12 12:29:16] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:29:17] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:29:17] [EXIT] 0
+[2026-05-12 12:29:17] [OUT] ---
+Which image do you prefer to keep?
+[2026-05-12 12:29:17] [OUT] ---
+[2026-05-12 12:29:17] [DEBUG] bos_eval: exit=0 output='Which image do you prefer to keep?'
+[2026-05-12 12:29:17] [DEBUG] bos_check_image_preference: heading_text='Which image do you prefer to keep?'
+[2026-05-12 12:29:17] [DEBUG] bos_check_image_preference: dialog DETECTED
+[2026-05-12 12:29:17] [INFO] Image preference dialog detected, looking for Skip button...
+[2026-05-12 12:29:17] [DEBUG] bos_get_snap_ref: searching for pattern='Skip'
+[2026-05-12 12:29:17] [DEBUG] bos_snap: taking snapshot
+
+[2026-05-12 12:29:18] [CMD] browseros-cli snap 
+[2026-05-12 12:29:18] [EXIT] 0
+[2026-05-12 12:29:18] [OUT] ---
+[680] link "Home page"
+[684] button "Search"
+[690] link
+[696] link
+[705] link
+[5045] button "History"
+[714] button "Toggle Sidebar"
+[719] button "DS" (collapsed)
+[6863] button "Back"
+[9062] button "Save"
+[9066] button "Make video"
+[9082] button "Save"
+[9086] button "Make video"
+[9102] button "Save"
+[9106] button "Make video"
+[9122] button "Save"
+[9126] button "Make video"
+[9171] button "Skip"
+[9047] clickable "An ultra-realistic, highly detailed highly detailsd farro salad with roasted vegetables, colorful zu"
+[9184] clickable "Which image do you prefer to keep?Your feedback will help us improve the quality of our images. Skip"
+[2026-05-12 12:29:18] [OUT] ---
+[2026-05-12 12:29:18] [DEBUG] bos_snap: lines=20
+[2026-05-12 12:29:18] [DEBUG] bos_get_snap_ref: bos_snap exit=0, lines=20
+[2026-05-12 12:29:18] [DEBUG] bos_get_snap_ref: grep matches for 'Skip': 2 lines
+[2026-05-12 12:29:18] [DEBUG] bos_get_snap_ref: match lines: [9171] button "Skip"
+[9184] clickable "Which image do you prefer to keep?Your feedback will help us improve the quality of our images. Skip"
+[2026-05-12 12:29:18] [DEBUG] bos_get_snap_ref: extracted ref='9171' from pattern='Skip'
+[2026-05-12 12:29:18] [DEBUG] bos_handle_image_preference: skip_ref='9171'
+[2026-05-12 12:29:18] [INFO] Skip button found: ref 9171, clicking...
+[2026-05-12 12:29:18] [DEBUG] bos_click: ref=9171
+
+[2026-05-12 12:29:19] [CMD] browseros-cli click 9171
+[2026-05-12 12:29:19] [EXIT] 0
+[2026-05-12 12:29:19] [OUT] ---
+Clicked [9171] at (664, 117)
+[2026-05-12 12:29:19] [OUT] ---
+[2026-05-12 12:29:21] [DEBUG] bos_handle_image_preference: dialog dismissed
+[2026-05-12 12:29:21] [DEBUG] phase_4: handle_image_preference exit=0
+[2026-05-12 12:29:21] [INFO] Image preference dialog handled successfully
+[2026-05-12 12:29:21] [DEBUG] phase_4: image preference dialog loop ended, handled=1 elapsed=6s
+[2026-05-12 12:29:21] [INFO] Opening image detail page...
+[2026-05-12 12:29:21] [INFO] Clicking generated image to open detail page...
+[2026-05-12 12:29:21] [DEBUG] bos_find_element: selector='img[alt="Generated image"]' timeout=30s
+[2026-05-12 12:29:21] [DEBUG] bos_find_element_coords: selector='img[alt="Generated image"]'
+[2026-05-12 12:29:21] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({fou'
+
+[2026-05-12 12:29:22] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('img[alt="Generated image"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-12 12:29:22] [EXIT] 0
+[2026-05-12 12:29:22] [OUT] ---
+{"found":true,"x":214,"y":375,"width":290,"height":516}
+[2026-05-12 12:29:22] [OUT] ---
+[2026-05-12 12:29:22] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
+[2026-05-12 12:29:22] [DEBUG] bos_find_element_coords: output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
+[2026-05-12 12:29:22] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
+[2026-05-12 12:29:22] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":375}
+[2026-05-12 12:29:22] [DEBUG] phase_4: find_element SELECTOR_IMAGE exit=0
+[2026-05-12 12:29:22] [INFO] Clicking on generated image at (214, 375)...
+[2026-05-12 12:29:22] [DEBUG] bos_click_at: x=214 y=375
+
+[2026-05-12 12:29:23] [CMD] browseros-cli click-at 214 375
+[2026-05-12 12:29:23] [EXIT] 0
+[2026-05-12 12:29:23] [OUT] ---
+Clicked at (214, 375)
+[2026-05-12 12:29:23] [OUT] ---
+[2026-05-12 12:29:25] [INFO] Looking for Make video button... selector='[aria-label="Make video"]'
+[2026-05-12 12:29:25] [DEBUG] bos_find_element: selector='[aria-label="Make video"]' timeout=30s
+[2026-05-12 12:29:25] [DEBUG] bos_find_element_coords: selector='[aria-label="Make video"]'
+[2026-05-12 12:29:25] [DEBUG] bos_eval: js='(function() {
+    var el = document.querySelector('[aria-label="Make video"]');
+    if (!el) return JSON.stringify({foun'
+
+[2026-05-12 12:29:26] [CMD] browseros-cli eval (function() {
+    var el = document.querySelector('[aria-label="Make video"]');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+[2026-05-12 12:29:26] [EXIT] 0
+[2026-05-12 12:29:26] [OUT] ---
+{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}
+[2026-05-12 12:29:26] [OUT] ---
+[2026-05-12 12:29:26] [DEBUG] bos_eval: exit=0 output='{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}'
+[2026-05-12 12:29:26] [DEBUG] bos_find_element_coords: output='{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}'
+[2026-05-12 12:29:26] [DEBUG] bos_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}'
+[2026-05-12 12:29:26] [INFO] Element found: selector='[aria-label="Make video"]' coords={"x":572.87890625,"y":618.5}
+[2026-05-12 12:29:26] [DEBUG] phase_4: find_element SELECTOR_MAKE_VIDEO exit=0
+[2026-05-12 12:29:26] [INFO] Make video button found at (572.87890625, 618.5), clicking...
+[2026-05-12 12:29:26] [DEBUG] bos_click_at: x=572.87890625 y=618.5
+
+[2026-05-12 12:29:27] [CMD] browseros-cli click-at 572.87890625 618.5
+[2026-05-12 12:29:27] [EXIT] 0
+[2026-05-12 12:29:27] [OUT] ---
+Clicked at (572, 618)
+[2026-05-12 12:29:27] [OUT] ---
+[2026-05-12 12:29:27] [INFO] Video generation triggered
+[2026-05-12 12:29:30] [INFO] ========================================
+[2026-05-12 12:29:30] [INFO]   Phase 5: Monitoring & Validation
+[2026-05-12 12:29:30] [INFO] ========================================
+[2026-05-12 12:29:30] [INFO] Polling for video completion (max 150s, interval=10s)...
+[2026-05-12 12:29:30] [DEBUG] phase_5: poll iteration elapsed=0s
+[2026-05-12 12:29:30] [DEBUG] bos_text: fetching page text
+
+[2026-05-12 12:29:31] [CMD] browseros-cli text 
+[2026-05-12 12:29:31] [EXIT] 0
+[2026-05-12 12:29:31] [OUT] ---
+Generating6%720p
+
+## Upgrade to SuperGrok
+[2026-05-12 12:29:31] [OUT] ---
+[2026-05-12 12:29:31] [DEBUG] bos_text: lines=3
+[2026-05-12 12:29:31] [DEBUG] phase_5: page_text lines=3
+[2026-05-12 12:29:31] [DEBUG] bos_snap: taking snapshot
+
+[2026-05-12 12:29:32] [CMD] browseros-cli snap 
+[2026-05-12 12:29:32] [EXIT] 0
+[2026-05-12 12:29:32] [OUT] ---
+[680] link "Home page"
+[684] button "Search"
+[690] link
+[696] link
+[705] link
+[5045] button "History"
+[714] button "Toggle Sidebar"
+[719] button "DS" (collapsed)
+[9326] link "Back"
+[9331] button "Next post"
+[9492] button "Thumbnail 1"
+[9552] button "8%"
+[9562] button "Cancel"
+[9392] button "Unsave" (disabled)
+[9393] button "Compose Post" (disabled)
+[9395] button "Download" (disabled)
+[9396] button "Create share link" (disabled)
+[9397] button "More options" (disabled, collapsed)
+[9275] button "Saved"
+[9231] button "Make video" (disabled)
+[9333] clickable "8%"
+[9369] clickable "Generating8%CancelMoreUnmute0s+ 6s→6sExtend from Frame"
+[2026-05-12 12:29:32] [OUT] ---
+[2026-05-12 12:29:32] [DEBUG] bos_snap: lines=22
+[2026-05-12 12:29:32] [DEBUG] phase_5: snapshot lines=22
+[2026-05-12 12:29:32] [DEBUG] bos_check_video_preference: checking for video preference dialog...
+[2026-05-12 12:29:32] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:29:34] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:29:34] [EXIT] 0
+[2026-05-12 12:29:34] [OUT] ---
+
+[2026-05-12 12:29:34] [OUT] ---
+[2026-05-12 12:29:34] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:29:34] [DEBUG] bos_check_video_preference: heading_text=''
+[2026-05-12 12:29:34] [DEBUG] bos_check_video_preference: dialog NOT detected
+[2026-05-12 12:29:34] [INFO] Still generating... 6%
+[2026-05-12 12:29:44] [DEBUG] Elapsed: 10s
+[2026-05-12 12:29:44] [DEBUG] phase_5: poll iteration elapsed=10s
+[2026-05-12 12:29:44] [DEBUG] bos_text: fetching page text
+
+[2026-05-12 12:29:45] [CMD] browseros-cli text 
+[2026-05-12 12:29:45] [EXIT] 0
+[2026-05-12 12:29:45] [OUT] ---
+Generating26%720p
+
+## Upgrade to SuperGrok
+[2026-05-12 12:29:45] [OUT] ---
+[2026-05-12 12:29:45] [DEBUG] bos_text: lines=3
+[2026-05-12 12:29:45] [DEBUG] phase_5: page_text lines=3
+[2026-05-12 12:29:45] [DEBUG] bos_snap: taking snapshot
+
+[2026-05-12 12:29:46] [CMD] browseros-cli snap 
+[2026-05-12 12:29:46] [EXIT] 0
+[2026-05-12 12:29:46] [OUT] ---
+[680] link "Home page"
+[684] button "Search"
+[690] link
+[696] link
+[705] link
+[5045] button "History"
+[714] button "Toggle Sidebar"
+[719] button "DS" (collapsed)
+[9326] link "Back"
+[9331] button "Next post"
+[9492] button "Thumbnail 1"
+[9552] button "26%"
+[9562] button "Cancel"
+[9392] button "Unsave" (disabled)
+[9393] button "Compose Post" (disabled)
+[9395] button "Download" (disabled)
+[9396] button "Create share link" (disabled)
+[9397] button "More options" (disabled, collapsed)
+[9275] button "Saved"
+[9231] button "Make video" (disabled)
+[9333] clickable "26%"
+[9369] clickable "Generating26%CancelMoreUnmute"
+[2026-05-12 12:29:46] [OUT] ---
+[2026-05-12 12:29:46] [DEBUG] bos_snap: lines=22
+[2026-05-12 12:29:46] [DEBUG] phase_5: snapshot lines=22
+[2026-05-12 12:29:46] [DEBUG] bos_check_video_preference: checking for video preference dialog...
+[2026-05-12 12:29:46] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:29:47] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:29:47] [EXIT] 0
+[2026-05-12 12:29:47] [OUT] ---
+
+[2026-05-12 12:29:47] [OUT] ---
+[2026-05-12 12:29:47] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:29:47] [DEBUG] bos_check_video_preference: heading_text=''
+[2026-05-12 12:29:47] [DEBUG] bos_check_video_preference: dialog NOT detected
+[2026-05-12 12:29:47] [INFO] Still generating... 26%
+[2026-05-12 12:29:57] [DEBUG] Elapsed: 20s
+[2026-05-12 12:29:57] [DEBUG] phase_5: poll iteration elapsed=20s
+[2026-05-12 12:29:57] [DEBUG] bos_text: fetching page text
+
+[2026-05-12 12:29:58] [CMD] browseros-cli text 
+[2026-05-12 12:29:58] [EXIT] 0
+[2026-05-12 12:29:58] [OUT] ---
+Generating38%720p
+
+## Upgrade to SuperGrok
+[2026-05-12 12:29:58] [OUT] ---
+[2026-05-12 12:29:58] [DEBUG] bos_text: lines=3
+[2026-05-12 12:29:58] [DEBUG] phase_5: page_text lines=3
+[2026-05-12 12:29:58] [DEBUG] bos_snap: taking snapshot
+
+[2026-05-12 12:29:59] [CMD] browseros-cli snap 
+[2026-05-12 12:29:59] [EXIT] 0
+[2026-05-12 12:29:59] [OUT] ---
+[680] link "Home page"
+[684] button "Search"
+[690] link
+[696] link
+[705] link
+[5045] button "History"
+[714] button "Toggle Sidebar"
+[719] button "DS" (collapsed)
+[9326] link "Back"
+[9331] button "Next post"
+[9492] button "Thumbnail 1"
+[9552] button "40%"
+[9562] button "Cancel"
+[9392] button "Unsave" (disabled)
+[9393] button "Compose Post" (disabled)
+[9395] button "Download" (disabled)
+[9396] button "Create share link" (disabled)
+[9397] button "More options" (disabled, collapsed)
+[9275] button "Saved"
+[9231] button "Make video" (disabled)
+[9333] clickable "40%"
+[9369] clickable "Generating40%CancelMoreUnmute"
+[2026-05-12 12:29:59] [OUT] ---
+[2026-05-12 12:29:59] [DEBUG] bos_snap: lines=22
+[2026-05-12 12:29:59] [DEBUG] phase_5: snapshot lines=22
+[2026-05-12 12:29:59] [DEBUG] bos_check_video_preference: checking for video preference dialog...
+[2026-05-12 12:29:59] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:30:00] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:30:00] [EXIT] 0
+[2026-05-12 12:30:00] [OUT] ---
+
+[2026-05-12 12:30:00] [OUT] ---
+[2026-05-12 12:30:00] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:30:00] [DEBUG] bos_check_video_preference: heading_text=''
+[2026-05-12 12:30:00] [DEBUG] bos_check_video_preference: dialog NOT detected
+[2026-05-12 12:30:00] [INFO] Still generating... 38%
+[2026-05-12 12:30:10] [DEBUG] Elapsed: 30s
+[2026-05-12 12:30:10] [DEBUG] phase_5: poll iteration elapsed=30s
+[2026-05-12 12:30:10] [DEBUG] bos_text: fetching page text
+
+[2026-05-12 12:30:11] [CMD] browseros-cli text 
+[2026-05-12 12:30:11] [EXIT] 0
+[2026-05-12 12:30:11] [OUT] ---
+Generating69%720p
+
+## Upgrade to SuperGrok
+[2026-05-12 12:30:11] [OUT] ---
+[2026-05-12 12:30:11] [DEBUG] bos_text: lines=3
+[2026-05-12 12:30:11] [DEBUG] phase_5: page_text lines=3
+[2026-05-12 12:30:11] [DEBUG] bos_snap: taking snapshot
+
+[2026-05-12 12:30:12] [CMD] browseros-cli snap 
+[2026-05-12 12:30:12] [EXIT] 0
+[2026-05-12 12:30:12] [OUT] ---
+[680] link "Home page"
+[684] button "Search"
+[690] link
+[696] link
+[705] link
+[5045] button "History"
+[714] button "Toggle Sidebar"
+[719] button "DS" (collapsed)
+[9326] link "Back"
+[9331] button "Next post"
+[9492] button "Thumbnail 1"
+[9552] button "72%"
+[9562] button "Cancel"
+[9392] button "Unsave" (disabled)
+[9393] button "Compose Post" (disabled)
+[9395] button "Download" (disabled)
+[9396] button "Create share link" (disabled)
+[9397] button "More options" (disabled, collapsed)
+[9275] button "Saved"
+[9231] button "Make video" (disabled)
+[9333] clickable "72%"
+[9369] clickable "Generating72%CancelMoreUnmute"
+[2026-05-12 12:30:12] [OUT] ---
+[2026-05-12 12:30:12] [DEBUG] bos_snap: lines=22
+[2026-05-12 12:30:12] [DEBUG] phase_5: snapshot lines=22
+[2026-05-12 12:30:12] [DEBUG] bos_check_video_preference: checking for video preference dialog...
+[2026-05-12 12:30:12] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:30:13] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:30:13] [EXIT] 0
+[2026-05-12 12:30:13] [OUT] ---
+
+[2026-05-12 12:30:13] [OUT] ---
+[2026-05-12 12:30:13] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:30:13] [DEBUG] bos_check_video_preference: heading_text=''
+[2026-05-12 12:30:13] [DEBUG] bos_check_video_preference: dialog NOT detected
+[2026-05-12 12:30:13] [INFO] Still generating... 69%
+[2026-05-12 12:30:23] [DEBUG] Elapsed: 40s
+[2026-05-12 12:30:23] [DEBUG] phase_5: poll iteration elapsed=40s
+[2026-05-12 12:30:23] [DEBUG] bos_text: fetching page text
+
+[2026-05-12 12:30:25] [CMD] browseros-cli text 
+[2026-05-12 12:30:25] [EXIT] 0
+[2026-05-12 12:30:25] [OUT] ---
+720p
+
+## Upgrade to SuperGrok
+[2026-05-12 12:30:25] [OUT] ---
+[2026-05-12 12:30:25] [DEBUG] bos_text: lines=3
+[2026-05-12 12:30:25] [DEBUG] phase_5: page_text lines=3
+[2026-05-12 12:30:25] [DEBUG] bos_snap: taking snapshot
+
+[2026-05-12 12:30:26] [CMD] browseros-cli snap 
+[2026-05-12 12:30:26] [EXIT] 0
+[2026-05-12 12:30:26] [OUT] ---
+[680] link "Home page"
+[684] button "Search"
+[690] link
+[696] link
+[705] link
+[5045] button "History"
+[714] button "Toggle Sidebar"
+[719] button "DS" (collapsed)
+[9326] link "Back"
+[9331] button "Next post"
+[9492] button "Thumbnail 1"
+[9552] button "Thumbnail 2"
+[9349] button "Pause"
+[9772] button "0:04 / 0:06"
+[9357] button "Unmute"
+[9392] button "Unsave"
+[9393] button "Compose Post"
+[9751] button "Redo video"
+[9395] button "Download"
+[9396] button "Create share link"
+[9397] button "More options" (collapsed)
+[9275] button "Saved"
+[9231] button "Make video" (disabled)
+[9369] clickable "Your browser does not support the video tag.Your browser does not support the video tag.MoreMake vid"
+[2026-05-12 12:30:26] [OUT] ---
+[2026-05-12 12:30:26] [DEBUG] bos_snap: lines=24
+[2026-05-12 12:30:26] [DEBUG] phase_5: snapshot lines=24
+[2026-05-12 12:30:26] [DEBUG] bos_check_video_preference: checking for video preference dialog...
+[2026-05-12 12:30:26] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:30:28] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:30:28] [EXIT] 0
+[2026-05-12 12:30:28] [OUT] ---
+
+[2026-05-12 12:30:28] [OUT] ---
+[2026-05-12 12:30:28] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:30:28] [DEBUG] bos_check_video_preference: heading_text=''
+[2026-05-12 12:30:28] [DEBUG] bos_check_video_preference: dialog NOT detected
+[2026-05-12 12:30:28] [INFO] Video ready (Redo video button detected)
+[2026-05-12 12:30:28] [DEBUG] phase_5: poll loop ended, video_ready=1 elapsed=40s
+[2026-05-12 12:30:28] [INFO] ========================================
+[2026-05-12 12:30:28] [INFO]   Phase 6: Asset Management
+[2026-05-12 12:30:28] [INFO] ========================================
+[2026-05-12 12:30:28] [INFO] Checking for video preference dialog...
+[2026-05-12 12:30:28] [DEBUG] bos_handle_video_preference: starting
+[2026-05-12 12:30:28] [DEBUG] bos_check_video_preference: checking for video preference dialog...
+[2026-05-12 12:30:28] [DEBUG] bos_eval: js='(function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, '
+
+[2026-05-12 12:30:29] [CMD] browseros-cli eval (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-12 12:30:29] [EXIT] 0
+[2026-05-12 12:30:29] [OUT] ---
+
+[2026-05-12 12:30:29] [OUT] ---
+[2026-05-12 12:30:29] [DEBUG] bos_eval: exit=0 output=''
+[2026-05-12 12:30:29] [DEBUG] bos_check_video_preference: heading_text=''
+[2026-05-12 12:30:29] [DEBUG] bos_check_video_preference: dialog NOT detected
+[2026-05-12 12:30:29] [DEBUG] bos_handle_video_preference: no dialog present
+[2026-05-12 12:30:29] [DEBUG] phase_6: handle_video_preference exit=2
+[2026-05-12 12:30:29] [DEBUG] phase_6: no video preference dialog present
+[2026-05-12 12:30:29] [INFO] Waiting 5 seconds for file stabilization...
+[2026-05-12 12:30:34] [INFO] Taking snapshot to find Download button...
+[2026-05-12 12:30:34] [DEBUG] phase_6: find Download attempt=0
+[2026-05-12 12:30:34] [DEBUG] bos_get_snap_ref: searching for pattern='Download'
+[2026-05-12 12:30:34] [DEBUG] bos_snap: taking snapshot
+
+[2026-05-12 12:30:35] [CMD] browseros-cli snap 
+[2026-05-12 12:30:35] [EXIT] 0
+[2026-05-12 12:30:35] [OUT] ---
+[680] link "Home page"
+[684] button "Search"
+[690] link
+[696] link
+[705] link
+[5045] button "History"
+[714] button "Toggle Sidebar"
+[719] button "DS" (collapsed)
+[9326] link "Back"
+[9331] button "Next post"
+[9492] button "Thumbnail 1"
+[9552] button "Thumbnail 2"
+[9349] button "Pause"
+[9772] button "0:01 / 0:06"
+[9357] button "Unmute"
+[9392] button "Unsave"
+[9393] button "Compose Post"
+[9751] button "Redo video"
+[9395] button "Download"
+[9396] button "Create share link"
+[9397] button "More options" (collapsed)
+[9275] button "Saved"
+[9231] button "Make video" (disabled)
+[9369] clickable "Your browser does not support the video tag.Your browser does not support the video tag.MoreMake vid"
+[2026-05-12 12:30:35] [OUT] ---
+[2026-05-12 12:30:35] [DEBUG] bos_snap: lines=24
+[2026-05-12 12:30:35] [DEBUG] bos_get_snap_ref: bos_snap exit=0, lines=24
+[2026-05-12 12:30:35] [DEBUG] bos_get_snap_ref: grep matches for 'Download': 1 lines
+[2026-05-12 12:30:35] [DEBUG] bos_get_snap_ref: match lines: [9395] button "Download"
+[2026-05-12 12:30:35] [DEBUG] bos_get_snap_ref: extracted ref='9395' from pattern='Download'
+[2026-05-12 12:30:35] [DEBUG] phase_6: dl_ref='9395'
+[2026-05-12 12:30:35] [INFO] Download button found: ref 9395
+[2026-05-12 12:30:35] [INFO] Destination: /Users/dsen/Projects/ai-post-maker/project-1/assets/current
+[2026-05-12 12:30:35] [INFO] Downloading via browseros-cli (ref: 9395)...
+[2026-05-12 12:30:35] [DEBUG] bos_download: ref=9395 dest_dir=/Users/dsen/Projects/ai-post-maker/project-1/assets/current
+
+[2026-05-12 12:30:39] [CMD] browseros-cli download 9395 /Users/dsen/Projects/ai-post-maker/project-1/assets/current
+[2026-05-12 12:30:39] [EXIT] 0
+[2026-05-12 12:30:39] [OUT] ---
+Downloaded "grok-video-35a772bb-4c13-47e7-845e-5214ac730166.mp4" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/grok-video-35a772bb-4c13-47e7-845e-5214ac730166.mp4
+[2026-05-12 12:30:39] [OUT] ---
+[2026-05-12 12:30:39] [DEBUG] phase_6: download_exit=Downloaded "grok-video-35a772bb-4c13-47e7-845e-5214ac730166.mp4" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/grok-video-35a772bb-4c13-47e7-845e-5214ac730166.mp4
+[2026-05-12 12:30:39] [DEBUG] phase_6: download output: Downloaded "grok-video-35a772bb-4c13-47e7-845e-5214ac730166.mp4" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/grok-video-35a772bb-4c13-47e7-845e-5214ac730166.mp4
+[2026-05-12 12:30:39] [DEBUG] phase_6: downloaded_file from regex='grok-video-35a772bb-4c13-47e7-845e-5214ac730166.mp4'
+[2026-05-12 12:30:39] [INFO] Downloaded file: grok-video-35a772bb-4c13-47e7-845e-5214ac730166.mp4
+[2026-05-12 12:30:39] [INFO] Renamed to: 286.mp4
+[2026-05-12 12:30:39] [INFO] Asset saved: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/286.mp4
+[2026-05-12 12:30:39] [INFO] File validated: 3650846 bytes
+[2026-05-12 12:30:39] [INFO] ========================================
+[2026-05-12 12:30:39] [INFO]   Phase 7: Recording & Tracking
+[2026-05-12 12:30:39] [INFO] ========================================
+[2026-05-12 12:30:39] [INFO] Getting page URL...
+[2026-05-12 12:30:39] [DEBUG] bos_get_page_url: evaluating window.location.href
+[2026-05-12 12:30:39] [DEBUG] bos_eval: js='window.location.href'
+
+[2026-05-12 12:30:40] [CMD] browseros-cli eval window.location.href
+[2026-05-12 12:30:40] [EXIT] 0
+[2026-05-12 12:30:40] [OUT] ---
+https://grok.com/imagine/post/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a
+[2026-05-12 12:30:40] [OUT] ---
+[2026-05-12 12:30:40] [DEBUG] bos_eval: exit=0 output='https://grok.com/imagine/post/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a'
+[2026-05-12 12:30:40] [DEBUG] bos_get_page_url: url='https://grok.com/imagine/post/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a'
+[2026-05-12 12:30:40] [INFO] Post URL: https://grok.com/imagine/post/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a
+[2026-05-12 12:30:40] [INFO] Getting video URL...
+[2026-05-12 12:30:40] [DEBUG] bos_eval: js='document.querySelector('video')?.src || window.location.href'
+
+[2026-05-12 12:30:41] [CMD] browseros-cli eval document.querySelector('video')?.src || window.location.href
+[2026-05-12 12:30:41] [EXIT] 0
+[2026-05-12 12:30:41] [OUT] ---
+https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a/generated_video.mp4?cache=1
+[2026-05-12 12:30:41] [OUT] ---
+[2026-05-12 12:30:41] [DEBUG] bos_eval: exit=0 output='https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a/genera'
+[2026-05-12 12:30:41] [DEBUG] phase_7: video_url from eval=''
+[2026-05-12 12:30:41] [DEBUG] phase_7: falling back to post_url
+[2026-05-12 12:30:41] [INFO] Video URL: https://grok.com/imagine/post/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a
+[2026-05-12 12:30:41] [INFO] Updating tracker... project=1 prompt=286
+[2026-05-12 12:30:41] [DEBUG] phase_7: tracker_result='{"success": true, "id": "286"}'
+[2026-05-12 12:30:41] [INFO] Prompt 286 marked complete
+[2026-05-12 12:30:41] [INFO] ========================================
+[2026-05-12 12:30:41] [INFO]   Complete
+[2026-05-12 12:30:41] [INFO] ========================================
+[2026-05-12 12:30:41] [INFO] Successfully processed prompt 286
+[2026-05-12 12:30:41] [INFO] Asset: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/286.mp4
+[2026-05-12 12:30:41] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-12 12:30:41] [DEBUG] main: finished
