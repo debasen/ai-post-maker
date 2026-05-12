@@ -10,6 +10,268 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 # Source Framework
 source "$SCRIPT_DIR/lib/framework.sh"
 
+# ─── Page-aware BrowserOS helpers ──────────────────────────────────────────────
+
+BROWSEROS_CLI="${BROWSEROS_CLI:-browseros-cli}"
+PAGE_ID=""
+
+_grok_bos() {
+    local cmd="$1"
+    shift
+    if [ "${DRY_RUN:-0}" = "1" ]; then
+        log INFO "[DRY-RUN] browseros-cli $cmd $*"
+        return 0
+    fi
+    local output
+    local exit_code
+    output=$("$BROWSEROS_CLI" "$cmd" "$@" 2>&1)
+    exit_code=$?
+    log_cmd "$BROWSEROS_CLI $cmd $*" "$output" "$exit_code"
+    echo "$output"
+    return $exit_code
+}
+
+grok_open_page() {
+    local url="$1"
+    log INFO "Opening new page: $url"
+    local output
+    local open_exit
+    if [ "${DRY_RUN:-0}" = "1" ]; then
+        log INFO "[DRY-RUN] Would open new page: $url"
+        output='{"pageId":12345}'
+        open_exit=0
+    else
+        output=$(_grok_bos open "$url" --json)
+        open_exit=$?
+    fi
+    if [ $open_exit -ne 0 ]; then
+        log FATAL "Failed to open new page"
+    fi
+    PAGE_ID=$(echo "$output" | jq -r '.pageId // empty' 2>/dev/null)
+    if [ -z "$PAGE_ID" ]; then
+        log FATAL "Could not extract pageId from open response"
+    fi
+    log INFO "Page opened with ID: $PAGE_ID"
+}
+
+grok_snap() {
+    if [ "$DRY_RUN" = "1" ]; then
+        echo '[9999] button "Download"'
+        return 0
+    fi
+    _grok_bos snap -p "$PAGE_ID"
+}
+
+grok_eval() {
+    local js="$1"
+    if [ "$DRY_RUN" = "1" ]; then
+        echo '{"result":"https://grok.com/imagine/post/dry-run-test"}'
+        return 0
+    fi
+    _grok_bos eval -p "$PAGE_ID" "$js"
+}
+
+grok_click_at() { _grok_bos click-at -p "$PAGE_ID" "$1" "$2"; }
+grok_click()    { _grok_bos click -p "$PAGE_ID" "$1"; }
+grok_key()      { _grok_bos key -p "$PAGE_ID" "$1"; }
+
+grok_text() {
+    if [ "$DRY_RUN" = "1" ]; then
+        echo "Download"
+        return 0
+    fi
+    _grok_bos text -p "$PAGE_ID"
+}
+
+grok_download() { _grok_bos download -p "$PAGE_ID" "$1" "$2"; }
+
+grok_get_snap_ref() {
+    local pattern="$1"
+    local snapshot_text
+    snapshot_text=$(grok_snap)
+    local ref
+    ref=$(echo "$snapshot_text" | grep -i "$pattern" | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+    if [ -n "$ref" ]; then
+        echo "$ref"
+        return 0
+    fi
+    return 1
+}
+
+grok_click_by_snap_pattern() {
+    local pattern="$1"
+    log DEBUG "grok_click_by_snap_pattern: pattern='$pattern'"
+    local ref
+    ref=$(grok_get_snap_ref "$pattern")
+    local ref_exit=$?
+    log DEBUG "grok_click_by_snap_pattern: ref='$ref' exit=$ref_exit"
+    if [ $ref_exit -ne 0 ] || [ -z "$ref" ]; then
+        log WARN "Could not find snapshot ref for pattern: $pattern"
+        return 1
+    fi
+    grok_click "$ref"
+}
+
+grok_get_page_url() {
+    local output
+    output=$(grok_eval "window.location.href")
+    echo "$output" | jq -r '.result // empty' 2>/dev/null || echo "$output"
+}
+
+grok_find_element_coords() {
+    local selector="$1"
+    if [ "$DRY_RUN" = "1" ]; then
+        echo '{"found":true,"x":500,"y":400,"width":100,"height":50}'
+        return 0
+    fi
+    local js
+    js=$(cat <<EOF
+(function() {
+    var el = document.querySelector('$selector');
+    if (!el) return JSON.stringify({found: false});
+    var rect = el.getBoundingClientRect();
+    return JSON.stringify({
+        found: true,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        width: rect.width,
+        height: rect.height
+    });
+})()
+EOF
+)
+    local output
+    output=$(grok_eval "$js")
+    echo "$output"
+}
+
+grok_find_element() {
+    local selector="$1"
+    local timeout="${2:-30}"
+    local interval=2
+    local elapsed=0
+    log DEBUG "grok_find_element: selector='$selector' timeout=${timeout}s"
+    while [ "$elapsed" -lt "$timeout" ]; do
+        local output
+        output=$(grok_find_element_coords "$selector")
+        local coords_exit=$?
+        log DEBUG "grok_find_element: attempt elapsed=${elapsed}s exit=$coords_exit output='${output:0:120}'"
+        if [ "$coords_exit" -eq 2 ]; then
+            log ERROR "CDP session lost, aborting element search for '$selector'"
+            return 2
+        fi
+        if [ $coords_exit -eq 0 ]; then
+            local found
+            found=$(echo "$output" | jq -r '.found // false' 2>/dev/null)
+            if [ "$found" = "true" ]; then
+                log INFO "Element found: selector='$selector' coords=$(echo "$output" | jq -c '{x,y}')"
+                echo "$output"
+                return 0
+            fi
+            log DEBUG "grok_find_element: found=false, retrying..."
+        fi
+        sleep "$interval"
+        elapsed=$((elapsed + interval))
+    done
+    log WARN "Element not found: $selector (timeout ${timeout}s)"
+    return 1
+}
+
+grok_type_text() {
+    local text="$1"
+    local input_info
+    input_info=$(grok_find_element "$SELECTOR_INPUT" 10)
+    local find_exit=$?
+    if [ $find_exit -ne 0 ] || [ -z "$input_info" ]; then
+        log ERROR "Could not find input coordinates"
+        return 1
+    fi
+    local input_x input_y
+    input_x=$(echo "$input_info" | jq -r '.x // empty' 2>/dev/null)
+    input_y=$(echo "$input_info" | jq -r '.y // empty' 2>/dev/null)
+
+    if [ -n "$input_x" ] && [ -n "$input_y" ]; then
+        grok_click_at "$input_x" "$input_y"
+    else
+        log ERROR "Could not find input coordinates"
+        return 1
+    fi
+
+    local escaped_text
+    escaped_text=$(echo "$text" | sed 's/\\/\\\\/g; s/"/\\"/g; s/\n/\\n/g')
+
+    local js
+    js="(function() { var el = document.querySelector('$SELECTOR_INPUT'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = \"$escaped_text\"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()"
+
+    grok_eval "$js"
+}
+
+grok_check_image_preference() {
+    if [ "$DRY_RUN" = "1" ]; then return 1; fi
+    local heading_text
+    heading_text=$(grok_eval "(function() { var h = document.evaluate(\"//h3[contains(text(), 'Which image do you prefer to keep?')]\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()")
+    heading_text=$(echo "$heading_text" | jq -r '.result // empty' 2>/dev/null || echo "$heading_text")
+    if echo "$heading_text" | grep -q "Which image do you prefer to keep"; then
+        return 0
+    fi
+    return 1
+}
+
+grok_handle_image_preference() {
+    if [ "$DRY_RUN" = "1" ]; then
+        log INFO "[DRY-RUN] Would check for image preference dialog"
+        return 2
+    fi
+    if grok_check_image_preference; then
+        log INFO "Image preference dialog detected, looking for Skip button..."
+        local skip_ref
+        skip_ref=$(grok_get_snap_ref 'Skip')
+        if [ -n "$skip_ref" ]; then
+            log INFO "Skip button found: ref $skip_ref, clicking..."
+            grok_click "$skip_ref"
+            sleep 2
+            return 0
+        else
+            log WARN "Could not find Skip button in preference dialog"
+            return 1
+        fi
+    fi
+    return 2
+}
+
+grok_check_video_preference() {
+    if [ "$DRY_RUN" = "1" ]; then return 1; fi
+    local heading_text
+    heading_text=$(grok_eval "(function() { var h = document.evaluate(\"//h3[contains(text(), 'Which video do you prefer to keep?')]\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()")
+    heading_text=$(echo "$heading_text" | jq -r '.result // empty' 2>/dev/null || echo "$heading_text")
+    if echo "$heading_text" | grep -q "Which video do you prefer to keep"; then
+        return 0
+    fi
+    return 1
+}
+
+grok_handle_video_preference() {
+    if [ "$DRY_RUN" = "1" ]; then
+        log INFO "[DRY-RUN] Would check for video preference dialog"
+        return 2
+    fi
+    if grok_check_video_preference; then
+        log INFO "Video preference dialog detected, looking for Skip button..."
+        local skip_ref
+        skip_ref=$(grok_get_snap_ref 'Skip')
+        if [ -n "$skip_ref" ]; then
+            log INFO "Skip button found: ref $skip_ref, clicking..."
+            grok_click "$skip_ref"
+            sleep 2
+            return 0
+        else
+            log WARN "Could not find Skip button in preference dialog"
+            return 1
+        fi
+    fi
+    return 2
+}
+
 usage() {
     cat <<EOF
 Usage: $(basename "$0") --project <ID> [options]
@@ -77,9 +339,9 @@ phase_1_preparation() {
 phase_2_navigation() {
     log_section "Phase 2: Platform Navigation"
 
-    log INFO "Navigating to Grok Imagine..."
-    if ! bos_navigate "https://grok.com/imagine"; then
-        log FATAL "Failed to navigate to Grok Imagine"
+    log INFO "Opening Grok Imagine page..."
+    if ! grok_open_page "https://grok.com/imagine"; then
+        log FATAL "Failed to open Grok Imagine page"
     fi
     _dry_run_sleep 2
 }
@@ -90,7 +352,7 @@ phase_3_image_generation() {
 
     log INFO "Finding input area... selector='$SELECTOR_INPUT'"
     local input_info
-    input_info=$(bos_find_element "$SELECTOR_INPUT" 30)
+    input_info=$(grok_find_element "$SELECTOR_INPUT" 30)
     local find_exit=$?
     log DEBUG "phase_3: find_element exit=$find_exit"
     if [ "$find_exit" -eq 2 ]; then
@@ -106,7 +368,7 @@ phase_3_image_generation() {
 
     log INFO "Typing prompt (length=${#PROMPT_TEXT})..."
     log DEBUG "phase_3: prompt_text='${PROMPT_TEXT:0:80}...'"
-    bos_type_text "$PROMPT_TEXT"
+    grok_type_text "$PROMPT_TEXT"
     local type_exit=$?
     log DEBUG "phase_3: type_text exit=$type_exit"
     if [ $type_exit -ne 0 ]; then
@@ -115,7 +377,7 @@ phase_3_image_generation() {
     _dry_run_sleep 1
 
     log INFO "Submitting prompt..."
-    bos_key "Enter"
+    grok_key "Enter"
     local key_exit=$?
     log DEBUG "phase_3: key Enter exit=$key_exit"
     if [ $key_exit -ne 0 ]; then
@@ -131,13 +393,13 @@ phase_3_image_generation() {
     while [ "$elapsed" -lt "$max_wait" ]; do
         log DEBUG "phase_3: polling image gen, elapsed=${elapsed}s"
 
-        if bos_find_element "$SELECTOR_IMAGE" 1 >/dev/null 2>&1; then
+        if grok_find_element "$SELECTOR_IMAGE" 1 >/dev/null 2>&1; then
             log INFO "Image generated successfully (selector found)"
             img_ready=1
             break
         fi
 
-        if bos_check_image_preference; then
+        if grok_check_image_preference; then
             log INFO "Image preference dialog detected (image generation complete)"
             img_ready=1
             break
@@ -152,12 +414,12 @@ phase_3_image_generation() {
     if [ "$img_ready" -eq 0 ]; then
         # Check for warning/failure indicators
         local page_text
-        page_text=$(bos_text)
+        page_text=$(grok_text)
         log DEBUG "phase_3: page_text length=${#page_text}"
         if echo "$page_text" | grep -qi "warning"; then
             log WARN "Image generation warning detected"
             local post_url
-            post_url=$(bos_get_page_url)
+            post_url=$(grok_get_page_url)
             log DEBUG "phase_3: warning post_url='$post_url'"
             if [ "$PROJECT_ID" != "3" ]; then
                 tracker_mark_image_warning "$PROJECT_ID" "$PROMPT_ID" "$post_url"
@@ -166,7 +428,7 @@ phase_3_image_generation() {
             fi
             log FATAL "Image generation warning — prompt marked for retry"
         fi
-        tracker_mark_image_failed "$PROJECT_ID" "$PROMPT_ID" "$(bos_get_page_url)"
+        tracker_mark_image_failed "$PROJECT_ID" "$PROMPT_ID" "$(grok_get_page_url)"
         log FATAL "Timeout waiting for image generation"
     fi
 }
@@ -182,7 +444,7 @@ phase_4_video_generation() {
     while [ "$elapsed" -lt "$max_wait" ]; do
         log DEBUG "phase_4: polling image preference dialog, elapsed=${elapsed}s"
         local handle_exit
-        bos_handle_image_preference
+        grok_handle_image_preference
         handle_exit=$?
         log DEBUG "phase_4: handle_image_preference exit=$handle_exit"
         if [ "$handle_exit" -eq 0 ]; then
@@ -205,7 +467,7 @@ phase_4_video_generation() {
 
     log INFO "Clicking generated image to open detail page..."
     local img_info
-    img_info=$(bos_find_element "$SELECTOR_IMAGE" 30)
+    img_info=$(grok_find_element "$SELECTOR_IMAGE" 30)
     local img_exit=$?
     log DEBUG "phase_4: find_element SELECTOR_IMAGE exit=$img_exit"
     if [ $img_exit -ne 0 ]; then
@@ -217,17 +479,17 @@ phase_4_video_generation() {
     img_y=$(echo "$img_info" | jq -r '.y')
 
     log INFO "Clicking on generated image at ($img_x, $img_y)..."
-    bos_click_at "$img_x" "$img_y"
+    grok_click_at "$img_x" "$img_y"
     _dry_run_sleep 2
 
     log INFO "Looking for Make video button... selector='$SELECTOR_MAKE_VIDEO'"
     local mv_info
-    mv_info=$(bos_find_element "$SELECTOR_MAKE_VIDEO" 30)
+    mv_info=$(grok_find_element "$SELECTOR_MAKE_VIDEO" 30)
     local mv_exit=$?
     log DEBUG "phase_4: find_element SELECTOR_MAKE_VIDEO exit=$mv_exit"
     if [ $mv_exit -ne 0 ]; then
         log WARN "Make video button not found via selector, trying snap fallback..."
-        if ! retry_with_backoff "bos_click_by_snap_pattern 'Make video'" 3 2; then
+        if ! retry_with_backoff "grok_click_by_snap_pattern 'Make video'" 3 2; then
             log FATAL "Could not find Make video button"
         fi
     else
@@ -235,7 +497,7 @@ phase_4_video_generation() {
         mv_x=$(echo "$mv_info" | jq -r '.x')
         mv_y=$(echo "$mv_info" | jq -r '.y')
         log INFO "Make video button found at ($mv_x, $mv_y), clicking..."
-        bos_click_at "$mv_x" "$mv_y"
+        grok_click_at "$mv_x" "$mv_y"
     fi
     log INFO "Video generation triggered"
     _dry_run_sleep 3
@@ -256,14 +518,14 @@ phase_5_monitoring() {
         log DEBUG "phase_5: poll iteration elapsed=${elapsed}s"
 
         local page_text
-        page_text=$(bos_text)
+        page_text=$(grok_text)
         log DEBUG "phase_5: page_text lines=$(echo "$page_text" | wc -l | tr -d ' ')"
 
         local snapshot_text
-        snapshot_text=$(bos_snap)
+        snapshot_text=$(grok_snap)
         log DEBUG "phase_5: snapshot lines=$(echo "$snapshot_text" | wc -l | tr -d ' ')"
 
-        if bos_check_video_preference; then
+        if grok_check_video_preference; then
             log INFO "Video preference dialog detected (video generation complete)"
             video_ready=1
             break
@@ -294,7 +556,7 @@ phase_5_monitoring() {
         if echo "$snapshot_text" | grep -qi "warning"; then
             log WARN "Video generation warning detected"
             local post_url
-            post_url=$(bos_get_page_url)
+            post_url=$(grok_get_page_url)
             log DEBUG "phase_5: warning post_url='$post_url'"
             tracker_mark_video_warning "$PROJECT_ID" "$PROMPT_ID" "$post_url"
             log FATAL "Video generation warning — prompt marked for retry"
@@ -308,7 +570,7 @@ phase_5_monitoring() {
     log DEBUG "phase_5: poll loop ended, video_ready=$video_ready elapsed=${elapsed}s"
     if [ "$video_ready" -eq 0 ]; then
         local post_url
-        post_url=$(bos_get_page_url)
+        post_url=$(grok_get_page_url)
         log DEBUG "phase_5: timeout post_url='$post_url'"
         tracker_mark_video_failed "$PROJECT_ID" "$PROMPT_ID" "$post_url"
         log FATAL "Timeout waiting for video generation"
@@ -321,7 +583,7 @@ phase_6_asset_management() {
 
     log INFO "Checking for video preference dialog..."
     local video_handle_exit
-    bos_handle_video_preference
+    grok_handle_video_preference
     video_handle_exit=$?
     log DEBUG "phase_6: handle_video_preference exit=$video_handle_exit"
     if [ "$video_handle_exit" -eq 1 ]; then
@@ -341,7 +603,7 @@ phase_6_asset_management() {
     local max_dl_retries=3
     while [ "$retries" -lt "$max_dl_retries" ]; do
         log DEBUG "phase_6: find Download attempt=$retries"
-        dl_ref=$(bos_get_snap_ref 'Download')
+        dl_ref=$(grok_get_snap_ref 'Download')
         log DEBUG "phase_6: dl_ref='$dl_ref'"
         if [ -n "$dl_ref" ]; then
             break
@@ -368,7 +630,7 @@ phase_6_asset_management() {
         touch "$dest_dir/dry-run-video.mp4"
         download_output="Downloaded \"dry-run-video.mp4\" to $dest_dir/dry-run-video.mp4"
     else
-        download_output=$(bos_download "$dl_ref" "$dest_dir" 2>&1)
+        download_output=$(grok_download "$dl_ref" "$dest_dir" 2>&1)
         download_exit=$?
     fi
     log DEBUG "phase_6: download_exit=$download_output"
@@ -405,12 +667,16 @@ phase_6_asset_management() {
     FINAL_PATH="$dst_path"
     log INFO "Asset saved: $FINAL_PATH"
 
-    if ! validate_file "$FINAL_PATH" 1024; then
-        log FATAL "Downloaded file is missing or too small"
+    if [ "$DRY_RUN" = "1" ]; then
+        log INFO "[DRY-RUN] Skipping file validation"
+    else
+        if ! validate_file "$FINAL_PATH" 1024; then
+            log FATAL "Downloaded file is missing or too small"
+        fi
+        local fsize
+        fsize=$(stat -f%z "$FINAL_PATH" 2>/dev/null || stat -c%s "$FINAL_PATH" 2>/dev/null)
+        log INFO "File validated: $fsize bytes"
     fi
-    local fsize
-    fsize=$(stat -f%z "$FINAL_PATH" 2>/dev/null || stat -c%s "$FINAL_PATH" 2>/dev/null)
-    log INFO "File validated: $fsize bytes"
 }
 
 # Phase 7: Recording & Tracking
@@ -419,12 +685,12 @@ phase_7_recording() {
 
     log INFO "Getting page URL..."
     local post_url
-    post_url=$(bos_get_page_url)
+    post_url=$(grok_get_page_url)
     log INFO "Post URL: $post_url"
 
     log INFO "Getting video URL..."
     local video_url
-    video_url=$(bos_eval "document.querySelector('video')?.src || window.location.href")
+    video_url=$(grok_eval "document.querySelector('video')?.src || window.location.href")
     video_url=$(echo "$video_url" | jq -r '.result // empty' 2>/dev/null)
     log DEBUG "phase_7: video_url from eval='$video_url'"
     if [ -z "$video_url" ]; then

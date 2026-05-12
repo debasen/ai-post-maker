@@ -2655,51 +2655,56 @@
     {
       "id": 287,
       "prompt": "An ultra-realistic, highly detailed highly detailed crispy skin salmon with asparagus, perfectly seared skin glistening, tender asparagus spears, lemon wedges. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T09:24:44.436064"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/1e0a8158-9002-486e-bd8b-415cea4b00b0",
+      "executed_at": "2026-05-12T13:13:22.162006",
+      "video_url": "https://grok.com/imagine/post/1e0a8158-9002-486e-bd8b-415cea4b00b0"
     },
     {
       "id": 288,
       "prompt": "An ultra-realistic, highly detailed highly detailsd vanilla bean ice cream scoops in a crystal bowl, creamy and rich, visible vanilla bean specks, waffle cone on the side. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T09:34:17.019421"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/adb3a345-6e30-4042-a9d6-addd4d743ae2",
+      "executed_at": "2026-05-12T13:23:19.298602",
+      "video_url": "https://grok.com/imagine/post/adb3a345-6e30-4042-a9d6-addd4d743ae2"
     },
     {
       "id": 289,
       "prompt": "An ultra-realistic, highly detailed highly detailed jerk chicken wings, deeply charred and spicy, scotch bonnet glaze, lime wedges, cooling cucumber yogurt dip. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T09:44:43.806416"
+      "status": "video_failed",
+      "post_url": "",
+      "executed_at": "2026-05-12T13:47:24.717704"
     },
     {
       "id": 290,
       "prompt": "An ultra-realistic, highly detailed highly detailsd miso glazed eggplant, caramelized and glossy white miso glaze, toasted sesame seeds, sliced scallions, steamed rice. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T09:54:13.666161"
+      "status": "video_failed",
+      "post_url": "",
+      "executed_at": "2026-05-12T13:47:42.432888"
     },
     {
       "id": 291,
       "prompt": "An ultra-realistic, highly detailed highly detailed crispy chicken tenders with honey mustard, golden breaded tenders, dipping sauce in a ramekin, glistening and appetizing. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T10:04:42.043203"
+      "status": "image_failed",
+      "post_url": "https://grok.com/imagine/post/18b35ea5-8742-437c-9ef2-9bf112c730e7",
+      "executed_at": "2026-05-12T13:56:49.530631",
+      "video_url": "https://grok.com/imagine/post/c057b292-5faa-41b4-a7ee-98b0b5ab1b8f"
     },
     {
       "id": 292,
       "prompt": "An ultra-realistic, highly detailed highly detailsd chocolate-dipped strawberries on a platter, glossy dark chocolate coating, white chocolate drizzle, fresh and elegant. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T10:14:16.508061"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/dry-run-test",
+      "executed_at": "2026-05-12T13:59:40.269863",
+      "video_url": "https://grok.com/imagine/post/dry-run-test"
     },
     {
       "id": 293,
       "prompt": "An ultra-realistic, highly detailed highly detailed Thai basil chicken stir-fry in a wok, ground chicken with holy basil, Thai chilies, fried egg on top over rice. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T10:24:14.506031"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/cc0bb6dd-796d-47a6-9643-573338e5082d",
+      "executed_at": "2026-05-12T14:02:47.717415",
+      "video_url": "https://grok.com/imagine/post/cc0bb6dd-796d-47a6-9643-573338e5082d"
     },
     {
       "id": 294,
