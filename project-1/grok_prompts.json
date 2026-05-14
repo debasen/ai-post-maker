@@ -2384,7 +2384,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/e837e2b3-51b7-46e7-a339-e1d190f875ae",
       "executed_at": "2026-05-10T19:42:50.475524",
-      "video_url": "https://grok.com/imagine/post/e837e2b3-51b7-46e7-a339-e1d190f875ae"
+      "video_url": "https://grok.com/imagine/post/e837e2b3-51b7-46e7-a339-e1d190f875ae",
+      "asset": "mapped"
     },
     {
       "id": 254,
@@ -2392,7 +2393,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/0899e7f3-1dd9-4df6-95d7-be671f42ebac",
       "executed_at": "2026-05-10T20:03:12.609732",
-      "video_url": "https://grok.com/imagine/post/0899e7f3-1dd9-4df6-95d7-be671f42ebac"
+      "video_url": "https://grok.com/imagine/post/0899e7f3-1dd9-4df6-95d7-be671f42ebac",
+      "asset": "mapped"
     },
     {
       "id": 255,
@@ -2400,7 +2402,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/508add0e-8cb2-4311-af3f-c096e6c5c709",
       "executed_at": "2026-05-10T20:13:00.298557",
-      "video_url": "https://grok.com/imagine/post/508add0e-8cb2-4311-af3f-c096e6c5c709"
+      "video_url": "https://grok.com/imagine/post/508add0e-8cb2-4311-af3f-c096e6c5c709",
+      "asset": "mapped"
     },
     {
       "id": 256,
@@ -2408,7 +2411,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/203e5bb6-7320-4c00-b0e4-49e05adb38bb",
       "executed_at": "2026-05-10T20:23:19.712039",
-      "video_url": "https://grok.com/imagine/post/203e5bb6-7320-4c00-b0e4-49e05adb38bb"
+      "video_url": "https://grok.com/imagine/post/203e5bb6-7320-4c00-b0e4-49e05adb38bb",
+      "asset": "mapped"
     },
     {
       "id": 257,
@@ -2416,7 +2420,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/09c5d034-8027-4ea0-88c2-05270f909b08",
       "executed_at": "2026-05-10T20:33:18.312231",
-      "video_url": "https://grok.com/imagine/post/09c5d034-8027-4ea0-88c2-05270f909b08"
+      "video_url": "https://grok.com/imagine/post/09c5d034-8027-4ea0-88c2-05270f909b08",
+      "asset": "mapped"
     },
     {
       "id": 258,
@@ -2424,7 +2429,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/9c53d3fa-64f6-4823-aea9-1523f46f5359",
       "executed_at": "2026-05-10T20:43:05.821363",
-      "video_url": "https://grok.com/imagine/post/9c53d3fa-64f6-4823-aea9-1523f46f5359"
+      "video_url": "https://grok.com/imagine/post/9c53d3fa-64f6-4823-aea9-1523f46f5359",
+      "asset": "mapped"
     },
     {
       "id": 259,
@@ -2432,7 +2438,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/d837e10d-49c6-4e52-8a8d-53119051424a",
       "executed_at": "2026-05-10T20:53:27.206551",
-      "video_url": "https://grok.com/imagine/post/d837e10d-49c6-4e52-8a8d-53119051424a"
+      "video_url": "https://grok.com/imagine/post/d837e10d-49c6-4e52-8a8d-53119051424a",
+      "asset": "mapped"
     },
     {
       "id": 260,
@@ -2440,7 +2447,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/4ba481d4-d1b2-4429-90b1-2055d4472733",
       "executed_at": "2026-05-10T21:03:09.657978",
-      "video_url": "https://grok.com/imagine/post/4ba481d4-d1b2-4429-90b1-2055d4472733"
+      "video_url": "https://grok.com/imagine/post/4ba481d4-d1b2-4429-90b1-2055d4472733",
+      "asset": "mapped"
     },
     {
       "id": 261,
@@ -2448,7 +2456,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/d178ea85-ad66-4d55-84c4-d06bf33b4fff",
       "executed_at": "2026-05-10T21:13:04.188763",
-      "video_url": "https://grok.com/imagine/post/d178ea85-ad66-4d55-84c4-d06bf33b4fff"
+      "video_url": "https://grok.com/imagine/post/d178ea85-ad66-4d55-84c4-d06bf33b4fff",
+      "asset": "mapped"
     },
     {
       "id": 262,
@@ -2465,7 +2474,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/409a0b2e-fb19-44f9-a182-182d54bfd434",
       "executed_at": "2026-05-10T21:23:11.891682",
-      "video_url": "https://grok.com/imagine/post/409a0b2e-fb19-44f9-a182-182d54bfd434"
+      "video_url": "https://grok.com/imagine/post/409a0b2e-fb19-44f9-a182-182d54bfd434",
+      "asset": "mapped"
     },
     {
       "id": 264,
@@ -2473,7 +2483,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/04ec8789-1fcd-4b80-a336-fe4aeb626391",
       "executed_at": "2026-05-10T21:32:46.827088",
-      "video_url": "https://grok.com/imagine/post/04ec8789-1fcd-4b80-a336-fe4aeb626391"
+      "video_url": "https://grok.com/imagine/post/04ec8789-1fcd-4b80-a336-fe4aeb626391",
+      "asset": "mapped"
     },
     {
       "id": 265,
@@ -2490,7 +2501,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/11c0c777-30c2-4f62-9587-1913ee504776",
       "executed_at": "2026-05-10T21:42:52.855075",
-      "video_url": "https://grok.com/imagine/post/11c0c777-30c2-4f62-9587-1913ee504776"
+      "video_url": "https://grok.com/imagine/post/11c0c777-30c2-4f62-9587-1913ee504776",
+      "asset": "mapped"
     },
     {
       "id": 267,
@@ -2498,7 +2510,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/6474b7b2-c2bf-46f5-8883-6c6380925348",
       "executed_at": "2026-05-10T21:52:52.970218",
-      "video_url": "https://grok.com/imagine/post/6474b7b2-c2bf-46f5-8883-6c6380925348"
+      "video_url": "https://grok.com/imagine/post/6474b7b2-c2bf-46f5-8883-6c6380925348",
+      "asset": "mapped"
     },
     {
       "id": 268,
@@ -2506,7 +2519,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/d96f2ea0-1e21-428d-a7b9-4c71316fa909",
       "executed_at": "2026-05-10T22:03:17.035295",
-      "video_url": "https://grok.com/imagine/post/d96f2ea0-1e21-428d-a7b9-4c71316fa909"
+      "video_url": "https://grok.com/imagine/post/d96f2ea0-1e21-428d-a7b9-4c71316fa909",
+      "asset": "mapped"
     },
     {
       "id": 269,
@@ -2514,7 +2528,8 @@
       "status": "completed",
       "post_url": "https://www.facebook.com/",
       "executed_at": "2026-05-10T22:13:16.024248",
-      "video_url": "https://www.facebook.com/"
+      "video_url": "https://www.facebook.com/",
+      "asset": "mapped"
     },
     {
       "id": 270,
@@ -2522,7 +2537,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/08c4ee9e-a0f4-4278-9c9d-07171a3ef71e",
       "executed_at": "2026-05-10T22:23:03.687664",
-      "video_url": "https://grok.com/imagine/post/08c4ee9e-a0f4-4278-9c9d-07171a3ef71e"
+      "video_url": "https://grok.com/imagine/post/08c4ee9e-a0f4-4278-9c9d-07171a3ef71e",
+      "asset": "mapped"
     },
     {
       "id": 271,
@@ -2530,7 +2546,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/443a3eca-040d-4ba8-80ed-970b34783cad",
       "executed_at": "2026-05-10T22:32:31.603284",
-      "video_url": "https://grok.com/imagine/post/443a3eca-040d-4ba8-80ed-970b34783cad"
+      "video_url": "https://grok.com/imagine/post/443a3eca-040d-4ba8-80ed-970b34783cad",
+      "asset": "mapped"
     },
     {
       "id": 272,
@@ -2538,7 +2555,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/1d2d8d47-3319-4c0e-a0b7-14feb64a7b3d",
       "executed_at": "2026-05-10T22:42:54.900103",
-      "video_url": "https://grok.com/imagine/post/1d2d8d47-3319-4c0e-a0b7-14feb64a7b3d"
+      "video_url": "https://grok.com/imagine/post/1d2d8d47-3319-4c0e-a0b7-14feb64a7b3d",
+      "asset": "mapped"
     },
     {
       "id": 273,
@@ -2546,7 +2564,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/dab02d45-c262-4111-873b-b69d13a92d3f",
       "executed_at": "2026-05-10T22:53:10.531752",
-      "video_url": "https://grok.com/imagine/post/dab02d45-c262-4111-873b-b69d13a92d3f"
+      "video_url": "https://grok.com/imagine/post/dab02d45-c262-4111-873b-b69d13a92d3f",
+      "asset": "mapped"
     },
     {
       "id": 274,
@@ -2554,7 +2573,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/003dc2cd-3406-4df2-8ea5-63b7451eef81",
       "executed_at": "2026-05-10T23:43:03.489095",
-      "video_url": "https://grok.com/imagine/post/003dc2cd-3406-4df2-8ea5-63b7451eef81"
+      "video_url": "https://grok.com/imagine/post/003dc2cd-3406-4df2-8ea5-63b7451eef81",
+      "asset": "mapped"
     },
     {
       "id": 275,
@@ -2562,7 +2582,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/3fe0a4db-0a3a-4f7f-a3ac-f1b513202153",
       "executed_at": "2026-05-11T00:13:24.249169",
-      "video_url": "https://grok.com/imagine/post/3fe0a4db-0a3a-4f7f-a3ac-f1b513202153"
+      "video_url": "https://grok.com/imagine/post/3fe0a4db-0a3a-4f7f-a3ac-f1b513202153",
+      "asset": "mapped"
     },
     {
       "id": 276,
@@ -2570,7 +2591,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/ecd3c575-906b-4e32-9902-4c4f60e6480f",
       "executed_at": "2026-05-11T00:22:49.455012",
-      "video_url": "https://grok.com/imagine/post/ecd3c575-906b-4e32-9902-4c4f60e6480f"
+      "video_url": "https://grok.com/imagine/post/ecd3c575-906b-4e32-9902-4c4f60e6480f",
+      "asset": "mapped"
     },
     {
       "id": 277,
@@ -2578,7 +2600,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/0c0f6975-25d2-4a60-86ad-824232d3ffdc",
       "executed_at": "2026-05-11T00:33:19.859225",
-      "video_url": "https://grok.com/imagine/post/0c0f6975-25d2-4a60-86ad-824232d3ffdc"
+      "video_url": "https://grok.com/imagine/post/0c0f6975-25d2-4a60-86ad-824232d3ffdc",
+      "asset": "mapped"
     },
     {
       "id": 278,
@@ -2586,7 +2609,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/ed1c29fb-c09d-4216-bc5a-80c49f26da76",
       "executed_at": "2026-05-11T00:43:06.836620",
-      "video_url": "https://grok.com/imagine/post/ed1c29fb-c09d-4216-bc5a-80c49f26da76"
+      "video_url": "https://grok.com/imagine/post/ed1c29fb-c09d-4216-bc5a-80c49f26da76",
+      "asset": "mapped"
     },
     {
       "id": 279,
@@ -2594,7 +2618,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/94edea37-bb51-4f9a-bef2-a167323128ca",
       "executed_at": "2026-05-11T00:52:38.397763",
-      "video_url": "https://grok.com/imagine/post/94edea37-bb51-4f9a-bef2-a167323128ca"
+      "video_url": "https://grok.com/imagine/post/94edea37-bb51-4f9a-bef2-a167323128ca",
+      "asset": "mapped"
     },
     {
       "id": 280,
@@ -2602,7 +2627,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/816c318e-1bf5-4cca-adc0-c112f882adc5",
       "executed_at": "2026-05-11T01:02:49.588224",
-      "video_url": "https://grok.com/imagine/post/816c318e-1bf5-4cca-adc0-c112f882adc5"
+      "video_url": "https://grok.com/imagine/post/816c318e-1bf5-4cca-adc0-c112f882adc5",
+      "asset": "mapped"
     },
     {
       "id": 281,
@@ -2610,7 +2636,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/0d067ed0-910e-4f02-9987-e8abe11824f6",
       "executed_at": "2026-05-11T01:12:57.870046",
-      "video_url": "https://grok.com/imagine/post/0d067ed0-910e-4f02-9987-e8abe11824f6"
+      "video_url": "https://grok.com/imagine/post/0d067ed0-910e-4f02-9987-e8abe11824f6",
+      "asset": "mapped"
     },
     {
       "id": 282,
@@ -2618,7 +2645,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/a9e219ac-28b3-40eb-9a18-e7a0dda4654e",
       "executed_at": "2026-05-11T01:22:22.226871",
-      "video_url": "https://grok.com/imagine/post/a9e219ac-28b3-40eb-9a18-e7a0dda4654e"
+      "video_url": "https://grok.com/imagine/post/a9e219ac-28b3-40eb-9a18-e7a0dda4654e",
+      "asset": "mapped"
     },
     {
       "id": 283,
@@ -2626,7 +2654,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/537c5c41-8280-460b-8a5f-e4bbbb881b38",
       "executed_at": "2026-05-11T01:33:00.328022",
-      "video_url": "https://grok.com/imagine/post/537c5c41-8280-460b-8a5f-e4bbbb881b38"
+      "video_url": "https://grok.com/imagine/post/537c5c41-8280-460b-8a5f-e4bbbb881b38",
+      "asset": "mapped"
     },
     {
       "id": 284,
@@ -2634,7 +2663,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/70b804f7-0016-4f7c-bc02-0447c33b438b",
       "executed_at": "2026-05-11T01:42:58.106071",
-      "video_url": "https://grok.com/imagine/post/70b804f7-0016-4f7c-bc02-0447c33b438b"
+      "video_url": "https://grok.com/imagine/post/70b804f7-0016-4f7c-bc02-0447c33b438b",
+      "asset": "mapped"
     },
     {
       "id": 285,
@@ -2642,7 +2672,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/871b4eaf-8212-4136-baf5-f456f46414d0",
       "executed_at": "2026-05-11T01:52:38.599791",
-      "video_url": "https://grok.com/imagine/post/871b4eaf-8212-4136-baf5-f456f46414d0"
+      "video_url": "https://grok.com/imagine/post/871b4eaf-8212-4136-baf5-f456f46414d0",
+      "asset": "mapped"
     },
     {
       "id": 286,
@@ -2650,7 +2681,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a",
       "executed_at": "2026-05-12T12:30:41.158850",
-      "video_url": "https://grok.com/imagine/post/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a"
+      "video_url": "https://grok.com/imagine/post/e5d8bc0c-61a3-4004-8bde-4de9ca7aa55a",
+      "asset": "mapped"
     },
     {
       "id": 287,
@@ -2658,7 +2690,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/1e0a8158-9002-486e-bd8b-415cea4b00b0",
       "executed_at": "2026-05-12T13:13:22.162006",
-      "video_url": "https://grok.com/imagine/post/1e0a8158-9002-486e-bd8b-415cea4b00b0"
+      "video_url": "https://grok.com/imagine/post/1e0a8158-9002-486e-bd8b-415cea4b00b0",
+      "asset": "mapped"
     },
     {
       "id": 288,
@@ -2666,29 +2699,35 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/adb3a345-6e30-4042-a9d6-addd4d743ae2",
       "executed_at": "2026-05-12T13:23:19.298602",
-      "video_url": "https://grok.com/imagine/post/adb3a345-6e30-4042-a9d6-addd4d743ae2"
+      "video_url": "https://grok.com/imagine/post/adb3a345-6e30-4042-a9d6-addd4d743ae2",
+      "asset": "mapped"
     },
     {
       "id": 289,
       "prompt": "An ultra-realistic, highly detailed highly detailed jerk chicken wings, deeply charred and spicy, scotch bonnet glaze, lime wedges, cooling cucumber yogurt dip. Aspect ratio 9:16 portrait",
-      "status": "video_failed",
-      "post_url": "",
-      "executed_at": "2026-05-12T13:47:24.717704"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/b1e4e5b7-a1a3-49c1-ac41-366c4a3833a3",
+      "executed_at": "2026-05-13T10:02:41.727510",
+      "video_url": "https://grok.com/imagine/post/b1e4e5b7-a1a3-49c1-ac41-366c4a3833a3",
+      "asset": "mapped"
     },
     {
       "id": 290,
       "prompt": "An ultra-realistic, highly detailed highly detailsd miso glazed eggplant, caramelized and glossy white miso glaze, toasted sesame seeds, sliced scallions, steamed rice. Aspect ratio 9:16 portrait",
-      "status": "video_failed",
-      "post_url": "",
-      "executed_at": "2026-05-12T13:47:42.432888"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/22d5a0cc-014a-491a-89f2-e6a740f9b14c",
+      "executed_at": "2026-05-13T10:12:51.292605",
+      "video_url": "https://grok.com/imagine/post/22d5a0cc-014a-491a-89f2-e6a740f9b14c",
+      "asset": "mapped"
     },
     {
       "id": 291,
       "prompt": "An ultra-realistic, highly detailed highly detailed crispy chicken tenders with honey mustard, golden breaded tenders, dipping sauce in a ramekin, glistening and appetizing. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
-      "post_url": "https://grok.com/imagine/post/18b35ea5-8742-437c-9ef2-9bf112c730e7",
-      "executed_at": "2026-05-12T13:56:49.530631",
-      "video_url": "https://grok.com/imagine/post/c057b292-5faa-41b4-a7ee-98b0b5ab1b8f"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/9d1eaaa6-25ac-4865-a846-6a822b435999",
+      "executed_at": "2026-05-13T10:22:54.547788",
+      "video_url": "https://grok.com/imagine/post/9d1eaaa6-25ac-4865-a846-6a822b435999",
+      "asset": "mapped"
     },
     {
       "id": 292,
@@ -2696,7 +2735,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/dry-run-test",
       "executed_at": "2026-05-12T13:59:40.269863",
-      "video_url": "https://grok.com/imagine/post/dry-run-test"
+      "video_url": "https://grok.com/imagine/post/dry-run-test",
+      "asset": "mapped"
     },
     {
       "id": 293,
@@ -2704,413 +2744,516 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/cc0bb6dd-796d-47a6-9643-573338e5082d",
       "executed_at": "2026-05-12T14:02:47.717415",
-      "video_url": "https://grok.com/imagine/post/cc0bb6dd-796d-47a6-9643-573338e5082d"
+      "video_url": "https://grok.com/imagine/post/cc0bb6dd-796d-47a6-9643-573338e5082d",
+      "asset": "mapped"
     },
     {
       "id": 294,
       "prompt": "An ultra-realistic, highly detailed highly detailsd Dutch baby pancake in a cast iron skillet, puffed and golden at edges, powdered sugar, fresh berries, lemon wedges. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T10:34:15.898210"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/081eb205-a06f-4c3c-bee3-a5bcd4141cac",
+      "executed_at": "2026-05-12T14:12:48.523752",
+      "video_url": "https://grok.com/imagine/post/081eb205-a06f-4c3c-bee3-a5bcd4141cac",
+      "asset": "mapped"
     },
     {
       "id": 295,
       "prompt": "An ultra-realistic, highly detailed highly detailed whole roasted branzino on a platter, crispy skin, stuffed with lemon and herbs, cherry tomatoes, olive oil drizzle. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T10:44:46.799389"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/4520b09e-0361-47ce-bf45-6f4ad623d746",
+      "executed_at": "2026-05-12T14:22:38.879729",
+      "video_url": "https://grok.com/imagine/post/4520b09e-0361-47ce-bf45-6f4ad623d746",
+      "asset": "mapped"
     },
     {
       "id": 296,
       "prompt": "An ultra-realistic, highly detailed highly detailsd kale and quinoa power bowl, massaged kale, avocado slices, cherry tomatoes, chickpeas, pumpkin seeds, tahini dressing. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T10:54:12.281315"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/dab71f9a-bc72-4fce-826a-f32e6832c5e9",
+      "executed_at": "2026-05-12T14:32:47.174680",
+      "video_url": "https://grok.com/imagine/post/dab71f9a-bc72-4fce-826a-f32e6832c5e9",
+      "asset": "mapped"
     },
     {
       "id": 297,
       "prompt": "An ultra-realistic, highly detailed highly detailed oven-baked chicken parmesan, crispy breadcrumb coating, melted mozzarella, marinara sauce, fresh basil, over spaghetti. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T11:04:17.902836"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/3c8aaddb-1176-491b-96c4-64890a44515d",
+      "executed_at": "2026-05-12T14:42:31.501193",
+      "video_url": "https://grok.com/imagine/post/3c8aaddb-1176-491b-96c4-64890a44515d",
+      "asset": "mapped"
     },
     {
       "id": 298,
       "prompt": "An ultra-realistic, highly detailed highly detailsd tiramisu cups in glassware, layers of espresso-soaked ladyfingers and mascarpone cream, cocoa dusted on top. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T11:14:49.924920"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/22893e6c-7a1f-475c-98ca-e75d9c9e6269",
+      "executed_at": "2026-05-12T14:52:43.992557",
+      "video_url": "https://grok.com/imagine/post/22893e6c-7a1f-475c-98ca-e75d9c9e6269",
+      "asset": "mapped"
     },
     {
       "id": 299,
       "prompt": "An ultra-realistic, highly detailed highly detailed tempura udon in a bowl, thick udon noodles in hot dashi broth, crispy shrimp and vegetable tempura on top, scallions. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T11:24:49.475842"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/3e7f6971-1b54-4439-b52b-404a56b9e7a8",
+      "executed_at": "2026-05-12T15:03:23.932656",
+      "video_url": "https://grok.com/imagine/post/3e7f6971-1b54-4439-b52b-404a56b9e7a8",
+      "asset": "mapped"
     },
     {
       "id": 300,
       "prompt": "An ultra-realistic, highly detailed highly detailsd harissa roasted chicken thighs, deeply charred and spicy red, crispy skin, fresh cilantro, served with couscous. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T11:34:43.154351"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/9dd5f074-94e7-4eb9-8ef3-0f8c46cc085a",
+      "executed_at": "2026-05-12T15:12:47.077434",
+      "video_url": "https://grok.com/imagine/post/9dd5f074-94e7-4eb9-8ef3-0f8c46cc085a",
+      "asset": "mapped"
     },
     {
       "id": 301,
       "prompt": "An ultra-realistic, highly detailed golden honey-glazed chicken thighs sizzling in a cast iron skillet, sticky glaze caramelizing on the skin, fresh cilantro garnish, steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T11:44:45.877279"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/c2b63206-9b63-4e5f-a073-062acee9fcdb",
+      "executed_at": "2026-05-12T15:22:48.395280",
+      "video_url": "https://grok.com/imagine/post/c2b63206-9b63-4e5f-a073-062acee9fcdb",
+      "asset": "mapped"
     },
     {
       "id": 302,
       "prompt": "An ultra-realistic, highly detailed jumbo sea scallops seared to perfection, golden crust glistening, sitting on a bed of sweet pea puree, microgreens, lemon zest. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T11:54:12.313611"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/dded0caa-1ccf-448f-b3db-9c19c9bc8905",
+      "executed_at": "2026-05-12T15:32:44.733337",
+      "video_url": "https://grok.com/imagine/post/dded0caa-1ccf-448f-b3db-9c19c9bc8905",
+      "asset": "mapped"
     },
     {
       "id": 303,
       "prompt": "An ultra-realistic, highly detailed creamy sun-dried tomato chicken pasta, wide penne noodles coated in rich orange sauce, shaved parmesan falling like snow, fresh basil. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T12:04:44.718155"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/7d7fbb28-6db0-42cb-addd-84167b1b3dcd",
+      "executed_at": "2026-05-12T15:42:57.598596",
+      "video_url": "https://grok.com/imagine/post/7d7fbb28-6db0-42cb-addd-84167b1b3dcd",
+      "asset": "mapped"
     },
     {
       "id": 304,
       "prompt": "An ultra-realistic, highly detailed Mediterranean grilled chicken salad in a white bowl, vibrant greens, kalamata olives, crumbled feta, cherry tomatoes, grilled chicken strips. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T12:14:18.602382"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/39bdccb5-7f25-46ae-a277-ab558908ae9c",
+      "executed_at": "2026-05-12T15:52:53.065870",
+      "video_url": "https://grok.com/imagine/post/39bdccb5-7f25-46ae-a277-ab558908ae9c",
+      "asset": "mapped"
     },
     {
       "id": 305,
       "prompt": "An ultra-realistic, highly detailed steaming bowl of Thai green curry with chicken, vibrant green coconut broth, Thai eggplant, bamboo shoots, fresh basil. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-12T12:24:44.064658"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/c2bf4308-713e-46ff-884e-e44d01c460d1",
+      "executed_at": "2026-05-12T16:02:51.496631",
+      "video_url": "https://grok.com/imagine/post/c2bf4308-713e-46ff-884e-e44d01c460d1",
+      "asset": "mapped"
     },
     {
       "id": 306,
       "prompt": "An ultra-realistic, highly detailed jumbo lump crab cakes, golden crispy exterior, one broken open to reveal tender crab meat, remoulade drizzle, lemon wedge. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T05:24:54.468301"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/56a76422-447d-45a1-a103-2037c4ddf357",
+      "executed_at": "2026-05-12T16:22:45.403513",
+      "video_url": "https://grok.com/imagine/post/56a76422-447d-45a1-a103-2037c4ddf357",
+      "asset": "mapped"
     },
     {
       "id": 307,
       "prompt": "An ultra-realistic, highly detailed whole roasted chicken on a rustic cutting board, golden crackling skin, lemon wedges, rosemary sprigs, roasted baby potatoes. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T05:34:45.868277"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/8d6587af-d00d-47a8-a935-bca9f382dc8d",
+      "executed_at": "2026-05-12T16:32:51.866881",
+      "video_url": "https://grok.com/imagine/post/8d6587af-d00d-47a8-a935-bca9f382dc8d",
+      "asset": "mapped"
     },
     {
       "id": 308,
       "prompt": "An ultra-realistic, highly detailed deep bowl of Vietnamese chicken pho, clear aromatic broth, rice noodles, shredded chicken, fresh herbs, lime wedges, steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T05:44:48.273522"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/597288c6-17d0-47bf-96bc-2e53649a8455",
+      "executed_at": "2026-05-13T10:32:32.733107",
+      "video_url": "https://grok.com/imagine/post/597288c6-17d0-47bf-96bc-2e53649a8455",
+      "asset": "mapped"
     },
     {
       "id": 309,
       "prompt": "An ultra-realistic, highly detailed white pizza fresh from a wood oven, bubbling ricotta and mozzarella, wilted spinach, garlic slices, charred leopard-spotted crust. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T05:54:52.081519"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/44a92957-a415-4280-8d54-8a2120005d1d",
+      "executed_at": "2026-05-13T10:42:52.934195",
+      "video_url": "https://grok.com/imagine/post/44a92957-a415-4280-8d54-8a2120005d1d",
+      "asset": "mapped"
     },
     {
       "id": 310,
       "prompt": "An ultra-realistic, highly detailed wide pot of coconut curry mussels, plump open mussels in creamy red broth, cilantro, crusty baguette on the side. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T06:04:51.618967"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/1af08b85-86ca-4550-9261-c6fa3c8d2dfc",
+      "executed_at": "2026-05-13T10:52:44.117454",
+      "video_url": "https://grok.com/imagine/post/1af08b85-86ca-4550-9261-c6fa3c8d2dfc",
+      "asset": "mapped"
     },
     {
       "id": 311,
       "prompt": "An ultra-realistic, highly detailed hand-held buttermilk fried chicken sandwich, crispy craggy coating, pickles, shredded lettuce, spicy mayo on a brioche bun. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T06:14:52.328276"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/78f01154-fca0-4f01-8f02-fd9502cea4be",
+      "executed_at": "2026-05-13T11:02:52.493198",
+      "video_url": "https://grok.com/imagine/post/78f01154-fca0-4f01-8f02-fd9502cea4be",
+      "asset": "mapped"
     },
     {
       "id": 312,
       "prompt": "An ultra-realistic, highly detailed slice of lemon lavender pound cake, dense moist crumb, lemon glaze dripping down the sides, dried lavender buds. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T06:24:47.943181"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/a79c075d-617a-46a5-a504-4ebba7093089",
+      "executed_at": "2026-05-13T11:12:46.109171",
+      "video_url": "https://grok.com/imagine/post/a79c075d-617a-46a5-a504-4ebba7093089",
+      "asset": "mapped"
     },
     {
       "id": 313,
       "prompt": "An ultra-realistic, highly detailsd thick slice of Spanish tortilla, layers of tender potato and egg, golden edges, served at room temperature with alioli. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T06:34:51.276769"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/bb9bfff5-5971-4c2e-a5b9-3f8baa9c2912",
+      "executed_at": "2026-05-13T11:22:32.799993",
+      "video_url": "https://grok.com/imagine/post/bb9bfff5-5971-4c2e-a5b9-3f8baa9c2912",
+      "asset": "mapped"
     },
     {
       "id": 314,
       "prompt": "An ultra-realistic, highly detailed crispy rice blocks topped with spicy diced tuna, sriracha drizzle, black sesame seeds, jalapeño slice. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T06:44:49.241190"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/da85f1ea-a600-414e-a847-6f53ac011c07",
+      "executed_at": "2026-05-13T11:32:48.328308",
+      "video_url": "https://grok.com/imagine/post/da85f1ea-a600-414e-a847-6f53ac011c07",
+      "asset": "mapped"
     },
     {
       "id": 315,
       "prompt": "An ultra-realistic, highly detailed spatchcocked peri peri chicken on a grill, deeply charred and fiery red skin, crispy edges, lemon halves. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T06:54:50.442063"
+      "executed_at": "2026-05-13T11:44:38.332752"
     },
     {
       "id": 316,
       "prompt": "An ultra-realistic, highly detailsd elegant lobster thermidor, creamy sauce bubbling under a golden cheese crust, served in the lobster shell. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T07:04:20.336345"
+      "executed_at": "2026-05-13T11:54:37.943998"
     },
     {
       "id": 317,
       "prompt": "An ultra-realistic, highly detailed twirled linguine with shrimp fra diavolo, bright red tomato sauce, plump pink shrimp, parsley, chili flakes. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T07:14:22.749168"
+      "executed_at": "2026-05-13T12:04:36.407850"
     },
     {
       "id": 318,
       "prompt": "An ultra-realistic, highly detailsd refreshing watermelon feta salad, ice-cold red cubes, white feta crumbles, fresh mint, balsamic glaze drizzle. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T07:24:48.711779"
+      "executed_at": "2026-05-13T12:14:37.919748"
     },
     {
       "id": 319,
       "prompt": "An ultra-realistic, highly detailed sliced chicken katsu on a plate, golden panko crust, shredded cabbage, drizzle of thick dark tonkatsu sauce. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T07:34:20.416056"
+      "executed_at": "2026-05-13T12:24:38.129223"
     },
     {
       "id": 320,
       "prompt": "An ultra-realistic, highly detailed decadent dark chocolate raspberry tart, glossy ganache surface, fresh raspberries arranged on top, cocoa dusted. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T07:44:44.665856"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/f8689200-148c-4deb-a7d4-9a02489ed6ff",
+      "executed_at": "2026-05-13T12:32:39.687493",
+      "video_url": "https://grok.com/imagine/post/f8689200-148c-4deb-a7d4-9a02489ed6ff",
+      "asset": "mapped"
     },
     {
       "id": 321,
       "prompt": "An ultra-realistic, highly detailed sizzling chicken tikka skewers on a metal plate, charred and blistered, vibrant red-orange color, cilantro garnish. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T07:54:47.769487"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/ab562482-be52-4449-b21b-62935fddf21f",
+      "executed_at": "2026-05-13T12:42:38.939142",
+      "video_url": "https://grok.com/imagine/post/ab562482-be52-4449-b21b-62935fddf21f",
+      "asset": "mapped"
     },
     {
       "id": 322,
       "prompt": "An ultra-realistic, highly detailed dan dan noodles in a deep bowl, glossy sesame-chili sauce coating wheat noodles, crispy ground chicken, crushed peanuts. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T08:04:43.958646"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/f60b2766-5994-4ae3-bc98-76fc4dcc76bb",
+      "executed_at": "2026-05-13T12:52:42.017257",
+      "video_url": "https://grok.com/imagine/post/f60b2766-5994-4ae3-bc98-76fc4dcc76bb",
+      "asset": "mapped"
     },
     {
       "id": 323,
       "prompt": "An ultra-realistic, highly detailsd hand-held grilled shrimp tacos, charred jumbo shrimp, purple cabbage slaw, avocado slices, chipotle crema drizzle. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T08:14:43.220756"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/d9026a55-c3ec-4f26-87ed-f0b1096b4391",
+      "executed_at": "2026-05-13T13:02:54.408373",
+      "video_url": "https://grok.com/imagine/post/d9026a55-c3ec-4f26-87ed-f0b1096b4391",
+      "asset": "mapped"
     },
     {
       "id": 324,
       "prompt": "An ultra-realistic, highly detailsd towering tiramisu crepe cake, twenty thin layers visible from the side, dusted with cocoa, sliced to reveal interior. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T08:24:18.929431"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/e5c20e36-8350-44fb-b530-0f5768ba84b2",
+      "executed_at": "2026-05-13T13:12:34.433897",
+      "video_url": "https://grok.com/imagine/post/e5c20e36-8350-44fb-b530-0f5768ba84b2",
+      "asset": "mapped"
     },
     {
       "id": 325,
       "prompt": "An ultra-realistic, highly detailsd creamy roasted butternut squash soup in a bowl, vibrant orange, coconut cream swirl, toasted pumpkin seeds, thyme. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T08:34:21.098559"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/ab6d1542-e92a-4b58-8d9d-b15dd75ec5f2",
+      "executed_at": "2026-05-13T13:22:53.095435",
+      "video_url": "https://grok.com/imagine/post/ab6d1542-e92a-4b58-8d9d-b15dd75ec5f2",
+      "asset": "mapped"
     },
     {
       "id": 326,
       "prompt": "An ultra-realistic, highly detailsd chicken satay skewers on a banana leaf, charred edges, peanut sauce in a small bowl, cucumber relish on the side. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T08:44:48.837039"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/0feb141d-d8d7-4d38-bb10-0f46980bfb98",
+      "executed_at": "2026-05-13T13:32:45.869015",
+      "video_url": "https://grok.com/imagine/post/0feb141d-d8d7-4d38-bb10-0f46980bfb98",
+      "asset": "mapped"
     },
     {
       "id": 327,
       "prompt": "An ultra-realistic, highly detailsd bang bang shrimp piled high, crispy panko-coated shrimp coated in creamy orange-pink sauce, shredded lettuce base. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T08:54:26.591036"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/86c1fe93-6be8-4634-add8-33579d17878f",
+      "executed_at": "2026-05-13T13:42:31.397116",
+      "video_url": "https://grok.com/imagine/post/86c1fe93-6be8-4634-add8-33579d17878f",
+      "asset": "mapped"
     },
     {
       "id": 328,
       "prompt": "An ultra-realistic, highly detailsd margherita flatbread on a rustic board, blistered crust, melted fresh mozzarella, bright basil leaves, olive oil glistening. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T09:05:08.124970"
+      "executed_at": "2026-05-13T13:54:32.423265"
     },
     {
       "id": 329,
       "prompt": "An ultra-realistic, highly detailsd soft shell crab sandwich, crispy fried crab on brioche, remoulade oozing, lettuce and tomato visible. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T09:14:56.524698"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/b3b0f56e-0d29-48ae-b4e6-12b163d4b303",
+      "executed_at": "2026-05-13T14:02:31.574921",
+      "video_url": "https://grok.com/imagine/post/b3b0f56e-0d29-48ae-b4e6-12b163d4b303",
+      "asset": "mapped"
     },
     {
       "id": 330,
       "prompt": "An ultra-realistic, highly detailsd slice of passion fruit cheesecake, creamy yellow filling, glossy passion fruit glaze dripping down the sides, graham crust. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T09:24:48.834388"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/52514f68-9bd1-4c77-98fe-585796e2651b",
+      "executed_at": "2026-05-13T14:12:33.115456",
+      "video_url": "https://grok.com/imagine/post/52514f68-9bd1-4c77-98fe-585796e2651b",
+      "asset": "mapped"
     },
     {
       "id": 331,
       "prompt": "An ultra-realistic, highly detailsd golden chicken pot pie, flaky puff pastry lid, creamy filling bubbling through vents, steam escaping. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T09:34:15.219978"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/52c94ed1-ed55-4a94-993b-640fe33cce07",
+      "executed_at": "2026-05-13T14:22:28.982567",
+      "video_url": "https://grok.com/imagine/post/52c94ed1-ed55-4a94-993b-640fe33cce07",
+      "asset": "mapped"
     },
     {
       "id": 332,
       "prompt": "An ultra-realistic, highly detailsd tempura udon in a ceramic bowl, thick noodles in hot dashi, crispy shrimp tempura, scallions, nori. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T09:44:45.737269"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/065a5810-a72a-4035-90d9-d281608f0df8",
+      "executed_at": "2026-05-13T14:32:51.912053",
+      "video_url": "https://grok.com/imagine/post/065a5810-a72a-4035-90d9-d281608f0df8",
+      "asset": "mapped"
     },
     {
       "id": 333,
       "prompt": "An ultra-realistic, highly detailsd Nashville hot chicken tenders, fiery red cayenne coating, served on white bread with pickles, oil soaking into bread. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T09:54:50.460342"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/722d2396-21f9-4003-bde2-bd60c7ed12c0",
+      "executed_at": "2026-05-13T14:42:46.822662",
+      "video_url": "https://grok.com/imagine/post/722d2396-21f9-4003-bde2-bd60c7ed12c0",
+      "asset": "mapped"
     },
     {
       "id": 334,
       "prompt": "An ultra-realistic, highly detailsd elegant pistachio rose water cake slice, pale green crumb, rose buttercream frosting, crushed pistachios on top. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T10:04:53.620580"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/c8109e36-99e9-486e-89df-970dd484e016",
+      "executed_at": "2026-05-13T14:52:53.249311",
+      "video_url": "https://grok.com/imagine/post/c8109e36-99e9-486e-89df-970dd484e016",
+      "asset": "mapped"
     },
     {
       "id": 335,
       "prompt": "An ultra-realistic, highly detailsd oysters Rockefeller on a half shell, spinach and breadcrumb topping bubbling and golden, lemon wedges, rock salt bed. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T14:34:21.979258"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/3f176b2d-b3e6-4965-8de7-a6bee51a4a26",
+      "executed_at": "2026-05-13T15:01:26.701306",
+      "video_url": "https://grok.com/imagine/post/3f176b2d-b3e6-4965-8de7-a6bee51a4a26",
+      "asset": "mapped"
     },
     {
       "id": 336,
       "prompt": "An ultra-realistic, highly detailsd cacio e pepe pasta being twirled, glossy pecorino sauce clinging to spaghetti, generous black pepper, steam wisps. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T14:44:42.663520"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/34a97526-a408-4f5a-bd95-dc6e0653b109",
+      "executed_at": "2026-05-13T15:11:36.910653",
+      "video_url": "https://grok.com/imagine/post/34a97526-a408-4f5a-bd95-dc6e0653b109",
+      "asset": "mapped"
     },
     {
       "id": 337,
       "prompt": "An ultra-realistic, highly detailsd harissa roasted chicken thighs, deeply charred red skin, fresh cilantro, served on a rustic plate with couscous. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T14:54:46.078978"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/43cb6d2d-8cd7-43ca-b994-3e48ae2892a5",
+      "executed_at": "2026-05-13T15:21:42.452706",
+      "video_url": "https://grok.com/imagine/post/43cb6d2d-8cd7-43ca-b994-3e48ae2892a5",
+      "asset": "mapped"
     },
     {
       "id": 338,
       "prompt": "An ultra-realistic, highly detailsd shrimp and grits in a bowl, creamy white grits, plump shrimp, pan juices, scallions, southern comfort lighting. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T15:04:50.811587"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/74eb78ae-4994-4e6e-8200-28a761cdf591",
+      "executed_at": "2026-05-13T15:31:37.998262",
+      "video_url": "https://grok.com/imagine/post/74eb78ae-4994-4e6e-8200-28a761cdf591",
+      "asset": "mapped"
     },
     {
       "id": 339,
       "prompt": "An ultra-realistic, highly detailsd fluffy ricotta hotcakes stacked high, golden edges, melting honey butter, fresh berries, powdered sugar dusting. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T15:14:27.631314"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/8756523d-6c02-48a1-a672-61dafd48469b",
+      "executed_at": "2026-05-13T15:41:34.586200",
+      "video_url": "https://grok.com/imagine/post/8756523d-6c02-48a1-a672-61dafd48469b",
+      "asset": "mapped"
     },
     {
       "id": 340,
       "prompt": "An ultra-realistic, highly detailsd bubbling kimchi jjigae in a black stone pot, aged kimchi, tofu cubes, chicken, steam rising, vibrant red broth. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T15:24:54.492285"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/46f88272-dac8-4074-8ef7-8dc46b89404e",
+      "executed_at": "2026-05-13T15:51:40.392615",
+      "video_url": "https://grok.com/imagine/post/46f88272-dac8-4074-8ef7-8dc46b89404e",
+      "asset": "mapped"
     },
     {
       "id": 341,
       "prompt": "An ultra-realistic, highly detailsd Cajun shrimp boil dumped on newspaper, bright red shrimp, corn on the cob, potatoes, lemon halves, messy and festive. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T15:34:53.337845"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/b371b51f-0dd1-44b3-9ec6-08df3a398179",
+      "executed_at": "2026-05-13T16:01:37.388040",
+      "video_url": "https://grok.com/imagine/post/b371b51f-0dd1-44b3-9ec6-08df3a398179",
+      "asset": "mapped"
     },
     {
       "id": 342,
       "prompt": "An ultra-realistic, highly detailsd spinach and feta gozleme on a wooden board, golden blistered flatbread, cut in half to show savory filling. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T15:44:55.728918"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/fe18746b-aabf-4f81-ae43-8f9489d23ba7",
+      "executed_at": "2026-05-13T16:11:40.193871",
+      "video_url": "https://grok.com/imagine/post/fe18746b-aabf-4f81-ae43-8f9489d23ba7",
+      "asset": "mapped"
     },
     {
       "id": 343,
       "prompt": "An ultra-realistic, highly detailsd lemon pepper chicken wings, crispy golden skin, lemon zest visible, black pepper, blue cheese dressing on the side. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T15:54:47.769801"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/725c4737-4675-4a49-ad3a-c99ed481f0f6",
+      "executed_at": "2026-05-13T16:31:21.445263",
+      "video_url": "https://grok.com/imagine/post/725c4737-4675-4a49-ad3a-c99ed481f0f6",
+      "asset": "mapped"
     },
     {
       "id": 344,
       "prompt": "An ultra-realistic, highly detailsd miso ramen bowl, rich cloudy broth, wavy noodles, corn, nori, soft-boiled egg, scallions, steam rising. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T16:04:51.163654"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/137f1499-2920-4336-85d6-6d9128c941a5",
+      "executed_at": "2026-05-13T16:41:23.109286",
+      "video_url": "https://grok.com/imagine/post/137f1499-2920-4336-85d6-6d9128c941a5",
+      "asset": "mapped"
     },
     {
       "id": 345,
       "prompt": "An ultra-realistic, highly detailsd grilled halloumi salad, golden seared cheese slices, arugula, watermelon cubes, mint, balsamic drizzle. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T16:14:53.257276"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/b54f72f7-0213-4030-ab9d-cebdd13ace4d",
+      "executed_at": "2026-05-13T16:51:41.364516",
+      "video_url": "https://grok.com/imagine/post/b54f72f7-0213-4030-ab9d-cebdd13ace4d",
+      "asset": "mapped"
     },
     {
       "id": 346,
       "prompt": "An ultra-realistic, highly detailsd burnt Basque cheesecake slice, deeply caramelized top, creamy custardy interior, on a white plate. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T16:24:27.244908"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/cd3c6407-20dd-475e-b4fe-83a0a7a34a5a",
+      "executed_at": "2026-05-13T17:01:34.125750",
+      "video_url": "https://grok.com/imagine/post/cd3c6407-20dd-475e-b4fe-83a0a7a34a5a",
+      "asset": "mapped"
     },
     {
       "id": 347,
       "prompt": "An ultra-realistic, highly detailsd chicken shawarma bowl, sliced marinated chicken, colorful vegetables, tahini drizzle, rice base, warm pita. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T16:34:50.668242"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/1b482a16-2446-49a2-833d-9e7f9c38a492",
+      "executed_at": "2026-05-13T17:11:27.940573",
+      "video_url": "https://grok.com/imagine/post/1b482a16-2446-49a2-833d-9e7f9c38a492",
+      "asset": "mapped"
     },
     {
       "id": 348,
       "prompt": "An ultra-realistic, highly detailsd grilled calamari steak, crosshatch grill marks, lemon wedges, arugula salad, Mediterranean lighting. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T16:44:52.679026"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/f96c5a71-d91e-40a2-81f9-4ab344f00e96",
+      "executed_at": "2026-05-13T17:21:35.927231",
+      "video_url": "https://grok.com/imagine/post/f96c5a71-d91e-40a2-81f9-4ab344f00e96",
+      "asset": "mapped"
     },
     {
       "id": 349,
       "prompt": "An ultra-realistic, highly detailsd pesto genovese with gigli pasta, vibrant green basil pesto, toasted pine nuts, parmesan shavings, rustic bowl. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T16:54:58.378084"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/8d7840ff-b581-4699-9452-7f1821b37659",
+      "executed_at": "2026-05-13T17:31:48.301091",
+      "video_url": "https://grok.com/imagine/post/8d7840ff-b581-4699-9452-7f1821b37659",
+      "asset": "mapped"
     },
     {
       "id": 350,
       "prompt": "An ultra-realistic, highly detailsd Sichuan dry-fried chicken, crispy chicken cubes, dried red chilies, Sichuan peppercorns, scallions, wok hei. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T17:04:53.058546"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/9fc0398f-c101-4827-be0a-2fa5731ef29a",
+      "executed_at": "2026-05-13T17:41:51.576028",
+      "video_url": "https://grok.com/imagine/post/9fc0398f-c101-4827-be0a-2fa5731ef29a",
+      "asset": "mapped"
     },
     {
       "id": 351,
       "prompt": "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait",
       "status": "pending",
       "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-11T17:14:47.972782"
+      "executed_at": "2026-05-13T17:54:24.711564"
     },
     {
       "id": 352,
@@ -3133,7 +3276,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/85b1fa5f-a1e5-46ef-a50e-84328a4818f4",
       "executed_at": "2026-05-11T22:32:18.768489",
-      "video_url": "https://grok.com/imagine/post/85b1fa5f-a1e5-46ef-a50e-84328a4818f4"
+      "video_url": "https://grok.com/imagine/post/85b1fa5f-a1e5-46ef-a50e-84328a4818f4",
+      "asset": "mapped"
     },
     {
       "id": 355,
@@ -3141,7 +3285,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/993f4fee-ccab-4945-ad95-7c0331b637c7",
       "executed_at": "2026-05-11T22:42:50.185868",
-      "video_url": "https://grok.com/imagine/post/993f4fee-ccab-4945-ad95-7c0331b637c7"
+      "video_url": "https://grok.com/imagine/post/993f4fee-ccab-4945-ad95-7c0331b637c7",
+      "asset": "mapped"
     },
     {
       "id": 356,
@@ -3149,7 +3294,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/fe21fdd3-d802-43fc-923e-3e7c725e16bf",
       "executed_at": "2026-05-11T22:52:13.745126",
-      "video_url": "https://grok.com/imagine/post/fe21fdd3-d802-43fc-923e-3e7c725e16bf"
+      "video_url": "https://grok.com/imagine/post/fe21fdd3-d802-43fc-923e-3e7c725e16bf",
+      "asset": "mapped"
     },
     {
       "id": 357,
@@ -3157,7 +3303,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/adafd986-0661-424f-b404-28de5309141d",
       "executed_at": "2026-05-11T23:02:55.829976",
-      "video_url": "https://grok.com/imagine/post/adafd986-0661-424f-b404-28de5309141d"
+      "video_url": "https://grok.com/imagine/post/adafd986-0661-424f-b404-28de5309141d",
+      "asset": "mapped"
     },
     {
       "id": 358,
@@ -3165,7 +3312,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/5643aa0d-8459-4055-83fc-ec30cf2bf3dd",
       "executed_at": "2026-05-11T23:12:46.332066",
-      "video_url": "https://grok.com/imagine/post/5643aa0d-8459-4055-83fc-ec30cf2bf3dd"
+      "video_url": "https://grok.com/imagine/post/5643aa0d-8459-4055-83fc-ec30cf2bf3dd",
+      "asset": "mapped"
     },
     {
       "id": 359,
@@ -3173,7 +3321,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/37b7e2f0-20a4-44a1-b57f-b691260a7e7b",
       "executed_at": "2026-05-11T23:22:29.355424",
-      "video_url": "https://grok.com/imagine/post/37b7e2f0-20a4-44a1-b57f-b691260a7e7b"
+      "video_url": "https://grok.com/imagine/post/37b7e2f0-20a4-44a1-b57f-b691260a7e7b",
+      "asset": "mapped"
     },
     {
       "id": 360,

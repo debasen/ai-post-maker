@@ -1,53 +1,53 @@
-[2026-05-12 14:07:53] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
-[2026-05-12 14:07:53] [INFO] Starting automation for project 1
-[2026-05-12 14:07:53] [INFO] Timeout: 300s, Max retries: 3
-[2026-05-12 14:07:53] [INFO] Checking BrowserOS health...
+[2026-05-13 17:50:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-13 17:50:00] [INFO] Starting automation for project 1
+[2026-05-13 17:50:00] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-13 17:50:00] [INFO] Checking BrowserOS health...
 
-[2026-05-12 14:07:56] [CMD] browseros-cli health 
-[2026-05-12 14:07:56] [EXIT] 0
-[2026-05-12 14:07:56] [OUT] ---
+[2026-05-13 17:50:02] [CMD] browseros-cli health 
+[2026-05-13 17:50:02] [EXIT] 0
+[2026-05-13 17:50:02] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-12 14:07:56] [OUT] ---
-[2026-05-12 14:07:56] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-05-12 14:07:56] [DEBUG] Retry attempt 1/3: bos_health
+[2026-05-13 17:50:02] [OUT] ---
+[2026-05-13 17:50:02] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-13 17:50:02] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-05-12 14:07:56] [CMD] browseros-cli health 
-[2026-05-12 14:07:56] [EXIT] 0
-[2026-05-12 14:07:56] [OUT] ---
+[2026-05-13 17:50:03] [CMD] browseros-cli health 
+[2026-05-13 17:50:03] [EXIT] 0
+[2026-05-13 17:50:03] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-12 14:07:56] [OUT] ---
-[2026-05-12 14:07:56] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-05-12 14:07:56] [INFO] BrowserOS is healthy
-[2026-05-12 14:07:56] [INFO] ========================================
-[2026-05-12 14:07:56] [INFO]   Phase 1: Preparation
-[2026-05-12 14:07:57] [INFO] ========================================
-[2026-05-12 14:07:57] [INFO] Using tracker: grok_tracker.py
-[2026-05-12 14:07:57] [INFO] Fetching next pending prompt...
-[2026-05-12 14:07:57] [DEBUG] Tracker response: {"id": 294, "prompt": "An ultra-realistic, highly detailed highly detailsd Dutch baby pancake in a cast iron skillet, puffed and golden at edges, powdered sugar, fresh berries, lemon wedges. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-12T10:34:15.898210"}
-[2026-05-12 14:07:57] [INFO] Next prompt ID: 294
-[2026-05-12 14:07:57] [INFO] Status: pending
-[2026-05-12 14:07:57] [DEBUG] Prompt: An ultra-realistic, highly detailed highly detailsd Dutch baby pancake in a cast iron skillet, puffed and golden at edges, powdered sugar, fresh berries, lemon wedges. Aspect ratio 9:16 portrait
-[2026-05-12 14:07:57] [INFO] ========================================
-[2026-05-12 14:07:57] [INFO]   Phase 2: Platform Navigation
-[2026-05-12 14:07:57] [INFO] ========================================
-[2026-05-12 14:07:57] [INFO] Opening Grok Imagine page...
-[2026-05-12 14:07:57] [INFO] Opening new page: https://grok.com/imagine
+[2026-05-13 17:50:03] [OUT] ---
+[2026-05-13 17:50:03] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-13 17:50:03] [INFO] BrowserOS is healthy
+[2026-05-13 17:50:03] [INFO] ========================================
+[2026-05-13 17:50:03] [INFO]   Phase 1: Preparation
+[2026-05-13 17:50:03] [INFO] ========================================
+[2026-05-13 17:50:03] [INFO] Using tracker: grok_tracker.py
+[2026-05-13 17:50:03] [INFO] Fetching next pending prompt...
+[2026-05-13 17:50:03] [DEBUG] Tracker response: {"id": 351, "prompt": "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-11T17:14:47.972782"}
+[2026-05-13 17:50:03] [INFO] Next prompt ID: 351
+[2026-05-13 17:50:03] [INFO] Status: pending
+[2026-05-13 17:50:03] [DEBUG] Prompt: An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+[2026-05-13 17:50:03] [INFO] ========================================
+[2026-05-13 17:50:03] [INFO]   Phase 2: Platform Navigation
+[2026-05-13 17:50:03] [INFO] ========================================
+[2026-05-13 17:50:03] [INFO] Opening Grok Imagine page...
+[2026-05-13 17:50:03] [INFO] Opening new page: https://grok.com/imagine
 
-[2026-05-12 14:07:58] [CMD] browseros-cli open https://grok.com/imagine --json
-[2026-05-12 14:07:58] [EXIT] 0
-[2026-05-12 14:07:58] [OUT] ---
-{"background":false,"hidden":false,"pageId":72,"url":"https://grok.com/imagine"}
-[2026-05-12 14:07:58] [OUT] ---
-[2026-05-12 14:07:58] [INFO] Page opened with ID: 72
-[2026-05-12 14:08:00] [INFO] ========================================
-[2026-05-12 14:08:00] [INFO]   Phase 3: Image Generation
-[2026-05-12 14:08:00] [INFO] ========================================
-[2026-05-12 14:08:00] [INFO] Finding input area... selector='div[contenteditable="true"]'
-[2026-05-12 14:08:00] [DEBUG] grok_find_element: selector='div[contenteditable="true"]' timeout=30s
+[2026-05-13 17:50:05] [CMD] browseros-cli open https://grok.com/imagine --json
+[2026-05-13 17:50:05] [EXIT] 0
+[2026-05-13 17:50:05] [OUT] ---
+{"background":false,"hidden":false,"pageId":50,"url":"https://grok.com/imagine"}
+[2026-05-13 17:50:05] [OUT] ---
+[2026-05-13 17:50:05] [INFO] Page opened with ID: 50
+[2026-05-13 17:50:07] [INFO] ========================================
+[2026-05-13 17:50:07] [INFO]   Phase 3: Image Generation
+[2026-05-13 17:50:07] [INFO] ========================================
+[2026-05-13 17:50:07] [INFO] Finding input area... selector='div[contenteditable="true"]'
+[2026-05-13 17:50:07] [DEBUG] grok_find_element: selector='div[contenteditable="true"]' timeout=30s
 
-[2026-05-12 14:08:01] [CMD] browseros-cli eval -p 72 (function() {
+[2026-05-13 17:50:08] [CMD] browseros-cli eval -p 50 (function() {
     var el = document.querySelector('div[contenteditable="true"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -59,19 +59,19 @@ CDP:    connected
         height: rect.height
     });
 })()
-[2026-05-12 14:08:01] [EXIT] 0
-[2026-05-12 14:08:01] [OUT] ---
+[2026-05-13 17:50:08] [EXIT] 0
+[2026-05-13 17:50:08] [OUT] ---
 {"found":true,"x":720.5,"y":679,"width":720,"height":56}
-[2026-05-12 14:08:01] [OUT] ---
-[2026-05-12 14:08:01] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
-[2026-05-12 14:08:01] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
-[2026-05-12 14:08:01] [DEBUG] phase_3: find_element exit=0
-[2026-05-12 14:08:01] [INFO] Input area found at (720.5, 679)
-[2026-05-12 14:08:01] [INFO] Typing prompt (length=194)...
-[2026-05-12 14:08:01] [DEBUG] phase_3: prompt_text='An ultra-realistic, highly detailed highly detailsd Dutch baby pancake in a cast...'
-[2026-05-12 14:08:01] [DEBUG] grok_find_element: selector='div[contenteditable="true"]' timeout=10s
+[2026-05-13 17:50:08] [OUT] ---
+[2026-05-13 17:50:08] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-13 17:50:08] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
+[2026-05-13 17:50:08] [DEBUG] phase_3: find_element exit=0
+[2026-05-13 17:50:08] [INFO] Input area found at (720.5, 679)
+[2026-05-13 17:50:08] [INFO] Typing prompt (length=181)...
+[2026-05-13 17:50:08] [DEBUG] phase_3: prompt_text='An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, m...'
+[2026-05-13 17:50:08] [DEBUG] grok_find_element: selector='div[contenteditable="true"]' timeout=10s
 
-[2026-05-12 14:08:02] [CMD] browseros-cli eval -p 72 (function() {
+[2026-05-13 17:50:09] [CMD] browseros-cli eval -p 50 (function() {
     var el = document.querySelector('div[contenteditable="true"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -83,38 +83,41 @@ CDP:    connected
         height: rect.height
     });
 })()
-[2026-05-12 14:08:02] [EXIT] 0
-[2026-05-12 14:08:02] [OUT] ---
+[2026-05-13 17:50:09] [EXIT] 0
+[2026-05-13 17:50:09] [OUT] ---
 {"found":true,"x":720.5,"y":679,"width":720,"height":56}
-[2026-05-12 14:08:02] [OUT] ---
-[2026-05-12 14:08:02] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
-[2026-05-12 14:08:02] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
+[2026-05-13 17:50:09] [OUT] ---
+[2026-05-13 17:50:09] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-13 17:50:09] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
 
-[2026-05-12 14:08:03] [CMD] browseros-cli click-at -p 72 720.5 679
-[2026-05-12 14:08:03] [EXIT] 0
-[2026-05-12 14:08:03] [OUT] ---
+[2026-05-13 17:50:10] [CMD] browseros-cli click-at -p 50 720.5 679
+[2026-05-13 17:50:10] [EXIT] 0
+[2026-05-13 17:50:10] [OUT] ---
 Clicked at (720, 679)
-[2026-05-12 14:08:03] [OUT] ---
+[2026-05-13 17:50:10] [OUT] ---
+Clicked at (720, 679)
 
-[2026-05-12 14:08:04] [CMD] browseros-cli eval -p 72 (function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = "An ultra-realistic, highly detailed highly detailsd Dutch baby pancake in a cast iron skillet, puffed and golden at edges, powdered sugar, fresh berries, lemon wedges. Aspect ratio 9:16 portrait"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()
-[2026-05-12 14:08:04] [EXIT] 0
-[2026-05-12 14:08:04] [OUT] ---
+[2026-05-13 17:50:13] [CMD] browseros-cli eval -p 50 (function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()
+[2026-05-13 17:50:13] [EXIT] 0
+[2026-05-13 17:50:13] [OUT] ---
 {"success":true}
-[2026-05-12 14:08:04] [OUT] ---
-[2026-05-12 14:08:04] [DEBUG] phase_3: type_text exit=0
-[2026-05-12 14:08:05] [INFO] Submitting prompt...
+[2026-05-13 17:50:13] [OUT] ---
+{"success":true}
+[2026-05-13 17:50:13] [DEBUG] phase_3: type_text exit=0
+[2026-05-13 17:50:14] [INFO] Submitting prompt...
 
-[2026-05-12 14:08:07] [CMD] browseros-cli key -p 72 Enter
-[2026-05-12 14:08:07] [EXIT] 0
-[2026-05-12 14:08:07] [OUT] ---
+[2026-05-13 17:50:16] [CMD] browseros-cli key -p 50 Enter
+[2026-05-13 17:50:16] [EXIT] 0
+[2026-05-13 17:50:16] [OUT] ---
 Pressed Enter
-[2026-05-12 14:08:07] [OUT] ---
-[2026-05-12 14:08:07] [DEBUG] phase_3: key Enter exit=0
-[2026-05-12 14:08:07] [INFO] Waiting for image generation (max_wait=120s, poll=5s)...
-[2026-05-12 14:08:07] [DEBUG] phase_3: polling image gen, elapsed=0s
-[2026-05-12 14:08:07] [DEBUG] grok_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-13 17:50:16] [OUT] ---
+Pressed Enter
+[2026-05-13 17:50:16] [DEBUG] phase_3: key Enter exit=0
+[2026-05-13 17:50:16] [INFO] Waiting for image generation (max_wait=120s, poll=5s)...
+[2026-05-13 17:50:16] [DEBUG] phase_3: polling image gen, elapsed=0s
+[2026-05-13 17:50:16] [DEBUG] grok_find_element: selector='img[alt="Generated image"]' timeout=1s
 
-[2026-05-12 14:08:10] [CMD] browseros-cli eval -p 72 (function() {
+[2026-05-13 17:50:17] [CMD] browseros-cli eval -p 50 (function() {
     var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -126,85 +129,89 @@ Pressed Enter
         height: rect.height
     });
 })()
-[2026-05-12 14:08:10] [EXIT] 0
-[2026-05-12 14:08:10] [OUT] ---
-{"found":true,"x":214,"y":375,"width":290,"height":516}
-posthog 2026/05/12 14:08:10 WARN: shutdown timeout: 1 batches still in flight
-posthog 2026/05/12 14:08:10 WARN: shutdown timeout exceeded, some messages may be lost
-[2026-05-12 14:08:10] [OUT] ---
-[2026-05-12 14:08:10] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}
-posthog 2026/05/12 14:08:10 WARN: shutdown timeout: 1 batches st'
-[2026-05-12 14:08:10] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":375}
-[2026-05-12 14:08:10] [INFO] Image generated successfully (selector found)
-[2026-05-12 14:08:10] [DEBUG] phase_3: poll loop ended, img_ready=1 elapsed=0s
-[2026-05-12 14:08:10] [INFO] ========================================
-[2026-05-12 14:08:10] [INFO]   Phase 4: Video Generation
-[2026-05-12 14:08:10] [INFO] ========================================
-[2026-05-12 14:08:10] [INFO] Checking for image preference dialog (max_wait=15s)...
-[2026-05-12 14:08:10] [DEBUG] phase_4: polling image preference dialog, elapsed=0s
+[2026-05-13 17:50:17] [EXIT] 0
+[2026-05-13 17:50:17] [OUT] ---
+{"found":true,"x":214,"y":377,"width":290,"height":516}
+[2026-05-13 17:50:17] [OUT] ---
+[2026-05-13 17:50:17] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":377,"width":290,"height":516}'
+[2026-05-13 17:50:17] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":377}
+[2026-05-13 17:50:17] [INFO] Image generated successfully (selector found)
+[2026-05-13 17:50:17] [DEBUG] phase_3: poll loop ended, img_ready=1 elapsed=0s
+[2026-05-13 17:50:17] [INFO] ========================================
+[2026-05-13 17:50:17] [INFO]   Phase 4: Video Generation
+[2026-05-13 17:50:17] [INFO] ========================================
+[2026-05-13 17:50:17] [INFO] Checking for image preference dialog (max_wait=15s)...
+[2026-05-13 17:50:17] [DEBUG] phase_4: polling image preference dialog, elapsed=0s
 
-[2026-05-12 14:08:12] [CMD] browseros-cli eval -p 72 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-12 14:08:12] [EXIT] 0
-[2026-05-12 14:08:12] [OUT] ---
+[2026-05-13 17:50:18] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:18] [EXIT] 0
+[2026-05-13 17:50:18] [OUT] ---
 
-[2026-05-12 14:08:12] [OUT] ---
-[2026-05-12 14:08:12] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-12 14:08:14] [DEBUG] phase_4: polling image preference dialog, elapsed=2s
+[2026-05-13 17:50:18] [OUT] ---
+[2026-05-13 17:50:18] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-13 17:50:20] [DEBUG] phase_4: polling image preference dialog, elapsed=2s
 
-[2026-05-12 14:08:15] [CMD] browseros-cli eval -p 72 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-12 14:08:15] [EXIT] 0
-[2026-05-12 14:08:15] [OUT] ---
+[2026-05-13 17:50:22] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:22] [EXIT] 0
+[2026-05-13 17:50:22] [OUT] ---
 
-[2026-05-12 14:08:15] [OUT] ---
-[2026-05-12 14:08:15] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-12 14:08:17] [DEBUG] phase_4: polling image preference dialog, elapsed=4s
+[2026-05-13 17:50:22] [OUT] ---
+[2026-05-13 17:50:22] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-13 17:50:24] [DEBUG] phase_4: polling image preference dialog, elapsed=4s
 
-[2026-05-12 14:08:18] [CMD] browseros-cli eval -p 72 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-12 14:08:18] [EXIT] 0
-[2026-05-12 14:08:18] [OUT] ---
-Which image do you prefer to keep?
-[2026-05-12 14:08:18] [OUT] ---
-[2026-05-12 14:08:18] [INFO] Image preference dialog detected, looking for Skip button...
+[2026-05-13 17:50:25] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:25] [EXIT] 0
+[2026-05-13 17:50:25] [OUT] ---
 
-[2026-05-12 14:08:19] [CMD] browseros-cli snap -p 72
-[2026-05-12 14:08:19] [EXIT] 0
-[2026-05-12 14:08:19] [OUT] ---
-[345] link "Home page"
-[353] button "Search"
-[368] link
-[388] link
-[416] link
-[434] button "History"
-[459] button "Toggle Sidebar"
-[466] button "DS" (collapsed)
-[5014] button "Back"
-[7348] button "Save"
-[7352] button "Make video"
-[7368] button "Save"
-[7372] button "Make video"
-[7388] button "Save"
-[7392] button "Make video"
-[7408] button "Save"
-[7412] button "Make video"
-[7457] button "Skip"
-[7333] clickable "An ultra-realistic, highly detailed highly detailsd Dutch baby pancake in a cast iron skillet, puffe"
-[7473] clickable "Which image do you prefer to keep?Your feedback will help us improve the quality of our images. Skip"
-[2026-05-12 14:08:19] [OUT] ---
-[2026-05-12 14:08:19] [INFO] Skip button found: ref 7457, clicking...
+[2026-05-13 17:50:25] [OUT] ---
+[2026-05-13 17:50:25] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-13 17:50:27] [DEBUG] phase_4: polling image preference dialog, elapsed=6s
 
-[2026-05-12 14:08:20] [CMD] browseros-cli click -p 72 7457
-[2026-05-12 14:08:20] [EXIT] 0
-[2026-05-12 14:08:20] [OUT] ---
-Clicked [7457] at (664, 117)
-[2026-05-12 14:08:20] [OUT] ---
-[2026-05-12 14:08:22] [DEBUG] phase_4: handle_image_preference exit=0
-[2026-05-12 14:08:22] [INFO] Image preference dialog handled successfully
-[2026-05-12 14:08:22] [DEBUG] phase_4: image preference dialog loop ended, handled=1 elapsed=4s
-[2026-05-12 14:08:22] [INFO] Opening image detail page...
-[2026-05-12 14:08:22] [INFO] Clicking generated image to open detail page...
-[2026-05-12 14:08:22] [DEBUG] grok_find_element: selector='img[alt="Generated image"]' timeout=30s
+[2026-05-13 17:50:28] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:28] [EXIT] 0
+[2026-05-13 17:50:28] [OUT] ---
 
-[2026-05-12 14:08:23] [CMD] browseros-cli eval -p 72 (function() {
+[2026-05-13 17:50:28] [OUT] ---
+[2026-05-13 17:50:28] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-13 17:50:31] [DEBUG] phase_4: polling image preference dialog, elapsed=8s
+
+[2026-05-13 17:50:32] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:32] [EXIT] 0
+[2026-05-13 17:50:32] [OUT] ---
+
+[2026-05-13 17:50:32] [OUT] ---
+[2026-05-13 17:50:32] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-13 17:50:34] [DEBUG] phase_4: polling image preference dialog, elapsed=10s
+
+[2026-05-13 17:50:35] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:35] [EXIT] 0
+[2026-05-13 17:50:35] [OUT] ---
+
+[2026-05-13 17:50:35] [OUT] ---
+[2026-05-13 17:50:35] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-13 17:50:37] [DEBUG] phase_4: polling image preference dialog, elapsed=12s
+
+[2026-05-13 17:50:38] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:38] [EXIT] 0
+[2026-05-13 17:50:38] [OUT] ---
+
+[2026-05-13 17:50:38] [OUT] ---
+[2026-05-13 17:50:38] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-13 17:50:40] [DEBUG] phase_4: polling image preference dialog, elapsed=14s
+
+[2026-05-13 17:50:41] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:41] [EXIT] 0
+[2026-05-13 17:50:41] [OUT] ---
+
+[2026-05-13 17:50:41] [OUT] ---
+[2026-05-13 17:50:41] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-13 17:50:43] [DEBUG] phase_4: image preference dialog loop ended, handled=0 elapsed=16s
+[2026-05-13 17:50:43] [INFO] No image preference dialog appeared after 15s, continuing...
+[2026-05-13 17:50:43] [INFO] Opening image detail page...
+[2026-05-13 17:50:43] [INFO] Clicking generated image to open detail page...
+[2026-05-13 17:50:43] [DEBUG] grok_find_element: selector='img[alt="Generated image"]' timeout=30s
+
+[2026-05-13 17:50:44] [CMD] browseros-cli eval -p 50 (function() {
     var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -216,24 +223,25 @@ Clicked [7457] at (664, 117)
         height: rect.height
     });
 })()
-[2026-05-12 14:08:23] [EXIT] 0
-[2026-05-12 14:08:23] [OUT] ---
-{"found":true,"x":214,"y":375,"width":290,"height":516}
-[2026-05-12 14:08:23] [OUT] ---
-[2026-05-12 14:08:23] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":375,"width":290,"height":516}'
-[2026-05-12 14:08:23] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":375}
-[2026-05-12 14:08:23] [DEBUG] phase_4: find_element SELECTOR_IMAGE exit=0
-[2026-05-12 14:08:23] [INFO] Clicking on generated image at (214, 375)...
+[2026-05-13 17:50:44] [EXIT] 0
+[2026-05-13 17:50:44] [OUT] ---
+{"found":true,"x":214,"y":377,"width":290,"height":516}
+[2026-05-13 17:50:44] [OUT] ---
+[2026-05-13 17:50:44] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":377,"width":290,"height":516}'
+[2026-05-13 17:50:44] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":377}
+[2026-05-13 17:50:44] [DEBUG] phase_4: find_element SELECTOR_IMAGE exit=0
+[2026-05-13 17:50:44] [INFO] Clicking on generated image at (214, 377)...
 
-[2026-05-12 14:08:25] [CMD] browseros-cli click-at -p 72 214 375
-[2026-05-12 14:08:25] [EXIT] 0
-[2026-05-12 14:08:25] [OUT] ---
-Clicked at (214, 375)
-[2026-05-12 14:08:25] [OUT] ---
-[2026-05-12 14:08:27] [INFO] Looking for Make video button... selector='[aria-label="Make video"]'
-[2026-05-12 14:08:27] [DEBUG] grok_find_element: selector='[aria-label="Make video"]' timeout=30s
+[2026-05-13 17:50:46] [CMD] browseros-cli click-at -p 50 214 377
+[2026-05-13 17:50:46] [EXIT] 0
+[2026-05-13 17:50:46] [OUT] ---
+Clicked at (214, 377)
+[2026-05-13 17:50:46] [OUT] ---
+Clicked at (214, 377)
+[2026-05-13 17:50:48] [INFO] Looking for Make video button... selector='[aria-label="Make video"]'
+[2026-05-13 17:50:48] [DEBUG] grok_find_element: selector='[aria-label="Make video"]' timeout=30s
 
-[2026-05-12 14:08:28] [CMD] browseros-cli eval -p 72 (function() {
+[2026-05-13 17:50:49] [CMD] browseros-cli eval -p 50 (function() {
     var el = document.querySelector('[aria-label="Make video"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -245,23 +253,753 @@ Clicked at (214, 375)
         height: rect.height
     });
 })()
-[2026-05-12 14:08:28] [EXIT] 0
-[2026-05-12 14:08:28] [OUT] ---
-{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}
-[2026-05-12 14:08:28] [OUT] ---
-[2026-05-12 14:08:28] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}'
-[2026-05-12 14:08:28] [INFO] Element found: selector='[aria-label="Make video"]' coords={"x":572.87890625,"y":618.5}
-[2026-05-12 14:08:28] [DEBUG] phase_4: find_element SELECTOR_MAKE_VIDEO exit=0
-[2026-05-12 14:08:28] [INFO] Make video button found at (572.87890625, 618.5), clicking...
+[2026-05-13 17:50:49] [EXIT] 0
+[2026-05-13 17:50:49] [OUT] ---
+{"found":true,"x":331,"y":607,"width":40,"height":40}
+[2026-05-13 17:50:49] [OUT] ---
+[2026-05-13 17:50:49] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":331,"y":607,"width":40,"height":40}'
+[2026-05-13 17:50:49] [INFO] Element found: selector='[aria-label="Make video"]' coords={"x":331,"y":607}
+[2026-05-13 17:50:49] [DEBUG] phase_4: find_element SELECTOR_MAKE_VIDEO exit=0
+[2026-05-13 17:50:49] [INFO] Make video button found at (331, 607), clicking...
 
-[2026-05-12 14:08:28] [CMD] browseros-cli click-at -p 72 572.87890625 618.5
-[2026-05-12 14:08:28] [EXIT] 0
-[2026-05-12 14:08:28] [OUT] ---
-Clicked at (572, 618)
-[2026-05-12 14:08:28] [OUT] ---
-[2026-05-12 14:08:28] [INFO] Video generation triggered
-[2026-05-12 14:08:31] [INFO] ========================================
-[2026-05-12 14:08:31] [INFO]   Phase 5: Monitoring & Validation
-[2026-05-12 14:08:31] [INFO] ========================================
-[2026-05-12 14:08:31] [INFO] Polling for video completion (max 150s, interval=10s)...
-[2026-05-12 14:08:31] [DEBUG] phase_5: poll iteration elapsed=0s
+[2026-05-13 17:50:50] [CMD] browseros-cli click-at -p 50 331 607
+[2026-05-13 17:50:50] [EXIT] 0
+[2026-05-13 17:50:50] [OUT] ---
+Clicked at (331, 607)
+[2026-05-13 17:50:50] [OUT] ---
+Clicked at (331, 607)
+[2026-05-13 17:50:50] [INFO] Video generation triggered
+[2026-05-13 17:50:53] [INFO] ========================================
+[2026-05-13 17:50:53] [INFO]   Phase 5: Monitoring & Validation
+[2026-05-13 17:50:53] [INFO] ========================================
+[2026-05-13 17:50:53] [INFO] Polling for video completion (max 150s, interval=10s)...
+[2026-05-13 17:50:53] [DEBUG] phase_5: poll iteration elapsed=0s
+
+[2026-05-13 17:50:55] [CMD] browseros-cli text -p 50
+[2026-05-13 17:50:55] [EXIT] 0
+[2026-05-13 17:50:55] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:50:55] [OUT] ---
+[2026-05-13 17:50:55] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:50:56] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:50:56] [EXIT] 0
+[2026-05-13 17:50:56] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:50:56] [OUT] ---
+[2026-05-13 17:50:56] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:50:57] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:50:57] [EXIT] 0
+[2026-05-13 17:50:57] [OUT] ---
+
+[2026-05-13 17:50:57] [OUT] ---
+[2026-05-13 17:51:07] [DEBUG] Elapsed: 10s
+[2026-05-13 17:51:07] [DEBUG] phase_5: poll iteration elapsed=10s
+
+[2026-05-13 17:51:09] [CMD] browseros-cli text -p 50
+[2026-05-13 17:51:09] [EXIT] 0
+[2026-05-13 17:51:09] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:51:09] [OUT] ---
+[2026-05-13 17:51:09] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:51:10] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:51:10] [EXIT] 0
+[2026-05-13 17:51:10] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:51:10] [OUT] ---
+[2026-05-13 17:51:10] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:51:11] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:51:11] [EXIT] 0
+[2026-05-13 17:51:11] [OUT] ---
+
+[2026-05-13 17:51:11] [OUT] ---
+[2026-05-13 17:51:21] [DEBUG] Elapsed: 20s
+[2026-05-13 17:51:21] [DEBUG] phase_5: poll iteration elapsed=20s
+
+[2026-05-13 17:51:22] [CMD] browseros-cli text -p 50
+[2026-05-13 17:51:22] [EXIT] 0
+[2026-05-13 17:51:22] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:51:22] [OUT] ---
+[2026-05-13 17:51:22] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:51:23] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:51:23] [EXIT] 0
+[2026-05-13 17:51:23] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:51:23] [OUT] ---
+[2026-05-13 17:51:24] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:51:24] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:51:24] [EXIT] 0
+[2026-05-13 17:51:24] [OUT] ---
+
+[2026-05-13 17:51:24] [OUT] ---
+[2026-05-13 17:51:35] [DEBUG] Elapsed: 30s
+[2026-05-13 17:51:35] [DEBUG] phase_5: poll iteration elapsed=30s
+
+[2026-05-13 17:51:37] [CMD] browseros-cli text -p 50
+[2026-05-13 17:51:37] [EXIT] 0
+[2026-05-13 17:51:37] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:51:37] [OUT] ---
+[2026-05-13 17:51:37] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:51:38] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:51:38] [EXIT] 0
+[2026-05-13 17:51:38] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:51:38] [OUT] ---
+[2026-05-13 17:51:38] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:51:39] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:51:39] [EXIT] 0
+[2026-05-13 17:51:39] [OUT] ---
+
+[2026-05-13 17:51:39] [OUT] ---
+[2026-05-13 17:51:49] [DEBUG] Elapsed: 40s
+[2026-05-13 17:51:49] [DEBUG] phase_5: poll iteration elapsed=40s
+
+[2026-05-13 17:51:50] [CMD] browseros-cli text -p 50
+[2026-05-13 17:51:50] [EXIT] 0
+[2026-05-13 17:51:50] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:51:50] [OUT] ---
+[2026-05-13 17:51:50] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:51:52] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:51:52] [EXIT] 0
+[2026-05-13 17:51:52] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:51:52] [OUT] ---
+[2026-05-13 17:51:52] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:51:53] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:51:53] [EXIT] 0
+[2026-05-13 17:51:53] [OUT] ---
+
+[2026-05-13 17:51:53] [OUT] ---
+[2026-05-13 17:52:04] [DEBUG] Elapsed: 50s
+[2026-05-13 17:52:04] [DEBUG] phase_5: poll iteration elapsed=50s
+
+[2026-05-13 17:52:05] [CMD] browseros-cli text -p 50
+[2026-05-13 17:52:05] [EXIT] 0
+[2026-05-13 17:52:05] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:52:05] [OUT] ---
+[2026-05-13 17:52:05] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:52:06] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:52:06] [EXIT] 0
+[2026-05-13 17:52:06] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:52:06] [OUT] ---
+[2026-05-13 17:52:06] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:52:07] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:52:07] [EXIT] 0
+[2026-05-13 17:52:07] [OUT] ---
+
+[2026-05-13 17:52:07] [OUT] ---
+[2026-05-13 17:52:17] [DEBUG] Elapsed: 60s
+[2026-05-13 17:52:17] [DEBUG] phase_5: poll iteration elapsed=60s
+
+[2026-05-13 17:52:18] [CMD] browseros-cli text -p 50
+[2026-05-13 17:52:18] [EXIT] 0
+[2026-05-13 17:52:18] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:52:18] [OUT] ---
+[2026-05-13 17:52:18] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:52:20] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:52:20] [EXIT] 0
+[2026-05-13 17:52:20] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:52:20] [OUT] ---
+[2026-05-13 17:52:20] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:52:21] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:52:21] [EXIT] 0
+[2026-05-13 17:52:21] [OUT] ---
+
+[2026-05-13 17:52:21] [OUT] ---
+[2026-05-13 17:52:31] [DEBUG] Elapsed: 70s
+[2026-05-13 17:52:31] [DEBUG] phase_5: poll iteration elapsed=70s
+
+[2026-05-13 17:52:32] [CMD] browseros-cli text -p 50
+[2026-05-13 17:52:32] [EXIT] 0
+[2026-05-13 17:52:32] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:52:32] [OUT] ---
+[2026-05-13 17:52:32] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:52:33] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:52:33] [EXIT] 0
+[2026-05-13 17:52:33] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:52:33] [OUT] ---
+[2026-05-13 17:52:33] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:52:34] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:52:34] [EXIT] 0
+[2026-05-13 17:52:34] [OUT] ---
+
+[2026-05-13 17:52:34] [OUT] ---
+[2026-05-13 17:52:44] [DEBUG] Elapsed: 80s
+[2026-05-13 17:52:44] [DEBUG] phase_5: poll iteration elapsed=80s
+
+[2026-05-13 17:52:45] [CMD] browseros-cli text -p 50
+[2026-05-13 17:52:45] [EXIT] 0
+[2026-05-13 17:52:45] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:52:45] [OUT] ---
+[2026-05-13 17:52:45] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:52:46] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:52:46] [EXIT] 0
+[2026-05-13 17:52:46] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:52:46] [OUT] ---
+[2026-05-13 17:52:46] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:52:47] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:52:47] [EXIT] 0
+[2026-05-13 17:52:47] [OUT] ---
+
+[2026-05-13 17:52:47] [OUT] ---
+[2026-05-13 17:52:57] [DEBUG] Elapsed: 90s
+[2026-05-13 17:52:57] [DEBUG] phase_5: poll iteration elapsed=90s
+
+[2026-05-13 17:52:59] [CMD] browseros-cli text -p 50
+[2026-05-13 17:52:59] [EXIT] 0
+[2026-05-13 17:52:59] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:52:59] [OUT] ---
+[2026-05-13 17:52:59] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:53:00] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:53:00] [EXIT] 0
+[2026-05-13 17:53:00] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:53:00] [OUT] ---
+[2026-05-13 17:53:00] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:53:01] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:53:01] [EXIT] 0
+[2026-05-13 17:53:01] [OUT] ---
+
+[2026-05-13 17:53:01] [OUT] ---
+[2026-05-13 17:53:11] [DEBUG] Elapsed: 100s
+[2026-05-13 17:53:11] [DEBUG] phase_5: poll iteration elapsed=100s
+
+[2026-05-13 17:53:13] [CMD] browseros-cli text -p 50
+[2026-05-13 17:53:13] [EXIT] 0
+[2026-05-13 17:53:13] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:53:13] [OUT] ---
+[2026-05-13 17:53:13] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:53:14] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:53:14] [EXIT] 0
+[2026-05-13 17:53:14] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:53:14] [OUT] ---
+[2026-05-13 17:53:14] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:53:15] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:53:15] [EXIT] 0
+[2026-05-13 17:53:15] [OUT] ---
+
+[2026-05-13 17:53:15] [OUT] ---
+[2026-05-13 17:53:26] [DEBUG] Elapsed: 110s
+[2026-05-13 17:53:26] [DEBUG] phase_5: poll iteration elapsed=110s
+
+[2026-05-13 17:53:29] [CMD] browseros-cli text -p 50
+[2026-05-13 17:53:29] [EXIT] 0
+[2026-05-13 17:53:29] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:53:29] [OUT] ---
+[2026-05-13 17:53:29] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:53:30] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:53:30] [EXIT] 0
+[2026-05-13 17:53:30] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:53:30] [OUT] ---
+[2026-05-13 17:53:30] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:53:31] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:53:31] [EXIT] 0
+[2026-05-13 17:53:31] [OUT] ---
+
+[2026-05-13 17:53:31] [OUT] ---
+[2026-05-13 17:53:41] [DEBUG] Elapsed: 120s
+[2026-05-13 17:53:41] [DEBUG] phase_5: poll iteration elapsed=120s
+
+[2026-05-13 17:53:42] [CMD] browseros-cli text -p 50
+[2026-05-13 17:53:42] [EXIT] 0
+[2026-05-13 17:53:42] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:53:42] [OUT] ---
+[2026-05-13 17:53:42] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:53:43] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:53:43] [EXIT] 0
+[2026-05-13 17:53:43] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:53:43] [OUT] ---
+[2026-05-13 17:53:43] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:53:45] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:53:45] [EXIT] 0
+[2026-05-13 17:53:45] [OUT] ---
+
+[2026-05-13 17:53:45] [OUT] ---
+[2026-05-13 17:53:55] [DEBUG] Elapsed: 130s
+[2026-05-13 17:53:55] [DEBUG] phase_5: poll iteration elapsed=130s
+
+[2026-05-13 17:53:56] [CMD] browseros-cli text -p 50
+[2026-05-13 17:53:56] [EXIT] 0
+[2026-05-13 17:53:56] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:53:56] [OUT] ---
+[2026-05-13 17:53:56] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:53:57] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:53:57] [EXIT] 0
+[2026-05-13 17:53:57] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:53:57] [OUT] ---
+[2026-05-13 17:53:57] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:53:58] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:53:58] [EXIT] 0
+[2026-05-13 17:53:58] [OUT] ---
+
+[2026-05-13 17:53:58] [OUT] ---
+[2026-05-13 17:54:09] [DEBUG] Elapsed: 140s
+[2026-05-13 17:54:09] [DEBUG] phase_5: poll iteration elapsed=140s
+
+[2026-05-13 17:54:10] [CMD] browseros-cli text -p 50
+[2026-05-13 17:54:10] [EXIT] 0
+[2026-05-13 17:54:10] [OUT] ---
+# Discover
+
+An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese oozing out, ham layer visible, crispy breadcrumb crust. Aspect ratio 9:16 portrait
+
+## Upgrade to SuperGrok
+[2026-05-13 17:54:10] [OUT] ---
+[2026-05-13 17:54:10] [DEBUG] phase_5: page_text lines=5
+
+[2026-05-13 17:54:11] [CMD] browseros-cli snap -p 50
+[2026-05-13 17:54:11] [EXIT] 0
+[2026-05-13 17:54:11] [OUT] ---
+[333] link "Home page"
+[341] button "Search"
+[356] link
+[376] link
+[404] link
+[422] button "History"
+[447] button "Toggle Sidebar"
+[454] button "DS" (collapsed)
+[4142] button "Back"
+[3769] button "Saved"
+[3781] button "Upload"
+[3793] button "Submit" (disabled)
+[3798] button "Canvas"
+[3805] radio "Image"
+[3811] radio "Video"
+[3820] radio "Speed"
+[3823] radio "Quality"
+[3829] button "Aspect Ratio" (collapsed)
+[5934] clickable "An ultra-realistic, highly detailed golden chicken cordon bleu sliced in half, melted Swiss cheese o"
+[3776] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
+[3803] clickable "ImageVideo"
+[3818] clickable "SpeedQuality"
+[3828] clickable "9:16"
+[2026-05-13 17:54:11] [OUT] ---
+[2026-05-13 17:54:11] [DEBUG] phase_5: snapshot lines=23
+
+[2026-05-13 17:54:13] [CMD] browseros-cli eval -p 50 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-13 17:54:13] [EXIT] 0
+[2026-05-13 17:54:13] [OUT] ---
+
+[2026-05-13 17:54:13] [OUT] ---
+[2026-05-13 17:54:23] [DEBUG] Elapsed: 150s
+[2026-05-13 17:54:23] [DEBUG] phase_5: poll loop ended, video_ready=0 elapsed=150s
+
+[2026-05-13 17:54:24] [CMD] browseros-cli eval -p 50 window.location.href
+[2026-05-13 17:54:24] [EXIT] 0
+[2026-05-13 17:54:24] [OUT] ---
+https://grok.com/imagine
+[2026-05-13 17:54:24] [OUT] ---
+[2026-05-13 17:54:24] [DEBUG] phase_5: timeout post_url='https://grok.com/imagine'
+{"success": true, "id": "351", "status": "video_failed"}
+[2026-05-13 17:54:24] [FATAL] Timeout waiting for video generation
