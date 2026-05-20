@@ -3148,3 +3148,454 @@ Ingredients: 🌾 2 cups all-purpose flour, 🍬 1/4 cup sugar, 🥄 1 tbsp baki
 Steps: 👨‍🍳 Mix flour, sugar, baking powder, and salt. Cut in cold butter until crumbly. 🥛 Stir in cream until dough forms; pat into a rectangle and cut into rounds. 🔥 Bake at 425°F (220°C) for 12-15 minutes until golden. 🍓 Toss strawberries with sugar; let macerate for 30 minutes. 🥣 Split biscuits; layer with strawberries and whipped cream.
 #strawberryshortcake #dessert #summer #baking #sweet #berries #cream #classic 🌮🍱
 ```
+
+ID: 351
+Caption:
+```
+🍗 Moroccan Roasted Chicken Thighs 🍗
+Recipe: 
+Ingredients: 🍗 4 chicken thighs (skin-on), 🍋 1 preserved lemon (quartered), 🫒 1/2 cup green olives, 🧅 1 onion (sliced), 🧄 3 cloves garlic, 🌿 1 tsp cumin, 🌿 1 tsp paprika, 🫒 2 tbsp olive oil, 🌿 fresh cilantro.
+Steps: 👨‍🍳 Pat chicken dry and rub with cumin, paprika, salt, and pepper. 🫒 Heat olive oil in a tagine or Dutch oven; sear chicken skin-side down until golden. 🧅 Add onion and garlic; sauté until softened. 🍋 Nestle preserved lemon and olives around the chicken. ⏲️ Cover and bake at 375°F (190°C) for 45-50 minutes until chicken is tender. 🌿 Garnish with fresh cilantro and serve with couscous.
+#moroccan #chicken #roasted #olives #preservedlemon #dinner #africanfood #comfortfood 🌮🍱
+```
+ID: 352
+Caption:
+```
+🧀 Creamy Spinach Artichoke Dip 🧀
+Recipe: 
+Ingredients: 🥬 2 cups fresh spinach (chopped), 🫒 1 can artichoke hearts (drained), 🧀 1 cup cream cheese, 🧀 1/2 cup sour cream, 🧀 1/2 cup mozzarella, 🧀 1/4 cup parmesan, 🧄 2 cloves garlic, 🧂 salt and pepper.
+Steps: 👨‍🍳 Preheat oven to 375°F (190°C). 🥬 Sauté spinach and garlic until wilted; chop artichokes. 🥣 Mix cream cheese, sour cream, mozzarella, and parmesan in a bowl. 🔥 Fold in spinach and artichokes; season with salt and pepper. ⏲️ Transfer to a baking dish and bake for 20-25 minutes until bubbly and golden. 🍞 Serve warm with bread cubes or tortilla chips.
+#spinachartichokedip #appetizer #cheesy #partyfood #dip #comfortfood #vegetarian 🌮🍱
+```
+ID: 353
+Caption:
+```
+🦞 Classic Maine Lobster Roll 🦞
+Recipe: 
+Ingredients: 🦞 1 lb cooked lobster meat (claw and knuckle), 🥛 2 tbsp mayonnaise, 🍋 1 tsp lemon juice, 🌿 1 tbsp celery (diced), 🧈 2 tbsp butter, 🍞 2 split-top hot dog buns.
+Steps: 👨‍🍳 Gently toss lobster meat with mayo, lemon juice, celery, and a pinch of salt. 🧈 Butter the outsides of the buns and toast on a griddle until golden. 🔥 Fill each bun generously with the lobster mixture. ⏲️ Serve immediately with potato chips and a pickle on the side.
+#lobsterroll #seafood #maine #lunch #newengland #lobster #summerfood #coastal 🌮🍱
+```
+ID: 354
+Caption:
+```
+🫐 Fluffy Blueberry Scones 🫐
+Recipe: 
+Ingredients: 🌾 2 cups flour, 🍬 1/3 cup sugar, 🥄 1 tbsp baking powder, 🧂 1/2 tsp salt, 🧈 1/2 cup cold butter, 🥛 1/2 cup heavy cream, 🥚 1 egg, 🫐 1 cup fresh blueberries, 🍬 coarse sugar for topping.
+Steps: 👨‍🍳 Whisk dry ingredients together. 🧈 Cut in cold butter until crumbly. 🥣 Mix cream and egg; fold into dry ingredients gently. 🫐 Fold in blueberries without overmixing. 🔥 Pat into a circle, cut into wedges, and brush with cream. ⏲️ Bake at 400°F (200°C) for 18-22 minutes until golden. 🍯 Serve with clotted cream and jam.
+#blueberryscones #baking #breakfast #british #pastry #blueberries #brunch #tea 🌮🍱
+```
+ID: 355
+Caption:
+```
+🦐 Garlic Butter Sizzling Shrimp 🦐
+Recipe: 
+Ingredients: 🦐 1 lb large shrimp (peeled), 🧈 4 tbsp butter, 🧄 4 cloves garlic (minced), 🍋 2 tbsp lemon juice, 🌿 2 tbsp parsley, 🌶️ 1/4 tsp red pepper flakes, 🧂 salt and pepper.
+Steps: 👨‍🍳 Pat shrimp dry and season with salt and pepper. 🧈 Melt butter in a large skillet over medium-high heat. 🧄 Add garlic and red pepper flakes; sauté for 30 seconds. 🔥 Add shrimp in a single layer; cook for 2 minutes per side until pink. 🍋 Toss with lemon juice and parsley. 🥘 Serve immediately with crusty bread.
+#garlicbuttershrimp #seafood #shrimp #easyrecipes #dinner #garlic #lowcarb #keto 🌮🍱
+```
+ID: 356
+Caption:
+```
+🍝 Creamy Mushroom Stroganoff 🍝
+Recipe: 
+Ingredients: 🍄 1 lb mixed mushrooms (sliced), 🧅 1 onion (diced), 🧄 3 cloves garlic, 🥛 1 cup sour cream, 🍝 12 oz egg noodles, 🧈 2 tbsp butter, 🥄 1 tbsp flour, 🌿 2 tbsp fresh dill, 🍷 1/2 cup white wine.
+Steps: 👨‍🍳 Cook egg noodles according to package directions; drain and set aside. 🧈 Melt butter in a large skillet; sauté onion until softened. 🍄 Add mushrooms and cook until browned and their liquid evaporates. 🧄 Add garlic and flour; cook for 1 minute. 🍷 Deglaze with white wine; simmer for 2 minutes. 🥛 Stir in sour cream and dill; season with salt and pepper. 🔥 Toss with hot noodles and serve immediately.
+#mushroomstroganoff #vegetarian #pasta #comfortfood #mushrooms #dinner #creamy #noodles 🌮🍱
+```
+ID: 357
+Caption:
+```
+🥙 Crispy Falafel Wrap 🥙
+Recipe: 
+Ingredients: 🧆 1 can chickpeas (drained), 🌿 1/2 cup parsley, 🌿 1/4 cup cilantro, 🧅 1/2 onion, 🧄 2 cloves garlic, 🥄 1 tsp cumin, 🥄 1 tsp coriander, 🥙 4 pita breads, 🍅 1/2 cup tahini sauce, 🥒 pickled turnips and lettuce.
+Steps: 👨‍🍳 Pulse chickpeas, herbs, onion, garlic, and spices in a food processor until coarse. 🥣 Form into ping-pong sized balls; refrigerate for 30 minutes. 🔥 Fry in 350°F oil for 3-4 minutes until deep golden and crispy. 🥙 Warm pitas and stuff with falafel, lettuce, pickled turnips, and a generous drizzle of tahini. 🔥 Serve immediately while hot and crunchy.
+#falafel #wrap #middleeastern #vegetarian #vegan #streetfood #healthy #mediterranean 🌮🍱
+```
+ID: 358
+Caption:
+```
+🍮 Passion Fruit Panna Cotta 🍮
+Recipe: 
+Ingredients: 🥛 2 cups heavy cream, 🍬 1/2 cup sugar, 🍦 1 tsp vanilla, 🥄 2 tsp gelatin, 🍋 1/2 cup passion fruit pulp, 🍬 2 tbsp sugar (for topping).
+Steps: 👨‍🍳 Sprinkle gelatin over 3 tbsp cold water; let bloom for 5 minutes. 🥛 Heat cream, sugar, and vanilla until steaming; do not boil. 🔥 Stir in bloomed gelatin until dissolved. ⏲️ Pour into ramekins and chill for at least 4 hours. 🍋 Mix passion fruit pulp with sugar; spoon over each panna cotta before serving. 🥄 Serve chilled with a sprig of mint.
+#pannacotta #passionfruit #dessert #italian #sweet #elegant #nobake #creamy 🌮🍱
+```
+ID: 359
+Caption:
+```
+🥩 Grilled Lamb Chops with Mint Pesto 🥩
+Recipe: 
+Ingredients: 🥩 8 lamb rib chops, 🧄 3 cloves garlic, 🌿 1 cup fresh mint, 🌿 1/2 cup parsley, 🧀 1/4 cup parmesan, 🫒 1/3 cup olive oil, 🍋 2 tbsp lemon juice, 🧂 salt and pepper.
+Steps: 👨‍🍳 Season lamb chops generously with salt and pepper. 🔥 Grill over high heat for 3-4 minutes per side for medium-rare. 🥣 Blend mint, parsley, garlic, parmesan, olive oil, and lemon juice into a pesto. ⏲️ Let lamb rest for 5 minutes; spoon mint pesto over each chop. 🍋 Serve with roasted potatoes or grilled vegetables.
+#lambchops #grilled #mintpesto #dinner #mediterranean #meat #gourmet #herbs 🌮🍱
+```
+ID: 360
+Caption:
+```
+🌮 Loaded Veggie Nachos 🌮
+Recipe: 
+Ingredients: 🥨 1 large bag tortilla chips, 🧀 2 cups shredded cheddar, 🫘 1 can black beans (drained), 🌶️ 1/2 cup pickled jalapeños, 🥑 1 cup guacamole, 🥛 1/2 cup sour cream, 🍅 1/2 cup pico de gallo, 🌿 cilantro.
+Steps: 👨‍🍳 Arrange chips in a single layer on a baking sheet. 🧀 Top with cheese, black beans, and jalapeños. ⏲️ Bake at 400°F (200°C) for 8-10 minutes until cheese is melted and bubbling. 🥗 Remove and top with guacamole, sour cream, pico de gallo, and cilantro. 🔥 Serve immediately while hot and cheesy.
+#veggienachos #nachos #appetizer #vegetarian #mexican #partyfood #cheesy #snack 🌮🍱
+```
+ID: 361
+Caption:
+```
+🍜 Spicy Tom Yum Soup 🍜
+Recipe: 
+Ingredients: 🦐 1/2 lb shrimp, 🍗 4 cups chicken broth, 🍋 3 stalks lemongrass, 🫚 1 inch galangal, 🍋 4 kaffir lime leaves, 🍅 2 tbsp fish sauce, 🍋 2 tbsp lime juice, 🌶️ 1 tbsp chili paste, 🍄 1/2 cup straw mushrooms.
+Steps: 👨‍🍳 Bring broth to a boil; add smashed lemongrass, galangal, and lime leaves. 🔥 Simmer for 5 minutes to infuse aromatics. 🍄 Add mushrooms and shrimp; cook until shrimp turn pink. ⏲️ Remove from heat and stir in fish sauce, lime juice, and chili paste. 🌿 Garnish with fresh cilantro and serve with jasmine rice.
+#tomyum #thaifood #soup #spicy #shrimp #healthy #asiancuisine #lemongrass 🌮🍱
+```
+ID: 362
+Caption:
+```
+🍋 Lemon Meringue Pie 🍋
+Recipe: 
+Ingredients: 🥧 1 pre-baked pie crust, 🍋 1 cup lemon juice, 🍋 2 tbsp lemon zest, 🥚 4 egg yolks, 🍬 1 cup sugar, 🧈 4 tbsp butter, 🥚 4 egg whites, 🍬 1/2 cup sugar (for meringue).
+Steps: 👨‍🍳 Whisk lemon juice, zest, yolks, and sugar in a saucepan; cook until thickened. 🧈 Remove from heat and stir in butter; pour into baked crust. 🥚 Beat egg whites to soft peaks; gradually add sugar and beat to stiff peaks. 🔥 Spread meringue over hot filling, sealing edges. ⏲️ Bake at 350°F (175°C) for 10-12 minutes until golden. 🍋 Cool completely before slicing.
+#lemonmeringuepie #dessert #baking #sweet #lemon #pie #classic #homemade 🌮🍱
+```
+ID: 363
+Caption:
+```
+🍗 Crispy Chicken and Waffles 🍗
+Recipe: 
+Ingredients: 🍗 4 chicken thighs (bone-in), 🥛 1 cup buttermilk, 🌾 1 cup flour, 🌽 1/2 cup cornstarch, 🧂 spices, 🧇 2 Belgian waffles, 🍯 maple syrup, 🧈 butter.
+Steps: 👨‍🍳 Marinate chicken in buttermilk for at least 2 hours. 🌾 Dredge in flour, cornstarch, and spices. 🔥 Deep fry at 350°F for 8-10 minutes until golden and crispy. 🧇 Toast waffles until crisp and golden. ⏲️ Stack chicken on waffles; drizzle with warm maple syrup and a pat of butter. 🔥 Serve immediately for the ultimate sweet and savory combo.
+#chickenandwaffles #brunch #southernfood #comfortfood #friedchicken #breakfast #sweetandsavory 🌮🍱
+```
+ID: 364
+Caption:
+```
+🫑 Mediterranean Grilled Vegetable Platter 🫑
+Recipe: 
+Ingredients: 🫑 2 zucchini, 🍆 1 eggplant, 🫑 2 bell peppers, 🧅 1 red onion, 🧀 8 oz halloumi cheese, 🫒 1/4 cup olive oil, 🌿 2 tbsp fresh oregano, 🍋 2 tbsp lemon juice, 🧂 salt and pepper.
+Steps: 👨‍🍳 Slice all vegetables into thick planks; slice halloumi into 1/2 inch slabs. 🫒 Brush everything with olive oil and season with salt, pepper, and oregano. 🔥 Grill over medium-high heat for 3-4 minutes per side until charred and tender. 🍋 Arrange on a platter and drizzle with lemon juice and extra olive oil. 🧀 Serve warm with warm pita bread.
+#grilledvegetables #mediterranean #halloumi #vegetarian #healthy #grilling #summer #platters 🌮🍱
+```
+ID: 365
+Caption:
+```
+🍝 Creamy Seafood Linguine 🍝
+Recipe: 
+Ingredients: 🍝 1 lb linguine, 🦐 1/2 lb shrimp, 🐚 1/2 lb mussels, 🐚 1/2 lb clams, 🧄 4 cloves garlic, 🍷 1 cup white wine, 🥛 1/2 cup heavy cream, 🌿 1/4 cup parsley, 🧈 2 tbsp butter.
+Steps: 👨‍🍳 Cook linguine until al dente; reserve 1 cup pasta water. 🧈 Melt butter in a large pot; sauté garlic for 30 seconds. 🍷 Add white wine and simmer for 2 minutes. 🐚 Add mussels and clams; cover and cook until shells open. 🦐 Add shrimp and cook until pink. 🥛 Stir in cream and pasta water; simmer until slightly thickened. 🔥 Toss in linguine and parsley; serve immediately with crusty bread.
+#seafoodlinguine #pasta #seafood #dinner #italian #datenight #creamy #linguine 🌮🍱
+```
+ID: 366
+Caption:
+```
+🥭 Mango Sticky Rice 🥭
+Recipe: 
+Ingredients: 🍚 1.5 cups glutinous rice, 🥥 1 can coconut milk, 🍬 1/4 cup sugar, 🧂 1/4 tsp salt, 🥭 2 ripe mangoes, 🥄 2 tbsp toasted sesame seeds, 🥥 coconut flakes.
+Steps: 👨‍🍳 Soak rice in water for at least 4 hours; steam for 25-30 minutes until tender. 🥥 Heat coconut milk with sugar and salt until dissolved. ⏲️ Pour half the coconut milk over hot rice; stir and let sit for 15 minutes. 🥭 Peel and slice mangoes. 🔥 Pack rice into a small bowl and invert onto a plate. 🥭 Arrange mango slices alongside and drizzle with remaining coconut milk. 🥄 Sprinkle with sesame seeds and coconut flakes.
+#mangostickyrice #thaidessert #sweet #mango #coconut #asian #dessert #sticky rice 🌮🍱
+```
+ID: 367
+Caption:
+```
+🍗 Herb-Roasted Cornish Hen 🍗
+Recipe: 
+Ingredients: 🍗 2 Cornish hens, 🧈 4 tbsp softened butter, 🧄 4 cloves garlic (minced), 🌿 2 tbsp fresh thyme, 🌿 2 tbsp fresh rosemary, 🍋 1 lemon (quartered), 🧂 salt and pepper, 🥕 carrots and potatoes.
+Steps: 👨‍🍳 Preheat oven to 425°F (220°C). 🧈 Mix butter with garlic, thyme, rosemary, salt, and pepper. 🍗 Gently loosen skin and rub half the herb butter under the skin; rub the rest over the top. 🍋 Stuff cavities with lemon quarters. 🔥 Arrange hens on a roasting pan with carrots and potatoes. ⏲️ Roast for 45-55 minutes until skin is golden and juices run clear. 🌿 Let rest for 10 minutes before serving.
+#cornishhen #roasted #dinner #elegant #herbs #comfortfood #holiday #familydinner 🌮🍱
+```
+ID: 368
+Caption:
+```
+🥑 Smoked Salmon Avocado Toast 🥑
+Recipe: 
+Ingredients: 🥨 2 thick slices sourdough, 🥑 1 ripe avocado, 🍋 1 tsp lemon juice, 🐟 4 oz smoked salmon, 🧂 everything bagel seasoning, 🌿 fresh dill, 🫒 olive oil.
+Steps: 👨‍🍳 Toast sourdough until golden and crisp. 🥑 Mash avocado with lemon juice and a pinch of salt. 🥨 Spread avocado thickly onto toast. 🐟 Layer smoked salmon slices on top. 🧂 Sprinkle generously with everything bagel seasoning and fresh dill. 🫒 Drizzle with olive oil and serve immediately.
+#smokedsalmon #avocadotoast #breakfast #brunch #healthy #salmon #toast #easyrecipes 🌮🍱
+```
+ID: 369
+Caption:
+```
+🍛 Creamy Chicken Tikka Masala 🍛
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken thighs (cubed), 🥛 1 cup yogurt, 🍅 2 cups tomato puree, 🥛 1/2 cup heavy cream, 🧈 3 tbsp butter, 🧄 1 tbsp ginger-garlic paste, 🥄 2 tsp garam masala, 🌶️ 1 tsp turmeric, 🌿 cilantro.
+Steps: 👨‍🍳 Marinate chicken in yogurt, turmeric, and garam masala for 2 hours. 🔥 Grill or broil chicken until charred; set aside. 🧈 Melt butter in a pan; sauté ginger-garlic paste. 🍅 Add tomato puree and spices; simmer for 15 minutes. 🥛 Stir in cream and grilled chicken; simmer for 10 minutes. 🌿 Garnish with cilantro and serve with naan.
+#chickentikkamasala #indianfood #curry #chicken #comfortfood #creamy #spicy #naan 🌮🍱
+```
+ID: 370
+Caption:
+```
+🍫 Chocolate Eclairs 🍫
+Recipe: 
+Ingredients: 🥛 1 cup water, 🧈 1/2 cup butter, 🌾 1 cup flour, 🥚 4 eggs, 🍫 1 cup dark chocolate, 🥛 1/2 cup heavy cream, 🍦 1 cup pastry cream.
+Steps: 👨‍🍳 Bring water and butter to a boil; add flour and stir until a ball forms. 🥚 Transfer to a bowl; beat in eggs one at a time until smooth. 🔥 Pipe 4-inch lines onto a baking sheet. ⏲️ Bake at 400°F (200°C) for 20 minutes; cool completely. 🍫 Melt chocolate with cream for glaze. 🍦 Fill each éclair with pastry cream using a piping bag; dip tops in chocolate glaze.
+#chocolateeclairs #dessert #french #pastry #baking #chocolate #sweet #elegant 🌮🍱
+```
+ID: 371
+Caption:
+```
+🦆 Pan-Seared Duck Breast with Cherry Sauce 🦆
+Recipe: 
+Ingredients: 🦆 2 duck breasts, 🍒 1 cup cherries (pitted), 🍷 1/4 cup red wine, 🍯 2 tbsp honey, 🍋 1 tbsp balsamic vinegar, 🌿 fresh thyme, 🧂 salt and pepper.
+Steps: 👨‍🍳 Score duck skin in a crosshatch pattern; season with salt and pepper. 🔥 Place skin-side down in a cold pan; turn heat to medium and render fat for 8-10 minutes. 🔥 Flip and sear for 2 minutes; rest for 5 minutes. 🍒 Pour off most of the fat; add cherries, wine, honey, and vinegar. ⏲️ Simmer for 5 minutes until syrupy. 🌿 Slice duck and spoon cherry sauce over the top.
+#duckbreast #finedining #cherrysauce #dinner #gourmet #meat #datenight #elegant 🌮🍱
+```
+ID: 372
+Caption:
+```
+🥙 Greek Chicken Souvlaki 🥙
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken breast (cubed), 🫒 1/4 cup olive oil, 🍋 1/4 cup lemon juice, 🧄 3 cloves garlic, 🌿 2 tsp dried oregano, 🥒 1 cup tzatziki sauce, 🥙 4 pita breads, 🍅 diced tomato, 🧅 sliced onion.
+Steps: 👨‍🍳 Whisk olive oil, lemon juice, garlic, and oregano; marinate chicken for at least 2 hours. 🔥 Thread chicken onto skewers and grill for 10-12 minutes, turning occasionally. 🥙 Warm pitas on the grill for 30 seconds per side. 🔥 Assemble with chicken, tzatziki, tomato, and onion. 🌿 Serve with extra tzatziki and lemon wedges.
+#chickensouvlaki #greekfood #grilling #chicken #mediterranean #tzatziki #pita #healthy 🌮🍱
+```
+ID: 373
+Caption:
+```
+🍝 Butternut Squash Ravioli 🍝
+Recipe: 
+Ingredients: 🍝 1 lb fresh ravioli (butternut squash filled), 🧈 4 tbsp butter, 🌿 10 sage leaves, 🧀 1/2 cup parmesan, 🥜 1/4 cup pine nuts, 🧂 salt and pepper.
+Steps: 👨‍🍳 Cook ravioli in salted boiling water until they float; drain, reserving 1/2 cup pasta water. 🧈 Melt butter in a skillet over medium heat until it begins to brown. 🌿 Add sage leaves and fry until crisp, about 1 minute. 🔥 Add drained ravioli to the pan; toss gently with brown butter and sage. 🧀 Add parmesan and pasta water to create a silky sauce. 🥜 Top with toasted pine nuts and serve immediately.
+#butternutsquashravioli #pasta #italian #vegetarian #sagebrownbutter #dinner #comfortfood 🌮🍱
+```
+ID: 374
+Caption:
+```
+🍰 Tres Leches Cake 🍰
+Recipe: 
+Ingredients: 🌾 1.5 cups flour, 🍬 1 cup sugar, 🥄 1.5 tsp baking powder, 🥚 5 eggs (separated), 🥛 1/2 cup whole milk, 🥛 1 can evaporated milk, 🥛 1 can sweetened condensed milk, 🥛 1 cup heavy cream, 🍓 fresh strawberries.
+Steps: 👨‍🍳 Whisk egg yolks and sugar until pale; mix in flour, baking powder, and milk. 🥚 Beat egg whites to stiff peaks and fold into batter. 🔥 Bake in a 9x13 pan at 350°F (175°C) for 30 minutes. 🥛 Mix evaporated milk, condensed milk, and heavy cream. ⏲️ Poke holes in the warm cake and pour the milk mixture over it. ❄️ Chill for at least 4 hours. 🍓 Top with whipped cream and fresh strawberries before serving.
+#tresleches #dessert #mexican #sweet #cake #milkcake #baking #party 🌮🍱
+```
+ID: 375
+Caption:
+```
+🌮 Sizzling Chicken Fajitas 🌮
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken breast (sliced), 🫑 3 bell peppers (sliced), 🧅 1 large onion (sliced), 🍋 2 tbsp lime juice, 🫒 2 tbsp olive oil, 🥄 1 tsp cumin, 🌶️ 1 tsp chili powder, 🫓 flour tortillas, 🥑 guacamole and sour cream.
+Steps: 👨‍🍳 Marinate chicken in lime juice, oil, and spices for 30 minutes. 🔥 Sauté peppers and onion in a hot cast iron until charred; remove. 🔥 Sear chicken in the same skillet until cooked through. ⏲️ Return vegetables to the pan and toss together. 🫓 Serve sizzling with warm tortillas, guacamole, and sour cream.
+#chickenfajitas #mexican #dinner #sizzling #texmex #familydinner #easyrecipes #fiesta 🌮🍱
+```
+ID: 376
+Caption:
+```
+🌯 Fresh Shrimp and Mango Spring Rolls 🌯
+Recipe: 
+Ingredients: 🦐 1/2 lb cooked shrimp, 🥭 1 ripe mango (julienned), 🌿 fresh mint and cilantro, 🥬 lettuce leaves, 🍝 rice vermicelli, 🫓 8 rice paper wrappers, 🍅 peanut dipping sauce.
+Steps: 👨‍🍳 Cook vermicelli according to package; drain and cool. 🫓 Wet rice paper wrapper in warm water until pliable. 🥬 Layer lettuce, vermicelli, mango, herbs, and 2-3 shrimp. 🔥 Roll tightly, folding in the sides. ⏲️ Repeat with remaining ingredients. 🍅 Serve immediately with peanut dipping sauce and extra lime wedges.
+#springrolls #shrimp #mango #healthy #fresh #vietnamese #appetizer #summer 🌮🍱
+```
+ID: 377
+Caption:
+```
+🍗 Golden Chicken Schnitzel 🍗
+Recipe: 
+Ingredients: 🍗 4 chicken breasts (pounded thin), 🌾 1 cup flour, 🥚 2 eggs (beaten), 🌾 1.5 cups breadcrumbs, 🧈 1/2 cup vegetable oil, 🍋 1 lemon, 🌿 parsley, 🥔 potato salad.
+Steps: 👨‍🍳 Season chicken with salt and pepper. 🌾 Dredge in flour, dip in egg, then coat in breadcrumbs. 🔥 Heat oil in a large skillet over medium-high heat. 🍗 Fry chicken for 3-4 minutes per side until golden and crispy. 🔪 Drain on a wire rack. 🍋 Serve with lemon wedges, parsley, and potato salad on the side.
+#chickenschnitzel #german #friedchicken #dinner #crispy #comfortfood #european #potatoes 🌮🍱
+```
+ID: 378
+Caption:
+```
+🍰 Raspberry White Chocolate Cheesecake 🍰
+Recipe: 
+Ingredients: 🥨 1.5 cups graham cracker crumbs, 🧈 1/3 cup melted butter, 🧀 3 packages cream cheese, 🍬 3/4 cup sugar, 🥚 3 eggs, 🍫 1 cup white chocolate (melted), 🍓 1 cup raspberry puree, 🍓 fresh raspberries.
+Steps: 👨‍🍳 Mix crumbs and butter; press into a springform pan. 🥣 Beat cream cheese and sugar until smooth. 🥚 Add eggs one at a time, then melted white chocolate. ⏲️ Pour half the batter into the crust; swirl in raspberry puree; top with remaining batter. 🔥 Bake at 325°F (165°C) for 55-60 minutes. ❄️ Chill overnight. 🍓 Top with fresh raspberries before serving.
+#raspberrycheesecake #whitechocolate #dessert #baking #sweet #cheesecake #berries #elegant 🌮🍱
+```
+ID: 379
+Caption:
+```
+🍚 Fragrant Lamb Biryani 🍚
+Recipe: 
+Ingredients: 🥩 1.5 lbs lamb shoulder (cubed), 🍚 2 cups basmati rice, 🧅 2 onions (sliced), 🧄 4 cloves garlic, 🫚 1 inch ginger, 🥄 2 tbsp biryani masala, 🌿 saffron threads, 🥛 1/4 cup yogurt, 🧈 3 tbsp ghee, 🌿 fresh mint and cilantro.
+Steps: 👨‍🍳 Marinate lamb in yogurt and half the biryani masala for 2 hours. 🧈 Fry onions in ghee until crispy and golden; set aside. 🔥 Sear lamb in the same pot until browned; add ginger, garlic, and remaining spices. 🍚 Add soaked rice and enough water to cover by 1 inch. ⏲️ Simmer covered on low for 25-30 minutes until rice is fluffy. 🌿 Top with fried onions, mint, and cilantro; serve with raita.
+#lambbiryani #indianfood #rice #lamb #dinner #aromatic #spicy #biryani 🌮🍱
+```
+ID: 380
+Caption:
+```
+🍢 Caprese Salad Skewers 🍢
+Recipe: 
+Ingredients: 🍅 20 cherry tomatoes, 🧀 20 fresh mozzarella balls, 🌿 20 fresh basil leaves, 🫒 2 tbsp olive oil, 🍇 balsamic glaze, 🧂 sea salt, 🧂 cracked black pepper.
+Steps: 👨‍🍳 Thread one tomato, one basil leaf, and one mozzarella ball onto each small skewer. 🫒 Arrange on a platter and drizzle with olive oil and balsamic glaze. 🧂 Sprinkle with sea salt and cracked black pepper. 🔥 Serve immediately as a fresh, elegant appetizer.
+#caprese #skewers #appetizer #italian #vegetarian #fresh #partyfood #mozzarella 🌮🍱
+```
+ID: 381
+Caption:
+```
+🦞 Creamy Lobster Mac and Cheese 🦞
+Recipe: 
+Ingredients: 🦞 1 lb cooked lobster meat (chopped), 🍝 1 lb cavatappi pasta, 🧈 4 tbsp butter, 🌾 1/4 cup flour, 🥛 3 cups whole milk, 🧀 3 cups sharp cheddar, 🧀 1 cup gruyère, 🥄 1/2 cup panko breadcrumbs, 🫒 truffle oil.
+Steps: 👨‍🍳 Cook pasta until al dente; drain and set aside. 🧈 Make a roux with butter and flour; whisk in milk until thickened. 🧀 Stir in cheddar and gruyère until smooth. 🦞 Fold in cooked pasta and lobster meat. ⏲️ Transfer to a baking dish; top with panko. 🔥 Bake at 375°F (190°C) for 20 minutes until golden and bubbling. 🫒 Drizzle with truffle oil before serving.
+#lobstermacandcheese #seafood #macandcheese #luxury #comfortfood #cheesy #dinner #special 🌮🍱
+```
+ID: 382
+Caption:
+```
+🍩 Cinnamon Sugar Churros 🍩
+Recipe: 
+Ingredients: 🥛 1 cup water, 🧈 1/2 cup butter, 🍬 1 tbsp sugar, 🧂 1/4 tsp salt, 🌾 1 cup flour, 🥚 3 eggs, 🫒 oil for frying, 🍬 1/2 cup sugar, 🪵 2 tsp cinnamon.
+Steps: 👨‍🍳 Bring water, butter, sugar, and salt to a boil. 🌾 Add flour and stir vigorously until a ball forms. 🥚 Remove from heat; beat in eggs one at a time. 🔥 Pipe 4-inch strips into 375°F oil; fry until golden. 🔪 Drain on a rack. 🍬 Toss warm churros in cinnamon sugar mixture. 🍫 Serve with thick hot chocolate for dipping.
+#churros #dessert #mexican #sweet #cinnamon #fried #streetfood #chocolate 🌮🍱
+```
+ID: 383
+Caption:
+```
+🐟 Grilled Salmon with Mango Salsa 🐟
+Recipe: 
+Ingredients: 🐟 4 salmon fillets, 🫒 2 tbsp olive oil, 🧂 salt and pepper, 🥭 1 ripe mango (diced), 🍅 1/2 red onion (diced), 🌿 1/4 cup cilantro, 🍋 2 tbsp lime juice, 🌶️ 1 jalapeño (minced).
+Steps: 👨‍🍳 Season salmon with olive oil, salt, and pepper. 🔥 Grill over medium-high heat for 4-5 minutes per side until flaky. 🥭 Mix mango, onion, cilantro, lime juice, and jalapeño for salsa. ⏲️ Let salmon rest for 2 minutes. 🐟 Top each fillet generously with mango salsa and serve with rice or grilled vegetables.
+#grilledsalmon #mangosalsa #seafood #healthy #grilling #summer #fresh #tropical 🌮🍱
+```
+ID: 384
+Caption:
+```
+🥙 Chicken Shawarma Plate 🥙
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken thighs (sliced), 🫒 1/4 cup olive oil, 🍋 1/4 cup lemon juice, 🧄 4 cloves garlic, 🥄 1 tsp cumin, 🥄 1 tsp paprika, 🥄 1/2 tsp turmeric, 🥙 warm pita, 🥒 pickled vegetables, 🍅 garlic sauce.
+Steps: 👨‍🍳 Whisk oil, lemon juice, garlic, and spices; marinate chicken for at least 4 hours. 🔥 Grill or sear chicken in a hot skillet until charred and cooked through. 🥙 Serve over rice with warm pita, pickled vegetables, and garlic sauce. 🌿 Garnish with fresh parsley and a sprinkle of sumac.
+#chickenshawarma #middleeastern #chicken #dinner #healthy #ricebowl #mediterranean #grilled 🌮🍱
+```
+ID: 385
+Caption:
+```
+🥞 Fluffy Japanese Cheesecake 🥞
+Recipe: 
+Ingredients: 🧀 8 oz cream cheese, 🥛 1/2 cup milk, 🧈 4 tbsp butter, 🌾 1/2 cup flour, 🌽 1/4 cup cornstarch, 🥚 6 eggs (separated), 🍬 1/2 cup sugar, 🍋 1 tbsp lemon juice.
+Steps: 👨‍🍳 Preheat oven to 320°F (160°C). 🧀 Melt cream cheese, milk, and butter over a double boiler; cool slightly. 🥚 Whisk in egg yolks, flour, cornstarch, and lemon juice. 🥚 Beat egg whites with sugar to stiff peaks. 🔥 Gently fold whites into the cream cheese batter. ⏲️ Pour into a lined springform pan; bake in a water bath for 60-70 minutes until tall and golden. 🍓 Cool completely before dusting with powdered sugar.
+#japanesecheesecake #fluffy #dessert #baking #sweet #jiggly #cheesecake #asian 🌮🍱
+```
+ID: 386
+Caption:
+```
+🌶️ Sichuan Dry-Fried Green Beans 🌶️
+Recipe: 
+Ingredients: 🫛 1 lb green beans (trimmed), 🧄 4 cloves garlic (minced), 🌶️ 4 dried red chilies, 🥄 1 tsp Sichuan peppercorns, 🧄 1 tbsp fermented black beans, 🫒 2 tbsp vegetable oil, 🥄 1 tbsp soy sauce, 🍬 1 tsp sugar.
+Steps: 👨‍🍳 Heat oil in a wok until smoking. 🔥 Add green beans and stir-fry for 5-6 minutes until blistered and slightly charred. 🧄 Push beans to the side; add garlic, chilies, peppercorns, and black beans; stir-fry for 30 seconds. 🥄 Add soy sauce and sugar; toss everything together. ⏲️ Stir-fry for 1 more minute until fragrant. 🍚 Serve immediately with steamed rice.
+#sichuangreenbeans #spicy #chinese #vegetarian #wok #healthy #asian #dryfried 🌮🍱
+```
+ID: 387
+Caption:
+```
+🥣 Creamy Chicken and Dumplings 🥣
+Recipe: 
+Ingredients: 🍗 1.5 lbs chicken thighs, 🧅 1 onion (diced), 🥕 2 carrots (diced), 🥬 2 celery stalks, 🥛 4 cups chicken broth, 🥛 1 cup heavy cream, 🌾 1.5 cups flour, 🥄 1.5 tsp baking powder, 🧈 3 tbsp cold butter, 🥛 1/2 cup milk.
+Steps: 👨‍🍳 Simmer chicken in broth with onion, carrots, and celery for 30 minutes until tender. 🥣 Remove chicken, shred, and return to pot. 🌾 Mix flour, baking powder, and salt; cut in cold butter. 🥛 Stir in milk to form a soft dough. 🔥 Drop spoonfuls of dough into the simmering stew. ⏲️ Cover and cook for 15 minutes without lifting the lid until dumplings are fluffy. 🌿 Serve hot with fresh parsley.
+#chickenanddumplings #comfortfood #southern #chicken #stew #homemade #dinner #hearty 🌮🍱
+```
+ID: 388
+Caption:
+```
+🍯 Pistachio Baklava 🍯
+Recipe: 
+Ingredients: 🥐 1 package phyllo pastry, 🥜 2 cups pistachios (finely chopped), 🍬 1 cup sugar, 🧈 1 cup melted butter, 🍯 1 cup honey, 🍋 1 tbsp lemon juice, 🪵 1 tsp cinnamon, 🌿 1 tsp rose water.
+Steps: 👨‍🍳 Preheat oven to 350°F (175°C). 🧈 Brush a baking dish with butter; layer 10 sheets of phyllo, brushing each with butter. 🥜 Mix pistachios, sugar, and cinnamon; spread half over the phyllo. 🔥 Layer 10 more phyllo sheets with butter; add remaining nut mixture; top with 10 more phyllo sheets. ⏲️ Cut into diamond shapes; bake for 45-50 minutes until golden. 🍯 Simmer honey, lemon juice, and rose water; pour over hot baklava. ❄️ Let cool completely before serving.
+#baklava #pistachio #dessert #turkish #sweet #phyllo #honey #mediterranean 🌮🍱
+```
+ID: 389
+Caption:
+```
+🐟 Sesame Crusted Tuna Steak 🐟
+Recipe: 
+Ingredients: 🐟 2 ahi tuna steaks, 🥄 2 tbsp sesame seeds, 🥄 2 tbsp black sesame seeds, 🫒 1 tbsp vegetable oil, 🧂 salt and pepper, 🥄 2 tbsp soy sauce, 🥄 1 tbsp wasabi paste, 🍋 1 tbsp rice vinegar.
+Steps: 👨‍🍳 Pat tuna dry and season with salt and pepper. 🥄 Press mixed sesame seeds onto both sides of each steak. 🔥 Heat oil in a skillet until smoking hot. 🐟 Sear tuna for 45 seconds per side for rare. 🔪 Let rest for 2 minutes; slice thinly against the grain. 🥄 Mix soy sauce, wasabi, and rice vinegar for dipping. 🌿 Serve with edamame and pickled ginger.
+#sesamecrustedtuna #tuna #sushi #healthy #dinner #japanese #rare #elegant 🌮🍱
+```
+ID: 390
+Caption:
+```
+🍜 Vegetable Pad Thai 🍜
+Recipe: 
+Ingredients: 🍝 8 oz rice noodles, 🧈 1 block firm tofu (cubed), 🥚 2 eggs, 🌱 1 cup bean sprouts, 🥜 1/4 cup crushed peanuts, 🌿 3 scallions, 🍅 3 tbsp tamarind paste, 🍬 2 tbsp palm sugar, 🍅 2 tbsp fish sauce, 🌶️ 1 tsp chili flakes.
+Steps: 👨‍🍳 Soak noodles in warm water until flexible; drain. 🔥 Stir-fry tofu until golden; push to the side. 🥚 Scramble eggs in the same wok. 🍝 Add noodles, tamarind, sugar, fish sauce, and chili flakes; toss until coated. 🌱 Fold in bean sprouts and half the peanuts. ⏲️ Serve topped with remaining peanuts, scallions, and a lime wedge.
+#vegetablepadthai #thaifood #vegetarian #noodles #healthy #streetfood #tofu #asian 🌮🍱
+```
+ID: 391
+Caption:
+```
+🍗 Herb Roasted Chicken with Root Vegetables 🍗
+Recipe: 
+Ingredients: 🍗 1 whole chicken (3.5 lbs), 🧈 4 tbsp softened butter, 🌿 2 tbsp fresh rosemary, 🌿 2 tbsp fresh thyme, 🧄 4 cloves garlic, 🥕 4 carrots, 🥔 4 potatoes, 🧅 2 onions, 🧂 salt and pepper, 🍋 1 lemon.
+Steps: 👨‍🍳 Preheat oven to 425°F (220°C). 🧈 Mix butter with chopped herbs, garlic, salt, and pepper. 🍗 Rub herb butter under and over the skin; stuff cavity with lemon. 🥕 Arrange chopped vegetables around the chicken in a roasting pan. ⏲️ Roast for 1 hour 15 minutes until golden and juices run clear. 🌿 Let rest for 15 minutes before carving; serve with vegetables.
+#roastedchicken #rootvegetables #familydinner #comfortfood #herbs #homemade #sundayroast 🌮🍱
+```
+ID: 392
+Caption:
+```
+🥥 Coconut Cream Pie 🥥
+Recipe: 
+Ingredients: 🥧 1 pre-baked pie crust, 🥥 1.5 cups coconut milk, 🥛 1.5 cups whole milk, 🍬 3/4 cup sugar, 🌽 1/4 cup cornstarch, 🥚 4 egg yolks, 🧈 2 tbsp butter, 🥥 1 cup toasted coconut flakes, 🥣 whipped cream.
+Steps: 👨‍🍳 Whisk milks, sugar, and cornstarch in a saucepan; cook until thickened. 🥚 Temper in egg yolks; cook for 2 more minutes. 🧈 Remove from heat; stir in butter and 1/2 cup coconut flakes. ⏲️ Pour into baked crust; chill for 4 hours. 🥣 Top with whipped cream and remaining toasted coconut. ❄️ Serve cold for a tropical treat.
+#coconutcreampie #dessert #tropical #sweet #pie #coconut #baking #classic 🌮🍱
+```
+ID: 393
+Caption:
+```
+🦐 Crispy Coconut Shrimp 🦐
+Recipe: 
+Ingredients: 🦐 1 lb jumbo shrimp (peeled, tail-on), 🌾 1/2 cup flour, 🥚 2 eggs (beaten), 🥥 1.5 cups sweetened coconut flakes, 🌾 1/2 cup panko breadcrumbs, 🫒 oil for frying, 🍅 sweet chili sauce, 🍋 lime wedges.
+Steps: 👨‍🍳 Pat shrimp dry and season with salt. 🌾 Dredge in flour, dip in egg, then coat in coconut-panko mixture. 🔥 Fry in 350°F oil for 2-3 minutes until golden and crispy. 🔪 Drain on a wire rack. 🍅 Serve immediately with sweet chili sauce and lime wedges for dipping.
+#coconutshrimp #seafood #appetizer #tropical #crispy #fried #shrimp #party 🌮🍱
+```
+ID: 394
+Caption:
+```
+🍗 Chicken Marsala with Mushrooms 🍗
+Recipe: 
+Ingredients: 🍗 4 chicken cutlets (pounded thin), 🌾 1/2 cup flour, 🧈 3 tbsp butter, 🫒 2 tbsp olive oil, 🍄 2 cups cremini mushrooms (sliced), 🍷 3/4 cup Marsala wine, 🥛 1/2 cup chicken broth, 🌿 2 tbsp fresh parsley.
+Steps: 👨‍🍳 Season chicken with salt and pepper; dredge in flour. 🔥 Sear in butter and oil for 3 minutes per side until golden; remove and keep warm. 🍄 Add mushrooms to the same pan; sauté until browned. 🍷 Deglaze with Marsala wine; simmer for 3 minutes. 🥛 Add broth and return chicken to the pan; simmer for 5 minutes. 🌿 Garnish with parsley and serve over mashed potatoes or pasta.
+#chickenmarsala #italian #chicken #mushrooms #dinner #comfortfood #wine #easy 🌮🍱
+```
+ID: 395
+Caption:
+```
+🍮 Warm Bread Pudding with Vanilla Sauce 🍮
+Recipe: 
+Ingredients: 🍞 6 cups day-old bread (cubed), 🥛 2 cups milk, 🥛 1 cup heavy cream, 🥚 4 eggs, 🍬 3/4 cup sugar, 🍦 2 tsp vanilla, 🍇 1/2 cup raisins, 🧈 2 tbsp butter, 🍬 1/2 cup powdered sugar, 🥛 1/4 cup heavy cream (for sauce).
+Steps: 👨‍🍳 Preheat oven to 350°F (175°C). 🥛 Whisk milk, cream, eggs, sugar, and vanilla; pour over bread cubes. 🍇 Fold in raisins and let soak for 15 minutes. 🔥 Transfer to a buttered baking dish; bake for 45-50 minutes until set and golden. 🥛 Make vanilla sauce by whisking powdered sugar and cream until smooth. 🍮 Serve warm bread pudding drizzled with vanilla sauce and a scoop of ice cream.
+#breadpudding #dessert #comfortfood #sweet #vanilla #baking #classic #warm 🌮🍱
+```
+ID: 396
+Caption:
+```
+🥗 Grilled Shrimp and Avocado Salad 🥗
+Recipe: 
+Ingredients: 🦐 1/2 lb large shrimp, 🥑 2 ripe avocados, 🥬 4 cups mixed greens, 🍅 1 cup cherry tomatoes, 🧅 1/4 red onion, 🍋 3 tbsp lime juice, 🫒 2 tbsp olive oil, 🌿 cilantro, 🧂 salt and pepper.
+Steps: 👨‍🍳 Season shrimp with salt, pepper, and a squeeze of lime. 🔥 Grill shrimp for 2 minutes per side until pink and charred. 🥬 Arrange mixed greens, sliced avocado, tomatoes, and onion in a bowl. 🍋 Whisk lime juice and olive oil for dressing. 🔥 Top salad with warm grilled shrimp and drizzle with dressing. 🌿 Garnish with fresh cilantro and serve immediately.
+#grilledshrimpsalad #avocado #healthy #salad #summer #grilling #fresh #light 🌮🍱
+```
+ID: 397
+Caption:
+```
+🍗 Chicken Cordon Bleu 🍗
+Recipe: 
+Ingredients: 🍗 4 chicken breasts, 🧀 4 slices Swiss cheese, 🍖 4 slices ham, 🌾 1 cup breadcrumbs, 🥚 2 eggs, 🌾 1/2 cup flour, 🧈 2 tbsp butter, 🍅 1/2 cup Dijon cream sauce.
+Steps: 👨‍🍳 Pound chicken to 1/4 inch thickness. 🧀 Layer each with ham and Swiss cheese; roll tightly and secure with toothpicks. 🌾 Dredge in flour, dip in egg, then coat in breadcrumbs. 🔥 Pan-sear in butter until golden on all sides. ⏲️ Finish in a 375°F oven for 20 minutes until cooked through. 🔪 Slice to reveal the cheese and ham spiral; serve with Dijon cream sauce.
+#chickencordonbleu #french #chicken #dinner #cheese #ham #elegant #classic 🌮🍱
+```
+ID: 398
+Caption:
+```
+🍵 Matcha Green Tea Tiramisu 🍵
+Recipe: 
+Ingredients: 🥖 1 pack ladyfingers, 🍵 2 cups strong matcha (cooled), 🧀 16 oz mascarpone, 🥚 3 eggs (separated), 🍬 1/2 cup sugar, 🍵 2 tbsp matcha powder (for dusting).
+Steps: 👨‍🍳 Whisk egg yolks and sugar until pale; fold in mascarpone. 🥚 Beat whites to stiff peaks and fold into the cream. 🍵 Dip ladyfingers in cooled matcha and layer in a dish. ⏲️ Spread half the cream; repeat layers. ❄️ Refrigerate for at least 6 hours. 🍵 Before serving, dust generously with matcha powder and garnish with white chocolate shavings.
+#matchatiramisu #dessert #japanese #italian #matcha #green tea #sweet #nobake 🌮🍱
+```
+ID: 399
+Caption:
+```
+🥩 Charred Lamb Kebabs 🥩
+Recipe: 
+Ingredients: 🥩 1.5 lbs ground lamb, 🧅 1/2 onion (grated), 🧄 3 cloves garlic, 🌿 2 tbsp fresh parsley, 🥄 1 tsp cumin, 🥄 1 tsp sumac, 🌶️ 1/2 tsp red pepper flakes, 🧂 salt and pepper, 🥙 warm flatbread.
+Steps: 👨‍🍳 Mix ground lamb with onion, garlic, parsley, cumin, sumac, and spices. 🔥 Form onto skewers, pressing firmly so they adhere. 🔥 Grill over high heat for 3-4 minutes per side until charred and cooked through. 🥙 Serve on warm flatbread with grilled tomato, onion, and a dollop of yogurt.
+#lambkebabs #middleeastern #grilling #lamb #dinner #streetfood #spicy #kebab 🌮🍱
+```
+ID: 400
+Caption:
+```
+🥒 Crispy Zucchini Fritters 🥒
+Recipe: 
+Ingredients: 🥒 3 medium zucchini (grated), 🌾 1/2 cup flour, 🥚 2 eggs, 🧀 1/4 cup feta cheese, 🌿 2 tbsp fresh dill, 🧄 2 cloves garlic, 🧂 salt and pepper, 🫒 oil for frying, 🥣 tzatziki sauce.
+Steps: 👨‍🍳 Salt grated zucchini and let drain for 15 minutes; squeeze out excess moisture. 🥣 Mix zucchini with flour, eggs, feta, dill, garlic, salt, and pepper. 🔥 Heat oil in a skillet over medium heat. 🥒 Drop spoonfuls of batter into the pan; flatten slightly. ⏲️ Fry for 2-3 minutes per side until golden and crispy. 🔪 Drain on paper towels. 🥣 Serve warm with tzatziki sauce and a lemon wedge.
+#zucchinifritters #vegetarian #appetizer #greek #fried #healthy #summer #fritters 🌮🍱
+```
