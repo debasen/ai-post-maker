@@ -482,6 +482,8 @@ phase_4_video_generation() {
     grok_click_at "$img_x" "$img_y"
     _dry_run_sleep 2
 
+    # In Speed mode, clicking the image does not navigate to a detail page.
+    # The Make video button is available directly on the results page.
     log INFO "Looking for Make video button... selector='$SELECTOR_MAKE_VIDEO'"
     local mv_info
     mv_info=$(grok_find_element "$SELECTOR_MAKE_VIDEO" 30)
@@ -493,11 +495,13 @@ phase_4_video_generation() {
             log FATAL "Could not find Make video button"
         fi
     else
-        local mv_x mv_y
-        mv_x=$(echo "$mv_info" | jq -r '.x')
-        mv_y=$(echo "$mv_info" | jq -r '.y')
-        log INFO "Make video button found at ($mv_x, $mv_y), clicking..."
-        grok_click_at "$mv_x" "$mv_y"
+        # Use snapshot ref click instead of coordinate click.
+        # browseros-cli click-at does not reliably trigger the Make video button
+        # in Speed mode where multiple images are shown on the results page.
+        log INFO "Make video button found via selector, using snapshot ref click..."
+        if ! grok_click_by_snap_pattern 'Make video'; then
+            log FATAL "Could not click Make video button via snapshot ref"
+        fi
     fi
     log INFO "Video generation triggered"
     _dry_run_sleep 3
@@ -551,6 +555,18 @@ phase_5_monitoring() {
             else
                 log INFO "Still generating..."
             fi
+        fi
+
+        # Speed mode: percentage shown as clickable elements (e.g., "4%")
+        local snap_pct
+        snap_pct=$(echo "$snapshot_text" | grep -oE '^\[[0-9]+\][[:space:]]+clickable[[:space:]]+"[0-9]+%"' | head -1)
+        if [ -n "$snap_pct" ]; then
+            log INFO "Video generation in progress (Speed mode: $snap_pct)"
+        fi
+
+        # Speed mode: Save button changing to Unsave indicates processing started
+        if echo "$snapshot_text" | grep -q '"Unsave"'; then
+            log DEBUG "phase_5: Unsave button detected (video processing active)"
         fi
 
         if echo "$snapshot_text" | grep -qi "warning"; then

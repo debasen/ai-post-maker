@@ -1,29 +1,44 @@
-[2026-05-17 09:30:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
-[2026-05-17 09:30:00] [INFO] Starting automation for project 1
-[2026-05-17 09:30:00] [INFO] Timeout: 300s, Max retries: 3
-[2026-05-17 09:30:00] [INFO] Checking BrowserOS health...
+[2026-05-21 15:40:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-21 15:40:00] [INFO] Starting automation for project 1
+[2026-05-21 15:40:00] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-21 15:40:00] [INFO] Checking BrowserOS health...
 
-[2026-05-17 09:30:01] [CMD] browseros-cli health 
-[2026-05-17 09:30:01] [EXIT] 0
-[2026-05-17 09:30:01] [OUT] ---
+[2026-05-21 15:40:02] [CMD] browseros-cli health 
+[2026-05-21 15:40:02] [EXIT] 0
+[2026-05-21 15:40:02] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-17 09:30:01] [OUT] ---
-[2026-05-17 09:30:01] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-05-17 09:30:01] [DEBUG] Retry attempt 1/3: bos_health
+[2026-05-21 15:40:02] [OUT] ---
+[2026-05-21 15:40:02] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-21 15:40:02] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-05-17 09:30:02] [CMD] browseros-cli health 
-[2026-05-17 09:30:02] [EXIT] 0
-[2026-05-17 09:30:02] [OUT] ---
+[2026-05-21 15:40:03] [CMD] browseros-cli health 
+[2026-05-21 15:40:03] [EXIT] 0
+[2026-05-21 15:40:03] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-17 09:30:02] [OUT] ---
-[2026-05-17 09:30:02] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-05-17 09:30:02] [INFO] BrowserOS is healthy
-[2026-05-17 09:30:02] [INFO] ========================================
-[2026-05-17 09:30:02] [INFO]   Phase 1: Preparation
-[2026-05-17 09:30:02] [INFO] ========================================
-[2026-05-17 09:30:02] [INFO] Using tracker: grok_tracker.py
-[2026-05-17 09:30:02] [INFO] Fetching next pending prompt...
-[2026-05-17 09:30:02] [DEBUG] Tracker response: {"error": "No pending or warning prompts"}
-[2026-05-17 09:30:02] [FATAL] No pending prompts: No pending or warning prompts
+[2026-05-21 15:40:03] [OUT] ---
+[2026-05-21 15:40:03] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-21 15:40:03] [INFO] BrowserOS is healthy
+[2026-05-21 15:40:03] [INFO] ========================================
+[2026-05-21 15:40:03] [INFO]   Phase 1: Preparation
+[2026-05-21 15:40:03] [INFO] ========================================
+[2026-05-21 15:40:03] [INFO] Using tracker: grok_tracker.py
+[2026-05-21 15:40:03] [INFO] Fetching next pending prompt...
+[2026-05-21 15:40:03] [DEBUG] Tracker response: {"id": 416, "prompt": "An ultra-realistic, highly detailsd mango sticky rice in a banana leaf, sweet coconut glutinous rice, ripe mango slices, sesame seeds, Thai dessert. Aspect ratio 9:16 portrait", "status": "pending", "post_url": null, "executed_at": null}
+[2026-05-21 15:40:03] [INFO] Next prompt ID: 416
+[2026-05-21 15:40:03] [INFO] Status: pending
+[2026-05-21 15:40:03] [DEBUG] Prompt: An ultra-realistic, highly detailsd mango sticky rice in a banana leaf, sweet coconut glutinous rice, ripe mango slices, sesame seeds, Thai dessert. Aspect ratio 9:16 portrait
+[2026-05-21 15:40:03] [INFO] ========================================
+[2026-05-21 15:40:03] [INFO]   Phase 2: Platform Navigation
+[2026-05-21 15:40:03] [INFO] ========================================
+[2026-05-21 15:40:03] [INFO] Opening Grok Imagine page...
+[2026-05-21 15:40:03] [INFO] Opening new page: https://grok.com/imagine
+
+[2026-05-21 15:40:03] [CMD] browseros-cli open https://grok.com/imagine --json
+[2026-05-21 15:40:03] [EXIT] 1
+[2026-05-21 15:40:03] [OUT] ---
+Error: Internal error in new_page: CDP error: No browser window available
+[2026-05-21 15:40:03] [OUT] ---
+[2026-05-21 15:40:03] [WARN] Command failed (exit 1): browseros-cli open https://grok.com/imagine --json
+[2026-05-21 15:40:03] [FATAL] Failed to open new page
