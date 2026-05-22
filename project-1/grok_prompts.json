@@ -221,7 +221,9 @@
       "post_url": "https://grok.com/imagine/post/aab32e5d-b6c6-401a-aff3-2d4e57b7e148",
       "executed_at": "2026-05-02T01:16:29.711221",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ]
     },
     {
       "id": 15,
@@ -231,7 +233,9 @@
       "post_url": "https://grok.com/imagine/post/83f0661e-ddf2-4052-af17-ffa12a1a313e",
       "executed_at": "2026-05-02T01:23:38.613537",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ]
     },
     {
       "id": 16,
@@ -241,7 +245,18 @@
       "post_url": "https://grok.com/imagine/post/0a4a1af3-ebf3-4f6b-a72e-9e1ac516e1ee",
       "executed_at": "2026-05-02T01:37:12.193950",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-23",
+            "day": "Saturday",
+            "time": "10:10:00"
+          }
+        }
+      ]
     },
     {
       "id": 17,
@@ -251,7 +266,18 @@
       "post_url": "https://grok.com/imagine/post/05cac75c-a042-42ba-919a-1daa7c0f4ad0",
       "executed_at": "2026-05-02T01:44:39.191445",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-24",
+            "day": "Sunday",
+            "time": "13:20:00"
+          }
+        }
+      ]
     },
     {
       "id": 18,
@@ -261,7 +287,18 @@
       "post_url": "https://grok.com/imagine/post/8bb57c2e-77a7-4b8e-80c4-7c0d2677b75e",
       "executed_at": "2026-05-02T01:52:16.890148",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-25",
+            "day": "Monday",
+            "time": "20:45:00"
+          }
+        }
+      ]
     },
     {
       "id": 19,
@@ -271,7 +308,18 @@
       "post_url": "https://grok.com/imagine/post/8ccfa810-cf7c-484d-90bb-ce6cd94ac754",
       "executed_at": "2026-05-02T02:01:11.543129",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-26",
+            "day": "Tuesday",
+            "time": "18:00:00"
+          }
+        }
+      ]
     },
     {
       "id": 20,
@@ -281,7 +329,18 @@
       "post_url": "https://grok.com/imagine/post/8db87686-0a53-45f9-b0ac-ddb38eca8bcf",
       "executed_at": "2026-05-02T07:03:27.185161",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-27",
+            "day": "Wednesday",
+            "time": "08:35:00"
+          }
+        }
+      ]
     },
     {
       "id": 21,
@@ -291,7 +350,18 @@
       "post_url": "https://grok.com/imagine/post/3f95f9a0-7e85-45ad-abb7-6ff81356e1aa",
       "executed_at": "2026-05-02T07:13:38.145228",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-28",
+            "day": "Thursday",
+            "time": "13:35:00"
+          }
+        }
+      ]
     },
     {
       "id": 22,
@@ -301,7 +371,18 @@
       "post_url": "https://grok.com/imagine/post/fd7c570e-5ca6-4f2b-b629-9eb18d414d48",
       "executed_at": "2026-05-02T07:19:57.753319",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-29",
+            "day": "Friday",
+            "time": "10:40:00"
+          }
+        }
+      ]
     },
     {
       "id": 23,
@@ -311,7 +392,18 @@
       "post_url": "https://grok.com/imagine/post/7b5f97f7-bf9d-42af-a0ff-25b1e701e025",
       "executed_at": "2026-05-02T07:26:35.365090",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-29",
+            "day": "Friday",
+            "time": "20:40:00"
+          }
+        }
+      ]
     },
     {
       "id": 24,
@@ -321,7 +413,18 @@
       "post_url": "https://grok.com/imagine/post/ba408280-d3e5-467e-9098-7e639f759352",
       "executed_at": "2026-05-02T07:32:47.481425",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-30",
+            "day": "Saturday",
+            "time": "18:10:00"
+          }
+        }
+      ]
     },
     {
       "id": 25,
@@ -331,7 +434,18 @@
       "post_url": "https://grok.com/imagine/post/4cab6f03-e5db-41e6-a579-46de4fc72cf6",
       "executed_at": "2026-05-02T07:38:58.748565",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-05-31",
+            "day": "Sunday",
+            "time": "18:25:00"
+          }
+        }
+      ]
     },
     {
       "id": 26,
@@ -341,7 +455,18 @@
       "post_url": "https://grok.com/imagine/post/5fb2e2f4-4359-4580-ab90-1ef7dd35329f",
       "executed_at": "2026-05-02T07:45:14.985706",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-06-01",
+            "day": "Monday",
+            "time": "13:10:00"
+          }
+        }
+      ]
     },
     {
       "id": 27,
@@ -351,7 +476,18 @@
       "post_url": "https://grok.com/imagine/post/4d5b1426-4c49-43fc-99a3-8e35084e9e19",
       "executed_at": "2026-05-02T07:51:35.394058",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-06-02",
+            "day": "Tuesday",
+            "time": "12:40:00"
+          }
+        }
+      ]
     },
     {
       "id": 28,
@@ -361,7 +497,18 @@
       "post_url": "https://grok.com/imagine/post/8eba5eaa-dfc9-4b2c-bf9f-e28f3eb35eff",
       "executed_at": "2026-05-02T07:58:13.372653",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-06-02",
+            "day": "Tuesday",
+            "time": "18:00:00"
+          }
+        }
+      ]
     },
     {
       "id": 29,
@@ -371,7 +518,18 @@
       "post_url": "https://grok.com/imagine/post/4ff099f1-6fd7-4f0e-bcb5-bd013310d8db",
       "executed_at": "2026-05-02T08:04:37.479427",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-06-03",
+            "day": "Wednesday",
+            "time": "10:25:00"
+          }
+        }
+      ]
     },
     {
       "id": 30,
@@ -3752,9 +3910,9 @@
     {
       "id": 416,
       "prompt": "An ultra-realistic, highly detailsd mango sticky rice in a banana leaf, sweet coconut glutinous rice, ripe mango slices, sesame seeds, Thai dessert. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "video_failed",
+      "post_url": "https://grok.com/imagine",
+      "executed_at": "2026-05-21T22:24:27.313625"
     },
     {
       "id": 417,

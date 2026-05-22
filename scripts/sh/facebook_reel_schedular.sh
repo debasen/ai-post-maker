@@ -677,10 +677,12 @@ phase_10_fill_datetime() {
         12) sched_month="December" ;;
     esac
 
-    local fb_date="$sched_day $sched_month $sched_year"
+    # Remove leading zero from day for matching calendar cell (e.g. 01 June -> 1 June)
+    local fb_day_normalized="${sched_day#0}"
+    local fb_date_pattern="$fb_day_normalized $sched_month $sched_year"
     local fb_time="${SCHEDULE_TIME:0:5}"
 
-    log INFO "Setting date: $fb_date, time: $fb_time"
+    log INFO "Setting date: $fb_date_pattern, time: $fb_time"
 
     # -- Date selection --
     log INFO "Clicking 'Date' to open date picker..."
@@ -692,15 +694,45 @@ phase_10_fill_datetime() {
     fb_click "$date_label_ref"
     sleep 2
 
-    log INFO "Taking snapshot to find date cell..."
+    local date_ref=""
     local snapshot_text
-    snapshot_text=$(fb_snap)
+    local next_month_attempts=0
+    local max_next_month_attempts=3
 
-    local date_ref
-    date_ref=$(echo "$snapshot_text" | grep -i "$fb_date" | awk 'length < 100' | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+    while [ "$next_month_attempts" -le "$max_next_month_attempts" ]; do
+        log INFO "Taking snapshot to find date cell..."
+        snapshot_text=$(fb_snap)
+        date_ref=$(echo "$snapshot_text" | grep -i "$fb_date_pattern" | awk 'length < 100' | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+
+        if [ -n "$date_ref" ]; then
+            log INFO "Found date cell for $fb_date_pattern with ref: $date_ref"
+            break
+        fi
+
+        if [ "$next_month_attempts" -eq "$max_next_month_attempts" ]; then
+            break
+        fi
+
+        log INFO "Date cell for $fb_date_pattern not found in current snapshot. Attempting to click 'Next Month'..."
+        local next_month_ref
+        next_month_ref=$(echo "$snapshot_text" | grep -i 'button "Next Month"' | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+        if [ -z "$next_month_ref" ]; then
+            next_month_ref=$(echo "$snapshot_text" | grep -i 'Next Month' | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+        fi
+
+        if [ -n "$next_month_ref" ]; then
+            log INFO "Clicking 'Next Month' (ref: $next_month_ref)..."
+            fb_click "$next_month_ref"
+            sleep 2
+            next_month_attempts=$((next_month_attempts + 1))
+        else
+            log WARN "Could not find 'Next Month' button in snapshot."
+            break
+        fi
+    done
 
     if [ -z "$date_ref" ]; then
-        log FATAL "Could not find date cell for $fb_date in calendar snapshot"
+        log FATAL "Could not find date cell for $fb_date_pattern in calendar snapshot after $next_month_attempts attempts"
     fi
 
     log INFO "Clicking date cell (ref: $date_ref)..."

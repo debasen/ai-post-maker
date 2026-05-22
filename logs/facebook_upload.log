@@ -1,270 +1,525 @@
-[2026-05-10 19:47:16] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/facebook_upload.log
-[2026-05-10 19:47:16] [INFO] Starting automation for project 1
-[2026-05-10 19:47:16] [INFO] Timeout: 300s, Max retries: 3
-[2026-05-10 19:47:16] [INFO] Checking BrowserOS health...
+[2026-05-21 22:17:59] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/facebook_upload.log
+[2026-05-21 22:17:59] [INFO] Starting automation for project 1
+[2026-05-21 22:17:59] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-21 22:17:59] [INFO] Checking BrowserOS health...
 
-[2026-05-10 19:47:18] [CMD] browseros-cli health 
-[2026-05-10 19:47:18] [EXIT] 0
-[2026-05-10 19:47:18] [OUT] ---
+[2026-05-21 22:18:01] [CMD] browseros-cli health 
+[2026-05-21 22:18:01] [EXIT] 0
+[2026-05-21 22:18:01] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-10 19:47:18] [OUT] ---
-[2026-05-10 19:47:18] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-05-10 19:47:18] [DEBUG] Retry attempt 1/3: bos_health
+[2026-05-21 22:18:01] [OUT] ---
+[2026-05-21 22:18:01] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-21 22:18:01] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-05-10 19:47:18] [CMD] browseros-cli health 
-[2026-05-10 19:47:18] [EXIT] 0
-[2026-05-10 19:47:18] [OUT] ---
+[2026-05-21 22:18:02] [CMD] browseros-cli health 
+[2026-05-21 22:18:02] [EXIT] 0
+[2026-05-21 22:18:02] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-10 19:47:18] [OUT] ---
-[2026-05-10 19:47:18] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-05-10 19:47:18] [INFO] BrowserOS is healthy
-[2026-05-10 19:47:18] [INFO] ========================================
-[2026-05-10 19:47:18] [INFO]   Phase 1: Identify Project and Asset
-[2026-05-10 19:47:18] [INFO] ========================================
-[2026-05-10 19:47:18] [INFO] Fetching mapped post for project 1...
-[2026-05-10 19:47:18] [DEBUG] get_mapped_post exit=0 output='ID: 6
-Caption: 🍎 Rustic Lattice-Top Apple Pie 🥧
+[2026-05-21 22:18:02] [OUT] ---
+[2026-05-21 22:18:02] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-21 22:18:02] [INFO] BrowserOS is healthy
+[2026-05-21 22:18:02] [INFO] ========================================
+[2026-05-21 22:18:02] [INFO]   Phase 1: Identify Project and Asset
+[2026-05-21 22:18:02] [INFO] ========================================
+[2026-05-21 22:18:02] [INFO] Fetching mapped post for project 1...
+[2026-05-21 22:18:02] [DEBUG] get_mapped_post exit=0 output='ID: 14
+Caption: 🧂 Double-Fried Crispy Sea Salt Fries 🍟
+Recipe: 
+Ingredients: 🥔 3 large Russet potatoes, 🫒 1 quart vegetable oil (for frying), 🧂 flaky sea salt, 🍅 and premium organic ketchup. 
+Steps: 👨‍🍳 Peel and cut potatoes into uniform sticks. 🥣 Soak in cold water for 1 hour to remove starch. 🔥 Pat completely dry. ⏲️ Fry at 300°F (150°C) for 5 minutes, then remove. 🍳 Increase heat to 375°F (190°C) and fry again for 2-3 minutes until golden brown and rattling crisp. 🔪 Drain on wire rack and toss with sea salt.
+#frenchfries #fries #snack #crispy #fastfood #sides #potatoes #crispyfries 🌮🍱'
+[2026-05-21 22:18:02] [INFO] Asset ID: 14
+[2026-05-21 22:18:02] [INFO] Caption length: 578 chars
+[2026-05-21 22:18:02] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/14.mp4
+[2026-05-21 22:18:02] [INFO] Asset file size: 6002073 bytes
+[2026-05-21 22:18:02] [INFO] ========================================
+[2026-05-21 22:18:02] [INFO]   Phase 2: Read Facebook Reels URL
+[2026-05-21 22:18:02] [INFO] ========================================
+[2026-05-21 22:18:02] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+[2026-05-21 22:18:02] [INFO] ========================================
+[2026-05-21 22:18:02] [INFO]   Phase 3: Open Facebook Reels Page
+[2026-05-21 22:18:02] [INFO] ========================================
+[2026-05-21 22:18:02] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+
+[2026-05-21 22:18:03] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
+[2026-05-21 22:18:03] [EXIT] 0
+[2026-05-21 22:18:03] [OUT] ---
+{"background":false,"hidden":false,"pageId":50,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
+[2026-05-21 22:18:03] [OUT] ---
+[2026-05-21 22:18:03] [INFO] Page opened with ID: 50
+[2026-05-21 22:18:08] [INFO] Taking snapshot...
+
+[2026-05-21 22:18:09] [CMD] browseros-cli snap -p 50
+[2026-05-21 22:18:09] [EXIT] 0
+[2026-05-21 22:18:09] [OUT] ---
+[108] link "Reels"
+[546] button "Facebook menu" (collapsed)
+[551] link "Messenger"
+[554] link "Messenger" (disabled)
+[7] button "Notifications" (collapsed)
+[10] button "Your profile" (collapsed)
+[607] button "Hide Menu"
+[640] link "Professional dashboard notification"
+[664] link "Insights"
+[677] link "Monetisation"
+[690] link "Ad Centre"
+[703] link "Create ads"
+[716] link "Boost Instagram post"
+[729] link "Settings"
+[765] button "Collapse"
+[780] link "Meta Verified"
+[793] link "Leads Centre"
+[811] link "Meta Business Suite notification"
+[840] button "Manus AI"
+[860] button "Advertise"
+[889] link "View profile cover photo"
+[53] button "Edit cover photo" (collapsed)
+[907] button "Share a thought..." (collapsed)
+[124] button "Profile picture actions" (collapsed)
+[136] button "Tasty Affair "
+[929] link "7 followers"
+[931] link "0 following"
+[60] link "Professional dashboard"
+[65] link "Edit profile"
+[70] link "Add to story"
+[141] button "Food and drink"
+[983] tab "All"
+[988] tab "About"
+[993] tab "Reels" (selected)
+[997] tab "Photos"
+[1002] tab "Followers"
+[1008] tab "More profile sections" (collapsed)
+[76] button "Profile settings see more options" (collapsed)
+[1055] link "Reels"
+[82] button "Create reel"
+[1095] link "Reel tile preview"
+[1111] link "Reel tile preview"
+[1127] link "Reel tile preview"
+[1143] link "Reel tile preview"
+[1159] link "Reel tile preview"
+[1175] link "Reel tile preview"
+[1191] link "Reel tile preview"
+[1207] link "Reel tile preview"
+[1223] link "Reel tile preview"
+[1239] link "Reel tile preview"
+[2026-05-21 22:18:09] [OUT] ---
+[2026-05-21 22:18:09] [DEBUG] Snapshot lines: 56
+[2026-05-21 22:18:09] [INFO] Page loaded successfully
+[2026-05-21 22:18:09] [INFO] ========================================
+[2026-05-21 22:18:09] [INFO]   Phase 4: Open Create Reel Dialog
+[2026-05-21 22:18:09] [INFO] ========================================
+
+[2026-05-21 22:18:10] [CMD] browseros-cli snap -p 50
+[2026-05-21 22:18:10] [EXIT] 0
+[2026-05-21 22:18:10] [OUT] ---
+[108] link "Reels"
+[546] button "Facebook menu" (collapsed)
+[551] link "Messenger"
+[554] link "Messenger" (disabled)
+[7] button "Notifications" (collapsed)
+[10] button "Your profile" (collapsed)
+[607] button "Hide Menu"
+[640] link "Professional dashboard notification"
+[664] link "Insights"
+[677] link "Monetisation"
+[690] link "Ad Centre"
+[703] link "Create ads"
+[716] link "Boost Instagram post"
+[729] link "Settings"
+[765] button "Collapse"
+[780] link "Meta Verified"
+[793] link "Leads Centre"
+[811] link "Meta Business Suite notification"
+[840] button "Manus AI"
+[860] button "Advertise"
+[889] link "View profile cover photo"
+[53] button "Edit cover photo" (collapsed)
+[907] button "Share a thought..." (collapsed)
+[124] button "Profile picture actions" (collapsed)
+[136] button "Tasty Affair "
+[929] link "7 followers"
+[931] link "0 following"
+[60] link "Professional dashboard"
+[65] link "Edit profile"
+[70] link "Add to story"
+[141] button "Food and drink"
+[983] tab "All"
+[988] tab "About"
+[993] tab "Reels" (selected)
+[997] tab "Photos"
+[1002] tab "Followers"
+[1008] tab "More profile sections" (collapsed)
+[76] button "Profile settings see more options" (collapsed)
+[1055] link "Reels"
+[82] button "Create reel"
+[1095] link "Reel tile preview"
+[1111] link "Reel tile preview"
+[1127] link "Reel tile preview"
+[1143] link "Reel tile preview"
+[1159] link "Reel tile preview"
+[1175] link "Reel tile preview"
+[1191] link "Reel tile preview"
+[1207] link "Reel tile preview"
+[1223] link "Reel tile preview"
+[1239] link "Reel tile preview"
+[2026-05-21 22:18:10] [OUT] ---
+[2026-05-21 22:18:10] [INFO] Clicking 'Create reel' button (ref: 82)...
+
+[2026-05-21 22:18:11] [CMD] browseros-cli click -p 50 82
+[2026-05-21 22:18:11] [EXIT] 0
+[2026-05-21 22:18:11] [OUT] ---
+Clicked [82] at (1360, 390)
+[2026-05-21 22:18:11] [OUT] ---
+[2026-05-21 22:18:14] [INFO] Verifying dialog opened...
+
+[2026-05-21 22:18:16] [CMD] browseros-cli eval -p 50 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
+[2026-05-21 22:18:16] [EXIT] 0
+[2026-05-21 22:18:16] [OUT] ---
+true
+[2026-05-21 22:18:16] [OUT] ---
+[2026-05-21 22:18:16] [DEBUG] Dialog check result: true
+[2026-05-21 22:18:16] [INFO] Create reel dialog confirmed
+[2026-05-21 22:18:16] [INFO] ========================================
+[2026-05-21 22:18:16] [INFO]   Phase 5: Upload the Video File
+[2026-05-21 22:18:16] [INFO] ========================================
+[2026-05-21 22:18:16] [INFO] Making file inputs visible...
+
+[2026-05-21 22:18:17] [CMD] browseros-cli eval -p 50 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
+[2026-05-21 22:18:17] [EXIT] 0
+[2026-05-21 22:18:17] [OUT] ---
+undefined
+[2026-05-21 22:18:17] [OUT] ---
+[2026-05-21 22:18:17] [INFO] Taking snapshot to find Choose File buttons...
+
+[2026-05-21 22:18:19] [CMD] browseros-cli snap -p 50
+[2026-05-21 22:18:19] [EXIT] 0
+[2026-05-21 22:18:19] [OUT] ---
+[467] link "Facebook"
+[39] combobox "Search Facebook" (collapsed)
+[88] link "Home"
+[93] link "Pages"
+[98] link "Professional dashboard"
+[103] link "Ad Centre"
+[108] link "Reels"
+[546] button "Facebook menu" (collapsed)
+[551] link "Messenger"
+[554] link "Messenger" (disabled)
+[7] button "Notifications" (collapsed)
+[10] button "Your profile" (collapsed)
+[3528] button "Close"
+[3550] button "Choose File"
+[3551] button "Add Video or drag and drop"
+[3574] button "Choose File"
+[3575] button "Upload video for reel"
+[1368] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
+[3609] clickable "Your video previewUpload your video in order to see a preview here."
+[2026-05-21 22:18:19] [OUT] ---
+[2026-05-21 22:18:19] [INFO] Attempting upload via available Choose File buttons...
+[2026-05-21 22:18:19] [INFO] Trying Choose File button ref: 3550
+
+[2026-05-21 22:18:20] [CMD] browseros-cli upload -p 50 3550 /Users/dsen/Projects/ai-post-maker/project-1/assets/14.mp4
+[2026-05-21 22:18:20] [EXIT] 0
+[2026-05-21 22:18:20] [OUT] ---
+Set 1 file(s) on [3550]
+[2026-05-21 22:18:20] [OUT] ---
+[2026-05-21 22:18:20] [INFO] Upload initiated via ref: 3550
+[2026-05-21 22:18:35] [INFO] Polling for upload completion...
+
+[2026-05-21 22:18:36] [CMD] browseros-cli text -p 50
+[2026-05-21 22:18:36] [EXIT] 0
+[2026-05-21 22:18:36] [OUT] ---
+## Create reel
+
+---
+
+Replace Videoor drag and dropChecking for copyrighted contentNext
+[2026-05-21 22:18:36] [OUT] ---
+[2026-05-21 22:18:36] [DEBUG] Upload check attempt 1/16: false
+[2026-05-21 22:18:36] [INFO] Upload still processing... (attempt 1/16)
+
+[2026-05-21 22:18:43] [CMD] browseros-cli text -p 50
+[2026-05-21 22:18:43] [EXIT] 0
+[2026-05-21 22:18:43] [OUT] ---
+## Create reel
+
+---
+
+Replace Videoor drag and dropYour reel is safe to publish!Next
+[2026-05-21 22:18:43] [OUT] ---
+[2026-05-21 22:18:43] [DEBUG] Upload check attempt 2/16: true
+[2026-05-21 22:18:43] [INFO] Video uploaded successfully
+[2026-05-21 22:18:43] [INFO] ========================================
+[2026-05-21 22:18:43] [INFO]   Phase 6: Navigate to Caption Screen
+[2026-05-21 22:18:43] [INFO] ========================================
+
+[2026-05-21 22:18:45] [CMD] browseros-cli snap -p 50
+[2026-05-21 22:18:45] [EXIT] 0
+[2026-05-21 22:18:45] [OUT] ---
+[467] link "Facebook"
+[39] combobox "Search Facebook" (collapsed)
+[88] link "Home"
+[93] link "Pages"
+[98] link "Professional dashboard"
+[103] link "Ad Centre"
+[108] link "Reels"
+[546] button "Facebook menu" (collapsed)
+[551] link "Messenger"
+[554] link "Messenger" (disabled)
+[7] button "Notifications" (collapsed)
+[10] button "Your profile" (collapsed)
+[3528] button "Close"
+[3550] button "Choose File"
+[3551] button "Replace Video or drag and drop"
+[3681] button "Next"
+[3707] button "Pause video"
+[3713] slider "Change Position"
+[3727] slider "Change volume"
+[3731] button "Unmute"
+[1368] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
+[2026-05-21 22:18:45] [OUT] ---
+
+[2026-05-21 22:18:46] [CMD] browseros-cli snap -p 50
+[2026-05-21 22:18:46] [EXIT] 0
+[2026-05-21 22:18:46] [OUT] ---
+[467] link "Facebook"
+[39] combobox "Search Facebook" (collapsed)
+[88] link "Home"
+[93] link "Pages"
+[98] link "Professional dashboard"
+[103] link "Ad Centre"
+[108] link "Reels"
+[546] button "Facebook menu" (collapsed)
+[551] link "Messenger"
+[554] link "Messenger" (disabled)
+[7] button "Notifications" (collapsed)
+[10] button "Your profile" (collapsed)
+[3528] button "Close"
+[3550] button "Choose File"
+[3551] button "Replace Video or drag and drop"
+[3681] button "Next"
+[3707] button "Pause video"
+[3713] slider "Change Position"
+[3727] slider "Change volume"
+[3731] button "Unmute"
+[1368] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
+[2026-05-21 22:18:46] [OUT] ---
+[2026-05-21 22:18:46] [INFO] Clicking 'Next' button (ref: 3681)...
+
+[2026-05-21 22:18:47] [CMD] browseros-cli click -p 50 3681
+[2026-05-21 22:18:47] [EXIT] 0
+[2026-05-21 22:18:47] [OUT] ---
+Clicked [3681] at (246, 703)
+[2026-05-21 22:18:47] [OUT] ---
+[2026-05-21 22:18:50] [INFO] Verifying caption screen...
+
+[2026-05-21 22:18:51] [CMD] browseros-cli eval -p 50 (function() { return !!document.querySelector('[contenteditable="true"]') || !!document.querySelector('div[role="textbox"]') || !!document.querySelector('textarea') || !!document.querySelector('[aria-placeholder*="Describe your reel"]'); })()
+[2026-05-21 22:18:51] [EXIT] 0
+[2026-05-21 22:18:51] [OUT] ---
+true
+[2026-05-21 22:18:51] [OUT] ---
+[2026-05-21 22:18:51] [DEBUG] Caption screen check: true
+[2026-05-21 22:18:51] [INFO] Caption screen ready
+[2026-05-21 22:18:51] [INFO] ========================================
+[2026-05-21 22:18:51] [INFO]   Phase 7: Enter the Caption
+[2026-05-21 22:18:51] [INFO] ========================================
+[2026-05-21 22:18:51] [INFO] Finding caption textbox...
+
+[2026-05-21 22:18:52] [CMD] browseros-cli snap -p 50
+[2026-05-21 22:18:52] [EXIT] 0
+[2026-05-21 22:18:52] [OUT] ---
+[467] link "Facebook"
+[39] combobox "Search Facebook" (collapsed)
+[88] link "Home"
+[93] link "Pages"
+[98] link "Professional dashboard"
+[103] link "Ad Centre"
+[108] link "Reels"
+[546] button "Facebook menu" (collapsed)
+[551] link "Messenger"
+[554] link "Messenger" (disabled)
+[7] button "Notifications" (collapsed)
+[10] button "Your profile" (collapsed)
+[3836] button "Back"
+[3528] button "Close"
+[3974] button "Edit"
+[3858] textbox "Describe your reel..." value="
+"
+[3867] button "Choose emoji ​"
+[3810] button "Trim video"
+[3940] button "Closed captions"
+[3941] button "Audio description"
+[3942] button "Text transcript"
+[3943] button "Optimisation"
+[3681] button "Next"
+[3707] button "Pause video"
+[3713] slider "Change Position"
+[3727] slider "Change volume"
+[3731] button "Unmute"
+[1368] clickable "Edit reelEditDescribe your reel...Choose emoji​Trim videoClosed captionsAudio descriptionText transc"
+[3871] clickable "Describe your reel...Choose emoji​"
+[2026-05-21 22:18:52] [OUT] ---
+[2026-05-21 22:18:52] [INFO] Typing caption into textbox (ref: 3858)...
+
+[2026-05-21 22:18:54] [CMD] browseros-cli fill -p 50 3858 🧂 Double-Fried Crispy Sea Salt Fries 🍟
+Recipe: 
+Ingredients: 🥔 3 large Russet potatoes, 🫒 1 quart vegetable oil (for frying), 🧂 flaky sea salt, 🍅 and premium organic ketchup. 
+Steps: 👨‍🍳 Peel and cut potatoes into uniform sticks. 🥣 Soak in cold water for 1 hour to remove starch. 🔥 Pat completely dry. ⏲️ Fry at 300°F (150°C) for 5 minutes, then remove. 🍳 Increase heat to 375°F (190°C) and fry again for 2-3 minutes until golden brown and rattling crisp. 🔪 Drain on wire rack and toss with sea salt.
+#frenchfries #fries #snack #crispy #fastfood #sides #potatoes #crispyfries 🌮🍱
+[2026-05-21 22:18:54] [EXIT] 0
+[2026-05-21 22:18:54] [OUT] ---
+Typed 592 characters into [3858] at (297, 186)
+[2026-05-21 22:18:54] [OUT] ---
+[2026-05-21 22:18:54] [INFO] Fill command succeeded
+[2026-05-21 22:18:56] [INFO] Verifying caption was entered...
+
+[2026-05-21 22:18:57] [CMD] browseros-cli eval -p 50 (function() { var el = document.querySelector('[contenteditable="true"]') || document.querySelector('div[role="textbox"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*="Describe your reel"]'); var text = el?.innerText || ''; return text.length > 50; })()
+[2026-05-21 22:18:57] [EXIT] 0
+[2026-05-21 22:18:57] [OUT] ---
+true
+[2026-05-21 22:18:57] [OUT] ---
+[2026-05-21 22:18:57] [INFO] Caption entered successfully
+[2026-05-21 22:18:57] [INFO] ========================================
+[2026-05-21 22:18:57] [INFO]   Phase 8: Navigate to Final Review Screen
+[2026-05-21 22:18:57] [INFO] ========================================
+
+[2026-05-21 22:18:58] [CMD] browseros-cli snap -p 50
+[2026-05-21 22:18:58] [EXIT] 0
+[2026-05-21 22:18:58] [OUT] ---
+[467] link "Facebook"
+[39] combobox "Search Facebook" (collapsed)
+[88] link "Home"
+[93] link "Pages"
+[98] link "Professional dashboard"
+[103] link "Ad Centre"
+[108] link "Reels"
+[546] button "Facebook menu" (collapsed)
+[551] link "Messenger"
+[554] link "Messenger" (disabled)
+[7] button "Notifications" (collapsed)
+[10] button "Your profile" (collapsed)
+[3836] button "Back"
+[3528] button "Close"
+[3974] button "Edit"
+[3858] textbox "Describe your reel..." value="🧂 Double-Fried Crispy Sea Salt Fries 🍟
 
 Recipe: 
-Ingredients: 🥟 Double pie crust, 🍎 6 large Granny Smith apples (peeled and sliced), 🍬 3/4 cup sugar, 🪵 2 tsp cinnamon, 🌰 1/4 tsp nutmeg, 🍋 1 tbsp lemon juice, 🧈 2 tbsp butter, and 🥚 1 egg for wash. 
-Steps: 🍎 Toss apple slices with sugar, spices, and lemon juice. 🥧 Line a pie dish with the bottom crust and fill with apples. 🔪 Cut the remaining crust into strips and weave a lattice over the top. 🥟 Crimp the edges and brush with egg wash. ⏲️ Bake at 375°F (190°C) for 50-60 minutes until the crust is golden and the filling is bubbling.
 
-#applepie #baking #dessert #homemade #comfortfood #fallvibes #pietime #autumn 🥧✨'
-[2026-05-10 19:47:18] [INFO] Asset ID: 6
-[2026-05-10 19:47:18] [INFO] Caption length: 662 chars
-[2026-05-10 19:47:18] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/6.mp4
-[2026-05-10 19:47:18] [INFO] Asset file size: 4736158 bytes
-[2026-05-10 19:47:18] [INFO] ========================================
-[2026-05-10 19:47:18] [INFO]   Phase 2: Read Facebook Reels URL
-[2026-05-10 19:47:18] [INFO] ========================================
-[2026-05-10 19:47:19] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
-[2026-05-10 19:47:19] [INFO] ========================================
-[2026-05-10 19:47:19] [INFO]   Phase 3: Open Facebook Reels Page
-[2026-05-10 19:47:19] [INFO] ========================================
-[2026-05-10 19:47:19] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+Ingredients: 🥔 3 large Russet potatoes, 🫒 1 quart vegetable oil (for frying), 🧂 flaky sea salt, 🍅 and premium organic ketchup. 
 
-[2026-05-10 19:47:19] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
-[2026-05-10 19:47:19] [EXIT] 0
-[2026-05-10 19:47:19] [OUT] ---
-{"background":false,"hidden":false,"pageId":27,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
-[2026-05-10 19:47:19] [OUT] ---
-[2026-05-10 19:47:19] [INFO] Page opened with ID: 27
-[2026-05-10 19:47:24] [INFO] Taking snapshot...
+Steps: 👨‍🍳 Peel and cut potatoes into uniform sticks. 🥣 Soak in cold water for 1 hour to remove starch. 🔥 Pat completely dry. ⏲️ Fry at 300°F (150°C) for 5 minutes, then remove. 🍳 Increase heat to 375°F (190°C) and fry again for 2-3 minutes until golden brown and rattling crisp. 🔪 Drain on wire rack and toss with sea salt.
 
-[2026-05-10 19:47:25] [CMD] browseros-cli snap -p 27
-[2026-05-10 19:47:25] [EXIT] 0
-[2026-05-10 19:47:25] [OUT] ---
-[2128] link "Professional dashboard"
-[2139] link "Ad Centre"
-[2149] link "Reels"
-[2163] button "Facebook menu" (collapsed)
-[2168] link "Messenger"
-[2171] link "Messenger" (disabled)
-[7] button "Notifications, 1 unread" (collapsed)
-[11] button "Your profile" (collapsed)
-[2674] button "Hide Menu"
-[2707] link "Professional dashboard"
-[2720] link "Insights"
-[2733] link "Ad Centre"
-[2746] link "Create ads"
-[2759] link "Boost Instagram post"
-[2772] link "Settings"
-[2808] button "Collapse"
-[2823] link "Meta Verified"
-[2836] link "Leads Centre"
-[2854] link "Meta Business Suite notification"
-[2885] button "Advertise"
-[2914] link "View profile cover photo"
-[2927] button "Edit cover photo" (collapsed)
-[2947] button "Share a thought..." (collapsed)
-[2959] button "Profile picture actions" (collapsed)
-[2983] button "Tasty Affair "
-[2988] link "4 followers"
-[2990] link "0 following"
-[2997] link "Professional dashboard"
-[3009] link "Edit profile"
-[3021] link "Add to story"
-[3040] button "Food and drink"
-[3069] tab "All"
-[3074] tab "About"
-[3079] tab "Reels" (selected)
-[3083] tab "Photos"
-[3088] tab "Followers"
-[3094] tab "More profile sections" (collapsed)
-[3129] button "Profile settings see more options" (collapsed)
-[3149] link "Reels"
-[3152] button "Create reel"
-[3195] link "Reel tile preview"
-[3211] link "Reel tile preview"
-[3227] link "Reel tile preview"
-[3243] link "Reel tile preview"
-[3259] link "Reel tile preview"
-[3275] link "Reel tile preview"
-[3291] link "Reel tile preview"
-[3307] link "Reel tile preview"
-[3323] link "Reel tile preview"
-[3339] link "Reel tile preview"
-[2026-05-10 19:47:25] [OUT] ---
-[2026-05-10 19:47:26] [DEBUG] Snapshot lines: 54
-[2026-05-10 19:47:26] [INFO] Page loaded successfully
-[2026-05-10 19:47:26] [INFO] ========================================
-[2026-05-10 19:47:26] [INFO]   Phase 4: Open Create Reel Dialog
-[2026-05-10 19:47:26] [INFO] ========================================
+#frenchfries #fries #snack #crispy #fastfood #sides #potatoes #crispyfries 🌮🍱"
+[3867] button "Choose emoji ​"
+[3810] button "Trim video"
+[3940] button "Closed captions"
+[3941] button "Audio description"
+[3942] button "Text transcript"
+[3943] button "Optimisation"
+[3681] button "Next"
+[3707] button "Pause video"
+[3713] slider "Change Position"
+[3727] slider "Change volume"
+[3731] button "Unmute"
+[1368] clickable "Edit reelEdit🧂 Double-Fried Crispy Sea Salt Fries 🍟Recipe: Ingredients: 🥔 3 large Russet potatoes"
+[3871] clickable "🧂 Double-Fried Crispy Sea Salt Fries 🍟Recipe: Ingredients: 🥔 3 large Russet potatoes, 🫒 1 quart "
+[2026-05-21 22:18:58] [OUT] ---
 
-[2026-05-10 19:47:26] [CMD] browseros-cli snap -p 27
-[2026-05-10 19:47:26] [EXIT] 0
-[2026-05-10 19:47:26] [OUT] ---
-[2128] link "Professional dashboard"
-[2139] link "Ad Centre"
-[2149] link "Reels"
-[2163] button "Facebook menu" (collapsed)
-[2168] link "Messenger"
-[2171] link "Messenger" (disabled)
-[7] button "Notifications, 1 unread" (collapsed)
-[11] button "Your profile" (collapsed)
-[2674] button "Hide Menu"
-[2707] link "Professional dashboard"
-[2720] link "Insights"
-[2733] link "Ad Centre"
-[2746] link "Create ads"
-[2759] link "Boost Instagram post"
-[2772] link "Settings"
-[2808] button "Collapse"
-[2823] link "Meta Verified"
-[2836] link "Leads Centre"
-[2854] link "Meta Business Suite notification"
-[2885] button "Advertise"
-[2914] link "View profile cover photo"
-[2927] button "Edit cover photo" (collapsed)
-[2947] button "Share a thought..." (collapsed)
-[2959] button "Profile picture actions" (collapsed)
-[2983] button "Tasty Affair "
-[2988] link "4 followers"
-[2990] link "0 following"
-[2997] link "Professional dashboard"
-[3009] link "Edit profile"
-[3021] link "Add to story"
-[3040] button "Food and drink"
-[3069] tab "All"
-[3074] tab "About"
-[3079] tab "Reels" (selected)
-[3083] tab "Photos"
-[3088] tab "Followers"
-[3094] tab "More profile sections" (collapsed)
-[3129] button "Profile settings see more options" (collapsed)
-[3149] link "Reels"
-[3152] button "Create reel"
-[3195] link "Reel tile preview"
-[3211] link "Reel tile preview"
-[3227] link "Reel tile preview"
-[3243] link "Reel tile preview"
-[3259] link "Reel tile preview"
-[3275] link "Reel tile preview"
-[3291] link "Reel tile preview"
-[3307] link "Reel tile preview"
-[3323] link "Reel tile preview"
-[3339] link "Reel tile preview"
-[2026-05-10 19:47:26] [OUT] ---
-[2026-05-10 19:47:26] [INFO] Clicking 'Create reel' button (ref: 3152)...
+[2026-05-21 22:18:59] [CMD] browseros-cli snap -p 50
+[2026-05-21 22:18:59] [EXIT] 0
+[2026-05-21 22:18:59] [OUT] ---
+[467] link "Facebook"
+[39] combobox "Search Facebook" (collapsed)
+[88] link "Home"
+[93] link "Pages"
+[98] link "Professional dashboard"
+[103] link "Ad Centre"
+[108] link "Reels"
+[546] button "Facebook menu" (collapsed)
+[551] link "Messenger"
+[554] link "Messenger" (disabled)
+[7] button "Notifications" (collapsed)
+[10] button "Your profile" (collapsed)
+[3836] button "Back"
+[3528] button "Close"
+[3974] button "Edit"
+[3858] textbox "Describe your reel..." value="🧂 Double-Fried Crispy Sea Salt Fries 🍟
 
-[2026-05-10 19:47:28] [CMD] browseros-cli click -p 27 3152
-[2026-05-10 19:47:28] [EXIT] 0
-[2026-05-10 19:47:28] [OUT] ---
-Clicked [3152] at (1189, 731)
-[2026-05-10 19:47:28] [OUT] ---
-[2026-05-10 19:47:31] [INFO] Verifying dialog opened...
+Recipe: 
 
-[2026-05-10 19:47:32] [CMD] browseros-cli eval -p 27 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
-[2026-05-10 19:47:32] [EXIT] 0
-[2026-05-10 19:47:32] [OUT] ---
+Ingredients: 🥔 3 large Russet potatoes, 🫒 1 quart vegetable oil (for frying), 🧂 flaky sea salt, 🍅 and premium organic ketchup. 
+
+Steps: 👨‍🍳 Peel and cut potatoes into uniform sticks. 🥣 Soak in cold water for 1 hour to remove starch. 🔥 Pat completely dry. ⏲️ Fry at 300°F (150°C) for 5 minutes, then remove. 🍳 Increase heat to 375°F (190°C) and fry again for 2-3 minutes until golden brown and rattling crisp. 🔪 Drain on wire rack and toss with sea salt.
+
+#frenchfries #fries #snack #crispy #fastfood #sides #potatoes #crispyfries 🌮🍱"
+[3867] button "Choose emoji ​"
+[3810] button "Trim video"
+[3940] button "Closed captions"
+[3941] button "Audio description"
+[3942] button "Text transcript"
+[3943] button "Optimisation"
+[3681] button "Next"
+[3707] button "Pause video"
+[3713] slider "Change Position"
+[3727] slider "Change volume"
+[3731] button "Unmute"
+[1368] clickable "Edit reelEdit🧂 Double-Fried Crispy Sea Salt Fries 🍟Recipe: Ingredients: 🥔 3 large Russet potatoes"
+[3871] clickable "🧂 Double-Fried Crispy Sea Salt Fries 🍟Recipe: Ingredients: 🥔 3 large Russet potatoes, 🫒 1 quart "
+[2026-05-21 22:18:59] [OUT] ---
+[2026-05-21 22:18:59] [INFO] Clicking 'Next' button (ref: 3681)...
+
+[2026-05-21 22:19:00] [CMD] browseros-cli click -p 50 3681
+[2026-05-21 22:19:00] [EXIT] 0
+[2026-05-21 22:19:00] [OUT] ---
+Clicked [3681] at (246, 703)
+[2026-05-21 22:19:00] [OUT] ---
+[2026-05-21 22:19:03] [INFO] Verifying final review screen...
+
+[2026-05-21 22:19:05] [CMD] browseros-cli text -p 50
+[2026-05-21 22:19:05] [EXIT] 0
+[2026-05-21 22:19:05] [OUT] ---
+## Reel settings
+
+---
+
+PublicAnyone on or off FacebookTag and collaborateTag people and share credit for your reel with a collaborator.Remixing and use of original audioAllow remixing and use of original audio. Learn more
+
+---
+
+Share to groupsReach more people when you share your post in relevant groups.Share to storyPublic · Sharing this and future reels.Boost reelScheduling optionsPublish now
+
+---
+
+Your reel is safe to publish!Post
+[2026-05-21 22:19:05] [OUT] ---
+[2026-05-21 22:19:05] [DEBUG] Final review check: heading=1, post=1, safe=1
+[2026-05-21 22:19:05] [INFO] Final review screen confirmed
+[2026-05-21 22:19:05] [INFO] ========================================
+[2026-05-21 22:19:05] [INFO]   Phase 9: Manual Review
+[2026-05-21 22:19:05] [INFO] ========================================
+[2026-05-21 22:19:05] [INFO] Checking Post button state...
+
+[2026-05-21 22:19:06] [CMD] browseros-cli eval -p 50 (function() { var postBtn = Array.from(document.querySelectorAll('div[role="button"], button')).find(function(b) { return b.innerText?.includes('Post'); }); return postBtn && !postBtn.disabled && postBtn.offsetParent !== null; })()
+[2026-05-21 22:19:06] [EXIT] 0
+[2026-05-21 22:19:06] [OUT] ---
 true
-[2026-05-10 19:47:32] [OUT] ---
-[2026-05-10 19:47:32] [DEBUG] Dialog check result: true
-[2026-05-10 19:47:32] [INFO] Create reel dialog confirmed
-[2026-05-10 19:47:32] [INFO] ========================================
-[2026-05-10 19:47:32] [INFO]   Phase 5: Upload the Video File
-[2026-05-10 19:47:32] [INFO] ========================================
-[2026-05-10 19:47:32] [INFO] Making file inputs visible...
-
-[2026-05-10 19:47:33] [CMD] browseros-cli eval -p 27 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
-[2026-05-10 19:47:33] [EXIT] 0
-[2026-05-10 19:47:33] [OUT] ---
-undefined
-[2026-05-10 19:47:33] [OUT] ---
-[2026-05-10 19:47:33] [INFO] Taking snapshot to find Choose File buttons...
-
-[2026-05-10 19:47:34] [CMD] browseros-cli snap -p 27
-[2026-05-10 19:47:34] [EXIT] 0
-[2026-05-10 19:47:34] [OUT] ---
-[2059] link "Facebook"
-[46] combobox "Search Facebook" (collapsed)
-[2107] link "Home"
-[2118] link "Pages"
-[2128] link "Professional dashboard"
-[2139] link "Ad Centre"
-[2149] link "Reels"
-[2163] button "Facebook menu" (collapsed)
-[2168] link "Messenger"
-[2171] link "Messenger" (disabled)
-[7] button "Notifications, 1 unread" (collapsed)
-[11] button "Your profile" (collapsed)
-[4003] button "Close"
-[4025] button "Choose File"
-[4026] button "Add Video or drag and drop"
-[4049] button "Choose File"
-[4050] button "Upload video for reel"
-[3468] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
-[4084] clickable "Your video previewUpload your video in order to see a preview here."
-[2026-05-10 19:47:34] [OUT] ---
-[2026-05-10 19:47:35] [INFO] Attempting upload via available Choose File buttons...
-[2026-05-10 19:47:35] [INFO] Trying Choose File button ref: 4025
-
-[2026-05-10 19:47:35] [CMD] browseros-cli upload -p 27 4025 /Users/dsen/Projects/ai-post-maker/project-1/assets/6.mp4
-[2026-05-10 19:47:35] [EXIT] 0
-[2026-05-10 19:47:35] [OUT] ---
-Set 1 file(s) on [4025]
-[2026-05-10 19:47:35] [OUT] ---
-[2026-05-10 19:47:35] [INFO] Upload initiated via ref: 4025
-[2026-05-10 19:47:50] [INFO] Polling for upload completion...
-
-[2026-05-10 19:47:51] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
-[2026-05-10 19:47:51] [EXIT] 0
-[2026-05-10 19:47:51] [OUT] ---
-false
-[2026-05-10 19:47:51] [OUT] ---
-[2026-05-10 19:47:51] [DEBUG] Upload check attempt 1/16: false
-[2026-05-10 19:47:51] [INFO] Upload still processing... (attempt 1/16)
-
-[2026-05-10 19:48:07] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
-[2026-05-10 19:48:07] [EXIT] 0
-[2026-05-10 19:48:07] [OUT] ---
-false
-[2026-05-10 19:48:07] [OUT] ---
-[2026-05-10 19:48:07] [DEBUG] Upload check attempt 2/16: false
-[2026-05-10 19:48:07] [INFO] Upload still processing... (attempt 2/16)
-
-[2026-05-10 19:48:24] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
-[2026-05-10 19:48:24] [EXIT] 0
-[2026-05-10 19:48:24] [OUT] ---
-false
-[2026-05-10 19:48:24] [OUT] ---
-[2026-05-10 19:48:24] [DEBUG] Upload check attempt 3/16: false
-[2026-05-10 19:48:24] [INFO] Upload still processing... (attempt 3/16)
-
-[2026-05-10 19:48:40] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
-[2026-05-10 19:48:40] [EXIT] 0
-[2026-05-10 19:48:40] [OUT] ---
-false
-[2026-05-10 19:48:40] [OUT] ---
-[2026-05-10 19:48:40] [DEBUG] Upload check attempt 4/16: false
-[2026-05-10 19:48:40] [INFO] Upload still processing... (attempt 4/16)
-
-[2026-05-10 19:48:56] [CMD] browseros-cli eval -p 27 (function() { var dialog = document.querySelector('div[role="dialog"]'); var text = dialog ? dialog.innerText : document.body.innerText; var hasSafe = text.includes('Your reel is safe to publish!'); var hasNext = !!(dialog?.querySelector('div[aria-label="Next"]') || Array.from(dialog?.querySelectorAll('div[role="button"], button') || []).find(function(b) { return b.innerText?.includes('Next'); })); return hasSafe && hasNext; })()
-[2026-05-10 19:48:56] [EXIT] 0
-[2026-05-10 19:48:56] [OUT] ---
-false
-[2026-05-10 19:48:56] [OUT] ---
-[2026-05-10 19:48:56] [DEBUG] Upload check attempt 5/16: false
-[2026-05-10 19:48:56] [INFO] Upload still processing... (attempt 5/16)
+[2026-05-21 22:19:06] [OUT] ---
+[2026-05-21 22:19:06] [DEBUG] Post button check (1st attempt): true
+[2026-05-21 22:19:06] [INFO] Post button is enabled and ready
+[2026-05-21 22:19:06] [INFO] 
+[2026-05-21 22:19:06] [INFO] ============================================
+[2026-05-21 22:19:06] [INFO]   MANUAL REVIEW REQUIRED
+[2026-05-21 22:19:06] [INFO] ============================================
+[2026-05-21 22:19:06] [INFO]   Asset ID: 14
+[2026-05-21 22:19:06] [INFO]   Project:  project-1
+[2026-05-21 22:19:06] [INFO]   Status:   Ready to publish
+[2026-05-21 22:19:06] [INFO] 
+[2026-05-21 22:19:06] [INFO]   Please review the reel in the browser.
+[2026-05-21 22:19:06] [INFO]   DO NOT proceed until you manually click
+[2026-05-21 22:19:06] [INFO]   the 'Post' button and confirm success.
+[2026-05-21 22:19:06] [INFO] ============================================
+[2026-05-21 22:19:06] [INFO] 
+[2026-05-21 22:19:06] [INFO] ========================================
+[2026-05-21 22:19:06] [INFO]   Phase 10: Mark Record as Done
+[2026-05-21 22:19:06] [INFO] ========================================
