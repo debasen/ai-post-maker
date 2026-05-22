@@ -539,7 +539,18 @@
       "post_url": "https://grok.com/imagine/post/bedf5553-ab0b-4b8f-8042-9213e9fd60f2",
       "executed_at": "2026-05-02T08:11:01.017614",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-06-04",
+            "day": "Thursday",
+            "time": "09:05:00"
+          }
+        }
+      ]
     },
     {
       "id": 31,
@@ -549,7 +560,25 @@
       "post_url": "https://grok.com/imagine/post/ff8b1f7c-786d-4fe6-b1e2-32a092ac5501",
       "executed_at": "2026-05-02T08:17:24.512341",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "facebook"
+      ],
+      "scheduled": [
+        {
+          "facebook": {
+            "date": "2026-06-04",
+            "day": "Thursday",
+            "time": "13:55:00"
+          }
+        },
+        {
+          "facebook": {
+            "date": "2026-06-04",
+            "day": "Thursday",
+            "time": "13:55:00"
+          }
+        }
+      ]
     },
     {
       "id": 32,

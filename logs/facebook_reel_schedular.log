@@ -1,2435 +1,300 @@
-[2026-05-22 23:32:59] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/facebook_reel_schedular.log
-[2026-05-22 23:32:59] [INFO] Starting automation for project 1
-[2026-05-22 23:32:59] [INFO] Timeout: 300s, Max retries: 3
-[2026-05-22 23:32:59] [INFO] Checking BrowserOS health...
+[2026-05-23 00:00:54] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/facebook_reel_schedular.log
+[2026-05-23 00:00:54] [INFO] Starting automation for project 1
+[2026-05-23 00:00:54] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-23 00:00:54] [INFO] Checking BrowserOS health...
 
-[2026-05-22 23:33:00] [CMD] browseros-cli health 
-[2026-05-22 23:33:00] [EXIT] 0
-[2026-05-22 23:33:00] [OUT] ---
+[2026-05-23 00:00:55] [CMD] browseros-cli health 
+[2026-05-23 00:00:55] [EXIT] 0
+[2026-05-23 00:00:55] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-22 23:33:00] [OUT] ---
-[2026-05-22 23:33:00] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-05-22 23:33:00] [DEBUG] Retry attempt 1/3: bos_health
+[2026-05-23 00:00:55] [OUT] ---
+[2026-05-23 00:00:55] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-23 00:00:55] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-05-22 23:33:02] [CMD] browseros-cli health 
-[2026-05-22 23:33:02] [EXIT] 0
-[2026-05-22 23:33:02] [OUT] ---
+[2026-05-23 00:00:56] [CMD] browseros-cli health 
+[2026-05-23 00:00:56] [EXIT] 0
+[2026-05-23 00:00:56] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-22 23:33:02] [OUT] ---
-[2026-05-22 23:33:02] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-05-22 23:33:02] [INFO] BrowserOS is healthy
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO]   Schedule Management
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO] Ensuring schedule exists for project-1...
-[2026-05-22 23:33:02] [INFO] Schedule path: /Users/dsen/Projects/ai-post-maker/project-1/schedule.json
-[2026-05-22 23:33:02] [INFO] Unscheduled entries: 15
-[2026-05-22 23:33:02] [INFO] Total schedule entries to process: 15
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO]   Processing Schedule Entry 1 / 15
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO] Date: 2026-06-02, Day: Tuesday, Time: 18:00:00
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO]   Phase 1: Identify Project and Asset
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO] Fetching mapped post for project 1...
-[2026-05-22 23:33:02] [DEBUG] get_mapped_post exit=0 output='ID: 28
-Caption: ☕ Authentic No-Bake Italian Tiramisu ☕
+[2026-05-23 00:00:56] [OUT] ---
+[2026-05-23 00:00:56] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-23 00:00:56] [INFO] BrowserOS is healthy
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO]   Schedule Management
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO] Ensuring schedule exists for project-1...
+[2026-05-23 00:00:56] [INFO] Schedule path: /Users/dsen/Projects/ai-post-maker/project-1/schedule.json
+[2026-05-23 00:00:56] [INFO] Unscheduled entries: 11
+[2026-05-23 00:00:56] [INFO] Total schedule entries to process: 11
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO]   Processing Schedule Entry 1 / 11
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO] Date: 2026-06-05, Day: Friday, Time: 19:05:00
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO]   Phase 1: Identify Project and Asset
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO] Fetching mapped post for project 1...
+[2026-05-23 00:00:56] [DEBUG] get_mapped_post exit=0 output='ID: 32
+Caption: 🌿 Fresh Basil Pesto Potato Gnocchi 🍝
 Recipe: 
-Ingredients: 🥖 1 pack ladyfingers, ☕ 2 cups strong espresso (cooled), 16oz mascarpone, 🥚 3 large eggs (separated), 🍬 1/2 cup sugar, 🥃 2 tbsp dark rum (optional), 🍫 and dark cocoa powder. 
-Steps: 👨‍🍳 Whisk egg yolks and sugar until pale; fold in mascarpone. 🥣 In a separate bowl, whisk egg whites to stiff peaks and fold into the cream. 🔥 Quickly dip ladyfingers in espresso/rum and layer in a dish. ⏲️ Spread half the cream. 🍳 Repeat layers. 🔪 Dust heavily with cocoa powder. 🥧 Refrigerate for at least 6 hours (ideally overnight) to set.
-#tiramisu #dessert #italianfood #sweet #cake #coffee #coffeelover #nobake 🌮🍱'
-[2026-05-22 23:33:02] [INFO] CAPTION: >>>☕ Authentic No-Bake Italian Tiramisu ☕
+Ingredients: 🍝 1 lb potato gnocchi, 🌿 1 cup fresh basil leaves, 🧀 1/2 cup parmesan, 🥜 1/3 cup pine nuts, 🧄 2 cloves garlic, 🫒 1/2 cup olive oil. 
+Steps: 👨‍🍳 Pulse basil, nuts, garlic, and cheese in a processor while drizzling in olive oil to make pesto. 🥣 Boil gnocchi in salted water until they float to the surface (about 2 mins). 🔥 Drain, but reserve a splash of water. ⏲️ Toss the hot gnocchi with the pesto and water in a bowl until coated. 🍳 Top with more parmesan and toasted pine nuts.
+#gnocchi #pesto #italianfood #vegetarian #dinner #pasta #basil #fresh 🌮🍱'
+[2026-05-23 00:00:56] [INFO] CAPTION: >>>🌿 Fresh Basil Pesto Potato Gnocchi 🍝
 Recipe: 
-Ingredients: 🥖 1 pack ladyfingers, ☕ 2 cups strong espresso (cooled), 16oz mascarpone, 🥚 3 large eggs (separated), 🍬 1/2 cup sugar, 🥃 2 tbsp dark rum (optional), 🍫 and dark cocoa powder. 
-Steps: 👨‍🍳 Whisk egg yolks and sugar until pale; fold in mascarpone. 🥣 In a separate bowl, whisk egg whites to stiff peaks and fold into the cream. 🔥 Quickly dip ladyfingers in espresso/rum and layer in a dish. ⏲️ Spread half the cream. 🍳 Repeat layers. 🔪 Dust heavily with cocoa powder. 🥧 Refrigerate for at least 6 hours (ideally overnight) to set.
-#tiramisu #dessert #italianfood #sweet #cake #coffee #coffeelover #nobake 🌮🍱<<<
-[2026-05-22 23:33:02] [INFO] Asset ID: 28
-[2026-05-22 23:33:02] [INFO] Caption length: 663 chars
-[2026-05-22 23:33:02] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/28.mp4
-[2026-05-22 23:33:02] [INFO] Asset file size: 4671696 bytes
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO]   Phase 2: Read Facebook Reels URL
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO]   Phase 3: Open Facebook Reels Page
-[2026-05-22 23:33:02] [INFO] ========================================
-[2026-05-22 23:33:02] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+Ingredients: 🍝 1 lb potato gnocchi, 🌿 1 cup fresh basil leaves, 🧀 1/2 cup parmesan, 🥜 1/3 cup pine nuts, 🧄 2 cloves garlic, 🫒 1/2 cup olive oil. 
+Steps: 👨‍🍳 Pulse basil, nuts, garlic, and cheese in a processor while drizzling in olive oil to make pesto. 🥣 Boil gnocchi in salted water until they float to the surface (about 2 mins). 🔥 Drain, but reserve a splash of water. ⏲️ Toss the hot gnocchi with the pesto and water in a bowl until coated. 🍳 Top with more parmesan and toasted pine nuts.
+#gnocchi #pesto #italianfood #vegetarian #dinner #pasta #basil #fresh 🌮🍱<<<
+[2026-05-23 00:00:56] [INFO] Asset ID: 32
+[2026-05-23 00:00:56] [INFO] Caption length: 612 chars
+[2026-05-23 00:00:56] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/32.mp4
+[2026-05-23 00:00:56] [INFO] Asset file size: 5799342 bytes
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO]   Phase 2: Read Facebook Reels URL
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO]   Phase 3: Open Facebook Reels Page
+[2026-05-23 00:00:56] [INFO] ========================================
+[2026-05-23 00:00:56] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
 
-[2026-05-22 23:33:03] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
-[2026-05-22 23:33:03] [EXIT] 0
-[2026-05-22 23:33:03] [OUT] ---
-{"background":false,"hidden":false,"pageId":81,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
-[2026-05-22 23:33:03] [OUT] ---
-[2026-05-22 23:33:03] [INFO] Page opened with ID: 81
-[2026-05-22 23:33:08] [INFO] Taking snapshot...
+[2026-05-23 00:00:57] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
+[2026-05-23 00:00:57] [EXIT] 0
+[2026-05-23 00:00:57] [OUT] ---
+{"background":false,"hidden":false,"pageId":99,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
+[2026-05-23 00:00:57] [OUT] ---
+[2026-05-23 00:00:57] [INFO] Page opened with ID: 99
+[2026-05-23 00:01:02] [INFO] Taking snapshot...
 
-[2026-05-22 23:33:09] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:09] [EXIT] 0
-[2026-05-22 23:33:09] [OUT] ---
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[565] button "Hide Menu"
-[598] link "Professional dashboard notification"
-[622] link "Insights"
-[635] link "Monetisation"
-[648] link "Ad Centre"
-[661] link "Create ads"
-[674] link "Boost Instagram post"
-[687] link "Settings"
-[723] button "Collapse"
-[738] link "Meta Verified"
-[751] link "Leads Centre"
-[769] link "Meta Business Suite notification"
-[798] button "Manus AI"
-[818] button "Advertise"
-[847] link "View profile cover photo"
-[860] button "Edit cover photo" (collapsed)
-[881] button "Share a thought..." (collapsed)
-[893] button "Profile picture actions" (collapsed)
-[915] button "Tasty Affair "
-[920] link "8 followers"
-[922] link "0 following"
-[929] link "Professional dashboard"
-[941] link "Edit profile"
-[953] link "Add to story"
-[972] button "Food and drink"
-[1001] tab "All"
-[1006] tab "About"
-[1011] tab "Reels" (selected)
-[1015] tab "Photos"
-[1020] tab "Followers"
-[1026] tab "More profile sections" (collapsed)
-[1061] button "Profile settings see more options" (collapsed)
-[1082] link "Reels"
-[1085] button "Create reel"
-[1114] tab "Your reels" (selected)
-[1118] tab "Saved reels"
-[1128] link "Reel tile preview"
-[1144] link "Reel tile preview"
-[1160] link "Reel tile preview"
-[1176] link "Reel tile preview"
-[1192] link "Reel tile preview"
-[1208] link "Reel tile preview"
-[1224] link "Reel tile preview"
-[1240] link "Reel tile preview"
-[1256] link "Reel tile preview"
-[1272] link "Reel tile preview"
-[2026-05-22 23:33:09] [OUT] ---
-[2026-05-22 23:33:09] [DEBUG] Snapshot lines: 58
-[2026-05-22 23:33:09] [INFO] Page loaded successfully
-[2026-05-22 23:33:09] [INFO] ========================================
-[2026-05-22 23:33:09] [INFO]   Phase 4: Open Create Reel Dialog
-[2026-05-22 23:33:09] [INFO] ========================================
+[2026-05-23 00:01:03] [CMD] browseros-cli snap -p 99
+[2026-05-23 00:01:03] [EXIT] 0
+[2026-05-23 00:01:03] [OUT] ---
+[481] link "Reels"
+[495] button "Facebook menu" (collapsed)
+[500] link "Messenger"
+[503] link "Messenger" (disabled)
+[7] button "Notifications, 1 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[1141] button "Hide Menu"
+[1174] link "Professional dashboard notification"
+[1198] link "Insights"
+[1211] link "Monetisation"
+[1224] link "Ad Centre"
+[1237] link "Create ads"
+[1250] link "Boost Instagram post"
+[1263] link "Settings"
+[1299] button "Collapse"
+[1314] link "Meta Verified"
+[1327] link "Leads Centre"
+[1345] link "Meta Business Suite notification"
+[1374] button "Manus AI"
+[1394] button "Advertise"
+[1423] link "View profile cover photo"
+[1436] button "Edit cover photo" (collapsed)
+[1456] button "Share a thought..." (collapsed)
+[1468] button "Profile picture actions" (collapsed)
+[1492] button "Tasty Affair "
+[1497] link "8 followers"
+[1499] link "0 following"
+[1506] link "Professional dashboard"
+[1518] link "Edit profile"
+[1530] link "Add to story"
+[1549] button "Food and drink"
+[1578] tab "All"
+[1583] tab "About"
+[1588] tab "Reels" (selected)
+[1592] tab "Photos"
+[1597] tab "Followers"
+[1603] tab "More profile sections" (collapsed)
+[1638] button "Profile settings see more options" (collapsed)
+[1658] link "Reels"
+[1661] button "Create reel"
+[1704] link "Reel tile preview"
+[1720] link "Reel tile preview"
+[1736] link "Reel tile preview"
+[1752] link "Reel tile preview"
+[1768] link "Reel tile preview"
+[1784] link "Reel tile preview"
+[1800] link "Reel tile preview"
+[1816] link "Reel tile preview"
+[1832] link "Reel tile preview"
+[1848] link "Reel tile preview"
+[2026-05-23 00:01:03] [OUT] ---
+[2026-05-23 00:01:03] [DEBUG] Snapshot lines: 56
+[2026-05-23 00:01:03] [INFO] Page loaded successfully
+[2026-05-23 00:01:03] [INFO] ========================================
+[2026-05-23 00:01:03] [INFO]   Phase 4: Open Create Reel Dialog
+[2026-05-23 00:01:03] [INFO] ========================================
 
-[2026-05-22 23:33:10] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:10] [EXIT] 0
-[2026-05-22 23:33:10] [OUT] ---
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[565] button "Hide Menu"
-[598] link "Professional dashboard notification"
-[622] link "Insights"
-[635] link "Monetisation"
-[648] link "Ad Centre"
-[661] link "Create ads"
-[674] link "Boost Instagram post"
-[687] link "Settings"
-[723] button "Collapse"
-[738] link "Meta Verified"
-[751] link "Leads Centre"
-[769] link "Meta Business Suite notification"
-[798] button "Manus AI"
-[818] button "Advertise"
-[847] link "View profile cover photo"
-[860] button "Edit cover photo" (collapsed)
-[881] button "Share a thought..." (collapsed)
-[893] button "Profile picture actions" (collapsed)
-[915] button "Tasty Affair "
-[920] link "8 followers"
-[922] link "0 following"
-[929] link "Professional dashboard"
-[941] link "Edit profile"
-[953] link "Add to story"
-[972] button "Food and drink"
-[1001] tab "All"
-[1006] tab "About"
-[1011] tab "Reels" (selected)
-[1015] tab "Photos"
-[1020] tab "Followers"
-[1026] tab "More profile sections" (collapsed)
-[1061] button "Profile settings see more options" (collapsed)
-[1082] link "Reels"
-[1085] button "Create reel"
-[1114] tab "Your reels" (selected)
-[1118] tab "Saved reels"
-[1128] link "Reel tile preview"
-[1144] link "Reel tile preview"
-[1160] link "Reel tile preview"
-[1176] link "Reel tile preview"
-[1192] link "Reel tile preview"
-[1208] link "Reel tile preview"
-[1224] link "Reel tile preview"
-[1240] link "Reel tile preview"
-[1256] link "Reel tile preview"
-[1272] link "Reel tile preview"
-[2026-05-22 23:33:10] [OUT] ---
-[2026-05-22 23:33:10] [INFO] Clicking 'Create reel' button (ref: 1085)...
+[2026-05-23 00:01:04] [CMD] browseros-cli snap -p 99
+[2026-05-23 00:01:04] [EXIT] 0
+[2026-05-23 00:01:04] [OUT] ---
+[481] link "Reels"
+[495] button "Facebook menu" (collapsed)
+[500] link "Messenger"
+[503] link "Messenger" (disabled)
+[7] button "Notifications, 1 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[1141] button "Hide Menu"
+[1174] link "Professional dashboard notification"
+[1198] link "Insights"
+[1211] link "Monetisation"
+[1224] link "Ad Centre"
+[1237] link "Create ads"
+[1250] link "Boost Instagram post"
+[1263] link "Settings"
+[1299] button "Collapse"
+[1314] link "Meta Verified"
+[1327] link "Leads Centre"
+[1345] link "Meta Business Suite notification"
+[1374] button "Manus AI"
+[1394] button "Advertise"
+[1423] link "View profile cover photo"
+[1436] button "Edit cover photo" (collapsed)
+[1456] button "Share a thought..." (collapsed)
+[1468] button "Profile picture actions" (collapsed)
+[1492] button "Tasty Affair "
+[1497] link "8 followers"
+[1499] link "0 following"
+[1506] link "Professional dashboard"
+[1518] link "Edit profile"
+[1530] link "Add to story"
+[1549] button "Food and drink"
+[1578] tab "All"
+[1583] tab "About"
+[1588] tab "Reels" (selected)
+[1592] tab "Photos"
+[1597] tab "Followers"
+[1603] tab "More profile sections" (collapsed)
+[1638] button "Profile settings see more options" (collapsed)
+[1658] link "Reels"
+[1661] button "Create reel"
+[1704] link "Reel tile preview"
+[1720] link "Reel tile preview"
+[1736] link "Reel tile preview"
+[1752] link "Reel tile preview"
+[1768] link "Reel tile preview"
+[1784] link "Reel tile preview"
+[1800] link "Reel tile preview"
+[1816] link "Reel tile preview"
+[1832] link "Reel tile preview"
+[1848] link "Reel tile preview"
+[2026-05-23 00:01:04] [OUT] ---
+[2026-05-23 00:01:04] [INFO] Clicking 'Create reel' button (ref: 1661)...
 
-[2026-05-22 23:33:11] [CMD] browseros-cli click -p 81 1085
-[2026-05-22 23:33:11] [EXIT] 0
-[2026-05-22 23:33:11] [OUT] ---
-Clicked [1085] at (1360, 431)
-[2026-05-22 23:33:11] [OUT] ---
-[2026-05-22 23:33:14] [INFO] Verifying dialog opened...
+[2026-05-23 00:01:05] [CMD] browseros-cli click -p 99 1661
+[2026-05-23 00:01:05] [EXIT] 0
+[2026-05-23 00:01:05] [OUT] ---
+Clicked [1661] at (1189, 731)
+[2026-05-23 00:01:05] [OUT] ---
+[2026-05-23 00:01:08] [INFO] Verifying dialog opened...
 
-[2026-05-22 23:33:15] [CMD] browseros-cli eval -p 81 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
-[2026-05-22 23:33:15] [EXIT] 0
-[2026-05-22 23:33:15] [OUT] ---
+[2026-05-23 00:01:09] [CMD] browseros-cli eval -p 99 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
+[2026-05-23 00:01:09] [EXIT] 0
+[2026-05-23 00:01:09] [OUT] ---
 true
-[2026-05-22 23:33:15] [OUT] ---
-[2026-05-22 23:33:15] [DEBUG] Dialog check result: true
-[2026-05-22 23:33:15] [INFO] Create reel dialog confirmed
-[2026-05-22 23:33:15] [INFO] ========================================
-[2026-05-22 23:33:15] [INFO]   Phase 5: Upload the Video File
-[2026-05-22 23:33:15] [INFO] ========================================
-[2026-05-22 23:33:15] [INFO] Making file inputs visible...
+[2026-05-23 00:01:09] [OUT] ---
+[2026-05-23 00:01:09] [DEBUG] Dialog check result: true
+[2026-05-23 00:01:09] [INFO] Create reel dialog confirmed
+[2026-05-23 00:01:09] [INFO] ========================================
+[2026-05-23 00:01:09] [INFO]   Phase 5: Upload the Video File
+[2026-05-23 00:01:09] [INFO] ========================================
+[2026-05-23 00:01:09] [INFO] Making file inputs visible...
 
-[2026-05-22 23:33:17] [CMD] browseros-cli eval -p 81 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
-[2026-05-22 23:33:17] [EXIT] 0
-[2026-05-22 23:33:17] [OUT] ---
+[2026-05-23 00:01:10] [CMD] browseros-cli eval -p 99 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
+[2026-05-23 00:01:10] [EXIT] 0
+[2026-05-23 00:01:10] [OUT] ---
 undefined
-[2026-05-22 23:33:17] [OUT] ---
-[2026-05-22 23:33:17] [INFO] Taking snapshot to find Choose File buttons...
+[2026-05-23 00:01:10] [OUT] ---
+[2026-05-23 00:01:10] [INFO] Taking snapshot to find Choose File buttons...
 
-[2026-05-22 23:33:18] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:18] [EXIT] 0
-[2026-05-22 23:33:18] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3596] button "Close"
-[3618] button "Choose File"
-[3619] button "Add Video or drag and drop"
-[3642] button "Choose File"
-[3643] button "Upload video for reel"
-[1401] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
-[3677] clickable "Your video previewUpload your video in order to see a preview here."
-[2026-05-22 23:33:18] [OUT] ---
-[2026-05-22 23:33:18] [INFO] Attempting upload via available Choose File buttons...
-[2026-05-22 23:33:18] [INFO] Trying Choose File button ref: 3618
+[2026-05-23 00:01:11] [CMD] browseros-cli snap -p 99
+[2026-05-23 00:01:11] [EXIT] 0
+[2026-05-23 00:01:11] [OUT] ---
+[391] link "Facebook"
+[40] combobox "Search Facebook" (collapsed)
+[439] link "Home"
+[450] link "Pages"
+[460] link "Professional dashboard"
+[471] link "Ad Centre"
+[481] link "Reels"
+[495] button "Facebook menu" (collapsed)
+[500] link "Messenger"
+[503] link "Messenger" (disabled)
+[7] button "Notifications, 1 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[4216] button "Close"
+[4238] button "Choose File"
+[4239] button "Add Video or drag and drop"
+[4262] button "Choose File"
+[4263] button "Upload video for reel"
+[1977] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
+[4297] clickable "Your video previewUpload your video in order to see a preview here."
+[2026-05-23 00:01:11] [OUT] ---
+[2026-05-23 00:01:11] [INFO] Attempting upload via available Choose File buttons...
+[2026-05-23 00:01:11] [INFO] Trying Choose File button ref: 4238
 
-[2026-05-22 23:33:19] [CMD] browseros-cli upload -p 81 3618 /Users/dsen/Projects/ai-post-maker/project-1/assets/28.mp4
-[2026-05-22 23:33:19] [EXIT] 0
-[2026-05-22 23:33:19] [OUT] ---
-Set 1 file(s) on [3618]
-[2026-05-22 23:33:19] [OUT] ---
-[2026-05-22 23:33:19] [INFO] Upload initiated via ref: 3618
-[2026-05-22 23:33:34] [INFO] Polling for upload completion...
+[2026-05-23 00:01:13] [CMD] browseros-cli upload -p 99 4238 /Users/dsen/Projects/ai-post-maker/project-1/assets/32.mp4
+[2026-05-23 00:01:13] [EXIT] 0
+[2026-05-23 00:01:13] [OUT] ---
+Set 1 file(s) on [4238]
+[2026-05-23 00:01:13] [OUT] ---
+[2026-05-23 00:01:13] [INFO] Upload initiated via ref: 4238
+[2026-05-23 00:01:28] [INFO] Polling for upload completion...
 
-[2026-05-22 23:33:35] [CMD] browseros-cli text -p 81
-[2026-05-22 23:33:35] [EXIT] 0
-[2026-05-22 23:33:35] [OUT] ---
+[2026-05-23 00:01:29] [CMD] browseros-cli text -p 99
+[2026-05-23 00:01:29] [EXIT] 0
+[2026-05-23 00:01:29] [OUT] ---
 ## Create reel
 
 ---
 
-Replace Videoor drag and dropYour reel is safe to publish!Next
-[2026-05-22 23:33:35] [OUT] ---
-[2026-05-22 23:33:35] [DEBUG] Upload check attempt 1/16: true
-[2026-05-22 23:33:35] [INFO] Video uploaded successfully
-[2026-05-22 23:33:35] [INFO] ========================================
-[2026-05-22 23:33:35] [INFO]   Phase 6: Navigate to Caption Screen
-[2026-05-22 23:33:35] [INFO] ========================================
+Add Videoor drag and dropYour file can't be uploaded: 32.mp4Next
 
-[2026-05-22 23:33:36] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:36] [EXIT] 0
-[2026-05-22 23:33:36] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3596] button "Close"
-[3618] button "Choose File"
-[3619] button "Replace Video or drag and drop"
-[3749] button "Next"
-[3775] button "Pause video"
-[3781] slider "Change Position"
-[3795] slider "Change volume"
-[3799] button "Unmute"
-[1401] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
-[2026-05-22 23:33:36] [OUT] ---
+### Preview
 
-[2026-05-22 23:33:38] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:38] [EXIT] 0
-[2026-05-22 23:33:38] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3596] button "Close"
-[3618] button "Choose File"
-[3619] button "Replace Video or drag and drop"
-[3749] button "Next"
-[3775] button "Pause video"
-[3781] slider "Change Position"
-[3795] slider "Change volume"
-[3799] button "Unmute"
-[1401] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
-[2026-05-22 23:33:38] [OUT] ---
-[2026-05-22 23:33:38] [INFO] Clicking 'Next' button (ref: 3749)...
+Your video previewUpload your video in order to see a preview here.
+[2026-05-23 00:01:29] [OUT] ---
+[2026-05-23 00:01:29] [DEBUG] Upload check attempt 1/16: false
+[2026-05-23 00:01:29] [INFO] Upload still processing... (attempt 1/16)
 
-[2026-05-22 23:33:39] [CMD] browseros-cli click -p 81 3749
-[2026-05-22 23:33:39] [EXIT] 0
-[2026-05-22 23:33:39] [OUT] ---
-Clicked [3749] at (246, 703)
-[2026-05-22 23:33:39] [OUT] ---
-[2026-05-22 23:33:42] [INFO] Verifying caption screen...
-
-[2026-05-22 23:33:42] [CMD] browseros-cli eval -p 81 (function() { return !!document.querySelector('[contenteditable="true"]') || !!document.querySelector('div[role="textbox"]') || !!document.querySelector('textarea') || !!document.querySelector('[aria-placeholder*="Describe your reel"]'); })()
-[2026-05-22 23:33:42] [EXIT] 0
-[2026-05-22 23:33:42] [OUT] ---
-true
-[2026-05-22 23:33:42] [OUT] ---
-[2026-05-22 23:33:42] [DEBUG] Caption screen check: true
-[2026-05-22 23:33:42] [INFO] Caption screen ready
-[2026-05-22 23:33:42] [INFO] ========================================
-[2026-05-22 23:33:42] [INFO]   Phase 7: Enter the Caption
-[2026-05-22 23:33:42] [INFO] ========================================
-[2026-05-22 23:33:42] [INFO] Finding caption textbox...
-
-[2026-05-22 23:33:44] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:44] [EXIT] 0
-[2026-05-22 23:33:44] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3902] button "Back"
-[3596] button "Close"
-[4040] button "Edit"
-[3924] textbox "Describe your reel..." value="
-"
-[3933] button "Choose emoji ​"
-[3876] button "Trim video"
-[4006] button "Closed captions"
-[4007] button "Audio description"
-[4008] button "Text transcript"
-[4009] button "Optimisation"
-[3749] button "Next"
-[3775] button "Pause video"
-[3781] slider "Change Position"
-[3795] slider "Change volume"
-[3799] button "Unmute"
-[1401] clickable "Edit reelEditDescribe your reel...Choose emoji​Trim videoClosed captionsAudio descriptionText transc"
-[3937] clickable "Describe your reel...Choose emoji​"
-[2026-05-22 23:33:44] [OUT] ---
-[2026-05-22 23:33:44] [INFO] Typing caption into textbox (ref: 3924)...
-
-[2026-05-22 23:33:46] [CMD] browseros-cli fill -p 81 3924 ☕ Authentic No-Bake Italian Tiramisu ☕
-Recipe: 
-Ingredients: 🥖 1 pack ladyfingers, ☕ 2 cups strong espresso (cooled), 16oz mascarpone, 🥚 3 large eggs (separated), 🍬 1/2 cup sugar, 🥃 2 tbsp dark rum (optional), 🍫 and dark cocoa powder. 
-Steps: 👨‍🍳 Whisk egg yolks and sugar until pale; fold in mascarpone. 🥣 In a separate bowl, whisk egg whites to stiff peaks and fold into the cream. 🔥 Quickly dip ladyfingers in espresso/rum and layer in a dish. ⏲️ Spread half the cream. 🍳 Repeat layers. 🔪 Dust heavily with cocoa powder. 🥧 Refrigerate for at least 6 hours (ideally overnight) to set.
-#tiramisu #dessert #italianfood #sweet #cake #coffee #coffeelover #nobake 🌮🍱
-[2026-05-22 23:33:46] [EXIT] 0
-[2026-05-22 23:33:46] [OUT] ---
-Typed 677 characters into [3924] at (297, 186)
-[2026-05-22 23:33:46] [OUT] ---
-[2026-05-22 23:33:46] [INFO] Fill command succeeded
-[2026-05-22 23:33:48] [INFO] Verifying caption was entered...
-
-[2026-05-22 23:33:49] [CMD] browseros-cli eval -p 81 (function() { var el = document.querySelector('[contenteditable="true"]') || document.querySelector('div[role="textbox"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*="Describe your reel"]'); var text = el?.innerText || ''; return text.length > 50; })()
-[2026-05-22 23:33:49] [EXIT] 0
-[2026-05-22 23:33:49] [OUT] ---
-true
-[2026-05-22 23:33:49] [OUT] ---
-[2026-05-22 23:33:49] [INFO] Caption entered successfully
-[2026-05-22 23:33:49] [INFO] ========================================
-[2026-05-22 23:33:49] [INFO]   Phase 8: Navigate to Final Review Screen
-[2026-05-22 23:33:49] [INFO] ========================================
-
-[2026-05-22 23:33:51] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:51] [EXIT] 0
-[2026-05-22 23:33:51] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3902] button "Back"
-[3596] button "Close"
-[4040] button "Edit"
-[3924] textbox "Describe your reel..." value="☕ Authentic No-Bake Italian Tiramisu ☕
-
-Recipe: 
-
-Ingredients: 🥖 1 pack ladyfingers, ☕ 2 cups strong espresso (cooled), 16oz mascarpone, 🥚 3 large eggs (separated), 🍬 1/2 cup sugar, 🥃 2 tbsp dark rum (optional), 🍫 and dark cocoa powder. 
-
-Steps: 👨‍🍳 Whisk egg yolks and sugar until pale; fold in mascarpone. 🥣 In a separate bowl, whisk egg whites to stiff peaks and fold into the cream. 🔥 Quickly dip ladyfingers in espresso/rum and layer in a dish. ⏲️ Spread half the cream. 🍳 Repeat layers. 🔪 Dust heavily with cocoa powder. 🥧 Refrigerate for at least 6 hours (ideally overnight) to set.
-
-#tiramisu #dessert #italianfood #sweet #cake #coffee #coffeelover #nobake 🌮🍱"
-[3933] button "Choose emoji ​"
-[3876] button "Trim video"
-[4006] button "Closed captions"
-[4007] button "Audio description"
-[4008] button "Text transcript"
-[4009] button "Optimisation"
-[3749] button "Next"
-[3775] button "Pause video"
-[3781] slider "Change Position"
-[3795] slider "Change volume"
-[3799] button "Unmute"
-[1401] clickable "Edit reelEdit☕ Authentic No-Bake Italian Tiramisu ☕Recipe: Ingredients: 🥖 1 pack ladyfingers, ☕ 2 c"
-[3937] clickable "☕ Authentic No-Bake Italian Tiramisu ☕Recipe: Ingredients: 🥖 1 pack ladyfingers, ☕ 2 cups strong es"
-[2026-05-22 23:33:51] [OUT] ---
-
-[2026-05-22 23:33:53] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:53] [EXIT] 0
-[2026-05-22 23:33:53] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3902] button "Back"
-[3596] button "Close"
-[4040] button "Edit"
-[3924] textbox "Describe your reel..." value="☕ Authentic No-Bake Italian Tiramisu ☕
-
-Recipe: 
-
-Ingredients: 🥖 1 pack ladyfingers, ☕ 2 cups strong espresso (cooled), 16oz mascarpone, 🥚 3 large eggs (separated), 🍬 1/2 cup sugar, 🥃 2 tbsp dark rum (optional), 🍫 and dark cocoa powder. 
-
-Steps: 👨‍🍳 Whisk egg yolks and sugar until pale; fold in mascarpone. 🥣 In a separate bowl, whisk egg whites to stiff peaks and fold into the cream. 🔥 Quickly dip ladyfingers in espresso/rum and layer in a dish. ⏲️ Spread half the cream. 🍳 Repeat layers. 🔪 Dust heavily with cocoa powder. 🥧 Refrigerate for at least 6 hours (ideally overnight) to set.
-
-#tiramisu #dessert #italianfood #sweet #cake #coffee #coffeelover #nobake 🌮🍱"
-[3933] button "Choose emoji ​"
-[3876] button "Trim video"
-[4006] button "Closed captions"
-[4007] button "Audio description"
-[4008] button "Text transcript"
-[4009] button "Optimisation"
-[3749] button "Next"
-[3775] button "Pause video"
-[3781] slider "Change Position"
-[3795] slider "Change volume"
-[3799] button "Unmute"
-[1401] clickable "Edit reelEdit☕ Authentic No-Bake Italian Tiramisu ☕Recipe: Ingredients: 🥖 1 pack ladyfingers, ☕ 2 c"
-[3937] clickable "☕ Authentic No-Bake Italian Tiramisu ☕Recipe: Ingredients: 🥖 1 pack ladyfingers, ☕ 2 cups strong es"
-[2026-05-22 23:33:53] [OUT] ---
-[2026-05-22 23:33:53] [INFO] Clicking 'Next' button (ref: 3749)...
-
-[2026-05-22 23:33:53] [CMD] browseros-cli click -p 81 3749
-[2026-05-22 23:33:53] [EXIT] 0
-[2026-05-22 23:33:53] [OUT] ---
-Clicked [3749] at (246, 703)
-[2026-05-22 23:33:53] [OUT] ---
-[2026-05-22 23:33:56] [INFO] Verifying final review screen...
-
-[2026-05-22 23:33:57] [CMD] browseros-cli text -p 81
-[2026-05-22 23:33:57] [EXIT] 0
-[2026-05-22 23:33:57] [OUT] ---
-## Reel settings
-
----
-
-PublicAnyone on or off FacebookTag and collaborateTag people and share credit for your reel with a collaborator.Remixing and use of original audioAllow remixing and use of original audio. Learn more
-
----
-
-Share to groupsReach more people when you share your post in relevant groups.Share to storyPublic · Sharing this and future reels.Boost reelScheduling optionsPublish now
-
----
-
-Your reel is safe to publish!Post
-[2026-05-22 23:33:57] [OUT] ---
-[2026-05-22 23:33:58] [DEBUG] Final review check: heading=1, post=1, safe=1
-[2026-05-22 23:33:58] [INFO] Final review screen confirmed
-[2026-05-22 23:33:58] [INFO] ========================================
-[2026-05-22 23:33:58] [INFO]   Phase 9: Open Scheduling Options
-[2026-05-22 23:33:58] [INFO] ========================================
-[2026-05-22 23:33:58] [INFO] Finding 'Scheduling options' button...
-
-[2026-05-22 23:33:59] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:33:59] [EXIT] 0
-[2026-05-22 23:33:59] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3902] button "Back"
-[3596] button "Close"
-[4321] button "Public Anyone on or off Facebook"
-[4170] button "Tag and collaborate Tag people and share credit for your reel with a collaborator."
-[4194] button "Remixing and use of original audio Allow remixing and use of original audio. Learn more about remixing and original audio use"
-[4178] button "Learn more about remixing and original audio use"
-[4258] button "Share to groups Reach more people when you share your post in relevant groups."
-[4234] button "Share to story Public · Sharing this and future reels."
-[4367] button "Boost reel Boost reel toggle"
-[4358] switch "Boost reel toggle"
-[4255] button "Scheduling options Publish now"
-[4337] button "Post"
-[3775] button "Pause video"
-[3781] slider "Change Position"
-[3795] slider "Change volume"
-[3799] button "Unmute"
-[1401] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[2026-05-22 23:33:59] [OUT] ---
-[2026-05-22 23:33:59] [INFO] Clicking scheduling trigger (ref: 4255)...
-
-[2026-05-22 23:34:00] [CMD] browseros-cli click -p 81 4255
-[2026-05-22 23:34:00] [EXIT] 0
-[2026-05-22 23:34:00] [OUT] ---
-Clicked [4255] at (246, 601)
-[2026-05-22 23:34:00] [OUT] ---
-[2026-05-22 23:34:03] [INFO] Verifying scheduling popup opened...
-
-[2026-05-22 23:34:04] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:34:04] [EXIT] 0
-[2026-05-22 23:34:04] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4391] button "Back"
-[4408] button "Open Date Picker, selected: 23 May 2026" (collapsed)
-[4410] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (collapsed)
-[4420] combobox "Open Time Picker" (collapsed)
-[4442] button "Schedule for later"
-[1401] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4415] clickable "Date"
-[4425] clickable "Time"
-[2026-05-22 23:34:04] [OUT] ---
-[2026-05-22 23:34:04] [INFO] Scheduling popup confirmed
-[2026-05-22 23:34:04] [INFO] ========================================
-[2026-05-22 23:34:04] [INFO]   Phase 10: Fill Date and Time
-[2026-05-22 23:34:04] [INFO] ========================================
-[2026-05-22 23:34:04] [INFO] Setting date: 2 June 2026, time: 18:00
-[2026-05-22 23:34:04] [INFO] Clicking 'Date' to open date picker...
-
-[2026-05-22 23:34:05] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:34:05] [EXIT] 0
-[2026-05-22 23:34:05] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4391] button "Back"
-[4408] button "Open Date Picker, selected: 23 May 2026" (collapsed)
-[4410] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (collapsed)
-[4420] combobox "Open Time Picker" (collapsed)
-[4442] button "Schedule for later"
-[1401] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4415] clickable "Date"
-[4425] clickable "Time"
-[2026-05-22 23:34:05] [OUT] ---
-
-[2026-05-22 23:34:06] [CMD] browseros-cli click -p 81 4415
-[2026-05-22 23:34:06] [EXIT] 0
-[2026-05-22 23:34:06] [OUT] ---
-Clicked [4415] at (614, 417)
-[2026-05-22 23:34:06] [OUT] ---
-[2026-05-22 23:34:08] [INFO] Taking snapshot to find date cell...
-
-[2026-05-22 23:34:09] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:34:09] [EXIT] 0
-[2026-05-22 23:34:09] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4391] button "Back"
-[4408] button "Open Date Picker, selected: 23 May 2026" (expanded)
-[4410] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (expanded)
-[4420] combobox "Open Time Picker" (collapsed)
-[4442] button "Schedule for later"
-[4462] button "Previous Month"
-[4464] button "Next Month"
-[1401] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4415] clickable "Date"
-[4425] clickable "Time"
-[4802] clickable "SunMonTueWedThuFriSatSunday 26 April 202626Monday 27 April 202627Tuesday 28 April 202628Wednesday 29"
-[4795] clickable "Sunday 26 April 202626Monday 27 April 202627Tuesday 28 April 202628Wednesday 29 April 202629Thursday"
-[4796] clickable "Sunday 3 May 20263Monday 4 May 20264Tuesday 5 May 20265Wednesday 6 May 20266Thursday 7 May 20267Frid"
-[4797] clickable "Sunday 10 May 202610Monday 11 May 202611Tuesday 12 May 202612Wednesday 13 May 202613Thursday 14 May "
-[4798] clickable "Sunday 17 May 202617Monday 18 May 202618Tuesday 19 May 202619Wednesday 20 May 202620Thursday 21 May "
-[4687] clickable "Saturday 23 May 2026, selected23"
-[4799] clickable "Sunday 24 May 202624Monday 25 May 202625Tuesday 26 May 202626Wednesday 27 May 202627Thursday 28 May "
-[4700] clickable "Sunday 24 May 202624"
-[4706] clickable "Monday 25 May 202625"
-[4712] clickable "Tuesday 26 May 202626"
-[4718] clickable "Wednesday 27 May 202627"
-[4724] clickable "Thursday 28 May 202628"
-[4730] clickable "Friday 29 May 202629"
-[4736] clickable "Saturday 30 May 202630"
-[4800] clickable "Sunday 31 May 202631Monday 1 June 20261Tuesday 2 June 20262Wednesday 3 June 20263Thursday 4 June 202"
-[4749] clickable "Sunday 31 May 202631"
-[4755] clickable "Monday 1 June 20261"
-[4761] clickable "Tuesday 2 June 20262"
-[4767] clickable "Wednesday 3 June 20263"
-[4773] clickable "Thursday 4 June 20264"
-[4779] clickable "Friday 5 June 20265"
-[4785] clickable "Saturday 6 June 20266"
-[2026-05-22 23:34:09] [OUT] ---
-[2026-05-22 23:34:09] [INFO] Found date cell for 2 June 2026 with ref: 4761
-[2026-05-22 23:34:09] [INFO] Clicking date cell (ref: 4761)...
-
-[2026-05-22 23:34:11] [CMD] browseros-cli click -p 81 4761
-[2026-05-22 23:34:11] [EXIT] 0
-[2026-05-22 23:34:11] [OUT] ---
-Clicked [4761] at (611, 699)
-[2026-05-22 23:34:11] [OUT] ---
-[2026-05-22 23:34:13] [INFO] Clicking 'Time' to open time picker...
-
-[2026-05-22 23:34:14] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:34:14] [EXIT] 0
-[2026-05-22 23:34:14] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4391] button "Back"
-[4408] button "Open Date Picker, selected: 2 Jun 2026" (collapsed)
-[4410] combobox "Open Date Picker, selected: 2 Jun 2026 Open Date Picker" (collapsed)
-[4420] combobox "Open Time Picker" (collapsed)
-[4442] button "Schedule for later"
-[1401] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4415] clickable "Date"
-[4425] clickable "Time"
-[2026-05-22 23:34:14] [OUT] ---
-
-[2026-05-22 23:34:16] [CMD] browseros-cli click -p 81 4425
-[2026-05-22 23:34:16] [EXIT] 0
-[2026-05-22 23:34:16] [OUT] ---
-Clicked [4425] at (850, 417)
-[2026-05-22 23:34:16] [OUT] ---
-[2026-05-22 23:34:18] [INFO] Taking snapshot to find time option...
-
-[2026-05-22 23:34:19] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:34:19] [EXIT] 0
-[2026-05-22 23:34:19] [OUT] ---
-[6691] option "20:05"
-[6692] option "20:10"
-[6693] option "20:15"
-[6694] option "20:20"
-[6695] option "20:25"
-[6696] option "20:30"
-[6697] option "20:35"
-[6698] option "20:40"
-[6699] option "20:45"
-[6700] option "20:50"
-[6701] option "20:55"
-[6702] option "21:00"
-[6703] option "21:05"
-[6704] option "21:10"
-[6705] option "21:15"
-[6706] option "21:20"
-[6707] option "21:25"
-[6708] option "21:30"
-[6709] option "21:35"
-[6710] option "21:40"
-[6711] option "21:45"
-[6712] option "21:50"
-[6713] option "21:55"
-[6714] option "22:00"
-[6715] option "22:05"
-[6716] option "22:10"
-[6717] option "22:15"
-[6718] option "22:20"
-[6719] option "22:25"
-[6720] option "22:30"
-[6721] option "22:35"
-[6722] option "22:40"
-[6723] option "22:45"
-[6724] option "22:50"
-[6725] option "22:55"
-[6726] option "23:00"
-[6727] option "23:05"
-[6728] option "23:10"
-[6729] option "23:15"
-[6730] option "23:20"
-[6731] option "23:25"
-[6732] option "23:30"
-[6733] option "23:35"
-[6734] option "23:40"
-[6735] option "23:45"
-[6736] option "23:50"
-[6737] option "23:55"
-[1401] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4415] clickable "Date"
-[4425] clickable "Time"
-[2026-05-22 23:34:19] [OUT] ---
-[2026-05-22 23:34:19] [INFO] Clicking time option (ref: 6666)...
-
-[2026-05-22 23:34:21] [CMD] browseros-cli click -p 81 6666
-[2026-05-22 23:34:21] [EXIT] 0
-[2026-05-22 23:34:21] [OUT] ---
-Clicked [6666] at (850, 608)
-[2026-05-22 23:34:21] [OUT] ---
-[2026-05-22 23:34:23] [INFO] Date and time filled
-[2026-05-22 23:34:23] [INFO] ========================================
-[2026-05-22 23:34:23] [INFO]   Phase 11: Click Schedule
-[2026-05-22 23:34:23] [INFO] ========================================
-[2026-05-22 23:34:23] [INFO] Finding 'Schedule for later' button...
-
-[2026-05-22 23:34:24] [CMD] browseros-cli snap -p 81
-[2026-05-22 23:34:24] [EXIT] 0
-[2026-05-22 23:34:24] [OUT] ---
-[400] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[448] link "Home"
-[459] link "Pages"
-[469] link "Professional dashboard"
-[480] link "Ad Centre"
-[490] link "Reels"
-[504] button "Facebook menu" (collapsed)
-[509] link "Messenger"
-[512] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4391] button "Back"
-[4408] button "Open Date Picker, selected: 2 Jun 2026" (collapsed)
-[4410] combobox "Open Date Picker, selected: 2 Jun 2026 Open Date Picker" (collapsed)
-[4420] combobox "Open Time Picker" (collapsed)
-[4442] button "Schedule for later"
-[1401] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4415] clickable "Date"
-[4425] clickable "Time"
-[2026-05-22 23:34:24] [OUT] ---
-[2026-05-22 23:34:24] [INFO] Clicking 'Schedule for later' button (ref: 4442)...
-
-[2026-05-22 23:34:25] [CMD] browseros-cli click -p 81 4442
-[2026-05-22 23:34:25] [EXIT] 0
-[2026-05-22 23:34:25] [OUT] ---
-Clicked [4442] at (732, 480)
-[2026-05-22 23:34:25] [OUT] ---
-[2026-05-22 23:34:30] [INFO] Schedule submitted
-[2026-05-22 23:34:30] [INFO] ========================================
-[2026-05-22 23:34:30] [INFO]   Phase 12: User Verification
-[2026-05-22 23:34:30] [INFO] ========================================
-[2026-05-22 23:34:30] [INFO] 
-[2026-05-22 23:34:30] [INFO] ============================================
-[2026-05-22 23:34:30] [INFO]   SCHEDULED REEL REVIEW
-[2026-05-22 23:34:30] [INFO] ============================================
-[2026-05-22 23:34:30] [INFO]   Asset ID: 28
-[2026-05-22 23:34:30] [INFO]   Project:  project-1
-[2026-05-22 23:34:30] [INFO]   Date:     2026-06-02 (Tuesday)
-[2026-05-22 23:34:30] [INFO]   Time:     18:00:00
-[2026-05-22 23:34:30] [INFO] ============================================
-[2026-05-22 23:34:30] [INFO] 
-[2026-05-22 23:34:40] [INFO] Marking asset 28 as uploaded for facebook...
-[2026-05-22 23:34:40] [DEBUG] mark_uploaded output: {"success": true, "id": "28", "platform": "facebook"}
-[2026-05-22 23:34:40] [INFO] Marking asset 28 as scheduled for facebook...
-[2026-05-22 23:34:40] [DEBUG] mark_scheduled output: {"success": true, "id": "28", "platform": "facebook"}
-[2026-05-22 23:34:40] [INFO] Tracker updated for asset 28
-[2026-05-22 23:34:40] [INFO] ========================================
-[2026-05-22 23:34:40] [INFO]   Phase 13: Close Browser Tab
-[2026-05-22 23:34:40] [INFO] ========================================
-
-[2026-05-22 23:34:41] [CMD] browseros-cli close -p 81
-[2026-05-22 23:34:41] [EXIT] 0
-[2026-05-22 23:34:41] [OUT] ---
-Closed page 81
-[2026-05-22 23:34:41] [OUT] ---
-[2026-05-22 23:34:41] [INFO] Browser tab closed
-[2026-05-22 23:34:41] [INFO] ========================================
-[2026-05-22 23:34:41] [INFO]   Processing Schedule Entry 2 / 15
-[2026-05-22 23:34:41] [INFO] ========================================
-[2026-05-22 23:34:41] [INFO] Date: 2026-06-03, Day: Wednesday, Time: 10:25:00
-[2026-05-22 23:34:41] [INFO] ========================================
-[2026-05-22 23:34:41] [INFO]   Phase 1: Identify Project and Asset
-[2026-05-22 23:34:41] [INFO] ========================================
-[2026-05-22 23:34:41] [INFO] Fetching mapped post for project 1...
-[2026-05-22 23:34:41] [DEBUG] get_mapped_post exit=0 output='ID: 29
-Caption: 🌮 Mexican Street Tacos al Pastor 🌮
-Recipe: 
-Ingredients: 🐷 1 lb marinated pork (achiote, 🍎 pineapple juice, 🌶️ chili), 🫓 small corn tortillas, 🧅 1/2 cup diced white onion, 🌿 1/2 cup fresh cilantro, 🍎 1/2 cup diced pineapple, and salsa verde. 
-Steps: 👨‍🍳 Sear the marinated pork in a very hot pan until the edges are crispy and caramelized. 🥣 Char the pineapple slices. 🔥 Warm the corn tortillas on a griddle. ⏲️ Assemble by piling pork onto tortillas, topping with onion, cilantro, and a piece of sweet pineapple. 🍳 Serve with a side of spicy green salsa and lime.
-#tacos #mexicanfood #streetfood #dinner #tacolover #freshfood #authentic #alpastor 🌮🍱'
-[2026-05-22 23:34:41] [INFO] CAPTION: >>>🌮 Mexican Street Tacos al Pastor 🌮
-Recipe: 
-Ingredients: 🐷 1 lb marinated pork (achiote, 🍎 pineapple juice, 🌶️ chili), 🫓 small corn tortillas, 🧅 1/2 cup diced white onion, 🌿 1/2 cup fresh cilantro, 🍎 1/2 cup diced pineapple, and salsa verde. 
-Steps: 👨‍🍳 Sear the marinated pork in a very hot pan until the edges are crispy and caramelized. 🥣 Char the pineapple slices. 🔥 Warm the corn tortillas on a griddle. ⏲️ Assemble by piling pork onto tortillas, topping with onion, cilantro, and a piece of sweet pineapple. 🍳 Serve with a side of spicy green salsa and lime.
-#tacos #mexicanfood #streetfood #dinner #tacolover #freshfood #authentic #alpastor 🌮🍱<<<
-[2026-05-22 23:34:41] [INFO] Asset ID: 29
-[2026-05-22 23:34:41] [INFO] Caption length: 650 chars
-[2026-05-22 23:34:41] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/29.mp4
-[2026-05-22 23:34:41] [INFO] Asset file size: 8063144 bytes
-[2026-05-22 23:34:41] [INFO] ========================================
-[2026-05-22 23:34:41] [INFO]   Phase 2: Read Facebook Reels URL
-[2026-05-22 23:34:41] [INFO] ========================================
-[2026-05-22 23:34:41] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
-[2026-05-22 23:34:41] [INFO] ========================================
-[2026-05-22 23:34:41] [INFO]   Phase 3: Open Facebook Reels Page
-[2026-05-22 23:34:41] [INFO] ========================================
-[2026-05-22 23:34:41] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
-
-[2026-05-22 23:34:42] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
-[2026-05-22 23:34:42] [EXIT] 0
-[2026-05-22 23:34:42] [OUT] ---
-{"background":false,"hidden":false,"pageId":83,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
-[2026-05-22 23:34:42] [OUT] ---
-[2026-05-22 23:34:42] [INFO] Page opened with ID: 83
-[2026-05-22 23:34:47] [INFO] Taking snapshot...
-
-[2026-05-22 23:34:48] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:34:48] [EXIT] 0
-[2026-05-22 23:34:48] [OUT] ---
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[857] button "Hide Menu"
-[890] link "Professional dashboard notification"
-[914] link "Insights"
-[927] link "Monetisation"
-[940] link "Ad Centre"
-[953] link "Create ads"
-[966] link "Boost Instagram post"
-[979] link "Settings"
-[1015] button "Collapse"
-[1030] link "Meta Verified"
-[1043] link "Leads Centre"
-[1061] link "Meta Business Suite notification"
-[1090] button "Manus AI"
-[1110] button "Advertise"
-[1139] link "View profile cover photo"
-[1152] button "Edit cover photo" (collapsed)
-[1173] button "Share a thought..." (collapsed)
-[1185] button "Profile picture actions" (collapsed)
-[1207] button "Tasty Affair "
-[1212] link "8 followers"
-[1214] link "0 following"
-[1221] link "Professional dashboard"
-[1233] link "Edit profile"
-[1245] link "Add to story"
-[1264] button "Food and drink"
-[1293] tab "All"
-[1298] tab "About"
-[1303] tab "Reels" (selected)
-[1307] tab "Photos"
-[1312] tab "Followers"
-[1318] tab "More profile sections" (collapsed)
-[1353] button "Profile settings see more options" (collapsed)
-[1376] link "Reels"
-[1379] button "Create reel"
-[1408] tab "Your reels" (selected)
-[1412] tab "Saved reels"
-[1422] link "Reel tile preview"
-[1438] link "Reel tile preview"
-[1454] link "Reel tile preview"
-[1470] link "Reel tile preview"
-[1486] link "Reel tile preview"
-[1502] link "Reel tile preview"
-[1518] link "Reel tile preview"
-[1534] link "Reel tile preview"
-[1550] link "Reel tile preview"
-[1566] link "Reel tile preview"
-[2026-05-22 23:34:48] [OUT] ---
-[2026-05-22 23:34:48] [DEBUG] Snapshot lines: 58
-[2026-05-22 23:34:48] [INFO] Page loaded successfully
-[2026-05-22 23:34:48] [INFO] ========================================
-[2026-05-22 23:34:48] [INFO]   Phase 4: Open Create Reel Dialog
-[2026-05-22 23:34:48] [INFO] ========================================
-
-[2026-05-22 23:34:49] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:34:49] [EXIT] 0
-[2026-05-22 23:34:49] [OUT] ---
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[857] button "Hide Menu"
-[890] link "Professional dashboard notification"
-[914] link "Insights"
-[927] link "Monetisation"
-[940] link "Ad Centre"
-[953] link "Create ads"
-[966] link "Boost Instagram post"
-[979] link "Settings"
-[1015] button "Collapse"
-[1030] link "Meta Verified"
-[1043] link "Leads Centre"
-[1061] link "Meta Business Suite notification"
-[1090] button "Manus AI"
-[1110] button "Advertise"
-[1139] link "View profile cover photo"
-[1152] button "Edit cover photo" (collapsed)
-[1173] button "Share a thought..." (collapsed)
-[1185] button "Profile picture actions" (collapsed)
-[1207] button "Tasty Affair "
-[1212] link "8 followers"
-[1214] link "0 following"
-[1221] link "Professional dashboard"
-[1233] link "Edit profile"
-[1245] link "Add to story"
-[1264] button "Food and drink"
-[1293] tab "All"
-[1298] tab "About"
-[1303] tab "Reels" (selected)
-[1307] tab "Photos"
-[1312] tab "Followers"
-[1318] tab "More profile sections" (collapsed)
-[1353] button "Profile settings see more options" (collapsed)
-[1376] link "Reels"
-[1379] button "Create reel"
-[1408] tab "Your reels" (selected)
-[1412] tab "Saved reels"
-[1422] link "Reel tile preview"
-[1438] link "Reel tile preview"
-[1454] link "Reel tile preview"
-[1470] link "Reel tile preview"
-[1486] link "Reel tile preview"
-[1502] link "Reel tile preview"
-[1518] link "Reel tile preview"
-[1534] link "Reel tile preview"
-[1550] link "Reel tile preview"
-[1566] link "Reel tile preview"
-[2026-05-22 23:34:49] [OUT] ---
-[2026-05-22 23:34:49] [INFO] Clicking 'Create reel' button (ref: 1379)...
-
-[2026-05-22 23:34:50] [CMD] browseros-cli click -p 83 1379
-[2026-05-22 23:34:50] [EXIT] 0
-[2026-05-22 23:34:50] [OUT] ---
-Clicked [1379] at (1360, 431)
-[2026-05-22 23:34:50] [OUT] ---
-[2026-05-22 23:34:53] [INFO] Verifying dialog opened...
-
-[2026-05-22 23:34:54] [CMD] browseros-cli eval -p 83 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
-[2026-05-22 23:34:54] [EXIT] 0
-[2026-05-22 23:34:54] [OUT] ---
-true
-[2026-05-22 23:34:54] [OUT] ---
-[2026-05-22 23:34:54] [DEBUG] Dialog check result: true
-[2026-05-22 23:34:54] [INFO] Create reel dialog confirmed
-[2026-05-22 23:34:54] [INFO] ========================================
-[2026-05-22 23:34:54] [INFO]   Phase 5: Upload the Video File
-[2026-05-22 23:34:54] [INFO] ========================================
-[2026-05-22 23:34:54] [INFO] Making file inputs visible...
-
-[2026-05-22 23:34:55] [CMD] browseros-cli eval -p 83 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
-[2026-05-22 23:34:55] [EXIT] 0
-[2026-05-22 23:34:55] [OUT] ---
-undefined
-[2026-05-22 23:34:55] [OUT] ---
-[2026-05-22 23:34:55] [INFO] Taking snapshot to find Choose File buttons...
-
-[2026-05-22 23:34:57] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:34:57] [EXIT] 0
-[2026-05-22 23:34:57] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[3599] button "Close"
-[3621] button "Choose File"
-[3622] button "Add Video or drag and drop"
-[3645] button "Choose File"
-[3646] button "Upload video for reel"
-[1695] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
-[3680] clickable "Your video previewUpload your video in order to see a preview here."
-[2026-05-22 23:34:57] [OUT] ---
-[2026-05-22 23:34:57] [INFO] Attempting upload via available Choose File buttons...
-[2026-05-22 23:34:57] [INFO] Trying Choose File button ref: 3621
-
-[2026-05-22 23:34:58] [CMD] browseros-cli upload -p 83 3621 /Users/dsen/Projects/ai-post-maker/project-1/assets/29.mp4
-[2026-05-22 23:34:58] [EXIT] 0
-[2026-05-22 23:34:58] [OUT] ---
-Set 1 file(s) on [3621]
-[2026-05-22 23:34:58] [OUT] ---
-[2026-05-22 23:34:58] [INFO] Upload initiated via ref: 3621
-[2026-05-22 23:35:13] [INFO] Polling for upload completion...
-
-[2026-05-22 23:35:14] [CMD] browseros-cli text -p 83
-[2026-05-22 23:35:14] [EXIT] 0
-[2026-05-22 23:35:14] [OUT] ---
+[2026-05-23 00:01:35] [CMD] browseros-cli text -p 99
+[2026-05-23 00:01:35] [EXIT] 0
+[2026-05-23 00:01:35] [OUT] ---
 ## Create reel
 
 ---
 
-Replace Videoor drag and dropChecking for copyrighted contentNext
-[2026-05-22 23:35:14] [OUT] ---
-[2026-05-22 23:35:14] [DEBUG] Upload check attempt 1/16: false
-[2026-05-22 23:35:14] [INFO] Upload still processing... (attempt 1/16)
+Add Videoor drag and dropYour file can't be uploaded: 32.mp4Next
 
-[2026-05-22 23:35:21] [CMD] browseros-cli text -p 83
-[2026-05-22 23:35:21] [EXIT] 0
-[2026-05-22 23:35:21] [OUT] ---
-## Create reel
+### Preview
 
----
+Your video previewUpload your video in order to see a preview here.
+[2026-05-23 00:01:35] [OUT] ---
+[2026-05-23 00:01:35] [DEBUG] Upload check attempt 2/16: false
+[2026-05-23 00:01:35] [INFO] Upload still processing... (attempt 2/16)
 
-Replace Videoor drag and dropYour reel is safe to publish!Next
-[2026-05-22 23:35:21] [OUT] ---
-[2026-05-22 23:35:21] [DEBUG] Upload check attempt 2/16: true
-[2026-05-22 23:35:21] [INFO] Video uploaded successfully
-[2026-05-22 23:35:21] [INFO] ========================================
-[2026-05-22 23:35:21] [INFO]   Phase 6: Navigate to Caption Screen
-[2026-05-22 23:35:21] [INFO] ========================================
+[2026-05-23 00:01:41] [CMD] browseros-cli text -p 99
+[2026-05-23 00:01:41] [EXIT] 0
+[2026-05-23 00:01:41] [OUT] ---
+# Manage Page
 
-[2026-05-22 23:35:22] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:22] [EXIT] 0
-[2026-05-22 23:35:22] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[3599] button "Close"
-[3621] button "Choose File"
-[3622] button "Replace Video or drag and drop"
-[3752] button "Next"
-[3778] button "Pause video"
-[3784] slider "Change Position"
-[3798] slider "Change volume"
-[3802] button "Unmute"
-[1695] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
-[2026-05-22 23:35:22] [OUT] ---
+## Tasty Affair
 
-[2026-05-22 23:35:23] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:23] [EXIT] 0
-[2026-05-22 23:35:23] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[3599] button "Close"
-[3621] button "Choose File"
-[3622] button "Replace Video or drag and drop"
-[3752] button "Next"
-[3778] button "Pause video"
-[3784] slider "Change Position"
-[3798] slider "Change volume"
-[3802] button "Unmute"
-[1695] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
-[2026-05-22 23:35:23] [OUT] ---
-[2026-05-22 23:35:23] [INFO] Clicking 'Next' button (ref: 3752)...
+Professional dashboardnotificationInsightsMonetisationAd CentreCreate adsBoost Instagram postSettings
 
-[2026-05-22 23:35:24] [CMD] browseros-cli click -p 83 3752
-[2026-05-22 23:35:24] [EXIT] 0
-[2026-05-22 23:35:24] [OUT] ---
-Clicked [3752] at (246, 703)
-[2026-05-22 23:35:24] [OUT] ---
-[2026-05-22 23:35:27] [INFO] Verifying caption screen...
+## More tools
 
-[2026-05-22 23:35:29] [CMD] browseros-cli eval -p 83 (function() { return !!document.querySelector('[contenteditable="true"]') || !!document.querySelector('div[role="textbox"]') || !!document.querySelector('textarea') || !!document.querySelector('[aria-placeholder*="Describe your reel"]'); })()
-[2026-05-22 23:35:29] [EXIT] 0
-[2026-05-22 23:35:29] [OUT] ---
-true
-[2026-05-22 23:35:29] [OUT] ---
-[2026-05-22 23:35:29] [DEBUG] Caption screen check: true
-[2026-05-22 23:35:29] [INFO] Caption screen ready
-[2026-05-22 23:35:29] [INFO] ========================================
-[2026-05-22 23:35:29] [INFO]   Phase 7: Enter the Caption
-[2026-05-22 23:35:29] [INFO] ========================================
-[2026-05-22 23:35:29] [INFO] Finding caption textbox...
+1 action itemsManage your business across Meta apps.Meta VerifiedLeads CentreMeta Business SuitenotificationManus AIAdvertiseEdit cover photoShare a thought...
 
-[2026-05-22 23:35:30] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:30] [EXIT] 0
-[2026-05-22 23:35:30] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[3905] button "Back"
-[3599] button "Close"
-[4043] button "Edit"
-[3927] textbox "Describe your reel..." value="
-"
-[3936] button "Choose emoji ​"
-[3879] button "Trim video"
-[4009] button "Closed captions"
-[4010] button "Audio description"
-[4011] button "Text transcript"
-[4012] button "Optimisation"
-[3752] button "Next"
-[3778] button "Pause video"
-[3784] slider "Change Position"
-[3798] slider "Change volume"
-[3802] button "Unmute"
-[1695] clickable "Edit reelEditDescribe your reel...Choose emoji​Trim videoClosed captionsAudio descriptionText transc"
-[3940] clickable "Describe your reel...Choose emoji​"
-[2026-05-22 23:35:30] [OUT] ---
-[2026-05-22 23:35:30] [INFO] Typing caption into textbox (ref: 3927)...
+# Tasty Affair
 
-[2026-05-22 23:35:32] [CMD] browseros-cli fill -p 83 3927 🌮 Mexican Street Tacos al Pastor 🌮
-Recipe: 
-Ingredients: 🐷 1 lb marinated pork (achiote, 🍎 pineapple juice, 🌶️ chili), 🫓 small corn tortillas, 🧅 1/2 cup diced white onion, 🌿 1/2 cup fresh cilantro, 🍎 1/2 cup diced pineapple, and salsa verde. 
-Steps: 👨‍🍳 Sear the marinated pork in a very hot pan until the edges are crispy and caramelized. 🥣 Char the pineapple slices. 🔥 Warm the corn tortillas on a griddle. ⏲️ Assemble by piling pork onto tortillas, topping with onion, cilantro, and a piece of sweet pineapple. 🍳 Serve with a side of spicy green salsa and lime.
-#tacos #mexicanfood #streetfood #dinner #tacolover #freshfood #authentic #alpastor 🌮🍱
-[2026-05-22 23:35:32] [EXIT] 0
-[2026-05-22 23:35:32] [OUT] ---
-Typed 666 characters into [3927] at (297, 186)
-[2026-05-22 23:35:32] [OUT] ---
-[2026-05-22 23:35:32] [INFO] Fill command succeeded
-[2026-05-22 23:35:34] [INFO] Verifying caption was entered...
+**8** followers • **0** followingProfessional dashboardEditAdd to storyThe Ultimate Food Experience. 🍕🔥 Signature recipes, extreme comfort food, and visual perfection. 🍰✨ Bringing the world's best flavors straight to your feed. 🌮🍱Food and drinkAllAboutReelsPhotosFollowersMore
 
-[2026-05-22 23:35:35] [CMD] browseros-cli eval -p 83 (function() { var el = document.querySelector('[contenteditable="true"]') || document.querySelector('div[role="textbox"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*="Describe your reel"]'); var text = el?.innerText || ''; return text.length > 50; })()
-[2026-05-22 23:35:35] [EXIT] 0
-[2026-05-22 23:35:35] [OUT] ---
-true
-[2026-05-22 23:35:35] [OUT] ---
-[2026-05-22 23:35:35] [INFO] Caption entered successfully
-[2026-05-22 23:35:35] [INFO] ========================================
-[2026-05-22 23:35:35] [INFO]   Phase 8: Navigate to Final Review Screen
-[2026-05-22 23:35:35] [INFO] ========================================
+## Reels
 
-[2026-05-22 23:35:36] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:36] [EXIT] 0
-[2026-05-22 23:35:36] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[3905] button "Back"
-[3599] button "Close"
-[4043] button "Edit"
-[3927] textbox "Describe your reel..." value="🌮 Mexican Street Tacos al Pastor 🌮
-
-Recipe: 
-
-Ingredients: 🐷 1 lb marinated pork (achiote, 🍎 pineapple juice, 🌶️ chili), 🫓 small corn tortillas, 🧅 1/2 cup diced white onion, 🌿 1/2 cup fresh cilantro, 🍎 1/2 cup diced pineapple, and salsa verde. 
-
-Steps: 👨‍🍳 Sear the marinated pork in a very hot pan until the edges are crispy and caramelized. 🥣 Char the pineapple slices. 🔥 Warm the corn tortillas on a griddle. ⏲️ Assemble by piling pork onto tortillas, topping with onion, cilantro, and a piece of sweet pineapple. 🍳 Serve with a side of spicy green salsa and lime.
-
-#tacos #mexicanfood #streetfood #dinner #tacolover #freshfood #authentic #alpastor 🌮🍱"
-[3936] button "Choose emoji ​"
-[3879] button "Trim video"
-[4009] button "Closed captions"
-[4010] button "Audio description"
-[4011] button "Text transcript"
-[4012] button "Optimisation"
-[3752] button "Next"
-[3778] button "Pause video"
-[3784] slider "Change Position"
-[3798] slider "Change volume"
-[3802] button "Unmute"
-[1695] clickable "Edit reelEdit🌮 Mexican Street Tacos al Pastor 🌮Recipe: Ingredients: 🐷 1 lb marinated pork (achiot"
-[3940] clickable "🌮 Mexican Street Tacos al Pastor 🌮Recipe: Ingredients: 🐷 1 lb marinated pork (achiote, 🍎 pineapp"
-[2026-05-22 23:35:36] [OUT] ---
-
-[2026-05-22 23:35:38] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:38] [EXIT] 0
-[2026-05-22 23:35:38] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[3905] button "Back"
-[3599] button "Close"
-[4043] button "Edit"
-[3927] textbox "Describe your reel..." value="🌮 Mexican Street Tacos al Pastor 🌮
-
-Recipe: 
-
-Ingredients: 🐷 1 lb marinated pork (achiote, 🍎 pineapple juice, 🌶️ chili), 🫓 small corn tortillas, 🧅 1/2 cup diced white onion, 🌿 1/2 cup fresh cilantro, 🍎 1/2 cup diced pineapple, and salsa verde. 
-
-Steps: 👨‍🍳 Sear the marinated pork in a very hot pan until the edges are crispy and caramelized. 🥣 Char the pineapple slices. 🔥 Warm the corn tortillas on a griddle. ⏲️ Assemble by piling pork onto tortillas, topping with onion, cilantro, and a piece of sweet pineapple. 🍳 Serve with a side of spicy green salsa and lime.
-
-#tacos #mexicanfood #streetfood #dinner #tacolover #freshfood #authentic #alpastor 🌮🍱"
-[3936] button "Choose emoji ​"
-[3879] button "Trim video"
-[4009] button "Closed captions"
-[4010] button "Audio description"
-[4011] button "Text transcript"
-[4012] button "Optimisation"
-[3752] button "Next"
-[3778] button "Pause video"
-[3784] slider "Change Position"
-[3798] slider "Change volume"
-[3802] button "Unmute"
-[1695] clickable "Edit reelEdit🌮 Mexican Street Tacos al Pastor 🌮Recipe: Ingredients: 🐷 1 lb marinated pork (achiot"
-[3940] clickable "🌮 Mexican Street Tacos al Pastor 🌮Recipe: Ingredients: 🐷 1 lb marinated pork (achiote, 🍎 pineapp"
-[2026-05-22 23:35:38] [OUT] ---
-[2026-05-22 23:35:38] [INFO] Clicking 'Next' button (ref: 3752)...
-
-[2026-05-22 23:35:39] [CMD] browseros-cli click -p 83 3752
-[2026-05-22 23:35:39] [EXIT] 0
-[2026-05-22 23:35:39] [OUT] ---
-Clicked [3752] at (246, 703)
-[2026-05-22 23:35:39] [OUT] ---
-[2026-05-22 23:35:42] [INFO] Verifying final review screen...
-
-[2026-05-22 23:35:43] [CMD] browseros-cli text -p 83
-[2026-05-22 23:35:43] [EXIT] 0
-[2026-05-22 23:35:43] [OUT] ---
-## Reel settings
-
----
-
-PublicAnyone on or off FacebookTag and collaborateTag people and share credit for your reel with a collaborator.Remixing and use of original audioAllow remixing and use of original audio. Learn more
-
----
-
-Share to groupsReach more people when you share your post in relevant groups.Share to storyPublic · Sharing this and future reels.Boost reelScheduling optionsPublish now
-
----
-
-Your reel is safe to publish!Post
-[2026-05-22 23:35:43] [OUT] ---
-[2026-05-22 23:35:43] [DEBUG] Final review check: heading=1, post=1, safe=1
-[2026-05-22 23:35:43] [INFO] Final review screen confirmed
-[2026-05-22 23:35:43] [INFO] ========================================
-[2026-05-22 23:35:43] [INFO]   Phase 9: Open Scheduling Options
-[2026-05-22 23:35:43] [INFO] ========================================
-[2026-05-22 23:35:43] [INFO] Finding 'Scheduling options' button...
-
-[2026-05-22 23:35:44] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:44] [EXIT] 0
-[2026-05-22 23:35:44] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[3905] button "Back"
-[3599] button "Close"
-[4356] button "Public Anyone on or off Facebook"
-[4173] button "Tag and collaborate Tag people and share credit for your reel with a collaborator."
-[4197] button "Remixing and use of original audio Allow remixing and use of original audio. Learn more about remixing and original audio use"
-[4181] button "Learn more about remixing and original audio use"
-[4261] button "Share to groups Reach more people when you share your post in relevant groups."
-[4237] button "Share to story Public · Sharing this and future reels."
-[4320] button "Boost reel Boost reel toggle"
-[4311] switch "Boost reel toggle"
-[4258] button "Scheduling options Publish now"
-[4374] button "Post"
-[3778] button "Pause video"
-[3784] slider "Change Position"
-[3798] slider "Change volume"
-[3802] button "Unmute"
-[1695] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[2026-05-22 23:35:44] [OUT] ---
-[2026-05-22 23:35:44] [INFO] Clicking scheduling trigger (ref: 4258)...
-
-[2026-05-22 23:35:45] [CMD] browseros-cli click -p 83 4258
-[2026-05-22 23:35:45] [EXIT] 0
-[2026-05-22 23:35:45] [OUT] ---
-Clicked [4258] at (246, 601)
-[2026-05-22 23:35:45] [OUT] ---
-[2026-05-22 23:35:48] [INFO] Verifying scheduling popup opened...
-
-[2026-05-22 23:35:49] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:49] [EXIT] 0
-[2026-05-22 23:35:49] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[4395] button "Back"
-[4412] button "Open Date Picker, selected: 23 May 2026" (collapsed)
-[4414] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (collapsed)
-[4424] combobox "Open Time Picker" (collapsed)
-[4446] button "Schedule for later"
-[1695] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4419] clickable "Date"
-[4429] clickable "Time"
-[2026-05-22 23:35:49] [OUT] ---
-[2026-05-22 23:35:49] [INFO] Scheduling popup confirmed
-[2026-05-22 23:35:49] [INFO] ========================================
-[2026-05-22 23:35:49] [INFO]   Phase 10: Fill Date and Time
-[2026-05-22 23:35:49] [INFO] ========================================
-[2026-05-22 23:35:49] [INFO] Setting date: 3 June 2026, time: 10:25
-[2026-05-22 23:35:49] [INFO] Clicking 'Date' to open date picker...
-
-[2026-05-22 23:35:50] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:50] [EXIT] 0
-[2026-05-22 23:35:50] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[4395] button "Back"
-[4412] button "Open Date Picker, selected: 23 May 2026" (collapsed)
-[4414] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (collapsed)
-[4424] combobox "Open Time Picker" (collapsed)
-[4446] button "Schedule for later"
-[1695] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4419] clickable "Date"
-[4429] clickable "Time"
-[2026-05-22 23:35:50] [OUT] ---
-
-[2026-05-22 23:35:52] [CMD] browseros-cli click -p 83 4419
-[2026-05-22 23:35:52] [EXIT] 0
-[2026-05-22 23:35:52] [OUT] ---
-Clicked [4419] at (614, 417)
-[2026-05-22 23:35:52] [OUT] ---
-[2026-05-22 23:35:54] [INFO] Taking snapshot to find date cell...
-
-[2026-05-22 23:35:55] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:35:55] [EXIT] 0
-[2026-05-22 23:35:55] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[4395] button "Back"
-[4412] button "Open Date Picker, selected: 23 May 2026" (expanded)
-[4414] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (expanded)
-[4424] combobox "Open Time Picker" (collapsed)
-[4446] button "Schedule for later"
-[4466] button "Previous Month"
-[4468] button "Next Month"
-[1695] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4419] clickable "Date"
-[4429] clickable "Time"
-[4806] clickable "SunMonTueWedThuFriSatSunday 26 April 202626Monday 27 April 202627Tuesday 28 April 202628Wednesday 29"
-[4799] clickable "Sunday 26 April 202626Monday 27 April 202627Tuesday 28 April 202628Wednesday 29 April 202629Thursday"
-[4800] clickable "Sunday 3 May 20263Monday 4 May 20264Tuesday 5 May 20265Wednesday 6 May 20266Thursday 7 May 20267Frid"
-[4801] clickable "Sunday 10 May 202610Monday 11 May 202611Tuesday 12 May 202612Wednesday 13 May 202613Thursday 14 May "
-[4802] clickable "Sunday 17 May 202617Monday 18 May 202618Tuesday 19 May 202619Wednesday 20 May 202620Thursday 21 May "
-[4691] clickable "Saturday 23 May 2026, selected23"
-[4803] clickable "Sunday 24 May 202624Monday 25 May 202625Tuesday 26 May 202626Wednesday 27 May 202627Thursday 28 May "
-[4704] clickable "Sunday 24 May 202624"
-[4710] clickable "Monday 25 May 202625"
-[4716] clickable "Tuesday 26 May 202626"
-[4722] clickable "Wednesday 27 May 202627"
-[4728] clickable "Thursday 28 May 202628"
-[4734] clickable "Friday 29 May 202629"
-[4740] clickable "Saturday 30 May 202630"
-[4804] clickable "Sunday 31 May 202631Monday 1 June 20261Tuesday 2 June 20262Wednesday 3 June 20263Thursday 4 June 202"
-[4753] clickable "Sunday 31 May 202631"
-[4759] clickable "Monday 1 June 20261"
-[4765] clickable "Tuesday 2 June 20262"
-[4771] clickable "Wednesday 3 June 20263"
-[4777] clickable "Thursday 4 June 20264"
-[4783] clickable "Friday 5 June 20265"
-[4789] clickable "Saturday 6 June 20266"
-[2026-05-22 23:35:55] [OUT] ---
-[2026-05-22 23:35:55] [INFO] Found date cell for 3 June 2026 with ref: 4771
-[2026-05-22 23:35:55] [INFO] Clicking date cell (ref: 4771)...
-
-[2026-05-22 23:35:57] [CMD] browseros-cli click -p 83 4771
-[2026-05-22 23:35:57] [EXIT] 0
-[2026-05-22 23:35:57] [OUT] ---
-Clicked [4771] at (649, 699)
-[2026-05-22 23:35:57] [OUT] ---
-[2026-05-22 23:35:59] [INFO] Clicking 'Time' to open time picker...
-
-[2026-05-22 23:36:00] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:36:00] [EXIT] 0
-[2026-05-22 23:36:00] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[4395] button "Back"
-[4412] button "Open Date Picker, selected: 3 Jun 2026" (collapsed)
-[4414] combobox "Open Date Picker, selected: 3 Jun 2026 Open Date Picker" (collapsed)
-[4424] combobox "Open Time Picker" (collapsed)
-[4446] button "Schedule for later"
-[1695] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4419] clickable "Date"
-[4429] clickable "Time"
-[2026-05-22 23:36:00] [OUT] ---
-
-[2026-05-22 23:36:01] [CMD] browseros-cli click -p 83 4429
-[2026-05-22 23:36:01] [EXIT] 0
-[2026-05-22 23:36:01] [OUT] ---
-Clicked [4429] at (850, 417)
-[2026-05-22 23:36:01] [OUT] ---
-[2026-05-22 23:36:03] [INFO] Taking snapshot to find time option...
-
-[2026-05-22 23:36:05] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:36:05] [EXIT] 0
-[2026-05-22 23:36:05] [OUT] ---
-[6697] option "20:05"
-[6698] option "20:10"
-[6699] option "20:15"
-[6700] option "20:20"
-[6701] option "20:25"
-[6702] option "20:30"
-[6703] option "20:35"
-[6704] option "20:40"
-[6705] option "20:45"
-[6706] option "20:50"
-[6707] option "20:55"
-[6708] option "21:00"
-[6709] option "21:05"
-[6710] option "21:10"
-[6711] option "21:15"
-[6712] option "21:20"
-[6713] option "21:25"
-[6714] option "21:30"
-[6715] option "21:35"
-[6716] option "21:40"
-[6717] option "21:45"
-[6718] option "21:50"
-[6719] option "21:55"
-[6720] option "22:00"
-[6721] option "22:05"
-[6722] option "22:10"
-[6723] option "22:15"
-[6724] option "22:20"
-[6725] option "22:25"
-[6726] option "22:30"
-[6727] option "22:35"
-[6728] option "22:40"
-[6729] option "22:45"
-[6730] option "22:50"
-[6731] option "22:55"
-[6732] option "23:00"
-[6733] option "23:05"
-[6734] option "23:10"
-[6735] option "23:15"
-[6736] option "23:20"
-[6737] option "23:25"
-[6738] option "23:30"
-[6739] option "23:35"
-[6740] option "23:40"
-[6741] option "23:45"
-[6742] option "23:50"
-[6743] option "23:55"
-[1695] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4419] clickable "Date"
-[4429] clickable "Time"
-[2026-05-22 23:36:05] [OUT] ---
-[2026-05-22 23:36:05] [INFO] Clicking time option (ref: 6581)...
-
-[2026-05-22 23:36:06] [CMD] browseros-cli click -p 83 6581
-[2026-05-22 23:36:06] [EXIT] 0
-[2026-05-22 23:36:06] [OUT] ---
-Clicked [6581] at (850, 608)
-[2026-05-22 23:36:06] [OUT] ---
-[2026-05-22 23:36:08] [INFO] Date and time filled
-[2026-05-22 23:36:09] [INFO] ========================================
-[2026-05-22 23:36:09] [INFO]   Phase 11: Click Schedule
-[2026-05-22 23:36:09] [INFO] ========================================
-[2026-05-22 23:36:09] [INFO] Finding 'Schedule for later' button...
-
-[2026-05-22 23:36:09] [CMD] browseros-cli snap -p 83
-[2026-05-22 23:36:09] [EXIT] 0
-[2026-05-22 23:36:09] [OUT] ---
-[692] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[740] link "Home"
-[751] link "Pages"
-[761] link "Professional dashboard"
-[772] link "Ad Centre"
-[782] link "Reels"
-[796] button "Facebook menu" (collapsed)
-[801] link "Messenger"
-[804] link "Messenger" (disabled)
-[16] button "Notifications" (collapsed)
-[19] button "Your profile" (collapsed)
-[4395] button "Back"
-[4412] button "Open Date Picker, selected: 3 Jun 2026" (collapsed)
-[4414] combobox "Open Date Picker, selected: 3 Jun 2026 Open Date Picker" (collapsed)
-[4424] combobox "Open Time Picker" (collapsed)
-[4446] button "Schedule for later"
-[1695] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4419] clickable "Date"
-[4429] clickable "Time"
-[2026-05-22 23:36:09] [OUT] ---
-[2026-05-22 23:36:09] [INFO] Clicking 'Schedule for later' button (ref: 4446)...
-
-[2026-05-22 23:36:11] [CMD] browseros-cli click -p 83 4446
-[2026-05-22 23:36:11] [EXIT] 0
-[2026-05-22 23:36:11] [OUT] ---
-Clicked [4446] at (732, 480)
-[2026-05-22 23:36:11] [OUT] ---
-[2026-05-22 23:36:16] [INFO] Schedule submitted
-[2026-05-22 23:36:16] [INFO] ========================================
-[2026-05-22 23:36:16] [INFO]   Phase 12: User Verification
-[2026-05-22 23:36:16] [INFO] ========================================
-[2026-05-22 23:36:16] [INFO] 
-[2026-05-22 23:36:16] [INFO] ============================================
-[2026-05-22 23:36:16] [INFO]   SCHEDULED REEL REVIEW
-[2026-05-22 23:36:16] [INFO] ============================================
-[2026-05-22 23:36:16] [INFO]   Asset ID: 29
-[2026-05-22 23:36:16] [INFO]   Project:  project-1
-[2026-05-22 23:36:16] [INFO]   Date:     2026-06-03 (Wednesday)
-[2026-05-22 23:36:16] [INFO]   Time:     10:25:00
-[2026-05-22 23:36:16] [INFO] ============================================
-[2026-05-22 23:36:16] [INFO] 
-[2026-05-22 23:36:58] [INFO] Marking asset 29 as uploaded for facebook...
-[2026-05-22 23:36:58] [DEBUG] mark_uploaded output: {"success": true, "id": "29", "platform": "facebook"}
-[2026-05-22 23:36:58] [INFO] Marking asset 29 as scheduled for facebook...
-[2026-05-22 23:36:58] [DEBUG] mark_scheduled output: {"success": true, "id": "29", "platform": "facebook"}
-[2026-05-22 23:36:58] [INFO] Tracker updated for asset 29
-[2026-05-22 23:36:58] [INFO] ========================================
-[2026-05-22 23:36:58] [INFO]   Phase 13: Close Browser Tab
-[2026-05-22 23:36:58] [INFO] ========================================
-
-[2026-05-22 23:37:00] [CMD] browseros-cli close -p 83
-[2026-05-22 23:37:00] [EXIT] 0
-[2026-05-22 23:37:00] [OUT] ---
-Closed page 83
-[2026-05-22 23:37:00] [OUT] ---
-[2026-05-22 23:37:00] [INFO] Browser tab closed
-[2026-05-22 23:37:00] [INFO] ========================================
-[2026-05-22 23:37:00] [INFO]   Processing Schedule Entry 3 / 15
-[2026-05-22 23:37:00] [INFO] ========================================
-[2026-05-22 23:37:00] [INFO] Date: 2026-06-04, Day: Thursday, Time: 09:05:00
-[2026-05-22 23:37:00] [INFO] ========================================
-[2026-05-22 23:37:00] [INFO]   Phase 1: Identify Project and Asset
-[2026-05-22 23:37:00] [INFO] ========================================
-[2026-05-22 23:37:00] [INFO] Fetching mapped post for project 1...
-[2026-05-22 23:37:00] [DEBUG] get_mapped_post exit=0 output='ID: 30
-Caption: 🍅 The Ultimate Heirloom Tomato BLT 🍅
-Recipe: 
-Ingredients: 🧂 4 slices thick-cut peppered bacon, 🥨 2 slices toasted sourdough, 🍅 1 large heirloom tomato, 🥬 crisp bibb lettuce, 🥛 and 2 tbsp high-quality mayonnaise. 
-Steps: 👨‍🍳 Fry the bacon until perfectly crispy but not burnt. 🥣 Slice the tomato into 1/2 inch thick rounds and season with salt and pepper. 🔥 Spread a thick layer of mayo on both slices of toasted bread. ⏲️ Layer the lettuce, the juicy tomato slices, and then the bacon. 🍳 Close the sandwich and slice diagonally.
-#blt #sandwich #lunch #bacon #classic #easyrecipes #foodie #tomato 🌮🍱'
-[2026-05-22 23:37:00] [INFO] CAPTION: >>>🍅 The Ultimate Heirloom Tomato BLT 🍅
-Recipe: 
-Ingredients: 🧂 4 slices thick-cut peppered bacon, 🥨 2 slices toasted sourdough, 🍅 1 large heirloom tomato, 🥬 crisp bibb lettuce, 🥛 and 2 tbsp high-quality mayonnaise. 
-Steps: 👨‍🍳 Fry the bacon until perfectly crispy but not burnt. 🥣 Slice the tomato into 1/2 inch thick rounds and season with salt and pepper. 🔥 Spread a thick layer of mayo on both slices of toasted bread. ⏲️ Layer the lettuce, the juicy tomato slices, and then the bacon. 🍳 Close the sandwich and slice diagonally.
-#blt #sandwich #lunch #bacon #classic #easyrecipes #foodie #tomato 🌮🍱<<<
-[2026-05-22 23:37:00] [INFO] Asset ID: 30
-[2026-05-22 23:37:00] [INFO] Caption length: 599 chars
-[2026-05-22 23:37:00] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/30.mp4
-[2026-05-22 23:37:00] [INFO] Asset file size: 9088834 bytes
-[2026-05-22 23:37:00] [INFO] ========================================
-[2026-05-22 23:37:00] [INFO]   Phase 2: Read Facebook Reels URL
-[2026-05-22 23:37:00] [INFO] ========================================
-[2026-05-22 23:37:00] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
-[2026-05-22 23:37:00] [INFO] ========================================
-[2026-05-22 23:37:00] [INFO]   Phase 3: Open Facebook Reels Page
-[2026-05-22 23:37:00] [INFO] ========================================
-[2026-05-22 23:37:00] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
-
-[2026-05-22 23:37:01] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
-[2026-05-22 23:37:01] [EXIT] 0
-[2026-05-22 23:37:01] [OUT] ---
-{"background":false,"hidden":false,"pageId":85,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
-[2026-05-22 23:37:01] [OUT] ---
-[2026-05-22 23:37:01] [INFO] Page opened with ID: 85
-[2026-05-22 23:37:06] [INFO] Taking snapshot...
-
-[2026-05-22 23:37:07] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:37:07] [EXIT] 0
-[2026-05-22 23:37:07] [OUT] ---
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[564] button "Hide Menu"
-[597] link "Professional dashboard notification"
-[621] link "Insights"
-[634] link "Monetisation"
-[647] link "Ad Centre"
-[660] link "Create ads"
-[673] link "Boost Instagram post"
-[686] link "Settings"
-[722] button "Collapse"
-[737] link "Meta Verified"
-[750] link "Leads Centre"
-[768] link "Meta Business Suite notification"
-[797] button "Manus AI"
-[817] button "Advertise"
-[846] link "View profile cover photo"
-[859] button "Edit cover photo" (collapsed)
-[880] button "Share a thought..." (collapsed)
-[892] button "Profile picture actions" (collapsed)
-[914] button "Tasty Affair "
-[919] link "8 followers"
-[921] link "0 following"
-[928] link "Professional dashboard"
-[940] link "Edit profile"
-[952] link "Add to story"
-[971] button "Food and drink"
-[1000] tab "All"
-[1005] tab "About"
-[1010] tab "Reels" (selected)
-[1014] tab "Photos"
-[1019] tab "Followers"
-[1025] tab "More profile sections" (collapsed)
-[1060] button "Profile settings see more options" (collapsed)
-[1081] link "Reels"
-[1084] button "Create reel"
-[1113] tab "Your reels" (selected)
-[1117] tab "Saved reels"
-[1127] link "Reel tile preview"
-[1143] link "Reel tile preview"
-[1159] link "Reel tile preview"
-[1175] link "Reel tile preview"
-[1191] link "Reel tile preview"
-[1207] link "Reel tile preview"
-[1223] link "Reel tile preview"
-[1239] link "Reel tile preview"
-[1255] link "Reel tile preview"
-[1271] link "Reel tile preview"
-[2026-05-22 23:37:07] [OUT] ---
-[2026-05-22 23:37:07] [DEBUG] Snapshot lines: 58
-[2026-05-22 23:37:07] [INFO] Page loaded successfully
-[2026-05-22 23:37:07] [INFO] ========================================
-[2026-05-22 23:37:07] [INFO]   Phase 4: Open Create Reel Dialog
-[2026-05-22 23:37:07] [INFO] ========================================
-
-[2026-05-22 23:37:08] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:37:08] [EXIT] 0
-[2026-05-22 23:37:08] [OUT] ---
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[564] button "Hide Menu"
-[597] link "Professional dashboard notification"
-[621] link "Insights"
-[634] link "Monetisation"
-[647] link "Ad Centre"
-[660] link "Create ads"
-[673] link "Boost Instagram post"
-[686] link "Settings"
-[722] button "Collapse"
-[737] link "Meta Verified"
-[750] link "Leads Centre"
-[768] link "Meta Business Suite notification"
-[797] button "Manus AI"
-[817] button "Advertise"
-[846] link "View profile cover photo"
-[859] button "Edit cover photo" (collapsed)
-[880] button "Share a thought..." (collapsed)
-[892] button "Profile picture actions" (collapsed)
-[914] button "Tasty Affair "
-[919] link "8 followers"
-[921] link "0 following"
-[928] link "Professional dashboard"
-[940] link "Edit profile"
-[952] link "Add to story"
-[971] button "Food and drink"
-[1000] tab "All"
-[1005] tab "About"
-[1010] tab "Reels" (selected)
-[1014] tab "Photos"
-[1019] tab "Followers"
-[1025] tab "More profile sections" (collapsed)
-[1060] button "Profile settings see more options" (collapsed)
-[1081] link "Reels"
-[1084] button "Create reel"
-[1113] tab "Your reels" (selected)
-[1117] tab "Saved reels"
-[1127] link "Reel tile preview"
-[1143] link "Reel tile preview"
-[1159] link "Reel tile preview"
-[1175] link "Reel tile preview"
-[1191] link "Reel tile preview"
-[1207] link "Reel tile preview"
-[1223] link "Reel tile preview"
-[1239] link "Reel tile preview"
-[1255] link "Reel tile preview"
-[1271] link "Reel tile preview"
-[2026-05-22 23:37:08] [OUT] ---
-[2026-05-22 23:37:08] [INFO] Clicking 'Create reel' button (ref: 1084)...
-
-[2026-05-22 23:37:09] [CMD] browseros-cli click -p 85 1084
-[2026-05-22 23:37:09] [EXIT] 0
-[2026-05-22 23:37:09] [OUT] ---
-Clicked [1084] at (1360, 431)
-[2026-05-22 23:37:09] [OUT] ---
-[2026-05-22 23:37:12] [INFO] Verifying dialog opened...
-
-[2026-05-22 23:37:14] [CMD] browseros-cli eval -p 85 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
-[2026-05-22 23:37:14] [EXIT] 0
-[2026-05-22 23:37:14] [OUT] ---
-true
-[2026-05-22 23:37:14] [OUT] ---
-[2026-05-22 23:37:14] [DEBUG] Dialog check result: true
-[2026-05-22 23:37:14] [INFO] Create reel dialog confirmed
-[2026-05-22 23:37:14] [INFO] ========================================
-[2026-05-22 23:37:14] [INFO]   Phase 5: Upload the Video File
-[2026-05-22 23:37:14] [INFO] ========================================
-[2026-05-22 23:37:14] [INFO] Making file inputs visible...
-
-[2026-05-22 23:37:14] [CMD] browseros-cli eval -p 85 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
-[2026-05-22 23:37:14] [EXIT] 0
-[2026-05-22 23:37:14] [OUT] ---
-undefined
-[2026-05-22 23:37:14] [OUT] ---
-[2026-05-22 23:37:14] [INFO] Taking snapshot to find Choose File buttons...
-
-[2026-05-22 23:37:15] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:37:15] [EXIT] 0
-[2026-05-22 23:37:15] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3578] button "Close"
-[3600] button "Choose File"
-[3601] button "Add Video or drag and drop"
-[3624] button "Choose File"
-[3625] button "Upload video for reel"
-[1400] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
-[3659] clickable "Your video previewUpload your video in order to see a preview here."
-[2026-05-22 23:37:15] [OUT] ---
-[2026-05-22 23:37:15] [INFO] Attempting upload via available Choose File buttons...
-[2026-05-22 23:37:15] [INFO] Trying Choose File button ref: 3600
-
-[2026-05-22 23:37:17] [CMD] browseros-cli upload -p 85 3600 /Users/dsen/Projects/ai-post-maker/project-1/assets/30.mp4
-[2026-05-22 23:37:17] [EXIT] 0
-[2026-05-22 23:37:17] [OUT] ---
-Set 1 file(s) on [3600]
-[2026-05-22 23:37:17] [OUT] ---
-[2026-05-22 23:37:17] [INFO] Upload initiated via ref: 3600
-[2026-05-22 23:37:32] [INFO] Polling for upload completion...
-
-[2026-05-22 23:37:33] [CMD] browseros-cli text -p 85
-[2026-05-22 23:37:33] [EXIT] 0
-[2026-05-22 23:37:33] [OUT] ---
-## Create reel
-
----
-
-Replace Videoor drag and dropChecking for copyrighted contentNext
-[2026-05-22 23:37:33] [OUT] ---
-[2026-05-22 23:37:33] [DEBUG] Upload check attempt 1/16: false
-[2026-05-22 23:37:33] [INFO] Upload still processing... (attempt 1/16)
-
-[2026-05-22 23:37:39] [CMD] browseros-cli text -p 85
-[2026-05-22 23:37:39] [EXIT] 0
-[2026-05-22 23:37:39] [OUT] ---
-## Create reel
-
----
-
-Replace Videoor drag and dropYour reel is safe to publish!Next
-[2026-05-22 23:37:39] [OUT] ---
-[2026-05-22 23:37:39] [DEBUG] Upload check attempt 2/16: true
-[2026-05-22 23:37:39] [INFO] Video uploaded successfully
-[2026-05-22 23:37:39] [INFO] ========================================
-[2026-05-22 23:37:39] [INFO]   Phase 6: Navigate to Caption Screen
-[2026-05-22 23:37:39] [INFO] ========================================
-
-[2026-05-22 23:37:40] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:37:40] [EXIT] 0
-[2026-05-22 23:37:40] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3578] button "Close"
-[3600] button "Choose File"
-[3601] button "Replace Video or drag and drop"
-[3731] button "Next"
-[3757] button "Pause video"
-[3763] slider "Change Position"
-[3777] slider "Change volume"
-[3781] button "Unmute"
-[1400] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
-[2026-05-22 23:37:40] [OUT] ---
-
-[2026-05-22 23:37:42] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:37:42] [EXIT] 0
-[2026-05-22 23:37:42] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3578] button "Close"
-[3600] button "Choose File"
-[3601] button "Replace Video or drag and drop"
-[3731] button "Next"
-[3757] button "Pause video"
-[3763] slider "Change Position"
-[3777] slider "Change volume"
-[3781] button "Unmute"
-[1400] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
-[2026-05-22 23:37:42] [OUT] ---
-[2026-05-22 23:37:42] [INFO] Clicking 'Next' button (ref: 3731)...
-
-[2026-05-22 23:37:43] [CMD] browseros-cli click -p 85 3731
-[2026-05-22 23:37:43] [EXIT] 0
-[2026-05-22 23:37:43] [OUT] ---
-Clicked [3731] at (246, 703)
-[2026-05-22 23:37:43] [OUT] ---
-[2026-05-22 23:37:46] [INFO] Verifying caption screen...
-
-[2026-05-22 23:37:47] [CMD] browseros-cli eval -p 85 (function() { return !!document.querySelector('[contenteditable="true"]') || !!document.querySelector('div[role="textbox"]') || !!document.querySelector('textarea') || !!document.querySelector('[aria-placeholder*="Describe your reel"]'); })()
-[2026-05-22 23:37:47] [EXIT] 0
-[2026-05-22 23:37:47] [OUT] ---
-true
-[2026-05-22 23:37:47] [OUT] ---
-[2026-05-22 23:37:47] [DEBUG] Caption screen check: true
-[2026-05-22 23:37:47] [INFO] Caption screen ready
-[2026-05-22 23:37:47] [INFO] ========================================
-[2026-05-22 23:37:47] [INFO]   Phase 7: Enter the Caption
-[2026-05-22 23:37:47] [INFO] ========================================
-[2026-05-22 23:37:47] [INFO] Finding caption textbox...
-
-[2026-05-22 23:37:48] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:37:48] [EXIT] 0
-[2026-05-22 23:37:48] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3884] button "Back"
-[3578] button "Close"
-[4022] button "Edit"
-[3906] textbox "Describe your reel..." value="
-"
-[3915] button "Choose emoji ​"
-[3858] button "Trim video"
-[3988] button "Closed captions"
-[3989] button "Audio description"
-[3990] button "Text transcript"
-[3991] button "Optimisation"
-[3731] button "Next"
-[3757] button "Pause video"
-[3763] slider "Change Position"
-[3777] slider "Change volume"
-[3781] button "Unmute"
-[1400] clickable "Edit reelEditDescribe your reel...Choose emoji​Trim videoClosed captionsAudio descriptionText transc"
-[3919] clickable "Describe your reel...Choose emoji​"
-[2026-05-22 23:37:48] [OUT] ---
-[2026-05-22 23:37:48] [INFO] Typing caption into textbox (ref: 3906)...
-
-[2026-05-22 23:37:50] [CMD] browseros-cli fill -p 85 3906 🍅 The Ultimate Heirloom Tomato BLT 🍅
-Recipe: 
-Ingredients: 🧂 4 slices thick-cut peppered bacon, 🥨 2 slices toasted sourdough, 🍅 1 large heirloom tomato, 🥬 crisp bibb lettuce, 🥛 and 2 tbsp high-quality mayonnaise. 
-Steps: 👨‍🍳 Fry the bacon until perfectly crispy but not burnt. 🥣 Slice the tomato into 1/2 inch thick rounds and season with salt and pepper. 🔥 Spread a thick layer of mayo on both slices of toasted bread. ⏲️ Layer the lettuce, the juicy tomato slices, and then the bacon. 🍳 Close the sandwich and slice diagonally.
-#blt #sandwich #lunch #bacon #classic #easyrecipes #foodie #tomato 🌮🍱
-[2026-05-22 23:37:50] [EXIT] 0
-[2026-05-22 23:37:50] [OUT] ---
-Typed 613 characters into [3906] at (297, 186)
-[2026-05-22 23:37:50] [OUT] ---
-[2026-05-22 23:37:50] [INFO] Fill command succeeded
-[2026-05-22 23:37:52] [INFO] Verifying caption was entered...
-
-[2026-05-22 23:37:53] [CMD] browseros-cli eval -p 85 (function() { var el = document.querySelector('[contenteditable="true"]') || document.querySelector('div[role="textbox"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*="Describe your reel"]'); var text = el?.innerText || ''; return text.length > 50; })()
-[2026-05-22 23:37:53] [EXIT] 0
-[2026-05-22 23:37:53] [OUT] ---
-true
-[2026-05-22 23:37:53] [OUT] ---
-[2026-05-22 23:37:53] [INFO] Caption entered successfully
-[2026-05-22 23:37:53] [INFO] ========================================
-[2026-05-22 23:37:53] [INFO]   Phase 8: Navigate to Final Review Screen
-[2026-05-22 23:37:53] [INFO] ========================================
-
-[2026-05-22 23:37:54] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:37:54] [EXIT] 0
-[2026-05-22 23:37:54] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3884] button "Back"
-[3578] button "Close"
-[4022] button "Edit"
-[3906] textbox "Describe your reel..." value="🍅 The Ultimate Heirloom Tomato BLT 🍅
-
-Recipe: 
-
-Ingredients: 🧂 4 slices thick-cut peppered bacon, 🥨 2 slices toasted sourdough, 🍅 1 large heirloom tomato, 🥬 crisp bibb lettuce, 🥛 and 2 tbsp high-quality mayonnaise. 
-
-Steps: 👨‍🍳 Fry the bacon until perfectly crispy but not burnt. 🥣 Slice the tomato into 1/2 inch thick rounds and season with salt and pepper. 🔥 Spread a thick layer of mayo on both slices of toasted bread. ⏲️ Layer the lettuce, the juicy tomato slices, and then the bacon. 🍳 Close the sandwich and slice diagonally.
-
-#blt #sandwich #lunch #bacon #classic #easyrecipes #foodie #tomato 🌮🍱"
-[3915] button "Choose emoji ​"
-[3858] button "Trim video"
-[3988] button "Closed captions"
-[3989] button "Audio description"
-[3990] button "Text transcript"
-[3991] button "Optimisation"
-[3731] button "Next"
-[3757] button "Pause video"
-[3763] slider "Change Position"
-[3777] slider "Change volume"
-[3781] button "Unmute"
-[1400] clickable "Edit reelEdit🍅 The Ultimate Heirloom Tomato BLT 🍅Recipe: Ingredients: 🧂 4 slices thick-cut pepper"
-[3919] clickable "🍅 The Ultimate Heirloom Tomato BLT 🍅Recipe: Ingredients: 🧂 4 slices thick-cut peppered bacon, 🥨 "
-[2026-05-22 23:37:54] [OUT] ---
-
-[2026-05-22 23:37:55] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:37:55] [EXIT] 0
-[2026-05-22 23:37:55] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3884] button "Back"
-[3578] button "Close"
-[4022] button "Edit"
-[3906] textbox "Describe your reel..." value="🍅 The Ultimate Heirloom Tomato BLT 🍅
-
-Recipe: 
-
-Ingredients: 🧂 4 slices thick-cut peppered bacon, 🥨 2 slices toasted sourdough, 🍅 1 large heirloom tomato, 🥬 crisp bibb lettuce, 🥛 and 2 tbsp high-quality mayonnaise. 
-
-Steps: 👨‍🍳 Fry the bacon until perfectly crispy but not burnt. 🥣 Slice the tomato into 1/2 inch thick rounds and season with salt and pepper. 🔥 Spread a thick layer of mayo on both slices of toasted bread. ⏲️ Layer the lettuce, the juicy tomato slices, and then the bacon. 🍳 Close the sandwich and slice diagonally.
-
-#blt #sandwich #lunch #bacon #classic #easyrecipes #foodie #tomato 🌮🍱"
-[3915] button "Choose emoji ​"
-[3858] button "Trim video"
-[3988] button "Closed captions"
-[3989] button "Audio description"
-[3990] button "Text transcript"
-[3991] button "Optimisation"
-[3731] button "Next"
-[3757] button "Pause video"
-[3763] slider "Change Position"
-[3777] slider "Change volume"
-[3781] button "Unmute"
-[1400] clickable "Edit reelEdit🍅 The Ultimate Heirloom Tomato BLT 🍅Recipe: Ingredients: 🧂 4 slices thick-cut pepper"
-[3919] clickable "🍅 The Ultimate Heirloom Tomato BLT 🍅Recipe: Ingredients: 🧂 4 slices thick-cut peppered bacon, 🥨 "
-[2026-05-22 23:37:55] [OUT] ---
-[2026-05-22 23:37:55] [INFO] Clicking 'Next' button (ref: 3731)...
-
-[2026-05-22 23:37:57] [CMD] browseros-cli click -p 85 3731
-[2026-05-22 23:37:57] [EXIT] 0
-[2026-05-22 23:37:57] [OUT] ---
-Clicked [3731] at (246, 703)
-[2026-05-22 23:37:57] [OUT] ---
-[2026-05-22 23:38:00] [INFO] Verifying final review screen...
-
-[2026-05-22 23:38:01] [CMD] browseros-cli text -p 85
-[2026-05-22 23:38:01] [EXIT] 0
-[2026-05-22 23:38:01] [OUT] ---
-## Reel settings
-
----
-
-PublicAnyone on or off FacebookTag and collaborateTag people and share credit for your reel with a collaborator.Remixing and use of original audioAllow remixing and use of original audio. Learn more
-
----
-
-Share to groupsReach more people when you share your post in relevant groups.Share to storyPublic · Sharing this and future reels.Boost reelScheduling optionsPublish now
-
----
-
-Your reel is safe to publish!Post
-[2026-05-22 23:38:01] [OUT] ---
-[2026-05-22 23:38:01] [DEBUG] Final review check: heading=1, post=1, safe=1
-[2026-05-22 23:38:01] [INFO] Final review screen confirmed
-[2026-05-22 23:38:01] [INFO] ========================================
-[2026-05-22 23:38:01] [INFO]   Phase 9: Open Scheduling Options
-[2026-05-22 23:38:01] [INFO] ========================================
-[2026-05-22 23:38:01] [INFO] Finding 'Scheduling options' button...
-
-[2026-05-22 23:38:03] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:38:03] [EXIT] 0
-[2026-05-22 23:38:03] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3884] button "Back"
-[3578] button "Close"
-[4335] button "Public Anyone on or off Facebook"
-[4152] button "Tag and collaborate Tag people and share credit for your reel with a collaborator."
-[4176] button "Remixing and use of original audio Allow remixing and use of original audio. Learn more about remixing and original audio use"
-[4160] button "Learn more about remixing and original audio use"
-[4240] button "Share to groups Reach more people when you share your post in relevant groups."
-[4216] button "Share to story Public · Sharing this and future reels."
-[4299] button "Boost reel Boost reel toggle"
-[4290] switch "Boost reel toggle"
-[4237] button "Scheduling options Publish now"
-[4353] button "Post"
-[3757] button "Pause video"
-[3763] slider "Change Position"
-[3777] slider "Change volume"
-[3781] button "Unmute"
-[1400] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[2026-05-22 23:38:03] [OUT] ---
-[2026-05-22 23:38:03] [INFO] Clicking scheduling trigger (ref: 4237)...
-
-[2026-05-22 23:38:04] [CMD] browseros-cli click -p 85 4237
-[2026-05-22 23:38:04] [EXIT] 0
-[2026-05-22 23:38:04] [OUT] ---
-Clicked [4237] at (246, 601)
-[2026-05-22 23:38:04] [OUT] ---
-[2026-05-22 23:38:07] [INFO] Verifying scheduling popup opened...
-
-[2026-05-22 23:38:09] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:38:09] [EXIT] 0
-[2026-05-22 23:38:09] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4374] button "Back"
-[4391] button "Open Date Picker, selected: 23 May 2026" (collapsed)
-[4393] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (collapsed)
-[4403] combobox "Open Time Picker" (collapsed)
-[4425] button "Schedule for later"
-[1400] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4398] clickable "Date"
-[4408] clickable "Time"
-[2026-05-22 23:38:09] [OUT] ---
-[2026-05-22 23:38:09] [INFO] Scheduling popup confirmed
-[2026-05-22 23:38:09] [INFO] ========================================
-[2026-05-22 23:38:09] [INFO]   Phase 10: Fill Date and Time
-[2026-05-22 23:38:09] [INFO] ========================================
-[2026-05-22 23:38:09] [INFO] Setting date: 4 June 2026, time: 09:05
-[2026-05-22 23:38:09] [INFO] Clicking 'Date' to open date picker...
-
-[2026-05-22 23:38:10] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:38:10] [EXIT] 0
-[2026-05-22 23:38:10] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4374] button "Back"
-[4391] button "Open Date Picker, selected: 23 May 2026" (collapsed)
-[4393] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (collapsed)
-[4403] combobox "Open Time Picker" (collapsed)
-[4425] button "Schedule for later"
-[1400] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4398] clickable "Date"
-[4408] clickable "Time"
-[2026-05-22 23:38:10] [OUT] ---
-
-[2026-05-22 23:38:11] [CMD] browseros-cli click -p 85 4398
-[2026-05-22 23:38:11] [EXIT] 0
-[2026-05-22 23:38:11] [OUT] ---
-Clicked [4398] at (614, 417)
-[2026-05-22 23:38:11] [OUT] ---
-[2026-05-22 23:38:13] [INFO] Taking snapshot to find date cell...
-
-[2026-05-22 23:38:15] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:38:15] [EXIT] 0
-[2026-05-22 23:38:15] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4374] button "Back"
-[4391] button "Open Date Picker, selected: 23 May 2026" (expanded)
-[4393] combobox "Open Date Picker, selected: 23 May 2026 Open Date Picker" (expanded)
-[4403] combobox "Open Time Picker" (collapsed)
-[4425] button "Schedule for later"
-[4445] button "Previous Month"
-[4447] button "Next Month"
-[1400] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4398] clickable "Date"
-[4408] clickable "Time"
-[4785] clickable "SunMonTueWedThuFriSatSunday 26 April 202626Monday 27 April 202627Tuesday 28 April 202628Wednesday 29"
-[4778] clickable "Sunday 26 April 202626Monday 27 April 202627Tuesday 28 April 202628Wednesday 29 April 202629Thursday"
-[4779] clickable "Sunday 3 May 20263Monday 4 May 20264Tuesday 5 May 20265Wednesday 6 May 20266Thursday 7 May 20267Frid"
-[4780] clickable "Sunday 10 May 202610Monday 11 May 202611Tuesday 12 May 202612Wednesday 13 May 202613Thursday 14 May "
-[4781] clickable "Sunday 17 May 202617Monday 18 May 202618Tuesday 19 May 202619Wednesday 20 May 202620Thursday 21 May "
-[4670] clickable "Saturday 23 May 2026, selected23"
-[4782] clickable "Sunday 24 May 202624Monday 25 May 202625Tuesday 26 May 202626Wednesday 27 May 202627Thursday 28 May "
-[4683] clickable "Sunday 24 May 202624"
-[4689] clickable "Monday 25 May 202625"
-[4695] clickable "Tuesday 26 May 202626"
-[4701] clickable "Wednesday 27 May 202627"
-[4707] clickable "Thursday 28 May 202628"
-[4713] clickable "Friday 29 May 202629"
-[4719] clickable "Saturday 30 May 202630"
-[4783] clickable "Sunday 31 May 202631Monday 1 June 20261Tuesday 2 June 20262Wednesday 3 June 20263Thursday 4 June 202"
-[4732] clickable "Sunday 31 May 202631"
-[4738] clickable "Monday 1 June 20261"
-[4744] clickable "Tuesday 2 June 20262"
-[4750] clickable "Wednesday 3 June 20263"
-[4756] clickable "Thursday 4 June 20264"
-[4762] clickable "Friday 5 June 20265"
-[4768] clickable "Saturday 6 June 20266"
-[2026-05-22 23:38:15] [OUT] ---
-[2026-05-22 23:38:15] [INFO] Found date cell for 4 June 2026 with ref: 4756
-[2026-05-22 23:38:15] [INFO] Clicking date cell (ref: 4756)...
-
-[2026-05-22 23:38:16] [CMD] browseros-cli click -p 85 4756
-[2026-05-22 23:38:16] [EXIT] 0
-[2026-05-22 23:38:16] [OUT] ---
-Clicked [4756] at (687, 699)
-[2026-05-22 23:38:16] [OUT] ---
-[2026-05-22 23:38:18] [INFO] Clicking 'Time' to open time picker...
-
-[2026-05-22 23:38:19] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:38:19] [EXIT] 0
-[2026-05-22 23:38:19] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4374] button "Back"
-[4391] button "Open Date Picker, selected: 4 Jun 2026" (collapsed)
-[4393] combobox "Open Date Picker, selected: 4 Jun 2026 Open Date Picker" (collapsed)
-[4403] combobox "Open Time Picker" (collapsed)
-[4425] button "Schedule for later"
-[1400] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4398] clickable "Date"
-[4408] clickable "Time"
-[2026-05-22 23:38:19] [OUT] ---
-
-[2026-05-22 23:38:21] [CMD] browseros-cli click -p 85 4408
-[2026-05-22 23:38:21] [EXIT] 0
-[2026-05-22 23:38:21] [OUT] ---
-Clicked [4408] at (850, 417)
-[2026-05-22 23:38:21] [OUT] ---
-[2026-05-22 23:38:23] [INFO] Taking snapshot to find time option...
-
-[2026-05-22 23:38:24] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:38:24] [EXIT] 0
-[2026-05-22 23:38:24] [OUT] ---
-[6674] option "20:05"
-[6675] option "20:10"
-[6676] option "20:15"
-[6677] option "20:20"
-[6678] option "20:25"
-[6679] option "20:30"
-[6680] option "20:35"
-[6681] option "20:40"
-[6682] option "20:45"
-[6683] option "20:50"
-[6684] option "20:55"
-[6685] option "21:00"
-[6686] option "21:05"
-[6687] option "21:10"
-[6688] option "21:15"
-[6689] option "21:20"
-[6690] option "21:25"
-[6691] option "21:30"
-[6692] option "21:35"
-[6693] option "21:40"
-[6694] option "21:45"
-[6695] option "21:50"
-[6696] option "21:55"
-[6697] option "22:00"
-[6698] option "22:05"
-[6699] option "22:10"
-[6700] option "22:15"
-[6701] option "22:20"
-[6702] option "22:25"
-[6703] option "22:30"
-[6704] option "22:35"
-[6705] option "22:40"
-[6706] option "22:45"
-[6707] option "22:50"
-[6708] option "22:55"
-[6709] option "23:00"
-[6710] option "23:05"
-[6711] option "23:10"
-[6712] option "23:15"
-[6713] option "23:20"
-[6714] option "23:25"
-[6715] option "23:30"
-[6716] option "23:35"
-[6717] option "23:40"
-[6718] option "23:45"
-[6719] option "23:50"
-[6720] option "23:55"
-[1400] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4398] clickable "Date"
-[4408] clickable "Time"
-[2026-05-22 23:38:24] [OUT] ---
-[2026-05-22 23:38:24] [INFO] Clicking time option (ref: 6542)...
-
-[2026-05-22 23:38:25] [CMD] browseros-cli click -p 85 6542
-[2026-05-22 23:38:25] [EXIT] 0
-[2026-05-22 23:38:25] [OUT] ---
-Clicked [6542] at (850, 608)
-[2026-05-22 23:38:25] [OUT] ---
-[2026-05-22 23:38:27] [INFO] Date and time filled
-[2026-05-22 23:38:27] [INFO] ========================================
-[2026-05-22 23:38:27] [INFO]   Phase 11: Click Schedule
-[2026-05-22 23:38:27] [INFO] ========================================
-[2026-05-22 23:38:27] [INFO] Finding 'Schedule for later' button...
-
-[2026-05-22 23:38:28] [CMD] browseros-cli snap -p 85
-[2026-05-22 23:38:28] [EXIT] 0
-[2026-05-22 23:38:28] [OUT] ---
-[399] link "Facebook"
-[50] combobox "Search Facebook" (collapsed)
-[447] link "Home"
-[458] link "Pages"
-[468] link "Professional dashboard"
-[479] link "Ad Centre"
-[489] link "Reels"
-[503] button "Facebook menu" (collapsed)
-[508] link "Messenger"
-[511] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[4374] button "Back"
-[4391] button "Open Date Picker, selected: 4 Jun 2026" (collapsed)
-[4393] combobox "Open Date Picker, selected: 4 Jun 2026 Open Date Picker" (collapsed)
-[4403] combobox "Open Time Picker" (collapsed)
-[4425] button "Schedule for later"
-[1400] clickable "Reel settingsPublicAnyone on or off FacebookTag and collaborateTag people and share credit for your "
-[4398] clickable "Date"
-[4408] clickable "Time"
-[2026-05-22 23:38:28] [OUT] ---
-[2026-05-22 23:38:28] [INFO] Clicking 'Schedule for later' button (ref: 4425)...
-
-[2026-05-22 23:38:30] [CMD] browseros-cli click -p 85 4425
-[2026-05-22 23:38:30] [EXIT] 0
-[2026-05-22 23:38:30] [OUT] ---
-Clicked [4425] at (732, 480)
-[2026-05-22 23:38:30] [OUT] ---
-[2026-05-22 23:38:35] [INFO] Schedule submitted
-[2026-05-22 23:38:35] [INFO] ========================================
-[2026-05-22 23:38:35] [INFO]   Phase 12: User Verification
-[2026-05-22 23:38:35] [INFO] ========================================
-[2026-05-22 23:38:35] [INFO] 
-[2026-05-22 23:38:35] [INFO] ============================================
-[2026-05-22 23:38:35] [INFO]   SCHEDULED REEL REVIEW
-[2026-05-22 23:38:35] [INFO] ============================================
-[2026-05-22 23:38:35] [INFO]   Asset ID: 30
-[2026-05-22 23:38:35] [INFO]   Project:  project-1
-[2026-05-22 23:38:35] [INFO]   Date:     2026-06-04 (Thursday)
-[2026-05-22 23:38:35] [INFO]   Time:     09:05:00
-[2026-05-22 23:38:35] [INFO] ============================================
-[2026-05-22 23:38:35] [INFO] 
+Create reel024814366254114136271
+[2026-05-23 00:01:41] [OUT] ---
+[2026-05-23 00:01:41] [DEBUG] Upload check attempt 3/16: false
+[2026-05-23 00:01:41] [INFO] Upload still processing... (attempt 3/16)
