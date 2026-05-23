@@ -141,66 +141,66 @@
     "date": "2026-06-05",
     "day": "Friday",
     "time": "19:05:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-06",
     "day": "Saturday",
     "time": "12:10:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-07",
     "day": "Sunday",
     "time": "12:15:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-08",
     "day": "Monday",
     "time": "20:25:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-09",
     "day": "Tuesday",
     "time": "09:25:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-10",
     "day": "Wednesday",
     "time": "18:20:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-11",
     "day": "Thursday",
     "time": "09:05:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-11",
     "day": "Thursday",
     "time": "11:55:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-12",
     "day": "Friday",
     "time": "19:00:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-13",
     "day": "Saturday",
     "time": "08:45:00",
-    "status": "pending"
+    "status": "scheduled"
   },
   {
     "date": "2026-06-14",
     "day": "Sunday",
     "time": "18:25:00",
-    "status": "pending"
+    "status": "scheduled"
   }
 ]

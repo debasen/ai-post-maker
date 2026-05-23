@@ -19,6 +19,7 @@ SCHEDULE_ENTRIES=()
 SCHEDULE_DATE=""
 SCHEDULE_DAY=""
 SCHEDULE_TIME=""
+YOLO=0
 
 # ─── Page-aware BrowserOS helpers ──────────────────────────────────────────────
 
@@ -134,6 +135,7 @@ Options:
   --timeout <seconds>    Global timeout per phase (default: 300)
   --max-retries <N>      Max retries for flaky operations (default: 3)
   --pause                Pause after each post for manual review
+  --yolo                 Automatically click Schedule and skip user confirmation
   --dry-run              Simulate without executing browser commands
   -h, --help             Show this help
 
@@ -180,6 +182,10 @@ framework_parse_args() {
                 ;;
             --pause)
                 PAUSE=1
+                shift
+                ;;
+            --yolo)
+                YOLO=1
                 shift
                 ;;
             -h|--help)
@@ -801,14 +807,35 @@ phase_12_user_confirm() {
     log INFO "============================================"
     log INFO ""
 
+    local confirm="n"
     if [ "$DRY_RUN" = "1" ]; then
         log INFO "[DRY-RUN] Auto-confirming tracker update"
         confirm="y"
+    elif [ "$YOLO" = "1" ]; then
+        log INFO "[YOLO] Finding 'Schedule' button..."
+        local schedule_button_ref
+        schedule_button_ref=$(fb_get_snap_ref 'button "Schedule"')
+        if [ -z "$schedule_button_ref" ]; then
+            schedule_button_ref=$(fb_get_snap_ref 'div "Schedule"')
+        fi
+        if [ -z "$schedule_button_ref" ]; then
+            schedule_button_ref=$(fb_get_snap_ref 'Schedule')
+        fi
+
+        if [ -n "$schedule_button_ref" ]; then
+            log INFO "Clicking 'Schedule' button (ref: $schedule_button_ref)..."
+            fb_click "$schedule_button_ref"
+            sleep 10
+            confirm="y"
+        else
+            log ERROR "Could not find 'Schedule' button in snapshot"
+            confirm="n"
+        fi
     else
         read -r -p "Reel scheduled for $SCHEDULE_DATE $SCHEDULE_TIME. Confirm? [y/N]: " confirm
     fi
     if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
-        log WARN "User did not confirm. Skipping tracker update."
+        log WARN "Verification did not succeed or user did not confirm. Skipping tracker update."
         return 1
     fi
 
