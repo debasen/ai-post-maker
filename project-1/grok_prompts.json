@@ -3741,9 +3741,10 @@
     {
       "id": 372,
       "prompt": "An ultra-realistic, highly detailsd Tom Kha Gai in a ceramic bowl, creamy coconut broth, chicken, mushrooms, lemongrass, steam. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T09:54:30.974158"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/c2f587e7-2dc3-4698-9a91-c1fe62ba9de8",
+      "executed_at": "2026-05-25T00:05:47.062107",
+      "video_url": "https://grok.com/imagine/post/c2f587e7-2dc3-4698-9a91-c1fe62ba9de8"
     },
     {
       "id": 373,
@@ -3836,58 +3837,66 @@
     {
       "id": 384,
       "prompt": "An ultra-realistic, highly detailsd tiramisu crepe cake, many thin layers, mascarpone cream, cocoa dusted, sliced. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T10:04:39.943128"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/cf9f87e6-4b5e-4e76-9ac2-5b6807436d7a",
+      "executed_at": "2026-05-25T00:12:48.782968",
+      "video_url": "https://grok.com/imagine/post/cf9f87e6-4b5e-4e76-9ac2-5b6807436d7a"
     },
     {
       "id": 385,
       "prompt": "An ultra-realistic, highly detailsd roasted butternut squash soup, vibrant orange, coconut swirl, pumpkin seeds, thyme. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T10:14:38.690011"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/5c1c0090-b135-4a53-9b44-624180a39b55",
+      "executed_at": "2026-05-25T00:22:48.921582",
+      "video_url": "https://grok.com/imagine/post/5c1c0090-b135-4a53-9b44-624180a39b55"
     },
     {
       "id": 386,
       "prompt": "An ultra-realistic, highly detailsd chicken satay skewers on a plate, charred chicken, peanut sauce, cucumber relish. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T10:24:39.240806"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/2555538e-9f95-44e9-9176-27c3e1e24d8d",
+      "executed_at": "2026-05-25T00:44:14.469206",
+      "video_url": "https://grok.com/imagine/post/2555538e-9f95-44e9-9176-27c3e1e24d8d"
     },
     {
       "id": 387,
       "prompt": "An ultra-realistic, highly detailsd bang bang shrimp, crispy coated shrimp in creamy orange sauce, lettuce, scallions. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T10:34:30.960354"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/c880e7e6-0cab-47ff-b467-55c4d2492eea",
+      "executed_at": "2026-05-25T00:52:41.318918",
+      "video_url": "https://grok.com/imagine/post/c880e7e6-0cab-47ff-b467-55c4d2492eea"
     },
     {
       "id": 388,
       "prompt": "An ultra-realistic, highly detailsd margherita flatbread, blistered crust, fresh mozzarella, basil, olive oil, simple and fresh. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T10:44:39.406750"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/7cb403bb-bd84-4e32-b7f3-6f9c1b736042",
+      "executed_at": "2026-05-25T01:01:40.239857",
+      "video_url": "https://grok.com/imagine/post/7cb403bb-bd84-4e32-b7f3-6f9c1b736042"
     },
     {
       "id": 389,
       "prompt": "An ultra-realistic, highly detailsd soft shell crab sandwich, crispy crab, remoulade, brioche bun, pickles. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T10:54:33.756388"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/e341b3be-1cdd-4625-b83b-93f54ca60e6f",
+      "executed_at": "2026-05-25T01:11:43.158495",
+      "video_url": "https://grok.com/imagine/post/e341b3be-1cdd-4625-b83b-93f54ca60e6f"
     },
     {
       "id": 390,
       "prompt": "An ultra-realistic, highly detailsd passion fruit cheesecake slice, yellow glaze dripping, graham crust, tropical. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T11:04:42.444945"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/b06e0be1-7502-4d81-92d3-ff67e96ca6f4",
+      "executed_at": "2026-05-25T01:21:38.291218",
+      "video_url": "https://grok.com/imagine/post/b06e0be1-7502-4d81-92d3-ff67e96ca6f4"
     },
     {
       "id": 391,
       "prompt": "An ultra-realistic, highly detailsd chicken pot pie, golden puff pastry lid, steam vents, creamy filling visible. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T11:14:51.258120"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/ad1aa449-7c09-404d-970e-ecff179a4826",
+      "executed_at": "2026-05-25T01:31:37.347535",
+      "video_url": "https://grok.com/imagine/post/ad1aa449-7c09-404d-970e-ecff179a4826"
     },
     {
       "id": 392,
