@@ -17,10 +17,11 @@ WEEKEND_DAYS = {"Saturday", "Sunday"}
 random.seed()
 
 
-def get_project_path(project_id):
+def get_project_path(project_id, platform="facebook"):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     repo_root = os.path.dirname(script_dir)
-    return os.path.join(repo_root, f"project-{project_id}", "schedule.json")
+    filename = "schedule.json" if platform == "facebook" else f"{platform}_schedule.json"
+    return os.path.join(repo_root, f"project-{project_id}", filename)
 
 
 def pick_time(windows=WINDOWS):
@@ -144,11 +145,18 @@ def save_schedule(path, schedule):
 
 def main():
     if len(sys.argv) < 3 or sys.argv[1] != "--project":
-        print("Usage: generate_reel_schedule.py --project <1|2>", file=sys.stderr)
+        print("Usage: generate_reel_schedule.py --project <1|2> [--platform <facebook|youtube>]", file=sys.stderr)
         sys.exit(1)
 
     project_id = sys.argv[2]
-    schedule_path = get_project_path(project_id)
+    
+    platform = "facebook"
+    if "--platform" in sys.argv:
+        idx = sys.argv.index("--platform")
+        if idx + 1 < len(sys.argv):
+            platform = sys.argv[idx + 1]
+
+    schedule_path = get_project_path(project_id, platform)
 
     existing = load_schedule(schedule_path)
     if existing is not None and not all_scheduled(existing):

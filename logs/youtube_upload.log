@@ -1,0 +1,940 @@
+[2026-05-27 09:43:48] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
+[2026-05-27 09:43:48] [INFO] Starting automation for project 1
+[2026-05-27 09:43:48] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-27 09:43:48] [INFO] Checking BrowserOS health...
+
+[2026-05-27 09:43:49] [CMD] browseros-cli health 
+[2026-05-27 09:43:49] [EXIT] 0
+[2026-05-27 09:43:49] [OUT] ---
+Server: ok
+CDP:    connected
+[2026-05-27 09:43:49] [OUT] ---
+[2026-05-27 09:43:49] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-27 09:43:49] [DEBUG] Retry attempt 1/3: bos_health
+
+[2026-05-27 09:43:50] [CMD] browseros-cli health 
+[2026-05-27 09:43:50] [EXIT] 0
+[2026-05-27 09:43:50] [OUT] ---
+Server: ok
+CDP:    connected
+[2026-05-27 09:43:50] [OUT] ---
+[2026-05-27 09:43:50] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-27 09:43:50] [INFO] BrowserOS is healthy
+[2026-05-27 09:43:50] [INFO] ========================================
+[2026-05-27 09:43:50] [INFO]   Phase 1: Identify Project and Asset
+[2026-05-27 09:43:50] [INFO] ========================================
+[2026-05-27 09:43:50] [INFO] Fetching mapped post for project 1...
+[2026-05-27 09:43:50] [DEBUG] get_mapped_post exit=0 output='ID: 2
+Caption: 🍰 Signature NY Style Strawberry Cheesecake 🍓
+Recipe: 
+Ingredients: 🥨 1.5 cups graham cracker crumbs, 🧈 1/2 cup melted butter, 🧀 4 blocks (32oz) cream cheese, 🍬 1 cup sugar, 🥚 4 large eggs, 🍦 1 tbsp vanilla extract, 🥛 1/2 cup sour cream. Topping: 🍓 1 cup fresh strawberries, 🍬 1/4 cup sugar, 🧪 1 tsp cornstarch. 
+Steps: 🥧 Press crumbs and butter into a springform pan; bake at 350°F for 10 mins. 🥣 Beat room-temp cream cheese and sugar until smooth. 🥚 Add eggs one at a time, then vanilla and sour cream. ⏲️ Pour onto crust and bake at 325°F in a water bath for 60-70 mins. ❄️ Chill for 6 hours. 🍓 Top with simmered and cooled strawberry glaze.
+#cheesecake #strawberrycheesecake #dessert #baking #sweettooth #nyccheesecake #homemade 🍰✨'
+[2026-05-27 09:43:50] [INFO] Asset ID: 2
+[2026-05-27 09:43:50] [INFO] Title length: 44 chars
+[2026-05-27 09:43:50] [INFO] Description length: 689 chars
+[2026-05-27 09:43:50] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/2.mp4
+[2026-05-27 09:43:50] [INFO] ========================================
+[2026-05-27 09:43:50] [INFO]   Phase 2: Open YouTube Upload Page
+[2026-05-27 09:43:50] [INFO] ========================================
+[2026-05-27 09:43:50] [INFO] Opening new page: https://www.youtube.com/upload
+
+[2026-05-27 09:43:52] [CMD] browseros-cli open https://www.youtube.com/upload --json
+[2026-05-27 09:43:52] [EXIT] 0
+[2026-05-27 09:43:52] [OUT] ---
+{"background":false,"hidden":false,"pageId":76,"url":"https://www.youtube.com/upload"}
+[2026-05-27 09:43:52] [OUT] ---
+[2026-05-27 09:43:52] [INFO] Page opened with ID: 76
+[2026-05-27 09:43:57] [INFO] Page loaded successfully
+[2026-05-27 09:43:57] [INFO] ========================================
+[2026-05-27 09:43:57] [INFO]   Phase 3: Upload the Video File
+[2026-05-27 09:43:57] [INFO] ========================================
+[2026-05-27 09:43:57] [INFO] Exposing hidden file input...
+
+[2026-05-27 09:43:58] [CMD] browseros-cli eval -p 76 document.querySelectorAll('input[type="file"]').forEach((i, idx) => { i.removeAttribute('aria-hidden'); i.style.display='block'; i.style.visibility='visible'; i.style.opacity='1'; i.style.position='static'; i.style.width='100px'; i.style.height='50px'; i.style.zIndex='999999'; i.title='Upload Video File'; });
+[2026-05-27 09:43:58] [EXIT] 0
+[2026-05-27 09:43:58] [OUT] ---
+undefined
+[2026-05-27 09:43:58] [OUT] ---
+[2026-05-27 09:44:00] [INFO] Taking snapshot to find file input...
+
+[2026-05-27 09:44:01] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:01] [EXIT] 0
+[2026-05-27 09:44:01] [OUT] ---
+[326] menuitem "Dashboard"
+[345] menuitem "Content"
+[365] menuitem "Analytics"
+[384] menuitem "Community"
+[403] menuitem "Subtitles"
+[422] menuitem "Content detection"
+[441] menuitem "Earn"
+[460] menuitem "Customization"
+[479] menuitem "Audio library"
+[504] button "Settings"
+[517] button "Send feedback"
+[565] tab "Inspiration"
+[568] tab "Videos" (selected)
+[570] tab "Shorts"
+[573] tab "Live"
+[576] tab "Playlists"
+[579] tab "Podcasts"
+[582] tab "Promotions"
+[588] tab "Collaborations"
+[11] textbox "Filter"
+[789] checkbox
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Close"
+[1534] button "Select files"
+[1539] button "Choose Files"
+[1543] link "Terms of Service"
+[1544] link "Community Guidelines"
+[1548] link "Learn more"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2026-05-27 09:44:01] [OUT] ---
+
+[2026-05-27 09:44:02] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:02] [EXIT] 0
+[2026-05-27 09:44:02] [OUT] ---
+[326] menuitem "Dashboard"
+[345] menuitem "Content"
+[365] menuitem "Analytics"
+[384] menuitem "Community"
+[403] menuitem "Subtitles"
+[422] menuitem "Content detection"
+[441] menuitem "Earn"
+[460] menuitem "Customization"
+[479] menuitem "Audio library"
+[504] button "Settings"
+[517] button "Send feedback"
+[565] tab "Inspiration"
+[568] tab "Videos" (selected)
+[570] tab "Shorts"
+[573] tab "Live"
+[576] tab "Playlists"
+[579] tab "Podcasts"
+[582] tab "Promotions"
+[588] tab "Collaborations"
+[11] textbox "Filter"
+[789] checkbox
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Close"
+[1534] button "Select files"
+[1539] button "Choose Files"
+[1543] link "Terms of Service"
+[1544] link "Community Guidelines"
+[1548] link "Learn more"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2026-05-27 09:44:02] [OUT] ---
+
+[2026-05-27 09:44:03] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:03] [EXIT] 0
+[2026-05-27 09:44:03] [OUT] ---
+[326] menuitem "Dashboard"
+[345] menuitem "Content"
+[365] menuitem "Analytics"
+[384] menuitem "Community"
+[403] menuitem "Subtitles"
+[422] menuitem "Content detection"
+[441] menuitem "Earn"
+[460] menuitem "Customization"
+[479] menuitem "Audio library"
+[504] button "Settings"
+[517] button "Send feedback"
+[565] tab "Inspiration"
+[568] tab "Videos" (selected)
+[570] tab "Shorts"
+[573] tab "Live"
+[576] tab "Playlists"
+[579] tab "Podcasts"
+[582] tab "Promotions"
+[588] tab "Collaborations"
+[11] textbox "Filter"
+[789] checkbox
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Close"
+[1534] button "Select files"
+[1539] button "Choose Files"
+[1543] link "Terms of Service"
+[1544] link "Community Guidelines"
+[1548] link "Learn more"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2026-05-27 09:44:03] [OUT] ---
+[2026-05-27 09:44:03] [INFO] Attempting upload to ref: 1539...
+
+[2026-05-27 09:44:04] [CMD] browseros-cli upload -p 76 1539 /Users/dsen/Projects/ai-post-maker/project-1/assets/2.mp4
+[2026-05-27 09:44:04] [EXIT] 0
+[2026-05-27 09:44:04] [OUT] ---
+Set 1 file(s) on [1539]
+[2026-05-27 09:44:04] [OUT] ---
+[2026-05-27 09:44:09] [INFO] Waiting for 'Details' screen to appear...
+
+[2026-05-27 09:44:11] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:11] [EXIT] 0
+[2026-05-27 09:44:11] [OUT] ---
+[1501] button "Close"
+[2171] tab "Details" (selected)
+[2182] tab "Video elements"
+[2193] tab "Checks"
+[2204] tab "Visibility"
+[1968] button "Reuse details"
+[2284] textbox "Add a title that describes your video (type @ to mention a channel)" value="2" (required)
+[2511] button "Add all"
+[2397] button "Options"
+[2797] button "Personalized suggestion illustration #appetizer"
+[2807] button "Personalized suggestion illustration #cheesypull"
+[2817] button "Personalized suggestion illustration #gameday"
+[2027] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2247] link "Learn more about playlists"
+[2253] button "Select playlists"
+[2257] button "Select"
+[2080] link "What's content made for kids?"
+[2087] link "Learn more about video's audience settings"
+[2090] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2094] link "Learn more"
+[2095] radio "No, it's not made for kids"
+[2012] button "Age restriction (advanced)"
+[2168] button "Show advanced settings"
+[2230] link "https://youtube.com/shorts/ao4ckV7mquY"
+[2233] button "Copy video link"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2400] clickable "The following suggestions were automatically generated based on your existing content. You can add
+  and edit them to help viewers discover, understand, and engage with your content."
+[2089] clickable "Yes, it's made for kids.
+          Features like personalized ads and notifications won’t be availab"
+[2026-05-27 09:44:11] [OUT] ---
+[2026-05-27 09:44:11] [INFO] Video uploaded and Details screen reached
+[2026-05-27 09:44:11] [INFO] ========================================
+[2026-05-27 09:44:11] [INFO]   Phase 4: Fill Details
+[2026-05-27 09:44:11] [INFO] ========================================
+[2026-05-27 09:44:11] [INFO] Finding Title field...
+
+[2026-05-27 09:44:12] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:12] [EXIT] 0
+[2026-05-27 09:44:12] [OUT] ---
+[1501] button "Close"
+[2171] tab "Details" (selected)
+[2182] tab "Video elements"
+[2193] tab "Checks"
+[2204] tab "Visibility"
+[1968] button "Reuse details"
+[2284] textbox "Add a title that describes your video (type @ to mention a channel)" value="2" (required)
+[2511] button "Add all"
+[2397] button "Options"
+[2797] button "Personalized suggestion illustration #appetizer"
+[2807] button "Personalized suggestion illustration #cheesypull"
+[2817] button "Personalized suggestion illustration #gameday"
+[2027] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2247] link "Learn more about playlists"
+[2253] button "Select playlists"
+[2257] button "Select"
+[2080] link "What's content made for kids?"
+[2087] link "Learn more about video's audience settings"
+[2090] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2094] link "Learn more"
+[2095] radio "No, it's not made for kids"
+[2012] button "Age restriction (advanced)"
+[2168] button "Show advanced settings"
+[2230] link "https://youtube.com/shorts/ao4ckV7mquY"
+[2233] button "Copy video link"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2400] clickable "The following suggestions were automatically generated based on your existing content. You can add
+  and edit them to help viewers discover, understand, and engage with your content."
+[2089] clickable "Yes, it's made for kids.
+          Features like personalized ads and notifications won’t be availab"
+[2026-05-27 09:44:12] [OUT] ---
+[2026-05-27 09:44:12] [INFO] Filling Title...
+
+[2026-05-27 09:44:14] [CMD] browseros-cli fill -p 76 2284 🍰 Signature NY Style Strawberry Cheesecake 🍓
+[2026-05-27 09:44:14] [EXIT] 0
+[2026-05-27 09:44:14] [OUT] ---
+Typed 46 characters into [2284] at (472, 229)
+[2026-05-27 09:44:14] [OUT] ---
+[2026-05-27 09:44:16] [INFO] Finding Description field...
+
+[2026-05-27 09:44:17] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:17] [EXIT] 0
+[2026-05-27 09:44:17] [OUT] ---
+[1501] button "Save and close"
+[2171] tab "Details" (selected)
+[2182] tab "Video elements"
+[2193] tab "Checks"
+[2204] tab "Visibility"
+[1968] button "Reuse details"
+[2284] textbox "Add a title that describes your video (type @ to mention a channel)" value="🍰 Signature NY Style Strawberry Cheesecake 🍓" (required)
+[2511] button "Add all"
+[2397] button "Options"
+[2797] button "Personalized suggestion illustration #appetizer"
+[2807] button "Personalized suggestion illustration #cheesypull"
+[2817] button "Personalized suggestion illustration #gameday"
+[2027] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2247] link "Learn more about playlists"
+[2253] button "Select playlists"
+[2257] button "Select"
+[2080] link "What's content made for kids?"
+[2087] link "Learn more about video's audience settings"
+[2090] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2094] link "Learn more"
+[2095] radio "No, it's not made for kids"
+[2012] button "Age restriction (advanced)"
+[2168] button "Show advanced settings"
+[2230] link "https://youtube.com/shorts/ao4ckV7mquY"
+[2233] button "Copy video link"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2400] clickable "The following suggestions were automatically generated based on your existing content. You can add
+  and edit them to help viewers discover, understand, and engage with your content."
+[2089] clickable "Yes, it's made for kids.
+          Features like personalized ads and notifications won’t be availab"
+[2026-05-27 09:44:17] [OUT] ---
+[2026-05-27 09:44:17] [INFO] Filling Description...
+
+[2026-05-27 09:44:20] [CMD] browseros-cli fill -p 76 2027 Recipe: 
+Ingredients: 🥨 1.5 cups graham cracker crumbs, 🧈 1/2 cup melted butter, 🧀 4 blocks (32oz) cream cheese, 🍬 1 cup sugar, 🥚 4 large eggs, 🍦 1 tbsp vanilla extract, 🥛 1/2 cup sour cream. Topping: 🍓 1 cup fresh strawberries, 🍬 1/4 cup sugar, 🧪 1 tsp cornstarch. 
+Steps: 🥧 Press crumbs and butter into a springform pan; bake at 350°F for 10 mins. 🥣 Beat room-temp cream cheese and sugar until smooth. 🥚 Add eggs one at a time, then vanilla and sour cream. ⏲️ Pour onto crust and bake at 325°F in a water bath for 60-70 mins. ❄️ Chill for 6 hours. 🍓 Top with simmered and cooled strawberry glaze.
+#cheesecake #strawberrycheesecake #dessert #baking #sweettooth #nyccheesecake #homemade 🍰✨
+[2026-05-27 09:44:20] [EXIT] 0
+[2026-05-27 09:44:20] [OUT] ---
+Typed 704 characters into [2027] at (472, 490)
+[2026-05-27 09:44:20] [OUT] ---
+[2026-05-27 09:44:22] [INFO] Selecting 'Not made for kids'...
+
+[2026-05-27 09:44:23] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:23] [EXIT] 0
+[2026-05-27 09:44:23] [OUT] ---
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Save and close"
+[2171] tab "Details" (selected)
+[2182] tab "Video elements"
+[2193] tab "Checks"
+[2204] tab "Visibility"
+[1968] button "Reuse details"
+[2284] textbox "Add a title that describes your video (type @ to mention a channel)" value="🍰 Signature NY Style Strawberry Cheesecake 🍓" (required)
+[2027] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
+Ingredients: 🥨 1.5 cups graham cracker crumbs, 🧈 1/2 cup melted butter, 🧀 4 blocks (32oz) cream cheese, 🍬 1 cup sugar, 🥚 4 large eggs, 🍦 1 tbsp vanilla extract, 🥛 1/2 cup sour cream. Topping: 🍓 1 cup fresh strawberries, 🍬 1/4 cup sugar, 🧪 1 tsp cornstarch. 
+Steps: 🥧 Press crumbs and butter into a springform pan; bake at 350°F for 10 mins. 🥣 Beat room-temp cream cheese and sugar until smooth. 🥚 Add eggs one at a time, then vanilla and sour cream. ⏲️ Pour onto crust and bake at 325°F in a water bath for 60-70 mins. ❄️ Chill for 6 hours. 🍓 Top with simmered and cooled strawberry glaze.
+#cheesecake #strawberrycheesecake #dessert #baking #sweettooth #nyccheesecake #homemade 🍰✨
+"
+[2247] link "Learn more about playlists"
+[2253] button "Select playlists"
+[2257] button "Select"
+[2080] link "What's content made for kids?"
+[2087] link "Learn more about video's audience settings"
+[2090] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2094] link "Learn more"
+[2095] radio "No, it's not made for kids"
+[2012] button "Age restriction (advanced)"
+[2168] button "Show advanced settings"
+[2230] link "https://youtube.com/shorts/ao4ckV7mquY"
+[2233] button "Copy video link"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2089] clickable "Yes, it's made for kids.
+          Features like personalized ads and notifications won’t be availab"
+[2026-05-27 09:44:23] [OUT] ---
+
+[2026-05-27 09:44:24] [CMD] browseros-cli click -p 76 2095
+[2026-05-27 09:44:24] [EXIT] 0
+[2026-05-27 09:44:24] [OUT] ---
+Clicked [2095] at (303, 464)
+[2026-05-27 09:44:24] [OUT] ---
+[2026-05-27 09:44:24] [INFO] Selected 'Not made for kids'
+[2026-05-27 09:44:26] [INFO] ========================================
+[2026-05-27 09:44:26] [INFO]   Phase 5: Navigate to Visibility Screen
+[2026-05-27 09:44:26] [INFO] ========================================
+
+[2026-05-27 09:44:28] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:28] [EXIT] 0
+[2026-05-27 09:44:28] [OUT] ---
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Save and close"
+[2171] tab "Details" (selected)
+[2182] tab "Video elements"
+[2193] tab "Checks"
+[2204] tab "Visibility"
+[1968] button "Reuse details"
+[2284] textbox "Add a title that describes your video (type @ to mention a channel)" value="🍰 Signature NY Style Strawberry Cheesecake 🍓" (required)
+[2027] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
+Ingredients: 🥨 1.5 cups graham cracker crumbs, 🧈 1/2 cup melted butter, 🧀 4 blocks (32oz) cream cheese, 🍬 1 cup sugar, 🥚 4 large eggs, 🍦 1 tbsp vanilla extract, 🥛 1/2 cup sour cream. Topping: 🍓 1 cup fresh strawberries, 🍬 1/4 cup sugar, 🧪 1 tsp cornstarch. 
+Steps: 🥧 Press crumbs and butter into a springform pan; bake at 350°F for 10 mins. 🥣 Beat room-temp cream cheese and sugar until smooth. 🥚 Add eggs one at a time, then vanilla and sour cream. ⏲️ Pour onto crust and bake at 325°F in a water bath for 60-70 mins. ❄️ Chill for 6 hours. 🍓 Top with simmered and cooled strawberry glaze.
+#cheesecake #strawberrycheesecake #dessert #baking #sweettooth #nyccheesecake #homemade 🍰✨
+"
+[2247] link "Learn more about playlists"
+[2253] button "Select playlists"
+[2257] button "Select"
+[2080] link "What's content made for kids?"
+[2087] link "Learn more about video's audience settings"
+[2090] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2094] link "Learn more"
+[2095] radio "No, it's not made for kids"
+[2012] button "Age restriction (advanced)"
+[2168] button "Show advanced settings"
+[2230] link "https://youtube.com/shorts/ao4ckV7mquY"
+[2233] button "Copy video link"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2089] clickable "Yes, it's made for kids.
+          Features like personalized ads and notifications won’t be availab"
+[2026-05-27 09:44:28] [OUT] ---
+[2026-05-27 09:44:28] [INFO] Clicking Next (1/3)...
+
+[2026-05-27 09:44:29] [CMD] browseros-cli click -p 76 1596
+[2026-05-27 09:44:29] [EXIT] 0
+[2026-05-27 09:44:29] [OUT] ---
+Clicked [1596] at (1061, 697)
+[2026-05-27 09:44:29] [OUT] ---
+
+[2026-05-27 09:44:33] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:33] [EXIT] 0
+[2026-05-27 09:44:33] [OUT] ---
+[403] menuitem "Subtitles"
+[422] menuitem "Content detection"
+[441] menuitem "Earn"
+[460] menuitem "Customization"
+[479] menuitem "Audio library"
+[504] button "Settings"
+[517] button "Send feedback"
+[565] tab "Inspiration"
+[568] tab "Videos" (selected)
+[570] tab "Shorts"
+[573] tab "Live"
+[576] tab "Playlists"
+[579] tab "Podcasts"
+[582] tab "Promotions"
+[588] tab "Collaborations"
+[11] textbox "Filter"
+[789] checkbox
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Save and close"
+[2171] tab "Details"
+[2182] tab "Video elements" (selected)
+[2193] tab "Checks"
+[2204] tab "Visibility"
+[10971] link "Learn more"
+[11209] button "Add"
+[11015] button "Add" (disabled)
+[1589] button "Back"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2026-05-27 09:44:33] [OUT] ---
+
+[2026-05-27 09:44:34] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:34] [EXIT] 0
+[2026-05-27 09:44:34] [OUT] ---
+[403] menuitem "Subtitles"
+[422] menuitem "Content detection"
+[441] menuitem "Earn"
+[460] menuitem "Customization"
+[479] menuitem "Audio library"
+[504] button "Settings"
+[517] button "Send feedback"
+[565] tab "Inspiration"
+[568] tab "Videos" (selected)
+[570] tab "Shorts"
+[573] tab "Live"
+[576] tab "Playlists"
+[579] tab "Podcasts"
+[582] tab "Promotions"
+[588] tab "Collaborations"
+[11] textbox "Filter"
+[789] checkbox
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Save and close"
+[2171] tab "Details"
+[2182] tab "Video elements" (selected)
+[2193] tab "Checks"
+[2204] tab "Visibility"
+[10971] link "Learn more"
+[11209] button "Add"
+[11015] button "Add" (disabled)
+[1589] button "Back"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[2026-05-27 09:44:34] [OUT] ---
+[2026-05-27 09:44:34] [INFO] Clicking Next (2/3)...
+
+[2026-05-27 09:44:35] [CMD] browseros-cli click -p 76 1596
+[2026-05-27 09:44:35] [EXIT] 0
+[2026-05-27 09:44:35] [OUT] ---
+Clicked [1596] at (1061, 697)
+[2026-05-27 09:44:35] [OUT] ---
+
+[2026-05-27 09:44:39] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:39] [EXIT] 0
+[2026-05-27 09:44:39] [OUT] ---
+[441] menuitem "Earn"
+[460] menuitem "Customization"
+[479] menuitem "Audio library"
+[504] button "Settings"
+[517] button "Send feedback"
+[565] tab "Inspiration"
+[568] tab "Videos" (selected)
+[570] tab "Shorts"
+[573] tab "Live"
+[576] tab "Playlists"
+[579] tab "Podcasts"
+[582] tab "Promotions"
+[588] tab "Collaborations"
+[11] textbox "Filter"
+[789] checkbox
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Save and close"
+[2171] tab "Details"
+[2182] tab "Video elements"
+[2193] tab "Checks" (selected)
+[2204] tab "Visibility"
+[11396] link "Learn more"
+[11440] link "Learn more"
+[11408] button "Send feedback"
+[1589] button "Back"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[11407] clickable "Send feedback"
+[11409] clickable "Send feedback"
+[2026-05-27 09:44:39] [OUT] ---
+
+[2026-05-27 09:44:40] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:40] [EXIT] 0
+[2026-05-27 09:44:40] [OUT] ---
+[441] menuitem "Earn"
+[460] menuitem "Customization"
+[479] menuitem "Audio library"
+[504] button "Settings"
+[517] button "Send feedback"
+[565] tab "Inspiration"
+[568] tab "Videos" (selected)
+[570] tab "Shorts"
+[573] tab "Live"
+[576] tab "Playlists"
+[579] tab "Podcasts"
+[582] tab "Promotions"
+[588] tab "Collaborations"
+[11] textbox "Filter"
+[789] checkbox
+[902] button "Sort by Date"
+[939] button "Sort by Views"
+[1489] button "Send Feedback"
+[1501] button "Save and close"
+[2171] tab "Details"
+[2182] tab "Video elements"
+[2193] tab "Checks" (selected)
+[2204] tab "Visibility"
+[11396] link "Learn more"
+[11440] link "Learn more"
+[11408] button "Send feedback"
+[1589] button "Back"
+[1596] button "Next"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[11407] clickable "Send feedback"
+[11409] clickable "Send feedback"
+[2026-05-27 09:44:40] [OUT] ---
+[2026-05-27 09:44:40] [INFO] Clicking Next (3/3)...
+
+[2026-05-27 09:44:41] [CMD] browseros-cli click -p 76 1596
+[2026-05-27 09:44:41] [EXIT] 0
+[2026-05-27 09:44:41] [OUT] ---
+Clicked [1596] at (1061, 697)
+[2026-05-27 09:44:41] [OUT] ---
+
+[2026-05-27 09:44:45] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:45] [EXIT] 0
+[2026-05-27 09:44:45] [OUT] ---
+[11814] radio "Private"
+[11824] radio "Unlisted"
+[11833] radio "Public"
+[11545] button "Click to expand"
+[11480] link "Learn more"
+[11485] link "Learn more"
+[11767] button "Play"
+[11770] button "Mute"
+[11596] slider "volume"
+[11774] button "Settings"
+[11799] button "Full screen"
+[11513] link "https://youtube.com/shorts/ao4ckV7mquY"
+[11516] button "Copy video link"
+[1589] button "Back"
+[1603] button "Save"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[11556] clickable "Private
+          
+
+          
+          
+            
+              Only you and people you choose "
+[11539] clickable "Schedule
+      
+        
+          Select a date to make your video public.
+        
+      
+      
+ "
+[2026-05-27 09:44:45] [OUT] ---
+[2026-05-27 09:44:45] [INFO] Reached Visibility screen
+[2026-05-27 09:44:45] [INFO] ========================================
+[2026-05-27 09:44:45] [INFO]   Phase 6: Select Public Visibility
+[2026-05-27 09:44:45] [INFO] ========================================
+[2026-05-27 09:44:45] [INFO] Selecting 'Public' radio button...
+
+[2026-05-27 09:44:46] [CMD] browseros-cli snap -p 76
+[2026-05-27 09:44:46] [EXIT] 0
+[2026-05-27 09:44:46] [OUT] ---
+[11814] radio "Private"
+[11824] radio "Unlisted"
+[11833] radio "Public"
+[11545] button "Click to expand"
+[11480] link "Learn more"
+[11485] link "Learn more"
+[11767] button "Play"
+[11770] button "Mute"
+[11596] slider "volume"
+[11774] button "Settings"
+[11799] button "Full screen"
+[11513] link "https://youtube.com/shorts/ao4ckV7mquY"
+[11516] button "Copy video link"
+[1589] button "Back"
+[1603] button "Save"
+[546] clickable "Inspiration
+        
+
+
+  
+      Videos
+    
+
+
+  
+        Shorts
+      
+
+
+  
+        Live
+      
+
+
+  "
+[11556] clickable "Private
+          
+
+          
+          
+            
+              Only you and people you choose "
+[11539] clickable "Schedule
+      
+        
+          Select a date to make your video public.
+        
+      
+      
+ "
+[2026-05-27 09:44:46] [OUT] ---
+
+[2026-05-27 09:44:47] [CMD] browseros-cli click -p 76 11833
+[2026-05-27 09:44:47] [EXIT] 0
+[2026-05-27 09:44:47] [OUT] ---
+Clicked [11833] at (292, 469)
+[2026-05-27 09:44:47] [OUT] ---
+[2026-05-27 09:44:49] [INFO] ========================================
+[2026-05-27 09:44:49] [INFO]   Phase 7: Manual Review / Publish
+[2026-05-27 09:44:49] [INFO] ========================================
+[2026-05-27 09:44:49] [INFO] 
+[2026-05-27 09:44:49] [INFO] ============================================
+[2026-05-27 09:44:49] [INFO]   MANUAL REVIEW REQUIRED
+[2026-05-27 09:44:49] [INFO] ============================================
+[2026-05-27 09:44:49] [INFO]   Asset ID: 2
+[2026-05-27 09:44:49] [INFO]   Project:  project-1
+[2026-05-27 09:44:49] [INFO]   Status:   Ready to publish
+[2026-05-27 09:44:49] [INFO] 
+[2026-05-27 09:44:49] [INFO]   Please review the video in the browser.
+[2026-05-27 09:44:49] [INFO]   DO NOT proceed until you manually click
+[2026-05-27 09:44:49] [INFO]   the 'Publish' button and confirm success.
+[2026-05-27 09:44:49] [INFO] ============================================
+[2026-05-27 09:44:49] [INFO] 
+[2026-05-27 09:45:36] [INFO] ========================================
+[2026-05-27 09:45:36] [INFO]   Phase 8: Mark Record as Done
+[2026-05-27 09:45:36] [INFO] ========================================
+[2026-05-27 09:45:36] [INFO] Marking asset 2 as uploaded for youtube...
+[2026-05-27 09:45:36] [DEBUG] Tracker output: {"success": true, "id": "2", "platform": "youtube"}
+[2026-05-27 09:45:36] [INFO] Record 2 marked as uploaded for youtube in project-1/grok_prompts.json
+[2026-05-27 09:45:36] [INFO] ========================================
+[2026-05-27 09:45:36] [INFO]   Phase 9: Close Browser Tab
+[2026-05-27 09:45:36] [INFO] ========================================
+
+[2026-05-27 09:45:38] [CMD] browseros-cli close -p 76
+[2026-05-27 09:45:38] [EXIT] 0
+[2026-05-27 09:45:38] [OUT] ---
+Closed page 76
+[2026-05-27 09:45:38] [OUT] ---
+[2026-05-27 09:45:38] [INFO] Browser tab closed
+[2026-05-27 09:45:38] [INFO] ========================================
+[2026-05-27 09:45:38] [INFO]   Complete
+[2026-05-27 09:45:38] [INFO] ========================================
+[2026-05-27 09:45:38] [INFO] YouTube upload workflow finished for project-1
+[2026-05-27 09:45:38] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
