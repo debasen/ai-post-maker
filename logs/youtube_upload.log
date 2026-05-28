@@ -1,66 +1,66 @@
-[2026-05-27 21:54:38] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
-[2026-05-27 21:54:38] [INFO] Starting automation for project 1
-[2026-05-27 21:54:38] [INFO] Timeout: 300s, Max retries: 3
-[2026-05-27 21:54:38] [INFO] Checking BrowserOS health...
+[2026-05-28 11:55:56] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
+[2026-05-28 11:55:56] [INFO] Starting automation for project 1
+[2026-05-28 11:55:56] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-28 11:55:56] [INFO] Checking BrowserOS health...
 
-[2026-05-27 21:54:39] [CMD] browseros-cli health 
-[2026-05-27 21:54:39] [EXIT] 0
-[2026-05-27 21:54:39] [OUT] ---
+[2026-05-28 11:55:57] [CMD] browseros-cli health 
+[2026-05-28 11:55:57] [EXIT] 0
+[2026-05-28 11:55:57] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-27 21:54:39] [OUT] ---
-[2026-05-27 21:54:39] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-05-27 21:54:39] [DEBUG] Retry attempt 1/3: bos_health
+[2026-05-28 11:55:57] [OUT] ---
+[2026-05-28 11:55:57] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-28 11:55:57] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-05-27 21:54:40] [CMD] browseros-cli health 
-[2026-05-27 21:54:40] [EXIT] 0
-[2026-05-27 21:54:40] [OUT] ---
+[2026-05-28 11:55:57] [CMD] browseros-cli health 
+[2026-05-28 11:55:57] [EXIT] 0
+[2026-05-28 11:55:57] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-27 21:54:40] [OUT] ---
-[2026-05-27 21:54:40] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-05-27 21:54:40] [INFO] BrowserOS is healthy
-[2026-05-27 21:54:40] [INFO] ========================================
-[2026-05-27 21:54:40] [INFO]   Phase 1: Identify Project and Asset
-[2026-05-27 21:54:40] [INFO] ========================================
-[2026-05-27 21:54:40] [INFO] Fetching mapped post for project 1...
-[2026-05-27 21:54:40] [DEBUG] get_mapped_post exit=0 output='ID: 3
-Caption: 🦐 Garlic Butter Sizzling Jumbo Shrimp 🧄
+[2026-05-28 11:55:57] [OUT] ---
+[2026-05-28 11:55:57] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-28 11:55:57] [INFO] BrowserOS is healthy
+[2026-05-28 11:55:57] [INFO] ========================================
+[2026-05-28 11:55:57] [INFO]   Phase 1: Identify Project and Asset
+[2026-05-28 11:55:57] [INFO] ========================================
+[2026-05-28 11:55:57] [INFO] Fetching mapped post for project 1...
+[2026-05-28 11:55:58] [DEBUG] get_mapped_post exit=0 output='ID: 4
+Caption: 🍗 The Ultimate Crispy Fried Chicken Sandwich 🥪
 Recipe: 
-Ingredients: 🦐 1 lb jumbo shrimp (peeled and deveined), 🧈 4 tbsp unsalted butter, 🧄 4 cloves minced garlic, 🌶️ 1/2 tsp crushed red pepper flakes, 🌿 2 tbsp fresh chopped parsley, 🍋 1 tbsp lemon juice, and zest of half a lemon. 
-Steps: 🧽 Pat shrimp dry and season with salt and pepper. 🧈 Melt butter in a large skillet over medium-high heat. 🧄 Add garlic and red pepper flakes; sauté for 1 minute until fragrant. 🔥 Add shrimp and cook for 2 minutes per side until pink and opaque. 🍋 Toss in lemon juice, zest, and parsley. 🥘 Serve immediately while sizzling.
-#shrimp #seafood #garlicbutter #easyrecipes #dinnerideas #keto #lowcarb #garlicshrimp 🍤🔥'
-[2026-05-27 21:54:40] [INFO] Asset ID: 3
-[2026-05-27 21:54:40] [INFO] Title length: 39 chars
-[2026-05-27 21:54:40] [INFO] Description length: 654 chars
-[2026-05-27 21:54:40] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/3.mp4
-[2026-05-27 21:54:40] [INFO] ========================================
-[2026-05-27 21:54:40] [INFO]   Phase 2: Open YouTube Upload Page
-[2026-05-27 21:54:40] [INFO] ========================================
-[2026-05-27 21:54:40] [INFO] Opening new page: https://www.youtube.com/upload
+Ingredients: 🍗 2 boneless chicken breasts, 🥛 1 cup buttermilk, 🌾 1 cup flour, 🌽 1/2 cup cornstarch, 🌶️ spices (paprika, garlic powder, onion powder, cayenne), 🍞 2 brioche buns, 🥒 crinkle-cut pickles, and 🌶️ spicy chipotle mayo. 
+Steps: 🥣 Marinate chicken in buttermilk for at least 2 hours. 🌾 Dredge in a mixture of flour, cornstarch, and spices, pressing the coating onto the meat. 🔥 Deep fry in 350°F oil for 6-8 minutes until golden and 165°F internal. 🍞 Toast buns with butter, spread spicy mayo, add a heap of pickles, and the crispy chicken.
+#chickensandwich #friedchicken #crispychicken #comfortfood #burger #foodporn #crispy 🍔🔥'
+[2026-05-28 11:55:58] [INFO] Asset ID: 4
+[2026-05-28 11:55:58] [INFO] Title length: 46 chars
+[2026-05-28 11:55:58] [INFO] Description length: 644 chars
+[2026-05-28 11:55:58] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/4.mp4
+[2026-05-28 11:55:58] [INFO] ========================================
+[2026-05-28 11:55:58] [INFO]   Phase 2: Open YouTube Upload Page
+[2026-05-28 11:55:58] [INFO] ========================================
+[2026-05-28 11:55:58] [INFO] Opening new page: https://www.youtube.com/upload
 
-[2026-05-27 21:54:41] [CMD] browseros-cli open https://www.youtube.com/upload --json
-[2026-05-27 21:54:41] [EXIT] 0
-[2026-05-27 21:54:41] [OUT] ---
-{"background":false,"hidden":false,"pageId":81,"url":"https://www.youtube.com/upload"}
-[2026-05-27 21:54:41] [OUT] ---
-[2026-05-27 21:54:41] [INFO] Page opened with ID: 81
-[2026-05-27 21:54:46] [INFO] Page loaded successfully
-[2026-05-27 21:54:46] [INFO] ========================================
-[2026-05-27 21:54:46] [INFO]   Phase 3: Upload the Video File
-[2026-05-27 21:54:46] [INFO] ========================================
-[2026-05-27 21:54:46] [INFO] Exposing hidden file input...
+[2026-05-28 11:55:59] [CMD] browseros-cli open https://www.youtube.com/upload --json
+[2026-05-28 11:55:59] [EXIT] 0
+[2026-05-28 11:55:59] [OUT] ---
+{"background":false,"hidden":false,"pageId":166,"url":"https://www.youtube.com/upload"}
+[2026-05-28 11:55:59] [OUT] ---
+[2026-05-28 11:55:59] [INFO] Page opened with ID: 166
+[2026-05-28 11:56:04] [INFO] Page loaded successfully
+[2026-05-28 11:56:04] [INFO] ========================================
+[2026-05-28 11:56:04] [INFO]   Phase 3: Upload the Video File
+[2026-05-28 11:56:04] [INFO] ========================================
+[2026-05-28 11:56:04] [INFO] Exposing hidden file input...
 
-[2026-05-27 21:54:47] [CMD] browseros-cli eval -p 81 document.querySelectorAll('input[type="file"]').forEach((i, idx) => { i.removeAttribute('aria-hidden'); i.style.display='block'; i.style.visibility='visible'; i.style.opacity='1'; i.style.position='static'; i.style.width='100px'; i.style.height='50px'; i.style.zIndex='999999'; i.title='Upload Video File'; });
-[2026-05-27 21:54:47] [EXIT] 0
-[2026-05-27 21:54:47] [OUT] ---
+[2026-05-28 11:56:05] [CMD] browseros-cli eval -p 166 document.querySelectorAll('input[type="file"]').forEach((i, idx) => { i.removeAttribute('aria-hidden'); i.style.display='block'; i.style.visibility='visible'; i.style.opacity='1'; i.style.position='static'; i.style.width='100px'; i.style.height='50px'; i.style.zIndex='999999'; i.title='Upload Video File'; });
+[2026-05-28 11:56:05] [EXIT] 0
+[2026-05-28 11:56:05] [OUT] ---
 undefined
-[2026-05-27 21:54:47] [OUT] ---
-[2026-05-27 21:54:49] [INFO] Taking snapshot to find file input...
+[2026-05-28 11:56:05] [OUT] ---
+[2026-05-28 11:56:07] [INFO] Taking snapshot to find file input...
 
-[2026-05-27 21:54:50] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:54:50] [EXIT] 0
-[2026-05-27 21:54:50] [OUT] ---
+[2026-05-28 11:56:08] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:08] [EXIT] 0
+[2026-05-28 11:56:08] [OUT] ---
 [326] menuitem "Dashboard"
 [345] menuitem "Content"
 [365] menuitem "Analytics"
@@ -111,11 +111,11 @@ undefined
 
 
   "
-[2026-05-27 21:54:50] [OUT] ---
+[2026-05-28 11:56:08] [OUT] ---
 
-[2026-05-27 21:54:51] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:54:51] [EXIT] 0
-[2026-05-27 21:54:51] [OUT] ---
+[2026-05-28 11:56:09] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:09] [EXIT] 0
+[2026-05-28 11:56:09] [OUT] ---
 [326] menuitem "Dashboard"
 [345] menuitem "Content"
 [365] menuitem "Analytics"
@@ -166,11 +166,11 @@ undefined
 
 
   "
-[2026-05-27 21:54:51] [OUT] ---
+[2026-05-28 11:56:09] [OUT] ---
 
-[2026-05-27 21:54:53] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:54:53] [EXIT] 0
-[2026-05-27 21:54:53] [OUT] ---
+[2026-05-28 11:56:10] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:10] [EXIT] 0
+[2026-05-28 11:56:10] [OUT] ---
 [326] menuitem "Dashboard"
 [345] menuitem "Content"
 [365] menuitem "Analytics"
@@ -221,44 +221,44 @@ undefined
 
 
   "
-[2026-05-27 21:54:53] [OUT] ---
-[2026-05-27 21:54:53] [INFO] Attempting upload to ref: 1541...
+[2026-05-28 11:56:10] [OUT] ---
+[2026-05-28 11:56:10] [INFO] Attempting upload to ref: 1541...
 
-[2026-05-27 21:54:54] [CMD] browseros-cli upload -p 81 1541 /Users/dsen/Projects/ai-post-maker/project-1/assets/3.mp4
-[2026-05-27 21:54:54] [EXIT] 0
-[2026-05-27 21:54:54] [OUT] ---
+[2026-05-28 11:56:11] [CMD] browseros-cli upload -p 166 1541 /Users/dsen/Projects/ai-post-maker/project-1/assets/4.mp4
+[2026-05-28 11:56:11] [EXIT] 0
+[2026-05-28 11:56:11] [OUT] ---
 Set 1 file(s) on [1541]
-[2026-05-27 21:54:54] [OUT] ---
-[2026-05-27 21:54:59] [INFO] Waiting for 'Details' screen to appear...
+[2026-05-28 11:56:11] [OUT] ---
+[2026-05-28 11:56:16] [INFO] Waiting for 'Details' screen to appear...
 
-[2026-05-27 21:55:00] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:00] [EXIT] 0
-[2026-05-27 21:55:00] [OUT] ---
+[2026-05-28 11:56:17] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:17] [EXIT] 0
+[2026-05-28 11:56:17] [OUT] ---
 [1503] button "Close"
-[2151] tab "Details" (selected)
-[2162] tab "Video elements"
-[2173] tab "Checks"
-[2184] tab "Visibility"
-[1955] button "Reuse details"
-[2264] textbox "Add a title that describes your video (type @ to mention a channel)" value="3" (required)
-[2476] button "Add all"
-[2377] button "Options"
-[2804] button "Personalized suggestion illustration #appetizer"
-[2814] button "Personalized suggestion illustration #baking"
-[2824] button "Personalized suggestion illustration #cheesecake"
-[2014] textbox "Tell viewers about your video (type @ to mention a channel)"
-[2227] link "Learn more about playlists"
-[2233] button "Select playlists"
-[2237] button "Select"
-[2060] link "What's content made for kids?"
-[2067] link "Learn more about video's audience settings"
-[2070] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2074] link "Learn more"
-[2075] radio "No, it's not made for kids"
-[1999] button "Age restriction (advanced)"
-[2148] button "Show advanced settings"
-[2210] link "https://youtube.com/shorts/crcC6rRrt9Y"
-[2213] button "Copy video link"
+[2168] tab "Details" (selected)
+[2179] tab "Video elements"
+[2190] tab "Checks"
+[2201] tab "Visibility"
+[1965] button "Reuse details"
+[2281] textbox "Add a title that describes your video (type @ to mention a channel)" value="4" (required)
+[2508] button "Add all"
+[2394] button "Options"
+[2798] button "Personalized suggestion illustration #appetizer"
+[2808] button "Personalized suggestion illustration #baking"
+[2818] button "Personalized suggestion illustration #cheesecake"
+[2024] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2244] link "Learn more about playlists"
+[2250] button "Select playlists"
+[2254] button "Select"
+[2077] link "What's content made for kids?"
+[2084] link "Learn more about video's audience settings"
+[2087] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2091] link "Learn more"
+[2092] radio "No, it's not made for kids"
+[2009] button "Age restriction (advanced)"
+[2165] button "Show advanced settings"
+[2227] link "https://youtube.com/shorts/x1Zz_XKZVPk"
+[2230] button "Copy video link"
 [1598] button "Next"
 [546] clickable "Inspiration
         
@@ -280,45 +280,45 @@ Set 1 file(s) on [1541]
 
 
   "
-[2380] clickable "The following suggestions were automatically generated based on your existing content. You can add
+[2397] clickable "The following suggestions were automatically generated based on your existing content. You can add
   and edit them to help viewers discover, understand, and engage with your content."
-[2069] clickable "Yes, it's made for kids.
+[2086] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-05-27 21:55:00] [OUT] ---
-[2026-05-27 21:55:00] [INFO] Video uploaded and Details screen reached
-[2026-05-27 21:55:00] [INFO] ========================================
-[2026-05-27 21:55:00] [INFO]   Phase 4: Fill Details
-[2026-05-27 21:55:00] [INFO] ========================================
-[2026-05-27 21:55:00] [INFO] Finding Title field...
+[2026-05-28 11:56:17] [OUT] ---
+[2026-05-28 11:56:17] [INFO] Video uploaded and Details screen reached
+[2026-05-28 11:56:17] [INFO] ========================================
+[2026-05-28 11:56:17] [INFO]   Phase 4: Fill Details
+[2026-05-28 11:56:17] [INFO] ========================================
+[2026-05-28 11:56:17] [INFO] Finding Title field...
 
-[2026-05-27 21:55:01] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:01] [EXIT] 0
-[2026-05-27 21:55:01] [OUT] ---
+[2026-05-28 11:56:18] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:18] [EXIT] 0
+[2026-05-28 11:56:18] [OUT] ---
 [1503] button "Close"
-[2151] tab "Details" (selected)
-[2162] tab "Video elements"
-[2173] tab "Checks"
-[2184] tab "Visibility"
-[1955] button "Reuse details"
-[2264] textbox "Add a title that describes your video (type @ to mention a channel)" value="3" (required)
-[2476] button "Add all"
-[2377] button "Options"
-[2804] button "Personalized suggestion illustration #appetizer"
-[2814] button "Personalized suggestion illustration #baking"
-[2824] button "Personalized suggestion illustration #cheesecake"
-[2014] textbox "Tell viewers about your video (type @ to mention a channel)"
-[2227] link "Learn more about playlists"
-[2233] button "Select playlists"
-[2237] button "Select"
-[2060] link "What's content made for kids?"
-[2067] link "Learn more about video's audience settings"
-[2070] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2074] link "Learn more"
-[2075] radio "No, it's not made for kids"
-[1999] button "Age restriction (advanced)"
-[2148] button "Show advanced settings"
-[2210] link "https://youtube.com/shorts/crcC6rRrt9Y"
-[2213] button "Copy video link"
+[2168] tab "Details" (selected)
+[2179] tab "Video elements"
+[2190] tab "Checks"
+[2201] tab "Visibility"
+[1965] button "Reuse details"
+[2281] textbox "Add a title that describes your video (type @ to mention a channel)" value="4" (required)
+[2508] button "Add all"
+[2394] button "Options"
+[2798] button "Personalized suggestion illustration #appetizer"
+[2808] button "Personalized suggestion illustration #baking"
+[2818] button "Personalized suggestion illustration #cheesecake"
+[2024] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2244] link "Learn more about playlists"
+[2250] button "Select playlists"
+[2254] button "Select"
+[2077] link "What's content made for kids?"
+[2084] link "Learn more about video's audience settings"
+[2087] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2091] link "Learn more"
+[2092] radio "No, it's not made for kids"
+[2009] button "Age restriction (advanced)"
+[2165] button "Show advanced settings"
+[2227] link "https://youtube.com/shorts/x1Zz_XKZVPk"
+[2230] button "Copy video link"
 [1598] button "Next"
 [546] clickable "Inspiration
         
@@ -340,48 +340,48 @@ Set 1 file(s) on [1541]
 
 
   "
-[2380] clickable "The following suggestions were automatically generated based on your existing content. You can add
+[2397] clickable "The following suggestions were automatically generated based on your existing content. You can add
   and edit them to help viewers discover, understand, and engage with your content."
-[2069] clickable "Yes, it's made for kids.
+[2086] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-05-27 21:55:01] [OUT] ---
-[2026-05-27 21:55:01] [INFO] Filling Title...
+[2026-05-28 11:56:18] [OUT] ---
+[2026-05-28 11:56:18] [INFO] Filling Title...
 
-[2026-05-27 21:55:03] [CMD] browseros-cli fill -p 81 2264 🦐 Garlic Butter Sizzling Jumbo Shrimp 🧄
-[2026-05-27 21:55:03] [EXIT] 0
-[2026-05-27 21:55:03] [OUT] ---
-Typed 41 characters into [2264] at (472, 229)
-[2026-05-27 21:55:03] [OUT] ---
-[2026-05-27 21:55:05] [INFO] Finding Description field...
+[2026-05-28 11:56:19] [CMD] browseros-cli fill -p 166 2281 🍗 The Ultimate Crispy Fried Chicken Sandwich 🥪
+[2026-05-28 11:56:19] [EXIT] 0
+[2026-05-28 11:56:19] [OUT] ---
+Typed 48 characters into [2281] at (472, 229)
+[2026-05-28 11:56:19] [OUT] ---
+[2026-05-28 11:56:21] [INFO] Finding Description field...
 
-[2026-05-27 21:55:07] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:07] [EXIT] 0
-[2026-05-27 21:55:07] [OUT] ---
+[2026-05-28 11:56:22] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:22] [EXIT] 0
+[2026-05-28 11:56:22] [OUT] ---
 [1503] button "Save and close"
-[2151] tab "Details" (selected)
-[2162] tab "Video elements"
-[2173] tab "Checks"
-[2184] tab "Visibility"
-[1955] button "Reuse details"
-[2264] textbox "Add a title that describes your video (type @ to mention a channel)" value="🦐 Garlic Butter Sizzling Jumbo Shrimp 🧄" (required)
-[2476] button "Add all"
-[2377] button "Options"
-[2804] button "Personalized suggestion illustration #appetizer"
-[2814] button "Personalized suggestion illustration #baking"
-[2824] button "Personalized suggestion illustration #cheesecake"
-[2014] textbox "Tell viewers about your video (type @ to mention a channel)"
-[2227] link "Learn more about playlists"
-[2233] button "Select playlists"
-[2237] button "Select"
-[2060] link "What's content made for kids?"
-[2067] link "Learn more about video's audience settings"
-[2070] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2074] link "Learn more"
-[2075] radio "No, it's not made for kids"
-[1999] button "Age restriction (advanced)"
-[2148] button "Show advanced settings"
-[2210] link "https://youtube.com/shorts/crcC6rRrt9Y"
-[2213] button "Copy video link"
+[2168] tab "Details" (selected)
+[2179] tab "Video elements"
+[2190] tab "Checks"
+[2201] tab "Visibility"
+[1965] button "Reuse details"
+[2281] textbox "Add a title that describes your video (type @ to mention a channel)" value="🍗 The Ultimate Crispy Fried Chicken Sandwich 🥪" (required)
+[2508] button "Add all"
+[2394] button "Options"
+[2798] button "Personalized suggestion illustration #appetizer"
+[2808] button "Personalized suggestion illustration #baking"
+[2818] button "Personalized suggestion illustration #cheesecake"
+[2024] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2244] link "Learn more about playlists"
+[2250] button "Select playlists"
+[2254] button "Select"
+[2077] link "What's content made for kids?"
+[2084] link "Learn more about video's audience settings"
+[2087] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2091] link "Learn more"
+[2092] radio "No, it's not made for kids"
+[2009] button "Age restriction (advanced)"
+[2165] button "Show advanced settings"
+[2227] link "https://youtube.com/shorts/x1Zz_XKZVPk"
+[2230] button "Copy video link"
 [1598] button "Next"
 [546] clickable "Inspiration
         
@@ -403,53 +403,53 @@ Typed 41 characters into [2264] at (472, 229)
 
 
   "
-[2380] clickable "The following suggestions were automatically generated based on your existing content. You can add
+[2397] clickable "The following suggestions were automatically generated based on your existing content. You can add
   and edit them to help viewers discover, understand, and engage with your content."
-[2069] clickable "Yes, it's made for kids.
+[2086] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-05-27 21:55:07] [OUT] ---
-[2026-05-27 21:55:07] [INFO] Filling Description...
+[2026-05-28 11:56:22] [OUT] ---
+[2026-05-28 11:56:22] [INFO] Filling Description...
 
-[2026-05-27 21:55:10] [CMD] browseros-cli fill -p 81 2014 Recipe: 
-Ingredients: 🦐 1 lb jumbo shrimp (peeled and deveined), 🧈 4 tbsp unsalted butter, 🧄 4 cloves minced garlic, 🌶️ 1/2 tsp crushed red pepper flakes, 🌿 2 tbsp fresh chopped parsley, 🍋 1 tbsp lemon juice, and zest of half a lemon. 
-Steps: 🧽 Pat shrimp dry and season with salt and pepper. 🧈 Melt butter in a large skillet over medium-high heat. 🧄 Add garlic and red pepper flakes; sauté for 1 minute until fragrant. 🔥 Add shrimp and cook for 2 minutes per side until pink and opaque. 🍋 Toss in lemon juice, zest, and parsley. 🥘 Serve immediately while sizzling.
-#shrimp #seafood #garlicbutter #easyrecipes #dinnerideas #keto #lowcarb #garlicshrimp 🍤🔥
-[2026-05-27 21:55:10] [EXIT] 0
-[2026-05-27 21:55:10] [OUT] ---
-Typed 668 characters into [2014] at (472, 490)
-[2026-05-27 21:55:10] [OUT] ---
-[2026-05-27 21:55:12] [INFO] Selecting 'Not made for kids'...
+[2026-05-28 11:56:26] [CMD] browseros-cli fill -p 166 2024 Recipe: 
+Ingredients: 🍗 2 boneless chicken breasts, 🥛 1 cup buttermilk, 🌾 1 cup flour, 🌽 1/2 cup cornstarch, 🌶️ spices (paprika, garlic powder, onion powder, cayenne), 🍞 2 brioche buns, 🥒 crinkle-cut pickles, and 🌶️ spicy chipotle mayo. 
+Steps: 🥣 Marinate chicken in buttermilk for at least 2 hours. 🌾 Dredge in a mixture of flour, cornstarch, and spices, pressing the coating onto the meat. 🔥 Deep fry in 350°F oil for 6-8 minutes until golden and 165°F internal. 🍞 Toast buns with butter, spread spicy mayo, add a heap of pickles, and the crispy chicken.
+#chickensandwich #friedchicken #crispychicken #comfortfood #burger #foodporn #crispy 🍔🔥
+[2026-05-28 11:56:26] [EXIT] 0
+[2026-05-28 11:56:26] [OUT] ---
+Typed 658 characters into [2024] at (472, 490)
+[2026-05-28 11:56:26] [OUT] ---
+[2026-05-28 11:56:28] [INFO] Selecting 'Not made for kids'...
 
-[2026-05-27 21:55:13] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:13] [EXIT] 0
-[2026-05-27 21:55:13] [OUT] ---
+[2026-05-28 11:56:30] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:30] [EXIT] 0
+[2026-05-28 11:56:30] [OUT] ---
 [902] button "Sort by Date"
 [939] button "Sort by Views"
 [1491] button "Send Feedback"
 [1503] button "Save and close"
-[2151] tab "Details" (selected)
-[2162] tab "Video elements"
-[2173] tab "Checks"
-[2184] tab "Visibility"
-[1955] button "Reuse details"
-[2264] textbox "Add a title that describes your video (type @ to mention a channel)" value="🦐 Garlic Butter Sizzling Jumbo Shrimp 🧄" (required)
-[2014] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
-Ingredients: 🦐 1 lb jumbo shrimp (peeled and deveined), 🧈 4 tbsp unsalted butter, 🧄 4 cloves minced garlic, 🌶️ 1/2 tsp crushed red pepper flakes, 🌿 2 tbsp fresh chopped parsley, 🍋 1 tbsp lemon juice, and zest of half a lemon. 
-Steps: 🧽 Pat shrimp dry and season with salt and pepper. 🧈 Melt butter in a large skillet over medium-high heat. 🧄 Add garlic and red pepper flakes; sauté for 1 minute until fragrant. 🔥 Add shrimp and cook for 2 minutes per side until pink and opaque. 🍋 Toss in lemon juice, zest, and parsley. 🥘 Serve immediately while sizzling.
-#shrimp #seafood #garlicbutter #easyrecipes #dinnerideas #keto #lowcarb #garlicshrimp 🍤🔥
+[2168] tab "Details" (selected)
+[2179] tab "Video elements"
+[2190] tab "Checks"
+[2201] tab "Visibility"
+[1965] button "Reuse details"
+[2281] textbox "Add a title that describes your video (type @ to mention a channel)" value="🍗 The Ultimate Crispy Fried Chicken Sandwich 🥪" (required)
+[2024] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
+Ingredients: 🍗 2 boneless chicken breasts, 🥛 1 cup buttermilk, 🌾 1 cup flour, 🌽 1/2 cup cornstarch, 🌶️ spices (paprika, garlic powder, onion powder, cayenne), 🍞 2 brioche buns, 🥒 crinkle-cut pickles, and 🌶️ spicy chipotle mayo. 
+Steps: 🥣 Marinate chicken in buttermilk for at least 2 hours. 🌾 Dredge in a mixture of flour, cornstarch, and spices, pressing the coating onto the meat. 🔥 Deep fry in 350°F oil for 6-8 minutes until golden and 165°F internal. 🍞 Toast buns with butter, spread spicy mayo, add a heap of pickles, and the crispy chicken.
+#chickensandwich #friedchicken #crispychicken #comfortfood #burger #foodporn #crispy 🍔🔥
 "
-[2227] link "Learn more about playlists"
-[2233] button "Select playlists"
-[2237] button "Select"
-[2060] link "What's content made for kids?"
-[2067] link "Learn more about video's audience settings"
-[2070] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2074] link "Learn more"
-[2075] radio "No, it's not made for kids"
-[1999] button "Age restriction (advanced)"
-[2148] button "Show advanced settings"
-[2210] link "https://youtube.com/shorts/crcC6rRrt9Y"
-[2213] button "Copy video link"
+[2244] link "Learn more about playlists"
+[2250] button "Select playlists"
+[2254] button "Select"
+[2077] link "What's content made for kids?"
+[2084] link "Learn more about video's audience settings"
+[2087] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2091] link "Learn more"
+[2092] radio "No, it's not made for kids"
+[2009] button "Age restriction (advanced)"
+[2165] button "Show advanced settings"
+[2227] link "https://youtube.com/shorts/x1Zz_XKZVPk"
+[2230] button "Copy video link"
 [1598] button "Next"
 [546] clickable "Inspiration
         
@@ -471,50 +471,50 @@ Steps: 🧽 Pat shrimp dry and season with salt and pepper. 🧈 Melt butter in 
 
 
   "
-[2069] clickable "Yes, it's made for kids.
+[2086] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-05-27 21:55:13] [OUT] ---
+[2026-05-28 11:56:30] [OUT] ---
 
-[2026-05-27 21:55:14] [CMD] browseros-cli click -p 81 2075
-[2026-05-27 21:55:14] [EXIT] 0
-[2026-05-27 21:55:14] [OUT] ---
-Clicked [2075] at (303, 464)
-[2026-05-27 21:55:14] [OUT] ---
-[2026-05-27 21:55:15] [INFO] Selected 'Not made for kids'
-[2026-05-27 21:55:17] [INFO] ========================================
-[2026-05-27 21:55:17] [INFO]   Phase 5: Navigate to Visibility Screen
-[2026-05-27 21:55:17] [INFO] ========================================
+[2026-05-28 11:56:31] [CMD] browseros-cli click -p 166 2092
+[2026-05-28 11:56:31] [EXIT] 0
+[2026-05-28 11:56:31] [OUT] ---
+Clicked [2092] at (303, 464)
+[2026-05-28 11:56:31] [OUT] ---
+[2026-05-28 11:56:31] [INFO] Selected 'Not made for kids'
+[2026-05-28 11:56:33] [INFO] ========================================
+[2026-05-28 11:56:33] [INFO]   Phase 5: Navigate to Visibility Screen
+[2026-05-28 11:56:33] [INFO] ========================================
 
-[2026-05-27 21:55:17] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:17] [EXIT] 0
-[2026-05-27 21:55:17] [OUT] ---
+[2026-05-28 11:56:34] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:34] [EXIT] 0
+[2026-05-28 11:56:34] [OUT] ---
 [902] button "Sort by Date"
 [939] button "Sort by Views"
 [1491] button "Send Feedback"
 [1503] button "Save and close"
-[2151] tab "Details" (selected)
-[2162] tab "Video elements"
-[2173] tab "Checks"
-[2184] tab "Visibility"
-[1955] button "Reuse details"
-[2264] textbox "Add a title that describes your video (type @ to mention a channel)" value="🦐 Garlic Butter Sizzling Jumbo Shrimp 🧄" (required)
-[2014] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
-Ingredients: 🦐 1 lb jumbo shrimp (peeled and deveined), 🧈 4 tbsp unsalted butter, 🧄 4 cloves minced garlic, 🌶️ 1/2 tsp crushed red pepper flakes, 🌿 2 tbsp fresh chopped parsley, 🍋 1 tbsp lemon juice, and zest of half a lemon. 
-Steps: 🧽 Pat shrimp dry and season with salt and pepper. 🧈 Melt butter in a large skillet over medium-high heat. 🧄 Add garlic and red pepper flakes; sauté for 1 minute until fragrant. 🔥 Add shrimp and cook for 2 minutes per side until pink and opaque. 🍋 Toss in lemon juice, zest, and parsley. 🥘 Serve immediately while sizzling.
-#shrimp #seafood #garlicbutter #easyrecipes #dinnerideas #keto #lowcarb #garlicshrimp 🍤🔥
+[2168] tab "Details" (selected)
+[2179] tab "Video elements"
+[2190] tab "Checks"
+[2201] tab "Visibility"
+[1965] button "Reuse details"
+[2281] textbox "Add a title that describes your video (type @ to mention a channel)" value="🍗 The Ultimate Crispy Fried Chicken Sandwich 🥪" (required)
+[2024] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
+Ingredients: 🍗 2 boneless chicken breasts, 🥛 1 cup buttermilk, 🌾 1 cup flour, 🌽 1/2 cup cornstarch, 🌶️ spices (paprika, garlic powder, onion powder, cayenne), 🍞 2 brioche buns, 🥒 crinkle-cut pickles, and 🌶️ spicy chipotle mayo. 
+Steps: 🥣 Marinate chicken in buttermilk for at least 2 hours. 🌾 Dredge in a mixture of flour, cornstarch, and spices, pressing the coating onto the meat. 🔥 Deep fry in 350°F oil for 6-8 minutes until golden and 165°F internal. 🍞 Toast buns with butter, spread spicy mayo, add a heap of pickles, and the crispy chicken.
+#chickensandwich #friedchicken #crispychicken #comfortfood #burger #foodporn #crispy 🍔🔥
 "
-[2227] link "Learn more about playlists"
-[2233] button "Select playlists"
-[2237] button "Select"
-[2060] link "What's content made for kids?"
-[2067] link "Learn more about video's audience settings"
-[2070] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2074] link "Learn more"
-[2075] radio "No, it's not made for kids"
-[1999] button "Age restriction (advanced)"
-[2148] button "Show advanced settings"
-[2210] link "https://youtube.com/shorts/crcC6rRrt9Y"
-[2213] button "Copy video link"
+[2244] link "Learn more about playlists"
+[2250] button "Select playlists"
+[2254] button "Select"
+[2077] link "What's content made for kids?"
+[2084] link "Learn more about video's audience settings"
+[2087] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2091] link "Learn more"
+[2092] radio "No, it's not made for kids"
+[2009] button "Age restriction (advanced)"
+[2165] button "Show advanced settings"
+[2227] link "https://youtube.com/shorts/x1Zz_XKZVPk"
+[2230] button "Copy video link"
 [1598] button "Next"
 [546] clickable "Inspiration
         
@@ -536,20 +536,20 @@ Steps: 🧽 Pat shrimp dry and season with salt and pepper. 🧈 Melt butter in 
 
 
   "
-[2069] clickable "Yes, it's made for kids.
+[2086] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-05-27 21:55:17] [OUT] ---
-[2026-05-27 21:55:17] [INFO] Clicking Next (1/3)...
+[2026-05-28 11:56:34] [OUT] ---
+[2026-05-28 11:56:34] [INFO] Clicking Next (1/3)...
 
-[2026-05-27 21:55:19] [CMD] browseros-cli click -p 81 1598
-[2026-05-27 21:55:19] [EXIT] 0
-[2026-05-27 21:55:19] [OUT] ---
+[2026-05-28 11:56:35] [CMD] browseros-cli click -p 166 1598
+[2026-05-28 11:56:35] [EXIT] 0
+[2026-05-28 11:56:35] [OUT] ---
 Clicked [1598] at (1061, 697)
-[2026-05-27 21:55:19] [OUT] ---
+[2026-05-28 11:56:35] [OUT] ---
 
-[2026-05-27 21:55:23] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:23] [EXIT] 0
-[2026-05-27 21:55:23] [OUT] ---
+[2026-05-28 11:56:39] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:39] [EXIT] 0
+[2026-05-28 11:56:39] [OUT] ---
 [403] menuitem "Subtitles"
 [422] menuitem "Content detection"
 [441] menuitem "Earn"
@@ -571,13 +571,13 @@ Clicked [1598] at (1061, 697)
 [939] button "Sort by Views"
 [1491] button "Send Feedback"
 [1503] button "Save and close"
-[2151] tab "Details"
-[2162] tab "Video elements" (selected)
-[2173] tab "Checks"
-[2184] tab "Visibility"
-[11638] link "Learn more"
-[11876] button "Add"
-[11682] button "Add" (disabled)
+[2168] tab "Details"
+[2179] tab "Video elements" (selected)
+[2190] tab "Checks"
+[2201] tab "Visibility"
+[11268] link "Learn more"
+[11506] button "Add"
+[11312] button "Add" (disabled)
 [1591] button "Back"
 [1598] button "Next"
 [546] clickable "Inspiration
@@ -600,11 +600,11 @@ Clicked [1598] at (1061, 697)
 
 
   "
-[2026-05-27 21:55:23] [OUT] ---
+[2026-05-28 11:56:39] [OUT] ---
 
-[2026-05-27 21:55:24] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:24] [EXIT] 0
-[2026-05-27 21:55:24] [OUT] ---
+[2026-05-28 11:56:40] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:40] [EXIT] 0
+[2026-05-28 11:56:40] [OUT] ---
 [403] menuitem "Subtitles"
 [422] menuitem "Content detection"
 [441] menuitem "Earn"
@@ -626,13 +626,13 @@ Clicked [1598] at (1061, 697)
 [939] button "Sort by Views"
 [1491] button "Send Feedback"
 [1503] button "Save and close"
-[2151] tab "Details"
-[2162] tab "Video elements" (selected)
-[2173] tab "Checks"
-[2184] tab "Visibility"
-[11638] link "Learn more"
-[11876] button "Add"
-[11682] button "Add" (disabled)
+[2168] tab "Details"
+[2179] tab "Video elements" (selected)
+[2190] tab "Checks"
+[2201] tab "Visibility"
+[11268] link "Learn more"
+[11506] button "Add"
+[11312] button "Add" (disabled)
 [1591] button "Back"
 [1598] button "Next"
 [546] clickable "Inspiration
@@ -655,18 +655,18 @@ Clicked [1598] at (1061, 697)
 
 
   "
-[2026-05-27 21:55:24] [OUT] ---
-[2026-05-27 21:55:24] [INFO] Clicking Next (2/3)...
+[2026-05-28 11:56:40] [OUT] ---
+[2026-05-28 11:56:40] [INFO] Clicking Next (2/3)...
 
-[2026-05-27 21:55:25] [CMD] browseros-cli click -p 81 1598
-[2026-05-27 21:55:25] [EXIT] 0
-[2026-05-27 21:55:25] [OUT] ---
+[2026-05-28 11:56:41] [CMD] browseros-cli click -p 166 1598
+[2026-05-28 11:56:41] [EXIT] 0
+[2026-05-28 11:56:41] [OUT] ---
 Clicked [1598] at (1061, 697)
-[2026-05-27 21:55:25] [OUT] ---
+[2026-05-28 11:56:41] [OUT] ---
 
-[2026-05-27 21:55:30] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:30] [EXIT] 0
-[2026-05-27 21:55:30] [OUT] ---
+[2026-05-28 11:56:45] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:45] [EXIT] 0
+[2026-05-28 11:56:45] [OUT] ---
 [441] menuitem "Earn"
 [460] menuitem "Customization"
 [479] menuitem "Audio library"
@@ -686,13 +686,13 @@ Clicked [1598] at (1061, 697)
 [939] button "Sort by Views"
 [1491] button "Send Feedback"
 [1503] button "Save and close"
-[2151] tab "Details"
-[2162] tab "Video elements"
-[2173] tab "Checks" (selected)
-[2184] tab "Visibility"
-[12021] link "Learn more"
-[12066] link "Learn more"
-[12033] button "Send feedback"
+[2168] tab "Details"
+[2179] tab "Video elements"
+[2190] tab "Checks" (selected)
+[2201] tab "Visibility"
+[11646] link "Learn more"
+[11691] link "Learn more"
+[11658] button "Send feedback"
 [1591] button "Back"
 [1598] button "Next"
 [546] clickable "Inspiration
@@ -715,13 +715,13 @@ Clicked [1598] at (1061, 697)
 
 
   "
-[12032] clickable "Send feedback"
-[12034] clickable "Send feedback"
-[2026-05-27 21:55:30] [OUT] ---
+[11657] clickable "Send feedback"
+[11659] clickable "Send feedback"
+[2026-05-28 11:56:45] [OUT] ---
 
-[2026-05-27 21:55:30] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:30] [EXIT] 0
-[2026-05-27 21:55:30] [OUT] ---
+[2026-05-28 11:56:46] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:46] [EXIT] 0
+[2026-05-28 11:56:46] [OUT] ---
 [441] menuitem "Earn"
 [460] menuitem "Customization"
 [479] menuitem "Audio library"
@@ -741,13 +741,13 @@ Clicked [1598] at (1061, 697)
 [939] button "Sort by Views"
 [1491] button "Send Feedback"
 [1503] button "Save and close"
-[2151] tab "Details"
-[2162] tab "Video elements"
-[2173] tab "Checks" (selected)
-[2184] tab "Visibility"
-[12021] link "Learn more"
-[12066] link "Learn more"
-[12033] button "Send feedback"
+[2168] tab "Details"
+[2179] tab "Video elements"
+[2190] tab "Checks" (selected)
+[2201] tab "Visibility"
+[11646] link "Learn more"
+[11691] link "Learn more"
+[11658] button "Send feedback"
 [1591] button "Back"
 [1598] button "Next"
 [546] clickable "Inspiration
@@ -770,33 +770,33 @@ Clicked [1598] at (1061, 697)
 
 
   "
-[12032] clickable "Send feedback"
-[12034] clickable "Send feedback"
-[2026-05-27 21:55:30] [OUT] ---
-[2026-05-27 21:55:31] [INFO] Clicking Next (3/3)...
+[11657] clickable "Send feedback"
+[11659] clickable "Send feedback"
+[2026-05-28 11:56:46] [OUT] ---
+[2026-05-28 11:56:46] [INFO] Clicking Next (3/3)...
 
-[2026-05-27 21:55:31] [CMD] browseros-cli click -p 81 1598
-[2026-05-27 21:55:31] [EXIT] 0
-[2026-05-27 21:55:31] [OUT] ---
+[2026-05-28 11:56:47] [CMD] browseros-cli click -p 166 1598
+[2026-05-28 11:56:47] [EXIT] 0
+[2026-05-28 11:56:47] [OUT] ---
 Clicked [1598] at (1061, 697)
-[2026-05-27 21:55:31] [OUT] ---
+[2026-05-28 11:56:47] [OUT] ---
 
-[2026-05-27 21:55:35] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:35] [EXIT] 0
-[2026-05-27 21:55:35] [OUT] ---
-[12509] radio "Private"
-[12519] radio "Unlisted"
-[12528] radio "Public"
-[12240] button "Click to expand"
-[12175] link "Learn more"
-[12180] link "Learn more"
-[12462] button "Play"
-[12465] button "Mute"
-[12291] slider "volume"
-[12469] button "Settings"
-[12494] button "Full screen"
-[12208] link "https://youtube.com/shorts/crcC6rRrt9Y"
-[12211] button "Copy video link"
+[2026-05-28 11:56:51] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:51] [EXIT] 0
+[2026-05-28 11:56:51] [OUT] ---
+[11842] radio "Private"
+[11852] radio "Unlisted"
+[11861] radio "Public"
+[11788] button "Click to expand"
+[11723] link "Learn more"
+[11728] link "Learn more"
+[12134] button "Play"
+[12137] button "Mute"
+[11979] slider "volume"
+[12141] button "Settings"
+[12166] button "Full screen"
+[11756] link "https://youtube.com/shorts/x1Zz_XKZVPk"
+[11759] button "Copy video link"
 [1591] button "Back"
 [1605] button "Save"
 [546] clickable "Inspiration
@@ -819,14 +819,14 @@ Clicked [1598] at (1061, 697)
 
 
   "
-[12251] clickable "Private
+[11799] clickable "Private
           
 
           
           
             
               Only you and people you choose "
-[12234] clickable "Schedule
+[11782] clickable "Schedule
       
         
           Select a date to make your video public.
@@ -834,29 +834,29 @@ Clicked [1598] at (1061, 697)
       
       
  "
-[2026-05-27 21:55:35] [OUT] ---
-[2026-05-27 21:55:35] [INFO] Reached Visibility screen
-[2026-05-27 21:55:35] [INFO] ========================================
-[2026-05-27 21:55:35] [INFO]   Phase 6: Select Public Visibility
-[2026-05-27 21:55:35] [INFO] ========================================
-[2026-05-27 21:55:35] [INFO] Selecting 'Public' radio button...
+[2026-05-28 11:56:51] [OUT] ---
+[2026-05-28 11:56:51] [INFO] Reached Visibility screen
+[2026-05-28 11:56:51] [INFO] ========================================
+[2026-05-28 11:56:51] [INFO]   Phase 6: Select Public Visibility
+[2026-05-28 11:56:51] [INFO] ========================================
+[2026-05-28 11:56:51] [INFO] Selecting 'Public' radio button...
 
-[2026-05-27 21:55:37] [CMD] browseros-cli snap -p 81
-[2026-05-27 21:55:37] [EXIT] 0
-[2026-05-27 21:55:37] [OUT] ---
-[12509] radio "Private"
-[12519] radio "Unlisted"
-[12528] radio "Public"
-[12240] button "Click to expand"
-[12175] link "Learn more"
-[12180] link "Learn more"
-[12462] button "Play"
-[12465] button "Mute"
-[12291] slider "volume"
-[12469] button "Settings"
-[12494] button "Full screen"
-[12208] link "https://youtube.com/shorts/crcC6rRrt9Y"
-[12211] button "Copy video link"
+[2026-05-28 11:56:52] [CMD] browseros-cli snap -p 166
+[2026-05-28 11:56:52] [EXIT] 0
+[2026-05-28 11:56:52] [OUT] ---
+[11842] radio "Private"
+[11852] radio "Unlisted"
+[11861] radio "Public"
+[11788] button "Click to expand"
+[11723] link "Learn more"
+[11728] link "Learn more"
+[12134] button "Play"
+[12137] button "Mute"
+[11979] slider "volume"
+[12141] button "Settings"
+[12166] button "Full screen"
+[11756] link "https://youtube.com/shorts/x1Zz_XKZVPk"
+[11759] button "Copy video link"
 [1591] button "Back"
 [1605] button "Save"
 [546] clickable "Inspiration
@@ -879,14 +879,14 @@ Clicked [1598] at (1061, 697)
 
 
   "
-[12251] clickable "Private
+[11799] clickable "Private
           
 
           
           
             
               Only you and people you choose "
-[12234] clickable "Schedule
+[11782] clickable "Schedule
       
         
           Select a date to make your video public.
@@ -894,47 +894,47 @@ Clicked [1598] at (1061, 697)
       
       
  "
-[2026-05-27 21:55:37] [OUT] ---
+[2026-05-28 11:56:52] [OUT] ---
 
-[2026-05-27 21:55:38] [CMD] browseros-cli click -p 81 12528
-[2026-05-27 21:55:38] [EXIT] 0
-[2026-05-27 21:55:38] [OUT] ---
-Clicked [12528] at (292, 469)
-[2026-05-27 21:55:38] [OUT] ---
-[2026-05-27 21:55:40] [INFO] ========================================
-[2026-05-27 21:55:40] [INFO]   Phase 7: Manual Review / Publish
-[2026-05-27 21:55:40] [INFO] ========================================
-[2026-05-27 21:55:40] [INFO] 
-[2026-05-27 21:55:40] [INFO] ============================================
-[2026-05-27 21:55:40] [INFO]   MANUAL REVIEW REQUIRED
-[2026-05-27 21:55:40] [INFO] ============================================
-[2026-05-27 21:55:40] [INFO]   Asset ID: 3
-[2026-05-27 21:55:40] [INFO]   Project:  project-1
-[2026-05-27 21:55:40] [INFO]   Status:   Ready to publish
-[2026-05-27 21:55:40] [INFO] 
-[2026-05-27 21:55:40] [INFO]   Please review the video in the browser.
-[2026-05-27 21:55:40] [INFO]   DO NOT proceed until you manually click
-[2026-05-27 21:55:40] [INFO]   the 'Publish' button and confirm success.
-[2026-05-27 21:55:40] [INFO] ============================================
-[2026-05-27 21:55:40] [INFO] 
-[2026-05-27 21:56:23] [INFO] ========================================
-[2026-05-27 21:56:23] [INFO]   Phase 8: Mark Record as Done
-[2026-05-27 21:56:24] [INFO] ========================================
-[2026-05-27 21:56:24] [INFO] Marking asset 3 as uploaded for youtube...
-[2026-05-27 21:56:24] [DEBUG] Tracker output: {"success": true, "id": "3", "platform": "youtube"}
-[2026-05-27 21:56:24] [INFO] Record 3 marked as uploaded for youtube in project-1/grok_prompts.json
-[2026-05-27 21:56:24] [INFO] ========================================
-[2026-05-27 21:56:24] [INFO]   Phase 9: Close Browser Tab
-[2026-05-27 21:56:24] [INFO] ========================================
+[2026-05-28 11:56:54] [CMD] browseros-cli click -p 166 11861
+[2026-05-28 11:56:54] [EXIT] 0
+[2026-05-28 11:56:54] [OUT] ---
+Clicked [11861] at (292, 469)
+[2026-05-28 11:56:54] [OUT] ---
+[2026-05-28 11:56:56] [INFO] ========================================
+[2026-05-28 11:56:56] [INFO]   Phase 7: Manual Review / Publish
+[2026-05-28 11:56:56] [INFO] ========================================
+[2026-05-28 11:56:56] [INFO] 
+[2026-05-28 11:56:56] [INFO] ============================================
+[2026-05-28 11:56:56] [INFO]   MANUAL REVIEW REQUIRED
+[2026-05-28 11:56:56] [INFO] ============================================
+[2026-05-28 11:56:56] [INFO]   Asset ID: 4
+[2026-05-28 11:56:56] [INFO]   Project:  project-1
+[2026-05-28 11:56:56] [INFO]   Status:   Ready to publish
+[2026-05-28 11:56:56] [INFO] 
+[2026-05-28 11:56:56] [INFO]   Please review the video in the browser.
+[2026-05-28 11:56:56] [INFO]   DO NOT proceed until you manually click
+[2026-05-28 11:56:56] [INFO]   the 'Publish' button and confirm success.
+[2026-05-28 11:56:56] [INFO] ============================================
+[2026-05-28 11:56:56] [INFO] 
+[2026-05-28 12:33:22] [INFO] ========================================
+[2026-05-28 12:33:22] [INFO]   Phase 8: Mark Record as Done
+[2026-05-28 12:33:22] [INFO] ========================================
+[2026-05-28 12:33:22] [INFO] Marking asset 4 as uploaded for youtube...
+[2026-05-28 12:33:22] [DEBUG] Tracker output: {"success": true, "id": "4", "platform": "youtube"}
+[2026-05-28 12:33:22] [INFO] Record 4 marked as uploaded for youtube in project-1/grok_prompts.json
+[2026-05-28 12:33:22] [INFO] ========================================
+[2026-05-28 12:33:22] [INFO]   Phase 9: Close Browser Tab
+[2026-05-28 12:33:22] [INFO] ========================================
 
-[2026-05-27 21:56:25] [CMD] browseros-cli close -p 81
-[2026-05-27 21:56:25] [EXIT] 0
-[2026-05-27 21:56:25] [OUT] ---
-Closed page 81
-[2026-05-27 21:56:25] [OUT] ---
-[2026-05-27 21:56:25] [INFO] Browser tab closed
-[2026-05-27 21:56:25] [INFO] ========================================
-[2026-05-27 21:56:25] [INFO]   Complete
-[2026-05-27 21:56:25] [INFO] ========================================
-[2026-05-27 21:56:25] [INFO] YouTube upload workflow finished for project-1
-[2026-05-27 21:56:25] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
+[2026-05-28 12:33:23] [CMD] browseros-cli close -p 166
+[2026-05-28 12:33:23] [EXIT] 0
+[2026-05-28 12:33:23] [OUT] ---
+Closed page 166
+[2026-05-28 12:33:23] [OUT] ---
+[2026-05-28 12:33:23] [INFO] Browser tab closed
+[2026-05-28 12:33:23] [INFO] ========================================
+[2026-05-28 12:33:23] [INFO]   Complete
+[2026-05-28 12:33:23] [INFO] ========================================
+[2026-05-28 12:33:23] [INFO] YouTube upload workflow finished for project-1
+[2026-05-28 12:33:23] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log

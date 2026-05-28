@@ -482,8 +482,16 @@ phase_4_video_generation() {
     grok_click_at "$img_x" "$img_y"
     _dry_run_sleep 2
 
-    # In Speed mode, clicking the image does not navigate to a detail page.
-    # The Make video button is available directly on the results page.
+    local current_url
+    current_url=$(grok_get_page_url)
+    if ! echo "$current_url" | grep -q "/post/"; then
+        log INFO "Navigation to detail page via coordinates failed (likely Speed mode). Falling back to JS click on 1st thumbnail..."
+        local js_click
+        js_click="(function() { var el = document.querySelector('$SELECTOR_IMAGE'); if (!el) return false; var clickTarget = el; while(clickTarget && !clickTarget.classList.contains('cursor-pointer')) { clickTarget = clickTarget.parentElement; if (!clickTarget) { clickTarget = el; break; } } clickTarget.click(); return true; })()"
+        grok_eval "$js_click"
+        _dry_run_sleep 2
+    fi
+
     log INFO "Looking for Make video button... selector='$SELECTOR_MAKE_VIDEO'"
     local mv_info
     mv_info=$(grok_find_element "$SELECTOR_MAKE_VIDEO" 30)
