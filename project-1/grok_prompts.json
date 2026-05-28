@@ -4120,9 +4120,9 @@
     {
       "id": 414,
       "prompt": "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": "https://grok.com/imagine",
-      "executed_at": "2026-05-21T15:24:36.790325"
+      "status": "video_failed",
+      "post_url": "Error: Internal error in evaluate_script: CDP error: No target with given id found",
+      "executed_at": "2026-05-28T12:34:23.425285"
     },
     {
       "id": 415,

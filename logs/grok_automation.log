@@ -1012,3 +1012,15 @@ Error: Internal error in take_snapshot: CDP error: No target with given id found
 Error: Internal error in evaluate_script: CDP error: No target with given id found
 [2026-05-28 12:34:13] [OUT] ---
 [2026-05-28 12:34:13] [WARN] Command failed (exit 1): browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-28 12:34:23] [DEBUG] Elapsed: 150s
+[2026-05-28 12:34:23] [DEBUG] phase_5: poll loop ended, video_ready=0 elapsed=150s
+
+[2026-05-28 12:34:23] [CMD] browseros-cli eval -p 170 window.location.href
+[2026-05-28 12:34:23] [EXIT] 1
+[2026-05-28 12:34:23] [OUT] ---
+Error: Internal error in evaluate_script: CDP error: No target with given id found
+[2026-05-28 12:34:23] [OUT] ---
+[2026-05-28 12:34:23] [WARN] Command failed (exit 1): browseros-cli eval -p 170 window.location.href
+[2026-05-28 12:34:23] [DEBUG] phase_5: timeout post_url='Error: Internal error in evaluate_script: CDP error: No target with given id found'
+{"success": true, "id": "414", "status": "video_failed"}
+[2026-05-28 12:34:23] [FATAL] Timeout waiting for video generation
