@@ -64,7 +64,9 @@
       "executed_at": "2026-05-01T23:28:19.798604",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "instagram",
+        "facebook",
+        "youtube"
       ]
     },
     {
@@ -76,7 +78,8 @@
       "executed_at": "2026-05-01T23:37:03.474552",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ]
     },
     {
@@ -109,7 +112,9 @@
       "executed_at": "2026-05-02T00:38:52.939538",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "instagram",
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -313,7 +318,9 @@
       "executed_at": "2026-05-02T02:01:11.543129",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "instagram",
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -376,7 +383,9 @@
       "executed_at": "2026-05-02T07:19:57.753319",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "instagram",
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -397,7 +406,9 @@
       "executed_at": "2026-05-02T07:26:35.365090",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "instagram",
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -740,7 +751,9 @@
       "executed_at": "2026-05-02T09:53:37.174437",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "instagram",
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -823,7 +836,11 @@
       "post_url": "",
       "executed_at": "2026-05-02T17:32:14.394507",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 44,
@@ -893,7 +910,12 @@
       "video_url": "N/A",
       "post_url": "N/A",
       "executed_at": "2026-05-03T17:52:35.370071",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 52,
@@ -972,7 +994,12 @@
       "video_url": "N/A",
       "post_url": "N/A",
       "executed_at": "2026-05-04T00:16:09.713576",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 61,
@@ -1017,7 +1044,12 @@
       "video_url": "N/A",
       "post_url": "N/A",
       "executed_at": "2026-05-04T09:45:47.049604",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 66,
@@ -1062,7 +1094,12 @@
       "video_url": "https://grok.com/imagine/post/8db878d6-42b6-472d-85b5-f0b780fd6c2a",
       "post_url": "DOWNLOADED",
       "executed_at": "2026-05-04T10:40:39.546239",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 71,
@@ -1098,7 +1135,12 @@
       "video_url": "https://grok.com/imagine/post/9133ee7a-6673-4f01-9b52-98cbd63ec46d",
       "post_url": "DOWNLOADED",
       "executed_at": "2026-05-04T12:32:53.507116",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 75,
@@ -1116,7 +1158,12 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/53b08388-60c4-4a5c-b1d5-b9e207c56f1c/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/53b08388-60c4-4a5c-b1d5-b9e207c56f1c",
       "executed_at": "2026-05-04T13:12:09.160602",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 77,
@@ -1143,7 +1190,12 @@
       "video_url": "placeholder",
       "post_url": "placeholder",
       "executed_at": "2026-05-04T14:20:27.343899",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 80,
@@ -1152,7 +1204,12 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/37e77321-c33b-43ff-a9b7-524efe25dc30/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/37e77321-c33b-43ff-a9b7-524efe25dc30",
       "executed_at": "2026-05-04T19:57:13.300067",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 81,
@@ -1242,7 +1299,12 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/64a293ba-4f60-4730-aeec-a28f871ae601/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/64a293ba-4f60-4730-aeec-a28f871ae601",
       "executed_at": "2026-05-04T21:27:16.107840",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 91,
@@ -1331,7 +1393,12 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/a9420ea6-345b-4cb0-8e6c-8d760ce29951/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/a9420ea6-345b-4cb0-8e6c-8d760ce29951",
       "executed_at": "2026-05-05T23:34:11.278514",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 101,
@@ -1349,7 +1416,12 @@
       "video_url": "https://assets.grok.com/users/e5fb508c-d113-4689-8971-711115a7a0e4/generated/f4db3868-a130-4cab-a877-02dd079e048e/generated_video.mp4?cache=1",
       "post_url": "https://grok.com/imagine/post/f4db3868-a130-4cab-a877-02dd079e048e",
       "executed_at": "2026-05-06T10:06:18.109034",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 103,
@@ -1441,7 +1513,12 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/dry-run-test",
       "post_url": "https://grok.com/imagine/post/dry-run-test",
-      "executed_at": "2026-05-06T20:03:41.566867"
+      "executed_at": "2026-05-06T20:03:41.566867",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 114,
@@ -1449,7 +1526,12 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/dry-run-test",
       "post_url": "https://grok.com/imagine/post/dry-run-test",
-      "executed_at": "2026-05-06T20:03:47.084423"
+      "executed_at": "2026-05-06T20:03:47.084423",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 115,
@@ -1475,7 +1557,12 @@
       "video_url": "https://grok.com/imagine/post/136b0f2d-0943-4026-9cde-0b84a5b4d9f5",
       "post_url": "https://grok.com/imagine/post/136b0f2d-0943-4026-9cde-0b84a5b4d9f5",
       "executed_at": "2026-05-07T10:17:14.585089",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 118,
@@ -1538,7 +1625,12 @@
       "video_url": "https://grok.com/imagine/post/d982491d-64bd-41fa-b56a-325c3ee2fcdf",
       "post_url": "https://grok.com/imagine/post/d982491d-64bd-41fa-b56a-325c3ee2fcdf",
       "executed_at": "2026-05-07T19:22:50.969973",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 125,
@@ -1565,7 +1657,12 @@
       "video_url": "https://grok.com/imagine/post/763b1779-cebe-4d03-b5dc-dfaa3d4a2233",
       "post_url": "https://grok.com/imagine/post/763b1779-cebe-4d03-b5dc-dfaa3d4a2233",
       "executed_at": "2026-05-07T13:43:05.126389",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 128,
@@ -1574,7 +1671,12 @@
       "video_url": "https://grok.com/imagine/post/dd30f994-8ab2-4c5b-82b3-e432d49b6712",
       "post_url": "https://grok.com/imagine/post/dd30f994-8ab2-4c5b-82b3-e432d49b6712",
       "executed_at": "2026-05-07T13:51:46.486334",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 129,
@@ -1655,7 +1757,12 @@
       "post_url": "https://grok.com/imagine/post/47c7f76d-abc1-47a8-b81f-c0fa4b1e3371",
       "executed_at": "2026-05-07T20:12:21.135598",
       "video_url": "https://grok.com/imagine/post/47c7f76d-abc1-47a8-b81f-c0fa4b1e3371",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 138,
@@ -1700,7 +1807,12 @@
       "post_url": "https://grok.com/imagine/post/08368aa5-1271-4714-881f-e805f4f68374",
       "executed_at": "2026-05-08T13:52:30.147617",
       "video_url": "https://grok.com/imagine/post/08368aa5-1271-4714-881f-e805f4f68374",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 143,
@@ -1754,7 +1866,12 @@
       "post_url": "https://grok.com/imagine/post/4cbd40df-f197-4ea0-b406-3a2f484a52c6",
       "executed_at": "2026-05-07T20:42:20.488048",
       "video_url": "https://grok.com/imagine/post/4cbd40df-f197-4ea0-b406-3a2f484a52c6",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 149,
@@ -1790,7 +1907,12 @@
       "post_url": "https://grok.com/imagine/post/cc1f0b8c-581a-43a4-9435-93a463279f3f",
       "executed_at": "2026-05-07T21:32:49.268150",
       "video_url": "https://grok.com/imagine/post/cc1f0b8c-581a-43a4-9435-93a463279f3f",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 153,
@@ -1853,7 +1975,12 @@
       "video_url": "https://grok.com/imagine/post/40351665-371b-4633-9468-f4697cdcf16d",
       "post_url": "https://grok.com/imagine/post/40351665-371b-4633-9468-f4697cdcf16d",
       "executed_at": "2026-05-07T19:04:45.589467",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 160,
@@ -2186,7 +2313,12 @@
       "video_url": "https://grok.com/imagine/post/d19bd575-a72d-400a-a0fa-b069120d53d5",
       "post_url": "https://grok.com/imagine/post/d19bd575-a72d-400a-a0fa-b069120d53d5",
       "executed_at": "2026-05-08T18:18:09.392924",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 197,
@@ -2195,7 +2327,12 @@
       "video_url": "https://grok.com/imagine/post/3ea6dce3-e64e-445f-a480-a5d842fea9e3",
       "post_url": "https://grok.com/imagine/post/3ea6dce3-e64e-445f-a480-a5d842fea9e3",
       "executed_at": "2026-05-08T18:22:30.314127",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ]
     },
     {
       "id": 198,
