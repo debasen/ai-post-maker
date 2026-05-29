@@ -4109,7 +4109,7 @@
     {
       "id": 395,
       "prompt": "An ultra-realistic, highly detailsd oysters Rockefeller, spinach topping, breadcrumbs, broiled golden, lemon. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T10:04:21.313466",
       "video_url": "https://grok.com/imagine/post/8eb0433c-e18f-4f73-8d04-589d9cd81a6f"
@@ -4162,63 +4162,63 @@
     {
       "id": 401,
       "prompt": "An ultra-realistic, highly detailed golden roasted chicken thighs with preserved lemon and olives, crispy skin, aromatic steam rising, Moroccan tagine setting. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T10:14:30.056815"
     },
     {
       "id": 402,
       "prompt": "An ultra-realistic, highly detailsd creamy spinach artichoke dip in a sourdough bread bowl, bubbling hot, melted cheese on top, crispy bread cubes. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T10:24:32.783237"
     },
     {
       "id": 403,
       "prompt": "An ultra-realistic, highly detailed hand-held lobster roll overflowing with chunks of butter-poached lobster, toasted split-top bun, celery, lemon wedge. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T10:34:24.574769"
     },
     {
       "id": 404,
       "prompt": "An ultra-realistic, highly detailsd fluffy blueberry scones on a cooling rack, golden tops, fresh blueberries visible, clotted cream and jam on the side. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T10:44:24.135138"
     },
     {
       "id": 405,
       "prompt": "An ultra-realistic, highly detailed sizzling garlic butter shrimp on a cast iron skillet, plump pink shrimp, fresh parsley, lemon wedges, steam billowing. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T10:54:35.002589"
     },
     {
       "id": 406,
       "prompt": "An ultra-realistic, highly detailsd creamy mushroom stroganoff over wide egg noodles, wild mushrooms, sour cream sauce, fresh dill, steam rising. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T11:04:34.064893"
     },
     {
       "id": 407,
       "prompt": "An ultra-realistic, highly detailed hand-held falafel wrap, crispy chickpea patties, tahini sauce, pickled turnips, fresh vegetables, pita bread. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T11:14:41.856447"
     },
     {
       "id": 408,
       "prompt": "An ultra-realistic, highly detailsd passion fruit panna cotta in a glass, silky white custard, bright yellow passion fruit pulp on top, elegant dessert. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T11:24:40.912685"
     },
     {
       "id": 409,
       "prompt": "An ultra-realistic, highly detailed grilled lamb chops with mint pesto, perfectly charred edges, pink center, rosemary sprigs, rustic plating. Aspect ratio 9:16 portrait",
-      "status": "image_failed",
+      "status": "pending",
       "post_url": "https://grok.com/imagine",
       "executed_at": "2026-05-28T11:34:34.353028"
     },
@@ -4257,7 +4257,7 @@
     {
       "id": 414,
       "prompt": "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait",
-      "status": "video_failed",
+      "status": "pending",
       "post_url": "Error: Internal error in evaluate_script: CDP error: No target with given id found",
       "executed_at": "2026-05-28T12:34:23.425285"
     },
