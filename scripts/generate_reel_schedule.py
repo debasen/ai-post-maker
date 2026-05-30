@@ -24,11 +24,14 @@ def get_project_path(project_id, platform="facebook"):
     return os.path.join(repo_root, f"project-{project_id}", filename)
 
 
-def pick_time(windows=WINDOWS):
+def pick_time(windows=WINDOWS, platform="facebook"):
     start, end = random.choice(windows)
     hour = random.randint(start, end - 1)
-    # Round minutes to nearest 5-minute interval (0, 5, 10, 15, ..., 55)
-    minute = random.choice(range(0, 60, 5))
+    # Round minutes based on platform (15 min for YouTube, 5 min for Facebook)
+    if platform == "youtube":
+        minute = random.choice(range(0, 60, 15))
+    else:
+        minute = random.choice(range(0, 60, 5))
     second = 0
     return hour, minute, second
 
@@ -41,11 +44,11 @@ def get_day_name(d):
     return d.strftime("%A")
 
 
-def pick_two_times():
-    h1, m1, s1 = pick_time()
-    h2, m2, s2 = pick_time()
+def pick_two_times(platform="facebook"):
+    h1, m1, s1 = pick_time(platform=platform)
+    h2, m2, s2 = pick_time(platform=platform)
     while abs((h2 + m2/60) - (h1 + m1/60)) < 2:
-        h2, m2, s2 = pick_time()
+        h2, m2, s2 = pick_time(platform=platform)
     return sorted([format_time(h1, m1, s1), format_time(h2, m2, s2)])
 
 
@@ -62,12 +65,12 @@ def all_scheduled(schedule):
     return all(entry.get("status") == "scheduled" for entry in schedule)
 
 
-def generate_schedule(start_date, days_total=DAYS_TOTAL):
+def generate_schedule(start_date, days_total=DAYS_TOTAL, platform="facebook"):
     dates = [start_date + timedelta(days=i) for i in range(days_total)]
 
     schedule = []
     for d in dates:
-        h, m, s = pick_time()
+        h, m, s = pick_time(platform=platform)
         schedule.append({
             "date": d.strftime("%Y-%m-%d"),
             "day": get_day_name(d),
@@ -113,7 +116,7 @@ def generate_schedule(start_date, days_total=DAYS_TOTAL):
 
     for idx in double_indices:
         schedule[idx]["posts"] = 2
-        schedule[idx]["time"] = pick_two_times()
+        schedule[idx]["time"] = pick_two_times(platform=platform)
 
     output = []
     for entry in schedule:
@@ -165,7 +168,7 @@ def main():
         sys.exit(0)
 
     start_date = datetime.now().date() + timedelta(days=1)
-    schedule = generate_schedule(start_date)
+    schedule = generate_schedule(start_date, platform=platform)
     save_schedule(schedule_path, schedule)
     print(f"Generated schedule: {schedule_path}")
     print(json.dumps({"regenerated": True, "path": schedule_path, "entries": len(schedule)}))

@@ -608,13 +608,32 @@ phase_7_fill_datetime() {
     snapshot_text=$(yt_snap)
     local time_textbox_ref
     time_textbox_ref=$(echo "$snapshot_text" | grep -E 'textbox value=".*(AM|PM|am|pm)"' | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+    if [ -z "$time_textbox_ref" ]; then
+        time_textbox_ref=$(echo "$snapshot_text" | grep -i '12:00.*AM' | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+    fi
+    
     if [ -n "$time_textbox_ref" ]; then
-        yt_fill "$time_textbox_ref" "$yt_time_target"
-        sleep 1
-        yt_key "Enter"
+        log INFO "Clicking time input box to open dropdown..."
+        yt_click "$time_textbox_ref"
         sleep 2
+        
+        snapshot_text=$(yt_snap)
+        local opt_pattern="option \"$hour_12:$min.*$am_pm\""
+        local option_ref
+        option_ref=$(echo "$snapshot_text" | grep -i "$opt_pattern" | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+        if [ -z "$option_ref" ]; then
+            option_ref=$(echo "$snapshot_text" | grep -i "$hour_12:$min.*$am_pm" | head -1 | sed -n 's/^\[\([0-9]*\)\].*/\1/p')
+        fi
+        
+        if [ -n "$option_ref" ]; then
+            log INFO "Clicking time option ref: $option_ref for $yt_time_target"
+            yt_click "$option_ref"
+            sleep 2
+        else
+            log FATAL "Could not find time option in dropdown matching: $hour_12:$min $am_pm"
+        fi
     else
-        log FATAL "Could not find time textbox to fill"
+        log FATAL "Could not find time textbox to click"
     fi
 
     log INFO "Date and time filled successfully"
