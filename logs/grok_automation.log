@@ -1,57 +1,53 @@
-[2026-05-28 12:30:00] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
-[2026-05-28 12:30:00] [INFO] Starting automation for project 1
-[2026-05-28 12:30:00] [INFO] Timeout: 300s, Max retries: 3
-[2026-05-28 12:30:00] [INFO] Checking BrowserOS health...
+[2026-05-29 22:50:01] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-29 22:50:01] [INFO] Starting automation for project 1
+[2026-05-29 22:50:01] [INFO] Timeout: 300s, Max retries: 3
+[2026-05-29 22:50:01] [INFO] Checking BrowserOS health...
 
-[2026-05-28 12:30:01] [CMD] browseros-cli health 
-[2026-05-28 12:30:01] [EXIT] 0
-[2026-05-28 12:30:01] [OUT] ---
+[2026-05-29 22:50:02] [CMD] browseros-cli health 
+[2026-05-29 22:50:02] [EXIT] 0
+[2026-05-29 22:50:02] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-05-28 12:30:01] [OUT] ---
-[2026-05-28 12:30:01] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-05-28 12:30:01] [DEBUG] Retry attempt 1/3: bos_health
+[2026-05-29 22:50:02] [OUT] ---
+[2026-05-29 22:50:02] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-05-29 22:50:02] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-05-28 12:30:04] [CMD] browseros-cli health 
-[2026-05-28 12:30:04] [EXIT] 0
-[2026-05-28 12:30:04] [OUT] ---
+[2026-05-29 22:50:03] [CMD] browseros-cli health 
+[2026-05-29 22:50:03] [EXIT] 0
+[2026-05-29 22:50:03] [OUT] ---
 Server: ok
 CDP:    connected
-posthog 2026/05/28 12:30:04 WARN: shutdown timeout exceeded, some messages may be lost
-posthog 2026/05/28 12:30:04 WARN: sending request - Post "https://us.i.posthog.com/batch/": context canceled
-posthog 2026/05/28 12:30:04 ERROR: 1 messages dropped: shutdown timeout
-posthog 2026/05/28 12:30:04 WARN: shutdown timeout: 1 batches still in flight
-[2026-05-28 12:30:04] [OUT] ---
-[2026-05-28 12:30:04] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-05-28 12:30:04] [INFO] BrowserOS is healthy
-[2026-05-28 12:30:04] [INFO] ========================================
-[2026-05-28 12:30:04] [INFO]   Phase 1: Preparation
-[2026-05-28 12:30:04] [INFO] ========================================
-[2026-05-28 12:30:04] [INFO] Using tracker: grok_tracker.py
-[2026-05-28 12:30:04] [INFO] Fetching next pending prompt...
-[2026-05-28 12:30:04] [DEBUG] Tracker response: {"id": 414, "prompt": "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-21T15:24:36.790325"}
-[2026-05-28 12:30:04] [INFO] Next prompt ID: 414
-[2026-05-28 12:30:04] [INFO] Status: pending
-[2026-05-28 12:30:04] [DEBUG] Prompt: An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-[2026-05-28 12:30:05] [INFO] ========================================
-[2026-05-28 12:30:05] [INFO]   Phase 2: Platform Navigation
-[2026-05-28 12:30:05] [INFO] ========================================
-[2026-05-28 12:30:05] [INFO] Opening Grok Imagine page...
-[2026-05-28 12:30:05] [INFO] Opening new page: https://grok.com/imagine
+[2026-05-29 22:50:03] [OUT] ---
+[2026-05-29 22:50:03] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-05-29 22:50:03] [INFO] BrowserOS is healthy
+[2026-05-29 22:50:03] [INFO] ========================================
+[2026-05-29 22:50:03] [INFO]   Phase 1: Preparation
+[2026-05-29 22:50:03] [INFO] ========================================
+[2026-05-29 22:50:03] [INFO] Using tracker: grok_tracker.py
+[2026-05-29 22:50:03] [INFO] Fetching next pending prompt...
+[2026-05-29 22:50:03] [DEBUG] Tracker response: {"id": 407, "prompt": "An ultra-realistic, highly detailed hand-held falafel wrap, crispy chickpea patties, tahini sauce, pickled turnips, fresh vegetables, pita bread. Aspect ratio 9:16 portrait", "status": "pending", "post_url": "https://grok.com/imagine", "executed_at": "2026-05-28T11:14:41.856447"}
+[2026-05-29 22:50:03] [INFO] Next prompt ID: 407
+[2026-05-29 22:50:03] [INFO] Status: pending
+[2026-05-29 22:50:03] [DEBUG] Prompt: An ultra-realistic, highly detailed hand-held falafel wrap, crispy chickpea patties, tahini sauce, pickled turnips, fresh vegetables, pita bread. Aspect ratio 9:16 portrait
+[2026-05-29 22:50:03] [INFO] ========================================
+[2026-05-29 22:50:03] [INFO]   Phase 2: Platform Navigation
+[2026-05-29 22:50:03] [INFO] ========================================
+[2026-05-29 22:50:03] [INFO] Opening Grok Imagine page...
+[2026-05-29 22:50:03] [INFO] Opening new page: https://grok.com/imagine
 
-[2026-05-28 12:30:06] [CMD] browseros-cli open https://grok.com/imagine --json
-[2026-05-28 12:30:06] [EXIT] 0
-[2026-05-28 12:30:06] [OUT] ---
-{"background":false,"hidden":false,"pageId":170,"url":"https://grok.com/imagine"}
-[2026-05-28 12:30:06] [OUT] ---
-[2026-05-28 12:30:06] [INFO] Page opened with ID: 170
-[2026-05-28 12:30:08] [INFO] ========================================
-[2026-05-28 12:30:08] [INFO]   Phase 3: Image Generation
-[2026-05-28 12:30:08] [INFO] ========================================
-[2026-05-28 12:30:08] [INFO] Finding input area... selector='div[contenteditable="true"]'
-[2026-05-28 12:30:08] [DEBUG] grok_find_element: selector='div[contenteditable="true"]' timeout=30s
+[2026-05-29 22:50:04] [CMD] browseros-cli open https://grok.com/imagine --json
+[2026-05-29 22:50:04] [EXIT] 0
+[2026-05-29 22:50:04] [OUT] ---
+{"background":false,"hidden":false,"pageId":188,"url":"https://grok.com/imagine"}
+[2026-05-29 22:50:04] [OUT] ---
+[2026-05-29 22:50:04] [INFO] Page opened with ID: 188
+[2026-05-29 22:50:06] [INFO] ========================================
+[2026-05-29 22:50:06] [INFO]   Phase 3: Image Generation
+[2026-05-29 22:50:06] [INFO] ========================================
+[2026-05-29 22:50:06] [INFO] Finding input area... selector='div[contenteditable="true"]'
+[2026-05-29 22:50:06] [DEBUG] grok_find_element: selector='div[contenteditable="true"]' timeout=30s
 
-[2026-05-28 12:30:10] [CMD] browseros-cli eval -p 170 (function() {
+[2026-05-29 22:50:07] [CMD] browseros-cli eval -p 188 (function() {
     var el = document.querySelector('div[contenteditable="true"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -63,19 +59,19 @@ posthog 2026/05/28 12:30:04 WARN: shutdown timeout: 1 batches still in flight
         height: rect.height
     });
 })()
-[2026-05-28 12:30:10] [EXIT] 0
-[2026-05-28 12:30:10] [OUT] ---
+[2026-05-29 22:50:07] [EXIT] 0
+[2026-05-29 22:50:07] [OUT] ---
 {"found":true,"x":720.5,"y":679,"width":720,"height":56}
-[2026-05-28 12:30:10] [OUT] ---
-[2026-05-28 12:30:10] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
-[2026-05-28 12:30:10] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
-[2026-05-28 12:30:10] [DEBUG] phase_3: find_element exit=0
-[2026-05-28 12:30:10] [INFO] Input area found at (720.5, 679)
-[2026-05-28 12:30:10] [INFO] Typing prompt (length=181)...
-[2026-05-28 12:30:10] [DEBUG] phase_3: prompt_text='An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, cha...'
-[2026-05-28 12:30:10] [DEBUG] grok_find_element: selector='div[contenteditable="true"]' timeout=10s
+[2026-05-29 22:50:07] [OUT] ---
+[2026-05-29 22:50:07] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-29 22:50:07] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
+[2026-05-29 22:50:07] [DEBUG] phase_3: find_element exit=0
+[2026-05-29 22:50:08] [INFO] Input area found at (720.5, 679)
+[2026-05-29 22:50:08] [INFO] Typing prompt (length=172)...
+[2026-05-29 22:50:08] [DEBUG] phase_3: prompt_text='An ultra-realistic, highly detailed hand-held falafel wrap, crispy chickpea patt...'
+[2026-05-29 22:50:08] [DEBUG] grok_find_element: selector='div[contenteditable="true"]' timeout=10s
 
-[2026-05-28 12:30:11] [CMD] browseros-cli eval -p 170 (function() {
+[2026-05-29 22:50:08] [CMD] browseros-cli eval -p 188 (function() {
     var el = document.querySelector('div[contenteditable="true"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -87,41 +83,41 @@ posthog 2026/05/28 12:30:04 WARN: shutdown timeout: 1 batches still in flight
         height: rect.height
     });
 })()
-[2026-05-28 12:30:11] [EXIT] 0
-[2026-05-28 12:30:11] [OUT] ---
+[2026-05-29 22:50:08] [EXIT] 0
+[2026-05-29 22:50:08] [OUT] ---
 {"found":true,"x":720.5,"y":679,"width":720,"height":56}
-[2026-05-28 12:30:11] [OUT] ---
-[2026-05-28 12:30:11] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
-[2026-05-28 12:30:11] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
+[2026-05-29 22:50:08] [OUT] ---
+[2026-05-29 22:50:08] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":720.5,"y":679,"width":720,"height":56}'
+[2026-05-29 22:50:08] [INFO] Element found: selector='div[contenteditable="true"]' coords={"x":720.5,"y":679}
 
-[2026-05-28 12:30:12] [CMD] browseros-cli click-at -p 170 720.5 679
-[2026-05-28 12:30:12] [EXIT] 0
-[2026-05-28 12:30:12] [OUT] ---
+[2026-05-29 22:50:09] [CMD] browseros-cli click-at -p 188 720.5 679
+[2026-05-29 22:50:09] [EXIT] 0
+[2026-05-29 22:50:09] [OUT] ---
 Clicked at (720, 679)
-[2026-05-28 12:30:12] [OUT] ---
+[2026-05-29 22:50:09] [OUT] ---
 Clicked at (720, 679)
 
-[2026-05-28 12:30:13] [CMD] browseros-cli eval -p 170 (function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()
-[2026-05-28 12:30:13] [EXIT] 0
-[2026-05-28 12:30:13] [OUT] ---
+[2026-05-29 22:50:10] [CMD] browseros-cli eval -p 188 (function() { var el = document.querySelector('div[contenteditable="true"]'); if (!el) return JSON.stringify({success: false, error: 'not found'}); el.innerText = "An ultra-realistic, highly detailed hand-held falafel wrap, crispy chickpea patties, tahini sauce, pickled turnips, fresh vegetables, pita bread. Aspect ratio 9:16 portrait"; el.dispatchEvent(new Event('input', {bubbles: true})); return JSON.stringify({success: true}); })()
+[2026-05-29 22:50:10] [EXIT] 0
+[2026-05-29 22:50:10] [OUT] ---
 {"success":true}
-[2026-05-28 12:30:13] [OUT] ---
+[2026-05-29 22:50:10] [OUT] ---
 {"success":true}
-[2026-05-28 12:30:13] [DEBUG] phase_3: type_text exit=0
-[2026-05-28 12:30:15] [INFO] Submitting prompt...
+[2026-05-29 22:50:10] [DEBUG] phase_3: type_text exit=0
+[2026-05-29 22:50:12] [INFO] Submitting prompt...
 
-[2026-05-28 12:30:16] [CMD] browseros-cli key -p 170 Enter
-[2026-05-28 12:30:16] [EXIT] 0
-[2026-05-28 12:30:16] [OUT] ---
+[2026-05-29 22:50:13] [CMD] browseros-cli key -p 188 Enter
+[2026-05-29 22:50:13] [EXIT] 0
+[2026-05-29 22:50:13] [OUT] ---
 Pressed Enter
-[2026-05-28 12:30:16] [OUT] ---
+[2026-05-29 22:50:13] [OUT] ---
 Pressed Enter
-[2026-05-28 12:30:16] [DEBUG] phase_3: key Enter exit=0
-[2026-05-28 12:30:16] [INFO] Waiting for image generation (max_wait=120s, poll=5s)...
-[2026-05-28 12:30:16] [DEBUG] phase_3: polling image gen, elapsed=0s
-[2026-05-28 12:30:16] [DEBUG] grok_find_element: selector='img[alt="Generated image"]' timeout=1s
+[2026-05-29 22:50:13] [DEBUG] phase_3: key Enter exit=0
+[2026-05-29 22:50:13] [INFO] Waiting for image generation (max_wait=120s, poll=5s)...
+[2026-05-29 22:50:13] [DEBUG] phase_3: polling image gen, elapsed=0s
+[2026-05-29 22:50:13] [DEBUG] grok_find_element: selector='img[alt="Generated image"]' timeout=1s
 
-[2026-05-28 12:30:17] [CMD] browseros-cli eval -p 170 (function() {
+[2026-05-29 22:50:14] [CMD] browseros-cli eval -p 188 (function() {
     var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -133,89 +129,89 @@ Pressed Enter
         height: rect.height
     });
 })()
-[2026-05-28 12:30:17] [EXIT] 0
-[2026-05-28 12:30:17] [OUT] ---
-{"found":true,"x":214,"y":903,"width":290,"height":516}
-[2026-05-28 12:30:17] [OUT] ---
-[2026-05-28 12:30:17] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":903,"width":290,"height":516}'
-[2026-05-28 12:30:17] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":903}
-[2026-05-28 12:30:17] [INFO] Image generated successfully (selector found)
-[2026-05-28 12:30:17] [DEBUG] phase_3: poll loop ended, img_ready=1 elapsed=0s
-[2026-05-28 12:30:17] [INFO] ========================================
-[2026-05-28 12:30:17] [INFO]   Phase 4: Video Generation
-[2026-05-28 12:30:17] [INFO] ========================================
-[2026-05-28 12:30:17] [INFO] Checking for image preference dialog (max_wait=15s)...
-[2026-05-28 12:30:17] [DEBUG] phase_4: polling image preference dialog, elapsed=0s
+[2026-05-29 22:50:14] [EXIT] 0
+[2026-05-29 22:50:14] [OUT] ---
+{"found":true,"x":214,"y":377,"width":290,"height":516}
+[2026-05-29 22:50:14] [OUT] ---
+[2026-05-29 22:50:14] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":377,"width":290,"height":516}'
+[2026-05-29 22:50:14] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":377}
+[2026-05-29 22:50:14] [INFO] Image generated successfully (selector found)
+[2026-05-29 22:50:14] [DEBUG] phase_3: poll loop ended, img_ready=1 elapsed=0s
+[2026-05-29 22:50:14] [INFO] ========================================
+[2026-05-29 22:50:14] [INFO]   Phase 4: Video Generation
+[2026-05-29 22:50:14] [INFO] ========================================
+[2026-05-29 22:50:14] [INFO] Checking for image preference dialog (max_wait=15s)...
+[2026-05-29 22:50:14] [DEBUG] phase_4: polling image preference dialog, elapsed=0s
 
-[2026-05-28 12:30:18] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:30:18] [EXIT] 0
-[2026-05-28 12:30:18] [OUT] ---
+[2026-05-29 22:50:15] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:15] [EXIT] 0
+[2026-05-29 22:50:15] [OUT] ---
 
-[2026-05-28 12:30:18] [OUT] ---
-[2026-05-28 12:30:18] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-28 12:30:20] [DEBUG] phase_4: polling image preference dialog, elapsed=2s
+[2026-05-29 22:50:15] [OUT] ---
+[2026-05-29 22:50:15] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-29 22:50:17] [DEBUG] phase_4: polling image preference dialog, elapsed=2s
 
-[2026-05-28 12:30:23] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:30:23] [EXIT] 0
-[2026-05-28 12:30:23] [OUT] ---
+[2026-05-29 22:50:18] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:18] [EXIT] 0
+[2026-05-29 22:50:18] [OUT] ---
 
-[2026-05-28 12:30:23] [OUT] ---
-[2026-05-28 12:30:23] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-28 12:30:25] [DEBUG] phase_4: polling image preference dialog, elapsed=4s
+[2026-05-29 22:50:18] [OUT] ---
+[2026-05-29 22:50:18] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-29 22:50:20] [DEBUG] phase_4: polling image preference dialog, elapsed=4s
 
-[2026-05-28 12:30:26] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:30:26] [EXIT] 0
-[2026-05-28 12:30:26] [OUT] ---
+[2026-05-29 22:50:21] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:21] [EXIT] 0
+[2026-05-29 22:50:21] [OUT] ---
 
-[2026-05-28 12:30:26] [OUT] ---
-[2026-05-28 12:30:26] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-28 12:30:28] [DEBUG] phase_4: polling image preference dialog, elapsed=6s
+[2026-05-29 22:50:21] [OUT] ---
+[2026-05-29 22:50:21] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-29 22:50:23] [DEBUG] phase_4: polling image preference dialog, elapsed=6s
 
-[2026-05-28 12:30:29] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:30:29] [EXIT] 0
-[2026-05-28 12:30:29] [OUT] ---
+[2026-05-29 22:50:24] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:24] [EXIT] 0
+[2026-05-29 22:50:24] [OUT] ---
 
-[2026-05-28 12:30:29] [OUT] ---
-[2026-05-28 12:30:29] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-28 12:30:31] [DEBUG] phase_4: polling image preference dialog, elapsed=8s
+[2026-05-29 22:50:24] [OUT] ---
+[2026-05-29 22:50:24] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-29 22:50:26] [DEBUG] phase_4: polling image preference dialog, elapsed=8s
 
-[2026-05-28 12:30:32] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:30:32] [EXIT] 0
-[2026-05-28 12:30:32] [OUT] ---
+[2026-05-29 22:50:27] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:27] [EXIT] 0
+[2026-05-29 22:50:27] [OUT] ---
 
-[2026-05-28 12:30:32] [OUT] ---
-[2026-05-28 12:30:32] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-28 12:30:35] [DEBUG] phase_4: polling image preference dialog, elapsed=10s
+[2026-05-29 22:50:27] [OUT] ---
+[2026-05-29 22:50:27] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-29 22:50:29] [DEBUG] phase_4: polling image preference dialog, elapsed=10s
 
-[2026-05-28 12:30:36] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:30:36] [EXIT] 0
-[2026-05-28 12:30:36] [OUT] ---
+[2026-05-29 22:50:30] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:30] [EXIT] 0
+[2026-05-29 22:50:30] [OUT] ---
 
-[2026-05-28 12:30:36] [OUT] ---
-[2026-05-28 12:30:36] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-28 12:30:38] [DEBUG] phase_4: polling image preference dialog, elapsed=12s
+[2026-05-29 22:50:30] [OUT] ---
+[2026-05-29 22:50:30] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-29 22:50:32] [DEBUG] phase_4: polling image preference dialog, elapsed=12s
 
-[2026-05-28 12:30:39] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:30:39] [EXIT] 0
-[2026-05-28 12:30:39] [OUT] ---
+[2026-05-29 22:50:33] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:33] [EXIT] 0
+[2026-05-29 22:50:33] [OUT] ---
 
-[2026-05-28 12:30:39] [OUT] ---
-[2026-05-28 12:30:39] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-28 12:30:42] [DEBUG] phase_4: polling image preference dialog, elapsed=14s
+[2026-05-29 22:50:33] [OUT] ---
+[2026-05-29 22:50:33] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-29 22:50:35] [DEBUG] phase_4: polling image preference dialog, elapsed=14s
 
-[2026-05-28 12:30:43] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:30:43] [EXIT] 0
-[2026-05-28 12:30:43] [OUT] ---
+[2026-05-29 22:50:36] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which image do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:36] [EXIT] 0
+[2026-05-29 22:50:36] [OUT] ---
 
-[2026-05-28 12:30:43] [OUT] ---
-[2026-05-28 12:30:43] [DEBUG] phase_4: handle_image_preference exit=2
-[2026-05-28 12:30:45] [DEBUG] phase_4: image preference dialog loop ended, handled=0 elapsed=16s
-[2026-05-28 12:30:45] [INFO] No image preference dialog appeared after 15s, continuing...
-[2026-05-28 12:30:45] [INFO] Opening image detail page...
-[2026-05-28 12:30:45] [INFO] Clicking generated image to open detail page...
-[2026-05-28 12:30:45] [DEBUG] grok_find_element: selector='img[alt="Generated image"]' timeout=30s
+[2026-05-29 22:50:36] [OUT] ---
+[2026-05-29 22:50:36] [DEBUG] phase_4: handle_image_preference exit=2
+[2026-05-29 22:50:38] [DEBUG] phase_4: image preference dialog loop ended, handled=0 elapsed=16s
+[2026-05-29 22:50:38] [INFO] No image preference dialog appeared after 15s, continuing...
+[2026-05-29 22:50:38] [INFO] Opening image detail page...
+[2026-05-29 22:50:38] [INFO] Clicking generated image to open detail page...
+[2026-05-29 22:50:38] [DEBUG] grok_find_element: selector='img[alt="Generated image"]' timeout=30s
 
-[2026-05-28 12:30:46] [CMD] browseros-cli eval -p 170 (function() {
+[2026-05-29 22:50:39] [CMD] browseros-cli eval -p 188 (function() {
     var el = document.querySelector('img[alt="Generated image"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -227,39 +223,31 @@ Pressed Enter
         height: rect.height
     });
 })()
-[2026-05-28 12:30:46] [EXIT] 0
-[2026-05-28 12:30:46] [OUT] ---
-{"found":true,"x":214,"y":903,"width":290,"height":516}
-[2026-05-28 12:30:46] [OUT] ---
-[2026-05-28 12:30:46] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":903,"width":290,"height":516}'
-[2026-05-28 12:30:46] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":903}
-[2026-05-28 12:30:46] [DEBUG] phase_4: find_element SELECTOR_IMAGE exit=0
-[2026-05-28 12:30:46] [INFO] Clicking on generated image at (214, 903)...
+[2026-05-29 22:50:39] [EXIT] 0
+[2026-05-29 22:50:39] [OUT] ---
+{"found":true,"x":214,"y":377,"width":290,"height":516}
+[2026-05-29 22:50:39] [OUT] ---
+[2026-05-29 22:50:39] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":214,"y":377,"width":290,"height":516}'
+[2026-05-29 22:50:39] [INFO] Element found: selector='img[alt="Generated image"]' coords={"x":214,"y":377}
+[2026-05-29 22:50:39] [DEBUG] phase_4: find_element SELECTOR_IMAGE exit=0
+[2026-05-29 22:50:39] [INFO] Clicking on generated image at (214, 377)...
 
-[2026-05-28 12:30:47] [CMD] browseros-cli click-at -p 170 214 903
-[2026-05-28 12:30:47] [EXIT] 0
-[2026-05-28 12:30:47] [OUT] ---
-Clicked at (214, 903)
-[2026-05-28 12:30:47] [OUT] ---
-Clicked at (214, 903)
+[2026-05-29 22:50:40] [CMD] browseros-cli click-at -p 188 214 377
+[2026-05-29 22:50:40] [EXIT] 0
+[2026-05-29 22:50:40] [OUT] ---
+Clicked at (214, 377)
+[2026-05-29 22:50:40] [OUT] ---
+Clicked at (214, 377)
 
-[2026-05-28 12:30:51] [CMD] browseros-cli eval -p 170 window.location.href
-[2026-05-28 12:30:51] [EXIT] 0
-[2026-05-28 12:30:51] [OUT] ---
-https://grok.com/imagine
-[2026-05-28 12:30:51] [OUT] ---
-[2026-05-28 12:30:51] [INFO] Navigation to detail page via coordinates failed (likely Speed mode). Falling back to JS click on 1st thumbnail...
+[2026-05-29 22:50:44] [CMD] browseros-cli eval -p 188 window.location.href
+[2026-05-29 22:50:44] [EXIT] 0
+[2026-05-29 22:50:44] [OUT] ---
+https://grok.com/imagine/post/f77d1a7a-4443-452d-977f-3eb21da16232
+[2026-05-29 22:50:44] [OUT] ---
+[2026-05-29 22:50:44] [INFO] Looking for Make video button... selector='[aria-label="Make video"]'
+[2026-05-29 22:50:44] [DEBUG] grok_find_element: selector='[aria-label="Make video"]' timeout=30s
 
-[2026-05-28 12:30:51] [CMD] browseros-cli eval -p 170 (function() { var el = document.querySelector('img[alt="Generated image"]'); if (!el) return false; var clickTarget = el; while(clickTarget && !clickTarget.classList.contains('cursor-pointer')) { clickTarget = clickTarget.parentElement; if (!clickTarget) { clickTarget = el; break; } } clickTarget.click(); return true; })()
-[2026-05-28 12:30:51] [EXIT] 0
-[2026-05-28 12:30:51] [OUT] ---
-true
-[2026-05-28 12:30:51] [OUT] ---
-true
-[2026-05-28 12:30:54] [INFO] Looking for Make video button... selector='[aria-label="Make video"]'
-[2026-05-28 12:30:54] [DEBUG] grok_find_element: selector='[aria-label="Make video"]' timeout=30s
-
-[2026-05-28 12:30:55] [CMD] browseros-cli eval -p 170 (function() {
+[2026-05-29 22:50:45] [CMD] browseros-cli eval -p 188 (function() {
     var el = document.querySelector('[aria-label="Make video"]');
     if (!el) return JSON.stringify({found: false});
     var rect = el.getBoundingClientRect();
@@ -271,756 +259,252 @@ true
         height: rect.height
     });
 })()
-[2026-05-28 12:30:55] [EXIT] 0
-[2026-05-28 12:30:55] [OUT] ---
-{"found":true,"x":331,"y":1133,"width":40,"height":40}
-[2026-05-28 12:30:55] [OUT] ---
-[2026-05-28 12:30:55] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":331,"y":1133,"width":40,"height":40}'
-[2026-05-28 12:30:55] [INFO] Element found: selector='[aria-label="Make video"]' coords={"x":331,"y":1133}
-[2026-05-28 12:30:55] [DEBUG] phase_4: find_element SELECTOR_MAKE_VIDEO exit=0
-[2026-05-28 12:30:55] [INFO] Make video button found via selector, using snapshot ref click...
-[2026-05-28 12:30:55] [DEBUG] grok_click_by_snap_pattern: pattern='Make video'
+[2026-05-29 22:50:45] [EXIT] 0
+[2026-05-29 22:50:45] [OUT] ---
+{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}
+[2026-05-29 22:50:45] [OUT] ---
+[2026-05-29 22:50:45] [DEBUG] grok_find_element: attempt elapsed=0s exit=0 output='{"found":true,"x":572.87890625,"y":618.5,"width":133.7578125,"height":40}'
+[2026-05-29 22:50:45] [INFO] Element found: selector='[aria-label="Make video"]' coords={"x":572.87890625,"y":618.5}
+[2026-05-29 22:50:45] [DEBUG] phase_4: find_element SELECTOR_MAKE_VIDEO exit=0
+[2026-05-29 22:50:45] [INFO] Make video button found via selector, using snapshot ref click...
+[2026-05-29 22:50:45] [DEBUG] grok_click_by_snap_pattern: pattern='Make video'
 
-[2026-05-28 12:30:56] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:30:56] [EXIT] 0
-[2026-05-28 12:30:56] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3565] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:30:56] [OUT] ---
-[2026-05-28 12:30:56] [DEBUG] grok_click_by_snap_pattern: ref='3565' exit=0
+[2026-05-29 22:50:46] [CMD] browseros-cli snap -p 188
+[2026-05-29 22:50:46] [EXIT] 0
+[2026-05-29 22:50:46] [OUT] ---
+[312] link "Home page"
+[320] button "Search"
+[335] link
+[355] link
+[381] link
+[392] link
+[410] button "History"
+[435] button "Toggle Sidebar"
+[442] button "DS" (collapsed)
+[3821] link "Back"
+[3826] button "Next post"
+[3838] button "Play"
+[3839] button "Make video"
+[3885] button "Save"
+[3886] button "Compose Post"
+[3888] button "Download"
+[3889] button "More options" (collapsed)
+[3891] button "Create share link"
+[2352] button "Saved"
+[3948] textbox "Ask Grok anything" value="
+" (disabled)
+[3911] radio "Image"
+[3912] radio "Video"
+[2377] button "Edit" (disabled)
+[3862] clickable "MoreMake videoMute"
+[2359] clickable "An ultra-realistic, highly detailed hand-held falafel wrap, crispy chickpea patties, tahini sauce, p"
+[3938] clickable "An ultra-realistic, highly detailed hand-held falafel wrap, crispy chickpea patties, tahini sauce, p"
+[2026-05-29 22:50:46] [OUT] ---
+[2026-05-29 22:50:46] [DEBUG] grok_click_by_snap_pattern: ref='3839' exit=0
 
-[2026-05-28 12:30:58] [CMD] browseros-cli click -p 170 3565
-[2026-05-28 12:30:58] [EXIT] 0
-[2026-05-28 12:30:58] [OUT] ---
-Clicked [3565] at (931, 571)
-[2026-05-28 12:30:58] [OUT] ---
-Clicked [3565] at (931, 571)
-[2026-05-28 12:30:59] [INFO] Video generation triggered
-[2026-05-28 12:31:02] [INFO] ========================================
-[2026-05-28 12:31:02] [INFO]   Phase 5: Monitoring & Validation
-[2026-05-28 12:31:02] [INFO] ========================================
-[2026-05-28 12:31:02] [INFO] Polling for video completion (max 150s, interval=10s)...
-[2026-05-28 12:31:02] [DEBUG] phase_5: poll iteration elapsed=0s
+[2026-05-29 22:50:47] [CMD] browseros-cli click -p 188 3839
+[2026-05-29 22:50:47] [EXIT] 0
+[2026-05-29 22:50:47] [OUT] ---
+Clicked [3839] at (573, 619)
+[2026-05-29 22:50:47] [OUT] ---
+Clicked [3839] at (573, 619)
+[2026-05-29 22:50:47] [INFO] Video generation triggered
+[2026-05-29 22:50:50] [INFO] ========================================
+[2026-05-29 22:50:50] [INFO]   Phase 5: Monitoring & Validation
+[2026-05-29 22:50:50] [INFO] ========================================
+[2026-05-29 22:50:50] [INFO] Polling for video completion (max 150s, interval=10s)...
+[2026-05-29 22:50:50] [DEBUG] phase_5: poll iteration elapsed=0s
 
-[2026-05-28 12:31:03] [CMD] browseros-cli text -p 170
-[2026-05-28 12:31:03] [EXIT] 0
-[2026-05-28 12:31:03] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
+[2026-05-29 22:50:51] [CMD] browseros-cli text -p 188
+[2026-05-29 22:50:51] [EXIT] 0
+[2026-05-29 22:50:51] [OUT] ---
+Generating5%720p
 
 ## Upgrade to SuperGrok
-[2026-05-28 12:31:03] [OUT] ---
-[2026-05-28 12:31:03] [DEBUG] phase_5: page_text lines=5
+[2026-05-29 22:50:51] [OUT] ---
+[2026-05-29 22:50:51] [DEBUG] phase_5: page_text lines=3
 
-[2026-05-28 12:31:04] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:31:04] [EXIT] 0
-[2026-05-28 12:31:04] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:31:04] [OUT] ---
-[2026-05-28 12:31:04] [DEBUG] phase_5: snapshot lines=28
+[2026-05-29 22:50:52] [CMD] browseros-cli snap -p 188
+[2026-05-29 22:50:52] [EXIT] 0
+[2026-05-29 22:50:52] [OUT] ---
+[312] link "Home page"
+[320] button "Search"
+[335] link
+[355] link
+[381] link
+[392] link
+[410] button "History"
+[435] button "Toggle Sidebar"
+[442] button "DS" (collapsed)
+[3821] link "Back"
+[3826] button "Next post"
+[3976] button "Thumbnail 1"
+[4041] button "8%"
+[4051] button "Cancel"
+[3885] button "Unsave" (disabled)
+[3886] button "Compose Post" (disabled)
+[3888] button "Download" (disabled)
+[3889] button "More options" (collapsed)
+[3891] button "Create share link" (disabled)
+[2352] button "Saved"
+[4012] textbox "Ask Grok anything" value="
+"
+[2377] button "Make video" (disabled)
+[3828] clickable "8%"
+[3862] clickable "Generating8%CancelMoreMute0s+ 10s→10sExtend from Frame"
+[2026-05-29 22:50:52] [OUT] ---
+[2026-05-29 22:50:52] [DEBUG] phase_5: snapshot lines=25
 
-[2026-05-28 12:31:05] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:31:05] [EXIT] 0
-[2026-05-28 12:31:05] [OUT] ---
+[2026-05-29 22:50:53] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:50:53] [EXIT] 0
+[2026-05-29 22:50:53] [OUT] ---
 
-[2026-05-28 12:31:05] [OUT] ---
-[2026-05-28 12:31:16] [DEBUG] Elapsed: 10s
-[2026-05-28 12:31:16] [DEBUG] phase_5: poll iteration elapsed=10s
+[2026-05-29 22:50:53] [OUT] ---
+[2026-05-29 22:50:53] [INFO] Still generating... 5%
+[2026-05-29 22:50:53] [INFO] Video generation in progress (Speed mode: [3828] clickable "8%")
+[2026-05-29 22:50:53] [DEBUG] phase_5: Unsave button detected (video processing active)
+[2026-05-29 22:51:04] [DEBUG] Elapsed: 10s
+[2026-05-29 22:51:04] [DEBUG] phase_5: poll iteration elapsed=10s
 
-[2026-05-28 12:31:17] [CMD] browseros-cli text -p 170
-[2026-05-28 12:31:17] [EXIT] 0
-[2026-05-28 12:31:17] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
+[2026-05-29 22:51:05] [CMD] browseros-cli text -p 188
+[2026-05-29 22:51:05] [EXIT] 0
+[2026-05-29 22:51:05] [OUT] ---
 ## Upgrade to SuperGrok
-[2026-05-28 12:31:17] [OUT] ---
-[2026-05-28 12:31:17] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:31:18] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:31:18] [EXIT] 0
-[2026-05-28 12:31:18] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:31:18] [OUT] ---
-[2026-05-28 12:31:18] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:31:21] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:31:21] [EXIT] 0
-[2026-05-28 12:31:21] [OUT] ---
-
-posthog 2026/05/28 12:31:21 WARN: shutdown timeout exceeded, some messages may be lost
-posthog 2026/05/28 12:31:21 WARN: sending request - Post "https://us.i.posthog.com/batch/": context canceled
-posthog 2026/05/28 12:31:21 ERROR: 1 messages dropped: shutdown timeout
-posthog 2026/05/28 12:31:21 WARN: shutdown timeout: 1 batches still in flight
-[2026-05-28 12:31:21] [OUT] ---
-[2026-05-28 12:31:31] [DEBUG] Elapsed: 20s
-[2026-05-28 12:31:31] [DEBUG] phase_5: poll iteration elapsed=20s
-
-[2026-05-28 12:31:33] [CMD] browseros-cli text -p 170
-[2026-05-28 12:31:33] [EXIT] 0
-[2026-05-28 12:31:33] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:31:33] [OUT] ---
-[2026-05-28 12:31:33] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:31:34] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:31:34] [EXIT] 0
-[2026-05-28 12:31:34] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:31:34] [OUT] ---
-[2026-05-28 12:31:34] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:31:35] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:31:35] [EXIT] 0
-[2026-05-28 12:31:35] [OUT] ---
-
-[2026-05-28 12:31:35] [OUT] ---
-[2026-05-28 12:31:45] [DEBUG] Elapsed: 30s
-[2026-05-28 12:31:45] [DEBUG] phase_5: poll iteration elapsed=30s
-
-[2026-05-28 12:31:46] [CMD] browseros-cli text -p 170
-[2026-05-28 12:31:46] [EXIT] 0
-[2026-05-28 12:31:46] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:31:46] [OUT] ---
-[2026-05-28 12:31:46] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:31:49] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:31:49] [EXIT] 0
-[2026-05-28 12:31:49] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:31:49] [OUT] ---
-[2026-05-28 12:31:49] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:31:52] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:31:52] [EXIT] 0
-[2026-05-28 12:31:52] [OUT] ---
-
-[2026-05-28 12:31:52] [OUT] ---
-[2026-05-28 12:32:02] [DEBUG] Elapsed: 40s
-[2026-05-28 12:32:02] [DEBUG] phase_5: poll iteration elapsed=40s
-
-[2026-05-28 12:32:04] [CMD] browseros-cli text -p 170
-[2026-05-28 12:32:04] [EXIT] 0
-[2026-05-28 12:32:04] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:32:04] [OUT] ---
-[2026-05-28 12:32:04] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:32:06] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:32:06] [EXIT] 0
-[2026-05-28 12:32:06] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:32:06] [OUT] ---
-[2026-05-28 12:32:06] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:32:07] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:32:07] [EXIT] 0
-[2026-05-28 12:32:07] [OUT] ---
-
-[2026-05-28 12:32:07] [OUT] ---
-[2026-05-28 12:32:17] [DEBUG] Elapsed: 50s
-[2026-05-28 12:32:17] [DEBUG] phase_5: poll iteration elapsed=50s
-
-[2026-05-28 12:32:19] [CMD] browseros-cli text -p 170
-[2026-05-28 12:32:19] [EXIT] 0
-[2026-05-28 12:32:19] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:32:19] [OUT] ---
-[2026-05-28 12:32:19] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:32:20] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:32:20] [EXIT] 0
-[2026-05-28 12:32:20] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:32:20] [OUT] ---
-[2026-05-28 12:32:20] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:32:21] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:32:21] [EXIT] 0
-[2026-05-28 12:32:21] [OUT] ---
-
-[2026-05-28 12:32:21] [OUT] ---
-[2026-05-28 12:32:31] [DEBUG] Elapsed: 60s
-[2026-05-28 12:32:31] [DEBUG] phase_5: poll iteration elapsed=60s
-
-[2026-05-28 12:32:32] [CMD] browseros-cli text -p 170
-[2026-05-28 12:32:32] [EXIT] 0
-[2026-05-28 12:32:32] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:32:32] [OUT] ---
-[2026-05-28 12:32:33] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:32:34] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:32:34] [EXIT] 0
-[2026-05-28 12:32:34] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:32:34] [OUT] ---
-[2026-05-28 12:32:34] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:32:35] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:32:35] [EXIT] 0
-[2026-05-28 12:32:35] [OUT] ---
-
-[2026-05-28 12:32:35] [OUT] ---
-[2026-05-28 12:32:46] [DEBUG] Elapsed: 70s
-[2026-05-28 12:32:46] [DEBUG] phase_5: poll iteration elapsed=70s
-
-[2026-05-28 12:32:47] [CMD] browseros-cli text -p 170
-[2026-05-28 12:32:47] [EXIT] 0
-[2026-05-28 12:32:47] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:32:47] [OUT] ---
-[2026-05-28 12:32:47] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:32:48] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:32:48] [EXIT] 0
-[2026-05-28 12:32:48] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:32:48] [OUT] ---
-[2026-05-28 12:32:48] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:32:49] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:32:49] [EXIT] 0
-[2026-05-28 12:32:49] [OUT] ---
-
-[2026-05-28 12:32:49] [OUT] ---
-[2026-05-28 12:32:59] [DEBUG] Elapsed: 80s
-[2026-05-28 12:32:59] [DEBUG] phase_5: poll iteration elapsed=80s
-
-[2026-05-28 12:33:00] [CMD] browseros-cli text -p 170
-[2026-05-28 12:33:00] [EXIT] 0
-[2026-05-28 12:33:00] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:33:00] [OUT] ---
-[2026-05-28 12:33:01] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:33:01] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:33:01] [EXIT] 0
-[2026-05-28 12:33:01] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:33:01] [OUT] ---
-[2026-05-28 12:33:01] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:33:03] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:33:03] [EXIT] 0
-[2026-05-28 12:33:03] [OUT] ---
-
-[2026-05-28 12:33:03] [OUT] ---
-[2026-05-28 12:33:13] [DEBUG] Elapsed: 90s
-[2026-05-28 12:33:13] [DEBUG] phase_5: poll iteration elapsed=90s
-
-[2026-05-28 12:33:14] [CMD] browseros-cli text -p 170
-[2026-05-28 12:33:14] [EXIT] 0
-[2026-05-28 12:33:14] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:33:14] [OUT] ---
-[2026-05-28 12:33:14] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:33:16] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:33:16] [EXIT] 0
-[2026-05-28 12:33:16] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:33:16] [OUT] ---
-[2026-05-28 12:33:16] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:33:17] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:33:17] [EXIT] 0
-[2026-05-28 12:33:17] [OUT] ---
-
-[2026-05-28 12:33:17] [OUT] ---
-[2026-05-28 12:33:27] [DEBUG] Elapsed: 100s
-[2026-05-28 12:33:27] [DEBUG] phase_5: poll iteration elapsed=100s
-
-[2026-05-28 12:33:28] [CMD] browseros-cli text -p 170
-[2026-05-28 12:33:28] [EXIT] 0
-[2026-05-28 12:33:28] [OUT] ---
-# Discover
-
-An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggplant, bell peppers, halloumi cheese, olive oil drizzle. Aspect ratio 9:16 portrait
-
-## Upgrade to SuperGrok
-[2026-05-28 12:33:28] [OUT] ---
-[2026-05-28 12:33:28] [DEBUG] phase_5: page_text lines=5
-
-[2026-05-28 12:33:29] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:33:29] [EXIT] 0
-[2026-05-28 12:33:29] [OUT] ---
-[309] link "Home page"
-[317] button "Search"
-[332] link
-[352] link
-[378] link
-[389] link
-[407] button "History"
-[432] button "Toggle Sidebar"
-[439] button "DS" (collapsed)
-[2543] button "Back"
-[3561] button "Save"
-[3647] button "Make video"
-[3577] button "Save"
-[3581] button "Make video"
-[2191] button "Saved"
-[2203] button "Upload"
-[2215] button "Submit" (disabled)
-[2220] button "Canvas"
-[2227] radio "Image"
-[2233] radio "Video"
-[2242] radio "Speed"
-[2246] radio "Quality"
-[2251] button "Aspect Ratio" (collapsed)
-[3454] clickable "An ultra-realistic, highly detailsd Mediterranean grilled vegetable platter, charred zucchini, eggpl"
-[2198] clickable "Agent (Beta)ImageVideoSpeedQuality9:16"
-[2225] clickable "ImageVideo"
-[2240] clickable "SpeedQuality"
-[2250] clickable "9:16"
-[2026-05-28 12:33:29] [OUT] ---
-[2026-05-28 12:33:29] [DEBUG] phase_5: snapshot lines=28
-
-[2026-05-28 12:33:31] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:33:31] [EXIT] 0
-[2026-05-28 12:33:31] [OUT] ---
-
-[2026-05-28 12:33:31] [OUT] ---
-[2026-05-28 12:33:41] [DEBUG] Elapsed: 110s
-[2026-05-28 12:33:41] [DEBUG] phase_5: poll iteration elapsed=110s
-
-[2026-05-28 12:33:41] [CMD] browseros-cli text -p 170
-[2026-05-28 12:33:41] [EXIT] 1
-[2026-05-28 12:33:41] [OUT] ---
-Error: Internal error in get_page_content: CDP error: No target with given id found
-[2026-05-28 12:33:41] [OUT] ---
-[2026-05-28 12:33:41] [WARN] Command failed (exit 1): browseros-cli text -p 170
-[2026-05-28 12:33:41] [DEBUG] phase_5: page_text lines=1
-
-[2026-05-28 12:33:41] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:33:41] [EXIT] 1
-[2026-05-28 12:33:41] [OUT] ---
-Error: Internal error in take_snapshot: CDP error: No target with given id found
-[2026-05-28 12:33:41] [OUT] ---
-[2026-05-28 12:33:41] [WARN] Command failed (exit 1): browseros-cli snap -p 170
-[2026-05-28 12:33:41] [DEBUG] phase_5: snapshot lines=1
-
-[2026-05-28 12:33:41] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:33:41] [EXIT] 1
-[2026-05-28 12:33:41] [OUT] ---
-Error: Internal error in evaluate_script: CDP error: No target with given id found
-[2026-05-28 12:33:41] [OUT] ---
-[2026-05-28 12:33:41] [WARN] Command failed (exit 1): browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:33:51] [DEBUG] Elapsed: 120s
-[2026-05-28 12:33:51] [DEBUG] phase_5: poll iteration elapsed=120s
-
-[2026-05-28 12:33:51] [CMD] browseros-cli text -p 170
-[2026-05-28 12:33:51] [EXIT] 1
-[2026-05-28 12:33:51] [OUT] ---
-Error: Internal error in get_page_content: CDP error: No target with given id found
-[2026-05-28 12:33:51] [OUT] ---
-[2026-05-28 12:33:51] [WARN] Command failed (exit 1): browseros-cli text -p 170
-[2026-05-28 12:33:51] [DEBUG] phase_5: page_text lines=1
-
-[2026-05-28 12:33:52] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:33:52] [EXIT] 1
-[2026-05-28 12:33:52] [OUT] ---
-Error: Internal error in take_snapshot: CDP error: No target with given id found
-[2026-05-28 12:33:52] [OUT] ---
-[2026-05-28 12:33:52] [WARN] Command failed (exit 1): browseros-cli snap -p 170
-[2026-05-28 12:33:52] [DEBUG] phase_5: snapshot lines=1
-
-[2026-05-28 12:33:52] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:33:52] [EXIT] 1
-[2026-05-28 12:33:52] [OUT] ---
-Error: Internal error in evaluate_script: CDP error: No target with given id found
-[2026-05-28 12:33:52] [OUT] ---
-[2026-05-28 12:33:52] [WARN] Command failed (exit 1): browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:34:02] [DEBUG] Elapsed: 130s
-[2026-05-28 12:34:02] [DEBUG] phase_5: poll iteration elapsed=130s
-
-[2026-05-28 12:34:02] [CMD] browseros-cli text -p 170
-[2026-05-28 12:34:02] [EXIT] 1
-[2026-05-28 12:34:02] [OUT] ---
-Error: Internal error in get_page_content: CDP error: No target with given id found
-[2026-05-28 12:34:02] [OUT] ---
-[2026-05-28 12:34:02] [WARN] Command failed (exit 1): browseros-cli text -p 170
-[2026-05-28 12:34:02] [DEBUG] phase_5: page_text lines=1
-
-[2026-05-28 12:34:02] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:34:02] [EXIT] 1
-[2026-05-28 12:34:02] [OUT] ---
-Error: Internal error in take_snapshot: CDP error: No target with given id found
-[2026-05-28 12:34:02] [OUT] ---
-[2026-05-28 12:34:02] [WARN] Command failed (exit 1): browseros-cli snap -p 170
-[2026-05-28 12:34:02] [DEBUG] phase_5: snapshot lines=1
-
-[2026-05-28 12:34:02] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:34:02] [EXIT] 1
-[2026-05-28 12:34:02] [OUT] ---
-Error: Internal error in evaluate_script: CDP error: No target with given id found
-[2026-05-28 12:34:02] [OUT] ---
-[2026-05-28 12:34:02] [WARN] Command failed (exit 1): browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:34:12] [DEBUG] Elapsed: 140s
-[2026-05-28 12:34:12] [DEBUG] phase_5: poll iteration elapsed=140s
-
-[2026-05-28 12:34:12] [CMD] browseros-cli text -p 170
-[2026-05-28 12:34:12] [EXIT] 1
-[2026-05-28 12:34:12] [OUT] ---
-Error: Internal error in get_page_content: CDP error: No target with given id found
-[2026-05-28 12:34:12] [OUT] ---
-[2026-05-28 12:34:12] [WARN] Command failed (exit 1): browseros-cli text -p 170
-[2026-05-28 12:34:12] [DEBUG] phase_5: page_text lines=1
-
-[2026-05-28 12:34:12] [CMD] browseros-cli snap -p 170
-[2026-05-28 12:34:12] [EXIT] 1
-[2026-05-28 12:34:12] [OUT] ---
-Error: Internal error in take_snapshot: CDP error: No target with given id found
-[2026-05-28 12:34:12] [OUT] ---
-[2026-05-28 12:34:13] [WARN] Command failed (exit 1): browseros-cli snap -p 170
-[2026-05-28 12:34:13] [DEBUG] phase_5: snapshot lines=1
-
-[2026-05-28 12:34:13] [CMD] browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:34:13] [EXIT] 1
-[2026-05-28 12:34:13] [OUT] ---
-Error: Internal error in evaluate_script: CDP error: No target with given id found
-[2026-05-28 12:34:13] [OUT] ---
-[2026-05-28 12:34:13] [WARN] Command failed (exit 1): browseros-cli eval -p 170 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
-[2026-05-28 12:34:23] [DEBUG] Elapsed: 150s
-[2026-05-28 12:34:23] [DEBUG] phase_5: poll loop ended, video_ready=0 elapsed=150s
-
-[2026-05-28 12:34:23] [CMD] browseros-cli eval -p 170 window.location.href
-[2026-05-28 12:34:23] [EXIT] 1
-[2026-05-28 12:34:23] [OUT] ---
-Error: Internal error in evaluate_script: CDP error: No target with given id found
-[2026-05-28 12:34:23] [OUT] ---
-[2026-05-28 12:34:23] [WARN] Command failed (exit 1): browseros-cli eval -p 170 window.location.href
-[2026-05-28 12:34:23] [DEBUG] phase_5: timeout post_url='Error: Internal error in evaluate_script: CDP error: No target with given id found'
-{"success": true, "id": "414", "status": "video_failed"}
-[2026-05-28 12:34:23] [FATAL] Timeout waiting for video generation
+[2026-05-29 22:51:05] [OUT] ---
+[2026-05-29 22:51:05] [DEBUG] phase_5: page_text lines=1
+
+[2026-05-29 22:51:06] [CMD] browseros-cli snap -p 188
+[2026-05-29 22:51:06] [EXIT] 0
+[2026-05-29 22:51:06] [OUT] ---
+[312] link "Home page"
+[320] button "Search"
+[335] link
+[355] link
+[381] link
+[392] link
+[410] button "History"
+[435] button "Toggle Sidebar"
+[442] button "DS" (collapsed)
+[3821] link "Back"
+[3826] button "Next post"
+[3838] button "Play"
+[4069] button "Make video"
+[3885] button "Save"
+[3886] button "Compose Post"
+[4070] button "Edit image"
+[3888] button "Download"
+[3889] button "More options" (collapsed)
+[3891] button "Create share link"
+[2352] button "Saved"
+[4012] textbox "Ask Grok anything" value="
+"
+[4087] button "3 videos (720p, 10s) left" (collapsed)
+[4084] radio "Image"
+[4085] radio "Video"
+[2377] button "Make video"
+[3862] clickable "MoreMake videoMute"
+[2026-05-29 22:51:06] [OUT] ---
+[2026-05-29 22:51:06] [DEBUG] phase_5: snapshot lines=27
+
+[2026-05-29 22:51:07] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:51:07] [EXIT] 0
+[2026-05-29 22:51:07] [OUT] ---
+
+[2026-05-29 22:51:07] [OUT] ---
+[2026-05-29 22:51:07] [INFO] Video ready (Download button enabled)
+[2026-05-29 22:51:07] [DEBUG] phase_5: poll loop ended, video_ready=1 elapsed=10s
+[2026-05-29 22:51:07] [INFO] ========================================
+[2026-05-29 22:51:07] [INFO]   Phase 6: Asset Management
+[2026-05-29 22:51:07] [INFO] ========================================
+[2026-05-29 22:51:07] [INFO] Checking for video preference dialog...
+
+[2026-05-29 22:51:08] [CMD] browseros-cli eval -p 188 (function() { var h = document.evaluate("//h3[contains(text(), 'Which video do you prefer to keep?')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; return h ? h.innerText.trim() : ''; })()
+[2026-05-29 22:51:08] [EXIT] 0
+[2026-05-29 22:51:08] [OUT] ---
+
+[2026-05-29 22:51:08] [OUT] ---
+[2026-05-29 22:51:08] [DEBUG] phase_6: handle_video_preference exit=2
+[2026-05-29 22:51:08] [DEBUG] phase_6: no video preference dialog present
+[2026-05-29 22:51:08] [INFO] Waiting 5 seconds for file stabilization...
+[2026-05-29 22:51:13] [INFO] Taking snapshot to find Download button...
+[2026-05-29 22:51:13] [DEBUG] phase_6: find Download attempt=0
+
+[2026-05-29 22:51:14] [CMD] browseros-cli snap -p 188
+[2026-05-29 22:51:14] [EXIT] 0
+[2026-05-29 22:51:14] [OUT] ---
+[312] link "Home page"
+[320] button "Search"
+[335] link
+[355] link
+[381] link
+[392] link
+[410] button "History"
+[435] button "Toggle Sidebar"
+[442] button "DS" (collapsed)
+[3821] link "Back"
+[3826] button "Next post"
+[3838] button "Play"
+[4069] button "Make video"
+[3885] button "Save"
+[3886] button "Compose Post"
+[4070] button "Edit image"
+[3888] button "Download"
+[3889] button "More options" (collapsed)
+[3891] button "Create share link"
+[2352] button "Saved"
+[4012] textbox "Ask Grok anything" value="
+"
+[4087] button "3 videos (720p, 10s) left" (collapsed)
+[4084] radio "Image"
+[4085] radio "Video"
+[2377] button "Make video"
+[3862] clickable "MoreMake videoMute"
+[2026-05-29 22:51:14] [OUT] ---
+[2026-05-29 22:51:14] [DEBUG] phase_6: dl_ref='3888'
+[2026-05-29 22:51:14] [INFO] Download button found: ref 3888
+[2026-05-29 22:51:14] [INFO] Destination: /Users/dsen/Projects/ai-post-maker/project-1/assets/current
+[2026-05-29 22:51:14] [INFO] Downloading via browseros-cli (ref: 3888)...
+
+[2026-05-29 22:51:18] [CMD] browseros-cli download -p 188 3888 /Users/dsen/Projects/ai-post-maker/project-1/assets/current
+[2026-05-29 22:51:18] [EXIT] 0
+[2026-05-29 22:51:18] [OUT] ---
+Downloaded "f77d1a7a-4443-452d-977f-3eb21da16232.jpg" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/f77d1a7a-4443-452d-977f-3eb21da16232.jpg
+[2026-05-29 22:51:18] [OUT] ---
+[2026-05-29 22:51:18] [DEBUG] phase_6: download_exit=Downloaded "f77d1a7a-4443-452d-977f-3eb21da16232.jpg" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/f77d1a7a-4443-452d-977f-3eb21da16232.jpg
+[2026-05-29 22:51:18] [DEBUG] phase_6: download output: Downloaded "f77d1a7a-4443-452d-977f-3eb21da16232.jpg" to /Users/dsen/Projects/ai-post-maker/project-1/assets/current/f77d1a7a-4443-452d-977f-3eb21da16232.jpg
+[2026-05-29 22:51:18] [DEBUG] phase_6: downloaded_file from regex='f77d1a7a-4443-452d-977f-3eb21da16232.jpg'
+[2026-05-29 22:51:18] [INFO] Downloaded file: f77d1a7a-4443-452d-977f-3eb21da16232.jpg
+[2026-05-29 22:51:18] [INFO] Renamed to: 407.mp4
+[2026-05-29 22:51:18] [INFO] Asset saved: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/407.mp4
+[2026-05-29 22:51:18] [INFO] File validated: 295449 bytes
+[2026-05-29 22:51:18] [INFO] ========================================
+[2026-05-29 22:51:18] [INFO]   Phase 7: Recording & Tracking
+[2026-05-29 22:51:18] [INFO] ========================================
+[2026-05-29 22:51:18] [INFO] Getting page URL...
+
+[2026-05-29 22:51:19] [CMD] browseros-cli eval -p 188 window.location.href
+[2026-05-29 22:51:19] [EXIT] 0
+[2026-05-29 22:51:19] [OUT] ---
+https://grok.com/imagine/post/f77d1a7a-4443-452d-977f-3eb21da16232
+[2026-05-29 22:51:19] [OUT] ---
+[2026-05-29 22:51:19] [INFO] Post URL: https://grok.com/imagine/post/f77d1a7a-4443-452d-977f-3eb21da16232
+[2026-05-29 22:51:19] [INFO] Getting video URL...
+
+[2026-05-29 22:51:20] [CMD] browseros-cli eval -p 188 document.querySelector('video')?.src || window.location.href
+[2026-05-29 22:51:20] [EXIT] 0
+[2026-05-29 22:51:20] [OUT] ---
+https://grok.com/imagine/post/f77d1a7a-4443-452d-977f-3eb21da16232
+[2026-05-29 22:51:20] [OUT] ---
+[2026-05-29 22:51:20] [DEBUG] phase_7: video_url from eval=''
+[2026-05-29 22:51:20] [DEBUG] phase_7: falling back to post_url
+[2026-05-29 22:51:20] [INFO] Video URL: https://grok.com/imagine/post/f77d1a7a-4443-452d-977f-3eb21da16232
+[2026-05-29 22:51:20] [INFO] Updating tracker... project=1 prompt=407
+[2026-05-29 22:51:20] [DEBUG] phase_7: tracker_result='{"success": true, "id": "407"}'
+[2026-05-29 22:51:20] [INFO] Prompt 407 marked complete
+[2026-05-29 22:51:20] [INFO] ========================================
+[2026-05-29 22:51:20] [INFO]   Complete
+[2026-05-29 22:51:20] [INFO] ========================================
+[2026-05-29 22:51:20] [INFO] Successfully processed prompt 407
+[2026-05-29 22:51:20] [INFO] Asset: /Users/dsen/Projects/ai-post-maker/project-1/assets/current/407.mp4
+[2026-05-29 22:51:20] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/grok_automation.log
+[2026-05-29 22:51:20] [DEBUG] main: finished
