@@ -464,7 +464,8 @@
       "executed_at": "2026-05-02T07:13:38.145228",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -472,6 +473,13 @@
             "date": "2026-05-28",
             "day": "Thursday",
             "time": "13:35:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-10",
+            "day": "Wednesday",
+            "time": "11:15:00"
           }
         }
       ]
@@ -531,7 +539,8 @@
       "executed_at": "2026-05-02T07:32:47.481425",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -539,6 +548,13 @@
             "date": "2026-05-30",
             "day": "Saturday",
             "time": "18:10:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-10",
+            "day": "Wednesday",
+            "time": "19:15:00"
           }
         }
       ]
@@ -552,7 +568,8 @@
       "executed_at": "2026-05-02T07:38:58.748565",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -560,6 +577,13 @@
             "date": "2026-05-31",
             "day": "Sunday",
             "time": "18:25:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-11",
+            "day": "Thursday",
+            "time": "08:45:00"
           }
         }
       ]
@@ -573,7 +597,8 @@
       "executed_at": "2026-05-02T07:45:14.985706",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -581,6 +606,13 @@
             "date": "2026-06-01",
             "day": "Monday",
             "time": "13:10:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-12",
+            "day": "Friday",
+            "time": "13:45:00"
           }
         }
       ]
@@ -594,7 +626,8 @@
       "executed_at": "2026-05-02T07:51:35.394058",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -602,6 +635,13 @@
             "date": "2026-06-02",
             "day": "Tuesday",
             "time": "12:40:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-13",
+            "day": "Saturday",
+            "time": "09:00:00"
           }
         }
       ]
@@ -615,7 +655,8 @@
       "executed_at": "2026-05-02T07:58:13.372653",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -623,6 +664,13 @@
             "date": "2026-06-02",
             "day": "Tuesday",
             "time": "18:00:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-13",
+            "day": "Saturday",
+            "time": "12:00:00"
           }
         }
       ]
@@ -636,7 +684,8 @@
       "executed_at": "2026-05-02T08:04:37.479427",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -644,6 +693,13 @@
             "date": "2026-06-03",
             "day": "Wednesday",
             "time": "10:25:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-14",
+            "day": "Sunday",
+            "time": "20:45:00"
           }
         }
       ]
@@ -657,7 +713,8 @@
       "executed_at": "2026-05-02T08:11:01.017614",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -665,6 +722,13 @@
             "date": "2026-06-04",
             "day": "Thursday",
             "time": "09:05:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-15",
+            "day": "Monday",
+            "time": "13:00:00"
           }
         }
       ]
@@ -678,7 +742,8 @@
       "executed_at": "2026-05-02T08:17:24.512341",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -694,6 +759,13 @@
             "day": "Thursday",
             "time": "13:55:00"
           }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-16",
+            "day": "Tuesday",
+            "time": "09:45:00"
+          }
         }
       ]
     },
@@ -706,7 +778,8 @@
       "executed_at": "2026-05-02T08:23:52.160850",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -714,6 +787,13 @@
             "date": "2026-06-05",
             "day": "Friday",
             "time": "19:05:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-17",
+            "day": "Wednesday",
+            "time": "19:30:00"
           }
         }
       ]
@@ -727,7 +807,8 @@
       "executed_at": "2026-05-02T08:30:20.556815",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -735,6 +816,13 @@
             "date": "2026-06-06",
             "day": "Saturday",
             "time": "12:10:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-18",
+            "day": "Thursday",
+            "time": "19:00:00"
           }
         }
       ]
@@ -748,7 +836,8 @@
       "executed_at": "2026-05-02T08:36:42.175885",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -756,6 +845,13 @@
             "date": "2026-06-07",
             "day": "Sunday",
             "time": "12:15:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-19",
+            "day": "Friday",
+            "time": "10:00:00"
           }
         }
       ]
@@ -769,7 +865,8 @@
       "executed_at": "2026-05-02T08:43:14.670759",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -777,6 +874,13 @@
             "date": "2026-06-08",
             "day": "Monday",
             "time": "20:25:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-20",
+            "day": "Saturday",
+            "time": "08:30:00"
           }
         }
       ]
@@ -790,7 +894,8 @@
       "executed_at": "2026-05-02T08:49:47.086356",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -798,6 +903,13 @@
             "date": "2026-06-09",
             "day": "Tuesday",
             "time": "09:25:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-20",
+            "day": "Saturday",
+            "time": "11:15:00"
           }
         }
       ]
@@ -811,7 +923,8 @@
       "executed_at": "2026-05-02T08:56:25.529525",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -819,6 +932,13 @@
             "date": "2026-06-10",
             "day": "Wednesday",
             "time": "18:20:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-21",
+            "day": "Sunday",
+            "time": "12:15:00"
           }
         }
       ]
@@ -832,7 +952,8 @@
       "executed_at": "2026-05-02T09:46:11.817255",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -840,6 +961,13 @@
             "date": "2026-06-11",
             "day": "Thursday",
             "time": "09:05:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-22",
+            "day": "Monday",
+            "time": "13:30:00"
           }
         }
       ]
@@ -876,7 +1004,8 @@
       "executed_at": "2026-05-02T16:59:13.178034",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -884,6 +1013,13 @@
             "date": "2026-06-12",
             "day": "Friday",
             "time": "19:00:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-23",
+            "day": "Tuesday",
+            "time": "08:00:00"
           }
         }
       ]
@@ -897,7 +1033,8 @@
       "executed_at": "2026-05-02T17:08:29.837433",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -905,6 +1042,13 @@
             "date": "2026-06-13",
             "day": "Saturday",
             "time": "08:45:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-24",
+            "day": "Wednesday",
+            "time": "12:45:00"
           }
         }
       ]
@@ -918,7 +1062,8 @@
       "executed_at": "2026-05-02T17:20:28.732133",
       "asset": "mapped",
       "upload": [
-        "facebook"
+        "facebook",
+        "youtube"
       ],
       "scheduled": [
         {
@@ -926,6 +1071,13 @@
             "date": "2026-06-14",
             "day": "Sunday",
             "time": "18:25:00"
+          }
+        },
+        {
+          "youtube": {
+            "date": "2026-06-25",
+            "day": "Thursday",
+            "time": "14:00:00"
           }
         }
       ]
@@ -949,7 +1101,18 @@
       "prompt": "An ultra-realistic, highly detailed har gow (shrimp dumplings) sitting in a traditional bamboo steamer. The wrappers are slightly translucent, glossy, and pleated, showing the pink plump shrimp filling inside. Thick steam rolling out, macro photography. Aspect ratio 9:16 portrait",
       "status": "completed",
       "asset": "mapped",
-      "upload": []
+      "upload": [
+        "youtube"
+      ],
+      "scheduled": [
+        {
+          "youtube": {
+            "date": "2026-06-26",
+            "day": "Friday",
+            "time": "19:15:00"
+          }
+        }
+      ]
     },
     {
       "id": 45,
