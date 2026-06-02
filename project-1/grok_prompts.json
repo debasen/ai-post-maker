@@ -4587,65 +4587,74 @@
     {
       "id": 421,
       "prompt": "An ultra-realistic, highly detailed pan-seared duck breast with cherry sauce, crispy scored skin, pink interior, thyme, fine dining plating. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/5f4aa9db-1e8e-46a4-82b8-ef400f6305a7",
+      "executed_at": "2026-06-02T10:02:08.724949",
+      "video_url": "https://grok.com/imagine/post/5f4aa9db-1e8e-46a4-82b8-ef400f6305a7"
     },
     {
       "id": 422,
       "prompt": "An ultra-realistic, highly detailsd Greek chicken souvlaki skewers, charred marinated chicken, tzatziki sauce, pita bread, tomato, onion. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/945cffd3-2216-46cd-b4e2-f4e3a7a52f99",
+      "executed_at": "2026-06-02T10:12:11.834065",
+      "video_url": "https://grok.com/imagine/post/945cffd3-2216-46cd-b4e2-f4e3a7a52f99"
     },
     {
       "id": 423,
       "prompt": "An ultra-realistic, highly detailed creamy butternut squash ravioli, brown butter sage sauce, toasted pine nuts, shaved parmesan, rustic bowl. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/4f9e057a-1052-4dd2-87f8-12b560c1f935",
+      "executed_at": "2026-06-02T10:22:26.660719",
+      "video_url": "https://grok.com/imagine/post/4f9e057a-1052-4dd2-87f8-12b560c1f935"
     },
     {
       "id": 424,
       "prompt": "An ultra-realistic, highly detailsd tres leches cake slice, soaked milky sponge, whipped cream topping, fresh strawberries, fork taking a bite. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/063da8d6-6d76-4507-8d9b-da9120682058",
+      "executed_at": "2026-06-02T10:32:11.736433",
+      "video_url": "https://grok.com/imagine/post/063da8d6-6d76-4507-8d9b-da9120682058"
     },
     {
       "id": 425,
       "prompt": "An ultra-realistic, highly detailed sizzling chicken fajitas on a cast iron, colorful peppers and onions, warm tortillas, guacamole, sour cream. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/d1cdd53c-fdd0-44d1-a5a9-056d383fdbb8",
+      "executed_at": "2026-06-02T10:42:25.633544",
+      "video_url": "https://grok.com/imagine/post/d1cdd53c-fdd0-44d1-a5a9-056d383fdbb8"
     },
     {
       "id": 426,
       "prompt": "An ultra-realistic, highly detailsd fresh spring rolls with shrimp and mango, translucent rice paper, vermicelli noodles, mint, peanut dipping sauce. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/846609e1-aabd-4de6-ada1-5c92518f8af8",
+      "executed_at": "2026-06-02T10:52:38.848818",
+      "video_url": "https://grok.com/imagine/post/846609e1-aabd-4de6-ada1-5c92518f8af8"
     },
     {
       "id": 427,
       "prompt": "An ultra-realistic, highly detailed golden chicken schnitzel on a plate, crispy breadcrumb crust, lemon wedge, parsley, potato salad on the side. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/3d68823d-f60f-449f-974c-a86ea936500e",
+      "executed_at": "2026-06-02T11:02:26.584085",
+      "video_url": "https://grok.com/imagine/post/3d68823d-f60f-449f-974c-a86ea936500e"
     },
     {
       "id": 428,
       "prompt": "An ultra-realistic, highly detailsd raspberry white chocolate cheesecake, creamy filling, glossy raspberry coulis, white chocolate shavings, graham crust. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/634cb415-b22d-4289-8cef-983b37ce50e7",
+      "executed_at": "2026-06-02T11:12:24.731601",
+      "video_url": "https://grok.com/imagine/post/634cb415-b22d-4289-8cef-983b37ce50e7"
     },
     {
       "id": 429,
       "prompt": "An ultra-realistic, highly detailed lamb biryani in a clay pot, fragrant saffron rice, tender lamb pieces, fried onions, mint, raita on the side. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/f19813cb-6eef-4ab9-a5f6-aaf66d6dde3e",
+      "executed_at": "2026-06-02T11:22:38.735683",
+      "video_url": "https://grok.com/imagine/post/f19813cb-6eef-4ab9-a5f6-aaf66d6dde3e"
     },
     {
       "id": 430,
