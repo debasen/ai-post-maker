@@ -4660,43 +4660,49 @@
       "id": 430,
       "prompt": "An ultra-realistic, highly detailsd Caprese salad skewers, cherry tomatoes, fresh mozzarella, basil leaves, balsamic glaze drizzle, appetizer platter. Aspect ratio 9:16 portrait",
       "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/a4697820-3e49-41f3-9328-597835ba3931",
+      "executed_at": "2026-06-05T20:27:35.925560",
+      "video_url": "https://grok.com/imagine/post/a4697820-3e49-41f3-9328-597835ba3931"
     },
     {
       "id": 431,
       "prompt": "An ultra-realistic, highly detailed creamy lobster mac and cheese, cavatappi pasta, chunks of lobster meat, breadcrumb topping, truffle oil drizzle. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/a8e651d4-28a8-40e9-9772-a73739fcb6c4",
+      "executed_at": "2026-06-05T21:17:36.600004",
+      "video_url": "https://grok.com/imagine/post/a8e651d4-28a8-40e9-9772-a73739fcb6c4"
     },
     {
       "id": 432,
       "prompt": "An ultra-realistic, highly detailsd churros in a paper cone, long ridged golden fried dough, cinnamon sugar dusting, thick dark chocolate dipping sauce. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/5d75f697-f0fb-489f-b873-9e3e1d0d48bd",
+      "executed_at": "2026-06-05T21:32:15.597150",
+      "video_url": "https://grok.com/imagine/post/5d75f697-f0fb-489f-b873-9e3e1d0d48bd"
     },
     {
       "id": 433,
       "prompt": "An ultra-realistic, highly detailed grilled salmon with mango salsa, charred fish fillet, vibrant orange salsa, cilantro, lime wedges, tropical setting. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/3e008e97-562d-4f67-af65-618007352ee3",
+      "executed_at": "2026-06-05T21:47:06.392672",
+      "video_url": "https://grok.com/imagine/post/3e008e97-562d-4f67-af65-618007352ee3"
     },
     {
       "id": 434,
       "prompt": "An ultra-realistic, highly detailsd chicken shawarma plate, sliced marinated chicken, colorful pickled vegetables, garlic sauce, warm pita, rice. Aspect ratio 9:16 portrait",
-      "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/71f430fe-539c-4dd3-892c-5058d229a6c4\nposthog 2026/06/05 22:02:24 WARN: shutdown timeout: 1 batches still in flight\nposthog 2026/06/05 22:02:24 WARN: shutdown timeout exceeded, some messages may be lost",
+      "executed_at": "2026-06-05T22:02:25.562461",
+      "video_url": "https://grok.com/imagine/post/71f430fe-539c-4dd3-892c-5058d229a6c4\nposthog 2026/06/05 22:02:24 WARN: shutdown timeout: 1 batches still in flight\nposthog 2026/06/05 22:02:24 WARN: shutdown timeout exceeded, some messages may be lost"
     },
     {
       "id": 435,
       "prompt": "An ultra-realistic, highly detailed fluffy Japanese cheesecake jiggling gently, tall and airy, powdered sugar dusting, strawberry on top. Aspect ratio 9:16 portrait",
       "status": "pending",
-      "post_url": null,
-      "executed_at": null
+      "post_url": "https://grok.com/imagine/post/760939fb-4c05-49ec-a9fe-4f9b5b249765",
+      "executed_at": "2026-06-05T22:52:09.035809",
+      "video_url": "https://grok.com/imagine/post/760939fb-4c05-49ec-a9fe-4f9b5b249765"
     },
     {
       "id": 436,
