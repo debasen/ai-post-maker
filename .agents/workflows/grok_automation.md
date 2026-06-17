@@ -40,6 +40,7 @@ description: Advanced end-to-end automation skill for generating videos on Grok.
      })();
      ```
    - Call `evaluate_script` with the prepared script.
+   - *Note*: Under the new UI (2026-06-17), the script clicks `button[aria-label="Animate"]` to open the dropdown and then clicks `"Quick Animate"` (for default mode) or `"Add Prompt"` (for custom prompt mode).
 3. **Decision**:
    - If returns `status: 'ok'` → Go to Step 4.
    - If returns `status: 'image_warning'`:
@@ -124,3 +125,12 @@ description: Advanced end-to-end automation skill for generating videos on Grok.
    - This command finds the most-recent file in the destination directory and renames it to `<ID>.mp4`.
 4. **Verify**:
    - Confirm the file exists at `project-<N>/assets/current/<ID>.mp4` with non-zero size.
+
+---
+
+## UI State Reference (2026-06-17)
+
+- **Completed video page**: `<video>` element with `.mp4` src, `button[aria-label="Pause"]` ENABLED, and `button[aria-label="Download"]` ENABLED.
+- **Image-only post page**: `button[aria-label="Animate"]` in right sidebar (opens dropdown with "Quick Animate" and "Add Prompt").
+- **Loading/Generating state**: "Generating" text indicator and percentage progress (e.g., "34%") visible on page, along with a button showing text `"Cancel"` (replaces `"Cancel Video"`).
+- **Download button**: located in right sidebar panel, selector `button[aria-label="Download"]` is unchanged.

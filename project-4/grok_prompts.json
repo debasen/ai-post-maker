@@ -1,6 +1,6 @@
 {
   "config": {
-    "thumbnail_id": "a0b200e0-dd43-424e-a758-824608bc16c8",
+    "thumbnail_id": "35399a0a-5e59-4d32-a20d-4260a5c44e0c",
     "video_type": null
   },
   "prompts": [
@@ -294,32 +294,47 @@
       "id": 30,
       "prompt": "Imagine the exact model on a tennis court. Wearing a white pleated mini skirt over a matching bikini. Looking at the camera with a sporty, high-energy smirk. Holding a tennis racket over her shoulder. Full body shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Game, set, match. 🎾🔥 #model #fashionmodel #hot #spicy #tennisgirl #fitgoals #sportychic #summerbody",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/9fc3fda2-015a-4ce7-ab2a-e59a9830ec0a",
+      "post_url": "https://grok.com/imagine/post/819fcd55-68a8-4c82-83b1-54fbf0caefd8",
+      "executed_at": "2026-06-17T00:45:04.815601"
     },
     {
       "id": 31,
       "prompt": "Imagine the exact model in a snowy mountain peak. Wearing an open white puffer jacket over a black micro bikini. Looking at the camera with a fierce, cold-defying expression. Blue sky and snow peaks behind. Wide shot, low angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Ice queen heat. ❄️👑 #model #fashionmodel #hot #spicy #winterfashion #mountainlife #pufferjacket #snowqueen",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/aff980fb-0577-4bce-8dff-f8c4f6e246bd",
+      "post_url": "https://grok.com/imagine/post/935e8dfb-2c44-484c-8bd3-b7d5f461dfcc",
+      "executed_at": "2026-06-17T00:54:14.866786"
     },
     {
       "id": 32,
       "prompt": "Imagine the exact model in a vintage vinyl record store. Wearing a band t-shirt tied at the waist over a red bikini top. Looking at the camera with a cool, nostalgic gaze. Holding a record. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Nostalgic rhythms. 🎶🖤 #model #fashionmodel #hot #spicy #recordstore #vintagevibes #musiclover #coolstyle",
-      "status": "pending"
+      "status": "completed",
+      "post_url": "https://grok.com/imagine/post/c2a3ebd9-1c89-4759-b7d9-dbde8839c4f3",
+      "executed_at": "2026-06-17T01:06:09.432352",
+      "video_url": "https://grok.com/imagine/post/3e327b34-b547-4e8e-ac63-bed7b38ea78b"
     },
     {
       "id": 33,
       "prompt": "Imagine the exact model in a field of wild sunflowers. Wearing a yellow string bikini. Looking at the camera with a joyful, unbothered smile. Bright daylight. Wide shot, high angle. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Sunflower soul. 🌻☀️ #model #fashionmodel #hot #spicy #summerdream #naturephotography #yellowbikini #happyvibes",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/18512e59-74a2-4e4a-bcca-567823363945",
+      "post_url": "https://grok.com/imagine/post/22fc0a25-383c-4738-8383-8206e4914e2e",
+      "executed_at": "2026-06-17T01:10:24.858462"
     },
     {
       "id": 34,
       "prompt": "Imagine the exact model in a luxury penthouse at night. Wearing a black silk robe. Looking at the camera with an intense, seductive expression. City lights reflecting in the window behind her. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "video_prompt": "She slowly unties the robe belt. Slight camera zoom focusing on her gaze. Maintain correct movement and physics.",
       "instagram_caption": "Nightlife elegance. 🌃🖤 #model #fashionmodel #hot #spicy #penthouse #nightaesthetic #luxurylife #silkstyle",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/0d7a6998-538b-4356-bb23-e23677cc0fe1",
+      "post_url": "https://grok.com/imagine/post/b561cc8b-e6ec-4f84-88a6-85b752d4f6cf",
+      "executed_at": "2026-06-17T22:55:54.475924"
     },
     {
       "id": 35,

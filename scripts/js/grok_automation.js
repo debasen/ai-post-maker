@@ -1,11 +1,11 @@
 /**
  * Grok Image-to-Video Automation Script (v5)
  *
- * UI Discovery Notes (2026-04-28):
+ * UI Discovery Notes (2026-06-17):
  * - Completed video page: <video> element present with .mp4 src,
  *   button[aria-label="Pause"] ENABLED exists, button[aria-label="Download"] ENABLED exists.
- * - Image-only post page: no <video>, button[aria-label="Make video"] visible & enabled.
- * - Loading state: "Generating" text + "Cancel Video" button visible.
+ * - Image-only post page: no <video>, button[aria-label="Animate"] in sidebar opens dropdown with "Quick Animate" and "Add Prompt".
+ * - Loading state: "Generating" text + percentage indicator + button with text "Cancel" visible.
  * - Video moderation: svg.lucide-eye-off present after generation step.
  * - Image moderation: img[alt="Moderated"] with blur-lg saturate-0 classes.
  * - Failure text: body text contains moderation/error keywords.
@@ -39,7 +39,7 @@ const SELECTORS = {
   submitBtn: 'button[aria-label="Edit"], button[aria-label="Grok"], button[aria-label="Send"]',
 
   // Video generation trigger
-  makeVideoBtn: 'button[aria-label="Make video"]',
+  makeVideoBtn: 'button[aria-label="Make video"], button[aria-label="Animate"]',
 
   // More options / Spicy
   moreOptionsBtn: 'button[aria-label="More options"], button[aria-label="More"]',
@@ -277,19 +277,47 @@ async function triggerVideoGeneration(mode, videoPromptText, videoType) {
   if (mode === 'custom_video_prompt') {
     console.log('🎬 [Grok v5] Custom video prompt mode...');
 
-    // Step V-1: Click Video icon
-    const allBtns = Array.from(document.querySelectorAll('button'));
-    const videoIconBtn = allBtns.reverse().find((btn) => {
-      const ariaLabel = (btn.getAttribute('aria-label') || '').toLowerCase();
-      return ariaLabel.includes('video') && !ariaLabel.includes('make');
-    });
+    const animateBtn = findVisibleMakeVideoButton();
+    const isAnimateBtn = animateBtn && (animateBtn.getAttribute('aria-label') || '').toLowerCase().includes('animate');
 
-    if (!videoIconBtn) {
-      throw new Error('Video icon button not found.');
+    if (isAnimateBtn) {
+      console.log('🎬 [Grok v5] Using Animate dropdown for custom prompt...');
+      clickElement(animateBtn);
+      await wait(1200);
+
+      // Find "Add Prompt"
+      const menuItems = Array.from(document.querySelectorAll('[role="menuitem"]'));
+      let addPromptItem = menuItems.find(m => m.textContent.trim().includes('Add Prompt'));
+      if (!addPromptItem) {
+        // Fallback search
+        const allElements = Array.from(document.querySelectorAll('*'));
+        addPromptItem = allElements.find(m => {
+          const rect = m.getBoundingClientRect();
+          return rect.width > 0 && rect.height > 0 && m.textContent.trim() === 'Add Prompt';
+        });
+      }
+
+      if (!addPromptItem) {
+        throw new Error("'Add Prompt' menu item not found in dropdown.");
+      }
+      clickElement(addPromptItem);
+      await wait(1500);
+    } else {
+      console.log('🎬 [Grok v5] Falling back to old Video icon custom prompt flow...');
+      // Step V-1: Click Video icon
+      const allBtns = Array.from(document.querySelectorAll('button'));
+      const videoIconBtn = allBtns.reverse().find((btn) => {
+        const ariaLabel = (btn.getAttribute('aria-label') || '').toLowerCase();
+        return ariaLabel.includes('video') && !ariaLabel.includes('make');
+      });
+
+      if (!videoIconBtn) {
+        throw new Error('Video icon button not found.');
+      }
+
+      clickElement(videoIconBtn);
+      await wait(1500);
     }
-
-    clickElement(videoIconBtn);
-    await wait(1500);
 
     // Step V-2: Find video prompt input
     const videoEditableElement =
@@ -319,6 +347,7 @@ async function triggerVideoGeneration(mode, videoPromptText, videoType) {
         rect.width > 0 &&
         rect.height > 0 &&
         (b.getAttribute('aria-label') === 'Make video' ||
+          b.getAttribute('aria-label') === 'Animate' ||
           b.getAttribute('aria-label') === 'Edit' ||
           b.getAttribute('aria-label') === 'Grok' ||
           b.getAttribute('aria-label') === 'Send')
@@ -341,18 +370,48 @@ async function triggerVideoGeneration(mode, videoPromptText, videoType) {
 }
 
 async function triggerDefaultMakeVideo(postUrl) {
-  console.log('🔎 [Grok v5] Default Make video mode...');
+  console.log('🔎 [Grok v5] Default Make video / Animate mode...');
   const btn = findVisibleMakeVideoButton();
 
   if (!btn) {
-    throw new Error("'Make video' button not found.");
+    throw new Error("'Make video' or 'Animate' button not found.");
   }
 
-  const oldUrl = window.location.href;
-  clickElement(btn);
-  console.log('⏳ [Grok v5] Make video clicked. Waiting for URL change...');
-  const urlResult = await waitForUrlChange(oldUrl);
-  return { mode: 'default_make_video', postUrl, ...urlResult };
+  const ariaLabel = (btn.getAttribute('aria-label') || '').toLowerCase();
+  if (ariaLabel.includes('animate')) {
+    console.log('🎬 [Grok v5] Found Animate button, handling dropdown flow...');
+    const oldUrl = window.location.href;
+    clickElement(btn);
+    await wait(1200); // Wait for dropdown to open
+
+    // Find "Quick Animate" menuitem
+    const menuItems = Array.from(document.querySelectorAll('[role="menuitem"]'));
+    let quickAnimateItem = menuItems.find(m => m.textContent.trim().includes('Quick Animate'));
+    if (!quickAnimateItem) {
+      // Fallback search
+      const allElements = Array.from(document.querySelectorAll('*'));
+      quickAnimateItem = allElements.find(m => {
+        const rect = m.getBoundingClientRect();
+        return rect.width > 0 && rect.height > 0 && m.textContent.trim() === 'Quick Animate';
+      });
+    }
+
+    if (!quickAnimateItem) {
+      throw new Error("'Quick Animate' menu item not found in dropdown.");
+    }
+
+    clickElement(quickAnimateItem);
+    console.log('⏳ [Grok v5] Quick Animate clicked. Waiting for URL change...');
+    const urlResult = await waitForUrlChange(oldUrl);
+    return { mode: 'default_make_video', postUrl, ...urlResult };
+  } else {
+    console.log('🎬 [Grok v5] Found old Make video button, clicking directly...');
+    const oldUrl = window.location.href;
+    clickElement(btn);
+    console.log('⏳ [Grok v5] Make video clicked. Waiting for URL change...');
+    const urlResult = await waitForUrlChange(oldUrl);
+    return { mode: 'default_make_video', postUrl, ...urlResult };
+  }
 }
 
 async function waitForUrlChange(oldUrl) {
@@ -368,23 +427,29 @@ async function waitForUrlChange(oldUrl) {
 }
 
 const isVideoGenerating = () => {
-  const generatingEl = document.evaluate(
-    "//div[.//span[contains(text(),'Generating')]]",
-    document,
-    null,
-    XPathResult.FIRST_ORDERED_NODE_TYPE,
-    null
-  ).singleNodeValue;
+  const generatingEl = Array.from(document.querySelectorAll('div')).find(el => {
+    const span = el.querySelector('span');
+    if (span && span.textContent.includes('Generating')) {
+      const rect = el.getBoundingClientRect();
+      return rect.width > 0 && rect.height > 0 && el.offsetParent !== null;
+    }
+    return false;
+  });
 
-  const cancelBtn = document.evaluate(
-    "//button[normalize-space()='Cancel Video']",
-    document,
-    null,
-    XPathResult.FIRST_ORDERED_NODE_TYPE,
-    null
-  ).singleNodeValue;
+  const cancelBtn = Array.from(document.querySelectorAll('button')).find(btn => {
+    const text = btn.textContent.trim();
+    if (text === 'Cancel' || text === 'Cancel Video') {
+      const rect = btn.getBoundingClientRect();
+      return rect.width > 0 && rect.height > 0 && btn.offsetParent !== null;
+    }
+    return false;
+  });
 
-  return { generating: !!(generatingEl || cancelBtn), generatingEl, cancelBtn };
+  const hasProgress = document.body && (
+    document.body.innerText.includes('Generating') && /\b\d+%\b/.test(document.body.innerText)
+  );
+
+  return { generating: !!(generatingEl || cancelBtn || hasProgress), generatingEl, cancelBtn };
 };
 
 // ─────────────────────────────────────────────────────────────

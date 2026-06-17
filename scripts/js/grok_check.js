@@ -67,23 +67,29 @@ const detectVideoFailure = () => {
 };
 
 const isVideoGenerating = () => {
-  const generatingEl = document.evaluate(
-    "//div[.//span[contains(text(),'Generating')]]",
-    document,
-    null,
-    XPathResult.FIRST_ORDERED_NODE_TYPE,
-    null
-  ).singleNodeValue;
+  const generatingEl = Array.from(document.querySelectorAll('div')).find(el => {
+    const span = el.querySelector('span');
+    if (span && span.textContent.includes('Generating')) {
+      const rect = el.getBoundingClientRect();
+      return rect.width > 0 && rect.height > 0 && el.offsetParent !== null;
+    }
+    return false;
+  });
 
-  const cancelBtn = document.evaluate(
-    "//button[normalize-space()='Cancel Video']",
-    document,
-    null,
-    XPathResult.FIRST_ORDERED_NODE_TYPE,
-    null
-  ).singleNodeValue;
+  const cancelBtn = Array.from(document.querySelectorAll('button')).find(btn => {
+    const text = btn.textContent.trim();
+    if (text === 'Cancel' || text === 'Cancel Video') {
+      const rect = btn.getBoundingClientRect();
+      return rect.width > 0 && rect.height > 0 && btn.offsetParent !== null;
+    }
+    return false;
+  });
 
-  return { generating: !!(generatingEl || cancelBtn), generatingEl, cancelBtn };
+  const hasProgress = document.body && (
+    document.body.innerText.includes('Generating') && /\b\d+%\b/.test(document.body.innerText)
+  );
+
+  return { generating: !!(generatingEl || cancelBtn || hasProgress), generatingEl, cancelBtn };
 };
 
 async function checkVideoCompletion() {
