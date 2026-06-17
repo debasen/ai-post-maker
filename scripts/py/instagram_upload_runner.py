@@ -299,15 +299,24 @@ def step_enter_caption(caption_text: str):
         log("WARNING: Share button not found after entering caption. Proceeding anyway.")
 
 
-def step_click_share():
-    """Step 8: Click the Share button."""
-    log("Step 8: Clicking Share...")
-    result = browseros_eval(build_eval("clickShare()"))
-    log(f"clickShare result: {result}")
-    if not (isinstance(result, dict) and result.get("success")):
-        die(f"Failed to click Share: {result}")
-    log("Share clicked! Waiting for post to submit...")
-    time.sleep(5)
+def prompt_user_confirmation() -> bool:
+    """Step 8: Ask the user to manually verify the reel was posted."""
+    print()
+    print("═" * 60)
+    print("  ✅  Caption entered. The Share button is ready.")
+    print("")
+    print("  👉  Please manually review and click Share/Post")
+    print("      in the browser when you are ready.")
+    print("═" * 60)
+    print()
+    while True:
+        answer = input("  Is the reel posted? (y/n): ").strip().lower()
+        if answer in ("y", "yes"):
+            return True
+        elif answer in ("n", "no"):
+            return False
+        else:
+            print("  Please enter 'y' or 'n'.")
 
 
 # ---------------------------------------------------------------------------
@@ -388,14 +397,18 @@ def main():
     step_enter_caption(caption)
 
     # ------------------------------------------------------------------
-    # Step 8: Click Share (unless --dry-run)
+    # Step 8: Manual confirmation (unless --dry-run)
     # ------------------------------------------------------------------
     if args.dry_run:
-        log("DRY-RUN: Skipping Share click and JSON update.")
-        log(f"Would have shared entry ID {entry_id} for project {project}.")
+        log("DRY-RUN: Skipping share confirmation and JSON update.")
+        log(f"Would have prompted for entry ID {entry_id} for project {project}.")
         sys.exit(0)
 
-    step_click_share()
+    posted = prompt_user_confirmation()
+
+    if not posted:
+        log("User indicated reel was NOT posted. JSON status unchanged. Exiting.")
+        sys.exit(0)
 
     # ------------------------------------------------------------------
     # Step 9: Mark entry as done
