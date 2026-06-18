@@ -67,11 +67,30 @@ def run_python(args):
         die(f"Non-JSON output from: {' '.join(cmd)}\n{result.stdout}")
 
 
+def run_browseros_cli(cmd, log_cmd=True):
+    """Run a browseros-cli command with auto-reconnect on connection errors."""
+    if log_cmd:
+        log(f"$ {' '.join(str(a) for a in cmd)}")
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        err_msg = result.stderr.lower()
+        connection_errors = ["connection refused", "cannot connect", "no active page", "session with given id", "cdp error", "dial tcp"]
+        if any(x in err_msg for x in connection_errors):
+            log("Connection error detected. Attempting to reconnect via browseros-cli init --auto...")
+            recon = subprocess.run(["browseros-cli", "init", "--auto"], capture_output=True, text=True)
+            if recon.returncode == 0:
+                log("Reconnected successfully. Retrying command...")
+                time.sleep(2)
+                result = subprocess.run(cmd, capture_output=True, text=True)
+            else:
+                log(f"Reconnection attempt failed:\n{recon.stderr}")
+    return result
+
+
 def browseros(args):
     """Run a browseros-cli command and return stdout."""
     cmd = ["browseros-cli"] + list(args)
-    log(f"$ {' '.join(cmd)}")
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = run_browseros_cli(cmd)
     if result.returncode != 0:
         die(f"browseros-cli failed:\n{result.stderr}")
     return result.stdout.strip()
@@ -86,8 +105,7 @@ def browseros_eval(js_code: str):
     # browseros-cli eval takes the expression as a positional string arg.
     # We use --json to get machine-readable output.
     cmd = ["browseros-cli", "eval", js_code, "--json"]
-    log("$ browseros-cli eval <script> --json")
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = run_browseros_cli(cmd)
 
     if result.returncode != 0:
         die(f"browseros-cli eval failed:\n{result.stderr}")
