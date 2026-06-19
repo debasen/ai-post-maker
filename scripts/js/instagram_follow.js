@@ -107,11 +107,16 @@ async function followExploreSuggestions(maxFollows = null, delayMs = null) {
 // ─────────────────────────────────────────────────────────────
 
 /**
- * Opens the followers modal on the current profile page and follows accounts.
+ * Opens the followers modal (or follows from the /followers/ page) and follows accounts.
+ *
+ * Works in two modes automatically:
+ *   - Modal mode: When on a profile page, clicks the followers link which opens an in-page modal.
+ *   - Page mode: When Instagram navigates to a standalone /followers/ URL instead of a modal,
+ *               it collects Follow buttons directly from the page and scrolls to load more.
  *
  * @param {number|null} maxFollows  Max accounts to follow (default: random 23-28).
  * @param {number|null} delayMs     Fixed delay between clicks in ms (default: random 200-2000).
- * @returns {Promise<Object>}       { attempted, succeeded, skipped, errors, modalOpened }
+ * @returns {Promise<Object>}       { attempted, succeeded, skipped, errors, modalOpened, mode }
  */
 async function followProfileFollowers(maxFollows = null, delayMs = null) {
   if (!maxFollows) {
@@ -126,83 +131,130 @@ async function followProfileFollowers(maxFollows = null, delayMs = null) {
     skipped: 0,
     errors: [],
     modalOpened: false,
+    mode: 'unknown',
   };
 
-  // ── Step 1: Click the followers link ──────────────────────
-  const followersLink = Array.from(document.querySelectorAll('a')).find((a) => {
-    const href = a.getAttribute('href') || '';
-    return href.includes('/followers/');
-  });
+  const currentUrl = window.location.href;
+  const isAlreadyOnFollowersPage = currentUrl.includes('/followers');
 
-  if (!followersLink) {
-    // Fallback: find by text content
-    const found = Array.from(document.querySelectorAll('a, span')).find((el) => {
-      const text = el.textContent ? el.textContent.trim().toLowerCase() : '';
-      return text.includes('followers') && !text.includes('following');
+  if (!isAlreadyOnFollowersPage) {
+    // ── Step 1: We are on the profile page — click the followers link ──
+    let followersLink = null;
+
+    // First try: Find <a> elements that look like the main followers link
+    const allLinks = Array.from(document.querySelectorAll('a'));
+    
+    // We want a link that points to followers, but not mutual/common followers
+    followersLink = allLinks.find((a) => {
+      const href = a.getAttribute('href') || '';
+      const text = a.textContent ? a.textContent.trim().toLowerCase() : '';
+      
+      // If it has a /followers/ URL, make sure it's the main one, not mutual/common
+      if (href.includes('/followers') && !href.includes('mutual') && !href.includes('common')) {
+        return true;
+      }
+      
+      // If it's a javascript link (like href="#") but contains the main "followers" text
+      if (text.includes('followers') && !text.includes('following') && !text.includes('followed by') && !text.includes('mutual')) {
+        return true;
+      }
+      
+      return false;
     });
-    if (found) {
-      found.click();
+
+    if (!followersLink) {
+      // Fallback: search spans/buttons/divs for text content
+      const found = Array.from(document.querySelectorAll('a, span, button, div[role="button"]')).find((el) => {
+        const text = el.textContent ? el.textContent.trim().toLowerCase() : '';
+        return text.includes('followers') && !text.includes('following') && !text.includes('followed by') && !text.includes('mutual');
+      });
+      if (found) {
+        followersLink = found;
+      }
+    }
+
+    if (followersLink) {
+      console.log('📌 [Instagram Follow] Clicking followers element:', followersLink.outerHTML.substring(0, 150));
+      followersLink.click();
     } else {
       return { error: 'Followers link not found on this profile page.' };
     }
+
+    // Wait for modal or page navigation
+    await _wait(2500);
+  }
+
+  // ── Step 2: Determine whether we are in modal or page mode ──
+  const afterUrl = window.location.href;
+  const isPageMode = afterUrl.includes('/followers');
+
+  if (isPageMode) {
+    results.mode = 'page';
+    results.modalOpened = false;
+    console.log('📋 [Instagram Follow] Detected standalone followers page mode.');
   } else {
-    followersLink.click();
+    results.mode = 'modal';
+    results.modalOpened = true;
+    console.log('📋 [Instagram Follow] Detected followers modal mode.');
   }
 
-  // Wait for modal to open
-  await _wait(2000);
-  results.modalOpened = true;
+  // ── Step 3: Locate scroll container (modal mode) or use document (page mode) ──
+  let scrollContainer = null;
 
-  // ── Step 2: Locate the scrollable container ────────────────
-  let scrollContainer =
-    document.querySelector('div[style*="overflow: hidden auto"]') ||
-    document.querySelector('div[style*="overflow-y: auto"]');
+  if (!isPageMode) {
+    scrollContainer =
+      document.querySelector('div[style*="overflow: hidden auto"]') ||
+      document.querySelector('div[style*="overflow-y: auto"]');
 
-  if (!scrollContainer) {
-    const modalHeading = Array.from(document.querySelectorAll('[role="heading"]')).find(
-      (h) => h.textContent && h.textContent.trim() === 'Followers'
-    );
-    if (modalHeading) {
-      scrollContainer = modalHeading.closest('div[class]');
+    if (!scrollContainer) {
+      const modalHeading = Array.from(document.querySelectorAll('[role="heading"]')).find(
+        (h) => h.textContent && h.textContent.trim() === 'Followers'
+      );
+      if (modalHeading) {
+        scrollContainer = modalHeading.closest('div[class]');
+      }
     }
   }
 
-  // ── Step 3: Scroll to load more followers ─────────────────
-  if (scrollContainer) {
-    for (let s = 0; s < 3; s++) {
+  // ── Step 4: Scroll to load more followers ─────────────────
+  const scrollTarget = scrollContainer || document.documentElement;
+  for (let s = 0; s < 4; s++) {
+    if (scrollContainer) {
       scrollContainer.scrollTop = scrollContainer.scrollHeight;
-      await _wait(800);
+    } else {
+      window.scrollTo(0, document.body.scrollHeight);
     }
+    await _wait(800);
   }
 
-  // ── Step 4: Collect "Follow" buttons inside the modal ─────
+  // ── Step 5: Collect "Follow" buttons ──────────────────────
   const allButtons = Array.from(document.querySelectorAll('button'));
   const followButtons = allButtons.filter((btn) => {
     const text = btn.textContent ? btn.textContent.trim().toLowerCase() : '';
     const isFollow = text === 'follow';
-    const isInModal = scrollContainer ? scrollContainer.contains(btn) : true;
-    return isFollow && !btn.disabled && isInModal;
+    const isInScope = scrollContainer ? scrollContainer.contains(btn) : true;
+    return isFollow && !btn.disabled && isInScope;
   });
 
   if (followButtons.length === 0) {
     return {
       error:
-        'No follow buttons found in followers modal. ' +
-        'The account may be private or restrict followers visibility.',
+        'No follow buttons found. The account may be private, all followers may already be followed, ' +
+        'or the page did not load correctly.',
     };
   }
 
   const targetCount = Math.min(followButtons.length, maxFollows);
   console.log(
-    `📊 [Instagram Follow] Found ${followButtons.length} followable accounts in modal. ` +
-    `Picking ${targetCount} randomly.`
+    `📊 [Instagram Follow] Found ${followButtons.length} followable accounts. ` +
+    `Picking ${targetCount} randomly. Mode: ${results.mode}`
   );
 
   // Randomize and cap
   const shuffled = followButtons.sort(() => 0.5 - Math.random());
   const selected = shuffled.slice(0, targetCount);
 
-  // ── Step 5: Click each selected button ────────────────────
+  // ── Step 6: Click each selected button ────────────────────
   for (let i = 0; i < selected.length; i++) {
     const btn = selected[i];
     try {

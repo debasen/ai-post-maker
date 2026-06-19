@@ -5,27 +5,21 @@ instagram_follow_runner.py — Scripted Instagram follow automation (no AI requi
 Converts the instagram_follow_suggestions workflow into a fully scripted Python
 runner using browseros-cli for browser control.
 
-Modes
------
-  explore   Follow randomly selected accounts on https://www.instagram.com/explore/people/
-            Optionally reloads the page and runs a second pass.
-
-  profile   Follow accounts from the followers modal of a given Instagram profile URL.
-            Use --profile-url to specify the target profile.
-
 Usage
 -----
-  # Explore mode (single pass)
-  python3 scripts/py/instagram_follow_runner.py --mode explore
+  # Follow from the explore/suggestions page (default)
+  python3 scripts/py/instagram_follow_runner.py
 
-  # Explore mode (two passes with a reload between them)
-  python3 scripts/py/instagram_follow_runner.py --mode explore --passes 2
+  # Follow from a specific profile's followers list
+  python3 scripts/py/instagram_follow_runner.py --profile https://www.instagram.com/someuser/
 
-  # Profile mode
-  python3 scripts/py/instagram_follow_runner.py --mode profile --profile-url https://www.instagram.com/someuser/
+  # Multiple passes (page reloads between passes in explore mode)
+  python3 scripts/py/instagram_follow_runner.py --passes 2
+  python3 scripts/py/instagram_follow_runner.py --profile https://www.instagram.com/someuser/ --passes 2
 
   # Dry run (prints steps but does not click anything)
-  python3 scripts/py/instagram_follow_runner.py --mode explore --dry-run
+  python3 scripts/py/instagram_follow_runner.py --dry-run
+  python3 scripts/py/instagram_follow_runner.py --profile https://www.instagram.com/someuser/ --dry-run
 """
 
 import argparse
@@ -150,7 +144,9 @@ def build_eval(fn_call: str) -> str:
 def step_open_page(url: str) -> str:
     """Open a new browser tab at the given URL. Returns the page ID."""
     log(f"Opening new tab: {url}")
-    raw = browseros(["open", url, "--json"])
+    cmd = ["browseros-cli", "open", url, "--json"]
+    result = run_browseros_cli(cmd)
+    raw = result.stdout.strip() if result.returncode == 0 else ""
     try:
         parsed = json.loads(raw)
         page_id = parsed.get("pageId") or parsed.get("id") or parsed.get("tabId") or ""
@@ -160,20 +156,20 @@ def step_open_page(url: str) -> str:
             log("Page opened (could not parse page ID).")
         return str(page_id)
     except Exception:
-        log("Page opened (non-JSON response).")
+        log("Page opened (response received).")
         return ""
 
 
 def step_navigate(url: str):
-    """Navigate the active tab to a URL."""
+    """Navigate the active tab to a URL (uses browseros-cli nav)."""
     log(f"Navigating to: {url}")
-    browseros(["navigate", url])
+    browseros(["nav", url])
 
 
 def step_reload():
     """Reload the active tab."""
     log("Reloading page...")
-    browseros(["navigate", "--reload"])
+    browseros(["reload"])
 
 
 def step_wait(seconds: int, reason: str = ""):
@@ -256,20 +252,31 @@ def summarize(all_results: list):
 def main():
     parser = argparse.ArgumentParser(
         description=(
-            "Instagram follow runner (no AI required). "
-            "Follows accounts on the explore page or from a profile's followers modal."
-        )
+            "Instagram follow runner. "
+            "With no arguments, follows suggestions from the explore/people page. "
+            "Pass --profile <url> to follow from a specific profile's followers list."
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "Examples:\n"
+            "  # Follow from explore/suggestions page (default)\n"
+            "  python3 instagram_follow_runner.py\n\n"
+            "  # Follow from a specific profile's followers\n"
+            "  python3 instagram_follow_runner.py --profile https://www.instagram.com/someuser/\n\n"
+            "  # Two passes on the explore page\n"
+            "  python3 instagram_follow_runner.py --passes 2\n\n"
+            "  # Dry run\n"
+            "  python3 instagram_follow_runner.py --dry-run\n"
+        ),
     )
     parser.add_argument(
-        "--mode",
-        required=True,
-        choices=["explore", "profile"],
-        help="Follow mode: 'explore' (explore/people page) or 'profile' (profile followers modal).",
-    )
-    parser.add_argument(
-        "--profile-url",
+        "--profile",
+        metavar="URL",
         default=None,
-        help="Instagram profile URL. Required when --mode is 'profile'.",
+        help=(
+            "Instagram profile URL to follow from (e.g. https://www.instagram.com/someuser/). "
+            "When omitted, follows from the explore/people suggestions page."
+        ),
     )
     parser.add_argument(
         "--passes",
@@ -277,8 +284,8 @@ def main():
         default=1,
         help=(
             "Number of follow passes to run (default: 1). "
-            "For 'explore' mode, the page is reloaded between passes. "
-            "For 'profile' mode, the followers modal is re-opened between passes."
+            "For explore mode, the page is reloaded between passes. "
+            "For profile mode, the followers modal is re-opened between passes."
         ),
     )
     parser.add_argument(
@@ -295,8 +302,6 @@ def main():
     args = parser.parse_args()
 
     # ── Validate args ────────────────────────────────────────
-    if args.mode == "profile" and not args.profile_url:
-        die("--profile-url is required when --mode is 'profile'.")
     if args.passes < 1:
         die("--passes must be >= 1.")
 
@@ -304,9 +309,34 @@ def main():
         log("DRY-RUN mode enabled — no buttons will be clicked.")
 
     # ──────────────────────────────────────────────────────────
-    # EXPLORE MODE
+    # PROFILE MODE  (--profile <url> was provided)
     # ──────────────────────────────────────────────────────────
-    if args.mode == "explore":
+    if args.profile:
+        log(f"Mode: profile | Profile URL: {args.profile} | Passes: {args.passes}")
+
+        all_results = []
+
+        for pass_num in range(1, args.passes + 1):
+            # Navigate to profile for each pass (re-opens the modal fresh)
+            step_navigate(args.profile)
+            step_wait(args.reload_wait, "waiting for profile page to load")
+
+            result = run_profile_pass(args.dry_run)
+            all_results.append(result)
+
+            succeeded = result.get("succeeded", 0)
+            modal_opened = result.get("modalOpened", False)
+            log(f"Pass #{pass_num} complete: {succeeded} accounts followed. Modal opened: {modal_opened}")
+
+            if pass_num < args.passes:
+                step_wait(3, "cooldown before next pass")
+
+        summarize(all_results)
+
+    # ──────────────────────────────────────────────────────────
+    # EXPLORE MODE  (default — no --profile given)
+    # ──────────────────────────────────────────────────────────
+    else:
         log(f"Mode: explore | Passes: {args.passes}")
 
         # Open the explore/people page in a new tab
@@ -326,31 +356,6 @@ def main():
 
             succeeded = result.get("succeeded", 0)
             log(f"Pass #{pass_num} complete: {succeeded} accounts followed.")
-
-        summarize(all_results)
-
-    # ──────────────────────────────────────────────────────────
-    # PROFILE MODE
-    # ──────────────────────────────────────────────────────────
-    elif args.mode == "profile":
-        log(f"Mode: profile | Profile URL: {args.profile_url} | Passes: {args.passes}")
-
-        all_results = []
-
-        for pass_num in range(1, args.passes + 1):
-            # Navigate to profile for each pass (re-opens the modal fresh)
-            step_navigate(args.profile_url)
-            step_wait(args.reload_wait, "waiting for profile page to load")
-
-            result = run_profile_pass(args.dry_run)
-            all_results.append(result)
-
-            succeeded = result.get("succeeded", 0)
-            modal_opened = result.get("modalOpened", False)
-            log(f"Pass #{pass_num} complete: {succeeded} accounts followed. Modal opened: {modal_opened}")
-
-            if pass_num < args.passes:
-                step_wait(3, "cooldown before next pass")
 
         summarize(all_results)
 
