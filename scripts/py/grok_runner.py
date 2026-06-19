@@ -104,7 +104,8 @@ def browseros_eval(js_code: str):
     """
     # browseros-cli eval takes the expression as a positional string arg.
     # We use --json to get machine-readable output.
-    cmd = ["browseros-cli", "eval", js_code, "--json"]
+    # We increase the timeout to 5m to prevent timeouts during image/video generation steps.
+    cmd = ["browseros-cli", "eval", js_code, "--json", "--timeout", "5m"]
     result = run_browseros_cli(cmd)
 
     if result.returncode != 0:
@@ -261,7 +262,55 @@ def find_download_snapshot_id() -> str:
 
 def step_download(project: str, record_id, dest_dir: str):
     """Step 7: Click Download button and rename the file."""
-    # Find snapshot ID dynamically
+    # Try robust Base64 fetch method first
+    log("Attempting robust Base64 video fetch...")
+    js_code = """(async () => {
+        const v = document.querySelector('video');
+        if (!v) return { "success": false, "error": "No video element found" };
+        if (!v.src) return { "success": false, "error": "Video element has no src attribute" };
+        try {
+            const response = await fetch(v.src);
+            if (!response.ok) return { "success": false, "error": `Fetch failed with status ${response.status}` };
+            const blob = await response.blob();
+            return new Promise((resolve) => {
+                const reader = new FileReader();
+                reader.onloadend = () => resolve({ "success": true, "base64": reader.result.split(',')[1] });
+                reader.onerror = (e) => resolve({ "success": false, "error": `FileReader error: ${e.target.error}` });
+                reader.readAsDataURL(blob);
+            });
+        } catch (e) {
+            return { "success": false, "error": `Fetch exception: ${e.message}` };
+        }
+    })()"""
+    
+    try:
+        res = browseros_eval(js_code)
+        if res and res.get("success") and res.get("base64"):
+            log("Base64 fetch succeeded. Saving video...")
+            dest_path = os.path.join(dest_dir, f"{record_id}.mp4")
+            
+            # Backup if exists
+            if os.path.exists(dest_path):
+                backup_path = os.path.join(dest_dir, f"{record_id}_{int(time.time())}.mp4")
+                import shutil
+                shutil.move(dest_path, backup_path)
+                log(f"Backed up existing file to {os.path.basename(backup_path)}")
+                
+            import base64
+            with open(dest_path, "wb") as f:
+                f.write(base64.b64decode(res["base64"]))
+                
+            if os.path.exists(dest_path) and os.path.getsize(dest_path) > 0:
+                log(f"Video saved successfully via Base64: {dest_path}")
+                return dest_path
+            else:
+                log("Saved file was empty or missing. Falling back to browseros-cli download...")
+        else:
+            log(f"Base64 fetch returned failure: {res.get('error') if res else 'unknown error'}. Falling back...")
+    except Exception as e:
+        log(f"Base64 fetch failed with exception: {e}. Falling back to browseros-cli download...")
+
+    # Fallback to browseros-cli download
     element_id = find_download_snapshot_id()
 
     log(f"Clicking Download button (snapshot ID: {element_id})...")
@@ -284,7 +333,7 @@ def step_download(project: str, record_id, dest_dir: str):
     if not os.path.exists(dest_path) or os.path.getsize(dest_path) == 0:
         die(f"Downloaded file missing or empty: {dest_path}")
 
-    log(f"Video saved: {dest_path}")
+    log(f"Video saved via fallback: {dest_path}")
     return dest_path
 
 
