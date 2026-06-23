@@ -82,6 +82,14 @@ def run_browseros_cli(cmd, log_cmd=True):
                 log("Reconnected successfully. Retrying command...")
                 time.sleep(2)
                 result = subprocess.run(cmd, capture_output=True, text=True)
+                
+                # If session is invalid after reconnection, the saved active page might be closed.
+                if result.returncode != 0 and "session with given id" in result.stderr.lower():
+                    log("Session ID is invalid. Opening a new page to recover...")
+                    subprocess.run(["browseros-cli", "open", "about:blank"], capture_output=True)
+                    time.sleep(2)
+                    log("Retrying command again on new page...")
+                    result = subprocess.run(cmd, capture_output=True, text=True)
             else:
                 log(f"Reconnection attempt failed:\n{recon.stderr}")
     return result
