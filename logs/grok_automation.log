@@ -622,3 +622,291 @@ Traceback (most recent call last):
   File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
     raise child_exception_type(errno_num, err_msg, err_filename)
 FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 71 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 72 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 72 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
+[grok_runner] Step 1: Getting next record...
+[grok_runner] Record 72 | status=pending
+[grok_runner] Step 2: Reading project config...
+[grok_runner] Step 3A: Full flow (starting status = pending)...
+[grok_runner] Navigating to: https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+[grok_runner] $ browseros-cli nav https://grok.com/imagine/post/35399a0a-5e59-4d32-a20d-4260a5c44e0c
+Traceback (most recent call last):
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 506, in <module>
+    main()
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 438, in main
+    step_navigate(starting_url)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 246, in step_navigate
+    browseros(["nav", url])
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 101, in browseros
+    result = run_browseros_cli(cmd)
+  File "/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py", line 74, in run_browseros_cli
+    result = subprocess.run(cmd, capture_output=True, text=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'browseros-cli'
