@@ -225,15 +225,39 @@ def build_video_only_script(record: dict) -> str:
     )
 
 
-def build_check_script() -> str:
+def build_check_script(loop: bool = True) -> str:
     """Build the eval JS for Step 5 (check completion)."""
     check_js = load_js(GROK_CHECK_JS)
-    return (
-        "(async () => {\n"
-        f"  {check_js}\n"
-        "  return await checkVideoCompletion();\n"
-        "})();"
-    )
+    if loop:
+        return (
+            "(async () => {\n"
+            f"  {check_js}\n"
+            "  return await checkVideoCompletion();\n"
+            "})();"
+        )
+    else:
+        return (
+            "(async () => {\n"
+            f"  {check_js}\n"
+            "  const { generating } = isVideoGenerating();\n"
+            "  if (generating) {\n"
+            "    return { status: 'generating' };\n"
+            "  }\n"
+            "  const moderation = detectModeration();\n"
+            "  if (moderation.moderated) {\n"
+            "    return { status: 'video_warning', error: 'Generation moderated: ' + moderation.reason, videoUrl: window.location.href };\n"
+            "  }\n"
+            "  const success = detectVideoSuccess();\n"
+            "  if (success.success) {\n"
+            "    return { status: 'completed', videoUrl: success.videoUrl };\n"
+            "  }\n"
+            "  const failure = detectVideoFailure();\n"
+            "  if (failure.failed) {\n"
+            "    return { status: 'video_warning', error: 'Video generation failed: ' + failure.reason, videoUrl: window.location.href };\n"
+            "  }\n"
+            "  return { status: 'generating' };\n"
+            "})();"
+        )
 
 
 # ---------------------------------------------------------------------------
@@ -461,25 +485,48 @@ def main():
             sys.exit(0)
 
     # ------------------------------------------------------------------
-    # Step 4: Sleep before checking completion
+    # Step 4: Wait for completion (initial 60s sleep + exponential backoff)
     # ------------------------------------------------------------------
-    log(f"Step 4: Sleeping {SLEEP_BEFORE_CHECK}s to allow generation to progress...")
-    time.sleep(SLEEP_BEFORE_CHECK)
+    log("Step 4: Sleeping 60s to allow generation to progress...")
+    time.sleep(60)
 
     # ------------------------------------------------------------------
     # Step 5: Check completion
     # ------------------------------------------------------------------
     log("Step 5: Checking video completion...")
-    check_js = build_check_script()
-    check_result = browseros_eval(check_js)
-    log(f"Check result: {check_result}")
+    check_js = build_check_script(loop=False)
+    
+    backoff = 10
+    total_slept = 60
+    max_total_wait = 360  # 6 minutes total max wait
+    
+    while True:
+        check_result = browseros_eval(check_js)
+        log(f"Check result: {check_result}")
+        
+        check_status = check_result.get("status")
+        if check_status != "generating":
+            break
+            
+        if total_slept >= max_total_wait:
+            check_result = {
+                "status": "video_warning",
+                "error": f"Video generation timed out after {total_slept} seconds.",
+                "videoUrl": current_video_url
+            }
+            break
+            
+        log(f"Video still generating. Sleeping {backoff}s (total waited: {total_slept}s)...")
+        time.sleep(backoff)
+        total_slept += backoff
+        backoff = min(int(backoff * 1.5), 60)
 
     check_status = check_result.get("status")
     final_video_url = check_result.get("videoUrl") or current_video_url
     final_post_url = current_post_url
 
     if check_status == "video_warning":
-        log("Video warning at completion check — marking as video_failed.")
+        log(f"Video warning at completion check: {check_result.get('error')} — marking as video_failed.")
         mark_video_failed(project, record_id, final_post_url)
         sys.exit(0)
     elif check_status != "completed":

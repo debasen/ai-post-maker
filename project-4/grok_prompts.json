@@ -206,7 +206,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/b864a622-6f00-46d1-aedb-20725a1a9f8c",
       "post_url": "https://grok.com/imagine/post/8f01e147-2557-4299-a16d-25a17b0ea75b",
-      "executed_at": "2026-05-06T12:45:21.741783"
+      "executed_at": "2026-05-06T12:45:21.741783",
+      "instagram_upload": "mapped"
     },
     {
       "id": 21,
@@ -216,7 +217,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/806c052c-5fc2-435d-a6eb-8338277824e4",
       "post_url": "https://grok.com/imagine/post/19ba4d2f-79c9-428b-97e6-ca02011f1942",
-      "executed_at": "2026-05-06T12:53:04.521608"
+      "executed_at": "2026-05-06T12:53:04.521608",
+      "instagram_upload": "mapped"
     },
     {
       "id": 22,
@@ -225,7 +227,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/a285243d-75f7-43e6-983b-ebf8a64077c4",
       "post_url": "https://grok.com/imagine/post/a74489f1-a6a6-497f-abc1-977720f26f13",
-      "executed_at": "2026-05-06T12:56:24.239341"
+      "executed_at": "2026-05-06T12:56:24.239341",
+      "instagram_upload": "mapped"
     },
     {
       "id": 23,
@@ -234,7 +237,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/21795962-ceff-4b99-a751-e2969da265cf",
       "post_url": "https://grok.com/imagine/post/34b0e2df-8776-443b-a8e1-9634383d952b",
-      "executed_at": "2026-05-06T13:23:40.349941"
+      "executed_at": "2026-05-06T13:23:40.349941",
+      "instagram_upload": "mapped"
     },
     {
       "id": 24,
@@ -243,7 +247,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/8dfda8e0-da0d-4464-b66a-715c1ed3741c",
       "post_url": "https://grok.com/imagine/post/f520f80b-1b59-4f5e-a545-5b5116e63652",
-      "executed_at": "2026-05-06T17:05:23.261112"
+      "executed_at": "2026-05-06T17:05:23.261112",
+      "instagram_upload": "mapped"
     },
     {
       "id": 25,
@@ -252,7 +257,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/623cdafc-68fa-4e14-bb75-56c7b61792df",
       "post_url": "https://grok.com/imagine/post/2529523d-ddb1-408c-9f1d-aefb7995e736",
-      "executed_at": "2026-05-06T17:12:01.896695"
+      "executed_at": "2026-05-06T17:12:01.896695",
+      "instagram_upload": "mapped"
     },
     {
       "id": 26,
@@ -261,7 +267,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/59c18bae-4ca4-42bb-aed8-5a4fe12d7d8d",
       "post_url": "https://grok.com/imagine/post/fc8d9024-f42d-4ee7-8ec9-164d6d2208ab",
-      "executed_at": "2026-05-06T17:18:41.088947"
+      "executed_at": "2026-05-06T17:18:41.088947",
+      "instagram_upload": "mapped"
     },
     {
       "id": 27,
@@ -270,7 +277,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/73198a2e-590e-4cd2-a340-9ab58c55fc0a",
       "post_url": "https://grok.com/imagine/post/a0e4dace-743f-404b-8356-323487234728",
-      "executed_at": "2026-05-06T17:25:58.034203"
+      "executed_at": "2026-05-06T17:25:58.034203",
+      "instagram_upload": "mapped"
     },
     {
       "id": 28,
@@ -279,7 +287,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/aabdb04e-3156-49b5-8bb2-3fbc2bf52401",
       "post_url": "https://grok.com/imagine/post/f578c500-7cc8-49b0-9304-5e312c992887",
-      "executed_at": "2026-05-06T17:32:39.044618"
+      "executed_at": "2026-05-06T17:32:39.044618",
+      "instagram_upload": "mapped"
     },
     {
       "id": 29,
@@ -288,7 +297,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/346f9768-cda1-4cbc-b64d-122561e6ab33",
       "post_url": "https://grok.com/imagine/post/6f4dd046-fcec-4633-837b-aed929e47428",
-      "executed_at": "2026-05-06T17:39:16.959197"
+      "executed_at": "2026-05-06T17:39:16.959197",
+      "instagram_upload": "mapped"
     },
     {
       "id": 30,
@@ -297,7 +307,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/9fc3fda2-015a-4ce7-ab2a-e59a9830ec0a",
       "post_url": "https://grok.com/imagine/post/819fcd55-68a8-4c82-83b1-54fbf0caefd8",
-      "executed_at": "2026-06-17T00:45:04.815601"
+      "executed_at": "2026-06-17T00:45:04.815601",
+      "instagram_upload": "mapped"
     },
     {
       "id": 31,
@@ -306,7 +317,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/aff980fb-0577-4bce-8dff-f8c4f6e246bd",
       "post_url": "https://grok.com/imagine/post/935e8dfb-2c44-484c-8bd3-b7d5f461dfcc",
-      "executed_at": "2026-06-17T00:54:14.866786"
+      "executed_at": "2026-06-17T00:54:14.866786",
+      "instagram_upload": "mapped"
     },
     {
       "id": 32,
@@ -315,7 +327,8 @@
       "status": "completed",
       "post_url": "https://grok.com/imagine/post/c2a3ebd9-1c89-4759-b7d9-dbde8839c4f3",
       "executed_at": "2026-06-17T01:06:09.432352",
-      "video_url": "https://grok.com/imagine/post/3e327b34-b547-4e8e-ac63-bed7b38ea78b"
+      "video_url": "https://grok.com/imagine/post/3e327b34-b547-4e8e-ac63-bed7b38ea78b",
+      "instagram_upload": "mapped"
     },
     {
       "id": 33,
@@ -324,7 +337,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/18512e59-74a2-4e4a-bcca-567823363945",
       "post_url": "https://grok.com/imagine/post/22fc0a25-383c-4738-8383-8206e4914e2e",
-      "executed_at": "2026-06-17T01:10:24.858462"
+      "executed_at": "2026-06-17T01:10:24.858462",
+      "instagram_upload": "mapped"
     },
     {
       "id": 34,
@@ -334,7 +348,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/0d7a6998-538b-4356-bb23-e23677cc0fe1",
       "post_url": "https://grok.com/imagine/post/b561cc8b-e6ec-4f84-88a6-85b752d4f6cf",
-      "executed_at": "2026-06-17T22:55:54.475924"
+      "executed_at": "2026-06-17T22:55:54.475924",
+      "instagram_upload": "mapped"
     },
     {
       "id": 35,
@@ -343,7 +358,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/b095069b-0b44-451f-a6c4-f0451b0c63f8",
       "post_url": "https://grok.com/imagine/post/31482999-9805-442c-be4e-fac23b25b927",
-      "executed_at": "2026-06-17T23:37:56.811153"
+      "executed_at": "2026-06-17T23:37:56.811153",
+      "instagram_upload": "mapped"
     },
     {
       "id": 36,
@@ -352,7 +368,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/b771dea0-773a-4f7d-9303-566ee2492abd",
       "post_url": "https://grok.com/imagine/post/5b8ce81a-b66c-4c69-b74d-979e1e77108b",
-      "executed_at": "2026-06-17T23:43:17.382101"
+      "executed_at": "2026-06-17T23:43:17.382101",
+      "instagram_upload": "mapped"
     },
     {
       "id": 37,
@@ -361,7 +378,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/4199e815-6415-4563-bbcb-37c8ab3e3a5d",
       "post_url": "https://grok.com/imagine/post/10d9ef40-1003-4dd3-aa31-13d9a3d7f886",
-      "executed_at": "2026-06-17T23:48:05.135759"
+      "executed_at": "2026-06-17T23:48:05.135759",
+      "instagram_upload": "mapped"
     },
     {
       "id": 38,
@@ -370,7 +388,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/084e3a85-2edc-4d4a-aea4-f2b836bdf4c7",
       "post_url": "https://grok.com/imagine/post/2812743f-813c-44c8-a3aa-e1cd4c063da0",
-      "executed_at": "2026-06-17T23:52:29.128372"
+      "executed_at": "2026-06-17T23:52:29.128372",
+      "instagram_upload": "mapped"
     },
     {
       "id": 39,
@@ -379,7 +398,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/8888bba0-48c0-40be-8059-69a4525cae4f",
       "post_url": "https://grok.com/imagine/post/a5196328-9b5d-4a1f-aed0-f0b1b15db248",
-      "executed_at": "2026-06-17T23:55:21.092056"
+      "executed_at": "2026-06-17T23:55:21.092056",
+      "instagram_upload": "mapped"
     },
     {
       "id": 40,
@@ -388,7 +408,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/9f493a94-4510-4661-93b8-71c12a440019",
       "post_url": "https://grok.com/imagine/post/a561d174-2b3d-4f12-aa71-59345df00476",
-      "executed_at": "2026-06-18T00:00:19.285054"
+      "executed_at": "2026-06-18T00:00:19.285054",
+      "instagram_upload": "mapped"
     },
     {
       "id": 41,
@@ -397,7 +418,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/76c36d86-94d0-4897-a8f5-9470d6b323dc",
       "post_url": "https://grok.com/imagine/post/a21d0134-a32b-4837-88e4-eb8ef2f38c2e",
-      "executed_at": "2026-06-18T00:18:25.613522"
+      "executed_at": "2026-06-18T00:18:25.613522",
+      "instagram_upload": "mapped"
     },
     {
       "id": 42,
@@ -406,7 +428,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/50ae849a-f153-41be-8643-3edbcc95aed1",
       "post_url": "https://grok.com/imagine/post/ecc0db9f-317b-4c34-92a2-a20117bb0b03",
-      "executed_at": "2026-06-18T18:41:01.685707"
+      "executed_at": "2026-06-18T18:41:01.685707",
+      "instagram_upload": "mapped"
     },
     {
       "id": 43,
@@ -415,7 +438,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/a8d7f3e1-bb46-433b-aff8-002511d29e84",
       "post_url": "https://grok.com/imagine/post/ef60b2e9-62cf-4aef-b136-fae0a140a8ce",
-      "executed_at": "2026-06-18T18:45:19.927109"
+      "executed_at": "2026-06-18T18:45:19.927109",
+      "instagram_upload": "mapped"
     },
     {
       "id": 44,
@@ -424,7 +448,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/6440f9f4-4f83-4a08-aea8-d8b27647b0db",
       "post_url": "https://grok.com/imagine/post/7ed912a5-ca13-4a79-b527-04a63407b6d4",
-      "executed_at": "2026-06-18T18:51:42.313743"
+      "executed_at": "2026-06-18T18:51:42.313743",
+      "instagram_upload": "mapped"
     },
     {
       "id": 45,
@@ -433,7 +458,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/4cc66a96-96ac-48d7-8b1d-e024e3d5d482",
       "post_url": "https://grok.com/imagine/post/47f2ead2-729b-43e0-8cf6-ae15e6df49a2",
-      "executed_at": "2026-06-18T19:01:00.646757"
+      "executed_at": "2026-06-18T19:01:00.646757",
+      "instagram_upload": "mapped"
     },
     {
       "id": 46,
@@ -442,7 +468,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/43f02018-1686-4a1d-abcc-620cd3551c65",
       "post_url": "https://grok.com/imagine/post/e086eee1-287c-40d2-b274-54f14ac8f29c",
-      "executed_at": "2026-06-18T23:27:35.706046"
+      "executed_at": "2026-06-18T23:27:35.706046",
+      "instagram_upload": "mapped"
     },
     {
       "id": 47,
@@ -451,7 +478,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/700ab3c2-6ccc-4617-b145-69c271f1ff1b",
       "post_url": "https://grok.com/imagine/post/90a336af-4e69-478b-8493-643691afcc78",
-      "executed_at": "2026-06-18T23:33:10.698647"
+      "executed_at": "2026-06-18T23:33:10.698647",
+      "instagram_upload": "mapped"
     },
     {
       "id": 48,
@@ -460,7 +488,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/352c6e5a-88fe-4b50-a2e0-37c1c62beadf",
       "post_url": "https://grok.com/imagine/post/70b5ed0b-fec3-4a09-8913-d353c4ec4148",
-      "executed_at": "2026-06-18T23:40:46.799515"
+      "executed_at": "2026-06-18T23:40:46.799515",
+      "instagram_upload": "mapped"
     },
     {
       "id": 49,
@@ -469,7 +498,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/7cbb716d-4348-4f36-8737-64588c11a4f6",
       "post_url": "https://grok.com/imagine/post/bffad5aa-3acf-427a-bf94-fc62abc880c5",
-      "executed_at": "2026-06-19T00:02:36.586142"
+      "executed_at": "2026-06-19T00:02:36.586142",
+      "instagram_upload": "mapped"
     },
     {
       "id": 50,
@@ -478,7 +508,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/338d8802-1f4d-4852-acb9-592c03d9c20b",
       "post_url": "https://grok.com/imagine/post/bdff8487-0ee9-4cb5-853f-d829b6abd011",
-      "executed_at": "2026-06-19T00:05:31.580449"
+      "executed_at": "2026-06-19T00:05:31.580449",
+      "instagram_upload": "mapped"
     },
     {
       "id": 51,
@@ -496,7 +527,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/09e81bb4-4835-4141-be8a-63f957aa4a35",
       "post_url": "https://grok.com/imagine/post/6deaa952-6e32-41ea-8258-686022c22e6d",
-      "executed_at": "2026-06-19T21:23:59.431345"
+      "executed_at": "2026-06-19T21:23:59.431345",
+      "instagram_upload": "mapped"
     },
     {
       "id": 53,
@@ -505,7 +537,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/8437bb6d-63c2-49ef-85d9-b89d1948aac5",
       "post_url": "https://grok.com/imagine/post/ddaba229-7d16-42f9-9e55-c76b2426d394",
-      "executed_at": "2026-06-19T21:31:24.654272"
+      "executed_at": "2026-06-19T21:31:24.654272",
+      "instagram_upload": "mapped"
     },
     {
       "id": 54,
@@ -514,7 +547,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/6a808b82-f166-42a2-bb88-b94eb902d59f",
       "post_url": "https://grok.com/imagine/post/aa45e523-068e-4b19-b10c-ac663dfc2a8d",
-      "executed_at": "2026-06-19T21:45:55.866326"
+      "executed_at": "2026-06-19T21:45:55.866326",
+      "instagram_upload": "mapped"
     },
     {
       "id": 55,
@@ -523,7 +557,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/6879592d-5fb1-4b79-be2f-4b292316983e",
       "post_url": "https://grok.com/imagine/post/caace48d-5456-425d-bb5b-f847c50a6e5c",
-      "executed_at": "2026-06-19T21:55:34.135683"
+      "executed_at": "2026-06-19T21:55:34.135683",
+      "instagram_upload": "mapped"
     },
     {
       "id": 56,
@@ -532,7 +567,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/f73064da-760e-478c-8eae-f33d4ef6dca8",
       "post_url": "https://grok.com/imagine/post/b8ae1865-d167-4d1d-ae80-0ca856622e69",
-      "executed_at": "2026-06-19T22:32:50.183982"
+      "executed_at": "2026-06-19T22:32:50.183982",
+      "instagram_upload": "mapped"
     },
     {
       "id": 57,
@@ -541,7 +577,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/5e5351d1-c474-4986-a229-ff76f1fdec13",
       "post_url": "https://grok.com/imagine/post/1306431d-f67f-4c03-9bae-0b6963f1c368",
-      "executed_at": "2026-06-19T22:36:37.985860"
+      "executed_at": "2026-06-19T22:36:37.985860",
+      "instagram_upload": "mapped"
     },
     {
       "id": 58,
@@ -550,7 +587,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/8a6c98a3-9adb-424c-a255-0d787069c28d",
       "post_url": "https://grok.com/imagine/post/8b96abc1-e416-4422-8bda-4937d6ba73f0",
-      "executed_at": "2026-06-19T22:44:24.107234"
+      "executed_at": "2026-06-19T22:44:24.107234",
+      "instagram_upload": "mapped"
     },
     {
       "id": 59,
@@ -559,7 +597,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/68406f82-8f8e-4f37-9508-e97aa31c0325",
       "post_url": "https://grok.com/imagine/post/741e022b-42a3-46fb-b934-c7acf11f2d0b",
-      "executed_at": "2026-06-19T22:56:14.190205"
+      "executed_at": "2026-06-19T22:56:14.190205",
+      "instagram_upload": "mapped"
     },
     {
       "id": 60,
@@ -568,7 +607,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/c778286c-d7b8-4972-945b-9a8f9c72e4ad",
       "post_url": "https://grok.com/imagine/post/8f36b73d-66f8-42a1-9166-d385d51b1be7",
-      "executed_at": "2026-06-23T14:02:10.355952"
+      "executed_at": "2026-06-23T14:02:10.355952",
+      "instagram_upload": "mapped"
     },
     {
       "id": 61,
@@ -577,7 +617,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/01d973d7-468c-499e-8288-30a897445228",
       "post_url": "https://grok.com/imagine/post/a8555086-a8f4-4005-9d15-8e57e05ee67d",
-      "executed_at": "2026-06-23T14:05:09.937474"
+      "executed_at": "2026-06-23T14:05:09.937474",
+      "instagram_upload": "mapped"
     },
     {
       "id": 62,
@@ -586,7 +627,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/5af1adba-bfb5-427d-9dd5-3088dafdb10e",
       "post_url": "https://grok.com/imagine/post/26f3eb6b-ce27-46c7-9a39-e40bd95b25da",
-      "executed_at": "2026-06-23T14:26:15.515655"
+      "executed_at": "2026-06-23T14:26:15.515655",
+      "instagram_upload": "mapped"
     },
     {
       "id": 63,
@@ -595,7 +637,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/0e31b112-2b9d-4193-93db-fb68ff0fb182",
       "post_url": "https://grok.com/imagine/post/82f03e66-23ea-4181-b5fa-43273410b01e",
-      "executed_at": "2026-06-23T15:16:08.058349"
+      "executed_at": "2026-06-23T15:16:08.058349",
+      "instagram_upload": "mapped"
     },
     {
       "id": 64,
@@ -604,7 +647,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/584cc33c-3b9f-489b-a4cc-c74b6b60c967",
       "post_url": "https://grok.com/imagine/post/584cc33c-3b9f-489b-a4cc-c74b6b60c967",
-      "executed_at": "2026-06-23T16:22:43.837841"
+      "executed_at": "2026-06-23T16:22:43.837841",
+      "instagram_upload": "mapped"
     },
     {
       "id": 65,
@@ -613,7 +657,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/8bc0e463-c60a-4243-8226-27ac66da2deb",
       "post_url": "https://grok.com/imagine/post/1a64e697-47e3-4692-85da-cb833d818f8e",
-      "executed_at": "2026-06-23T16:31:40.853657"
+      "executed_at": "2026-06-23T16:31:40.853657",
+      "instagram_upload": "mapped"
     },
     {
       "id": 66,
@@ -630,7 +675,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/922f113e-b2a2-41db-b0fd-5a8a0f53de53",
       "post_url": "https://grok.com/imagine/post/1511c2e0-1be8-4058-8656-85588eb0b3d7",
-      "executed_at": "2026-06-23T17:25:13.641208"
+      "executed_at": "2026-06-23T17:25:13.641208",
+      "instagram_upload": "mapped"
     },
     {
       "id": 68,
@@ -639,7 +685,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/8d184b85-aac5-4225-873a-bf5498b76f0f",
       "post_url": "https://grok.com/imagine/post/eb359654-aa4b-4bdb-a5ef-a4eb78f04411",
-      "executed_at": "2026-06-23T21:36:20.476198"
+      "executed_at": "2026-06-23T21:36:20.476198",
+      "instagram_upload": "mapped"
     },
     {
       "id": 69,
@@ -648,7 +695,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/da960348-81a5-4754-a122-24735cd38102",
       "post_url": "https://grok.com/imagine/post/4a1e3a12-b086-4979-b0c0-ac4f7c5cfc4a",
-      "executed_at": "2026-06-23T21:56:17.809109"
+      "executed_at": "2026-06-23T21:56:17.809109",
+      "instagram_upload": "mapped"
     },
     {
       "id": 70,
@@ -657,7 +705,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/d162673f-992e-47e9-878f-36625d4ef7a9",
       "post_url": "https://grok.com/imagine/post/b3571791-5e6f-4cfb-a6ea-445e71bac5c9",
-      "executed_at": "2026-06-23T22:00:59.292184"
+      "executed_at": "2026-06-23T22:00:59.292184",
+      "instagram_upload": "mapped"
     },
     {
       "id": 71,
@@ -666,7 +715,8 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/7bca88a3-368e-4ed1-9cfc-2aa02ca58fd7",
       "post_url": "https://grok.com/imagine/post/b8820e8c-ab71-437c-a82a-dfbd8b6b58f8",
-      "executed_at": "2026-06-24T14:16:25.598095"
+      "executed_at": "2026-06-24T14:16:25.598095",
+      "instagram_upload": "mapped"
     },
     {
       "id": 72,
@@ -675,49 +725,74 @@
       "status": "completed",
       "video_url": "https://grok.com/imagine/post/d65a23d1-2872-4737-a9b1-e7863879c49b",
       "post_url": "https://grok.com/imagine/post/76ec3c6d-69f7-4e94-ac16-8a7dfe45223a",
-      "executed_at": "2026-06-24T14:43:57.893205"
+      "executed_at": "2026-06-24T14:43:57.893205",
+      "instagram_upload": "mapped"
     },
     {
       "id": 73,
       "prompt": "Imagine the exact model in a curvy body sitting on a stack of retro amplifier speakers in a professional recording studio vocal booth. Wearing large studio headphones, an oversized distressed band t-shirt worn as a mini dress, falling off one shoulder to reveal a black lace bralette strap. Looking through the glass at the camera with an intense, focused gaze. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Raw vocals. 🎙️🖤 #model #fashionmodel #hot #spicy #studiovocal #largeheadphones #bandtshirt #focusedgaze",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/252acf31-7d81-4015-a38c-00f5eea3f764",
+      "post_url": "https://grok.com/imagine/post/eee3a74e-b23e-4ecf-bb03-b7e68826f335",
+      "executed_at": "2026-06-24T17:52:28.912207",
+      "instagram_upload": "mapped"
     },
     {
       "id": 74,
       "prompt": "Imagine the exact model in a curvy body standing in a rustic countryside barn window, with sunlight streaming through wood slats. Wearing denim cutoff shorts and a red-and-black plaid flannel shirt tied at the waist, worn with the top buttons open to reveal a black lace bralette. Leaning against the window frame, looking at the camera with a warm, cheeky smile. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Country sun. 🌾🚜 #model #fashionmodel #hot #spicy #barnwindow #countryvibes #denimshorts #cheekylook",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/145c531c-a386-4500-87b7-48f31843a841",
+      "post_url": "https://grok.com/imagine/post/1e4f61e7-a53a-4d41-a3a2-52c10cf41ed4",
+      "executed_at": "2026-06-25T10:54:51.951901",
+      "instagram_upload": "mapped"
     },
     {
       "id": 75,
       "prompt": "Imagine the exact model in a curvy body sitting on a plush velvet stool in a 1920s speakeasy corner. Wearing a gold-fringe halter flapper mini-dress that catches the light, paired with a long pearl necklace. Holding a crystal glass of champagne, looking at the camera with a mysterious, flirty gaze. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Roaring and retro. 🥂✨ #model #fashionmodel #hot #spicy #1920sspeakeasy #flapperdress #pearlnecklace #flirtylook",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/01db4c6d-9e20-404e-baa0-37044e1042f9",
+      "post_url": "https://grok.com/imagine/post/16fcf15c-dce9-4118-8fe0-860b12ae500b",
+      "executed_at": "2026-06-25T10:57:17.883851",
+      "instagram_upload": "mapped"
     },
     {
       "id": 76,
       "prompt": "Imagine the exact model in a curvy body standing in a futuristic mirror maze under vibrant laser lights. Wearing a sleek, form-fitting holographic silver bodysuit with geometric cutouts along the sides. Touching her reflection on the glass, looking at the camera with a confident smirk. Medium wide shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Infinite reflections. 🪞💫 #model #fashionmodel #hot #spicy #mirrormaze #holographicsilver #laserlights #confidentsmirk",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/87f1f5ce-740c-4652-8c6f-9c68bb5ae0dd",
+      "post_url": "https://grok.com/imagine/post/207257b7-38d8-446a-8c6c-1b3f57482203",
+      "executed_at": "2026-06-25T11:20:05.878398",
+      "instagram_upload": "mapped"
     },
     {
       "id": 77,
       "prompt": "Imagine the exact model in a curvy body standing in a luxury horse stable next to a white horse. Wearing a fitted brown suede vest worn open over a white knit crop top, paired with denim shorts. Resting one hand on the horse's neck, looking at the camera with a soft, equestrian-chic gaze. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Wild horses. 🐎🤎 #model #fashionmodel #hot #spicy #equestrianlife #suedevest #croptop #chicgaze",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/3559913b-761d-436d-b22f-383575140701",
+      "post_url": "https://grok.com/imagine/post/3e87a73f-917a-4e49-a17a-e7fc867865fa",
+      "executed_at": "2026-06-25T20:34:05.320563"
     },
     {
       "id": 78,
       "prompt": "Imagine the exact model in a curvy body sitting at a high-end sushi bar under neon sign reflections. Wearing a black leather corset top, a sheer black organza kimono, and matching satin micro-shorts. Looking at the camera with a playful, curious expression. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Tokyo night cravings. 🍣🌃 #model #fashionmodel #hot #spicy #sushibar #organzakimono #leathercorset #curiouslook",
-      "status": "pending"
+      "status": "completed",
+      "video_url": "https://grok.com/imagine/post/6865c1c2-fdac-4965-af74-ef894a3c8501",
+      "post_url": "https://grok.com/imagine/post/edc67b00-32ff-465c-abe2-31e30f48d236",
+      "executed_at": "2026-06-25T20:37:46.662393",
+      "instagram_upload": "mapped"
     },
     {
       "id": 79,
       "prompt": "Imagine the exact model in a curvy body standing on a clay tennis court net. Wearing a white tennis dress with a low-cut back and pleated skirt. Resting her tennis racket over her shoulder, looking at the camera with a sporty, high-energy smirk. Medium shot, eye level. The image should be ultra realistic. The image should not be cartoonish or have AI smoothened edges. 9:16 portrait format.",
       "instagram_caption": "Match point. 🎾🔥 #model #fashionmodel #hot #spicy #tennisnet #tennisdress #sportychic #highenergy",
-      "status": "pending"
+      "status": "completed",
+      "instagram_upload": "mapped"
     },
     {
       "id": 80,
