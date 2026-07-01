@@ -370,3 +370,5 @@ true
 [2026-06-06 09:51:52] [DEBUG] grok_click_by_snap_pattern: ref='' exit=1
 [2026-06-06 09:51:52] [WARN] Could not find snapshot ref for pattern: Make video
 [2026-06-06 09:51:52] [FATAL] Could not click Make video button via snapshot ref
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py': [Errno 2] No such file or directory
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/dsen/Projects/ai-post-maker/scripts/py/grok_runner.py': [Errno 2] No such file or directory

@@ -1102,7 +1102,8 @@
       "status": "completed",
       "asset": "mapped",
       "upload": [
-        "youtube"
+        "youtube",
+        "facebook"
       ],
       "scheduled": [
         {
@@ -1121,7 +1122,10 @@
       "video_url": "",
       "post_url": "https://grok.com/imagine/post/6c07fd80-6977-43f0-b9c8-7b005b405045",
       "executed_at": "2026-05-03T16:10:29.702115",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "youtube"
+      ]
     },
     {
       "id": 46,
