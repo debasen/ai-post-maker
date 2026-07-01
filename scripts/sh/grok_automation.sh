@@ -491,26 +491,24 @@ phase_4_video_generation() {
         grok_eval "$js_click"
         _dry_run_sleep 2
     fi
-
-    log INFO "Looking for Make video button... selector='$SELECTOR_MAKE_VIDEO'"
-    local mv_info
-    mv_info=$(grok_find_element "$SELECTOR_MAKE_VIDEO" 30)
-    local mv_exit=$?
-    log DEBUG "phase_4: find_element SELECTOR_MAKE_VIDEO exit=$mv_exit"
-    if [ $mv_exit -ne 0 ]; then
-        log WARN "Make video button not found via selector, trying snap fallback..."
-        if ! retry_with_backoff "grok_click_by_snap_pattern 'Make video'" 3 2; then
-            log FATAL "Could not find Make video button"
+    log INFO "Triggering video generation..."
+    local qa_ref
+    qa_ref=$(grok_get_snap_ref 'Quick Animate')
+    if [ -z "$qa_ref" ]; then
+        log INFO "'Quick Animate' not visible, clicking 'Animate' button..."
+        if ! grok_click_by_snap_pattern 'Animate'; then
+            log FATAL "Could not find or click 'Animate' button"
         fi
-    else
-        # Use snapshot ref click instead of coordinate click.
-        # browseros-cli click-at does not reliably trigger the Make video button
-        # in Speed mode where multiple images are shown on the results page.
-        log INFO "Make video button found via selector, using snapshot ref click..."
-        if ! grok_click_by_snap_pattern 'Make video'; then
-            log FATAL "Could not click Make video button via snapshot ref"
-        fi
+        _dry_run_sleep 2
+        qa_ref=$(grok_get_snap_ref 'Quick Animate')
     fi
+
+    if [ -z "$qa_ref" ]; then
+        log FATAL "'Quick Animate' not visible after clicking 'Animate'"
+    fi
+
+    log INFO "Clicking 'Quick Animate' [ref: $qa_ref]..."
+    grok_click "$qa_ref"
     log INFO "Video generation triggered"
     _dry_run_sleep 3
 }
