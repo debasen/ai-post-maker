@@ -1124,7 +1124,8 @@
       "executed_at": "2026-05-03T16:10:29.702115",
       "asset": "mapped",
       "upload": [
-        "youtube"
+        "youtube",
+        "facebook"
       ]
     },
     {
@@ -1134,7 +1135,10 @@
       "video_url": "",
       "post_url": "https://grok.com/imagine/post/e39b3ba2-2916-4859-be20-e03059ece043",
       "executed_at": "2026-05-03T16:16:48.261527",
-      "asset": "mapped"
+      "asset": "mapped",
+      "upload": [
+        "youtube"
+      ]
     },
     {
       "id": 47,

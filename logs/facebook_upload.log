@@ -1,492 +1,480 @@
-[2026-07-01 22:07:20] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/facebook_upload.log
-[2026-07-01 22:07:20] [INFO] Starting automation for project 1
-[2026-07-01 22:07:20] [INFO] Timeout: 300s, Max retries: 3
-[2026-07-01 22:07:20] [INFO] Checking BrowserOS health...
+[2026-07-05 10:36:10] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/facebook_upload.log
+[2026-07-05 10:36:10] [INFO] Starting automation for project 1
+[2026-07-05 10:36:10] [INFO] Timeout: 300s, Max retries: 3
+[2026-07-05 10:36:10] [INFO] Checking BrowserOS health...
 
-[2026-07-01 22:07:21] [CMD] browseros-cli health 
-[2026-07-01 22:07:21] [EXIT] 0
-[2026-07-01 22:07:21] [OUT] ---
+[2026-07-05 10:36:11] [CMD] browseros-cli health 
+[2026-07-05 10:36:11] [EXIT] 0
+[2026-07-05 10:36:11] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-07-01 22:07:21] [OUT] ---
-[2026-07-01 22:07:21] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-07-01 22:07:21] [DEBUG] Retry attempt 1/3: bos_health
+[2026-07-05 10:36:11] [OUT] ---
+[2026-07-05 10:36:11] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-07-05 10:36:11] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-07-01 22:07:22] [CMD] browseros-cli health 
-[2026-07-01 22:07:22] [EXIT] 0
-[2026-07-01 22:07:22] [OUT] ---
+[2026-07-05 10:36:13] [CMD] browseros-cli health 
+[2026-07-05 10:36:13] [EXIT] 0
+[2026-07-05 10:36:13] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-07-01 22:07:22] [OUT] ---
-[2026-07-01 22:07:22] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-07-01 22:07:22] [INFO] BrowserOS is healthy
-[2026-07-01 22:07:22] [INFO] ========================================
-[2026-07-01 22:07:22] [INFO]   Phase 1: Identify Project and Asset
-[2026-07-01 22:07:22] [INFO] ========================================
-[2026-07-01 22:07:22] [INFO] Fetching mapped post for project 1...
-[2026-07-01 22:07:22] [DEBUG] get_mapped_post exit=0 output='ID: 44
-Caption: 🦐 Crystal Skin Har Gow (Shrimp Dumplings) 🥟
+[2026-07-05 10:36:13] [OUT] ---
+[2026-07-05 10:36:13] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-07-05 10:36:13] [INFO] BrowserOS is healthy
+[2026-07-05 10:36:13] [INFO] ========================================
+[2026-07-05 10:36:13] [INFO]   Phase 1: Identify Project and Asset
+[2026-07-05 10:36:13] [INFO] ========================================
+[2026-07-05 10:36:13] [INFO] Fetching mapped post for project 1...
+[2026-07-05 10:36:13] [DEBUG] get_mapped_post exit=0 output='ID: 45
+Caption: 🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪
 Recipe: 
-Ingredients: 🦐 1/2 lb chopped shrimp, 🎋 1/4 cup minced bamboo shoots, 🫒 1 tsp sesame oil, 🫚 1 tsp ginger. Wrapper: 1 cup wheat starch, 🌽 1/2 cup cornstarch, 🫒 boiling water. 
-Steps: 👨‍🍳 Mix shrimp with bamboo and seasonings. 🥣 Make the dough by adding boiling water to the starches; knead until smooth. 🔥 Roll into thin circles. ⏲️ Place a spoonful of shrimp in the center and fold into a crescent with 7-10 pleats. 🍳 Steam on a piece of parchment for 6-8 minutes until the skin becomes translucent.
-#hargow #dimsum #dumplings #chinesefood #shrimp #healthy #asiancuisine #dimsumtime 🌮🍱'
-[2026-07-01 22:07:22] [INFO] Asset ID: 44
-[2026-07-01 22:07:22] [INFO] Caption length: 638 chars
-[2026-07-01 22:07:22] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/44.mp4
-[2026-07-01 22:07:22] [INFO] Asset file size: 5400394 bytes
-[2026-07-01 22:07:22] [INFO] ========================================
-[2026-07-01 22:07:22] [INFO]   Phase 2: Read Facebook Reels URL
-[2026-07-01 22:07:22] [INFO] ========================================
-[2026-07-01 22:07:22] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
-[2026-07-01 22:07:22] [INFO] ========================================
-[2026-07-01 22:07:22] [INFO]   Phase 3: Open Facebook Reels Page
-[2026-07-01 22:07:22] [INFO] ========================================
-[2026-07-01 22:07:22] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+Ingredients: 🐷 5 lb pork shoulder (boston butt), 1/2 cup BBQ rub, 🍅 1 cup tangy vinegar BBQ sauce, 🥗 1 cup creamy coleslaw, and 4 large potato buns. 
+Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120°C) for 8-10 hours until the internal temp is 200°F. 🔥 Wrap in foil for the last 2 hours. ⏲️ Let the meat rest for 1 hour, then shred with two forks. 🍳 Toss with BBQ sauce. 🔪 Pile high on toasted potato buns and top with cold, crunchy coleslaw.
+#pulledpork #sandwich #slowcooker #bbq #dinnerideas #snacktime #dinner #comfortfood #foodie 🌮🍱'
+[2026-07-05 10:36:13] [INFO] Asset ID: 45
+[2026-07-05 10:36:13] [INFO] Caption length: 607 chars
+[2026-07-05 10:36:13] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/45.mp4
+[2026-07-05 10:36:13] [INFO] Asset file size: 2627288 bytes
+[2026-07-05 10:36:13] [INFO] ========================================
+[2026-07-05 10:36:13] [INFO]   Phase 2: Read Facebook Reels URL
+[2026-07-05 10:36:13] [INFO] ========================================
+[2026-07-05 10:36:13] [INFO] Facebook Reels URL: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
+[2026-07-05 10:36:13] [INFO] ========================================
+[2026-07-05 10:36:13] [INFO]   Phase 3: Open Facebook Reels Page
+[2026-07-05 10:36:13] [INFO] ========================================
+[2026-07-05 10:36:13] [INFO] Opening new page: https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab
 
-[2026-07-01 22:07:23] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
-[2026-07-01 22:07:23] [EXIT] 0
-[2026-07-01 22:07:23] [OUT] ---
-{"background":false,"hidden":false,"pageId":1,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
-[2026-07-01 22:07:23] [OUT] ---
-[2026-07-01 22:07:23] [INFO] Page opened with ID: 1
-[2026-07-01 22:07:28] [INFO] Taking snapshot...
+[2026-07-05 10:36:14] [CMD] browseros-cli open https://www.facebook.com/profile.php?id=61582734486719&sk=reels_tab --json
+[2026-07-05 10:36:14] [EXIT] 0
+[2026-07-05 10:36:14] [OUT] ---
+{"background":false,"hidden":false,"pageId":3,"url":"https://www.facebook.com/profile.php?id=61582734486719\u0026sk=reels_tab"}
+[2026-07-05 10:36:14] [OUT] ---
+[2026-07-05 10:36:14] [INFO] Page opened with ID: 3
+[2026-07-05 10:36:19] [INFO] Taking snapshot...
 
-[2026-07-01 22:07:30] [CMD] browseros-cli snap -p 1
-[2026-07-01 22:07:30] [EXIT] 0
-[2026-07-01 22:07:30] [OUT] ---
-[574] link "Ad Centre"
-[584] link "Reels"
-[598] button "Facebook menu" (collapsed)
-[603] link "Messenger"
-[606] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[674] button "Hide Menu"
-[705] link "Professional dashboard"
-[726] link "Insights"
-[739] link "Monetisation"
-[752] link "Ad Centre"
-[765] link "Create ads"
-[778] link "Boost Instagram post"
-[791] link "Settings"
-[825] button "Collapse"
-[838] link "Meta Verified"
-[851] link "Leads Centre"
-[869] link "Meta Business Suite notifications"
-[900] button "Advertise"
-[927] link "View profile cover photo"
-[939] button "Edit cover photo" (collapsed)
-[958] button "Share a thought..." (collapsed)
-[968] button "Profile picture actions" (collapsed)
-[990] button "Tasty Tales Co. "
-[995] link "15 followers"
-[997] link "0 following"
-[1004] link "Professional dashboard"
-[1014] link "Edit profile"
-[1024] link "Add to story"
-[1041] button "Food and drink"
-[1070] tab "All"
-[1075] tab "About"
-[1080] tab "Reels" (selected)
-[1084] tab "Photos"
-[1088] tab "Followers"
-[1094] tab "More profile sections" (collapsed)
-[1127] button "Profile settings see more options" (collapsed)
-[1148] link "Reels"
-[1151] button "Create reel"
-[1192] link "Reel tile preview"
-[1206] link "Reel tile preview"
-[1220] link "Reel tile preview"
-[1234] link "Reel tile preview"
-[1248] link "Reel tile preview"
-[1262] link "Reel tile preview"
-[1276] link "Reel tile preview"
-[1290] link "Reel tile preview"
-[1304] link "Reel tile preview"
-[1318] link "Reel tile preview"
-[2026-07-01 22:07:30] [OUT] ---
-[2026-07-01 22:07:30] [DEBUG] Snapshot lines: 55
-[2026-07-01 22:07:30] [INFO] Page loaded successfully
-[2026-07-01 22:07:30] [INFO] ========================================
-[2026-07-01 22:07:30] [INFO]   Phase 4: Open Create Reel Dialog
-[2026-07-01 22:07:30] [INFO] ========================================
+[2026-07-05 10:36:20] [CMD] browseros-cli snap -p 3
+[2026-07-05 10:36:20] [EXIT] 0
+[2026-07-05 10:36:20] [OUT] ---
+[459] link "Ad Centre"
+[469] link "Reels"
+[483] button "Facebook menu" (collapsed)
+[488] link "Messenger"
+[491] link "Messenger" (disabled)
+[7] button "Notifications, 3 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[894] button "Hide Menu"
+[925] link "Professional dashboard notification"
+[949] link "Insights"
+[962] link "Monetisation"
+[975] link "Ad Centre"
+[988] link "Create ads"
+[1001] link "Boost Instagram post"
+[1014] link "Settings"
+[1048] button "Collapse"
+[1061] link "Meta Verified"
+[1074] link "Leads Centre"
+[1092] link "Meta Business Suite notifications"
+[1123] button "Advertise"
+[1150] link "View profile cover photo"
+[1162] button "Edit cover photo" (collapsed)
+[1181] button "Share a thought..." (collapsed)
+[1191] button "Profile picture actions" (collapsed)
+[1213] button "Tasty Tales Co. "
+[1218] link "16 followers"
+[1220] link "0 following"
+[1227] link "Professional dashboard"
+[1237] link "Edit profile"
+[1247] link "Add to story"
+[1264] button "Food and drink"
+[1293] tab "All"
+[1298] tab "About"
+[1303] tab "Reels" (selected)
+[1307] tab "Photos"
+[1311] tab "Followers"
+[1317] tab "More profile sections" (collapsed)
+[1350] button "Profile settings see more options" (collapsed)
+[1371] link "Reels"
+[1374] button "Create reel"
+[1415] link "Reel tile preview"
+[1429] link "Reel tile preview"
+[1443] link "Reel tile preview"
+[1457] link "Reel tile preview"
+[1471] link "Reel tile preview"
+[1485] link "Reel tile preview"
+[47] link "Reel tile preview"
+[1512] link "Reel tile preview"
+[1526] link "Reel tile preview"
+[1540] link "Reel tile preview"
+[2026-07-05 10:36:20] [OUT] ---
+[2026-07-05 10:36:20] [DEBUG] Snapshot lines: 55
+[2026-07-05 10:36:20] [INFO] Page loaded successfully
+[2026-07-05 10:36:20] [INFO] ========================================
+[2026-07-05 10:36:20] [INFO]   Phase 4: Open Create Reel Dialog
+[2026-07-05 10:36:20] [INFO] ========================================
 
-[2026-07-01 22:07:31] [CMD] browseros-cli snap -p 1
-[2026-07-01 22:07:31] [EXIT] 0
-[2026-07-01 22:07:31] [OUT] ---
-[574] link "Ad Centre"
-[584] link "Reels"
-[598] button "Facebook menu" (collapsed)
-[603] link "Messenger"
-[606] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[674] button "Hide Menu"
-[705] link "Professional dashboard"
-[726] link "Insights"
-[739] link "Monetisation"
-[752] link "Ad Centre"
-[765] link "Create ads"
-[778] link "Boost Instagram post"
-[791] link "Settings"
-[825] button "Collapse"
-[838] link "Meta Verified"
-[851] link "Leads Centre"
-[869] link "Meta Business Suite notifications"
-[900] button "Advertise"
-[927] link "View profile cover photo"
-[939] button "Edit cover photo" (collapsed)
-[958] button "Share a thought..." (collapsed)
-[968] button "Profile picture actions" (collapsed)
-[990] button "Tasty Tales Co. "
-[995] link "15 followers"
-[997] link "0 following"
-[1004] link "Professional dashboard"
-[1014] link "Edit profile"
-[1024] link "Add to story"
-[1041] button "Food and drink"
-[1070] tab "All"
-[1075] tab "About"
-[1080] tab "Reels" (selected)
-[1084] tab "Photos"
-[1088] tab "Followers"
-[1094] tab "More profile sections" (collapsed)
-[1127] button "Profile settings see more options" (collapsed)
-[1148] link "Reels"
-[1151] button "Create reel"
-[1192] link "Reel tile preview"
-[1206] link "Reel tile preview"
-[1220] link "Reel tile preview"
-[1234] link "Reel tile preview"
-[1248] link "Reel tile preview"
-[1262] link "Reel tile preview"
-[1276] link "Reel tile preview"
-[1290] link "Reel tile preview"
-[1304] link "Reel tile preview"
-[1318] link "Reel tile preview"
-[2026-07-01 22:07:31] [OUT] ---
-[2026-07-01 22:07:31] [INFO] Clicking 'Create reel' button (ref: 1151)...
+[2026-07-05 10:36:21] [CMD] browseros-cli snap -p 3
+[2026-07-05 10:36:21] [EXIT] 0
+[2026-07-05 10:36:21] [OUT] ---
+[459] link "Ad Centre"
+[469] link "Reels"
+[483] button "Facebook menu" (collapsed)
+[488] link "Messenger"
+[491] link "Messenger" (disabled)
+[7] button "Notifications, 3 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[894] button "Hide Menu"
+[925] link "Professional dashboard notification"
+[949] link "Insights"
+[962] link "Monetisation"
+[975] link "Ad Centre"
+[988] link "Create ads"
+[1001] link "Boost Instagram post"
+[1014] link "Settings"
+[1048] button "Collapse"
+[1061] link "Meta Verified"
+[1074] link "Leads Centre"
+[1092] link "Meta Business Suite notifications"
+[1123] button "Advertise"
+[1150] link "View profile cover photo"
+[1162] button "Edit cover photo" (collapsed)
+[1181] button "Share a thought..." (collapsed)
+[1191] button "Profile picture actions" (collapsed)
+[1213] button "Tasty Tales Co. "
+[1218] link "16 followers"
+[1220] link "0 following"
+[1227] link "Professional dashboard"
+[1237] link "Edit profile"
+[1247] link "Add to story"
+[1264] button "Food and drink"
+[1293] tab "All"
+[1298] tab "About"
+[1303] tab "Reels" (selected)
+[1307] tab "Photos"
+[1311] tab "Followers"
+[1317] tab "More profile sections" (collapsed)
+[1350] button "Profile settings see more options" (collapsed)
+[1371] link "Reels"
+[1374] button "Create reel"
+[1415] link "Reel tile preview"
+[1429] link "Reel tile preview"
+[1443] link "Reel tile preview"
+[1457] link "Reel tile preview"
+[1471] link "Reel tile preview"
+[1485] link "Reel tile preview"
+[47] link "Reel tile preview"
+[1512] link "Reel tile preview"
+[1526] link "Reel tile preview"
+[1540] link "Reel tile preview"
+[2026-07-05 10:36:21] [OUT] ---
+[2026-07-05 10:36:21] [INFO] Clicking 'Create reel' button (ref: 1374)...
 
-[2026-07-01 22:07:32] [CMD] browseros-cli click -p 1 1151
-[2026-07-01 22:07:32] [EXIT] 0
-[2026-07-01 22:07:32] [OUT] ---
-Clicked [1151] at (1189, 719)
-[2026-07-01 22:07:32] [OUT] ---
-[2026-07-01 22:07:35] [INFO] Verifying dialog opened...
+[2026-07-05 10:36:22] [CMD] browseros-cli click -p 3 1374
+[2026-07-05 10:36:22] [EXIT] 0
+[2026-07-05 10:36:22] [OUT] ---
+Clicked [1374] at (1189, 719)
+[2026-07-05 10:36:22] [OUT] ---
+[2026-07-05 10:36:25] [INFO] Verifying dialog opened...
 
-[2026-07-01 22:07:36] [CMD] browseros-cli eval -p 1 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
-[2026-07-01 22:07:36] [EXIT] 0
-[2026-07-01 22:07:36] [OUT] ---
+[2026-07-05 10:36:26] [CMD] browseros-cli eval -p 3 document.querySelector('div[role="dialog"] h2')?.innerText?.trim()?.includes('Create reel') || document.querySelector('div[aria-label="Create reel"]') !== null || document.querySelector('div[role="dialog"]')?.innerText?.includes('Add Video')
+[2026-07-05 10:36:26] [EXIT] 0
+[2026-07-05 10:36:26] [OUT] ---
 true
-[2026-07-01 22:07:36] [OUT] ---
-[2026-07-01 22:07:36] [DEBUG] Dialog check result: true
-[2026-07-01 22:07:36] [INFO] Create reel dialog confirmed
-[2026-07-01 22:07:36] [INFO] ========================================
-[2026-07-01 22:07:36] [INFO]   Phase 5: Upload the Video File
-[2026-07-01 22:07:36] [INFO] ========================================
-[2026-07-01 22:07:36] [INFO] Making file inputs visible...
+[2026-07-05 10:36:26] [OUT] ---
+[2026-07-05 10:36:26] [DEBUG] Dialog check result: true
+[2026-07-05 10:36:26] [INFO] Create reel dialog confirmed
+[2026-07-05 10:36:26] [INFO] ========================================
+[2026-07-05 10:36:26] [INFO]   Phase 5: Upload the Video File
+[2026-07-05 10:36:26] [INFO] ========================================
+[2026-07-05 10:36:26] [INFO] Making file inputs visible...
 
-[2026-07-01 22:07:37] [CMD] browseros-cli eval -p 1 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
-[2026-07-01 22:07:37] [EXIT] 0
-[2026-07-01 22:07:37] [OUT] ---
+[2026-07-05 10:36:27] [CMD] browseros-cli eval -p 3 document.querySelectorAll('input[type="file"]').forEach(i => { i.style.display = 'block'; i.style.visibility = 'visible'; i.style.opacity = '1'; i.style.position = 'static'; i.style.width = '100px'; i.style.height = '50px'; i.style.zIndex = '999999'; });
+[2026-07-05 10:36:27] [EXIT] 0
+[2026-07-05 10:36:27] [OUT] ---
 undefined
-[2026-07-01 22:07:37] [OUT] ---
-[2026-07-01 22:07:37] [INFO] Taking snapshot to find Choose File buttons...
+[2026-07-05 10:36:27] [OUT] ---
+[2026-07-05 10:36:27] [INFO] Taking snapshot to find Choose File buttons...
 
-[2026-07-01 22:07:38] [CMD] browseros-cli snap -p 1
-[2026-07-01 22:07:38] [EXIT] 0
-[2026-07-01 22:07:38] [OUT] ---
-[494] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[542] link "Home"
-[553] link "Pages"
-[563] link "Professional dashboard"
-[574] link "Ad Centre"
-[584] link "Reels"
-[598] button "Facebook menu" (collapsed)
-[603] link "Messenger"
-[606] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3515] button "Close"
-[3537] button "Choose File"
-[3538] button "Add Video or drag and drop"
-[3559] button "Choose File"
-[3560] button "Upload video for reel"
-[1445] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
-[3592] clickable "Your video previewUpload your video in order to see a preview here."
-[2026-07-01 22:07:38] [OUT] ---
-[2026-07-01 22:07:38] [INFO] Attempting upload via available Choose File buttons...
-[2026-07-01 22:07:38] [INFO] Trying Choose File button ref: 3537
+[2026-07-05 10:36:28] [CMD] browseros-cli snap -p 3
+[2026-07-05 10:36:28] [EXIT] 0
+[2026-07-05 10:36:28] [OUT] ---
+[379] link "Facebook"
+[48] combobox "Search Facebook" (collapsed)
+[427] link "Home"
+[438] link "Pages"
+[448] link "Professional dashboard"
+[459] link "Ad Centre"
+[469] link "Reels"
+[483] button "Facebook menu" (collapsed)
+[488] link "Messenger"
+[491] link "Messenger" (disabled)
+[7] button "Notifications, 3 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[3867] button "Close"
+[3889] button "Choose File"
+[3890] button "Add Video or drag and drop"
+[3911] button "Choose File"
+[3912] button "Upload video for reel"
+[1667] clickable "Create reelAdd Videoor drag and dropUploadPreview Your video previewUpload your video in order to se"
+[3944] clickable "Your video previewUpload your video in order to see a preview here."
+[2026-07-05 10:36:28] [OUT] ---
+[2026-07-05 10:36:28] [INFO] Attempting upload via available Choose File buttons...
+[2026-07-05 10:36:28] [INFO] Trying Choose File button ref: 3889
 
-[2026-07-01 22:07:39] [CMD] browseros-cli upload -p 1 3537 /Users/dsen/Projects/ai-post-maker/project-1/assets/44.mp4
-[2026-07-01 22:07:39] [EXIT] 0
-[2026-07-01 22:07:39] [OUT] ---
-Set 1 file(s) on [3537]
-[2026-07-01 22:07:39] [OUT] ---
-[2026-07-01 22:07:39] [INFO] Upload initiated via ref: 3537
-[2026-07-01 22:07:54] [INFO] Polling for upload completion...
+[2026-07-05 10:36:30] [CMD] browseros-cli upload -p 3 3889 /Users/dsen/Projects/ai-post-maker/project-1/assets/45.mp4
+[2026-07-05 10:36:30] [EXIT] 0
+[2026-07-05 10:36:30] [OUT] ---
+Set 1 file(s) on [3889]
+[2026-07-05 10:36:30] [OUT] ---
+[2026-07-05 10:36:30] [INFO] Upload initiated via ref: 3889
+[2026-07-05 10:36:45] [INFO] Polling for upload completion...
 
-[2026-07-01 22:07:55] [CMD] browseros-cli text -p 1
-[2026-07-01 22:07:55] [EXIT] 0
-[2026-07-01 22:07:55] [OUT] ---
-## Create reel
-
----
-
-Replace Videoor drag and dropChecking for copyrighted contentNext
-[2026-07-01 22:07:55] [OUT] ---
-[2026-07-01 22:07:55] [DEBUG] Upload check attempt 1/16: false
-[2026-07-01 22:07:55] [INFO] Upload still processing... (attempt 1/16)
-
-[2026-07-01 22:08:01] [CMD] browseros-cli text -p 1
-[2026-07-01 22:08:01] [EXIT] 0
-[2026-07-01 22:08:01] [OUT] ---
+[2026-07-05 10:36:46] [CMD] browseros-cli text -p 3
+[2026-07-05 10:36:46] [EXIT] 0
+[2026-07-05 10:36:46] [OUT] ---
 ## Create reel
 
 ---
 
 Replace Videoor drag and dropYour reel is safe to publish!Next
-[2026-07-01 22:08:01] [OUT] ---
-[2026-07-01 22:08:01] [DEBUG] Upload check attempt 2/16: true
-[2026-07-01 22:08:01] [INFO] Video uploaded successfully
-[2026-07-01 22:08:01] [INFO] ========================================
-[2026-07-01 22:08:01] [INFO]   Phase 6: Navigate to Caption Screen
-[2026-07-01 22:08:01] [INFO] ========================================
+[2026-07-05 10:36:46] [OUT] ---
+[2026-07-05 10:36:46] [DEBUG] Upload check attempt 1/16: true
+[2026-07-05 10:36:46] [INFO] Video uploaded successfully
+[2026-07-05 10:36:46] [INFO] ========================================
+[2026-07-05 10:36:46] [INFO]   Phase 6: Navigate to Caption Screen
+[2026-07-05 10:36:46] [INFO] ========================================
 
-[2026-07-01 22:08:02] [CMD] browseros-cli snap -p 1
-[2026-07-01 22:08:02] [EXIT] 0
-[2026-07-01 22:08:02] [OUT] ---
-[494] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[542] link "Home"
-[553] link "Pages"
-[563] link "Professional dashboard"
-[574] link "Ad Centre"
-[584] link "Reels"
-[598] button "Facebook menu" (collapsed)
-[603] link "Messenger"
-[606] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3515] button "Close"
-[3537] button "Choose File"
-[3538] button "Replace Video or drag and drop"
-[3662] button "Next"
-[3688] button "Pause video"
-[3694] slider "Change Position"
-[3708] slider "Change volume"
-[3712] button "Unmute"
-[1445] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
-[2026-07-01 22:08:02] [OUT] ---
+[2026-07-05 10:36:47] [CMD] browseros-cli snap -p 3
+[2026-07-05 10:36:47] [EXIT] 0
+[2026-07-05 10:36:47] [OUT] ---
+[379] link "Facebook"
+[48] combobox "Search Facebook" (collapsed)
+[427] link "Home"
+[438] link "Pages"
+[448] link "Professional dashboard"
+[459] link "Ad Centre"
+[469] link "Reels"
+[483] button "Facebook menu" (collapsed)
+[488] link "Messenger"
+[491] link "Messenger" (disabled)
+[7] button "Notifications, 3 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[3867] button "Close"
+[3889] button "Choose File"
+[3890] button "Replace Video or drag and drop"
+[4014] button "Next"
+[4040] button "Pause video"
+[4046] slider "Change Position"
+[4060] slider "Change volume"
+[4064] button "Unmute"
+[1667] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
+[2026-07-05 10:36:47] [OUT] ---
 
-[2026-07-01 22:08:03] [CMD] browseros-cli snap -p 1
-[2026-07-01 22:08:03] [EXIT] 0
-[2026-07-01 22:08:03] [OUT] ---
-[494] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[542] link "Home"
-[553] link "Pages"
-[563] link "Professional dashboard"
-[574] link "Ad Centre"
-[584] link "Reels"
-[598] button "Facebook menu" (collapsed)
-[603] link "Messenger"
-[606] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3515] button "Close"
-[3537] button "Choose File"
-[3538] button "Replace Video or drag and drop"
-[3662] button "Next"
-[3688] button "Pause video"
-[3694] slider "Change Position"
-[3708] slider "Change volume"
-[3712] button "Unmute"
-[1445] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
-[2026-07-01 22:08:03] [OUT] ---
-[2026-07-01 22:08:03] [INFO] Clicking 'Next' button (ref: 3662)...
+[2026-07-05 10:36:48] [CMD] browseros-cli snap -p 3
+[2026-07-05 10:36:48] [EXIT] 0
+[2026-07-05 10:36:48] [OUT] ---
+[379] link "Facebook"
+[48] combobox "Search Facebook" (collapsed)
+[427] link "Home"
+[438] link "Pages"
+[448] link "Professional dashboard"
+[459] link "Ad Centre"
+[469] link "Reels"
+[483] button "Facebook menu" (collapsed)
+[488] link "Messenger"
+[491] link "Messenger" (disabled)
+[7] button "Notifications, 3 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[3867] button "Close"
+[3889] button "Choose File"
+[3890] button "Replace Video or drag and drop"
+[4014] button "Next"
+[4040] button "Pause video"
+[4046] slider "Change Position"
+[4060] slider "Change volume"
+[4064] button "Unmute"
+[1667] clickable "Create reelReplace Videoor drag and dropYour reel is safe to publish!Next"
+[2026-07-05 10:36:48] [OUT] ---
+[2026-07-05 10:36:48] [INFO] Clicking 'Next' button (ref: 4014)...
 
-[2026-07-01 22:08:05] [CMD] browseros-cli click -p 1 3662
-[2026-07-01 22:08:05] [EXIT] 0
-[2026-07-01 22:08:05] [OUT] ---
-Clicked [3662] at (227, 661)
-[2026-07-01 22:08:05] [OUT] ---
-[2026-07-01 22:08:08] [INFO] Verifying caption screen...
+[2026-07-05 10:36:49] [CMD] browseros-cli click -p 3 4014
+[2026-07-05 10:36:49] [EXIT] 0
+[2026-07-05 10:36:49] [OUT] ---
+Clicked [4014] at (227, 661)
+[2026-07-05 10:36:49] [OUT] ---
+[2026-07-05 10:36:52] [INFO] Verifying caption screen...
 
-[2026-07-01 22:08:09] [CMD] browseros-cli eval -p 1 (function() { return !!document.querySelector('[contenteditable="true"]') || !!document.querySelector('div[role="textbox"]') || !!document.querySelector('textarea') || !!document.querySelector('[aria-placeholder*="Describe your reel"]'); })()
-[2026-07-01 22:08:09] [EXIT] 0
-[2026-07-01 22:08:09] [OUT] ---
+[2026-07-05 10:36:53] [CMD] browseros-cli eval -p 3 (function() { return !!document.querySelector('[contenteditable="true"]') || !!document.querySelector('div[role="textbox"]') || !!document.querySelector('textarea') || !!document.querySelector('[aria-placeholder*="Describe your reel"]'); })()
+[2026-07-05 10:36:53] [EXIT] 0
+[2026-07-05 10:36:53] [OUT] ---
 true
-[2026-07-01 22:08:09] [OUT] ---
-[2026-07-01 22:08:09] [DEBUG] Caption screen check: true
-[2026-07-01 22:08:09] [INFO] Caption screen ready
-[2026-07-01 22:08:09] [INFO] ========================================
-[2026-07-01 22:08:09] [INFO]   Phase 7: Enter the Caption
-[2026-07-01 22:08:09] [INFO] ========================================
-[2026-07-01 22:08:09] [INFO] Finding caption textbox...
+[2026-07-05 10:36:53] [OUT] ---
+[2026-07-05 10:36:53] [DEBUG] Caption screen check: true
+[2026-07-05 10:36:53] [INFO] Caption screen ready
+[2026-07-05 10:36:53] [INFO] ========================================
+[2026-07-05 10:36:53] [INFO]   Phase 7: Enter the Caption
+[2026-07-05 10:36:53] [INFO] ========================================
+[2026-07-05 10:36:53] [INFO] Finding caption textbox...
 
-[2026-07-01 22:08:10] [CMD] browseros-cli snap -p 1
-[2026-07-01 22:08:10] [EXIT] 0
-[2026-07-01 22:08:10] [OUT] ---
-[494] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[542] link "Home"
-[553] link "Pages"
-[563] link "Professional dashboard"
-[574] link "Ad Centre"
-[584] link "Reels"
-[598] button "Facebook menu" (collapsed)
-[603] link "Messenger"
-[606] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3828] button "Back"
-[3515] button "Close"
-[3987] button "Edit"
-[3850] textbox "Describe your reel..." value="
+[2026-07-05 10:36:55] [CMD] browseros-cli snap -p 3
+[2026-07-05 10:36:55] [EXIT] 0
+[2026-07-05 10:36:55] [OUT] ---
+[379] link "Facebook"
+[48] combobox "Search Facebook" (collapsed)
+[427] link "Home"
+[438] link "Pages"
+[448] link "Professional dashboard"
+[459] link "Ad Centre"
+[469] link "Reels"
+[483] button "Facebook menu" (collapsed)
+[488] link "Messenger"
+[491] link "Messenger" (disabled)
+[7] button "Notifications, 3 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[4176] button "Back"
+[3867] button "Close"
+[4335] button "Edit"
+[4198] textbox "Describe your reel..." value="
 "
-[3859] button "Choose emoji ​"
-[3791] button "Trim video"
-[3959] button "Closed captions"
-[3960] button "Audio description"
-[3961] button "Text transcript"
-[3962] button "Optimisation"
-[3963] button "Music"
-[3662] button "Next"
-[3688] button "Pause video"
-[3694] slider "Change Position"
-[3708] slider "Change volume"
-[3712] button "Unmute"
-[1445] clickable "Edit reelEditDescribe your reel...Choose emoji​Trim videoClosed captionsAudio descriptionText transc"
-[3863] clickable "Describe your reel...Choose emoji​"
-[2026-07-01 22:08:10] [OUT] ---
-[2026-07-01 22:08:10] [INFO] Typing caption into textbox (ref: 3850)...
+[4207] button "Choose emoji ​"
+[4143] button "Trim video"
+[4297] button "Closed captions"
+[4298] button "Audio description"
+[4299] button "Text transcript"
+[4300] button "Optimisation"
+[4301] button "Music"
+[4014] button "Next"
+[4040] button "Pause video"
+[4046] slider "Change Position"
+[4060] slider "Change volume"
+[4064] button "Unmute"
+[1667] clickable "Edit reelEditDescribe your reel...Choose emoji​Trim videoClosed captionsAudio descriptionText transc"
+[4211] clickable "Describe your reel...Choose emoji​"
+[2026-07-05 10:36:55] [OUT] ---
+[2026-07-05 10:36:55] [INFO] Typing caption into textbox (ref: 4198)...
 
-[2026-07-01 22:08:12] [CMD] browseros-cli fill -p 1 3850 🦐 Crystal Skin Har Gow (Shrimp Dumplings) 🥟
+[2026-07-05 10:36:58] [CMD] browseros-cli fill -p 3 4198 🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪
 Recipe: 
-Ingredients: 🦐 1/2 lb chopped shrimp, 🎋 1/4 cup minced bamboo shoots, 🫒 1 tsp sesame oil, 🫚 1 tsp ginger. Wrapper: 1 cup wheat starch, 🌽 1/2 cup cornstarch, 🫒 boiling water. 
-Steps: 👨‍🍳 Mix shrimp with bamboo and seasonings. 🥣 Make the dough by adding boiling water to the starches; knead until smooth. 🔥 Roll into thin circles. ⏲️ Place a spoonful of shrimp in the center and fold into a crescent with 7-10 pleats. 🍳 Steam on a piece of parchment for 6-8 minutes until the skin becomes translucent.
-#hargow #dimsum #dumplings #chinesefood #shrimp #healthy #asiancuisine #dimsumtime 🌮🍱
-[2026-07-01 22:08:12] [EXIT] 0
-[2026-07-01 22:08:12] [OUT] ---
-Typed 653 characters into [3850] at (278, 178)
-[2026-07-01 22:08:12] [OUT] ---
-[2026-07-01 22:08:12] [INFO] Fill command succeeded
-[2026-07-01 22:08:14] [INFO] Verifying caption was entered...
+Ingredients: 🐷 5 lb pork shoulder (boston butt), 1/2 cup BBQ rub, 🍅 1 cup tangy vinegar BBQ sauce, 🥗 1 cup creamy coleslaw, and 4 large potato buns. 
+Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120°C) for 8-10 hours until the internal temp is 200°F. 🔥 Wrap in foil for the last 2 hours. ⏲️ Let the meat rest for 1 hour, then shred with two forks. 🍳 Toss with BBQ sauce. 🔪 Pile high on toasted potato buns and top with cold, crunchy coleslaw.
+#pulledpork #sandwich #slowcooker #bbq #dinnerideas #snacktime #dinner #comfortfood #foodie 🌮🍱
+[2026-07-05 10:36:58] [EXIT] 0
+[2026-07-05 10:36:58] [OUT] ---
+Typed 620 characters into [4198] at (278, 178)
+[2026-07-05 10:36:58] [OUT] ---
+[2026-07-05 10:36:58] [INFO] Fill command succeeded
+[2026-07-05 10:37:00] [INFO] Verifying caption was entered...
 
-[2026-07-01 22:08:15] [CMD] browseros-cli eval -p 1 (function() { var el = document.querySelector('[contenteditable="true"]') || document.querySelector('div[role="textbox"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*="Describe your reel"]'); var text = el?.innerText || ''; return text.length > 50; })()
-[2026-07-01 22:08:15] [EXIT] 0
-[2026-07-01 22:08:15] [OUT] ---
+[2026-07-05 10:37:01] [CMD] browseros-cli eval -p 3 (function() { var el = document.querySelector('[contenteditable="true"]') || document.querySelector('div[role="textbox"]') || document.querySelector('textarea') || document.querySelector('[aria-placeholder*="Describe your reel"]'); var text = el?.innerText || ''; return text.length > 50; })()
+[2026-07-05 10:37:01] [EXIT] 0
+[2026-07-05 10:37:01] [OUT] ---
 true
-[2026-07-01 22:08:15] [OUT] ---
-[2026-07-01 22:08:15] [INFO] Caption entered successfully
-[2026-07-01 22:08:15] [INFO] ========================================
-[2026-07-01 22:08:15] [INFO]   Phase 8: Navigate to Final Review Screen
-[2026-07-01 22:08:15] [INFO] ========================================
+[2026-07-05 10:37:01] [OUT] ---
+[2026-07-05 10:37:01] [INFO] Caption entered successfully
+[2026-07-05 10:37:01] [INFO] ========================================
+[2026-07-05 10:37:01] [INFO]   Phase 8: Navigate to Final Review Screen
+[2026-07-05 10:37:01] [INFO] ========================================
 
-[2026-07-01 22:08:16] [CMD] browseros-cli snap -p 1
-[2026-07-01 22:08:16] [EXIT] 0
-[2026-07-01 22:08:16] [OUT] ---
-[494] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[542] link "Home"
-[553] link "Pages"
-[563] link "Professional dashboard"
-[574] link "Ad Centre"
-[584] link "Reels"
-[598] button "Facebook menu" (collapsed)
-[603] link "Messenger"
-[606] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3828] button "Back"
-[3515] button "Close"
-[3987] button "Edit"
-[3850] textbox "Describe your reel..." value="🦐 Crystal Skin Har Gow (Shrimp Dumplings) 🥟
-
-Recipe: 
-
-Ingredients: 🦐 1/2 lb chopped shrimp, 🎋 1/4 cup minced bamboo shoots, 🫒 1 tsp sesame oil, 🫚 1 tsp ginger. Wrapper: 1 cup wheat starch, 🌽 1/2 cup cornstarch, 🫒 boiling water. 
-
-Steps: 👨‍🍳 Mix shrimp with bamboo and seasonings. 🥣 Make the dough by adding boiling water to the starches; knead until smooth. 🔥 Roll into thin circles. ⏲️ Place a spoonful of shrimp in the center and fold into a crescent with 7-10 pleats. 🍳 Steam on a piece of parchment for 6-8 minutes until the skin becomes translucent.
-
-#hargow #dimsum #dumplings #chinesefood #shrimp #healthy #asiancuisine #dimsumtime 🌮🍱"
-[3859] button "Choose emoji ​"
-[3791] button "Trim video"
-[3959] button "Closed captions"
-[3960] button "Audio description"
-[3961] button "Text transcript"
-[3962] button "Optimisation"
-[3963] button "Music"
-[3662] button "Next"
-[3688] button "Pause video"
-[3694] slider "Change Position"
-[3708] slider "Change volume"
-[3712] button "Unmute"
-[1445] clickable "Edit reelEdit🦐 Crystal Skin Har Gow (Shrimp Dumplings) 🥟Recipe: Ingredients: 🦐 1/2 lb chopped shr"
-[3863] clickable "🦐 Crystal Skin Har Gow (Shrimp Dumplings) 🥟Recipe: Ingredients: 🦐 1/2 lb chopped shrimp, 🎋 1/4 c"
-[2026-07-01 22:08:16] [OUT] ---
-
-[2026-07-01 22:08:17] [CMD] browseros-cli snap -p 1
-[2026-07-01 22:08:17] [EXIT] 0
-[2026-07-01 22:08:17] [OUT] ---
-[494] link "Facebook"
-[45] combobox "Search Facebook" (collapsed)
-[542] link "Home"
-[553] link "Pages"
-[563] link "Professional dashboard"
-[574] link "Ad Centre"
-[584] link "Reels"
-[598] button "Facebook menu" (collapsed)
-[603] link "Messenger"
-[606] link "Messenger" (disabled)
-[7] button "Notifications" (collapsed)
-[10] button "Your profile" (collapsed)
-[3828] button "Back"
-[3515] button "Close"
-[3987] button "Edit"
-[3850] textbox "Describe your reel..." value="🦐 Crystal Skin Har Gow (Shrimp Dumplings) 🥟
+[2026-07-05 10:37:02] [CMD] browseros-cli snap -p 3
+[2026-07-05 10:37:02] [EXIT] 0
+[2026-07-05 10:37:02] [OUT] ---
+[379] link "Facebook"
+[48] combobox "Search Facebook" (collapsed)
+[427] link "Home"
+[438] link "Pages"
+[448] link "Professional dashboard"
+[459] link "Ad Centre"
+[469] link "Reels"
+[483] button "Facebook menu" (collapsed)
+[488] link "Messenger"
+[491] link "Messenger" (disabled)
+[7] button "Notifications, 3 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[4176] button "Back"
+[3867] button "Close"
+[4335] button "Edit"
+[4198] textbox "Describe your reel..." value="🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪
 
 Recipe: 
 
-Ingredients: 🦐 1/2 lb chopped shrimp, 🎋 1/4 cup minced bamboo shoots, 🫒 1 tsp sesame oil, 🫚 1 tsp ginger. Wrapper: 1 cup wheat starch, 🌽 1/2 cup cornstarch, 🫒 boiling water. 
+Ingredients: 🐷 5 lb pork shoulder (boston butt), 1/2 cup BBQ rub, 🍅 1 cup tangy vinegar BBQ sauce, 🥗 1 cup creamy coleslaw, and 4 large potato buns. 
 
-Steps: 👨‍🍳 Mix shrimp with bamboo and seasonings. 🥣 Make the dough by adding boiling water to the starches; knead until smooth. 🔥 Roll into thin circles. ⏲️ Place a spoonful of shrimp in the center and fold into a crescent with 7-10 pleats. 🍳 Steam on a piece of parchment for 6-8 minutes until the skin becomes translucent.
+Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120°C) for 8-10 hours until the internal temp is 200°F. 🔥 Wrap in foil for the last 2 hours. ⏲️ Let the meat rest for 1 hour, then shred with two forks. 🍳 Toss with BBQ sauce. 🔪 Pile high on toasted potato buns and top with cold, crunchy coleslaw.
 
-#hargow #dimsum #dumplings #chinesefood #shrimp #healthy #asiancuisine #dimsumtime 🌮🍱"
-[3859] button "Choose emoji ​"
-[3791] button "Trim video"
-[3959] button "Closed captions"
-[3960] button "Audio description"
-[3961] button "Text transcript"
-[3962] button "Optimisation"
-[3963] button "Music"
-[3662] button "Next"
-[3688] button "Pause video"
-[3694] slider "Change Position"
-[3708] slider "Change volume"
-[3712] button "Unmute"
-[1445] clickable "Edit reelEdit🦐 Crystal Skin Har Gow (Shrimp Dumplings) 🥟Recipe: Ingredients: 🦐 1/2 lb chopped shr"
-[3863] clickable "🦐 Crystal Skin Har Gow (Shrimp Dumplings) 🥟Recipe: Ingredients: 🦐 1/2 lb chopped shrimp, 🎋 1/4 c"
-[2026-07-01 22:08:17] [OUT] ---
-[2026-07-01 22:08:17] [INFO] Clicking 'Next' button (ref: 3662)...
+#pulledpork #sandwich #slowcooker #bbq #dinnerideas #snacktime #dinner #comfortfood #foodie 🌮🍱"
+[4207] button "Choose emoji ​"
+[4143] button "Trim video"
+[4297] button "Closed captions"
+[4298] button "Audio description"
+[4299] button "Text transcript"
+[4300] button "Optimisation"
+[4301] button "Music"
+[4014] button "Next"
+[4040] button "Pause video"
+[4046] slider "Change Position"
+[4060] slider "Change volume"
+[4064] button "Unmute"
+[1667] clickable "Edit reelEdit🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪Recipe: Ingredients: 🐷 5 lb pork shoulder (b"
+[4211] clickable "🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪Recipe: Ingredients: 🐷 5 lb pork shoulder (boston butt), "
+[2026-07-05 10:37:02] [OUT] ---
 
-[2026-07-01 22:08:18] [CMD] browseros-cli click -p 1 3662
-[2026-07-01 22:08:18] [EXIT] 0
-[2026-07-01 22:08:18] [OUT] ---
-Clicked [3662] at (227, 661)
-[2026-07-01 22:08:18] [OUT] ---
-[2026-07-01 22:08:21] [INFO] Verifying final review screen...
+[2026-07-05 10:37:03] [CMD] browseros-cli snap -p 3
+[2026-07-05 10:37:03] [EXIT] 0
+[2026-07-05 10:37:03] [OUT] ---
+[379] link "Facebook"
+[48] combobox "Search Facebook" (collapsed)
+[427] link "Home"
+[438] link "Pages"
+[448] link "Professional dashboard"
+[459] link "Ad Centre"
+[469] link "Reels"
+[483] button "Facebook menu" (collapsed)
+[488] link "Messenger"
+[491] link "Messenger" (disabled)
+[7] button "Notifications, 3 unread" (collapsed)
+[11] button "Your profile" (collapsed)
+[4176] button "Back"
+[3867] button "Close"
+[4335] button "Edit"
+[4198] textbox "Describe your reel..." value="🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪
 
-[2026-07-01 22:08:22] [CMD] browseros-cli text -p 1
-[2026-07-01 22:08:22] [EXIT] 0
-[2026-07-01 22:08:22] [OUT] ---
+Recipe: 
+
+Ingredients: 🐷 5 lb pork shoulder (boston butt), 1/2 cup BBQ rub, 🍅 1 cup tangy vinegar BBQ sauce, 🥗 1 cup creamy coleslaw, and 4 large potato buns. 
+
+Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120°C) for 8-10 hours until the internal temp is 200°F. 🔥 Wrap in foil for the last 2 hours. ⏲️ Let the meat rest for 1 hour, then shred with two forks. 🍳 Toss with BBQ sauce. 🔪 Pile high on toasted potato buns and top with cold, crunchy coleslaw.
+
+#pulledpork #sandwich #slowcooker #bbq #dinnerideas #snacktime #dinner #comfortfood #foodie 🌮🍱"
+[4207] button "Choose emoji ​"
+[4143] button "Trim video"
+[4297] button "Closed captions"
+[4298] button "Audio description"
+[4299] button "Text transcript"
+[4300] button "Optimisation"
+[4301] button "Music"
+[4014] button "Next"
+[4040] button "Pause video"
+[4046] slider "Change Position"
+[4060] slider "Change volume"
+[4064] button "Unmute"
+[1667] clickable "Edit reelEdit🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪Recipe: Ingredients: 🐷 5 lb pork shoulder (b"
+[4211] clickable "🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪Recipe: Ingredients: 🐷 5 lb pork shoulder (boston butt), "
+[2026-07-05 10:37:03] [OUT] ---
+[2026-07-05 10:37:03] [INFO] Clicking 'Next' button (ref: 4014)...
+
+[2026-07-05 10:37:04] [CMD] browseros-cli click -p 3 4014
+[2026-07-05 10:37:04] [EXIT] 0
+[2026-07-05 10:37:04] [OUT] ---
+Clicked [4014] at (227, 661)
+[2026-07-05 10:37:04] [OUT] ---
+[2026-07-05 10:37:07] [INFO] Verifying final review screen...
+
+[2026-07-05 10:37:09] [CMD] browseros-cli text -p 3
+[2026-07-05 10:37:09] [EXIT] 0
+[2026-07-05 10:37:09] [OUT] ---
 ## Reel settings
 
 ---
 
-PublicAnyone on or off FacebookTag and collaborateTag people and share credit for your reel with a collaborator.Remixing and use of original audioAllow remixing and use of original audio. Learn more
+PublicAnyone on or off FacebookTag and collaborateTag people and share credit for your reel with a collaborator.Add AI labelWe require you to label certain realistic content that's made with AI. Learn moreRemixing and use of original audioAllow remixing and use of original audio. Learn more
 
 ---
 
@@ -495,52 +483,52 @@ Share to groupsReach more people when you share your post in relevant groups.Sha
 ---
 
 Your reel is safe to publish!SavePost
-[2026-07-01 22:08:22] [OUT] ---
-[2026-07-01 22:08:22] [DEBUG] Final review check: heading=1, post=1, safe=1
-[2026-07-01 22:08:22] [INFO] Final review screen confirmed
-[2026-07-01 22:08:22] [INFO] ========================================
-[2026-07-01 22:08:22] [INFO]   Phase 9: Manual Review
-[2026-07-01 22:08:22] [INFO] ========================================
-[2026-07-01 22:08:22] [INFO] Checking Post button state...
+[2026-07-05 10:37:09] [OUT] ---
+[2026-07-05 10:37:09] [DEBUG] Final review check: heading=1, post=1, safe=1
+[2026-07-05 10:37:09] [INFO] Final review screen confirmed
+[2026-07-05 10:37:09] [INFO] ========================================
+[2026-07-05 10:37:09] [INFO]   Phase 9: Manual Review
+[2026-07-05 10:37:09] [INFO] ========================================
+[2026-07-05 10:37:09] [INFO] Checking Post button state...
 
-[2026-07-01 22:08:23] [CMD] browseros-cli eval -p 1 (function() { var postBtn = Array.from(document.querySelectorAll('div[role="button"], button')).find(function(b) { return b.innerText?.includes('Post'); }); return postBtn && !postBtn.disabled && postBtn.offsetParent !== null; })()
-[2026-07-01 22:08:23] [EXIT] 0
-[2026-07-01 22:08:23] [OUT] ---
+[2026-07-05 10:37:10] [CMD] browseros-cli eval -p 3 (function() { var postBtn = Array.from(document.querySelectorAll('div[role="button"], button')).find(function(b) { return b.innerText?.includes('Post'); }); return postBtn && !postBtn.disabled && postBtn.offsetParent !== null; })()
+[2026-07-05 10:37:10] [EXIT] 0
+[2026-07-05 10:37:10] [OUT] ---
 true
-[2026-07-01 22:08:23] [OUT] ---
-[2026-07-01 22:08:23] [DEBUG] Post button check (1st attempt): true
-[2026-07-01 22:08:23] [INFO] Post button is enabled and ready
-[2026-07-01 22:08:23] [INFO] 
-[2026-07-01 22:08:23] [INFO] ============================================
-[2026-07-01 22:08:23] [INFO]   MANUAL REVIEW REQUIRED
-[2026-07-01 22:08:23] [INFO] ============================================
-[2026-07-01 22:08:23] [INFO]   Asset ID: 44
-[2026-07-01 22:08:23] [INFO]   Project:  project-1
-[2026-07-01 22:08:23] [INFO]   Status:   Ready to publish
-[2026-07-01 22:08:23] [INFO] 
-[2026-07-01 22:08:23] [INFO]   Please review the reel in the browser.
-[2026-07-01 22:08:23] [INFO]   DO NOT proceed until you manually click
-[2026-07-01 22:08:23] [INFO]   the 'Post' button and confirm success.
-[2026-07-01 22:08:24] [INFO] ============================================
-[2026-07-01 22:08:24] [INFO] 
-[2026-07-01 22:08:24] [INFO] ========================================
-[2026-07-01 22:08:24] [INFO]   Phase 10: Mark Record as Done
-[2026-07-01 22:08:24] [INFO] ========================================
-[2026-07-01 22:09:44] [INFO] Marking asset 44 as uploaded for facebook...
-[2026-07-01 22:09:44] [DEBUG] Tracker output: {"success": true, "id": "44", "platform": "facebook"}
-[2026-07-01 22:09:44] [INFO] Record 44 marked as uploaded for facebook in project-1/grok_prompts.json
-[2026-07-01 22:09:44] [INFO] ========================================
-[2026-07-01 22:09:44] [INFO]   Phase 11: Close Browser Tab
-[2026-07-01 22:09:44] [INFO] ========================================
+[2026-07-05 10:37:10] [OUT] ---
+[2026-07-05 10:37:10] [DEBUG] Post button check (1st attempt): true
+[2026-07-05 10:37:10] [INFO] Post button is enabled and ready
+[2026-07-05 10:37:10] [INFO] 
+[2026-07-05 10:37:10] [INFO] ============================================
+[2026-07-05 10:37:10] [INFO]   MANUAL REVIEW REQUIRED
+[2026-07-05 10:37:10] [INFO] ============================================
+[2026-07-05 10:37:10] [INFO]   Asset ID: 45
+[2026-07-05 10:37:10] [INFO]   Project:  project-1
+[2026-07-05 10:37:10] [INFO]   Status:   Ready to publish
+[2026-07-05 10:37:10] [INFO] 
+[2026-07-05 10:37:10] [INFO]   Please review the reel in the browser.
+[2026-07-05 10:37:10] [INFO]   DO NOT proceed until you manually click
+[2026-07-05 10:37:10] [INFO]   the 'Post' button and confirm success.
+[2026-07-05 10:37:10] [INFO] ============================================
+[2026-07-05 10:37:10] [INFO] 
+[2026-07-05 10:37:10] [INFO] ========================================
+[2026-07-05 10:37:10] [INFO]   Phase 10: Mark Record as Done
+[2026-07-05 10:37:10] [INFO] ========================================
+[2026-07-05 10:41:07] [INFO] Marking asset 45 as uploaded for facebook...
+[2026-07-05 10:41:08] [DEBUG] Tracker output: {"success": true, "id": "45", "platform": "facebook"}
+[2026-07-05 10:41:08] [INFO] Record 45 marked as uploaded for facebook in project-1/grok_prompts.json
+[2026-07-05 10:41:08] [INFO] ========================================
+[2026-07-05 10:41:08] [INFO]   Phase 11: Close Browser Tab
+[2026-07-05 10:41:08] [INFO] ========================================
 
-[2026-07-01 22:09:46] [CMD] browseros-cli close -p 1
-[2026-07-01 22:09:46] [EXIT] 0
-[2026-07-01 22:09:46] [OUT] ---
-Closed page 1
-[2026-07-01 22:09:46] [OUT] ---
-[2026-07-01 22:09:46] [INFO] Browser tab closed
-[2026-07-01 22:09:46] [INFO] ========================================
-[2026-07-01 22:09:46] [INFO]   Complete
-[2026-07-01 22:09:46] [INFO] ========================================
-[2026-07-01 22:09:46] [INFO] Facebook upload workflow finished for project-1
-[2026-07-01 22:09:46] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/facebook_upload.log
+[2026-07-05 10:41:09] [CMD] browseros-cli close -p 3
+[2026-07-05 10:41:09] [EXIT] 0
+[2026-07-05 10:41:09] [OUT] ---
+Closed page 3
+[2026-07-05 10:41:09] [OUT] ---
+[2026-07-05 10:41:09] [INFO] Browser tab closed
+[2026-07-05 10:41:09] [INFO] ========================================
+[2026-07-05 10:41:09] [INFO]   Complete
+[2026-07-05 10:41:09] [INFO] ========================================
+[2026-07-05 10:41:09] [INFO] Facebook upload workflow finished for project-1
+[2026-07-05 10:41:09] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/facebook_upload.log

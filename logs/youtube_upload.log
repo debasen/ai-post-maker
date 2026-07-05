@@ -1,66 +1,66 @@
-[2026-07-01 22:09:55] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
-[2026-07-01 22:09:55] [INFO] Starting automation for project 1
-[2026-07-01 22:09:55] [INFO] Timeout: 300s, Max retries: 3
-[2026-07-01 22:09:55] [INFO] Checking BrowserOS health...
+[2026-07-05 10:42:42] [INFO] Logging initialized: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
+[2026-07-05 10:42:42] [INFO] Starting automation for project 1
+[2026-07-05 10:42:42] [INFO] Timeout: 300s, Max retries: 3
+[2026-07-05 10:42:42] [INFO] Checking BrowserOS health...
 
-[2026-07-01 22:09:55] [CMD] browseros-cli health 
-[2026-07-01 22:09:55] [EXIT] 0
-[2026-07-01 22:09:55] [OUT] ---
+[2026-07-05 10:42:43] [CMD] browseros-cli health 
+[2026-07-05 10:42:43] [EXIT] 0
+[2026-07-05 10:42:43] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-07-01 22:09:55] [OUT] ---
-[2026-07-01 22:09:55] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
-[2026-07-01 22:09:55] [DEBUG] Retry attempt 1/3: bos_health
+[2026-07-05 10:42:43] [OUT] ---
+[2026-07-05 10:42:43] [DEBUG] retry_with_backoff: cmd='bos_health' max_retries=3 initial_delay=5
+[2026-07-05 10:42:43] [DEBUG] Retry attempt 1/3: bos_health
 
-[2026-07-01 22:09:56] [CMD] browseros-cli health 
-[2026-07-01 22:09:56] [EXIT] 0
-[2026-07-01 22:09:56] [OUT] ---
+[2026-07-05 10:42:44] [CMD] browseros-cli health 
+[2026-07-05 10:42:44] [EXIT] 0
+[2026-07-05 10:42:44] [OUT] ---
 Server: ok
 CDP:    connected
-[2026-07-01 22:09:56] [OUT] ---
-[2026-07-01 22:09:56] [DEBUG] retry_with_backoff: success on attempt 1
-[2026-07-01 22:09:56] [INFO] BrowserOS is healthy
-[2026-07-01 22:09:56] [INFO] ========================================
-[2026-07-01 22:09:56] [INFO]   Phase 1: Identify Project and Asset
-[2026-07-01 22:09:56] [INFO] ========================================
-[2026-07-01 22:09:56] [INFO] Fetching mapped post for project 1...
-[2026-07-01 22:09:56] [DEBUG] get_mapped_post exit=0 output='ID: 45
-Caption: 🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪
+[2026-07-05 10:42:44] [OUT] ---
+[2026-07-05 10:42:44] [DEBUG] retry_with_backoff: success on attempt 1
+[2026-07-05 10:42:44] [INFO] BrowserOS is healthy
+[2026-07-05 10:42:44] [INFO] ========================================
+[2026-07-05 10:42:44] [INFO]   Phase 1: Identify Project and Asset
+[2026-07-05 10:42:44] [INFO] ========================================
+[2026-07-05 10:42:44] [INFO] Fetching mapped post for project 1...
+[2026-07-05 10:42:44] [DEBUG] get_mapped_post exit=0 output='ID: 46
+Caption: 🌯 The Ultimate Sunrise Breakfast Burrito 🌯
 Recipe: 
-Ingredients: 🐷 5 lb pork shoulder (boston butt), 1/2 cup BBQ rub, 🍅 1 cup tangy vinegar BBQ sauce, 🥗 1 cup creamy coleslaw, and 4 large potato buns. 
-Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120°C) for 8-10 hours until the internal temp is 200°F. 🔥 Wrap in foil for the last 2 hours. ⏲️ Let the meat rest for 1 hour, then shred with two forks. 🍳 Toss with BBQ sauce. 🔪 Pile high on toasted potato buns and top with cold, crunchy coleslaw.
-#pulledpork #bbq #sandwich #slowcooker #dinner #comfortfood #barbecue #pork 🌮🍱'
-[2026-07-01 22:09:56] [INFO] Asset ID: 45
-[2026-07-01 22:09:56] [INFO] Title length: 40 chars
-[2026-07-01 22:09:56] [INFO] Description length: 550 chars
-[2026-07-01 22:09:57] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/45.mp4
-[2026-07-01 22:09:57] [INFO] ========================================
-[2026-07-01 22:09:57] [INFO]   Phase 2: Open YouTube Upload Page
-[2026-07-01 22:09:57] [INFO] ========================================
-[2026-07-01 22:09:57] [INFO] Opening new page: https://www.youtube.com/upload
+Ingredients: 🫓 1 large flour tortilla, 🥚 3 scrambled eggs, 🌶️ 1/2 cup spicy chorizo, 🥔 1/2 cup crispy hash browns, 🧀 1/4 cup shredded cheddar, and fresh salsa roja. 
+Steps: 👨‍🍳 Fry the chorizo and hash browns until crispy. 🥣 Scramble the eggs in the same pan to pick up the flavor. 🔥 Warm the tortilla, then layer the eggs, meat, potatoes, and cheese. ⏲️ Fold in the sides and roll tightly. 🍳 Place the burrito back in the pan for 1 minute per side to melt the cheese and crisp the shell.
+#breakfastburrito #eggs #morning #mexicanfood #comfortfood #dinnerideas #breakfast #brunch #spicy 🌮🍱'
+[2026-07-05 10:42:44] [INFO] Asset ID: 46
+[2026-07-05 10:42:44] [INFO] Title length: 42 chars
+[2026-07-05 10:42:44] [INFO] Description length: 598 chars
+[2026-07-05 10:42:44] [INFO] Asset path: /Users/dsen/Projects/ai-post-maker/project-1/assets/46.mp4
+[2026-07-05 10:42:44] [INFO] ========================================
+[2026-07-05 10:42:44] [INFO]   Phase 2: Open YouTube Upload Page
+[2026-07-05 10:42:44] [INFO] ========================================
+[2026-07-05 10:42:44] [INFO] Opening new page: https://www.youtube.com/upload
 
-[2026-07-01 22:09:57] [CMD] browseros-cli open https://www.youtube.com/upload --json
-[2026-07-01 22:09:57] [EXIT] 0
-[2026-07-01 22:09:57] [OUT] ---
+[2026-07-05 10:42:45] [CMD] browseros-cli open https://www.youtube.com/upload --json
+[2026-07-05 10:42:45] [EXIT] 0
+[2026-07-05 10:42:45] [OUT] ---
 {"background":false,"hidden":false,"pageId":5,"url":"https://www.youtube.com/upload"}
-[2026-07-01 22:09:57] [OUT] ---
-[2026-07-01 22:09:57] [INFO] Page opened with ID: 5
-[2026-07-01 22:10:02] [INFO] Page loaded successfully
-[2026-07-01 22:10:02] [INFO] ========================================
-[2026-07-01 22:10:03] [INFO]   Phase 3: Upload the Video File
-[2026-07-01 22:10:03] [INFO] ========================================
-[2026-07-01 22:10:03] [INFO] Exposing hidden file input...
+[2026-07-05 10:42:45] [OUT] ---
+[2026-07-05 10:42:45] [INFO] Page opened with ID: 5
+[2026-07-05 10:42:50] [INFO] Page loaded successfully
+[2026-07-05 10:42:50] [INFO] ========================================
+[2026-07-05 10:42:50] [INFO]   Phase 3: Upload the Video File
+[2026-07-05 10:42:50] [INFO] ========================================
+[2026-07-05 10:42:50] [INFO] Exposing hidden file input...
 
-[2026-07-01 22:10:03] [CMD] browseros-cli eval -p 5 document.querySelectorAll('input[type="file"]').forEach((i, idx) => { i.removeAttribute('aria-hidden'); i.style.display='block'; i.style.visibility='visible'; i.style.opacity='1'; i.style.position='static'; i.style.width='100px'; i.style.height='50px'; i.style.zIndex='999999'; i.title='Upload Video File'; });
-[2026-07-01 22:10:03] [EXIT] 0
-[2026-07-01 22:10:03] [OUT] ---
+[2026-07-05 10:42:52] [CMD] browseros-cli eval -p 5 document.querySelectorAll('input[type="file"]').forEach((i, idx) => { i.removeAttribute('aria-hidden'); i.style.display='block'; i.style.visibility='visible'; i.style.opacity='1'; i.style.position='static'; i.style.width='100px'; i.style.height='50px'; i.style.zIndex='999999'; i.title='Upload Video File'; });
+[2026-07-05 10:42:52] [EXIT] 0
+[2026-07-05 10:42:52] [OUT] ---
 undefined
-[2026-07-01 22:10:03] [OUT] ---
-[2026-07-01 22:10:05] [INFO] Taking snapshot to find file input...
+[2026-07-05 10:42:52] [OUT] ---
+[2026-07-05 10:42:54] [INFO] Taking snapshot to find file input...
 
-[2026-07-01 22:10:07] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:07] [EXIT] 0
-[2026-07-01 22:10:07] [OUT] ---
+[2026-07-05 10:42:56] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:42:56] [EXIT] 0
+[2026-07-05 10:42:56] [OUT] ---
 [404] menuitem "Subtitles"
 [423] menuitem "Content detection"
 [442] menuitem "Earn"
@@ -79,7 +79,7 @@ undefined
 [592] tab "Collaborations "
 [639] button "Check it out"
 [652] button "Dismiss"
-[7] textbox "Filter"
+[6] textbox "Filter"
 [836] checkbox "Select all"
 [932] button "Sort by Date"
 [966] button "Sort by Views"
@@ -111,11 +111,11 @@ undefined
 
   "
 [831] clickable "Select all"
-[2026-07-01 22:10:07] [OUT] ---
+[2026-07-05 10:42:56] [OUT] ---
 
-[2026-07-01 22:10:08] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:08] [EXIT] 0
-[2026-07-01 22:10:08] [OUT] ---
+[2026-07-05 10:42:57] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:42:57] [EXIT] 0
+[2026-07-05 10:42:57] [OUT] ---
 [404] menuitem "Subtitles"
 [423] menuitem "Content detection"
 [442] menuitem "Earn"
@@ -134,7 +134,7 @@ undefined
 [592] tab "Collaborations "
 [639] button "Check it out"
 [652] button "Dismiss"
-[7] textbox "Filter"
+[6] textbox "Filter"
 [836] checkbox "Select all"
 [932] button "Sort by Date"
 [966] button "Sort by Views"
@@ -166,11 +166,11 @@ undefined
 
   "
 [831] clickable "Select all"
-[2026-07-01 22:10:08] [OUT] ---
+[2026-07-05 10:42:57] [OUT] ---
 
-[2026-07-01 22:10:09] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:09] [EXIT] 0
-[2026-07-01 22:10:09] [OUT] ---
+[2026-07-05 10:42:58] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:42:58] [EXIT] 0
+[2026-07-05 10:42:58] [OUT] ---
 [404] menuitem "Subtitles"
 [423] menuitem "Content detection"
 [442] menuitem "Earn"
@@ -189,7 +189,7 @@ undefined
 [592] tab "Collaborations "
 [639] button "Check it out"
 [652] button "Dismiss"
-[7] textbox "Filter"
+[6] textbox "Filter"
 [836] checkbox "Select all"
 [932] button "Sort by Date"
 [966] button "Sort by Views"
@@ -221,43 +221,43 @@ undefined
 
   "
 [831] clickable "Select all"
-[2026-07-01 22:10:09] [OUT] ---
-[2026-07-01 22:10:09] [INFO] Attempting upload to ref: 1553...
+[2026-07-05 10:42:58] [OUT] ---
+[2026-07-05 10:42:58] [INFO] Attempting upload to ref: 1553...
 
-[2026-07-01 22:10:10] [CMD] browseros-cli upload -p 5 1553 /Users/dsen/Projects/ai-post-maker/project-1/assets/45.mp4
-[2026-07-01 22:10:10] [EXIT] 0
-[2026-07-01 22:10:10] [OUT] ---
+[2026-07-05 10:42:59] [CMD] browseros-cli upload -p 5 1553 /Users/dsen/Projects/ai-post-maker/project-1/assets/46.mp4
+[2026-07-05 10:42:59] [EXIT] 0
+[2026-07-05 10:42:59] [OUT] ---
 Set 1 file(s) on [1553]
-[2026-07-01 22:10:10] [OUT] ---
-[2026-07-01 22:10:15] [INFO] Waiting for 'Details' screen to appear...
+[2026-07-05 10:42:59] [OUT] ---
+[2026-07-05 10:43:04] [INFO] Waiting for 'Details' screen to appear...
 
-[2026-07-01 22:10:16] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:16] [EXIT] 0
-[2026-07-01 22:10:16] [OUT] ---
-[2180] tab "Details" (selected)
-[2191] tab "Video elements"
-[2202] tab "Checks"
-[2213] tab "Visibility"
-[1980] button "Reuse details"
-[2330] textbox "Add a title that describes your video (type @ to mention a channel)" value="45" (required)
-[2487] button "Add all"
-[2422] button "Options"
-[2751] button "Personalized suggestion illustration #dinner"
-[2761] button "Personalized suggestion illustration #comfortfood"
-[2771] button "Personalized suggestion illustration #pizza"
-[2036] textbox "Tell viewers about your video (type @ to mention a channel)"
-[2259] link "Learn more about playlists"
-[2265] button "Select playlists"
-[2269] button "Select"
-[2089] link "What's content made for kids?"
-[2096] link "Learn more about video's audience settings"
-[2099] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2103] link "Learn more"
-[2104] radio "No, it's not made for kids"
-[2023] button "Age restriction (advanced)"
-[2177] button "Show advanced settings"
-[2237] link "https://youtube.com/shorts/OfABahM4mf0"
-[2240] button "Copy video link"
+[2026-07-05 10:43:05] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:05] [EXIT] 0
+[2026-07-05 10:43:05] [OUT] ---
+[2157] tab "Details" (selected)
+[2168] tab "Video elements"
+[2179] tab "Checks"
+[2190] tab "Visibility"
+[1964] button "Reuse details"
+[2292] textbox "Add a title that describes your video (type @ to mention a channel)" value="46" (required)
+[2473] button "Add all"
+[2384] button "Options"
+[2752] button "Personalized suggestion illustration #dinner"
+[2762] button "Personalized suggestion illustration #comfortfood"
+[2772] button "Personalized suggestion illustration #pizza"
+[2020] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2236] link "Learn more about playlists"
+[2242] button "Select playlists"
+[2246] button "Select"
+[2066] link "What's content made for kids?"
+[2073] link "Learn more about video's audience settings"
+[2076] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2080] link "Learn more"
+[2081] radio "No, it's not made for kids"
+[2007] button "Age restriction (advanced)"
+[2154] button "Show advanced settings"
+[2214] link "https://youtube.com/shorts/8oaNbxsI87Y"
+[2217] button "Copy video link"
 [1611] button "Next"
 [547] clickable "Inspiration
         
@@ -280,44 +280,44 @@ Set 1 file(s) on [1553]
 
   "
 [831] clickable "Select all"
-[2425] clickable "The following suggestions were automatically generated based on your existing content. You can add
+[2387] clickable "The following suggestions were automatically generated based on your existing content. You can add
   and edit them to help viewers discover, understand, and engage with your content."
-[2098] clickable "Yes, it's made for kids.
+[2075] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-07-01 22:10:16] [OUT] ---
-[2026-07-01 22:10:16] [INFO] Video uploaded and Details screen reached
-[2026-07-01 22:10:17] [INFO] ========================================
-[2026-07-01 22:10:17] [INFO]   Phase 4: Fill Details
-[2026-07-01 22:10:17] [INFO] ========================================
-[2026-07-01 22:10:17] [INFO] Finding Title field...
+[2026-07-05 10:43:05] [OUT] ---
+[2026-07-05 10:43:05] [INFO] Video uploaded and Details screen reached
+[2026-07-05 10:43:05] [INFO] ========================================
+[2026-07-05 10:43:05] [INFO]   Phase 4: Fill Details
+[2026-07-05 10:43:05] [INFO] ========================================
+[2026-07-05 10:43:05] [INFO] Finding Title field...
 
-[2026-07-01 22:10:17] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:17] [EXIT] 0
-[2026-07-01 22:10:17] [OUT] ---
-[2180] tab "Details" (selected)
-[2191] tab "Video elements"
-[2202] tab "Checks"
-[2213] tab "Visibility"
-[1980] button "Reuse details"
-[2330] textbox "Add a title that describes your video (type @ to mention a channel)" value="45" (required)
-[2487] button "Add all"
-[2422] button "Options"
-[2751] button "Personalized suggestion illustration #dinner"
-[2761] button "Personalized suggestion illustration #comfortfood"
-[2771] button "Personalized suggestion illustration #pizza"
-[2036] textbox "Tell viewers about your video (type @ to mention a channel)"
-[2259] link "Learn more about playlists"
-[2265] button "Select playlists"
-[2269] button "Select"
-[2089] link "What's content made for kids?"
-[2096] link "Learn more about video's audience settings"
-[2099] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2103] link "Learn more"
-[2104] radio "No, it's not made for kids"
-[2023] button "Age restriction (advanced)"
-[2177] button "Show advanced settings"
-[2237] link "https://youtube.com/shorts/OfABahM4mf0"
-[2240] button "Copy video link"
+[2026-07-05 10:43:07] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:07] [EXIT] 0
+[2026-07-05 10:43:07] [OUT] ---
+[2157] tab "Details" (selected)
+[2168] tab "Video elements"
+[2179] tab "Checks"
+[2190] tab "Visibility"
+[1964] button "Reuse details"
+[2292] textbox "Add a title that describes your video (type @ to mention a channel)" value="46" (required)
+[2473] button "Add all"
+[2384] button "Options"
+[2752] button "Personalized suggestion illustration #dinner"
+[2762] button "Personalized suggestion illustration #comfortfood"
+[2772] button "Personalized suggestion illustration #pizza"
+[2020] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2236] link "Learn more about playlists"
+[2242] button "Select playlists"
+[2246] button "Select"
+[2066] link "What's content made for kids?"
+[2073] link "Learn more about video's audience settings"
+[2076] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2080] link "Learn more"
+[2081] radio "No, it's not made for kids"
+[2007] button "Age restriction (advanced)"
+[2154] button "Show advanced settings"
+[2214] link "https://youtube.com/shorts/8oaNbxsI87Y"
+[2217] button "Copy video link"
 [1611] button "Next"
 [547] clickable "Inspiration
         
@@ -340,47 +340,47 @@ Set 1 file(s) on [1553]
 
   "
 [831] clickable "Select all"
-[2425] clickable "The following suggestions were automatically generated based on your existing content. You can add
+[2387] clickable "The following suggestions were automatically generated based on your existing content. You can add
   and edit them to help viewers discover, understand, and engage with your content."
-[2098] clickable "Yes, it's made for kids.
+[2075] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-07-01 22:10:17] [OUT] ---
-[2026-07-01 22:10:17] [INFO] Filling Title...
+[2026-07-05 10:43:07] [OUT] ---
+[2026-07-05 10:43:07] [INFO] Filling Title...
 
-[2026-07-01 22:10:19] [CMD] browseros-cli fill -p 5 2330 🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪
-[2026-07-01 22:10:19] [EXIT] 0
-[2026-07-01 22:10:19] [OUT] ---
-Typed 42 characters into [2330] at (472, 228)
-[2026-07-01 22:10:19] [OUT] ---
-[2026-07-01 22:10:21] [INFO] Finding Description field...
+[2026-07-05 10:43:09] [CMD] browseros-cli fill -p 5 2292 🌯 The Ultimate Sunrise Breakfast Burrito 🌯
+[2026-07-05 10:43:09] [EXIT] 0
+[2026-07-05 10:43:09] [OUT] ---
+Typed 44 characters into [2292] at (472, 228)
+[2026-07-05 10:43:09] [OUT] ---
+[2026-07-05 10:43:11] [INFO] Finding Description field...
 
-[2026-07-01 22:10:22] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:22] [EXIT] 0
-[2026-07-01 22:10:22] [OUT] ---
-[2180] tab "Details" (selected)
-[2191] tab "Video elements"
-[2202] tab "Checks"
-[2213] tab "Visibility"
-[1980] button "Reuse details"
-[2330] textbox "Add a title that describes your video (type @ to mention a channel)" value="🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪" (required)
-[2487] button "Add all"
-[2422] button "Options"
-[2751] button "Personalized suggestion illustration #dinner"
-[2761] button "Personalized suggestion illustration #comfortfood"
-[2771] button "Personalized suggestion illustration #pizza"
-[2036] textbox "Tell viewers about your video (type @ to mention a channel)"
-[2259] link "Learn more about playlists"
-[2265] button "Select playlists"
-[2269] button "Select"
-[2089] link "What's content made for kids?"
-[2096] link "Learn more about video's audience settings"
-[2099] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2103] link "Learn more"
-[2104] radio "No, it's not made for kids"
-[2023] button "Age restriction (advanced)"
-[2177] button "Show advanced settings"
-[2237] link "https://youtube.com/shorts/OfABahM4mf0"
-[2240] button "Copy video link"
+[2026-07-05 10:43:11] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:11] [EXIT] 0
+[2026-07-05 10:43:11] [OUT] ---
+[2157] tab "Details" (selected)
+[2168] tab "Video elements"
+[2179] tab "Checks"
+[2190] tab "Visibility"
+[1964] button "Reuse details"
+[2292] textbox "Add a title that describes your video (type @ to mention a channel)" value="🌯 The Ultimate Sunrise Breakfast Burrito 🌯" (required)
+[2473] button "Add all"
+[2384] button "Options"
+[2752] button "Personalized suggestion illustration #dinner"
+[2762] button "Personalized suggestion illustration #comfortfood"
+[2772] button "Personalized suggestion illustration #pizza"
+[2020] textbox "Tell viewers about your video (type @ to mention a channel)"
+[2236] link "Learn more about playlists"
+[2242] button "Select playlists"
+[2246] button "Select"
+[2066] link "What's content made for kids?"
+[2073] link "Learn more about video's audience settings"
+[2076] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2080] link "Learn more"
+[2081] radio "No, it's not made for kids"
+[2007] button "Age restriction (advanced)"
+[2154] button "Show advanced settings"
+[2214] link "https://youtube.com/shorts/8oaNbxsI87Y"
+[2217] button "Copy video link"
 [1611] button "Next"
 [547] clickable "Inspiration
         
@@ -403,52 +403,52 @@ Typed 42 characters into [2330] at (472, 228)
 
   "
 [831] clickable "Select all"
-[2425] clickable "The following suggestions were automatically generated based on your existing content. You can add
+[2387] clickable "The following suggestions were automatically generated based on your existing content. You can add
   and edit them to help viewers discover, understand, and engage with your content."
-[2098] clickable "Yes, it's made for kids.
+[2075] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-07-01 22:10:22] [OUT] ---
-[2026-07-01 22:10:22] [INFO] Filling Description...
+[2026-07-05 10:43:11] [OUT] ---
+[2026-07-05 10:43:12] [INFO] Filling Description...
 
-[2026-07-01 22:10:27] [CMD] browseros-cli fill -p 5 2036 Recipe: 
-Ingredients: 🐷 5 lb pork shoulder (boston butt), 1/2 cup BBQ rub, 🍅 1 cup tangy vinegar BBQ sauce, 🥗 1 cup creamy coleslaw, and 4 large potato buns. 
-Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120°C) for 8-10 hours until the internal temp is 200°F. 🔥 Wrap in foil for the last 2 hours. ⏲️ Let the meat rest for 1 hour, then shred with two forks. 🍳 Toss with BBQ sauce. 🔪 Pile high on toasted potato buns and top with cold, crunchy coleslaw.
-#pulledpork #bbq #sandwich #slowcooker #dinner #comfortfood #barbecue #pork 🌮🍱
-[2026-07-01 22:10:27] [EXIT] 0
-[2026-07-01 22:10:27] [OUT] ---
-Typed 561 characters into [2036] at (472, 490)
-[2026-07-01 22:10:27] [OUT] ---
-[2026-07-01 22:10:29] [INFO] Selecting 'Not made for kids'...
+[2026-07-05 10:43:17] [CMD] browseros-cli fill -p 5 2020 Recipe: 
+Ingredients: 🫓 1 large flour tortilla, 🥚 3 scrambled eggs, 🌶️ 1/2 cup spicy chorizo, 🥔 1/2 cup crispy hash browns, 🧀 1/4 cup shredded cheddar, and fresh salsa roja. 
+Steps: 👨‍🍳 Fry the chorizo and hash browns until crispy. 🥣 Scramble the eggs in the same pan to pick up the flavor. 🔥 Warm the tortilla, then layer the eggs, meat, potatoes, and cheese. ⏲️ Fold in the sides and roll tightly. 🍳 Place the burrito back in the pan for 1 minute per side to melt the cheese and crisp the shell.
+#breakfastburrito #eggs #morning #mexicanfood #comfortfood #dinnerideas #breakfast #brunch #spicy 🌮🍱
+[2026-07-05 10:43:17] [EXIT] 0
+[2026-07-05 10:43:17] [OUT] ---
+Typed 610 characters into [2020] at (472, 490)
+[2026-07-05 10:43:17] [OUT] ---
+[2026-07-05 10:43:19] [INFO] Selecting 'Not made for kids'...
 
-[2026-07-01 22:10:30] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:30] [EXIT] 0
-[2026-07-01 22:10:30] [OUT] ---
+[2026-07-05 10:43:20] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:20] [EXIT] 0
+[2026-07-05 10:43:20] [OUT] ---
 [966] button "Sort by Views"
 [1503] button "Send Feedback"
 [1515] button "Close"
-[2180] tab "Details" (selected)
-[2191] tab "Video elements"
-[2202] tab "Checks"
-[2213] tab "Visibility"
-[1980] button "Reuse details"
-[2330] textbox "Add a title that describes your video (type @ to mention a channel)" value="🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪" (required)
-[2036] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
-Ingredients: 🐷 5 lb pork shoulder (boston butt), 1/2 cup BBQ rub, 🍅 1 cup tangy vinegar BBQ sauce, 🥗 1 cup creamy coleslaw, and 4 large potato buns. 
-Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120°C) for 8-10 hours until the internal temp is 200°F. 🔥 Wrap in foil for the last 2 hours. ⏲️ Let the meat rest for 1 hour, then shred with two forks. 🍳 Toss with BBQ sauce. 🔪 Pile high on toasted potato buns and top with cold, crunchy coleslaw.
-#pulledpork #bbq #sandwich #slowcooker #dinner #comfortfood #barbecue #pork 🌮🍱
+[2157] tab "Details" (selected)
+[2168] tab "Video elements"
+[2179] tab "Checks"
+[2190] tab "Visibility"
+[1964] button "Reuse details"
+[2292] textbox "Add a title that describes your video (type @ to mention a channel)" value="🌯 The Ultimate Sunrise Breakfast Burrito 🌯" (required)
+[2020] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
+Ingredients: 🫓 1 large flour tortilla, 🥚 3 scrambled eggs, 🌶️ 1/2 cup spicy chorizo, 🥔 1/2 cup crispy hash browns, 🧀 1/4 cup shredded cheddar, and fresh salsa roja. 
+Steps: 👨‍🍳 Fry the chorizo and hash browns until crispy. 🥣 Scramble the eggs in the same pan to pick up the flavor. 🔥 Warm the tortilla, then layer the eggs, meat, potatoes, and cheese. ⏲️ Fold in the sides and roll tightly. 🍳 Place the burrito back in the pan for 1 minute per side to melt the cheese and crisp the shell.
+#breakfastburrito #eggs #morning #mexicanfood #comfortfood #dinnerideas #breakfast #brunch #spicy 🌮🍱
 "
-[2259] link "Learn more about playlists"
-[2265] button "Select playlists"
-[2269] button "Select"
-[2089] link "What's content made for kids?"
-[2096] link "Learn more about video's audience settings"
-[2099] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2103] link "Learn more"
-[2104] radio "No, it's not made for kids"
-[2023] button "Age restriction (advanced)"
-[2177] button "Show advanced settings"
-[2237] link "https://youtube.com/shorts/OfABahM4mf0"
-[2240] button "Copy video link"
+[2236] link "Learn more about playlists"
+[2242] button "Select playlists"
+[2246] button "Select"
+[2066] link "What's content made for kids?"
+[2073] link "Learn more about video's audience settings"
+[2076] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2080] link "Learn more"
+[2081] radio "No, it's not made for kids"
+[2007] button "Age restriction (advanced)"
+[2154] button "Show advanced settings"
+[2214] link "https://youtube.com/shorts/8oaNbxsI87Y"
+[2217] button "Copy video link"
 [1611] button "Next"
 [547] clickable "Inspiration
         
@@ -471,49 +471,49 @@ Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120
 
   "
 [831] clickable "Select all"
-[2098] clickable "Yes, it's made for kids.
+[2075] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-07-01 22:10:30] [OUT] ---
+[2026-07-05 10:43:20] [OUT] ---
 
-[2026-07-01 22:10:31] [CMD] browseros-cli click -p 5 2104
-[2026-07-01 22:10:31] [EXIT] 0
-[2026-07-01 22:10:31] [OUT] ---
-Clicked [2104] at (309, 422)
-[2026-07-01 22:10:31] [OUT] ---
-[2026-07-01 22:10:31] [INFO] Selected 'Not made for kids'
-[2026-07-01 22:10:33] [INFO] ========================================
-[2026-07-01 22:10:33] [INFO]   Phase 5: Navigate to Visibility Screen
-[2026-07-01 22:10:33] [INFO] ========================================
+[2026-07-05 10:43:21] [CMD] browseros-cli click -p 5 2081
+[2026-07-05 10:43:21] [EXIT] 0
+[2026-07-05 10:43:21] [OUT] ---
+Clicked [2081] at (309, 422)
+[2026-07-05 10:43:21] [OUT] ---
+[2026-07-05 10:43:21] [INFO] Selected 'Not made for kids'
+[2026-07-05 10:43:23] [INFO] ========================================
+[2026-07-05 10:43:23] [INFO]   Phase 5: Navigate to Visibility Screen
+[2026-07-05 10:43:23] [INFO] ========================================
 
-[2026-07-01 22:10:34] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:34] [EXIT] 0
-[2026-07-01 22:10:34] [OUT] ---
+[2026-07-05 10:43:24] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:24] [EXIT] 0
+[2026-07-05 10:43:24] [OUT] ---
 [966] button "Sort by Views"
 [1503] button "Send Feedback"
 [1515] button "Close"
-[2180] tab "Details" (selected)
-[2191] tab "Video elements"
-[2202] tab "Checks"
-[2213] tab "Visibility"
-[1980] button "Reuse details"
-[2330] textbox "Add a title that describes your video (type @ to mention a channel)" value="🐷 Slow-Smoked BBQ Pulled Pork Sandwich 🥪" (required)
-[2036] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
-Ingredients: 🐷 5 lb pork shoulder (boston butt), 1/2 cup BBQ rub, 🍅 1 cup tangy vinegar BBQ sauce, 🥗 1 cup creamy coleslaw, and 4 large potato buns. 
-Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120°C) for 8-10 hours until the internal temp is 200°F. 🔥 Wrap in foil for the last 2 hours. ⏲️ Let the meat rest for 1 hour, then shred with two forks. 🍳 Toss with BBQ sauce. 🔪 Pile high on toasted potato buns and top with cold, crunchy coleslaw.
-#pulledpork #bbq #sandwich #slowcooker #dinner #comfortfood #barbecue #pork 🌮🍱
+[2157] tab "Details" (selected)
+[2168] tab "Video elements"
+[2179] tab "Checks"
+[2190] tab "Visibility"
+[1964] button "Reuse details"
+[2292] textbox "Add a title that describes your video (type @ to mention a channel)" value="🌯 The Ultimate Sunrise Breakfast Burrito 🌯" (required)
+[2020] textbox "Tell viewers about your video (type @ to mention a channel)" value="Recipe: 
+Ingredients: 🫓 1 large flour tortilla, 🥚 3 scrambled eggs, 🌶️ 1/2 cup spicy chorizo, 🥔 1/2 cup crispy hash browns, 🧀 1/4 cup shredded cheddar, and fresh salsa roja. 
+Steps: 👨‍🍳 Fry the chorizo and hash browns until crispy. 🥣 Scramble the eggs in the same pan to pick up the flavor. 🔥 Warm the tortilla, then layer the eggs, meat, potatoes, and cheese. ⏲️ Fold in the sides and roll tightly. 🍳 Place the burrito back in the pan for 1 minute per side to melt the cheese and crisp the shell.
+#breakfastburrito #eggs #morning #mexicanfood #comfortfood #dinnerideas #breakfast #brunch #spicy 🌮🍱
 "
-[2259] link "Learn more about playlists"
-[2265] button "Select playlists"
-[2269] button "Select"
-[2089] link "What's content made for kids?"
-[2096] link "Learn more about video's audience settings"
-[2099] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
-[2103] link "Learn more"
-[2104] radio "No, it's not made for kids"
-[2023] button "Age restriction (advanced)"
-[2177] button "Show advanced settings"
-[2237] link "https://youtube.com/shorts/OfABahM4mf0"
-[2240] button "Copy video link"
+[2236] link "Learn more about playlists"
+[2242] button "Select playlists"
+[2246] button "Select"
+[2066] link "What's content made for kids?"
+[2073] link "Learn more about video's audience settings"
+[2076] radio "Yes, it's made for kids . Features like personalized ads and notifications won’t be available on videos made for kids. Videos that are set as made for kids by you are more likely to be recommended alongside other kids’ videos. Learn more"
+[2080] link "Learn more"
+[2081] radio "No, it's not made for kids"
+[2007] button "Age restriction (advanced)"
+[2154] button "Show advanced settings"
+[2214] link "https://youtube.com/shorts/8oaNbxsI87Y"
+[2217] button "Copy video link"
 [1611] button "Next"
 [547] clickable "Inspiration
         
@@ -536,20 +536,20 @@ Steps: 👨‍🍳 Rub the pork and let sit overnight. 🥣 Smoke at 250°F (120
 
   "
 [831] clickable "Select all"
-[2098] clickable "Yes, it's made for kids.
+[2075] clickable "Yes, it's made for kids.
           Features like personalized ads and notifications won’t be availab"
-[2026-07-01 22:10:34] [OUT] ---
-[2026-07-01 22:10:34] [INFO] Clicking Next (1/3)...
+[2026-07-05 10:43:24] [OUT] ---
+[2026-07-05 10:43:24] [INFO] Clicking Next (1/3)...
 
-[2026-07-01 22:10:35] [CMD] browseros-cli click -p 5 1611
-[2026-07-01 22:10:35] [EXIT] 0
-[2026-07-01 22:10:35] [OUT] ---
+[2026-07-05 10:43:26] [CMD] browseros-cli click -p 5 1611
+[2026-07-05 10:43:26] [EXIT] 0
+[2026-07-05 10:43:26] [OUT] ---
 Clicked [1611] at (1061, 655)
-[2026-07-01 22:10:35] [OUT] ---
+[2026-07-05 10:43:26] [OUT] ---
 
-[2026-07-01 22:10:39] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:39] [EXIT] 0
-[2026-07-01 22:10:39] [OUT] ---
+[2026-07-05 10:43:30] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:30] [EXIT] 0
+[2026-07-05 10:43:30] [OUT] ---
 [480] menuitem "Audio library"
 [505] button "Settings"
 [518] button "Send feedback"
@@ -564,19 +564,19 @@ Clicked [1611] at (1061, 655)
 [592] tab "Collaborations "
 [639] button "Check it out"
 [652] button "Dismiss"
-[7] textbox "Filter"
+[6] textbox "Filter"
 [836] checkbox "Select all"
 [932] button "Sort by Date"
 [966] button "Sort by Views"
 [1503] button "Send Feedback"
 [1515] button "Close"
-[2180] tab "Details"
-[2191] tab "Video elements" (selected)
-[2202] tab "Checks"
-[2213] tab "Visibility"
-[10648] link "Learn more"
-[10885] button "Add"
-[10691] button "Add" (disabled)
+[2157] tab "Details"
+[2168] tab "Video elements" (selected)
+[2179] tab "Checks"
+[2190] tab "Visibility"
+[11415] link "Learn more"
+[11652] button "Add"
+[11458] button "Add" (disabled)
 [1604] button "Back"
 [1611] button "Next"
 [547] clickable "Inspiration
@@ -600,11 +600,11 @@ Clicked [1611] at (1061, 655)
 
   "
 [831] clickable "Select all"
-[2026-07-01 22:10:39] [OUT] ---
+[2026-07-05 10:43:30] [OUT] ---
 
-[2026-07-01 22:10:40] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:40] [EXIT] 0
-[2026-07-01 22:10:40] [OUT] ---
+[2026-07-05 10:43:32] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:32] [EXIT] 0
+[2026-07-05 10:43:32] [OUT] ---
 [480] menuitem "Audio library"
 [505] button "Settings"
 [518] button "Send feedback"
@@ -619,19 +619,19 @@ Clicked [1611] at (1061, 655)
 [592] tab "Collaborations "
 [639] button "Check it out"
 [652] button "Dismiss"
-[7] textbox "Filter"
+[6] textbox "Filter"
 [836] checkbox "Select all"
 [932] button "Sort by Date"
 [966] button "Sort by Views"
 [1503] button "Send Feedback"
 [1515] button "Close"
-[2180] tab "Details"
-[2191] tab "Video elements" (selected)
-[2202] tab "Checks"
-[2213] tab "Visibility"
-[10648] link "Learn more"
-[10885] button "Add"
-[10691] button "Add" (disabled)
+[2157] tab "Details"
+[2168] tab "Video elements" (selected)
+[2179] tab "Checks"
+[2190] tab "Visibility"
+[11415] link "Learn more"
+[11652] button "Add"
+[11458] button "Add" (disabled)
 [1604] button "Back"
 [1611] button "Next"
 [547] clickable "Inspiration
@@ -655,18 +655,18 @@ Clicked [1611] at (1061, 655)
 
   "
 [831] clickable "Select all"
-[2026-07-01 22:10:40] [OUT] ---
-[2026-07-01 22:10:40] [INFO] Clicking Next (2/3)...
+[2026-07-05 10:43:32] [OUT] ---
+[2026-07-05 10:43:32] [INFO] Clicking Next (2/3)...
 
-[2026-07-01 22:10:42] [CMD] browseros-cli click -p 5 1611
-[2026-07-01 22:10:42] [EXIT] 0
-[2026-07-01 22:10:42] [OUT] ---
+[2026-07-05 10:43:33] [CMD] browseros-cli click -p 5 1611
+[2026-07-05 10:43:33] [EXIT] 0
+[2026-07-05 10:43:33] [OUT] ---
 Clicked [1611] at (1061, 655)
-[2026-07-01 22:10:42] [OUT] ---
+[2026-07-05 10:43:33] [OUT] ---
 
-[2026-07-01 22:10:45] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:45] [EXIT] 0
-[2026-07-01 22:10:45] [OUT] ---
+[2026-07-05 10:43:37] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:37] [EXIT] 0
+[2026-07-05 10:43:37] [OUT] ---
 [518] button "Send feedback"
 [566] tab "Inspiration "
 [569] tab "Videos " (selected)
@@ -679,19 +679,19 @@ Clicked [1611] at (1061, 655)
 [592] tab "Collaborations "
 [639] button "Check it out"
 [652] button "Dismiss"
-[7] textbox "Filter"
+[6] textbox "Filter"
 [836] checkbox "Select all"
 [932] button "Sort by Date"
 [966] button "Sort by Views"
 [1503] button "Send Feedback"
 [1515] button "Close"
-[2180] tab "Details"
-[2191] tab "Video elements"
-[2202] tab "Checks" (selected)
-[2213] tab "Visibility"
-[11036] link "Learn more"
-[11081] link "Learn more"
-[11048] button "Send feedback"
+[2157] tab "Details"
+[2168] tab "Video elements"
+[2179] tab "Checks" (selected)
+[2190] tab "Visibility"
+[11834] link "Learn more"
+[11878] link "Learn more"
+[11846] button "Send feedback"
 [1604] button "Back"
 [1611] button "Next"
 [547] clickable "Inspiration
@@ -715,13 +715,13 @@ Clicked [1611] at (1061, 655)
 
   "
 [831] clickable "Select all"
-[11047] clickable "Send feedback"
-[11049] clickable "Send feedback"
-[2026-07-01 22:10:45] [OUT] ---
+[11845] clickable "Send feedback"
+[11847] clickable "Send feedback"
+[2026-07-05 10:43:37] [OUT] ---
 
-[2026-07-01 22:10:46] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:46] [EXIT] 0
-[2026-07-01 22:10:46] [OUT] ---
+[2026-07-05 10:43:38] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:38] [EXIT] 0
+[2026-07-05 10:43:38] [OUT] ---
 [518] button "Send feedback"
 [566] tab "Inspiration "
 [569] tab "Videos " (selected)
@@ -734,19 +734,19 @@ Clicked [1611] at (1061, 655)
 [592] tab "Collaborations "
 [639] button "Check it out"
 [652] button "Dismiss"
-[7] textbox "Filter"
+[6] textbox "Filter"
 [836] checkbox "Select all"
 [932] button "Sort by Date"
 [966] button "Sort by Views"
 [1503] button "Send Feedback"
 [1515] button "Close"
-[2180] tab "Details"
-[2191] tab "Video elements"
-[2202] tab "Checks" (selected)
-[2213] tab "Visibility"
-[11036] link "Learn more"
-[11081] link "Learn more"
-[11048] button "Send feedback"
+[2157] tab "Details"
+[2168] tab "Video elements"
+[2179] tab "Checks" (selected)
+[2190] tab "Visibility"
+[11834] link "Learn more"
+[11878] link "Learn more"
+[11846] button "Send feedback"
 [1604] button "Back"
 [1611] button "Next"
 [547] clickable "Inspiration
@@ -770,32 +770,32 @@ Clicked [1611] at (1061, 655)
 
   "
 [831] clickable "Select all"
-[11047] clickable "Send feedback"
-[11049] clickable "Send feedback"
-[2026-07-01 22:10:46] [OUT] ---
-[2026-07-01 22:10:46] [INFO] Clicking Next (3/3)...
+[11845] clickable "Send feedback"
+[11847] clickable "Send feedback"
+[2026-07-05 10:43:38] [OUT] ---
+[2026-07-05 10:43:38] [INFO] Clicking Next (3/3)...
 
-[2026-07-01 22:10:48] [CMD] browseros-cli click -p 5 1611
-[2026-07-01 22:10:48] [EXIT] 0
-[2026-07-01 22:10:48] [OUT] ---
+[2026-07-05 10:43:39] [CMD] browseros-cli click -p 5 1611
+[2026-07-05 10:43:39] [EXIT] 0
+[2026-07-05 10:43:39] [OUT] ---
 Clicked [1611] at (1061, 655)
-[2026-07-01 22:10:48] [OUT] ---
+[2026-07-05 10:43:39] [OUT] ---
 
-[2026-07-01 22:10:52] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:52] [EXIT] 0
-[2026-07-01 22:10:52] [OUT] ---
-[11522] radio "Unlisted"
-[11531] radio "Public"
-[11239] button "Click to expand"
-[11174] link "Learn more"
-[11179] link "Learn more"
-[11465] button "Play"
-[11468] button "Mute"
-[11294] slider "volume"
-[11472] button "Settings"
-[11497] button "Full screen"
-[11207] link "https://youtube.com/shorts/OfABahM4mf0"
-[11210] button "Copy video link"
+[2026-07-05 10:43:44] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:44] [EXIT] 0
+[2026-07-05 10:43:44] [OUT] ---
+[12287] radio "Unlisted"
+[12296] radio "Public"
+[12000] button "Click to expand"
+[11935] link "Learn more"
+[11940] link "Learn more"
+[12230] button "Play"
+[12233] button "Mute"
+[12055] slider "volume"
+[12237] button "Settings"
+[12262] button "Full screen"
+[11968] link "https://youtube.com/shorts/8oaNbxsI87Y"
+[11971] button "Copy video link"
 [1604] button "Back"
 [1618] button "Save"
 [547] clickable "Inspiration
@@ -819,14 +819,14 @@ Clicked [1611] at (1061, 655)
 
   "
 [831] clickable "Select all"
-[11250] clickable "Private
+[12011] clickable "Private
           
 
           
           
             
               Only you and people you choose "
-[11233] clickable "Schedule
+[11994] clickable "Schedule
       
         
           Select a date to make your video public.
@@ -834,28 +834,28 @@ Clicked [1611] at (1061, 655)
       
       
  "
-[2026-07-01 22:10:52] [OUT] ---
-[2026-07-01 22:10:52] [INFO] Reached Visibility screen
-[2026-07-01 22:10:52] [INFO] ========================================
-[2026-07-01 22:10:52] [INFO]   Phase 6: Select Public Visibility
-[2026-07-01 22:10:52] [INFO] ========================================
-[2026-07-01 22:10:52] [INFO] Selecting 'Public' radio button...
+[2026-07-05 10:43:44] [OUT] ---
+[2026-07-05 10:43:44] [INFO] Reached Visibility screen
+[2026-07-05 10:43:44] [INFO] ========================================
+[2026-07-05 10:43:44] [INFO]   Phase 6: Select Public Visibility
+[2026-07-05 10:43:44] [INFO] ========================================
+[2026-07-05 10:43:44] [INFO] Selecting 'Public' radio button...
 
-[2026-07-01 22:10:53] [CMD] browseros-cli snap -p 5
-[2026-07-01 22:10:53] [EXIT] 0
-[2026-07-01 22:10:53] [OUT] ---
-[11522] radio "Unlisted"
-[11531] radio "Public"
-[11239] button "Click to expand"
-[11174] link "Learn more"
-[11179] link "Learn more"
-[11465] button "Play"
-[11468] button "Mute"
-[11294] slider "volume"
-[11472] button "Settings"
-[11497] button "Full screen"
-[11207] link "https://youtube.com/shorts/OfABahM4mf0"
-[11210] button "Copy video link"
+[2026-07-05 10:43:45] [CMD] browseros-cli snap -p 5
+[2026-07-05 10:43:45] [EXIT] 0
+[2026-07-05 10:43:45] [OUT] ---
+[12287] radio "Unlisted"
+[12296] radio "Public"
+[12000] button "Click to expand"
+[11935] link "Learn more"
+[11940] link "Learn more"
+[12230] button "Play"
+[12233] button "Mute"
+[12055] slider "volume"
+[12237] button "Settings"
+[12262] button "Full screen"
+[11968] link "https://youtube.com/shorts/8oaNbxsI87Y"
+[11971] button "Copy video link"
 [1604] button "Back"
 [1618] button "Save"
 [547] clickable "Inspiration
@@ -879,14 +879,14 @@ Clicked [1611] at (1061, 655)
 
   "
 [831] clickable "Select all"
-[11250] clickable "Private
+[12011] clickable "Private
           
 
           
           
             
               Only you and people you choose "
-[11233] clickable "Schedule
+[11994] clickable "Schedule
       
         
           Select a date to make your video public.
@@ -894,47 +894,47 @@ Clicked [1611] at (1061, 655)
       
       
  "
-[2026-07-01 22:10:53] [OUT] ---
+[2026-07-05 10:43:45] [OUT] ---
 
-[2026-07-01 22:10:54] [CMD] browseros-cli click -p 5 11531
-[2026-07-01 22:10:54] [EXIT] 0
-[2026-07-01 22:10:54] [OUT] ---
-Clicked [11531] at (293, 479)
-[2026-07-01 22:10:54] [OUT] ---
-[2026-07-01 22:10:56] [INFO] ========================================
-[2026-07-01 22:10:56] [INFO]   Phase 7: Manual Review / Publish
-[2026-07-01 22:10:56] [INFO] ========================================
-[2026-07-01 22:10:56] [INFO] 
-[2026-07-01 22:10:56] [INFO] ============================================
-[2026-07-01 22:10:56] [INFO]   MANUAL REVIEW REQUIRED
-[2026-07-01 22:10:56] [INFO] ============================================
-[2026-07-01 22:10:56] [INFO]   Asset ID: 45
-[2026-07-01 22:10:56] [INFO]   Project:  project-1
-[2026-07-01 22:10:56] [INFO]   Status:   Ready to publish
-[2026-07-01 22:10:56] [INFO] 
-[2026-07-01 22:10:56] [INFO]   Please review the video in the browser.
-[2026-07-01 22:10:56] [INFO]   DO NOT proceed until you manually click
-[2026-07-01 22:10:56] [INFO]   the 'Publish' button and confirm success.
-[2026-07-01 22:10:56] [INFO] ============================================
-[2026-07-01 22:10:56] [INFO] 
-[2026-07-01 22:13:45] [INFO] ========================================
-[2026-07-01 22:13:45] [INFO]   Phase 8: Mark Record as Done
-[2026-07-01 22:13:45] [INFO] ========================================
-[2026-07-01 22:13:45] [INFO] Marking asset 45 as uploaded for youtube...
-[2026-07-01 22:13:46] [DEBUG] Tracker output: {"success": true, "id": "45", "platform": "youtube"}
-[2026-07-01 22:13:46] [INFO] Record 45 marked as uploaded for youtube in project-1/grok_prompts.json
-[2026-07-01 22:13:46] [INFO] ========================================
-[2026-07-01 22:13:46] [INFO]   Phase 9: Close Browser Tab
-[2026-07-01 22:13:46] [INFO] ========================================
+[2026-07-05 10:43:46] [CMD] browseros-cli click -p 5 12296
+[2026-07-05 10:43:46] [EXIT] 0
+[2026-07-05 10:43:46] [OUT] ---
+Clicked [12296] at (293, 479)
+[2026-07-05 10:43:46] [OUT] ---
+[2026-07-05 10:43:48] [INFO] ========================================
+[2026-07-05 10:43:48] [INFO]   Phase 7: Manual Review / Publish
+[2026-07-05 10:43:48] [INFO] ========================================
+[2026-07-05 10:43:48] [INFO] 
+[2026-07-05 10:43:48] [INFO] ============================================
+[2026-07-05 10:43:48] [INFO]   MANUAL REVIEW REQUIRED
+[2026-07-05 10:43:48] [INFO] ============================================
+[2026-07-05 10:43:48] [INFO]   Asset ID: 46
+[2026-07-05 10:43:48] [INFO]   Project:  project-1
+[2026-07-05 10:43:48] [INFO]   Status:   Ready to publish
+[2026-07-05 10:43:48] [INFO] 
+[2026-07-05 10:43:48] [INFO]   Please review the video in the browser.
+[2026-07-05 10:43:48] [INFO]   DO NOT proceed until you manually click
+[2026-07-05 10:43:48] [INFO]   the 'Publish' button and confirm success.
+[2026-07-05 10:43:48] [INFO] ============================================
+[2026-07-05 10:43:48] [INFO] 
+[2026-07-05 10:45:45] [INFO] ========================================
+[2026-07-05 10:45:45] [INFO]   Phase 8: Mark Record as Done
+[2026-07-05 10:45:45] [INFO] ========================================
+[2026-07-05 10:45:45] [INFO] Marking asset 46 as uploaded for youtube...
+[2026-07-05 10:45:45] [DEBUG] Tracker output: {"success": true, "id": "46", "platform": "youtube"}
+[2026-07-05 10:45:45] [INFO] Record 46 marked as uploaded for youtube in project-1/grok_prompts.json
+[2026-07-05 10:45:45] [INFO] ========================================
+[2026-07-05 10:45:45] [INFO]   Phase 9: Close Browser Tab
+[2026-07-05 10:45:45] [INFO] ========================================
 
-[2026-07-01 22:13:47] [CMD] browseros-cli close -p 5
-[2026-07-01 22:13:47] [EXIT] 0
-[2026-07-01 22:13:47] [OUT] ---
+[2026-07-05 10:45:46] [CMD] browseros-cli close -p 5
+[2026-07-05 10:45:46] [EXIT] 0
+[2026-07-05 10:45:46] [OUT] ---
 Closed page 5
-[2026-07-01 22:13:47] [OUT] ---
-[2026-07-01 22:13:47] [INFO] Browser tab closed
-[2026-07-01 22:13:47] [INFO] ========================================
-[2026-07-01 22:13:47] [INFO]   Complete
-[2026-07-01 22:13:47] [INFO] ========================================
-[2026-07-01 22:13:47] [INFO] YouTube upload workflow finished for project-1
-[2026-07-01 22:13:47] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
+[2026-07-05 10:45:46] [OUT] ---
+[2026-07-05 10:45:46] [INFO] Browser tab closed
+[2026-07-05 10:45:46] [INFO] ========================================
+[2026-07-05 10:45:46] [INFO]   Complete
+[2026-07-05 10:45:46] [INFO] ========================================
+[2026-07-05 10:45:46] [INFO] YouTube upload workflow finished for project-1
+[2026-07-05 10:45:46] [INFO] Log file: /Users/dsen/Projects/ai-post-maker/logs/youtube_upload.log
